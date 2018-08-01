@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html5 on My New Hugo Site</title>
+    <link>http://example.org/tags/html5/</link>
+    <description>Recent content in Html5 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jul 2012 16:26:19 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTML5 Forms OF DOOM</title>
+      <link>http://example.org/posts/html5-forms-of-doom/</link>
+      <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
+      
+      <guid>http://example.org/posts/html5-forms-of-doom/</guid>
+      <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
+ ** [HTML5 Forms OF DOOM](https://www.slideshare.net/stephaniehobson/html5-forms-of-doom &#34;HTML5 Forms OF DOOM&#34;) ** from **[stephaniehobson](http://www.slideshare.net/stephaniehobson)**  Download the slides.
+Sample form.
+Finished form (no peeking).
+Resources Basic Introductions
+ Dive Into HTML5: A Form of Madness Have a Field Day with HTML5 Forms Making Forms Fabulous with HTML5 Forward Thinking Form Validation CSS</description>
+    </item>
+    
+    <item>
+      <title>A style tag counts as a :first-child</title>
+      <link>http://example.org/posts/style-element-counts-as-a-first-child/</link>
+      <pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate>
+      
+      <guid>http://example.org/posts/style-element-counts-as-a-first-child/</guid>
+      <description>EDIT 2011-09-15: All of this applies to &amp;lt;script&amp;gt; in the body as well.
+I have some bad news and a fix (I hesitate to call it good news).
+HTML5 introduces a way for us to include &amp;lt;style&amp;gt; elements on the page, we just need to give them an attribute of scoped. So, for example, if you have an SSI included widget you can include the styles in the widget file instead of trying to devise a way to add them to the head.</description>
+    </item>
+    
+  </channel>
+</rss>

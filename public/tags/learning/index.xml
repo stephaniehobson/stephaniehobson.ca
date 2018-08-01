@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on My New Hugo Site</title>
+    <link>http://example.org/tags/learning/</link>
+    <description>Recent content in Learning on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2008 15:34:30 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two steps forward, one step back</title>
+      <link>http://example.org/posts/two-steps-forward-one-step-back/</link>
+      <pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate>
+      
+      <guid>http://example.org/posts/two-steps-forward-one-step-back/</guid>
+      <description>Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class. She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.
+So I spent 30 minutes talking to them about the basics of user centred design and how the internet works. Then I helped them trouble shoot their table based layouts and font tags.</description>
+    </item>
+    
+    <item>
+      <title>Keeping up.</title>
+      <link>http://example.org/posts/keeping-up/</link>
+      <pubDate>Thu, 21 Feb 2008 20:19:31 +0000</pubDate>
+      
+      <guid>http://example.org/posts/keeping-up/</guid>
+      <description>&amp;ldquo;From your 77 subscriptions, over the last 30 days you read 809 items&amp;hellip;&amp;rdquo;
+ No wonder I don&amp;rsquo;t read any books any more.</description>
+    </item>
+    
+    <item>
+      <title>Finally figure out what my problem is.</title>
+      <link>http://example.org/posts/finally-figure-out-what-my-problem-is/</link>
+      <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
+      
+      <guid>http://example.org/posts/finally-figure-out-what-my-problem-is/</guid>
+      <description>I read John Resig&amp;rsquo;s article Sub-Pixel Problems in CSS a few days ago and found it to very useful information.
+And then today I had an &amp;ldquo;ah-ha&amp;rsquo; moment - this this is why I hate coding flexible horizontal navigation menus.</description>
+    </item>
+    
+    <item>
+      <title>Making the switch</title>
+      <link>http://example.org/posts/making-the-switch/</link>
+      <pubDate>Mon, 30 Jul 2007 23:27:18 +0000</pubDate>
+      
+      <guid>http://example.org/posts/making-the-switch/</guid>
+      <description>Macs have always struck me as more of a religion than an operating system. A family friend and I have a long history of a friendly Mac vs Windows rivalry. He&amp;rsquo;s the Mac evangelist and I was, well, I wasn&amp;rsquo;t a Windows evangelist but I guess I played the part of a disbeliever.
+At some point in 2004 he finally won the argument and I promised my next computer would be a Mac.</description>
+    </item>
+    
+    <item>
+      <title>This time it&#39;s not IE.</title>
+      <link>http://example.org/posts/this-time-its-not-ie/</link>
+      <pubDate>Mon, 28 May 2007 13:14:48 +0000</pubDate>
+      
+      <guid>http://example.org/posts/this-time-its-not-ie/</guid>
+      <description>Wow, FireFox does not play nice with styling legends.
+FireFox, I&amp;rsquo;m not mad, I&amp;rsquo;m just disappointed.</description>
+    </item>
+    
+    <item>
+      <title>Styling Our Style Sheets</title>
+      <link>http://example.org/posts/styling-our-style-sheets/</link>
+      <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
+      
+      <guid>http://example.org/posts/styling-our-style-sheets/</guid>
+      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
+Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
+As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
+    </item>
+    
+    <item>
+      <title>Web Directions North</title>
+      <link>http://example.org/posts/web-directions-north/</link>
+      <pubDate>Wed, 04 Apr 2007 14:11:08 +0000</pubDate>
+      
+      <guid>http://example.org/posts/web-directions-north/</guid>
+      <description>&lt;p&gt;I thought I&amp;rsquo;d post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I&amp;rsquo;ve been wanting to write a more technical and personal review of it but it&amp;rsquo;s pretty clear to me that if I haven&amp;rsquo;t done it by now, I&amp;rsquo;m not going to get around to doing it :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Something new today</title>
+      <link>http://example.org/posts/something-new-today/</link>
+      <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
+      
+      <guid>http://example.org/posts/something-new-today/</guid>
+      <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
+&amp;amp;lt;a href=&amp;quot;http://stephaniehobson.ca/file.php » ?fire=hot&amp;amp;amp;amp;beer=foamy&amp;quot;&amp;amp;gt;link&amp;amp;lt;/a&amp;amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Where am I going with this?</title>
+      <link>http://example.org/posts/where-am-i-going-with-this/</link>
+      <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
+      
+      <guid>http://example.org/posts/where-am-i-going-with-this/</guid>
+      <description>Vivian is such a great motivator. I&amp;rsquo;m still sorry to see her go.
+I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.
+She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.</description>
+    </item>
+    
+    <item>
+      <title>Insecurity</title>
+      <link>http://example.org/posts/insecurity/</link>
+      <pubDate>Thu, 08 Mar 2007 21:21:29 +0000</pubDate>
+      
+      <guid>http://example.org/posts/insecurity/</guid>
+      <description>All I did was copy the cgi file and change the file name and now it&amp;rsquo;s not encrypting the e-mails it sends any more.
+Hm.
+Edit: Yup, the problem was that I changed the name.
+Edit 07-03-26: I&amp;rsquo;ve also discovered that cgi files are not encoded using windows text format so opening them in notepad and saving them again is enough to destroy all functionality.</description>
+    </item>
+    
+    <item>
+      <title>Border Collapse</title>
+      <link>http://example.org/posts/border-collapse/</link>
+      <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
+      
+      <guid>http://example.org/posts/border-collapse/</guid>
+      <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
+I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
+    </item>
+    
+  </channel>
+</rss>

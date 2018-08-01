@@ -1,0 +1,29 @@
+---
+title: 'Accessibility with CSS: Making Websites Better for Everyone'
+id: 631
+comment: false
+categories:
+  - webdesign
+  - slideshare
+date: 2014-05-14 17:20:48
+tags:
+---
+
+Last night I spoke at the [Style & Class Meet-up](http://www.meetup.com/styleandclass/) about Accessibility and CSS. Posting the slides here for posterity:
+
+<div class="slideshare">
+<iframe src="http://www.slideshare.net/slideshow/embed_code/34682651" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<p>**[Accessibility with CSS: Making Websites Better for Everyone](https://www.slideshare.net/stephaniehobson/accessibility-with-css-making-website-better-for-everyone "Accessibility with CSS: Making Websites Better for Everyone")**</p>
+</div>
+
+### Resources
+
+* [Intro to Accessibility](http://webaim.org)
+* [WCAG Validator](http://wave.webaim.org)
+* [Intro to ARIA](http://alistapart.com/article/the-accessibility-of-wai-aria)
+* [:Focus and keyboard accessibility](http://24ways.org/2009/dont-lose-your-focus/)
+* [High contrast CSS Sprites](http://blog.paciellogroup.com/2010/01/high-contrast-proof-css-sprites)
+* [Bullet Proof Accessible Icon Fonts](http://filamentgroup.com/lab/bulletproof_icon_fonts.html)
+* [The Offscreen Class](http://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
+* [Floating Form Labels](http://snook.ca/archives/html_and_css/floated-label-pattern-css)
+* [Javascript fix for Skip Links](http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links)

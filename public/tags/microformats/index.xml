@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microformats on My New Hugo Site</title>
+    <link>http://example.org/tags/microformats/</link>
+    <description>Recent content in Microformats on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2007 14:11:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/microformats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Directions North</title>
+      <link>http://example.org/posts/web-directions-north/</link>
+      <pubDate>Wed, 04 Apr 2007 14:11:08 +0000</pubDate>
+      
+      <guid>http://example.org/posts/web-directions-north/</guid>
+      <description>&lt;p&gt;I thought I&amp;rsquo;d post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I&amp;rsquo;ve been wanting to write a more technical and personal review of it but it&amp;rsquo;s pretty clear to me that if I haven&amp;rsquo;t done it by now, I&amp;rsquo;m not going to get around to doing it :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Striving for excellence</title>
+      <link>http://example.org/posts/striving-for-excellence/</link>
+      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
+      
+      <guid>http://example.org/posts/striving-for-excellence/</guid>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
+    </item>
+    
+  </channel>
+</rss>

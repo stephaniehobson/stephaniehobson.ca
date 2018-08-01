@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How we rebuilt the viewsourceconf.org website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>How we rebuilt the viewsourceconf.org website</h1>
+            
+
+<p><em>This article was originally published on Mozilla’s <a href="https://hacks.mozilla.org/2017/10/how-we-rebuilt-the-viewsourceconf-org-website/">Hacks Blog</a>.</em></p>
+
+<p>As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.</p>
+
+<p>The <a href="http://viewsourceconf.org/">View Source Conference</a> website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</p>
+
+<p>Here are a few highlights of the architectural decisions we made to make the site faster, more secure, and more reliable.</p>
+
+<h3 id="a-static-site">A Static Site</h3>
+
+<p>When a user requests a page from a CMS (content management system) like Wordpress the server puts it together from databases and templates. This takes the server a small amount of time. When a site is built on request like this we call it a &ldquo;dynamic&rdquo; website.</p>
+
+<p>When a user requests a page from a static site the server only has to find and serve one file. It’s faster and takes fewer resources. We used a <a href="https://www.sitepoint.com/7-reasons-use-static-site-generator/">static site generator</a> to generate our files before transferring them to the server.</p>
+
+<p>Static files are also easier to copy than dynamic sites, this means we can copy our static site to different CDNs (content delivery networks) around the world. Getting our content closer to our users is a very effective way to reduce <a href="https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/">latency</a> which is one of the biggest hurdles to delivering a site fast.</p>
+
+<h3 id="offline-first">Offline First</h3>
+
+<p>A <a href="https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers">service worker</a> is JavaScript that runs in a browser but not as part of a page. The most common use for service workers is to watch network requests and respond instead of the server.</p>
+
+<p>I wanted to be sure the conference attendees would have access to the event schedule, even if they didn’t have wifi. So, when a user arrives on the site, browsers that support service workers automatically cache the conference schedule.</p>
+
+<p>If the user returns to the site without a network connection the service worker will reply to the request with the cached schedule.</p>
+
+<p>I am very grateful for the documentation published by <a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom">The Guardian</a>, <a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom">Jeremy Keith</a>, and  others who are already using Service Workers.</p>
+
+<h3 id="mobile-first">Mobile First</h3>
+
+<p>When responsive web design first became the norm, the industry standard was to serve the full desktop site to all browsers with a bunch of extra code telling mobile browsers which pieces to remove to make the simplified mobile version. With the spread of mobile came the  <a href="https://www.lukew.com/ff/entry.asp?1137">Mobile First</a> development approach. Mobile first delivers the content and code for the mobile version of a site first and then the larger more powerful desktop computers do the work of creating a better large screen experience.</p>
+
+<p>The View Source Conf site starts as a minimal mobile-friendly version. Then <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries">media queries in CSS</a> and <a href="https://hacks.mozilla.org/2012/06/using-window-matchmedia-to-do-media-queries-in-javascript/">media queries in JavaScript</a> add more complicated layout instructions for larger screens.</p>
+
+<h3 id="svg">SVG</h3>
+
+<p>I used inline <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>s for the logo and icons. They look crisper on retina screens and, because they’re inline, don’t require any extra assets to download. Inlining also meant that I could <a href="https://css-tricks.com/cascading-svg-fill-color/">change the logo’s colour</a> in our print styles. It was my first time <a href="https://www.sitepoint.com/tips-accessible-svg/">creating accessible SVGs</a>.</p>
+
+<h3 id="no-script">No Script</h3>
+
+<p>All the content and functionality on the View Source site works with JavaScript disabled. Instead of sending shims and polyfills to older browsers to make them handle newer JavaScript features, we support those browsers by telling them not to load the JavaScript at all.</p>
+
+<p>This meant we could write modern JavaScript! It also simplified testing. Less capable browsers just get functional, readable content, with no chance for odd JavaScript errors.</p>
+
+<p>This isn’t a new idea, it’s <a href="https://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> combined with the <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">BBC News’ “Cut the Mustard” test</a>.</p>
+
+<h3 id="https">HTTPS</h3>
+
+<p><a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https">HTTPS protects the privacy and security of your users</a> and with <a href="https://letsencrypt.org/">Let’s Encrypt</a> it’s free. You can tell browsers to only load your site over HTTPS with the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security"><code>Strict-Transport-Security</code> header</a>.</p>
+
+<h3 id="do-not-track">Do Not Track</h3>
+
+<p>We use Google Analytics to measure site traffic and try to improve our conversion rates but we respect the privacy of users visiting with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track</a> enabled. By <a href="http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/">detecting Do Not Track settings</a> we can avoid serving them the Google Analytics file. If a user has not set Do Not Track but has an ad blocker installed all our code runs without requiring Google Analytics to initialize.</p>
+
+<h3 id="view-source">View Source</h3>
+
+<p>Hear industry leaders speak about topics like web performance, security, reliability, CSS grids and more at the <a href="https://viewsourceconf.org/london-2017/">View Source Conference in London</a> October 27, 2017. See the <a href="https://viewsourceconf.org/london-2017/#schedule">full schedule</a>! Or <a href="https://viewsourceconf.org/berlin-2016/">watch videos of last year&rsquo;s talks</a>.</p>
+
+        </article>
+    </main>
+</body>
+<html>

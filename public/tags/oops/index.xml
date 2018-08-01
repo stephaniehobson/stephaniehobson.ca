@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oops on My New Hugo Site</title>
+    <link>http://example.org/tags/oops/</link>
+    <description>Recent content in Oops on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Aug 2007 00:23:34 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/oops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No, wait, I wasn&#39;t done reading that!</title>
+      <link>http://example.org/posts/no-wait-i-wasnt-done-reading-that/</link>
+      <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
+      
+      <guid>http://example.org/posts/no-wait-i-wasnt-done-reading-that/</guid>
+      <description>When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.</description>
+    </item>
+    
+    <item>
+      <title>Something new today</title>
+      <link>http://example.org/posts/something-new-today/</link>
+      <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
+      
+      <guid>http://example.org/posts/something-new-today/</guid>
+      <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
+&amp;amp;lt;a href=&amp;quot;http://stephaniehobson.ca/file.php » ?fire=hot&amp;amp;amp;amp;beer=foamy&amp;quot;&amp;amp;gt;link&amp;amp;lt;/a&amp;amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Insecurity</title>
+      <link>http://example.org/posts/insecurity/</link>
+      <pubDate>Thu, 08 Mar 2007 21:21:29 +0000</pubDate>
+      
+      <guid>http://example.org/posts/insecurity/</guid>
+      <description>All I did was copy the cgi file and change the file name and now it&amp;rsquo;s not encrypting the e-mails it sends any more.
+Hm.
+Edit: Yup, the problem was that I changed the name.
+Edit 07-03-26: I&amp;rsquo;ve also discovered that cgi files are not encoded using windows text format so opening them in notepad and saving them again is enough to destroy all functionality.</description>
+    </item>
+    
+  </channel>
+</rss>

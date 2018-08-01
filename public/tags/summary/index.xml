@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on My New Hugo Site</title>
+    <link>http://example.org/tags/summary/</link>
+    <description>Recent content in Summary on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Feb 2008 20:22:53 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web Directions North 2008</title>
+      <link>http://example.org/posts/web-directions-north-2008/</link>
+      <pubDate>Thu, 21 Feb 2008 20:22:53 +0000</pubDate>
+      
+      <guid>http://example.org/posts/web-directions-north-2008/</guid>
+      <description>Just like last year I thought I&amp;rsquo;d post my summary of the conference that I distributed to my department. If I have any regular readers at all, it&amp;rsquo;s probably a little too general to do you any good but I&amp;rsquo;m happy to answer questions:
+Web Directions North is an internationally respected conference for web professionals. This year’s conference was a good high level overview of the new trends and technologies online.</description>
+    </item>
+    
+  </channel>
+</rss>

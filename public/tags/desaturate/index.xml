@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desaturate on My New Hugo Site</title>
+    <link>http://example.org/tags/desaturate/</link>
+    <description>Recent content in Desaturate on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jul 2011 18:59:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/desaturate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Dull April Fool&#39;s Day</title>
+      <link>http://example.org/posts/dull-april-fools-day/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
+      
+      <guid>http://example.org/posts/dull-april-fools-day/</guid>
+      <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
+ Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
+    </item>
+    
+  </channel>
+</rss>

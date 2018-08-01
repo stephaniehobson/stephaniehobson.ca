@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atmedia on My New Hugo Site</title>
+    <link>http://example.org/tags/atmedia/</link>
+    <description>Recent content in Atmedia on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 May 2007 02:50:53 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/atmedia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>@media links to check out</title>
+      <link>http://example.org/posts/media-links-to-check-out/</link>
+      <pubDate>Sat, 26 May 2007 02:50:53 +0000</pubDate>
+      
+      <guid>http://example.org/posts/media-links-to-check-out/</guid>
+      <description>&lt;p&gt;This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>@media: Day Two</title>
+      <link>http://example.org/posts/media-day-two/</link>
+      <pubDate>Sat, 26 May 2007 02:08:34 +0000</pubDate>
+      
+      <guid>http://example.org/posts/media-day-two/</guid>
+      <description>Today I got two free books, Jeremy signed Bullet Proof Ajax for me and I snagged an extra Microformats cheat sheet for Brandon. All in all a success.</description>
+    </item>
+    
+    <item>
+      <title>@media: Day One</title>
+      <link>http://example.org/posts/media-day-one/</link>
+      <pubDate>Fri, 25 May 2007 10:10:04 +0000</pubDate>
+      
+      <guid>http://example.org/posts/media-day-one/</guid>
+      <description>One day I&amp;rsquo;d like to be able to make the same kind of contribution to the web design world that these speakers have. Trying to find a way to do that is as intimidating as the idea of writing a Master&amp;rsquo;s thesis. How does one come up with new ideas?
+The speakers have all been excellent so far. I always need a few days to process information though so I don&amp;rsquo;t have much to say at this point.</description>
+    </item>
+    
+  </channel>
+</rss>

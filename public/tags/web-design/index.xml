@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Design on My New Hugo Site</title>
+    <link>http://example.org/tags/web-design/</link>
+    <description>Recent content in Web Design on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Oct 2017 14:50:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping Tables at CSSDevConf</title>
+      <link>http://example.org/posts/flipping-tables-at-cssdevconf/</link>
+      <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
+      
+      <guid>http://example.org/posts/flipping-tables-at-cssdevconf/</guid>
+      <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
+Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
+    </item>
+    
+    <item>
+      <title>HTML5 Forms OF DOOM</title>
+      <link>http://example.org/posts/html5-forms-of-doom/</link>
+      <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
+      
+      <guid>http://example.org/posts/html5-forms-of-doom/</guid>
+      <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
+ ** [HTML5 Forms OF DOOM](https://www.slideshare.net/stephaniehobson/html5-forms-of-doom &#34;HTML5 Forms OF DOOM&#34;) ** from **[stephaniehobson](http://www.slideshare.net/stephaniehobson)**  Download the slides.
+Sample form.
+Finished form (no peeking).
+Resources Basic Introductions
+ Dive Into HTML5: A Form of Madness Have a Field Day with HTML5 Forms Making Forms Fabulous with HTML5 Forward Thinking Form Validation CSS</description>
+    </item>
+    
+    <item>
+      <title>Maintaining your CSS helps maintain your site</title>
+      <link>http://example.org/posts/maintaining-css-help-maintain-site/</link>
+      <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
+      
+      <guid>http://example.org/posts/maintaining-css-help-maintain-site/</guid>
+      <description>Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.
+Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).</description>
+    </item>
+    
+    <item>
+      <title>What would you change?</title>
+      <link>http://example.org/posts/what-would-you-change/</link>
+      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
+      
+      <guid>http://example.org/posts/what-would-you-change/</guid>
+      <description>Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.
+BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and What Would You Change?</description>
+    </item>
+    
+    <item>
+      <title>Accessibility Problem with Gilder/Levin Image Replacement Method</title>
+      <link>http://example.org/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link>
+      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
+      
+      <guid>http://example.org/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid>
+      <description>I have a friend who lives his life in low contrast. He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.
+His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour schemes and he also makes use of IE&amp;rsquo;s ability to override a website&amp;rsquo;s CSS.</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>http://example.org/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>http://example.org/posts/bookstore-wins-a-hubbie/</guid>
+      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
+    </item>
+    
+    <item>
+      <title>Links to check out from WDN08</title>
+      <link>http://example.org/posts/links-to-check-out-from-wdn08/</link>
+      <pubDate>Fri, 01 Feb 2008 13:03:54 +0000</pubDate>
+      
+      <guid>http://example.org/posts/links-to-check-out-from-wdn08/</guid>
+      <description>JavaScript Libraries Overview  recommended by Cameron Adams as good comparison of major libraries Twine called Web 3.0 by Boris Mann dotMobi Mobile Web Developer&amp;rsquo;s Guide by Brian Fling XHTML Mobile Profile Tutorial apparently if we know XHTML we know XHTML-MP, almost OpenID single sign on for the internet microformats.org/wiki/social-network-portability mentioned by Brain Oberkirch&amp;rsquo;s talk on data portabiltyOAuth.net mentioned by Brain Oberkirch&amp;rsquo;s talk on data portabilty DiSo Distributed Social networking applications development community kayak good example of potential use of portable data upcoming I have been instructed to get an account getsatisfaction people powered customer service foamee doesn&amp;rsquo;t require account creation, just uses your twitter info cabspotting.</description>
+    </item>
+    
+    <item>
+      <title>Missing table based layouts.</title>
+      <link>http://example.org/posts/missing-table-based-layouts/</link>
+      <pubDate>Fri, 18 Jan 2008 18:17:35 +0000</pubDate>
+      
+      <guid>http://example.org/posts/missing-table-based-layouts/</guid>
+      <description>There&amp;rsquo;s only one time where I ever really miss table based layouts: when I&amp;rsquo;m trying to make a flexible horizontal navigation bar with centred links. Like this or this. chews on keyboard with frustration</description>
+    </item>
+    
+    <item>
+      <title>These are a few of my favourite things</title>
+      <link>http://example.org/posts/these-are-a-few-of-my-favourite-things/</link>
+      <pubDate>Fri, 14 Dec 2007 12:55:33 +0000</pubDate>
+      
+      <guid>http://example.org/posts/these-are-a-few-of-my-favourite-things/</guid>
+      <description>Comics and web design together at last!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sociology on My New Hugo Site</title>
+    <link>http://example.org/tags/sociology/</link>
+    <description>Recent content in Sociology on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Mar 2007 11:51:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/sociology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Striving for excellence</title>
+      <link>http://example.org/posts/striving-for-excellence/</link>
+      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
+      
+      <guid>http://example.org/posts/striving-for-excellence/</guid>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
+    </item>
+    
+  </channel>
+</rss>

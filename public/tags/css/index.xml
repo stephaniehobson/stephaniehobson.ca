@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on My New Hugo Site</title>
+    <link>http://example.org/tags/css/</link>
+    <description>Recent content in Css on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2015 09:39:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Debug CSS</title>
+      <link>http://example.org/posts/how-to-debug-css/</link>
+      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
+      
+      <guid>http://example.org/posts/how-to-debug-css/</guid>
+      <description>Some quick notes and links for the talk I gave at WordCamp Vancouver about Debugging CSS.
+Edit: You can now watch a recording of Debugging CSS. Spot the three projector failures!
+Steps  Is the HTML valid? Is the CSS valid? Is the right CSS being applied?
+ Is what you typed being applied? Is other stuff being applied? Is what&amp;rsquo;s being applied right?  Does CSS support what you’re doing?</description>
+    </item>
+    
+    <item>
+      <title>A style tag counts as a :first-child</title>
+      <link>http://example.org/posts/style-element-counts-as-a-first-child/</link>
+      <pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate>
+      
+      <guid>http://example.org/posts/style-element-counts-as-a-first-child/</guid>
+      <description>EDIT 2011-09-15: All of this applies to &amp;lt;script&amp;gt; in the body as well.
+I have some bad news and a fix (I hesitate to call it good news).
+HTML5 introduces a way for us to include &amp;lt;style&amp;gt; elements on the page, we just need to give them an attribute of scoped. So, for example, if you have an SSI included widget you can include the styles in the widget file instead of trying to devise a way to add them to the head.</description>
+    </item>
+    
+    <item>
+      <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
+      <link>http://example.org/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</link>
+      <pubDate>Wed, 09 Mar 2011 14:29:42 +0000</pubDate>
+      
+      <guid>http://example.org/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</guid>
+      <description>I hate form styling on the best of days. This is a good example of why:
+Firefox&amp;rsquo;s buttons are wider than IE&amp;rsquo;s or Webkit&amp;rsquo;s. Why? This little gem in the browser&amp;rsquo;s style sheets:
+button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px 2px 0px 2px; }  That&amp;rsquo;s right, it&amp;rsquo;s 4px wider. Thank you FireFox.
+Fortunately, we can fix it!
+button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px; }  That was easy :)</description>
+    </item>
+    
+    <item>
+      <title>Maintaining your CSS helps maintain your site</title>
+      <link>http://example.org/posts/maintaining-css-help-maintain-site/</link>
+      <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
+      
+      <guid>http://example.org/posts/maintaining-css-help-maintain-site/</guid>
+      <description>Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.
+Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).</description>
+    </item>
+    
+    <item>
+      <title>New site for my favorite client</title>
+      <link>http://example.org/posts/new-site-for-my-favorite-client/</link>
+      <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
+      
+      <guid>http://example.org/posts/new-site-for-my-favorite-client/</guid>
+      <description>Just updated the look of Mum&amp;rsquo;s campaign website: Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville. I changed everything without altering one line of HTML, man do I love CSS (IE6, I still hate you).</description>
+    </item>
+    
+    <item>
+      <title>Accessibility Problem with Gilder/Levin Image Replacement Method</title>
+      <link>http://example.org/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link>
+      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
+      
+      <guid>http://example.org/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid>
+      <description>I have a friend who lives his life in low contrast. He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.
+His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour schemes and he also makes use of IE&amp;rsquo;s ability to override a website&amp;rsquo;s CSS.</description>
+    </item>
+    
+    <item>
+      <title>Missing table based layouts.</title>
+      <link>http://example.org/posts/missing-table-based-layouts/</link>
+      <pubDate>Fri, 18 Jan 2008 18:17:35 +0000</pubDate>
+      
+      <guid>http://example.org/posts/missing-table-based-layouts/</guid>
+      <description>There&amp;rsquo;s only one time where I ever really miss table based layouts: when I&amp;rsquo;m trying to make a flexible horizontal navigation bar with centred links. Like this or this. chews on keyboard with frustration</description>
+    </item>
+    
+    <item>
+      <title>I would live with dial up if it meant I could live here.</title>
+      <link>http://example.org/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</link>
+      <pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate>
+      
+      <guid>http://example.org/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid>
+      <description>One of my bestest friends lives in the middle of no where. High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.
+For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.
+Also, turning off the images is not that easy. I wonder how true the assertion that people with dial up turn them off is.</description>
+    </item>
+    
+    <item>
+      <title>CSS bug in IE 6 with: .class a:hover element</title>
+      <link>http://example.org/posts/css-bug-in-ie-6-with-class-ahover-element/</link>
+      <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
+      <description>This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like .class a:hover span{} or #id a:hover strong{}. The solution is to define a property on the parent link .class a:hover{} that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.
+All the work for the solution was done by Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</description>
+    </item>
+    
+    <item>
+      <title>Forming form guidelines</title>
+      <link>http://example.org/posts/forming-form-guidelines/</link>
+      <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
+      
+      <guid>http://example.org/posts/forming-form-guidelines/</guid>
+      <description>Who knew web design could be so&amp;hellip; academic?
+Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
+    </item>
+    
+    <item>
+      <title>This time it&#39;s not IE.</title>
+      <link>http://example.org/posts/this-time-its-not-ie/</link>
+      <pubDate>Mon, 28 May 2007 13:14:48 +0000</pubDate>
+      
+      <guid>http://example.org/posts/this-time-its-not-ie/</guid>
+      <description>Wow, FireFox does not play nice with styling legends.
+FireFox, I&amp;rsquo;m not mad, I&amp;rsquo;m just disappointed.</description>
+    </item>
+    
+    <item>
+      <title>Styling Our Style Sheets</title>
+      <link>http://example.org/posts/styling-our-style-sheets/</link>
+      <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
+      
+      <guid>http://example.org/posts/styling-our-style-sheets/</guid>
+      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
+Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
+As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
+    </item>
+    
+    <item>
+      <title>Border Collapse</title>
+      <link>http://example.org/posts/border-collapse/</link>
+      <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
+      
+      <guid>http://example.org/posts/border-collapse/</guid>
+      <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
+I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
+    </item>
+    
+  </channel>
+</rss>

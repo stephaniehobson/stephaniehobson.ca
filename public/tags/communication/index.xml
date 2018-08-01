@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on My New Hugo Site</title>
+    <link>http://example.org/tags/communication/</link>
+    <description>Recent content in Communication on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Nov 2009 22:02:24 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Abstract Sequential?</title>
+      <link>http://example.org/posts/why-abstract-sequential/</link>
+      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
+      
+      <guid>http://example.org/posts/why-abstract-sequential/</guid>
+      <description>Short answer: it&amp;rsquo;s my thinking style :)
+It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
+It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on My New Hugo Site</title>
+    <link>http://example.org/tags/teaching/</link>
+    <description>Recent content in Teaching on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2008 15:34:30 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two steps forward, one step back</title>
+      <link>http://example.org/posts/two-steps-forward-one-step-back/</link>
+      <pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate>
+      
+      <guid>http://example.org/posts/two-steps-forward-one-step-back/</guid>
+      <description>Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class. She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.
+So I spent 30 minutes talking to them about the basics of user centred design and how the internet works. Then I helped them trouble shoot their table based layouts and font tags.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ie on My New Hugo Site</title>
+    <link>http://example.org/tags/ie/</link>
+    <description>Recent content in Ie on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Dec 2007 14:49:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/ie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS bug in IE 6 with: .class a:hover element</title>
+      <link>http://example.org/posts/css-bug-in-ie-6-with-class-ahover-element/</link>
+      <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
+      <description>This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like .class a:hover span{} or #id a:hover strong{}. The solution is to define a property on the parent link .class a:hover{} that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.
+All the work for the solution was done by Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</description>
+    </item>
+    
+  </channel>
+</rss>

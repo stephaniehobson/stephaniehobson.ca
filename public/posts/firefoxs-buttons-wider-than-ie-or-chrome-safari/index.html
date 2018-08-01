@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</h1>
+            <p>I hate form styling on the best of days. This is a good example of why:</p>
+
+<p>Firefox&rsquo;s buttons are wider than IE&rsquo;s or Webkit&rsquo;s. Why? This little gem in the browser&rsquo;s style sheets:</p>
+
+<pre><code class="language-css">button::-moz-focus-inner,
+input[type=&quot;reset&quot;]::-moz-focus-inner,
+input[type=&quot;button&quot;]::-moz-focus-inner,
+input[type=&quot;submit&quot;]::-moz-focus-inner,
+input[type=&quot;file&quot;] &gt; input[type=&quot;button&quot;]::-moz-focus-inner {
+    padding: 0px 2px 0px 2px;
+}
+</code></pre>
+
+<p>That&rsquo;s right, it&rsquo;s 4px wider. Thank you FireFox.</p>
+
+<p>Fortunately, we can fix it!</p>
+
+<pre><code class="language-css">button::-moz-focus-inner,
+input[type=&quot;reset&quot;]::-moz-focus-inner,
+input[type=&quot;button&quot;]::-moz-focus-inner,
+input[type=&quot;submit&quot;]::-moz-focus-inner,
+input[type=&quot;file&quot;] &gt; input[type=&quot;button&quot;]::-moz-focus-inner {
+    padding: 0px;
+}
+</code></pre>
+
+<p>That was easy :)</p>
+
+<p>We have a class on our site that is applied to every button. I call it &ldquo;formbutton&rdquo; (I didn&rsquo;t get to pick it. My boss picked it 8 years ago. It&rsquo;s a great name isn&rsquo;t it? Epic and enduring.) So I can simplify that code up to this:</p>
+
+<pre><code>.formbutton::-moz-focus-inner {
+    padding: 0px;
+}
+</code></pre>
+
+<p><strong>Want a little more info:</strong></p>
+
+<p>I found this with a little help from this article on <a href="http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/">viewing FireFox&rsquo;s default style sheets</a>. The observant among you may notice there is another style in there. It is for keyboard navigation. Use your new found powers wisely, don&rsquo;t remove it without replacing it.</p>
+
+<p>Also, here&rsquo;s a link if you&rsquo;re wondering what is up with the <a href="http://www.evotech.net/blog/2007/05/after-v-after-what-is-double-colon-notation/">double colon notation.</a></p>
+
+<p>And so far it does not look like there are equivalent pseudo elements in Webkit or IE, but I will admit to not looking very hard since this fixed my problem ;)</p>
+
+        </article>
+    </main>
+</body>
+<html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on My New Hugo Site</title>
+    <link>http://example.org/tags/about/</link>
+    <description>Recent content in About on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Nov 2009 22:02:24 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Abstract Sequential?</title>
+      <link>http://example.org/posts/why-abstract-sequential/</link>
+      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
+      
+      <guid>http://example.org/posts/why-abstract-sequential/</guid>
+      <description>Short answer: it&amp;rsquo;s my thinking style :)
+It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
+It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
+    </item>
+    
+    <item>
+      <title>Should I stay or should I go?</title>
+      <link>http://example.org/posts/should-i-stay-or-should-i-go/</link>
+      <pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate>
+      
+      <guid>http://example.org/posts/should-i-stay-or-should-i-go/</guid>
+      <description>What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, boring for me and for you. So I&amp;rsquo;m thinking of re-doing it.
+I&amp;rsquo;m going to use this site to bring together all my activities from around the web in one place.</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s keeping me busy?</title>
+      <link>http://example.org/posts/whats-keeping-me-busy/</link>
+      <pubDate>Mon, 05 Mar 2007 12:16:18 +0000</pubDate>
+      
+      <guid>http://example.org/posts/whats-keeping-me-busy/</guid>
+      <description>Well, outside of my day job I&amp;rsquo;m:
+ making my Mum a website moving hosting servers for digitalphoenix.ca learning cgi so I can create an auto generated thank you message for HOPE&amp;rsquo;s donors taking Mandarin (what was I thinking?)  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+---
+title: HTML5 Forms OF DOOM
+tags:
+  - accomplishment
+  - code
+  - html
+  - html5
+  - presentation
+  - web design
+  - webdesign
+id: 576
+comment: false
+categories:
+  - webdesign
+  - slideshare
+date: 2012-07-10 16:26:19
+---
+
+I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They're so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
+
+<div style="text-align:center;">
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13599860" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> ** [HTML5 Forms OF DOOM](https://www.slideshare.net/stephaniehobson/html5-forms-of-doom "HTML5 Forms OF DOOM") ** from **[stephaniehobson](http://www.slideshare.net/stephaniehobson)** </div></div>
+
+[Download the slides.](/html5forms/html5forms.pptx)
+
+[Sample form.](/html5forms/unfinished.html)
+
+[Finished form (no peeking).](/html5forms/finished.html)
+
+### Resources
+
+**Basic Introductions**
+
+*   [Dive Into HTML5: A Form of Madness](http://diveintohtml5.info/forms.html)
+*   [Have a Field Day with HTML5 Forms](http://24ways.org/2009/have-a-field-day-with-html5-forms/)
+*   [Making Forms Fabulous with HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
+*   [Forward Thinking Form Validation](http://www.alistapart.com/articles/forward-thinking-form-validation/)
+**CSS**
+
+*   [CSS3 Pseudo-Classes and HTML5 Forms](http://html5doctor.com/css3-pseudo-classes-and-html5-forms/)
+*   [Have a Field Day with HTML5 Forms](http://24ways.org/2009/have-a-field-day-with-html5-forms/)
+**Compatibility Specifics**
+
+*   [The Current State of HTML5 Forms](http://wufoo.com/html5/)
+*   [HTML5 inputs and attribute support](http://miketaylr.com/code/input-type-attr.html)
+**Shim**
+
+*   [Ryan Seddons's H5F](https://github.com/ryanseddon/H5F)
+*   [The design of datalist](http://adactio.com/journal/4272/)

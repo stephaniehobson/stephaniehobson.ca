@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guidelines on My New Hugo Site</title>
+    <link>http://example.org/tags/guidelines/</link>
+    <description>Recent content in Guidelines on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jun 2007 16:36:49 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forming form guidelines</title>
+      <link>http://example.org/posts/forming-form-guidelines/</link>
+      <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
+      
+      <guid>http://example.org/posts/forming-form-guidelines/</guid>
+      <description>Who knew web design could be so&amp;hellip; academic?
+Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
+    </item>
+    
+    <item>
+      <title>Styling Our Style Sheets</title>
+      <link>http://example.org/posts/styling-our-style-sheets/</link>
+      <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
+      
+      <guid>http://example.org/posts/styling-our-style-sheets/</guid>
+      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
+Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
+As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
+    </item>
+    
+  </channel>
+</rss>

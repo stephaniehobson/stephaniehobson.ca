@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on My New Hugo Site</title>
+    <link>http://example.org/tags/google/</link>
+    <description>Recent content in Google on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Sep 2008 16:21:16 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stuff I&#39;d like to see Google Reader do</title>
+      <link>http://example.org/posts/stuff-id-like-to-see-google-reader-do/</link>
+      <pubDate>Mon, 15 Sep 2008 16:21:16 +0000</pubDate>
+      
+      <guid>http://example.org/posts/stuff-id-like-to-see-google-reader-do/</guid>
+      <description>I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different&amp;hellip; taste than I do&amp;hellip; repeatedly).
+I also wish I could share my feeds with different audiences in mind. Right now what I share is pretty bland because my clients, friends, and family all see it.</description>
+    </item>
+    
+    <item>
+      <title>Google Launches Social Graph API</title>
+      <link>http://example.org/posts/google-launches-social-graph-api/</link>
+      <pubDate>Mon, 04 Feb 2008 13:10:58 +0000</pubDate>
+      
+      <guid>http://example.org/posts/google-launches-social-graph-api/</guid>
+      <description>There were several speakers at WDN who spoke about open social networks, portability and consolidating friend information across applications. I found the talks interesting and then, while we were still at the conference, Google announced a Social Graph API aiming to do just what we&amp;rsquo;d been talking about.</description>
+    </item>
+    
+    <item>
+      <title>We made the cut!</title>
+      <link>http://example.org/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>http://example.org/posts/we-made-the-cut/</guid>
+      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
+A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
+    </item>
+    
+    <item>
+      <title>No, wait, I wasn&#39;t done reading that!</title>
+      <link>http://example.org/posts/no-wait-i-wasnt-done-reading-that/</link>
+      <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
+      
+      <guid>http://example.org/posts/no-wait-i-wasnt-done-reading-that/</guid>
+      <description>When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>http://example.org/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>http://example.org/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
+Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
+ From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
+    </item>
+    
+  </channel>
+</rss>

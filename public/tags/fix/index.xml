@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fix on My New Hugo Site</title>
+    <link>http://example.org/tags/fix/</link>
+    <description>Recent content in Fix on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Aug 2011 23:31:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/fix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A style tag counts as a :first-child</title>
+      <link>http://example.org/posts/style-element-counts-as-a-first-child/</link>
+      <pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate>
+      
+      <guid>http://example.org/posts/style-element-counts-as-a-first-child/</guid>
+      <description>EDIT 2011-09-15: All of this applies to &amp;lt;script&amp;gt; in the body as well.
+I have some bad news and a fix (I hesitate to call it good news).
+HTML5 introduces a way for us to include &amp;lt;style&amp;gt; elements on the page, we just need to give them an attribute of scoped. So, for example, if you have an SSI included widget you can include the styles in the widget file instead of trying to devise a way to add them to the head.</description>
+    </item>
+    
+  </channel>
+</rss>

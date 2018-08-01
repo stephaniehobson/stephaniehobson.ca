@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Undo on My New Hugo Site</title>
+    <link>http://example.org/tags/undo/</link>
+    <description>Recent content in Undo on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Aug 2007 00:23:34 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/undo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No, wait, I wasn&#39;t done reading that!</title>
+      <link>http://example.org/posts/no-wait-i-wasnt-done-reading-that/</link>
+      <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
+      
+      <guid>http://example.org/posts/no-wait-i-wasnt-done-reading-that/</guid>
+      <description>When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.</description>
+    </item>
+    
+  </channel>
+</rss>

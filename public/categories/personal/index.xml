@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on My New Hugo Site</title>
+    <link>http://example.org/categories/personal/</link>
+    <description>Recent content in Personal on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 May 2012 23:02:56 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leave</title>
+      <link>http://example.org/posts/leave/</link>
+      <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
+      
+      <guid>http://example.org/posts/leave/</guid>
+      <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
+Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
+I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
+I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long.</description>
+    </item>
+    
+    <item>
+      <title>Perfect Stranger</title>
+      <link>http://example.org/posts/perfect-stranger/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
+      
+      <guid>http://example.org/posts/perfect-stranger/</guid>
+      <description>Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. Jeremy Keith once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.
+Most of us use Twitter to keep in touch with people we know and keep up with things we care about.</description>
+    </item>
+    
+    <item>
+      <title>Taking a photo of yourself with an iPhone</title>
+      <link>http://example.org/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
+      <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
+      
+      <guid>http://example.org/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2009 in Review</title>
+      <link>http://example.org/posts/2009/</link>
+      <pubDate>Fri, 08 Jan 2010 19:09:46 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2009/</guid>
+      <description>My year in review Powazek style.
+JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.
+FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.
+MAR: Giants Fan Bus.
+APR: I check into my first Gowalla spot.
+MAY: My temporary roommate drops her phone down an elevator shaft after a Colonel Panic concert. Ultimate with H.A.M.M.E.R. starts.
+JUN: Program catalogue launch. Asthon Lane, Inverness and @media.
+JUL: Fireworks with Sue. Decemberists.</description>
+    </item>
+    
+    <item>
+      <title>I lie to Batman</title>
+      <link>http://example.org/posts/i-lie-to-batman/</link>
+      <pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate>
+      
+      <guid>http://example.org/posts/i-lie-to-batman/</guid>
+      <description>_Note: If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts they have their own category now. _
+I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.
+It&amp;rsquo;s Robin all the way.
+Not Dick Grayson, Jason Todd, or Tim Drake - Robin.</description>
+    </item>
+    
+    <item>
+      <title>Why Abstract Sequential?</title>
+      <link>http://example.org/posts/why-abstract-sequential/</link>
+      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
+      
+      <guid>http://example.org/posts/why-abstract-sequential/</guid>
+      <description>Short answer: it&amp;rsquo;s my thinking style :)
+It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
+It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
+    </item>
+    
+    <item>
+      <title>Why I follow my heroes on Twitter</title>
+      <link>http://example.org/posts/why-i-follow-my-heroes/</link>
+      <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
+      
+      <guid>http://example.org/posts/why-i-follow-my-heroes/</guid>
+      <description>A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;
+I just want to go on the record and say I like the personal tweets.
+I like knowing that despite their mega awesome coding skills they still have problems with clients.</description>
+    </item>
+    
+    <item>
+      <title>Eight random things</title>
+      <link>http://example.org/posts/eight-random-things/</link>
+      <pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate>
+      
+      <guid>http://example.org/posts/eight-random-things/</guid>
+      <description>In the spirit of Jeremy Keith&amp;rsquo;s post, here&amp;rsquo;s 8 random things I see about me:
+ Black queen carved like Raven. Small brass Buddha. Wind up penguin. iPhone. Microformats pocket cheat sheet. Salt. 8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;. Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;  You&amp;rsquo;re it.</description>
+    </item>
+    
+    <item>
+      <title>We made the cut!</title>
+      <link>http://example.org/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>http://example.org/posts/we-made-the-cut/</guid>
+      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
+A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>http://example.org/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>http://example.org/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
+Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
+ From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
+    </item>
+    
+    <item>
+      <title>Striving for excellence</title>
+      <link>http://example.org/posts/striving-for-excellence/</link>
+      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
+      
+      <guid>http://example.org/posts/striving-for-excellence/</guid>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m presenting at a conference!</title>
+      <link>http://example.org/posts/im-presenting-at-a-conference/</link>
+      <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/posts/im-presenting-at-a-conference/</guid>
+      <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
+    </item>
+    
+    <item>
+      <title>Where am I going with this?</title>
+      <link>http://example.org/posts/where-am-i-going-with-this/</link>
+      <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
+      
+      <guid>http://example.org/posts/where-am-i-going-with-this/</guid>
+      <description>Vivian is such a great motivator. I&amp;rsquo;m still sorry to see her go.
+I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.
+She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://example.org/posts/hello-world/</link>
+      <pubDate>Mon, 05 Mar 2007 01:53:59 +0000</pubDate>
+      
+      <guid>http://example.org/posts/hello-world/</guid>
+      <description>I&amp;rsquo;ve been wanting a professional blog for a while now. It&amp;rsquo;s funny how there&amp;rsquo;s somethings you can tell complete strangers and there&amp;rsquo;s some things you can&amp;rsquo;t.</description>
+    </item>
+    
+  </channel>
+</rss>

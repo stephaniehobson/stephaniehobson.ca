@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on My New Hugo Site</title>
+    <link>http://example.org/tags/career/</link>
+    <description>Recent content in Career on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Mar 2007 11:51:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Striving for excellence</title>
+      <link>http://example.org/posts/striving-for-excellence/</link>
+      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
+      
+      <guid>http://example.org/posts/striving-for-excellence/</guid>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m presenting at a conference!</title>
+      <link>http://example.org/posts/im-presenting-at-a-conference/</link>
+      <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/posts/im-presenting-at-a-conference/</guid>
+      <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
+    </item>
+    
+    <item>
+      <title>Where am I going with this?</title>
+      <link>http://example.org/posts/where-am-i-going-with-this/</link>
+      <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
+      
+      <guid>http://example.org/posts/where-am-i-going-with-this/</guid>
+      <description>Vivian is such a great motivator. I&amp;rsquo;m still sorry to see her go.
+I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.
+She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.</description>
+    </item>
+    
+  </channel>
+</rss>

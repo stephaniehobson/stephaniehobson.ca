@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pseudo on My New Hugo Site</title>
+    <link>http://example.org/tags/pseudo/</link>
+    <description>Recent content in Pseudo on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Mar 2011 14:29:42 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/pseudo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
+      <link>http://example.org/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</link>
+      <pubDate>Wed, 09 Mar 2011 14:29:42 +0000</pubDate>
+      
+      <guid>http://example.org/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</guid>
+      <description>I hate form styling on the best of days. This is a good example of why:
+Firefox&amp;rsquo;s buttons are wider than IE&amp;rsquo;s or Webkit&amp;rsquo;s. Why? This little gem in the browser&amp;rsquo;s style sheets:
+button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px 2px 0px 2px; }  That&amp;rsquo;s right, it&amp;rsquo;s 4px wider. Thank you FireFox.
+Fortunately, we can fix it!
+button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px; }  That was easy :)</description>
+    </item>
+    
+  </channel>
+</rss>

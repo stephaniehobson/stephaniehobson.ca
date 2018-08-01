@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ie6 on My New Hugo Site</title>
+    <link>http://example.org/tags/ie6/</link>
+    <description>Recent content in Ie6 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Aug 2008 17:40:06 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/ie6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New site for my favorite client</title>
+      <link>http://example.org/posts/new-site-for-my-favorite-client/</link>
+      <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
+      
+      <guid>http://example.org/posts/new-site-for-my-favorite-client/</guid>
+      <description>Just updated the look of Mum&amp;rsquo;s campaign website: Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville. I changed everything without altering one line of HTML, man do I love CSS (IE6, I still hate you).</description>
+    </item>
+    
+    <item>
+      <title>I would live with dial up if it meant I could live here.</title>
+      <link>http://example.org/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</link>
+      <pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate>
+      
+      <guid>http://example.org/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid>
+      <description>One of my bestest friends lives in the middle of no where. High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.
+For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.
+Also, turning off the images is not that easy. I wonder how true the assertion that people with dial up turn them off is.</description>
+    </item>
+    
+  </channel>
+</rss>

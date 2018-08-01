@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on My New Hugo Site</title>
+    <link>http://example.org/categories/uncategorized/</link>
+    <description>Recent content in Uncategorized on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Mar 2007 15:20:32 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Something new today</title>
+      <link>http://example.org/posts/something-new-today/</link>
+      <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
+      
+      <guid>http://example.org/posts/something-new-today/</guid>
+      <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
+&amp;amp;lt;a href=&amp;quot;http://stephaniehobson.ca/file.php » ?fire=hot&amp;amp;amp;amp;beer=foamy&amp;quot;&amp;amp;gt;link&amp;amp;lt;/a&amp;amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

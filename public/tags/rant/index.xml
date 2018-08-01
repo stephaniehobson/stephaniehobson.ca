@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rant on My New Hugo Site</title>
+    <link>http://example.org/tags/rant/</link>
+    <description>Recent content in Rant on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2008 11:18:38 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finally figure out what my problem is.</title>
+      <link>http://example.org/posts/finally-figure-out-what-my-problem-is/</link>
+      <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
+      
+      <guid>http://example.org/posts/finally-figure-out-what-my-problem-is/</guid>
+      <description>I read John Resig&amp;rsquo;s article Sub-Pixel Problems in CSS a few days ago and found it to very useful information.
+And then today I had an &amp;ldquo;ah-ha&amp;rsquo; moment - this this is why I hate coding flexible horizontal navigation menus.</description>
+    </item>
+    
+  </channel>
+</rss>
