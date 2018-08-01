@@ -1,0 +1,21 @@
+{
+  "name": "blog_hugo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-hash": "^4.2.2",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "simple-icons": "^1.8.2"
+  }
+}
