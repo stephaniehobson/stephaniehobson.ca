@@ -1,0 +1,11 @@
+@import '../includes/vars';
+@import '../includes/mixins';
+
+
+.header {
+    span {
+        display: block;
+        font-size: 11px;
+        color: #666;
+    }
+}

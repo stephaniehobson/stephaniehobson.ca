@@ -1,0 +1,38 @@
+@import '../includes/vars';
+@import '../includes/mixins';
+
+.elsewhere {
+    display: table;
+    width: 100%;
+    border-bottom: $divider;
+    padding: $grid 0px;
+
+    ul {
+        display: table-row;
+    }
+
+    li {
+        display: table-cell;
+    }
+
+    a img {
+        height: 32px;
+        width: 32px;
+        -moz-transition: -webkit-transform 0.1s ease-out;
+        -webkit-transition: -webkit-transform 0.1s ease-out;
+        transition: -webkit-transform 0.1s ease-out;
+
+        &:hover,
+        &:focus,
+        &:active {
+            -moz-transform: scale(1.5);
+            -moz-transform-origin: 50% 50%;
+
+            -webkit-transform: scale(1.5);
+            -webkit-transform-origin: 50% 50%;
+
+            transform: scale(1.5);
+            transform-origin: 50% 50%;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+@import '../../includes/vars';
+@import '../../includes/mixins';
+
+h1 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: $grid 0;
+    margin: 0;
+}
+
+ul,
+ol,
+dl {
+    margin: 0 0 $grid $grid;
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: calc(#{$grid} / 3);
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding-left: $grid;
+}
+
+
+blockquote {
+    border-left: $border-width solid #CCCCCC;
+    color: #555555;
+    padding-left: $padding-width;
+    margin: 0 $grid $grid $grid;
+}
+
+a {
+    color: #AA0000;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #AA0000;
+        text-decoration: underline;
+    }
+}
+
+sup {
+    display: inline-block;
+    margin-top: -4px;
+    vertical-align: text-top;
+    font-size: 80%;
+}

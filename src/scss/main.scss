@@ -1,3 +1,13 @@
-body {
-    background-color: #ddd;
-}
+@import 'includes/vars';
+@import 'includes/mixins';
+
+@import 'base/properties';
+
+@import 'base/elements/document';
+@import 'base/elements/media';
+@import 'base/elements/typography';
+@import 'base/elements/sectioning';
+
+@import 'components/header';
+@import 'components/elsewhere';
+@import 'components/post';

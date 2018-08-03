@@ -1,0 +1,15 @@
+@import '../../includes/vars';
+@import '../../includes/mixins';
+
+html {
+    background-color: $bg;
+    color: $text;
+}
+
+body {
+    @include container();
+    background: $bg;
+    border: calc(#{$grid} / 2) solid transparent;
+    color: $text;
+    font-family: $font-family-body;
+}
