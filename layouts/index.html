@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ .Title }}</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="{{ .Description }}">
-    <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
+    {{ partial "head.html" . }}
 </head>
 <body>
+
+    <div class="header">
+        <a href="http://stephaniehobson.ca/about/">
+            <img src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=77" style="float:right;margin-right:-18px;margin-top:-18px;">
+        </a>
+        <h1>Abstract Sequential
+        <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span></h1>
+	</div>
+
+    <div class="elsewhere">
+        <ul>
+            <li>
+                <a href="http://untappd.com/user/stephaniehobson" rel="me">
+                    <img alt="Untappd" src="/images/icons/untappd.svg">
+                </a>
+            </li>
+            <li>
+                <a href="http://pinboard.in/u:stephaniehobson" rel="me">
+                    <img alt="Pinboard" src="/images/icons/pinboard.svg">
+                </a>
+            </li>
+            <li>
+                <a href="http://lanyrd.com/profile/stephaniehobson/" rel="me">
+                    <img alt="Lanyrd" src="/images/icons/lanyrd.svg">
+                </a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
+                    <img alt="LinkedIn" src="/images/icons/linkedin.svg">
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com/stephaniehobson" rel="me">
+                    <img alt="Twitter" src="/images/icons/twitter.svg">
+                </a>
+            </li>
+            <li>
+                <a href="http://www.flickr.com/people/stephaniehobson/" rel="me">
+                    <img alt="Flickr" src="/images/icons/flickr.svg">
+                </a>
+            </li>
+        </ul>
+    </div>
     <main>
+
+
+
         {{ range first 10 .Data.Pages }}
         {{ if eq .Type "posts" }}
             <article>
@@ -25,4 +68,4 @@
         {{ end }}
     </main>
 </body>
-</html>
+<html>
