@@ -12,4 +12,5 @@ body {
     border: calc(#{$grid} / 2) solid transparent;
     color: $text;
     font-family: $font-family-body;
+    line-height: 1.5;
 }
