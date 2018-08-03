@@ -1,7 +1,8 @@
-var gulp         = require("gulp"),
-    sass         = require("gulp-sass"),
-    hash         = require("gulp-hash"),
-    del          = require("del");
+const gulp = require("gulp");
+const sass = require("gulp-sass");
+const hash = require("gulp-hash");
+const del = require("del");
+const gulpStylelint = require('gulp-stylelint');
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
@@ -14,6 +15,17 @@ gulp.task("scss", function () {
         .pipe(hash.manifest("hash.json"))
         //Put the map in the data directory
         .pipe(gulp.dest("data/css"));
+});
+
+
+gulp.task('scss:lint', () => {
+    return gulp.src('src/scss/**/*.scss')
+        .pipe(gulpStylelint({
+            reporters: [{
+                formatter: 'string',
+                console: true
+            }]
+        }));
 });
 
 // Hash images
@@ -51,7 +63,7 @@ gulp.task("icons", function() {
 });
 
 // Watch asset folder for changes
-gulp.task("watch", ["scss", "images", "js", "icons"], function () {
+gulp.task("watch", ["scss", "scss:lint", "images", "js", "icons"], function () {
     gulp.watch("src/scss/**/*", ["scss"]);
     gulp.watch("src/images/**/*", ["images"]);
     gulp.watch("src/js/**/*", ["js"]);
