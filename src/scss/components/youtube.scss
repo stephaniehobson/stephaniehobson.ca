@@ -1,0 +1,7 @@
+@import '../includes/vars';
+@import '../includes/mixins';
+
+.youtube {
+    @include intrinsic();
+    border: $divider;
+}

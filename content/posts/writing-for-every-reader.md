@@ -14,6 +14,8 @@ date: 2017-10-08 14:14:11
 
 I [recently spoke at #a11yTOConf](http://conf.a11yto.com/talks#writingForEveryReader), a conference by the organizers of the regular [a11yTO meet-up](https://www.meetup.com/a11yTO/). The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won't be the last!
 
+{{< slideshare ozEG7wyJ5BvL00  "writing-for-every-reader" "Writing for Every Reader" >}}
+
 Here are [my slides for Writing for Every Reader](https://www.slideshare.net/stephaniehobson/writing-for-every-reader/).
 
 ## Resources I mentioned:

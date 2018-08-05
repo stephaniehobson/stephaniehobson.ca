@@ -31,4 +31,4 @@ If you have some work, a place to stay, or some advice for me I can be contacted
 
 ## An Invocation for Beginnings
 
-<iframe width="500" height="282" src="http://www.youtube.com/embed/RYlCVwxoL_g" frameborder="0" allowfullscreen></iframe>
+{{< youtube RYlCVwxoL_g >}}
