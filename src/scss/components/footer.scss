@@ -1,8 +1,8 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
-
 footer {
     border-top: $divider;
     margin-top: $grid;
+    padding: calc(#{$grid} / 2) 0;
 }

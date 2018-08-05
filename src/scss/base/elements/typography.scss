@@ -53,7 +53,6 @@ dd {
     padding-left: $grid;
 }
 
-
 blockquote {
     border-left: $border-width solid #CCCCCC;
     color: #555555;
@@ -79,4 +78,15 @@ sup {
     margin-top: -4px;
     vertical-align: text-top;
     font-size: 80%;
+}
+
+pre {
+    max-width: 100%;
+    overflow-x: scroll;
+    border: 1px solid #000;
+    padding: $grid;
+}
+
+code {
+    max-width: 100%;
 }
