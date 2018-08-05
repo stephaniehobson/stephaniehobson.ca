@@ -1,0 +1,80 @@
+@import '../includes/vars';
+@import '../includes/mixins';
+
+.social {
+    width: 100%;
+
+    &.social-header {
+        border-bottom: $divider;
+        padding: $grid 0;
+    }
+}
+
+.social-list {
+    margin: 0;
+}
+
+.social-item {
+    margin: 0;
+    text-align: center;
+}
+
+.social-name {
+    font-size: 0.8rem;
+}
+
+.social-icon {
+    height: 32px;
+    width: 32px;
+    -moz-transition: -webkit-transform 0.1s ease-out;
+    -webkit-transition: -webkit-transform 0.1s ease-out;
+    transition: -webkit-transform 0.1s ease-out;
+}
+
+.social-link {
+    &:hover,
+    &:focus,
+    &:active {
+        .social-icon {
+            transform: scale(1.5);
+            transform-origin: 50% 50%;
+        }
+    }
+}
+
+/*
+No grid, table fallback
+====================================================================== */
+
+.social {
+    display: table;
+}
+
+.social-list {
+    display: table-row;
+}
+
+.social-item {
+    display: table-cell;
+}
+
+.social-name {
+    display: block;
+}
+
+
+/*
+Grid
+====================================================================== */
+
+@supports ( display:grid ) {
+    .social-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: $grid;
+
+        @media #{$mq-680-and-up} {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+    }
+}

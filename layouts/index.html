@@ -1,45 +1,5 @@
 {{ define "main" }}
-<div class="elsewhere">
-    <ul>
-        <li>
-            <a href="http://www.flickr.com/people/stephaniehobson/" rel="me">
-                <img alt="" src="/images/icons/flickr.svg" height="48" width="48">
-                <span>Flickr</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/stephaniehobson" rel="me">
-                <img alt="" src="/images/icons/github.svg" height="48" width="48">
-                <span>GitHub</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://noti.st/stephaniehobson" rel="me">
-                <img alt="" src="/images/{{ index .Site.Data.images.hash "notist.svg" }}" height="48" width="48">
-                <span>Notist</span>
-            </a>
-        </li>
-        <li>
-            <a href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
-                <img alt="" src="/images/icons/linkedin.svg" height="48" width="48">
-                <span>LinkedIn</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
-                <img alt="" src="/images/icons/pinboard.svg" height="48" width="48">
-                <span>Pinboard</span>
-            </a>
-        </li>
-        <li>
-            <a href="http://twitter.com/stephaniehobson" rel="me">
-                <img alt="" src="/images/icons/twitter.svg" height="48" width="48">
-                <span>Twitter</span>
-            </a>
-        </li>
-    </ul>
-</div>
-
+{{ partial "social.html" (dict "context" . "class" "social-header") }}
 <main>
     {{ range first 10 .Data.Pages }}
     {{ if eq .Type "posts" }}

@@ -35,13 +35,13 @@ $point-1200-starts: $point-1200;
 
 // some browsers treat printed page as 670px wide, some don't
 // by specifying print explicitly we get consistant behaviour for print
-$mq-320-and-up: 'print, all and (min-width: $point-320-starts)';
-$mq-480-and-up: 'print, all and (min-width: $point-480-starts)';
-$mq-680-and-up: 'print, all and (min-width: $point-680-starts)';
-$mq-960-and-up: 'screen and (min-width: $point-960-starts)';
-$mq-1200-and-up: 'screen and (min-width: $point-1200-starts)';
+$mq-320-and-up: 'print, all and (min-width: #{$point-320-starts})';
+$mq-480-and-up: 'print, all and (min-width: #{$point-480-starts})';
+$mq-680-and-up: 'print, all and (min-width: #{$point-680-starts})';
+$mq-960-and-up: 'screen and (min-width: #{$point-960-starts})';
+$mq-1200-and-up: 'screen and (min-width: #{$point-1200-starts})';
 
-$mq-tall: 'screen and (min-width: $960-starts) and (min-height: $960-starts)';
+$mq-tall: 'screen and (min-width: #{$point-960-starts}) and (min-height: #{$point-960-starts})';
 
 $mq-append-retina-dpr: '(-webkit-min-device-pixel-ratio: 1.3)';
 $mq-append-retina-resolution: '(min-resolution: 124.8dpi)';
