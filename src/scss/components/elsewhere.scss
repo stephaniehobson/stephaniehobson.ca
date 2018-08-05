@@ -16,24 +16,33 @@
         text-align: center;
     }
 
+    span {
+        display: block;
+        font-size: 0.8rem;
+    }
+
     a img {
         height: 32px;
         width: 32px;
         -moz-transition: -webkit-transform 0.1s ease-out;
         -webkit-transition: -webkit-transform 0.1s ease-out;
         transition: -webkit-transform 0.1s ease-out;
+    }
 
+    a {
         &:hover,
         &:focus,
         &:active {
-            -moz-transform: scale(1.5);
-            -moz-transform-origin: 50% 50%;
+            img {
+                -moz-transform: scale(1.5);
+                -moz-transform-origin: 50% 50%;
 
-            -webkit-transform: scale(1.5);
-            -webkit-transform-origin: 50% 50%;
+                -webkit-transform: scale(1.5);
+                -webkit-transform-origin: 50% 50%;
 
-            transform: scale(1.5);
-            transform-origin: 50% 50%;
+                transform: scale(1.5);
+                transform-origin: 50% 50%;
+            }
         }
     }
 }
