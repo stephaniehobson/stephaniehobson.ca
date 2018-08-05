@@ -1,15 +1,13 @@
 @import 'includes/vars';
 @import 'includes/mixins';
 
+@import 'base/elements';
 @import 'base/properties';
-
-@import 'base/elements/document';
-@import 'base/elements/media';
-@import 'base/elements/sectioning';
-@import 'base/elements/typography';
 
 @import 'components/elsewhere';
 @import 'components/footer';
 @import 'components/header';
 @import 'components/post';
 @import 'components/slideshare';
+
+@import 'utilities/invisible';

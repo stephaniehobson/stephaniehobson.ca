@@ -1,15 +1,72 @@
-$text: #222;
-$bg: #FDFDFD;
-$link-text: #A00;
+/*
+colors
+====================================================================== */
 
-$font-family-body: 'Lucida Grande', verdana, arial, sans-serif;
+$color-text: #222222;
+$color-border: $color-text;
+$color-background: #FDFDFD;
+$color-link: #AA0000;
 
-$max-width: 60ch;
+/*
+typography
+====================================================================== */
+$heading-font-family: 'Lucida Grande', verdana, arial, sans-serif;
+$heading-line-height: 1.5;
+$body-font-family: 'Lucida Grande', verdana, arial, sans-serif;
+$body-line-height: 2.1;
 
-$border-width: 1px;
+/*
+breakpoints & media queries
+====================================================================== */
 
-$padding-width: var(--grid-value);
+$point-320: 480 / 16 * 1em;
+$point-480: 480 / 16 * 1em;
+$point-680: 680 / 16 * 1em;
+$point-960: 960 / 16 * 1em;
+$point-1200: 1200 / 16 * 1em;
+
+$point-320-starts: $point-320;
+$point-480-starts: $point-480;
+$point-680-starts: $point-680;
+$point-960-starts: $point-960;
+$point-1200-starts: $point-1200;
+
+// some browsers treat printed page as 670px wide, some don't
+// by specifying print explicitly we get consistant behaviour for print
+$mq-320-and-up: 'print, all and (min-width: $point-320-starts)';
+$mq-480-and-up: 'print, all and (min-width: $point-480-starts)';
+$mq-680-and-up: 'print, all and (min-width: $point-680-starts)';
+$mq-960-and-up: 'screen and (min-width: $point-960-starts)';
+$mq-1200-and-up: 'screen and (min-width: $point-1200-starts)';
+
+$mq-tall: 'screen and (min-width: $960-starts) and (min-height: $960-starts)';
+
+$mq-append-retina-dpr: '(-webkit-min-device-pixel-ratio: 1.3)';
+$mq-append-retina-resolution: '(min-resolution: 124.8dpi)';
+
+/*
+spacing units
+====================================================================== */
 
 $grid: var(--grid-value);
+$padding-width: var(--grid-value);
+$border-width: 1px;
+$divider: 1px solid $color-text;
 
-$divider: 1px solid $text;
+/*
+animation
+====================================================================== */
+$transition-duration: 0.3s;
+$transition-timing: ease-in;
+
+/*
+selectors
+====================================================================== */
+$selector-icon: 'i[class^="icon-"]';
+
+
+/*
+paths
+====================================================================== */
+$path-to-assets: '/assets/';
+$path-to-fonts: '/assets/fonts/';

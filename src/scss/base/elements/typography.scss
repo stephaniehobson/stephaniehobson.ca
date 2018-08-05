@@ -1,6 +1,13 @@
 @import '../../includes/vars';
 @import '../../includes/mixins';
 
+/*
+  - fonts are in rems
+  - fonts jump in size on larger monitors
+  - fonts related to grid?
+  - 10, 11, 12, 14, 16, 18, 21, 24, 36, 48, 60, 72
+*/
+
 h1 {
     font-size: 26px;
     line-height: 36px;
@@ -61,14 +68,14 @@ blockquote {
 }
 
 a {
-    color: #AA0000;
+    color: $color-link;
     font-weight: bold;
     text-decoration: none;
 
     &:hover,
     &:focus,
     &:active {
-        color: #AA0000;
+        color: $color-link;
         text-decoration: underline;
     }
 }

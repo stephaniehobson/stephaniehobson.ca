@@ -1,0 +1,54 @@
+/*
+====================================================================== */
+%clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/*
+====================================================================== */
+%a11y-hidden {
+    position: absolute !important; /* stylelint-disable-line declaration-no-important */
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding: 0;
+    border: 0;
+}
+
+/*
+====================================================================== */
+
+/* stylelint-disable */
+%print-no {
+    @media print {
+        display: none !important;
+    }
+}
+
+%print-plain {
+    @media print {
+        background: #ffffff !important;
+        color: #000000 !important;
+        text-shadow: none !important;
+    }
+}
+
+%print-wide {
+    @media print {
+        max-width: 100% !important;
+    }
+}
+
+%print-section {
+    @media print {
+        padding: 20px 0 !important;
+        border-bottom: 2px solid #000 !important;
+    }
+}
+/* stylelint-enable */

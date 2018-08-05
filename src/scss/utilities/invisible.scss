@@ -1,0 +1,5 @@
+@import '../includes/extends';
+
+.invisible {
+    @extend %a11y-hidden;
+}
