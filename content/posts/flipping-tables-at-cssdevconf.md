@@ -2,16 +2,18 @@
 title: Flipping Tables at CSSDevConf
 tags:
   - conference
-  - web design
+  - presentation
+  - slides
 id: 779
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2017-10-10 14:50:03
 ---
 
-Here are [my slides for Flipping Tables: Displaying Data on Small Screens](https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-80633870) which I had the pleasure of giving at [CSS Dev Conf](http://2017.cssdevconf.com/).
+Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at [CSS Dev Conf](http://2017.cssdevconf.com/).
+
+{{< slideshare f9ppa6m4uNRzsR "flipping-tables-displaying-data-on-small-screens-80633870" "Flipping Tables: Displaying Data on Small Screens" >}}
+
 
 ## Links I mentioned in my talk
 

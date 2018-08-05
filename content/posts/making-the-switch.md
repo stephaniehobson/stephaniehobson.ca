@@ -1,14 +1,7 @@
 ---
 title: Making the switch
 tags:
-  - computer
-  - excited
-  - fun
-  - hardware
-  - learning
-  - mac
 id: 34
-comment: false
 categories:
   - webdesign
 date: 2007-07-30 23:27:18

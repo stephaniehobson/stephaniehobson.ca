@@ -2,10 +2,6 @@
 title: Maintaining your CSS helps maintain your site
 tags:
   - bcit
-  - code
-  - css
-  - web design
-  - webdesign
 id: 112
 categories:
   - webdesign

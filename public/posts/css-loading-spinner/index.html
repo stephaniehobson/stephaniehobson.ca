@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>CSS Loading Spinner</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-</head>
+<title>CSS Loading Spinner</title>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/main-6fb1063f.css">
+
+
 <body>
-    <main>
-        <article>
-            <h1>CSS Loading Spinner</h1>
+    <header>
+    <div class="header">
+        <a href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200">
+        </a>
+        <h1>
+            
+                <a href="/">Abstract Sequential</a>
+            
+            <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
+        </h1>
+    </div>
+</header>
+
+
+    
+<main>
+    <article itemscope itemtype=http://schema.org/BlogPosting>
+        <h1 itemprop="name headline">CSS Loading Spinner</h1>
+        <p>
+            <span itemprop="author">Stephanie Hobson</span>
+            <time datetime="2011-09-06" itemprop="datePublished">
+                2011 September 06
+        	</time>
+        </p>
+        
+            <ul id="tags">
+                
+                    <li> <a href="https://stephaniehobson.ca/tags/code">code</a> </li>
+                
+            </ul>
+        
+        <div itemprop="articleBody">
             
 
 <p>I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is <a href="http://en.wikipedia.org/wiki/Law_of_the_instrument">my hammer</a>).</p>
@@ -17,7 +48,7 @@
 
 <iframe src="http://stephaniehobson.ca/loading-spinner/" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
 
-<h3 id="the-basic-idea">The basic idea</h3>
+<h2 id="the-basic-idea">The basic idea</h2>
 
 <p>It&rsquo;s one <code>&lt;div&gt;</code> containing 8 <code>&lt;span&gt;</code>s, styled to be little grey lozenges:</p>
 
@@ -68,11 +99,11 @@
 }
 </code></pre>
 
-<h3 id="starting-in-the-middle">Starting in the middle</h3>
+<h2 id="starting-in-the-middle">Starting in the middle</h2>
 
 <p>Did you know that you can provide a <em>negative</em> value for <code>animation-delay</code>? Cool, eh?!?! This means I can make it appear that the animation is beginning in the middle, otherwise the first time it&rsquo;s run it looks funny.</p>
 
-<h3 id="placing-the-spinner">Placing the spinner</h3>
+<h2 id="placing-the-spinner">Placing the spinner</h2>
 
 <p>I added some absolute positioning to the <code>&lt;span&gt;</code>s, so the origin of the transform is at the top left of their parent <code>&lt;div&gt;</code>. This means the spinner fans out from the top left of the <code>&lt;div&gt;</code> and you can absolutely position it to exactly where you want the <em>middle</em> of the spinner.  Handy if you want to place the spinner in the middle of something, like I did.</p>
 
@@ -89,7 +120,7 @@
     ...
 </code></pre>
 
-<h3 id="changing-the-colour">Changing the colour</h3>
+<h2 id="changing-the-colour">Changing the colour</h2>
 
 <p>Changing the colour is as simple as creating a new animation and applying that to your special spinner spans.</p>
 
@@ -98,17 +129,65 @@
 }
 </code></pre>
 
-<h3 id="using-it">Using it</h3>
+<h2 id="using-it">Using it</h2>
 
 <p><a href="http://stephaniehobson.ca/loading-spinner/">Here&rsquo;s the loading spinner</a> with the <code>moz</code> and <code>webkit</code> prefixes. Of course, it only works in browsers that support animation and transforms but there&rsquo;s more and more of those these days.</p>
 
 <p>Also, yes, totally, please use it. <a href="http://twitter.com/stephaniehobson">Tweet me</a> if you make any improvements.</p>
 
-<h3 id="a-little-bit-more">A little bit more</h3>
+<h2 id="a-little-bit-more">A little bit more</h2>
 
 <p>I got a little carried away and made a few <a href="http://stephaniehobson.ca/loading-spinner/other-styles.html">other styles</a>.</p>
 
-        </article>
-    </main>
+        </div>
+        <p><a href="https://stephaniehobson.ca/posts/css-loading-spinner/" itemprop="url">Permalink</a></p>
+    </article>
+</main>
+
+
+    <footer>
+    &copy; Stephanie Hobson. <div class="social social-footer">
+    <ul class="social-list">
+        <li class="social-item">
+            <a class="social-link" href="http://www.flickr.com/people/stephaniehobson/" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/flickr.svg" height="32" width="32">
+                <span class="social-name">Flickr</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://github.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/github.svg" height="32" width="32">
+                <span class="social-name">GitHub</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <span class="social-name">Notist</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/linkedin.svg" height="32" width="32">
+                <span class="social-name">LinkedIn</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/pinboard.svg" height="32" width="32">
+                <span class="social-name">Pinboard</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://twitter.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/twitter.svg" height="32" width="32">
+                <span class="social-name">Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</footer>
+
 </body>
 </html>

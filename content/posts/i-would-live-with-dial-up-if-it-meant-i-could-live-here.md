@@ -2,12 +2,7 @@
 title: I would live with dial up if it meant I could live here.
 tags:
   - accessibility
-  - css
-  - dial up
-  - IE6
-  - slow connection
 id: 42
-comment: false
 categories:
   - webdesign
 date: 2007-12-31 11:00:29

@@ -1,9 +1,6 @@
 ---
 title: Imperfect Pitch
 tags:
-  - copyright
-  - rights
-  - seo
 id: 85
 categories:
   - webdesign

@@ -2,10 +2,7 @@
 title: New site for my favorite client
 tags:
   - accomplishment
-  - css
-  - IE6
 id: 56
-comment: false
 categories:
   - webdesign
 date: 2008-08-14 17:40:06

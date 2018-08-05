@@ -1,13 +1,7 @@
 ---
 title: Stuff I'd like to see Google Reader do
 tags:
-  - bookmarklet
-  - Google
-  - google reader
-  - rss
-  - subsribe
 id: 60
-comment: false
 categories:
   - webdesign
 date: 2008-09-15 16:21:16

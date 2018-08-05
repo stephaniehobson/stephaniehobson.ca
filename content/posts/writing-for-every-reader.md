@@ -1,14 +1,13 @@
 ---
 title: Writing for Every Reader
 tags:
-  - a11y
   - accessibility
   - accomplishment
+  - presentation
+  - slides
 id: 773
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2017-10-08 14:14:11
 ---
 

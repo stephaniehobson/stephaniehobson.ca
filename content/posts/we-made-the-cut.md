@@ -1,13 +1,9 @@
 ---
 title: We made the cut!
 tags:
-  - accomplishment
   - bcit
-  - friends
-  - fun
-  - Google
+  - accomplishment
 id: 39
-comment: false
 categories:
   - personal
 date: 2007-09-04 11:50:43

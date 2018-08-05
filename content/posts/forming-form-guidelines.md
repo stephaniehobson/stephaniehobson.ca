@@ -2,14 +2,7 @@
 title: Forming form guidelines
 tags:
   - bcit
-  - css
-  - firefox
-  - guidelines
-  - nervous
-  - ux
-  - web standards
 id: 31
-comment: false
 categories:
   - webdesign
 date: 2007-06-04 16:36:49

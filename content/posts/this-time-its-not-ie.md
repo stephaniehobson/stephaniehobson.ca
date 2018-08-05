@@ -1,12 +1,7 @@
 ---
 title: This time it's not IE.
 tags:
-  - css
-  - firefox
-  - html
-  - learning
 id: 29
-comment: false
 categories:
   - webdesign
 date: 2007-05-28 13:14:48

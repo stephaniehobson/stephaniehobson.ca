@@ -2,13 +2,7 @@
 title: 'A style tag counts as a :first-child'
 tags:
   - code
-  - css
-  - fix
-  - html
-  - html5
-  - webdesign
 id: 365
-comment: false
 categories:
   - webdesign
 date: 2011-08-24 23:31:09

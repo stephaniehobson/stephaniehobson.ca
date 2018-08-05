@@ -1,174 +1,839 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta name="generator" content="Hugo 0.40.3" />
-    <title>My New Hugo Site</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-</head>
+<title>Abstract Sequential</title>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/main-6fb1063f.css">
+
+<link rel="alternate" type="application/rss+xml" href="https://stephaniehobson.ca/index.xml" title="Abstract Sequential" />
+
 <body>
-    <main>
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/how-we-rebuilt-the-viewsourceconf-org-website/">
-                        How we rebuilt the viewsourceconf.org website
-                    </a>
-                </h1>
-                This article was originally published on Mozilla’s Hacks Blog.
-As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.
-The View Source Conference website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.
-                <a href="http://example.org/posts/how-we-rebuilt-the-viewsourceconf-org-website/">
-                    Read the full article
+    <header>
+    <div class="header">
+        <a href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200">
+        </a>
+        <h1>
+            
+                Abstract Sequential
+            
+            <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
+        </h1>
+    </div>
+</header>
+
+
+    
+<div class="social social-header">
+    <ul class="social-list">
+        <li class="social-item">
+            <a class="social-link" href="http://www.flickr.com/people/stephaniehobson/" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/flickr.svg" height="32" width="32">
+                <span class="social-name">Flickr</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://github.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/github.svg" height="32" width="32">
+                <span class="social-name">GitHub</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <span class="social-name">Notist</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/linkedin.svg" height="32" width="32">
+                <span class="social-name">LinkedIn</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/pinboard.svg" height="32" width="32">
+                <span class="social-name">Pinboard</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://twitter.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/twitter.svg" height="32" width="32">
+                <span class="social-name">Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<main>
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/">
+                    How we rebuilt the viewsourceconf.org website
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/flipping-tables-at-cssdevconf/">
-                        Flipping Tables at CSSDevConf
-                    </a>
-                </h1>
-                 Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
-Links I mentioned in my talk  Rob Weychert&rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&rsquo;s browser compat data in JSON  
-                <a href="http://example.org/posts/flipping-tables-at-cssdevconf/">
-                    Read the full article
+            </h1>
+            
+
+<p><em>This article was originally published on Mozilla’s <a href="https://hacks.mozilla.org/2017/10/how-we-rebuilt-the-viewsourceconf-org-website/">Hacks Blog</a>.</em></p>
+
+<p>As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.</p>
+
+<p>The <a href="http://viewsourceconf.org/">View Source Conference</a> website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</p>
+
+<p>Here are a few highlights of the architectural decisions we made to make the site faster, more secure, and more reliable.</p>
+
+<h2 id="a-static-site">A Static Site</h2>
+
+<p>When a user requests a page from a CMS (content management system) like Wordpress the server puts it together from databases and templates. This takes the server a small amount of time. When a site is built on request like this we call it a &ldquo;dynamic&rdquo; website.</p>
+
+<p>When a user requests a page from a static site the server only has to find and serve one file. It’s faster and takes fewer resources. We used a <a href="https://www.sitepoint.com/7-reasons-use-static-site-generator/">static site generator</a> to generate our files before transferring them to the server.</p>
+
+<p>Static files are also easier to copy than dynamic sites, this means we can copy our static site to different CDNs (content delivery networks) around the world. Getting our content closer to our users is a very effective way to reduce <a href="https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/">latency</a> which is one of the biggest hurdles to delivering a site fast.</p>
+
+<h2 id="offline-first">Offline First</h2>
+
+<p>A <a href="https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers">service worker</a> is JavaScript that runs in a browser but not as part of a page. The most common use for service workers is to watch network requests and respond instead of the server.</p>
+
+<p>I wanted to be sure the conference attendees would have access to the event schedule, even if they didn’t have wifi. So, when a user arrives on the site, browsers that support service workers automatically cache the conference schedule.</p>
+
+<p>If the user returns to the site without a network connection the service worker will reply to the request with the cached schedule.</p>
+
+<p>I am very grateful for the documentation published by <a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom">The Guardian</a>, <a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom">Jeremy Keith</a>, and  others who are already using Service Workers.</p>
+
+<h2 id="mobile-first">Mobile First</h2>
+
+<p>When responsive web design first became the norm, the industry standard was to serve the full desktop site to all browsers with a bunch of extra code telling mobile browsers which pieces to remove to make the simplified mobile version. With the spread of mobile came the  <a href="https://www.lukew.com/ff/entry.asp?1137">Mobile First</a> development approach. Mobile first delivers the content and code for the mobile version of a site first and then the larger more powerful desktop computers do the work of creating a better large screen experience.</p>
+
+<p>The View Source Conf site starts as a minimal mobile-friendly version. Then <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries">media queries in CSS</a> and <a href="https://hacks.mozilla.org/2012/06/using-window-matchmedia-to-do-media-queries-in-javascript/">media queries in JavaScript</a> add more complicated layout instructions for larger screens.</p>
+
+<h2 id="svg">SVG</h2>
+
+<p>I used inline <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>s for the logo and icons. They look crisper on retina screens and, because they’re inline, don’t require any extra assets to download. Inlining also meant that I could <a href="https://css-tricks.com/cascading-svg-fill-color/">change the logo’s colour</a> in our print styles. It was my first time <a href="https://www.sitepoint.com/tips-accessible-svg/">creating accessible SVGs</a>.</p>
+
+<h2 id="no-script">No Script</h2>
+
+<p>All the content and functionality on the View Source site works with JavaScript disabled. Instead of sending shims and polyfills to older browsers to make them handle newer JavaScript features, we support those browsers by telling them not to load the JavaScript at all.</p>
+
+<p>This meant we could write modern JavaScript! It also simplified testing. Less capable browsers just get functional, readable content, with no chance for odd JavaScript errors.</p>
+
+<p>This isn’t a new idea, it’s <a href="https://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> combined with the <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">BBC News’ “Cut the Mustard” test</a>.</p>
+
+<h2 id="https">HTTPS</h2>
+
+<p><a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https">HTTPS protects the privacy and security of your users</a> and with <a href="https://letsencrypt.org/">Let’s Encrypt</a> it’s free. You can tell browsers to only load your site over HTTPS with the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security"><code>Strict-Transport-Security</code> header</a>.</p>
+
+<h2 id="do-not-track">Do Not Track</h2>
+
+<p>We use Google Analytics to measure site traffic and try to improve our conversion rates but we respect the privacy of users visiting with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track</a> enabled. By <a href="http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/">detecting Do Not Track settings</a> we can avoid serving them the Google Analytics file. If a user has not set Do Not Track but has an ad blocker installed all our code runs without requiring Google Analytics to initialize.</p>
+
+<h2 id="view-source">View Source</h2>
+
+<p>Hear industry leaders speak about topics like web performance, security, reliability, CSS grids and more at the <a href="https://viewsourceconf.org/london-2017/">View Source Conference in London</a> October 27, 2017. See the <a href="https://viewsourceconf.org/london-2017/#schedule">full schedule</a>! Or <a href="https://viewsourceconf.org/berlin-2016/">watch videos of last year&rsquo;s talks</a>.</p>
+
+            <a href="https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/">
+                    Flipping Tables at CSSDevConf
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/writing-for-every-reader/">
-                        Writing for Every Reader
-                    </a>
-                </h1>
-                I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&rsquo;t be the last!
-Here are my slides for Writing for Every Reader.
-Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content. BeeLine Reader, the browser plugin for dyslexics.
-                <a href="http://example.org/posts/writing-for-every-reader/">
-                    Read the full article
+            </h1>
+            
+
+<p>Here are <a href="https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-80633870">my slides for Flipping Tables: Displaying Data on Small Screens</a> which I had the pleasure of giving at <a href="http://2017.cssdevconf.com/">CSS Dev Conf</a>.</p>
+
+<h2 id="links-i-mentioned-in-my-talk">Links I mentioned in my talk</h2>
+
+<ul>
+<li><a href="http://v6.robweychert.com/blog/2017/10/robtober/">Rob Weychert&rsquo;s horror films schedule</a></li>
+<li><a href="https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004">Designing Effective Data Tables</a></li>
+<li><a href="http://understandinggraphics.com/design/data-table-design/">Guidelines for Designing Tables</a></li>
+<li><a href="http://www.darkhorseanalytics.com/blog/clear-off-the-table/">Clear Off the Table</a></li>
+<li><a href="https://github.com/mdn/browser-compat-data">MDN&rsquo;s browser compat data in JSON</a></li>
+</ul>
+
+            <a href="https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/writing-for-every-reader/">
+                    Writing for Every Reader
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/the-mdn-redesign-behind-the-scenes/">
-                        The MDN Redesign “Behind the Scenes”
-                    </a>
-                </h1>
-                This article was originally published on Mozilla&rsquo;s Hacks Blog.
-Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!
-                <a href="http://example.org/posts/the-mdn-redesign-behind-the-scenes/">
-                    Read the full article
+            </h1>
+            
+
+<p>I <a href="http://conf.a11yto.com/talks#writingForEveryReader">recently spoke at #a11yTOConf</a>, a conference by the organizers of the regular <a href="https://www.meetup.com/a11yTO/">a11yTO meet-up</a>. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&rsquo;t be the last!</p>
+
+<div class="slideshare">
+  <div class="slideshare-slides">
+    <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ozEG7wyJ5BvL00" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+  </div>
+  <div class="slideshare-credit">
+    <strong> <a href="https://www.slideshare.net/stephaniehobson/writing-for-every-reader" target="_blank">Writing for Every Reader</a> </strong>
+    from
+    <strong><a href="https://www.slideshare.net/stephaniehobson" target="_blank">Stephanie Hobson</a></strong>
+  </div>
+</div>
+
+
+<p>Here are <a href="https://www.slideshare.net/stephaniehobson/writing-for-every-reader/">my slides for Writing for Every Reader</a>.</p>
+
+<h2 id="resources-i-mentioned">Resources I mentioned:</h2>
+
+<ul>
+<li><a href="http://www.hemingwayapp.com/">Hemingway App</a>, the app that helps improve the readability of your content.</li>
+<li><a href="http://beelinereader.com/">BeeLine Reader</a>, the browser plugin for dyslexics.</li>
+</ul>
+
+<h2 id="articles-that-were-helpful-to-me">Articles that were helpful to me:</h2>
+
+<ul>
+<li><a href="http://webaim.org/articles/cognitive/">Cognitive Disabilities</a>, an introduction by WebAIM.</li>
+<li><a href="http://csskarma.com/blog/dyslexia-typography">Dyslexia and Typography</a></li>
+<li><a href="https://axesslab.com/fonts-dont-matter/">Fonts don&rsquo;t matter</a></li>
+<li><a href="https://www.nngroup.com/articles/chunking/">How Chunking Helps Content Processing</a></li>
+<li><a href="https://www.nngroup.com/articles/legibility-readability-comprehension/">Legibility, Readability, and Comprehension: Making Users Read Your Words</a></li>
+<li><a href="https://github.com/UKHomeOffice/posters">Accessibility posters</a> by the UK Home Office.</li>
+</ul>
+
+<h2 id="more-on-accessibility">More on accessibility:</h2>
+
+<ul>
+<li><a href="http://adrianroselli.com/2017/06/slides-from-wordcamp-europe.html">Selfish Accessibility</a> by Adrian Roselli got mentioned in a few different talks. It&rsquo;s well worth watching.</li>
+</ul>
+
+            <a href="https://stephaniehobson.ca/posts/writing-for-every-reader/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/">
+                    The MDN Redesign “Behind the Scenes”
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/http2-on-mdn/">
-                        HTTP/2 on MDN
-                    </a>
-                </h1>
-                This article was originally published on the Mozilla Marketing Engineering &amp; Operations blog.
-We enabled HTTP/2 on MDN&rsquo;s CDN.
-We didn&rsquo;t do anything to optimize for HTTP/2, we just enabled it.
-We&rsquo;re seeing performance improvements.
-You don&rsquo;t have to get ready before you start using HTTP/2 While doing research to see if turning it on without doing any optimizations was a good idea I read things like:
- &ldquo;It also means that all of those HTTP1 performance techniques are harmful.
-                <a href="http://example.org/posts/http2-on-mdn/">
-                    Read the full article
+            </h1>
+            
+
+<p><em>This article was originally published on Mozilla&rsquo;s <a href="https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/">Hacks Blog</a>.</em></p>
+
+<p><a href="https://github.com/mozilla/kuma">Kuma</a>, the code that produces the <a href="https://developer.mozilla.org/en-US/">MDN</a> site, is a weird mix of the old and the new. <a href="https://developer.mozilla.org/en-US/docs/MDN_at_ten">MDN turned ten</a> in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was <a href="https://github.com/mozilla/kuma/pull/4254">remove the last few traces of the last redesign</a>. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support! <a href="https://mozilla.github.io/meao/2017/06/26/http2/">We enabled http2</a>, and 98% of our users have seen benefits from that.</p>
+
+<p>One of the ways we deal with old code in kuma is with the campsite rule: <em>Always leave your campsite better than you found it</em>. A redesign touches a lot of files, and this was a great opportunity to clean up and refactor — at least until the deadline started getting close.</p>
+
+<p>A redesign is also a great time to change stuff you’re afraid of breaking. People are more understanding of you working the bugs out of something new than breaking something that’s worked for years. I removed 640 lines of stale code during the redesign. (And if I broke a six-year-old XPCOM tutorial you use daily by removing the custom list-style-type, please <a href="https://bugzilla.mozilla.org/enter_bug.cgi?format=guided#h=dupes|Mozilla%20Developer%20Network|">file a bug</a>!)</p>
+
+<h2 id="one-website-with-two-looks">One website with two looks</h2>
+
+<p>Rather than working on the CSS for the redesign in a separate “redesign” folder, we duplicated all the files and added “-old” to the file name of the old files, which means that all of our redesign work is happening in the “official” files. This preserves the git history and means we don’t have to move anything around after launch. Once we’re happy with the code, we can delete the “-old” files with confidence.</p>
+
+<p>To serve the new styles to our beta testers and the “-old” ones to everyone else, we use <a href="https://github.com/jsocol/django-waffle">Django Waffle</a>. Waffle can also be used to serve different content but because there’s a strong separation of presentation and content on MDN, we’ve made very few changes to the HTML.</p>
+
+<h2 id="bugs-our-beta-testers-found">Bugs our beta testers found</h2>
+
+<p>MDN is <em>huge</em>, and we can’t test every page in every locale. We’re really lucky to have active beta testers. :) Some of the biggest things they turned up for us were:</p>
+
+<h3 id="highlighting">Highlighting</h3>
+
+<p><img src="http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/10/vi.png" alt="Problems with Zilla Highlight in Vietnamese and when there&amp;#039;s inline code examples." /></p>
+
+<p>We started out by replicating Mozilla’s brand “highlight” effect by using the Zilla Slab Highlight font, but we abandoned that pretty quickly when problems turned up in many <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375831">of</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375917">our</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375879">locales</a> and when used in combination with inline code.</p>
+
+<p>The current approach puts a full-width black background on h3 and h4 headings by default, and then some JavaScript runs to add a <code>&amp;lt;span&amp;gt;</code> tag so that the black background hugs the heading text. Progressive enhancement at work.</p>
+
+<p>We went back and forth about this for a while, wondering if the JavaScript and extra <code>&amp;lt;span&amp;gt;</code> was worth the effort. But we stuck with it because it makes the h3 and h4 headings much easier to spot when scanning the page.</p>
+
+<h3 id="what-s-taiwanese-for-slab-serif">What’s Taiwanese for Slab Serif?</h3>
+
+<p><img src="http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/10/taiwanese.png" alt="Showing the difference between Zilla&amp;#039;s thick strokes and the thin strokes of Taiwanese." /></p>
+
+<p>Previously we used Open Sans as our heading text. With the redesign, we switched to Zilla Slab. Open Sans was thin and an average height for a font. It didn’t look out of place next to the system fallbacks for Chinese or Japanese characters.</p>
+
+<p>Zilla is big and thick, and we started getting feedback about the contrast with these system fallbacks. Additionally, the character set for Zilla is European Latin only at the moment, so Vietnamese, which uses Latin characters plus a couple Latin characters not used in Europe, displayed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379259">font fallbacks in the middles of words</a>.</p>
+
+<p>To address both these problems, we implemented a system that allowed us to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379259">override the site fonts on a per-locale basis</a>.</p>
+
+<h3 id="contrast">Contrast</h3>
+
+<p>We received many complaints about the old design’s low-contrast display. We went a bit too far the other way with this design and received complaints about the high contrast. We’ve toned it down to the ever-popular <code>#333</code> now.</p>
+
+<h2 id="what-s-next">What’s next</h2>
+
+<p>We’re moving on from this to make specific improvements to the article pages:</p>
+
+<ul>
+<li>Putting code samples high on the page; our hard-working writers and volunteers are doing this, one page at a time.</li>
+<li>A better approach to readable line-lengths and wide code examples, inspired by the Hacks Blog theme.</li>
+<li>Compatibility tables that display desktop and mobile data side by side.</li>
+<li>Code samples you can experiment with in the page.</li>
+</ul>
+
+<h2 id="who-is-we">Who is “we”?</h2>
+
+<p>The MDN dev team is:</p>
+
+<ul>
+<li><strong>Stephanie Hobson</strong>, me, CSS-Pre-Pre-Processor</li>
+<li><strong>Schalk Neethling</strong>, who reviewed each of my 30+ pull requests in ALL THE BROWSERS, sometimes multiple times</li>
+<li><strong>John Whitlock</strong>, who did the awesome <a href="https://github.com/mozilla/kuma/pull/4303#issue-241394205">locale fallbacks</a></li>
+<li><strong>Ryan Johnson</strong>, who always asks “Why not?” when John and I say things can’t be done.</li>
+</ul>
+
+<p>We blog sporadically on the <a href="https://mozilla.github.io/meao/2017/07/06/kuma-report/">Mozilla Marketing Engineering &amp; Operations blog</a>.</p>
+
+<p>You should also read this blog post by our Product Manager, Kadir Topal, about <a href="https://blog.mozilla.org/opendesign/future-mdn-focus-web-docs/">The Future of MDN</a>.</p>
+
+            <a href="https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/http2-on-mdn/">
+                    HTTP/2 on MDN
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/flipping-more-tables/">
-                        Flipping More Tables
-                    </a>
-                </h1>
-                A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
-The video of my talk has been posted: 
-And my slides are available here.
-                <a href="http://example.org/posts/flipping-more-tables/">
-                    Read the full article
+            </h1>
+            
+
+<p><em>This article was originally published on the <a href="https://mozilla.github.io/meao/2017/06/26/http2/">Mozilla Marketing Engineering &amp; Operations blog</a>.</em></p>
+
+<p>We enabled HTTP/2 on MDN&rsquo;s CDN.</p>
+
+<p>We didn&rsquo;t do anything to optimize for HTTP/2, we just enabled it.</p>
+
+<p>We&rsquo;re seeing performance improvements.</p>
+
+<h2 id="you-don-t-have-to-get-ready-before-you-start-using-http-2">You don&rsquo;t have to get ready before you start using HTTP/2</h2>
+
+<p>While doing research to see if turning it on without doing any optimizations was a good idea I read things like:</p>
+
+<blockquote>
+<p>&ldquo;It also means that all of those HTTP1 performance techniques are harmful.  They will make a HTTP2 website slower, not faster - don&rsquo;t use them.&rdquo; - <a href="https://mattwilcox.net/web-development/http2-for-front-end-web-developers">HTTP2 for front-end web developers</a></p>
+</blockquote>
+
+<p>And:</p>
+
+<blockquote>
+<p>&ldquo;However, many of the things you think of as being best practices can be detrimental to performance under HTTP/2.&rdquo; - <a href="https://www.smashingmagazine.com/2016/02/getting-ready-for-http2/">Getting Ready For HTTP2: A Guide For Web Designers And Developers</a></p>
+</blockquote>
+
+<p>Which suggest that enabling HTTP/2 on a site optimized for HTTP/1.1 could result in a slower site.</p>
+
+<p>A better way to interpret those quotes is:</p>
+
+<blockquote>
+<p>If you optimize for HTTP/1.1 and turn on HTTP/2 your site will not be as fast as it could be - but it might still be faster!</p>
+</blockquote>
+
+<p>On MDN we concatenate a lot of our files but we don&rsquo;t concatenate all of them. For example, our article pages have 9 different files coming from our CDN. I thought we could benefit from a bit of HTTP/2&rsquo;s multiplexing and header compression. And we did. You can see the DNS lookup time drop off in this waterfall from <a href="https://tools.pingdom.com/">Pingdom</a>:</p>
+
+<p><img src="http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/07/waterfall_before.png" alt="Waterfall showing over 0.3s of DNS look up for each request." /></p>
+
+<p><img src="http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/07/waterfall_after.png" alt="Waterfall showing DNS lookup for only first asset requested." /></p>
+
+<h2 id="some-numbers">Some numbers</h2>
+
+<p>Overall, our tests don&rsquo;t show a huge improvement in page load speed but there are small improvements for everyone, and a real improvement for users located far away from our servers. (Hi Australia and China!)</p>
+
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Location</th>
+<th>Browser</th>
+<th align="right">HTTP/1.1</th>
+<th align="right">HTTP/2</th>
+<th>Change</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://tools.pingdom.com/">Pingdom</a></td>
+<td>Dallas</td>
+<td>Chrome</td>
+<td align="right">1.54s</td>
+<td align="right">1.34s</td>
+<td>0.2s</td>
+</tr>
+
+<tr>
+<td><a href="https://tools.pingdom.com/">Pingdom</a></td>
+<td>Melbourne</td>
+<td>Chrome</td>
+<td align="right">2.94s</td>
+<td align="right">2.80s</td>
+<td>0.14s</td>
+</tr>
+
+<tr>
+<td><a href="http://www.webpagetest.org/">WebPageTest</a></td>
+<td>London</td>
+<td>IE11</td>
+<td align="right">2.39s</td>
+<td align="right">2.37s</td>
+<td>0.02s</td>
+</tr>
+
+<tr>
+<td><a href="http://www.webpagetest.org/">WebPageTest</a></td>
+<td>Australia</td>
+<td>Firefox</td>
+<td align="right">5.61s</td>
+<td align="right">5.17s</td>
+<td>0.44s</td>
+</tr>
+
+<tr>
+<td>Google Analytics</td>
+<td>All</td>
+<td>Chrome</td>
+<td align="right">3.74s</td>
+<td align="right">3.04s</td>
+<td>0.7s</td>
+</tr>
+
+<tr>
+<td>Google Analytics</td>
+<td>All</td>
+<td>Firefox</td>
+<td align="right">3.99s</td>
+<td align="right">3.71s</td>
+<td>0.28s</td>
+</tr>
+
+<tr>
+<td>Google Analytics</td>
+<td>Australia</td>
+<td>All</td>
+<td align="right">3.01s</td>
+<td align="right">1.69s</td>
+<td>1.32s</td>
+</tr>
+
+<tr>
+<td>Google Analytics</td>
+<td>China</td>
+<td>All</td>
+<td align="right">8.10s</td>
+<td align="right">6.69s</td>
+<td>1.41s</td>
+</tr>
+</tbody>
+</table>
+
+<p>I tried to segment our users in Google Analytics to make sure we did not have a negative impact on users relying on HTTP/1.1 and&hellip; I couldn&rsquo;t find enough users to draw any conclusions. MDN is lucky like that. (It&rsquo;s possible the IE11 test in the table above is on Windows 7 and does not support HTTP/2, but WebPageTest doesn&rsquo;t identify the OS.) In theory, older browsers should not be affected because the protocol falls back to HTTP/1.1.</p>
+
+<p>There was a lot of variation in the page speed data I examined. I recommend running your before and after benchmark tests multiple times on multiple days so you can take an average. Try to wait a week before drawing conclusions from your analytics data as well.</p>
+
+<p>In a perfect world you don&rsquo;t increase the amount of code on your site or invalidate anyone&rsquo;s caches in the sample time period, but we don&rsquo;t develop in a perfect world.</p>
+
+<h2 id="read-more-on-http-2">Read more on HTTP/2</h2>
+
+<ul>
+<li><a href="https://mattwilcox.net/web-development/http2-for-front-end-web-developers">HTTP2 for front-end web developers</a></li>
+<li><a href="https://www.smashingmagazine.com/2016/02/getting-ready-for-http2/">Getting Ready For HTTP2: A Guide For Web Designers And Developers</a></li>
+<li><a href="https://blog.cloudflare.com/http-2-for-web-developers/">HTTP/2 For Web Developers</a></li>
+</ul>
+
+<h2 id="next">Next</h2>
+
+<p><strong>Get our pages into data centres around the world.</strong></p>
+
+<p>This involves changing our hosting services, not a small task, and changing our pages to serve the same content to all logged out users.</p>
+
+<p><strong>Decrease asset size by removing support for older browsers.</strong></p>
+
+<p>If you think working on MDN was a great job because we have very modern browser support requirements, remember we&rsquo;re also working on a <a href="https://developer.mozilla.org/en-US/docs/MDN_at_ten/History_of_MDN">10 year old code base</a>.</p>
+
+<p>Thanks for using MDN!</p>
+
+            <a href="https://stephaniehobson.ca/posts/http2-on-mdn/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/flipping-more-tables/">
+                    Flipping More Tables
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/google-analytics-privacy-and-event-tracking/">
-                        Google Analytics, Privacy, and Event Tracking
-                    </a>
-                </h1>
-                This article was originally published on the Mozilla Hacks blog.
-Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.
-Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet.
-                <a href="http://example.org/posts/google-analytics-privacy-and-event-tracking/">
-                    Read the full article
+            </h1>
+            <p>A few weeks ago I gave my talk on displaying data tables on small screens at <a href="http://2016.cascadiafest.org/">Cascadia Fest</a>. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)</p>
+
+<p>The video of my talk has been posted:
+<div class="youtube">
+  <iframe width="500" height="281" src="https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</p>
+
+<p>And <a href="http://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608">my slides are available here</a>.</p>
+
+            <a href="https://stephaniehobson.ca/posts/flipping-more-tables/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/">
+                    Google Analytics, Privacy, and Event Tracking
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/flipping-tables/">
-                        Flipping Tables
-                    </a>
-                </h1>
-                I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&rsquo;t recommend enough.
-Here are my slides, though the video and animated gifs don&rsquo;t play :(
- ** [Flipping Tables: Displaying Data on Small Screens](//www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens "Flipping Tables: Displaying Data on Small Screens") ** from **[Stephanie Hobson](//www.slideshare.net/stephaniehobson)**  Download the slides.
-                <a href="http://example.org/posts/flipping-tables/">
-                    Read the full article
+            </h1>
+            
+
+<p><em>This article was <a href="https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/">originally published on the Mozilla Hacks blog</a>.</em></p>
+
+<p>Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.</p>
+
+<p>Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet. Not everyone is comfortable with that. Some people have started taking steps to protect their privacy by installing ad blockers like Ghostery or enabling <a href="https://blog.mozilla.org/blog/2015/11/03/firefox-now-offers-a-more-private-browsing-experience/">tracking protection in Firefox</a>.</p>
+
+<p>I think this is great!</p>
+
+<h2 id="sometimes-this-breaks-things">Sometimes this breaks things</h2>
+
+<p>When code depends on these third-party services and they&rsquo;re not there stuff goes wrong.</p>
+
+<p>I&rsquo;m going to use tracking external links as my example because it&rsquo;s a common use case, but I started investigating this problem because we accidentally broke the ability to navigate <abbr title="For certain edge cases, it's not as bad as it sounds.">within</abbr> our <a href="https://developer.mozilla.org/">website</a> for users who were choosing not to load the GA script.</p>
+
+<p>I&rsquo;m also going to use the universal analytics tracking code (analytics.js) for my examples here, not the classic analytics code (ga.js), so if you notice some differences between my code and yours that might be why.</p>
+
+<h2 id="what-goes-wrong">What goes wrong?</h2>
+
+<p>The current method (Jan 2016) for <a href="https://support.google.com/analytics/answer/1136920?hl=en">tracking outbound links</a> as recommended by Google looks like this:</p>
+
+<pre><code>&amp;lt;a href=&amp;quot;http://www.example.com&amp;quot;
+    onclick=&amp;quot;trackOutboundLink('http://www.example.com'); return false;&amp;quot;&amp;gt;
+        Check out example.com
+&amp;lt;/a&amp;gt;`&lt;/pre&gt;
+
+&lt;pre&gt;`var trackOutboundLink = function(url) {
+    ga('send', 'event', 'outbound', 'click', url, {
+        'transport': 'beacon',
+        'hitCallback': function(){document.location = url;}
+    });
+}
+</code></pre>
+
+<p>What Google is recommending here is:</p>
+
+<ol>
+<li>add <code>return false</code> to your links so that clicking on them doesn&rsquo;t take the user off the page</li>
+<li>when a user clicks a link, add that click to the GA queue of events to track and tell GA to take the user to the new page after that is done</li>
+<li>GA processes the event</li>
+<li>GA triggers the callback, taking the user to the new page</li>
+</ol>
+
+<p>This guarantees that the user doesn&rsquo;t leave the site before their action is recorded. However, if GA fails to process the event&hellip; it never triggers the callback, breaking all links off the website. :(</p>
+
+<p>We are relying on GA to send the user to the new page, but what if the GA code never executes?</p>
+
+<h2 id="how-we-can-avoid-problems">How we can avoid problems</h2>
+
+<p>If you&rsquo;re using the current recommended method of adding GA to your site you&rsquo;re including something like this on all your pages:</p>
+
+<pre><code>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-xxxxx-x', 'auto');
+ga('send', 'pageview');
+</code></pre>
+
+<p>This snippet creates a global <code>ga</code> object. The <code>ga</code> object is available in JavaScript whether the rest of the script successfully loads from Google or not.</p>
+
+<p>This means two things:</p>
+
+<ol>
+<li>It is possible to add events to the queue before GA has loaded. (Cool! This is handy for tracking events that happen really quickly.)</li>
+<li>We can&rsquo;t check if GA has loaded by checking for the existence of the <code>ga</code> object <a href="http://ejohn.org/blog/fixing-google-analytics-for-ghostery/">like we used to</a> because it&rsquo;s always there.</li>
+</ol>
+
+<p>So how do we know if GA has loaded? Well, clever people have figured out that when it initializes, GA alters the global <code>ga</code> object in a few different ways. None of these changes are officially documented by Google which means any of them could break in the long term.</p>
+
+<p>In <a href="http://veithen.github.io/2015/01/24/outbound-link-tracking.html">Tracking outbound links with Google Analytics</a>, Andreas Veithen (who works at Google but was writing on his personal blog) suggests that the most reliable check is to see if the <code>ga</code> object still has the <code>q</code> array. The array is removed after GA initializes and processes all the events waiting in the <code>ga.q</code> queue. Because <code>ga.q</code> is created by the snippet we paste on our sites, changing it would require us to make changes to our websites and so would be a major change for Google to undertake. On the other hand, it would also be possible for Google to change their code to not remove <code>ga.q</code> so I&rsquo;m not sure this is more reliable than any other method.</p>
+
+<p>In <a href="http://supergeekery.com/geekblog/comments/google-analytics-ghostery-and-event-tracking">Google Analytics, Ghostery, and Event Tracking</a> John Morton suggests checking for the <code>create</code> property on the <code>ga</code> object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).</p>
+
+<p>In <a href="https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js">Workaround for when the hitCallback function does not receive a response (analytics.js)</a>, Dom Sammut observes that we can check for the <code>loaded</code> property on the <code>ga</code> object. This is a method used informally in <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click">some Google documentation</a> so it&rsquo;s probably also somewhat reliable. I like this one because it is obvious what we&rsquo;re checking for.</p>
+
+<p>Opting for the last method, we alter Google&rsquo;s suggested code like so:</p>
+
+<pre><code>var trackOutboundLink = function(url) {
+    // check if the GA object exists and that it has initialized
+    if(window.ga &amp;&amp; ga.loaded) { {
+        // if yes, rely on GA to follow link
+        ga('send', 'event', 'outbound', 'click', url, {
+            'transport': 'beacon',
+            'hitCallback': function(){document.location = url;}
+        });
+    } else {
+        // if not, follow link ourselves
+        document.location = url;
+    }
+}
+</code></pre>
+
+<p><strong>Making this kind of check before relying on <em>any</em> third-party script is good practice.</strong> You should also be <a href="http://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/">including a local fallback for any script that is not coming from your own domain</a> - including CDNs.</p>
+
+<h2 id="respecting-our-users-privacy">Respecting our users&rsquo; privacy</h2>
+
+<p><a href="http://www.pewinternet.org/2015/05/20/americans-views-about-data-collection-and-security/">Most users care about their privacy</a> and there are more steps we can take to protect it. Depending on where you work you may also be required by your country&rsquo;s laws or your company’s privacy policy to take extra care with users’ data.</p>
+
+<h3 id="configuring-google-analytics-for-privacy">Configuring Google Analytics for privacy</h3>
+
+<p>If Google Analytics is your analytics platform of choice, there are <a href="http://gu.illau.me/posts/privacy-and-google-analytics/">a number of steps you can take to make it more private</a>.</p>
+
+<p>One of these is an easy configuration option to request anonymized user IP addresses. Essentially, <a href="https://support.google.com/analytics/answer/2763052?hl=en">Google Analytics changes the last octet of the user’s IP address to 0 before recording it</a>.</p>
+
+<p>This is triggered by adding an additional line to your tracking snippet after <code>ga('send', 'pageview');</code>.</p>
+
+<pre><code class="language-js">ga('set', 'anonymizeIp', true);
+</code></pre>
+
+<p>Of course, Google still gets the users&rsquo; IP address (that&rsquo;s the way the web works), we&rsquo;re just trusting them not to store it.</p>
+
+<h3 id="respecting-do-not-track-dnt">Respecting Do Not Track (DNT)</h3>
+
+<p>It&rsquo;s also possible to detect when a user has enabled Do Not Track and be pro-active about what scripts you choose to load.</p>
+
+<p>Schalk Neethling documents the process in <a href="http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/">Respect User Choice ~ Do Not Track</a>. In a nutshell, we wrap the GA call with a check to see if the user has enabled DNT before executing the call to include the file.</p>
+
+<pre><code class="language-js">function _dntEnabled() {
+    // include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
+
+}
+// Check the value of DNT before including GA
+if (!_dntEnabled()) {
+    // include the Google Analytics snippet
+}
+</code></pre>
+
+<p>This means that the <code>ga</code> object will not be added to the global scope for our page, but that&rsquo;s okay, the code snippet above handles that case gracefully as well.</p>
+
+<p>Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.</p>
+
+            <a href="https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/flipping-tables/">
+                    Flipping Tables
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/still-making-websites-better-for-everyone/">
-                        (Still) Making Websites Better for Everyone
-                    </a>
-                </h1>
-                In the next few weeks I&rsquo;ll be speaking at JavaScript Open Day Calgary, View Source, and JavaScript Open Day Toronto giving an updated version of Web Accessibility: Making Websites Better for Everyone.
-Edit: videos have been posted for View Source and JavaScript Open Day Toronto. I&rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.
-In my talk I encourage people to try out different assistive technologies themselves:
-                <a href="http://example.org/posts/still-making-websites-better-for-everyone/">
-                    Read the full article
+            </h1>
+            <p>I was very pleased to be invited back to <a href="http://styleandclass.ca/events/2016/coding-mentorship-data/">Style and Class</a> to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&rsquo;t recommend enough.</p>
+
+<p>Here are my slides, though the video and animated gifs don&rsquo;t play :(</p>
+
+<div class="slideshare">
+  <div class="slideshare-slides">
+    <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
+  </div>
+  <div class="slideshare-credit">
+    <strong> <a href="https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens" target="_blank">Flipping Tables: Displaying Data on Small Screens</a> </strong>
+    from
+    <strong><a href="https://www.slideshare.net/stephaniehobson" target="_blank">Stephanie Hobson</a></strong>
+  </div>
+</div>
+
+
+<p>And the links I encouraged everyone to check out:</p>
+
+<ul>
+<li><a href="http://www.behance.net/gallery/Designing-Effective-Data-Tables/885004">Designing Effective Data Tables</a></li>
+<li><a href="http://understandinggraphics.com/design/data-table-design/">Guidelines for Designing Tables</a></li>
+<li><a href="http://www.darkhorseanalytics.com/blog/clear-off-the-table/">Clear Off the Table</a></li>
+</ul>
+
+            <a href="https://stephaniehobson.ca/posts/flipping-tables/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/">
+                    (Still) Making Websites Better for Everyone
                 </a>
-            </article>
-        
-        
-        
-            <article>
-                <h1>
-                    <a href="http://example.org/posts/conference-debrief-an-event-apart-austin-2015/">
-                        Conference Debrief: An Event Apart Austin 2015
-                    </a>
-                </h1>
-                Last week, because working at Mozilla is awesome, I got to attend An Event Apart Austin, the conference put on by the A List Apart organization. It&rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
-The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer.
-                <a href="http://example.org/posts/conference-debrief-an-event-apart-austin-2015/">
-                    Read the full article
+            </h1>
+            <p>In the next few weeks I&rsquo;ll be speaking at <a href="http://jsopencalgary.lighthouselabs.ca/">JavaScript Open Day Calgary</a>, <a href="https://viewsourceconf.org">View Source</a>, and <a href="http://jsopentoronto.lighthouselabs.ca/">JavaScript Open Day Toronto</a> giving an updated version of <a href="http://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone">Web Accessibility: Making Websites Better for Everyone</a>.</p>
+
+<p><strong>Edit:</strong> videos have been posted for <a href="https://air.mozilla.org/stephanie-hobson-web-accessibility-making-websites-better-for-everyone/">View Source</a> and <a href="https://channel9.msdn.com/Events/JS/JavaScript-Open-Day/Web-Accessibility">JavaScript Open Day Toronto.</a> I&rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.</p>
+
+<p>In my talk I encourage people to try out different assistive technologies themselves:</p>
+
+<ul>
+<li><a href="http://www.chromevox.com/">Chrome Vox</a> / <a href="http://www.nvaccess.org/">NVDA</a> (Windows only) / <a href="http://www.apple.com/accessibility/osx/voiceover/">VoiceOver</a> (Mac only)</li>
+<li>Change to a high contrast theme for your operating system or browser</li>
+<li>Take the batteries out of your mouse or keyboard.</li>
+<li>Try using a touch screen or track pad with your nose.</li>
+</ul>
+
+<p>Here are two demo pages that list server status for a fictional hosting company, you should compare the <a href="http://stephaniehobson.ca/demos/hosting_bad.html">bad example</a> to the <a href="http://stephaniehobson.ca/demos/hosting_good.html">good example</a> with one of the technology options listed above.</p>
+
+<p>And here are all the resources I mention in my talk:</p>
+
+<ul>
+<li><a href="http://webaim.org">WebAIM</a></li>
+<li><a href="http://wave.webaim.org">Web Accessibility Evaluation Tool (wave)</a></li>
+<li><a href="http://alistapart.com/article/the-accessibility-of-wai-aria">The Accessibility of WAI-ARIA</a></li>
+<li><a href="http://24ways.org/2009/dont-lose-your-focus/">Don&rsquo;t Lose Your :focus</a></li>
+<li><a href="http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity">Designing Safer Web Animation For Motion Sensitivity</a></li>
+<li><a href="http://filamentgroup.com/lab/bulletproof_icon_fonts.html">Bulletproof Accessible Icon Fonts</a></li>
+<li><a href="http://snook.ca/archives/html_and_css/hiding-content-for-accessibility">Hiding Content for Accessibility</a></li>
+<li><a href="http://www.youtube.com/watch?v=GQKEE9nI1lk">Switch Control Overview</a>(a video about switch control made using a switch control)</li>
+</ul>
+
+            <a href="https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/">
+                Permalink
+            </a>
+        </article>
+    
+    
+    
+        <article>
+            <h1>
+                <a href="https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/">
+                    Conference Debrief: An Event Apart Austin 2015
                 </a>
-            </article>
-        
-        
-    </main>
+            </h1>
+            
+
+<p>Last week, because working at Mozilla is awesome, I got to attend <a href="http://aneventapart.com/event/austin-2015">An Event Apart Austin</a>, the conference put on by the <a href="http://alistapart.com/">A List Apart</a> organization. It&rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.</p>
+
+<p>The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer. The caliber of the attendees is also consistently high. I have great conversations no matter who I sit with at lunch.</p>
+
+<p>Most of these speakers are pros who have done their talks in multiple places so its usually possible to find videos of them online with a bit of Googling, and they might be speaking at a conference near you!</p>
+
+<h2 id="conference-overview">Conference overview</h2>
+
+<p>Designing for performance and designing with empathy were common themes this year and we got good overviews of some exciting CSS and HTML features that will be widely supported in the near future.</p>
+
+<h2 id="my-favourite-talk">My Favourite Talk</h2>
+
+<p>A CSS geek at heart I enjoyed Jen Simmons&rsquo; &ldquo;Modern Layouts: Getting Out of Our Ruts&rdquo; the most. “We&rsquo;re about to see a renaissance in design on the web,&rdquo; she promised at one point and I, for one, will be excited to see more than rectangles on the web. She covered CSS Shapes, Regions, Grid Layout, and the new view-port units, illustrating wonderfully with some really unique examples of layout from <em>gasp</em> print which she advocated we translate (not transfer) to the web. <a href="https://www.youtube.com/watch?v=ZNpn7FBp_9U">A similar version of this talk online if I&rsquo;ve piqued your interest.</a></p>
+
+<h2 id="talk-summaries">Talk Summaries</h2>
+
+<p><strong>Jeffrey Zeldman</strong>
+<em>The Fault, Dear Brutus (or: Career Advice From a Cranky Old Man)</em>
+Zeldman made a compelling argument for quitting your job regularly :P He had some anecdotes about how it is the easiest path to career advancement, and this resonated with my own experience. He said the same could be accomplished by switching teams within an organization and I am glad we have so much sideways movement at Mozilla.</p>
+
+<p><strong>Yesenia Perez-Cruz</strong>
+<em>Design Decisions Through the Lens of Performance</em>
+Yesenia made a clear case for designers needing to take a lot of responsibility for the performance of a website. Designers make decisions about some of the things that add the most weight to our pages: fonts, images, and functionality - before developers ever see them. She said performance budgets should be set and understood as part of the requirements process and designers can be educated to stay within them and enlisted to help communicate with clients about staying within them as well. Great talk +1 would watch again.</p>
+
+<p><strong>Cameron Moll</strong>
+<em>Unified UX</em>
+Cameron talked about how a brand&rsquo;s presence covers more screens than just a desktop and said we should be unifying user experience across browsers, devices, apps, and accounts citing the fact that 40% of all online US users start an activity on one screen and finish on another. He said we should pay attention to form and function (making widgets look and work similarly, respecting our users mental models) and data symmetry (syncing shopping carts, reading places, etc).</p>
+
+<p><strong>Karen McGrane</strong>
+<em>Content in a Zombie Apocalypse</em>
+Like Cameron spoke about the need for a unified UX, Karen spoke about the need for unified content - as much for the organization&rsquo;s benefit as the users&rsquo;. She encouraged us to find ways to create and update content in one place to share across all platforms. She despaired about how poor a tool a WYSIWYG editor is at translating styling decisions into semantic information (It&rsquo;s not a list of links floated to the right with a narrow max width - it&rsquo;s a table of contents!) and hoped for a future with better tools for storing and updating structured text so content doesn&rsquo;t have to be redesigned every time a site is.</p>
+
+<p><strong>Ethan Marcotte</strong>
+<em>Laziness in the Time of Responsive Design</em>
+Ethan, who invented the term responsive web design, encouraged us to avoid the f-word for our sites - frameworks - and encouraged us to solve problems in context, watching to see where content needs adjustments rather than blanket redesigning the experience at different sizes. And he didn&rsquo;t miss the opportunity to tell us hamburger menus are still awful.</p>
+
+<p><strong>Lara Hogan</strong>
+<em>Designing for Performance</em>
+Where Yesenia talked about process improvements for better performance Lara talked about code improvements. She talked in-depth about image compression, font sub-setting (explaining how the infamous 4 and a horse stars review bug occurred), style guides and OOCSS, and ended talking about setting a public performance budget and how to make performance everyone&rsquo;s concern rather than having performance cops.</p>
+
+<p><strong>Eric Meyer</strong>
+<em>Designing for Crisis</em>
+Based on his personal experience sitting in a stranger&rsquo;s car barreling down a highway, racing the med-evac helicopter carrying his young daughter to a hospital in an unfamiliar city, Eric implored us to add a new persona to our design toolbox: a user in crisis. We like to think we&rsquo;re designing for cheerful, calm, with-it users living in the home of the future but we don&rsquo;t get to decide when, where, or how a user will access our sites. He gave examples of how this persona could help the banking, hospital, airline, and insurance industries. And he gave some creative solutions to help us do user testing for these scenarios including using CSS to blur the page, JavaScript to transpose letters in words, or playing the Jeopardy theme song to testers. He encouraged us not to treat these users as edge cases, because defining edge cases defines the limits of what we care about, and we should care about these users. I don&rsquo;t see much potential for an MDN user to be in crisis but it&rsquo;s easy to imagine a Firefox user who just lost all their data or thinks an account of theirs has been hacked could be panicking and not thinking clearly.</p>
+
+<p><strong>Brad Frost</strong>
+<em>Atomic Design</em>
+Pioneer of style guides and pattern libraries, Brad reminded us what these look like and why they are valuable and demoed his open source tool <a href="http://patternlab.io/">patternlab.io</a> for helping to create and maintain them. <a href="http://bradfrost.com/blog/post/atomic-web-design/">He has a great system, you can read about it here.</a></p>
+
+<p><strong>Matt Haughey</strong>
+<em>Empathy Is Good Business: How Front-Line Customer Support Can Make You A Better Designer</em>
+Continuing the empathic design theme Matt encouraged us all to spend a couple hours a week doing front-line customer support and explained how Slack is set up so that all employees must do that. It gives everyone a better idea of how users are using the product and what their pain points are. Rather than having personas to refer to designers have real people they could reference. They also don&rsquo;t talk down to their users or judge the feedback they give them. It&rsquo;s all data that makes the product better.</p>
+
+<p><strong>Jeremy Keith</strong>
+<em>Resilience: Building a Robust Web That Lasts</em>
+Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace their resilience rather than fighting the inherent variability of the systems. He reminded us that we can build systems that work for everyone with very basic functionality and then layer enhancements on top of it. At it&rsquo;s heart Instagram should be a bunch of <code>&lt;img&gt;</code>s and a <code>&lt;input type=&quot;file&quot;&gt;</code> and there&rsquo;s no reason to require JavaScript to see your friend&rsquo;s images or add your own. Layout, fonts, file previews, filters, are all enhancements. &ldquo;If you build pages with the idea that parts other than HTML are optional, you will create a better and stronger web page.&rdquo; - <a href="https://www.gov.uk/service-manual/making-software/progressive-enhancement.html">gov.uk</a></p>
+
+            <a href="https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/">
+                Permalink
+            </a>
+        </article>
+    
+    
+</main>
+
+
+
+    <footer>
+    &copy; Stephanie Hobson. <div class="social social-footer">
+    <ul class="social-list">
+        <li class="social-item">
+            <a class="social-link" href="http://www.flickr.com/people/stephaniehobson/" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/flickr.svg" height="32" width="32">
+                <span class="social-name">Flickr</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://github.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/github.svg" height="32" width="32">
+                <span class="social-name">GitHub</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <span class="social-name">Notist</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/linkedin.svg" height="32" width="32">
+                <span class="social-name">LinkedIn</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/pinboard.svg" height="32" width="32">
+                <span class="social-name">Pinboard</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://twitter.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/twitter.svg" height="32" width="32">
+                <span class="social-name">Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</footer>
+
 </body>
-<html>
+</html>

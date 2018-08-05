@@ -1,11 +1,7 @@
 ---
 title: Searching for an answer
 tags:
-  - code
-  - html
-  - seo
 id: 33
-comment: false
 categories:
   - webdesign
 date: 2007-06-29 17:02:09

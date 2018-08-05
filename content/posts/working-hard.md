@@ -2,13 +2,9 @@
 title: Working hard?
 tags:
   - bcit
-  - bored
-  - fun
-  - work
 id: 20
-comment: false
 categories:
-  - webdesign
+  - personal
 date: 2007-04-24 17:58:15
 ---
 

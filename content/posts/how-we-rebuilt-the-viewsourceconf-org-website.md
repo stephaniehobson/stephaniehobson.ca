@@ -1,11 +1,11 @@
 ---
 title: How we rebuilt the viewsourceconf.org website
 id: 792
-comment: false
 categories:
   - webdesign
 date: 2017-10-31 21:19:14
 tags:
+  - mozilla
 ---
 
 _This article was originally published on Mozilla’s [Hacks Blog](https://hacks.mozilla.org/2017/10/how-we-rebuilt-the-viewsourceconf-org-website/)._

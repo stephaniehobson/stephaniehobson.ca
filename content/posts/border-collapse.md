@@ -2,14 +2,7 @@
 title: Border Collapse
 tags:
   - code
-  - css
-  - handy
-  - html
-  - learning
-  - self-taught
-  - WDN
 id: 5
-comment: false
 categories:
   - webdesign
 date: 2007-03-06 20:13:22

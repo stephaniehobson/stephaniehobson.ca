@@ -2,14 +2,9 @@
 title: Something new today
 tags:
   - code
-  - html
-  - learning
-  - oops
-  - self-taught
 id: 10
-comment: false
 categories:
-  - Uncategorized
+  - webdesign
 date: 2007-03-25 15:20:32
 ---
 

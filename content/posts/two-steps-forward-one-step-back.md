@@ -1,12 +1,7 @@
 ---
 title: 'Two steps forward, one step back'
 tags:
-  - html
-  - learning
-  - teaching
-  - webdesign
 id: 51
-comment: false
 categories:
   - webdesign
 date: 2008-03-04 15:34:30

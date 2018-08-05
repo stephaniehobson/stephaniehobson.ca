@@ -1,11 +1,6 @@
 ---
 title: Why Abstract Sequential?
 tags:
-  - about
-  - communication
-  - interesting
-  - metablogging
-  - self-taught
 id: 104
 categories:
   - personal

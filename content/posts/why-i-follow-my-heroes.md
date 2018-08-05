@@ -1,12 +1,7 @@
 ---
 title: Why I follow my heroes on Twitter
 tags:
-  - follow
-  - hero
-  - meta
-  - twitter
 id: 69
-comment: false
 categories:
   - personal
   - webdesign
@@ -30,4 +25,4 @@ I like knowing that they're human, because it makes it okay for me to be human t
 * * *
 
 In case you're wondering who I'm talking about:
-[zeldman](http://twitter.com/zeldman) [fraying](http://twitter.com/fraying) [meyerweb](http://twitter.com/meyerweb) [collylogic](http://twitter.com/collylogic) [hchamp](http://twitter.com/hchamp) [Malarkey](http://twitter.com/Malarkey) [mezzoblue](http://twitter.com/mezzoblue) 
+[zeldman](http://twitter.com/zeldman) [fraying](http://twitter.com/fraying) [meyerweb](http://twitter.com/meyerweb) [collylogic](http://twitter.com/collylogic) [hchamp](http://twitter.com/hchamp) [Malarkey](http://twitter.com/Malarkey) [mezzoblue](http://twitter.com/mezzoblue)

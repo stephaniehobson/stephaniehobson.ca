@@ -1,13 +1,8 @@
 ---
 title: '@media: Day Two'
 tags:
-  - accomplishment
-  - atmedia
-  - atmedia07
-  - atmedia2007
   - conference
 id: 27
-comment: false
 categories:
   - webdesign
 date: 2007-05-26 02:08:34

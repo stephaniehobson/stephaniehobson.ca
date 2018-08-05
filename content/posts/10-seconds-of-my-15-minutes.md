@@ -2,13 +2,8 @@
 title: 10 seconds of my 15 minutes
 tags:
   - bcit
-  - friends
-  - fun
-  - Google
   - video
-  - youTube
 id: 36
-comment: false
 categories:
   - personal
 date: 2007-08-10 15:32:34

@@ -2,15 +2,6 @@
 title: Accessibility Problem with Gilder/Levin Image Replacement Method
 tags:
   - accessibility
-  - browsers
-  - css
-  - friends
-  - frustrating
-  - grr
-  - ie7
-  - image replacement
-  - web design
-  - webdesign
 id: 55
 categories:
   - webdesign

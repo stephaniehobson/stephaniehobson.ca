@@ -1,13 +1,7 @@
 ---
 title: 'No, wait, I wasn''t done reading that!'
 tags:
-  - Google
-  - oops
-  - uh-oh
-  - undo
-  - ux
 id: 37
-comment: false
 categories:
   - webdesign
 date: 2007-08-12 00:23:34

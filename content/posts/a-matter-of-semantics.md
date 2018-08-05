@@ -1,11 +1,11 @@
 ---
 title: A Matter of Semantics
 id: 591
-comment: false
 categories:
   - webdesign
 date: 2014-01-21 20:05:49
 tags:
+  - bcit
 ---
 
 _Adapted from a blog post on Web Services' blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience._

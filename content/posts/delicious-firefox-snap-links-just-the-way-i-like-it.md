@@ -1,15 +1,7 @@
 ---
 title: Delicious + FireFox + Snap Links
 tags:
-  - addon
-  - bookmarks
-  - browsers
-  - browsing
-  - delicious
-  - firefox
-  - handy
 id: 11
-comment: false
 categories:
   - webdesign
 date: 2007-03-27 15:06:24

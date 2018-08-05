@@ -2,10 +2,7 @@
 title: What would you change?
 tags:
   - bcit
-  - social networking
-  - web design
 id: 61
-comment: false
 categories:
   - webdesign
 date: 2009-01-14 10:53:21

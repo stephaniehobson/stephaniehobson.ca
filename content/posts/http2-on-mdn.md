@@ -1,11 +1,11 @@
 ---
 title: HTTP/2 on MDN
 id: 764
-comment: false
 categories:
   - webdesign
 date: 2017-07-10 12:46:34
 tags:
+  - mozilla
 ---
 
 _This article was originally published on the [Mozilla Marketing Engineering & Operations blog](https://mozilla.github.io/meao/2017/06/26/http2/)._

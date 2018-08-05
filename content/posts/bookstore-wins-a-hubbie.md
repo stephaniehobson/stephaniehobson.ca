@@ -3,14 +3,7 @@ title: Bookstore wins a hubbie
 tags:
   - accomplishment
   - bcit
-  - design
-  - excited
-  - uh-oh
-  - ux
-  - web design
-  - webdesign
 id: 38
-comment: false
 categories:
   - webdesign
 date: 2008-04-16 15:15:10

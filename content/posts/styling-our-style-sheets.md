@@ -2,16 +2,7 @@
 title: Styling Our Style Sheets
 tags:
   - bcit
-  - code
-  - css
-  - guidelines
-  - html
-  - learning
-  - nervous
-  - web standards
-  - work
 id: 17
-comment: false
 categories:
   - webdesign
 date: 2007-04-23 13:15:26

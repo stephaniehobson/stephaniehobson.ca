@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Google Analytics, Privacy, and Event Tracking</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-</head>
+<title>Google Analytics, Privacy, and Event Tracking</title>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/main-6fb1063f.css">
+
+
 <body>
-    <main>
-        <article>
-            <h1>Google Analytics, Privacy, and Event Tracking</h1>
+    <header>
+    <div class="header">
+        <a href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200">
+        </a>
+        <h1>
+            
+                <a href="/">Abstract Sequential</a>
+            
+            <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
+        </h1>
+    </div>
+</header>
+
+
+    
+<main>
+    <article itemscope itemtype=http://schema.org/BlogPosting>
+        <h1 itemprop="name headline">Google Analytics, Privacy, and Event Tracking</h1>
+        <p>
+            <span itemprop="author">Stephanie Hobson</span>
+            <time datetime="2016-07-28" itemprop="datePublished">
+                2016 July 28
+        	</time>
+        </p>
+        
+            <ul id="tags">
+                
+                    <li> <a href="https://stephaniehobson.ca/tags/mozilla">mozilla</a> </li>
+                
+            </ul>
+        
+        <div itemprop="articleBody">
             
 
 <p><em>This article was <a href="https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/">originally published on the Mozilla Hacks blog</a>.</em></p>
@@ -19,7 +50,7 @@
 
 <p>I think this is great!</p>
 
-<h3 id="sometimes-this-breaks-things">Sometimes this breaks things</h3>
+<h2 id="sometimes-this-breaks-things">Sometimes this breaks things</h2>
 
 <p>When code depends on these third-party services and they&rsquo;re not there stuff goes wrong.</p>
 
@@ -27,7 +58,7 @@
 
 <p>I&rsquo;m also going to use the universal analytics tracking code (analytics.js) for my examples here, not the classic analytics code (ga.js), so if you notice some differences between my code and yours that might be why.</p>
 
-<h3 id="what-goes-wrong">What goes wrong?</h3>
+<h2 id="what-goes-wrong">What goes wrong?</h2>
 
 <p>The current method (Jan 2016) for <a href="https://support.google.com/analytics/answer/1136920?hl=en">tracking outbound links</a> as recommended by Google looks like this:</p>
 
@@ -57,7 +88,7 @@
 
 <p>We are relying on GA to send the user to the new page, but what if the GA code never executes?</p>
 
-<h3 id="how-we-can-avoid-problems">How we can avoid problems</h3>
+<h2 id="how-we-can-avoid-problems">How we can avoid problems</h2>
 
 <p>If you&rsquo;re using the current recommended method of adding GA to your site you&rsquo;re including something like this on all your pages:</p>
 
@@ -103,11 +134,11 @@ ga('send', 'pageview');
 
 <p><strong>Making this kind of check before relying on <em>any</em> third-party script is good practice.</strong> You should also be <a href="http://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/">including a local fallback for any script that is not coming from your own domain</a> - including CDNs.</p>
 
-<h3 id="respecting-our-users-privacy">Respecting our users&rsquo; privacy</h3>
+<h2 id="respecting-our-users-privacy">Respecting our users&rsquo; privacy</h2>
 
 <p><a href="http://www.pewinternet.org/2015/05/20/americans-views-about-data-collection-and-security/">Most users care about their privacy</a> and there are more steps we can take to protect it. Depending on where you work you may also be required by your country&rsquo;s laws or your company’s privacy policy to take extra care with users’ data.</p>
 
-<h4 id="configuring-google-analytics-for-privacy">Configuring Google Analytics for privacy</h4>
+<h3 id="configuring-google-analytics-for-privacy">Configuring Google Analytics for privacy</h3>
 
 <p>If Google Analytics is your analytics platform of choice, there are <a href="http://gu.illau.me/posts/privacy-and-google-analytics/">a number of steps you can take to make it more private</a>.</p>
 
@@ -120,7 +151,7 @@ ga('send', 'pageview');
 
 <p>Of course, Google still gets the users&rsquo; IP address (that&rsquo;s the way the web works), we&rsquo;re just trusting them not to store it.</p>
 
-<h4 id="respecting-do-not-track-dnt">Respecting Do Not Track (DNT)</h4>
+<h3 id="respecting-do-not-track-dnt">Respecting Do Not Track (DNT)</h3>
 
 <p>It&rsquo;s also possible to detect when a user has enabled Do Not Track and be pro-active about what scripts you choose to load.</p>
 
@@ -140,7 +171,55 @@ if (!_dntEnabled()) {
 
 <p>Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.</p>
 
-        </article>
-    </main>
+        </div>
+        <p><a href="https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/" itemprop="url">Permalink</a></p>
+    </article>
+</main>
+
+
+    <footer>
+    &copy; Stephanie Hobson. <div class="social social-footer">
+    <ul class="social-list">
+        <li class="social-item">
+            <a class="social-link" href="http://www.flickr.com/people/stephaniehobson/" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/flickr.svg" height="32" width="32">
+                <span class="social-name">Flickr</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://github.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/github.svg" height="32" width="32">
+                <span class="social-name">GitHub</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <span class="social-name">Notist</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/linkedin.svg" height="32" width="32">
+                <span class="social-name">LinkedIn</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/pinboard.svg" height="32" width="32">
+                <span class="social-name">Pinboard</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://twitter.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/twitter.svg" height="32" width="32">
+                <span class="social-name">Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</footer>
+
 </body>
 </html>

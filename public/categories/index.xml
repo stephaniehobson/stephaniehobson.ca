@@ -1,48 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/categories/</link>
+    <description>Recent content in Categories on Abstract Sequential</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personal</title>
-      <link>http://example.org/categories/personal/</link>
+      <link>https://stephaniehobson.ca/categories/personal/</link>
       <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
       
-      <guid>http://example.org/categories/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Slideshare</title>
-      <link>http://example.org/categories/slideshare/</link>
-      <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
-      
-      <guid>http://example.org/categories/slideshare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uncategorized</title>
-      <link>http://example.org/categories/uncategorized/</link>
-      <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
-      
-      <guid>http://example.org/categories/uncategorized/</guid>
+      <guid>https://stephaniehobson.ca/categories/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webdesign</title>
-      <link>http://example.org/categories/webdesign/</link>
+      <link>https://stephaniehobson.ca/categories/webdesign/</link>
       <pubDate>Tue, 31 Oct 2017 21:19:14 +0000</pubDate>
       
-      <guid>http://example.org/categories/webdesign/</guid>
+      <guid>https://stephaniehobson.ca/categories/webdesign/</guid>
       <description></description>
     </item>
     

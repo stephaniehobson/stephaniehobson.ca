@@ -1,11 +1,7 @@
 ---
 title: Keeping up.
 tags:
-  - learning
-  - reading
-  - trends
 id: 50
-comment: false
 categories:
   - webdesign
 date: 2008-02-21 20:19:31

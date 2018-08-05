@@ -1,13 +1,7 @@
 ---
 title: Finally figure out what my problem is.
 tags:
-  - frustrating
-  - html
-  - learning
-  - rant
-  - webdesign
 id: 48
-comment: false
 categories:
   - webdesign
 date: 2008-02-05 11:18:38

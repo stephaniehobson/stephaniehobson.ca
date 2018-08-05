@@ -1,12 +1,7 @@
 ---
 title: Insecurity
 tags:
-  - cgi
-  - grr
-  - learning
-  - oops
 id: 6
-comment: false
 categories:
   - webdesign
 date: 2007-03-08 21:21:29

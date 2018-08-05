@@ -1,16 +1,9 @@
 ---
 title: Links from An Event Apart 2008 - Day One
 tags:
-  - aea
-  - aea08
-  - aeasf08
-  - aneventapart
-  - bookmarks
   - conference
-  - interesting
   - links
 id: 57
-comment: false
 categories:
   - webdesign
 date: 2008-08-18 22:21:20

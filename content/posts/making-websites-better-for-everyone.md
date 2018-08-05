@@ -1,11 +1,11 @@
 ---
 title: Making Websites Better for Everyone
 id: 652
-comment: false
 categories:
   - webdesign
 date: 2014-12-13 11:00:15
 tags:
+  - presentation
 ---
 
 There's a few different versions of my talk floating around now. I'm really excited and humbled to hear that people have been making changes to the way the work in response to something I said.

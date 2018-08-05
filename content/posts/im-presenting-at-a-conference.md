@@ -3,16 +3,8 @@ title: I'm presenting at a conference!
 tags:
   - accomplishment
   - bcit
-  - CADE
-  - career
-  - Catt-Trax2
-  - excited
-  - nervous
   - presentation
-  - Terry
-  - Winnepeg
 id: 8
-comment: false
 categories:
   - personal
   - webdesign

@@ -1,15 +1,9 @@
 ---
 title: Links to check out from WDN08
 tags:
-  - fun
-  - future
-  - link
+  - conference
   - links
-  - WDN
-  - WDN08
-  - web design
 id: 46
-comment: false
 categories:
   - webdesign
 date: 2008-02-01 13:03:54

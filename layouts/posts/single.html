@@ -8,6 +8,14 @@
                 {{ .PublishDate.Format "2006 January 02" }}
         	</time>
         </p>
+        {{ with .Params.categories }}
+        <p>More posts categorized as:</p>
+            <ul id="categories">
+                {{ range . }}
+                    <li> <a href="{{ "categories" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
+                {{ end }}
+            </ul>
+        {{ end }}
         <div itemprop="articleBody">
             {{ .Content }}
         </div>

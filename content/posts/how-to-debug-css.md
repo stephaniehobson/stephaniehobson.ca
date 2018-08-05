@@ -1,10 +1,9 @@
 ---
 title: How To Debug CSS
 tags:
-  - css
+  - conference
   - presentation
 id: 661
-comment: false
 categories:
   - webdesign
 date: 2015-08-15 09:39:01

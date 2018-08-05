@@ -3,11 +3,10 @@ title: Flipping Tables
 tags:
   - accomplishment
   - presentation
+  - slides
 id: 746
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2016-04-19 18:37:00
 ---
 

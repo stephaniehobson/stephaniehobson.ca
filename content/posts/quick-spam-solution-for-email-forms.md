@@ -1,11 +1,7 @@
 ---
 title: Quick spam solution for email forms
 tags:
-  - email
-  - idea
-  - spam
 id: 73
-comment: false
 categories:
   - webdesign
 date: 2009-10-30 22:23:53

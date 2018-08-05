@@ -1,12 +1,12 @@
 ---
 title: Leave
 id: 509
-comment: false
 categories:
   - personal
   - webdesign
 date: 2012-05-24 23:02:56
 tags:
+  - bcit
 ---
 
 I'm taking a one year leave of absence from my job at BCIT beginning June 1<sup>st</sup>, 2012.

@@ -1,15 +1,9 @@
 ---
 title: Links from An Event Apart 2008 - Day Two
 tags:
-  - aea
-  - aea08
-  - aeasf08
-  - bookmarks
   - conference
-  - link
   - links
 id: 59
-comment: false
 categories:
   - webdesign
 date: 2008-08-19 16:54:05

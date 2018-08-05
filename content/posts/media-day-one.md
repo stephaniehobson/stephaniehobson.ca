@@ -1,14 +1,8 @@
 ---
 title: '@media: Day One'
 tags:
-  - atmedia
-  - atmedia07
-  - atmedia2007
   - conference
-  - excited
-  - fun
 id: 26
-comment: false
 categories:
   - webdesign
 date: 2007-05-25 10:10:04

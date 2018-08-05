@@ -2,11 +2,7 @@
 title: Web Directions North 2008
 tags:
   - conference
-  - summary
-  - trends
-  - WDN
-  - WDN08
-  - webdesign
+  - link
 id: 49
 categories:
   - webdesign

@@ -1,9 +1,7 @@
 ---
 title: Hello World
 tags:
-  - metablogging
 id: 3
-comment: false
 categories:
   - personal
   - webdesign

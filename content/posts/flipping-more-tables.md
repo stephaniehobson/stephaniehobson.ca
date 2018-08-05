@@ -2,11 +2,12 @@
 title: Flipping More Tables
 tags:
   - accomplishment
+  - slides
+  - presentation
+  - video
 id: 758
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2016-08-25 11:43:02
 ---
 

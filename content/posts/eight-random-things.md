@@ -1,10 +1,7 @@
 ---
 title: Eight random things
 tags:
-  - fun
-  - meme
 id: 54
-comment: false
 categories:
   - personal
 date: 2008-05-02 04:30:27

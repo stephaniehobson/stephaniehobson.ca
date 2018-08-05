@@ -1,14 +1,7 @@
 ---
 title: Google Launches Social Graph API
 tags:
-  - API
-  - Google
-  - portability
-  - social networking
-  - WDN
-  - XFN
 id: 47
-comment: false
 categories:
   - webdesign
 date: 2008-02-04 13:10:58

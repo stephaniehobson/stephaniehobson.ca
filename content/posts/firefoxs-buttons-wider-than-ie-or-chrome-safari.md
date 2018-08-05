@@ -1,15 +1,8 @@
 ---
 title: FireFox's buttons are wider than IE or Chrome/Safari's
 tags:
-  - cross browser
-  - css
-  - form
-  - html
-  - pseudo
-  - style
-  - webdesign
+  - code
 id: 296
-comment: false
 categories:
   - webdesign
 date: 2011-03-09 14:29:42

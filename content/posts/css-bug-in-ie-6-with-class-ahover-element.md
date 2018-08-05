@@ -1,12 +1,8 @@
 ---
 title: 'CSS bug in IE 6 with: .class a:hover element'
 tags:
-  - bug
   - code
-  - css
-  - ie
 id: 41
-comment: false
 categories:
   - webdesign
 date: 2007-12-19 14:49:05

@@ -1,12 +1,7 @@
 ---
 title: Should I stay or should I go?
 tags:
-  - about
-  - big picture
-  - bored
-  - metablogging
 id: 62
-comment: false
 categories:
   - webdesign
 date: 2009-03-22 15:08:43

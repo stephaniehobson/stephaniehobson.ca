@@ -3,16 +3,9 @@ title: CADE/AMTECH Conference
 tags:
   - accomplishment
   - bcit
-  - CADE
-  - Catt-Trax2
   - conference
-  - hockey
   - presentation
-  - Terry
-  - travel
-  - work
 id: 24
-comment: false
 categories:
   - webdesign
 date: 2007-05-24 01:56:09

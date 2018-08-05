@@ -1,12 +1,12 @@
 ---
 title: 'Accessibility with CSS: Making Websites Better for Everyone'
 id: 631
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2014-05-14 17:20:48
 tags:
+  - slides
+  - presentation
 ---
 
 Last night I spoke at the [Style & Class Meet-up](http://www.meetup.com/styleandclass/) about Accessibility and CSS. Posting the slides here for posterity:

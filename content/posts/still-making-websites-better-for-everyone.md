@@ -1,12 +1,12 @@
 ---
 title: (Still) Making Websites Better for Everyone
 id: 691
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2015-10-27 18:40:28
 tags:
+  - presentation
+  - slides
 ---
 
 In the next few weeks I'll be speaking at [JavaScript Open Day Calgary](http://jsopencalgary.lighthouselabs.ca/), [View Source](https://viewsourceconf.org), and [JavaScript Open Day Toronto](http://jsopentoronto.lighthouselabs.ca/) giving an updated version of [Web Accessibility: Making Websites Better for Everyone](http://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone).

@@ -1,12 +1,12 @@
 ---
 title: Mobile First Is Performance First
 id: 656
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2015-02-23 22:10:03
 tags:
+  - presentation
+  - slides
 ---
 
 Tonight I spoke at [Vancouver Web Performance Meetup](http://www.meetup.com/Vancouver-Web-Performance/) and I promised to share my slides so here they are:

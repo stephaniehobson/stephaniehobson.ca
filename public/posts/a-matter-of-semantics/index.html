@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>A Matter of Semantics</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-</head>
+<title>A Matter of Semantics</title>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/main-6fb1063f.css">
+
+
 <body>
-    <main>
-        <article>
-            <h1>A Matter of Semantics</h1>
+    <header>
+    <div class="header">
+        <a href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200">
+        </a>
+        <h1>
+            
+                <a href="/">Abstract Sequential</a>
+            
+            <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
+        </h1>
+    </div>
+</header>
+
+
+    
+<main>
+    <article itemscope itemtype=http://schema.org/BlogPosting>
+        <h1 itemprop="name headline">A Matter of Semantics</h1>
+        <p>
+            <span itemprop="author">Stephanie Hobson</span>
+            <time datetime="2014-01-21" itemprop="datePublished">
+                2014 January 21
+        	</time>
+        </p>
+        
+            <ul id="tags">
+                
+                    <li> <a href="https://stephaniehobson.ca/tags/bcit">bcit</a> </li>
+                
+            </ul>
+        
+        <div itemprop="articleBody">
             
 
 <p><em>Adapted from a blog post on Web Services&rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.</em></p>
@@ -35,11 +66,11 @@
 
 <p>With just the HTML a computer can do all kinds of interesting things with your content. It can read it out loud, translate it into a different language, put it on a really big screen (or a really little one), or search through it.</p>
 
-<h3 id="sometimes-things-get-misinterpreted">Sometimes things get misinterpreted.</h3>
+<h2 id="sometimes-things-get-misinterpreted">Sometimes things get misinterpreted.</h2>
 
 <p>When we edit pages in a CMS we see a visual metaphor instead of the plain HTML. We’re also playing the drawing game with the CMS. This means something that looks right might still not have the right HTML. Just because there are dots before that text doesn&rsquo;t mean it’s a list. Just because this text is bold doesn&rsquo;t mean it’s a heading.</p>
 
-<h3 id="with-the-wrong-html-the-other-computers-will-make-mistakes">With the wrong HTML the other computers will make mistakes.</h3>
+<h2 id="with-the-wrong-html-the-other-computers-will-make-mistakes">With the wrong HTML the other computers will make mistakes.</h2>
 
 <p>When a screen reader comes to a list it will tell the user that there&rsquo;s a list and how long it is, if the user has been to the page before and knows they need item number eight they can skip straight to it. With the wrong HTML the user has to skip past all the other items one at a time.</p>
 
@@ -51,7 +82,7 @@
 
 <p>From time to time, we see people use tables to impose a specific visual layout on their content, something that should really be done with CSS instead. Tables are hard for mobile browsers to handle because they are so wide. To avoid distorting content in them the tables could be re-arranged. This will make tables with data in them easier to read on a mobile phone but if the HTML says “this is a table” and what is inside is not data, just an image we wanted in a different position, things could end up looking like one of our drawing game pictures gone wrong.</p>
 
-<h3 id="how-to-avoid-errors">How to avoid errors.</h3>
+<h2 id="how-to-avoid-errors">How to avoid errors.</h2>
 
 <p>There are some simple things that can be done to avoid problems:</p>
 
@@ -65,7 +96,55 @@
 
 <p>If you are experienced enough to be writing your own HTML pay attention to what the meaning of the elements are.</p>
 
-        </article>
-    </main>
+        </div>
+        <p><a href="https://stephaniehobson.ca/posts/a-matter-of-semantics/" itemprop="url">Permalink</a></p>
+    </article>
+</main>
+
+
+    <footer>
+    &copy; Stephanie Hobson. <div class="social social-footer">
+    <ul class="social-list">
+        <li class="social-item">
+            <a class="social-link" href="http://www.flickr.com/people/stephaniehobson/" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/flickr.svg" height="32" width="32">
+                <span class="social-name">Flickr</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://github.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/github.svg" height="32" width="32">
+                <span class="social-name">GitHub</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <span class="social-name">Notist</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/linkedin.svg" height="32" width="32">
+                <span class="social-name">LinkedIn</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/pinboard.svg" height="32" width="32">
+                <span class="social-name">Pinboard</span>
+            </a>
+        </li>
+        <li class="social-item">
+            <a class="social-link" href="http://twitter.com/stephaniehobson" rel="me">
+                <img class="social-icon" alt="" src="/images/icons/twitter.svg" height="32" width="32">
+                <span class="social-name">Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+</footer>
+
 </body>
 </html>

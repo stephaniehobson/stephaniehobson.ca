@@ -1,17 +1,9 @@
 ---
 title: Where am I going with this?
 tags:
-  - bcit
-  - big picture
-  - career
-  - future
-  - learning
-  - vivian
 id: 7
-comment: false
 categories:
   - personal
-  - webdesign
 date: 2007-03-14 16:05:07
 ---
 

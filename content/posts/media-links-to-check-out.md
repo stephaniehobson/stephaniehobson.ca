@@ -1,14 +1,9 @@
 ---
 title: '@media links to check out'
 tags:
-  - atmedia
-  - atmedia07
-  - atmedia2007
-  - bookmarks
+  - links
   - conference
-  - todo
 id: 28
-comment: false
 categories:
   - webdesign
 date: 2007-05-26 02:50:53

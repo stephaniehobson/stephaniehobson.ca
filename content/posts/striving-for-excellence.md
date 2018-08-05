@@ -1,18 +1,8 @@
 ---
 title: Striving for excellence
 tags:
-  - accomplishment
   - bcit
-  - big picture
-  - career
-  - code
-  - HOPE
-  - microformats
-  - podcasts
-  - self-taught
-  - sociology
 id: 12
-comment: false
 categories:
   - personal
   - webdesign

@@ -3,16 +3,11 @@ title: HTML5 Forms OF DOOM
 tags:
   - accomplishment
   - code
-  - html
-  - html5
   - presentation
-  - web design
-  - webdesign
+  - slides
 id: 576
-comment: false
 categories:
   - webdesign
-  - slideshare
 date: 2012-07-10 16:26:19
 ---
 

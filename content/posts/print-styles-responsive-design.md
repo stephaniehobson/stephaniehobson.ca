@@ -1,7 +1,6 @@
 ---
 title: Print Styles Are Responsive Design
 id: 305
-comment: false
 categories:
   - webdesign
 date: 2012-03-14 23:26:09

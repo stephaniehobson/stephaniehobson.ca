@@ -1,12 +1,7 @@
 ---
 title: What's keeping me busy?
 tags:
-  - about
-  - busy
-  - todo
-  - work
 id: 4
-comment: false
 categories:
   - webdesign
 date: 2007-03-05 12:16:18

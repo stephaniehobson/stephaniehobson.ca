@@ -1,11 +1,11 @@
 ---
 title: Bullets aligned to the top of the text
 id: 281
-comment: false
 categories:
   - webdesign
 date: 2010-09-10 12:59:47
 tags:
+  - code
 ---
 
 Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?

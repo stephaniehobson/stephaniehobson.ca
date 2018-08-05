@@ -2,11 +2,7 @@
 title: Perfect Stranger
 tags:
   - accomplishment
-  - fun
-  - project
-  - twitter
 id: 289
-comment: false
 categories:
   - personal
   - webdesign

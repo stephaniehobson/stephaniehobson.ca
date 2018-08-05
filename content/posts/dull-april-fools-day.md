@@ -2,15 +2,8 @@
 title: A Dull April Fool's Day
 tags:
   - accomplishment
-  - april fools
   - bcit
-  - black and white
-  - desaturate
-  - fun
-  - joke
-  - work
 id: 303
-comment: false
 categories:
   - webdesign
 date: 2011-07-16 18:59:20

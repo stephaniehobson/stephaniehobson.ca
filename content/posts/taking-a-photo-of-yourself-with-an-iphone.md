@@ -6,6 +6,7 @@ categories:
   - webdesign
 date: 2010-09-15 22:31:27
 tags:
+  - video
 ---
 
-<object width="500" height="404"><param name="movie" value="http://www.youtube.com/v/xckrxgvTsyY?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/xckrxgvTsyY?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="404"></embed></object>
+{{< youtube xckrxgvTsyY >}}
