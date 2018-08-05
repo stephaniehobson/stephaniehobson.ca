@@ -1,8 +1,17 @@
 {{ define "main" }}
 <main>
-    <article>
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
+    <article itemscope itemtype=http://schema.org/BlogPosting>
+        <h1 itemprop="name headline">{{ .Title }}</h1>
+        <p>
+            <span itemprop="author">Stephanie Hobson</span>
+            <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
+                {{ .PublishDate.Format "2006 January 02" }}
+        	</time>
+        </p>
+        <div itemprop="articleBody">
+            {{ .Content }}
+        </div>
+        <p><a href="{{ .Permalink }}" itemprop="url">Permalink</a></p>
     </article>
 </main>
 {{ end }}
