@@ -54,19 +54,19 @@ We received many complaints about the old design’s low-contrast display. We we
 
 We’re moving on from this to make specific improvements to the article pages:
 
-*   Putting code samples high on the page; our hard-working writers and volunteers are doing this, one page at a time.
-*   A better approach to readable line-lengths and wide code examples, inspired by the Hacks Blog theme.
-*   Compatibility tables that display desktop and mobile data side by side.
-*   Code samples you can experiment with in the page.
+* Putting code samples high on the page; our hard-working writers and volunteers are doing this, one page at a time.
+* A better approach to readable line-lengths and wide code examples, inspired by the Hacks Blog theme.
+* Compatibility tables that display desktop and mobile data side by side.
+* Code samples you can experiment with in the page.
 
 ## Who is “we”?
 
 The MDN dev team is:
 
-*   **Stephanie Hobson**, me, CSS-Pre-Pre-Processor
-*   **Schalk Neethling**, who reviewed each of my 30+ pull requests in ALL THE BROWSERS, sometimes multiple times
-*   **John Whitlock**, who did the awesome [locale fallbacks](https://github.com/mozilla/kuma/pull/4303#issue-241394205)
-*   **Ryan Johnson**, who always asks “Why not?” when John and I say things can’t be done.
+* **Stephanie Hobson**, me, CSS-Pre-Pre-Processor
+* **Schalk Neethling**, who reviewed each of my 30+ pull requests in ALL THE BROWSERS, sometimes multiple times
+* **John Whitlock**, who did the awesome [locale fallbacks](https://github.com/mozilla/kuma/pull/4303#issue-241394205)
+* **Ryan Johnson**, who always asks “Why not?” when John and I say things can’t be done.
 
 We blog sporadically on the [Mozilla Marketing Engineering &amp; Operations blog](https://mozilla.github.io/meao/2017/07/06/kuma-report/).
 

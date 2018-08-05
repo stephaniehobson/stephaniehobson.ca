@@ -1,4 +1,33 @@
+@import '../includes/vars';
+
 @mixin container() {
     max-width: 60ch;
     margin: 0 auto;
+}
+
+@mixin intrinsic() {
+    /*
+    Creates container that preserves aspect ratio, and fills container with iframe
+    http://alistapart.com/article/creating-intrinsic-ratios-for-video
+    https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+    ====================================================================== */
+
+    & {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        margin-bottom: $grid;
+
+        /* 16x9 Aspect Ratio */
+        padding-bottom: 56.25%;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    }
 }

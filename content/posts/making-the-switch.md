@@ -42,7 +42,7 @@ I also dislike the way applications just pile up.  Every now and then I go to cl
 
 Switching from Windows XP to OS X was as easy as switching from Windows 98 to Windows XP.  And, lets face it, even Windows users are going have to learn a new operating system when they buy their next computer and just cuz it's pretty doesn't mean Vista is going to be easy to use.
 
-**Running Windows **
+**Running Windows**
 
 Running windows hasn't been a problem.  I'm playing with Parallels and I'm going to give VM Ware a go before I decide on which to use but I'll be happy with Parallels.
 
@@ -60,6 +60,6 @@ Damn this is sheer [dumb fun](http://www.facebook.com/album.php?aid=36632&l=f6c5
 
 [Quicksilver](http://quicksilver.blacktree.com/) looks like it could be the coolest thing ever, but it needs to be customized to be used to it's full potential and I've found the basic documentation to be kind of sparse.  The basic idea of being able to do any task ever with a keyboard short cut is very appealing.  I am all about not having to use the mouse.
 
-**Verdict **
+**Verdict**
 
 When I told my Mum that I was buying a Mac the first thing she did was seek assurances that I wouldn't become an Mac evangelist like our family friend.  I don't want my money back but I don't think Mum has anything to worry about just yet.

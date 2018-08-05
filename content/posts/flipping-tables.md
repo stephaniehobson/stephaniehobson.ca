@@ -15,10 +15,7 @@ I was very pleased to be invited back to [Style and Class](http://styleandclass.
 
 Here are my slides, though the video and animated gifs don't play :(
 
-<div style="text-align:center;">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf" width="595" height="320" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> ** [Flipping Tables: Displaying Data on Small Screens](//www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens "Flipping Tables: Displaying Data on Small Screens") ** from **[Stephanie Hobson](//www.slideshare.net/stephaniehobson)** </div></div>
-
-[Download the slides.](/html5forms/html5forms.pptx)
+{{< slideshare 2OqLxbPius4Ggf "flipping-tables-displaying-data-on-small-screens" "Flipping Tables: Displaying Data on Small Screens" >}}
 
 And the links I encouraged everyone to check out:
 

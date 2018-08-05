@@ -1,0 +1,13 @@
+@import '../includes/vars';
+@import '../includes/mixins';
+
+.slideshare-slides {
+    @include intrinsic();
+    border: $divider;
+}
+
+.slideshare-credit {
+    font-size: 0.8rem;
+    margin-top: calc(#{$grid} * -1);
+    margin-bottom: $grid;
+}

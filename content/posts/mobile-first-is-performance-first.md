@@ -11,9 +11,7 @@ tags:
 
 Tonight I spoke at [Vancouver Web Performance Meetup](http://www.meetup.com/Vancouver-Web-Performance/) and I promised to share my slides so here they are:
 
-<div style="text-align:center;">
-<iframe src="//www.slideshare.net/slideshow/embed_code/45054687" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> ** [Mobile First Is Performance First](//www.slideshare.net/stephaniehobson/mobile-first-is-performance-first "Mobile First Is Performance First") ** from **[Stephanie Hobson](//www.slideshare.net/stephaniehobson)** </div>
-</div>
+{{< slideshare j10Wox7jWv754N "mobile-first-is-performance-first" "Mobile First Is Performance First" >}}
 
 If what you're really after are the links, let me save you a bit of time:
 

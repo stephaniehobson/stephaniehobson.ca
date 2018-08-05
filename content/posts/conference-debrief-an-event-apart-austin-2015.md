@@ -29,7 +29,7 @@ _The Fault, Dear Brutus (or: Career Advice From a Cranky Old Man)_
 Zeldman made a compelling argument for quitting your job regularly :P He had some anecdotes about how it is the easiest path to career advancement, and this resonated with my own experience. He said the same could be accomplished by switching teams within an organization and I am glad we have so much sideways movement at Mozilla.
 
 **Yesenia Perez-Cruz**
-_Design Decisions Through the Lens of Performance _
+_Design Decisions Through the Lens of Performance_
 Yesenia made a clear case for designers needing to take a lot of responsibility for the performance of a website. Designers make decisions about some of the things that add the most weight to our pages: fonts, images, and functionality - before developers ever see them. She said performance budgets should be set and understood as part of the requirements process and designers can be educated to stay within them and enlisted to help communicate with clients about staying within them as well. Great talk +1 would watch again.
 
 **Cameron Moll**
