@@ -79,8 +79,12 @@ a {
     &:hover,
     &:focus,
     &:active {
-        color: $color-link;
+        color: $color-link-hover;
         text-decoration: underline;
+    }
+
+    &:visited {
+        color: $color-link-visited;
     }
 }
 
