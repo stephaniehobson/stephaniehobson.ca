@@ -9,6 +9,10 @@
 - Archive pages
 - Reader view
 - RSS feed
-- Write & implement summaries
+  - home
+  - tag and category pages
+  - make sure old Wordpress URLs still work
+- Write & implement summaries for posts
 - Redirect old Wordpress URLs
 - 404 page
+- Remove tags or categories?
