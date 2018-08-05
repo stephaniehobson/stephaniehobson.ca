@@ -1,0 +1,14 @@
+- Deploy
+- Update about page
+- Decide on grid size and implement
+- Decide on typography and implement
+  - Fix heading levels for posts
+- Implement code syntax styling
+- Review each post
+- Next/Prev Links on individual posts
+- Archive pages
+- Reader view
+- RSS feed
+- Write & implement summaries
+- Redirect old Wordpress URLs
+- 404 page
