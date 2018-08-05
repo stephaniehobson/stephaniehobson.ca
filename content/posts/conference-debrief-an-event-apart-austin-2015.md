@@ -14,15 +14,15 @@ The conference was great and the organizers did a good job making the speakers a
 
 Most of these speakers are pros who have done their talks in multiple places so its usually possible to find videos of them online with a bit of Googling, and they might be speaking at a conference near you!
 
-### Conference overview
+## Conference overview
 
 Designing for performance and designing with empathy were common themes this year and we got good overviews of some exciting CSS and HTML features that will be widely supported in the near future.
 
-### My Favourite Talk
+## My Favourite Talk
 
 A CSS geek at heart I enjoyed Jen Simmons' "Modern Layouts: Getting Out of Our Ruts" the most. “We're about to see a renaissance in design on the web," she promised at one point and I, for one, will be excited to see more than rectangles on the web. She covered CSS Shapes, Regions, Grid Layout, and the new view-port units, illustrating wonderfully with some really unique examples of layout from *gasp* print which she advocated we translate (not transfer) to the web. [A similar version of this talk online if I've piqued your interest.](https://www.youtube.com/watch?v=ZNpn7FBp_9U)
 
-### Talk Summaries
+## Talk Summaries
 
 **Jeffrey Zeldman**
 _The Fault, Dear Brutus (or: Career Advice From a Cranky Old Man)_

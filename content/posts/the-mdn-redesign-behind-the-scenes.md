@@ -16,17 +16,17 @@ One of the ways we deal with old code in kuma is with the campsite rule: _Always
 
 A redesign is also a great time to change stuff you’re afraid of breaking. People are more understanding of you working the bugs out of something new than breaking something that’s worked for years. I removed 640 lines of stale code during the redesign. (And if I broke a six-year-old XPCOM tutorial you use daily by removing the custom list-style-type, please [file a bug](https://bugzilla.mozilla.org/enter_bug.cgi?format=guided#h=dupes|Mozilla%20Developer%20Network|)!)
 
-### One website with two looks
+## One website with two looks
 
 Rather than working on the CSS for the redesign in a separate “redesign” folder, we duplicated all the files and added “-old” to the file name of the old files, which means that all of our redesign work is happening in the “official” files. This preserves the git history and means we don’t have to move anything around after launch. Once we’re happy with the code, we can delete the “-old” files with confidence.
 
 To serve the new styles to our beta testers and the “-old” ones to everyone else, we use [Django Waffle](https://github.com/jsocol/django-waffle). Waffle can also be used to serve different content but because there’s a strong separation of presentation and content on MDN, we’ve made very few changes to the HTML.
 
-### Bugs our beta testers found
+## Bugs our beta testers found
 
 MDN is _huge_, and we can’t test every page in every locale. We’re really lucky to have active beta testers. :) Some of the biggest things they turned up for us were:
 
-#### Highlighting
+### Highlighting
 
 ![Problems with Zilla Highlight in Vietnamese and when there&#039;s inline code examples.](http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/10/vi.png)
 
@@ -36,7 +36,7 @@ The current approach puts a full-width black background on h3 and h4 headings by
 
 We went back and forth about this for a while, wondering if the JavaScript and extra `&lt;span&gt;` was worth the effort. But we stuck with it because it makes the h3 and h4 headings much easier to spot when scanning the page.
 
-#### What’s Taiwanese for Slab Serif?
+### What’s Taiwanese for Slab Serif?
 
 ![Showing the difference between Zilla&#039;s thick strokes and the thin strokes of Taiwanese.](http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/10/taiwanese.png)
 
@@ -46,11 +46,11 @@ Zilla is big and thick, and we started getting feedback about the contrast with 
 
 To address both these problems, we implemented a system that allowed us to [override the site fonts on a per-locale basis](https://bugzilla.mozilla.org/show_bug.cgi?id=1379259).
 
-#### Contrast
+### Contrast
 
 We received many complaints about the old design’s low-contrast display. We went a bit too far the other way with this design and received complaints about the high contrast. We’ve toned it down to the ever-popular `#333` now.
 
-### What’s next
+## What’s next
 
 We’re moving on from this to make specific improvements to the article pages:
 
@@ -59,7 +59,7 @@ We’re moving on from this to make specific improvements to the article pages:
 *   Compatibility tables that display desktop and mobile data side by side.
 *   Code samples you can experiment with in the page.
 
-### Who is “we”?
+## Who is “we”?
 
 The MDN dev team is:
 

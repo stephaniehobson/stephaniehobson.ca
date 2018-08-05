@@ -16,7 +16,7 @@ Because these services are installed on multiple websites these third-parties ca
 
 I think this is great!
 
-### Sometimes this breaks things
+## Sometimes this breaks things
 
 When code depends on these third-party services and they're not there stuff goes wrong.
 
@@ -24,7 +24,7 @@ I'm going to use tracking external links as my example because it's a common use
 
 I'm also going to use the universal analytics tracking code (analytics.js) for my examples here, not the classic analytics code (ga.js), so if you notice some differences between my code and yours that might be why.
 
-### What goes wrong?
+## What goes wrong?
 
 The current method (Jan 2016) for [tracking outbound links](https://support.google.com/analytics/answer/1136920?hl=en) as recommended by Google looks like this:
 
@@ -53,7 +53,7 @@ This guarantees that the user doesn't leave the site before their action is reco
 
 We are relying on GA to send the user to the new page, but what if the GA code never executes?
 
-### How we can avoid problems
+## How we can avoid problems
 
 If you're using the current recommended method of adding GA to your site you're including something like this on all your pages:
 
@@ -98,11 +98,11 @@ var trackOutboundLink = function(url) {
 
 **Making this kind of check before relying on _any_ third-party script is good practice.** You should also be [including a local fallback for any script that is not coming from your own domain](http://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/) - including CDNs.
 
-### Respecting our users' privacy
+## Respecting our users' privacy
 
 [Most users care about their privacy](http://www.pewinternet.org/2015/05/20/americans-views-about-data-collection-and-security/) and there are more steps we can take to protect it. Depending on where you work you may also be required by your country's laws or your company’s privacy policy to take extra care with users’ data.
 
-#### Configuring Google Analytics for privacy
+### Configuring Google Analytics for privacy
 
 If Google Analytics is your analytics platform of choice, there are [a number of steps you can take to make it more private](http://gu.illau.me/posts/privacy-and-google-analytics/).
 
@@ -116,7 +116,7 @@ ga('set', 'anonymizeIp', true);
 
 Of course, Google still gets the users' IP address (that's the way the web works), we're just trusting them not to store it.
 
-#### Respecting Do Not Track (DNT)
+### Respecting Do Not Track (DNT)
 
 It's also possible to detect when a user has enabled Do Not Track and be pro-active about what scripts you choose to load.
 

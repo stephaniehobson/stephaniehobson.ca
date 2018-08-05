@@ -29,6 +29,6 @@ I'm also looking for cheap places to say - friend of a friends who need house si
 
 If you have some work, a place to stay, or some advice for me I can be contacted on [LinkedIn](http://www.linkedin.com/in/stephaniehobsonca), or [Twitter](http://twitter.com/stephaniehobson).
 
-### An Invocation for Beginnings
+## An Invocation for Beginnings
 
 <iframe width="500" height="282" src="http://www.youtube.com/embed/RYlCVwxoL_g" frameborder="0" allowfullscreen></iframe>

@@ -30,11 +30,11 @@ JavaScript tells the computer how things should work: “When the user clicks th
 
 With just the HTML a computer can do all kinds of interesting things with your content. It can read it out loud, translate it into a different language, put it on a really big screen (or a really little one), or search through it.
 
-### Sometimes things get misinterpreted.
+## Sometimes things get misinterpreted.
 
 When we edit pages in a CMS we see a visual metaphor instead of the plain HTML. We’re also playing the drawing game with the CMS. This means something that looks right might still not have the right HTML. Just because there are dots before that text doesn't mean it’s a list. Just because this text is bold doesn't mean it’s a heading.
 
-### With the wrong HTML the other computers will make mistakes.
+## With the wrong HTML the other computers will make mistakes.
 
 When a screen reader comes to a list it will tell the user that there's a list and how long it is, if the user has been to the page before and knows they need item number eight they can skip straight to it. With the wrong HTML the user has to skip past all the other items one at a time.
 
@@ -46,7 +46,7 @@ The mobile version of a website will often use the same HTML as a desktop versio
 
 From time to time, we see people use tables to impose a specific visual layout on their content, something that should really be done with CSS instead. Tables are hard for mobile browsers to handle because they are so wide. To avoid distorting content in them the tables could be re-arranged. This will make tables with data in them easier to read on a mobile phone but if the HTML says “this is a table” and what is inside is not data, just an image we wanted in a different position, things could end up looking like one of our drawing game pictures gone wrong.
 
-### How to avoid errors.
+## How to avoid errors.
 
 There are some simple things that can be done to avoid problems:
 

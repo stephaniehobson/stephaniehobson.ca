@@ -14,7 +14,7 @@ On the bright side it works on any background colour and is a little transparent
 
 <iframe src="http://stephaniehobson.ca/loading-spinner/" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
 
-### The basic idea
+## The basic idea
 
 It's one `<div>` containing 8 `<span>`s, styled to be little grey lozenges:
 
@@ -69,11 +69,11 @@ Using `nth-of-type` each lozenge is rotated 45degrees more than the last and has
 }
 ```
 
-### Starting in the middle
+## Starting in the middle
 
 Did you know that you can provide a _negative_ value for `animation-delay`? Cool, eh?!?! This means I can make it appear that the animation is beginning in the middle, otherwise the first time it's run it looks funny.
 
-### Placing the spinner
+## Placing the spinner
 
 I added some absolute positioning to the `<span>`s, so the origin of the transform is at the top left of their parent `<div>`. This means the spinner fans out from the top left of the `<div>` and you can absolutely position it to exactly where you want the _middle_ of the spinner.  Handy if you want to place the spinner in the middle of something, like I did.
 
@@ -91,7 +91,7 @@ I added some absolute positioning to the `<span>`s, so the origin of the transfo
     ...
 ```
 
-### Changing the colour
+## Changing the colour
 
 Changing the colour is as simple as creating a new animation and applying that to your special spinner spans.
 
@@ -101,12 +101,12 @@ Changing the colour is as simple as creating a new animation and applying that t
 }
 ```
 
-### Using it
+## Using it
 
 [Here's the loading spinner](http://stephaniehobson.ca/loading-spinner/) with the `moz` and `webkit` prefixes. Of course, it only works in browsers that support animation and transforms but there's more and more of those these days.
 
 Also, yes, totally, please use it. [Tweet me](http://twitter.com/stephaniehobson) if you make any improvements.
 
-### A little bit more
+## A little bit more
 
 I got a little carried away and made a few [other styles](http://stephaniehobson.ca/loading-spinner/other-styles.html).

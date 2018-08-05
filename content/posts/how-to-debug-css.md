@@ -14,7 +14,7 @@ Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://v
 
 **Edit**: You can now watch a recording of [Debugging CSS](http://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/). Spot the three projector failures!
 
-### Steps
+## Steps
 
 1.  Is the HTML valid?
 2.  Is the CSS valid?
@@ -28,7 +28,7 @@ Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://v
 6.  Can you isolate the problem?
 7.  Ask for help
 
-### Tools
+## Tools
 
 *   [Developer tools](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 *   W3C [HTML validator](https://validator.w3.org/) / [CSS validator](https://jigsaw.w3.org/css-validator/)
@@ -38,6 +38,6 @@ Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://v
 *   [Stack Overflow](http://stackoverflow.com/)
 *   [codepen.io](http://codepen.io/) /[jsfiddle.net](http://jsfiddle.net/)
 
-### Other resources
+## Other resources
 
 *   [Cross-Browser Debugging CSS](http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/)

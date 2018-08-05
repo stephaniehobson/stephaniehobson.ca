@@ -16,12 +16,12 @@ I [recently spoke at #a11yTOConf](http://conf.a11yto.com/talks#writingForEveryRe
 
 Here are [my slides for Writing for Every Reader](https://www.slideshare.net/stephaniehobson/writing-for-every-reader/).
 
-### Resources I mentioned:
+## Resources I mentioned:
 
 * [Hemingway App](http://www.hemingwayapp.com/), the app that helps improve the readability of your content.
 * [BeeLine Reader](http://beelinereader.com/), the browser plugin for dyslexics.
 
-### Articles that were helpful to me:
+## Articles that were helpful to me:
 
 * [Cognitive Disabilities](http://webaim.org/articles/cognitive/), an introduction by WebAIM.
 * [Dyslexia and Typography](http://csskarma.com/blog/dyslexia-typography)
@@ -30,6 +30,6 @@ Here are [my slides for Writing for Every Reader](https://www.slideshare.net/ste
 * [Legibility, Readability, and Comprehension: Making Users Read Your Words](https://www.nngroup.com/articles/legibility-readability-comprehension/)
 * [Accessibility posters](https://github.com/UKHomeOffice/posters) by the UK Home Office.
 
-### More on accessibility:
+## More on accessibility:
 
 * [Selfish Accessibility](http://adrianroselli.com/2017/06/slides-from-wordcamp-europe.html) by Adrian Roselli got mentioned in a few different talks. It's well worth watching.

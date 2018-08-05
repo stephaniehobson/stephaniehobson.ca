@@ -37,7 +37,7 @@ This is a list consisting of all the websites and books recommended during the c
 * Article: [Tao of Web Design](http://alistapart.com/articles/dao/)
 * [Book: Pro Javascript Techniques](http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273)
 
-### Presentations:
+## Presentations:
 
 Missed a few, let me know if you have them.
 

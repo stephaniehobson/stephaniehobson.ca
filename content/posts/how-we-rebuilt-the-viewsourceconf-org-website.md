@@ -16,7 +16,7 @@ The [View Source Conference](http://viewsourceconf.org/) website, on the other h
 
 Here are a few highlights of the architectural decisions we made to make the site faster, more secure, and more reliable.
 
-### A Static Site
+## A Static Site
 
 When a user requests a page from a CMS (content management system) like Wordpress the server puts it together from databases and templates. This takes the server a small amount of time. When a site is built on request like this we call it a "dynamic" website.
 
@@ -24,7 +24,7 @@ When a user requests a page from a static site the server only has to find and s
 
 Static files are also easier to copy than dynamic sites, this means we can copy our static site to different CDNs (content delivery networks) around the world. Getting our content closer to our users is a very effective way to reduce [latency](https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/) which is one of the biggest hurdles to delivering a site fast.
 
-### Offline First
+## Offline First
 
 A [service worker](https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers) is JavaScript that runs in a browser but not as part of a page. The most common use for service workers is to watch network requests and respond instead of the server.
 
@@ -34,17 +34,17 @@ If the user returns to the site without a network connection the service worker 
 
 I am very grateful for the documentation published by [The Guardian](https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom), [Jeremy Keith](https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom), and  others who are already using Service Workers.
 
-### Mobile First
+## Mobile First
 
 When responsive web design first became the norm, the industry standard was to serve the full desktop site to all browsers with a bunch of extra code telling mobile browsers which pieces to remove to make the simplified mobile version. With the spread of mobile came the  [Mobile First](https://www.lukew.com/ff/entry.asp?1137) development approach. Mobile first delivers the content and code for the mobile version of a site first and then the larger more powerful desktop computers do the work of creating a better large screen experience.
 
 The View Source Conf site starts as a minimal mobile-friendly version. Then [media queries in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries) and [media queries in JavaScript](https://hacks.mozilla.org/2012/06/using-window-matchmedia-to-do-media-queries-in-javascript/) add more complicated layout instructions for larger screens.
 
-### SVG
+## SVG
 
 I used inline [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)s for the logo and icons. They look crisper on retina screens and, because they’re inline, don’t require any extra assets to download. Inlining also meant that I could [change the logo’s colour](https://css-tricks.com/cascading-svg-fill-color/) in our print styles. It was my first time [creating accessible SVGs](https://www.sitepoint.com/tips-accessible-svg/).
 
-### No Script
+## No Script
 
 All the content and functionality on the View Source site works with JavaScript disabled. Instead of sending shims and polyfills to older browsers to make them handle newer JavaScript features, we support those browsers by telling them not to load the JavaScript at all.
 
@@ -52,14 +52,14 @@ This meant we could write modern JavaScript! It also simplified testing. Less ca
 
 This isn’t a new idea, it’s [progressive enhancement](https://alistapart.com/article/understandingprogressiveenhancement) combined with the [BBC News’ “Cut the Mustard” test](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard).
 
-### HTTPS
+## HTTPS
 
 [HTTPS protects the privacy and security of your users](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https) and with [Let’s Encrypt](https://letsencrypt.org/) it’s free. You can tell browsers to only load your site over HTTPS with the [`Strict-Transport-Security` header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security).
 
-### Do Not Track
+## Do Not Track
 
 We use Google Analytics to measure site traffic and try to improve our conversion rates but we respect the privacy of users visiting with [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) enabled. By [detecting Do Not Track settings](http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/) we can avoid serving them the Google Analytics file. If a user has not set Do Not Track but has an ad blocker installed all our code runs without requiring Google Analytics to initialize.
 
-### View Source
+## View Source
 
 Hear industry leaders speak about topics like web performance, security, reliability, CSS grids and more at the [View Source Conference in London](https://viewsourceconf.org/london-2017/) October 27, 2017\. See the [full schedule](https://viewsourceconf.org/london-2017/#schedule)! Or [watch videos of last year's talks](https://viewsourceconf.org/berlin-2016/).

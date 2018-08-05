@@ -12,11 +12,11 @@ tags:
 Last night I spoke at the [Style & Class Meet-up](http://www.meetup.com/styleandclass/) about Accessibility and CSS. Posting the slides here for posterity:
 
 <div class="slideshare">
-<iframe src="http://www.slideshare.net/slideshow/embed_code/34682651" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<iframe src="http://www.slideshare.net/slideshow/embed_code/34682651" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 <p>**[Accessibility with CSS: Making Websites Better for Everyone](https://www.slideshare.net/stephaniehobson/accessibility-with-css-making-website-better-for-everyone "Accessibility with CSS: Making Websites Better for Everyone")**</p>
 </div>
 
-### Resources
+## Resources
 
 * [Intro to Accessibility](http://webaim.org)
 * [WCAG Validator](http://wave.webaim.org)
