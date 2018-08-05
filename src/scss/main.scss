@@ -5,9 +5,10 @@
 
 @import 'base/elements/document';
 @import 'base/elements/media';
-@import 'base/elements/typography';
 @import 'base/elements/sectioning';
+@import 'base/elements/typography';
 
-@import 'components/header';
 @import 'components/elsewhere';
+@import 'components/footer';
+@import 'components/header';
 @import 'components/post';
