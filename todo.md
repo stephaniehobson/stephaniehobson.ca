@@ -5,7 +5,7 @@
   - Fix heading levels for posts
 - Implement code syntax styling
 - Review each post
-- Next/Prev Links on individual posts
+- Next/Prev Links on individual posts (or other CTA at bottom of post)
 - Archive pages
 - Reader view
 - RSS feed
@@ -15,4 +15,5 @@
 - Write & implement summaries for posts
 - Redirect old Wordpress URLs
 - 404 page
-- Remove tags or categories?
+- Remove tags or categories? (remove all posts not webdesign?)
+- fix posts with DLs
