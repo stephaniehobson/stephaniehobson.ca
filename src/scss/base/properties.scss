@@ -1,3 +1,9 @@
 :root {
-    --grid-value: 1.5rem;
+    --grid-value: 1rem;
+}
+
+@media #{$mq-680-and-up} {
+    :root {
+        --grid-value: 1.5rem;
+    }
 }

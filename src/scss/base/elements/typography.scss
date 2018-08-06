@@ -33,12 +33,12 @@ h4 {
 }
 
 main {
-  h1,
-  h2,
-  h3,
-  h4 {
-    margin-left: calc(#{$grid} * -1)
-  }
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin-left: calc(#{$grid} * -1);
+    }
 }
 
 p {
