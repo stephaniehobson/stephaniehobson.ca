@@ -1,0 +1,16 @@
+<div>
+    <h1>
+        <a href="{{ .Permalink }}">
+            {{ .Title }}
+        </a>
+    </h1>
+    <p>Published: {{ .PublishDate.Format "2006 January 02" }}</p>
+    <p>Categorized as:
+    {{ with .Params.categories }}
+        {{ range $i, $e := . }}
+            {{ if $i }}, {{ end }}
+            <a href="{{ "categories/" | absURL }}{{ $e | urlize }}" rel="tag">{{ $e }}</a>{{ if not $i }}.{{ end }}
+        {{ end }}
+    {{ end }}
+    </p>
+</div>
