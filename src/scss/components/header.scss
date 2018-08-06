@@ -3,16 +3,19 @@
 
 .header {
     border-bottom: $divider;
+    margin-bottom: $grid;
+    padding-bottom: $grid;
 
     span {
         color: #666;
         display: block;
-        font-size: 11px;
+        font-size: calc(#{$font-base} * #{$f-2});
         font-weight: normal;
     }
 }
 
 .header-avatar {
+    border-top: $grid solid transparent;
     float: right;
     width: 77px;
 }

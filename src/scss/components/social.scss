@@ -2,25 +2,25 @@
 @import '../includes/mixins';
 
 .social {
+    border-bottom: $divider;
+    margin-bottom: $grid;
+    padding-bottom: $grid;
     width: 100%;
-
-    &.social-header {
-        border-bottom: $divider;
-        padding: $grid 0;
-    }
 }
 
 .social-list {
     margin: 0;
+    padding: 0;
 }
 
 .social-item {
     margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 .social-name {
-    font-size: 0.8rem;
+    font-size: calc(#{$font-base} * #{$f-2});
 }
 
 .social-icon {

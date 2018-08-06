@@ -2,15 +2,16 @@
 @import '../../includes/mixins';
 
 html {
-    background-color: $color-background;
+    background: $color-background;
     color: $color-text;
 }
 
 body {
     @include container();
     background: $color-background;
-    border: calc(#{$grid} / 2) solid transparent;
+    border: calc(#{$grid} * 2) solid transparent;
     color: $color-text;
     font-family: $body-font-family;
+    font-size: #{$font-base};
     line-height: 1.5;
 }

@@ -16,6 +16,16 @@ $heading-font-family: 'Lucida Grande', verdana, arial, sans-serif;
 $heading-line-height: 1.5;
 $body-font-family: 'Lucida Grande', verdana, arial, sans-serif;
 $body-line-height: 2.1;
+$font-base: var(--font-base);
+
+// Musical tetratonic scale
+$f5: 2;
+$f4: 1.6818;
+$f3: 1.4142;
+$f2: 1.1892;
+$f1: 1;
+$f-1: 0.8409;
+$f-2: 0.7071; //thank you fmarier
 
 /*
 breakpoints & media queries
