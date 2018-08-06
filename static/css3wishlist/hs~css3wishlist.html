@@ -1,0 +1,557 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>CSS3 Wishlist</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<style type="text/css">
+		html{
+			font-family:Tahoma, verdana, arial, helvetica;
+			font-size:62.5%;
+		}
+		body{
+			font-size:1.2em;
+		}
+		p, li{
+			line-height:1.4em;
+		}
+		h1{
+			border-bottom:1px solid #000;
+		}
+		img{
+			border:1px solid #000;
+		}
+		.cat{
+			margin-left:20px;
+		}
+		.cat h1{
+			margin-left:-20px;
+		}
+		code{
+			margin:1em;
+			color:#00A;
+			display:block;
+		}
+		
+			
+		.contentimage{
+				border:3px solid #000;
+			}
+	
+		.contentimage2{
+			border:3px solid #000;
+			width:214px;
+			}
+	
+	</style>
+</head>
+<body>
+
+<p>Thank you guys *very much* for soliciting this information, reading through it all, making sense of it in the context of your knowledge of CSS3, and working to incorporate it.  I know I want to read the proposals but I want to do a lot of things.  Also, thanks for the deadline.  I never get anything done without a deadline :)</p>
+<p>Stuff I think is in the specs I want:</p>
+<ul>
+	<li>Multiple background images</li>
+	<li><a href="http://developer.mozilla.org/en/docs/CSS:-moz-box-sizing">Box-sizing</a>, please oh please box-sizing.</li>
+	<li>nth selectors for everything</li>
+</ul>
+<p>Stuff other people have asked for that I second:</p>
+<ul>
+	<li>Gradients with ability to set and place multiple mid points of different colours and <strong>opacity</strong>.  Macromedia's Actionscript might be a potential source for the syntax of this.</li>
+	<li>The ability to preform math calculations, including mixed units (width:10px + 2em;)</li>
+	<li><a href="http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-61368">Comment 116</a>: Decimal incrementation for nested lists. (1.0, 1.1, 1.2, 2.0, 2.1, 2.2)
+	<li><a href="http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59801">Comment 77</a>: Declare entire font styles the way that font-family is currently used. Instead of something like "font-x, font-y, sans", let me say "Family size line height". For example "font-x 14px 1.3em, font-y 16px 1.2em, sans 14px 1.2em". Should some solution offering more web fonts surface (which will probably happen in the very near future judging by potential) we need a way to work with the fact that different fonts are... different.</li>
+	<li><a href="http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59588">Comment 55</a>: In positioned elements, to be able to set the position of not only the left, right, top, and bottom, but also the horizontal center and/or vertical center of the element.<br>
+<strong>A Note:</strong> This could work with the positioining rules and the box/text rotation rules.  Each element could have a pivot point attribute set as either a text value like top left, center center, or a unit value like 100% 5%</li>
+</ul>
+<p>This is the stuff I want but don't know if it's in the specs:</p>
+
+<div id="code" class="cat">
+	<h1>Simplifying code size and maintainability</h1>
+	
+	<h2>Assigning classes using CSS</h2>
+	<h3>The problems</h3>
+	<p>A default class might be created to set up the basics of styling similar page elements.  This base class is then applied to varous elements in the code.  Deciding to change one of the multiple elements this class is applied to requires editing the HTML.</p>
+	<p>For example, horizontal navigation menus have lots of styling in common and code can be simplified by putting that styling in one class and applying it to all.  However if one of the navigation menus has to be changed to be vertical instead of horisontal the HTML must be edited to remove the class:</p>
+	<code>
+		.nav li{list-style-type:none; float:left;}<br>
+		#global_nav{background-color:#00a;}<br>
+		#section_nav{background-color:#a00;}<br>
+		#tools_nav{background-color:#aaa;}<br>
+	</code>
+	<code>
+		&lt;div id="header"&gt;<br>
+		&nbsp; &nbsp;&lt;h1&gt;Company Name&lt;/h1&gt;<br>
+		&nbsp; &nbsp;&lt;ul id="global_nav" class="nav"&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&lt;/ul&gt;<br>
+		&lt;/div&gt;<br>
+		&lt;div id="content"&gt;<br>
+		&nbsp; &nbsp;&lt;ul id="section_nav" class="nav"&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&lt;/ul&gt;<br>
+		&nbsp; &nbsp;&lt;p&gt;Content content content.&lt;/p&gt;<br>
+		&nbsp; &nbsp;&lt;img alt="hey look an image" src="pic.jpg"&gt;<br>
+		&nbsp; &nbsp;&lt;p&gt;Content content content.&lt;/p&gt;<br>
+		&lt;div id="footer"&gt;<br>
+		&nbsp; &nbsp;&lt;ul id="tools_nav" class="nav"&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&nbsp; &nbsp;&lt;li&gt;&lt;a&gt;link&lt;/a&gt;&lt;/li&gt;<br>
+		&nbsp; &nbsp;&lt;/ul&gt;<br>
+		&nbsp; &nbsp;&lt;div id="copyright"&gt;Don't worry, it's all free.&lt;/div&gt;<br>
+		&lt;/div&gt;<br>
+	</code>
+	<p>Different page elements might receive similar treatments in one way but different ones in other ways.  Current code requires that these definitions go together in one place and away from where their other properties are defined or to duplicate the code.</p>
+	<code>
+		.sidebar{<br>
+		float:left;<br>
+		width:200px;<br>
+		}<br><br>
+		.sidebar p{<br>
+		padding:10px;<br>
+		<strong>border:1px solid #00a;<br>
+		background-color:#fff;<br>
+		color:#00a;</strong><br>
+		}<br><br>
+		.entryblock{<br>
+		padding:10px;<br>
+		margin:10px;<br>
+		}<br><br>
+		.entryblock p{<br>
+		line-height:2em;<br>
+		<strong>border:1px solid #00a;<br>
+		background-color:#fff;<br>
+		color:#00a;</strong><br>
+		}<br><br>
+		.broswebox{<br>
+		font-size:0.8em;<br>
+		padding:5px;<br>
+		}<br><br>
+		.broswebox p{<br>
+		padding-left:100px;
+		<strong>border:1px solid #00a;<br>
+		background-color:#fff;<br>
+		color:#00a;</strong><br>
+		}<br><br>
+		.keyword{<br>
+		display:block;<br>
+		padding:0.5em;<br>
+		<strong>border:1px solid #00a;<br>
+		background-color:#fff;<br>
+		color:#00a;</strong><br>
+		}<br>
+	</code>
+	
+	<h3>What it might look like</h3>
+	<p>Allow classes to be assigned to classes in the CSS.  I imagine it would be best to add the class to the element giving it multiple classes instead of overwritting other classes.</p>
+	<code>
+		.attention{<br>
+		border:1px solid #00a;<br>
+		background-color:#fff;<br>
+		color:#00a;<br>
+		}<br><br>
+		.sidebar{<br>
+		float:left;<br>
+		width:200px;<br>
+		}<br><br>
+		.sidebar p{<br>
+		padding:10px;<br>
+		<strong>class:attention;</strong><br>
+		}<br><br>
+		.entryblock{<br>
+		padding:10px;<br>
+		margin:10px;<br>
+		}<br><br>
+		.entryblock p{<br>
+		line-height:2em;<br>
+		<strong>class:attention;</strong><br>
+		}<br><br>
+		.broswebox{<br>
+		font-size:0.8em;<br>
+		padding:5px;<br>
+		}<br><br>
+		.broswebox p{<br>
+		padding-left:100px;<br>
+		<strong>class:attention;</strong><br>
+		}<br><br>
+		.keyword{<br>
+		display:block;<br>
+		padding:0.5em;<br>
+		<strong>class:attention;</strong><br>
+		}<br>
+	</code>
+	
+	<h2>Variables</h2>
+	<h3>The problem</h3>
+	<p>A colour scheme often exists of a small range of hex codes which get reused extensively throughout a document.</p>
+	<code>
+		.contentimage{ border: 1px solid #00a;}<br>
+		.sidebar{color:#fff; background-color:#00a;}<br>
+		#content p:first-child {color:#00a;}<br>
+	</code>
+	<p>The same layout used across multiple pages might have different colour schemes, currently requiring all classes to be re-defined for the different colours</p>
+	<code>
+		.products .contentimage { border: 1px solid #00a;}<br>
+		.products .sidebar{color:#fff; background-color:#00a;}<br>
+		.products  #content p:first-child {color:#00a;}<br>
+		.services .contentimage { border: 1px solid #a00;}<br>
+		.services .sidebar{color:#fff; background-color:# a00;}<br>
+		.services #content p:first-child {color:# a00;}<br>
+	</code>
+	<p>Code gets duplicated and can be hard to change or maintain.</p>
+
+	<h3>What it might look like</h3>
+	<p>Some method of pre-defining common values for attributes.  Several people have suggested variables set up sort of like this:</p>
+	<code>
+		body{$sectioncolour: #00a;}<br>
+		.services {$sectioncolour: #a00;}<br>
+		.contentimage { border: 1px solid $sectioncolour;}<br>
+		.sidebar{color:#fff; background-color:$sectioncolour;}<br>
+		.services .sidebar{color:#fff; background-color:$sectioncolour;}<br>
+		#content p:first-child {color:$sectioncolour;}<br>
+	</code>
+	<p>If we also have the ability to assign classes in the CSS I would suggest that the contents of variables be limited to values instead of containing entire attribute value pairs ($sectioncolor: "color:#a00";).</p>
+
+	<h2>Chaining selectors</h2>
+	<h3>The problem</h3>
+		<p>Defining specific styles for multiple elements nested deep inside other elements can start to take up a lot of space</p>
+		<code>
+			#content #maincontent .article .teaser p,<br>
+			#content #maincontent .article .teaser ul,<br>
+			#content #maincontent .article .teaser ol,<br>
+			#content #maincontent .article .teaser div,<br>
+			#content #maincontent .article .teaser .cool{<br>
+				color:#00a;<br>
+			}<br>
+		</code>
+	
+	<h3>What it might look like</h3>
+	<p>Chaining elements or selectors:</p>
+	<code>
+		#content #maincontent .article .teaser (p|ul|ol|div|.cool){<br>
+		color:#00a;<br>
+		}<br>
+	</code>
+
+</div>
+<div id="backgrounds"  class="cat">
+
+	<h1>Backgrounds</h1>
+	
+	<h2>Foreground images</h2>
+	<h3>The problem</h3>
+	<p>Current image replacement techniques require moving the text off screen so it does not appear over top of the background image, with images off neither the text nor the background image appear on the screen.</p>
+	<code>
+		#home a {<br>	
+		text-indent:-999px;<br>
+		background-image: url(home.jpg);<br>
+		display:block;<br>
+		width:100px;<br>
+		height:50px;<br>
+		}
+	</code>
+	<code>
+		&lt;div id="home"&gt;&lt;a href=""&gt;Home&lt;/a&gt;&lt;/div&gt;&lt;br&gt;
+	</code>
+	<p>Placing a transparent PNG over scrolling text to create a fade in effect. Example: <a href="http://www.digital-web.com/articles/web_standards_creativity_png/">figure 5-10, 5-11</a></p>
+	<p>	Watermarks and translucent overlays	</p>
+	<img src="css3_foreground.jpg" width="214" height="160" alt="Unaltered photo of a mouse." border="0"><img src="css3_foreground1.jpg" width="214" height="160" alt="Photo of a mouse with a 'on sale' image in a corner" border="0"><img src="css3_foreground2.jpg" width="214" height="160" alt="Photo of a mouse with a 'on sale' overly and a 'buy now' overly triggered by a hover event." border="0">
+
+	<h3>What it might look like</h3>
+	<p>Foreground images, same as background images but in front of the text.</p>
+
+	<h2>Background image in pixels from bottom right</h2>
+	<h3>The problem</h3>
+	<p>Placing a background image a fixed pixel distance from the bottom right corner of an element.</p>
+
+	<h3>What it might look like</h3>
+	<p>Wanting to access the box from a point other than the top left seems to be a common theme, the solution to this could be applied to other things like rotation and positioning too.</p>
+	<p>I think lots of other people have come up with solutions for this, do I really need to to?</p>
+	
+	<h2>Multiple background images</h2>
+	<h3>The problem</h3>
+	<p>I haven't read the all of the multiple image background specs yet but I would like to be sure that it is possible to insert a background image in between other background images defined elsewhere.</p>
+	<p>This is a serise of nested divs which have background images to create a flexable banner:</p>
+	<div style="background-image:url(lines.gif);background-repeat:repeat-x;background-position:100% 0%">
+		<div style="background-image:url(line.gif);background-repeat:no-repeat;background-position:0% 0%">
+		<div style="background-image:url(end.gif);background-repeat:no-repeat;background-position:100% 0%">
+		<div style="height:200px;background-image:url(bg.gif);width:100%;">
+		<div style="height:200px;background-image:url(people.gif);background-repeat:no-repeat;background-position:30px 0px">
+		<div style="background-image:url(icons.gif);background-repeat:repeat-x;background-position:0% 95%;height:200px;">
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+	<p>Can this be done with the new multiple background specs? I imagine it would look somthing like this:</p>
+	<code>
+		.banner{<br>
+		&nbsp; &nbsp;background-image: url(icons.gif), url(people.gif), url(bg.gif), url(end.gif), url(line.gif), url(lines.gif);<br>
+		&nbsp; &nbsp;background-position:  0% 95%, 0px 30px, top left, 0% 100%, 0% 0%, 100% 0%;<br>
+		&nbsp; &nbsp;background-repeat: repeat-x, no-repeat, repeat-x, no-repeat, no-repeat, repeat-x;<br>
+		&nbsp; &nbsp;height:200px;<br>
+		&nbsp; &nbsp;width:100%;<br>
+		}<br>
+	</code>
+	<p>Now what if each section of the website has a different colour funcky background?  Is there a straight forward way to change just that image?</p>
+	<p>How about a straight forward way to add in a second group of people in the middle there?</p>
+
+</div>
+<div id="lists" class="cat">
+
+	<h1>Lists</h1>
+
+	<h2>Define list item styling seperate from bullet styling:</h2>
+	<h3>The problem</h3>
+	<img src="css3_list.jpg" width="261" height="173" alt="" border="0">
+	
+	<h3>What it might look like</h3>
+	<code>
+		.vegas li{<br>
+		list-style-color:#000;<br>
+		list-style-size:1.2em;<br>
+		color:#f00;<br>
+		}<br><br>
+		.vegas li:nth-child(odd){<br>
+		list-style-color: #f00;<br>
+		color:#000;<br>
+		}<br>
+	</code>
+	
+	<h2>Define a character for use as a bullet:</h2>
+	<h3>The problem</h3>
+	<img src="css3_list.jpg" width="261" height="173" alt="" border="0">
+	
+	<h3>What it might look like</h3>
+	<code>
+		.vegas li{<br>
+		list-style-type:"&#9824;" <br>
+		}<br><br>
+		.vegas li:nth-child(odd){<br>
+		list-style-type:"&#9829;"<br>
+		}<br>
+	</code>
+	
+	
+</div>
+<div id="boxes" class="cat">
+
+	<h1>Boxes that aren't boxes any more</h1>
+
+	<h2>Multiple borders</h2>
+	<h3>The problem</h3>
+		<p>Sometimes we want multiple borders around an element.</p>
+		<div style="width:200px;">
+			<div style="border:10px solid #aba000;">
+			<div style="border:10px solid #fff799;">
+			<div style="border:20px solid #000;">
+			<div style="border:2px solid #fff;background-color:#00bff3;padding:10px;">
+			Text.
+			</div>
+			</div>
+			</div>
+			</div>
+		</div>
+		
+	<h3>What it might look like</h3>
+	<p>Multiple borders, following the multiple background image model:</p>
+	<code>
+		#box{<br>
+		border:2px 20px 10px 10px, solid, #fff, #000, #fff799,#aba000;<br>
+		}<br>
+	</code>
+	<p>Or we could have the ability to define a second box around the element dynamically <a href="http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59529">as suggested in comment 31</a>.</p>
+	
+	<code>
+	#box:outer{border:20px solid #000;}<br>
+	#box:outer:outer{border:10px solid #fff799;}<br>
+	</code>
+	
+	<h2>Containing floated contents</h2>
+	<h3>The problem</h3>
+	<p>Elements with floated elements inside them need to have extra HTML code added that the end in order to completely contain the floated element.  This might be a div with style="clear:both;" or it might be added dynamically using the <a href="http://www.webtoolkit.info/css-clearfix.html">.clearfix method</a>.</p>
+	<p>What happens:</p>
+		<div style="border:2px solid #000;">
+			<div style="float:left;width:100px; height:100px;background-color:#00bff3;">
+				Text
+			</div>
+			Text text.
+		</div>
+	<div style="clear:both;"></div>
+	<p>What we might want:</p>
+		<div style="border:2px solid #000;">
+			<div style="float:left;width:100px; height:100px;background-color:#00bff3;">
+				Text
+			</div>
+			Text text.
+			<div style="clear:both;">
+			</div>
+		</div>
+
+	<h3>What it might look like</h3>
+	<p>A new attribute to indicate that containers should clear their floats before they end.</p>
+
+	<code>
+		#box{<br>
+		overflow:contain;<br>
+		or<br>
+		clear:contents;<br>
+		}<br>
+	</code>
+	
+	<h2>Rotated boxes</h2>
+	<h3>The problem</h3>
+	<p>We want to be able to rotate boxes.</p>
+	<img src="css3_rotate.jpg" width="100" height="100" alt="" border="0">
+
+	<h3>What it might look like</h3>
+	<p>New properties could be created to designate a pivot point and a rotation in degrees (or radians but good luck getting designers to understand those).<img src="css3_rotate2.jpg" width="200" height="100" alt="" border="0"></p>	
+
+	<code>
+		#box{<br>
+		pivot-point:top left;<br>
+		rotation:45;<br>
+		}<br>
+	</code>
+	<img src="css3_rotate3.jpg" width="200" height="100" alt="" border="0">
+	<p>Pivot points could correspond to the top, left, right, bottom, and center of the box.  This would also be useful for absolute and relative positioning.  It would be nice if they took both text and unit values.
+</div>
+
+<div id="other" class="cat">
+
+	<h1>Other</h1>
+	<h2>Miminum box sizing based on contents</h2>
+	<h3>The problem</h3>
+	<p>Image captions shouldn't push the container they share with the image wider</p>
+	<p>If I have a 200px wide image.  I want my caption to wrap at 200px, but I don't want to have to hand code the image width on every container div on the site.</p>
+	<p>Current:</p>
+
+	<div class="contentimage">
+		<img src="css3_foreground.jpg" width="214" height="160" alt="" border="0">
+		<div class="caption">This would be the caption for the image, I would like it to wrap at 214px but not have to tell it that.</div>
+	</div>
+	<p>Desired appearance:</p>
+
+	<div class="contentimage2">
+		<img src="css3_foreground.jpg" width="214" height="160" alt="" border="0">
+		<div class="caption">
+			This would be the caption for the image, I would like it to wrap at 214px but not have to tell it that.
+		</div>
+	</div>
+	
+	<h3>What it might look like</h3>
+	<p>A property that could be set on the parent div to make it the minimum width possible:</p>
+	<code>
+		.contentimage{<br>
+			width:minimum;<br>
+			or<br>
+			text-wrap:force;<br>
+		}<br>
+	</code>
+	<p>A propery that could be set on .caption which would prevent it from forcing the container larger:</p>
+	<code>
+	.caption{<br>
+		width:parent;<br>
+	}<br>
+	</code>
+	
+	<h2>Indicating links to the current page</h2>
+	<h3>The problem</h3>
+		<p>A well designed navigation menu will indicate to users the page that they are currently on so that they do not try to navigate to it again.</p>
+		<p>Currently this presentation requires javascript or server side logic.</p>
+
+	<h3>What it might look like</h3>
+		<p>A CSS method of styling links to the current page.</p>
+		<p>
+			It would need to take into account the different options for index pages so that links to bcit.ca/index.shtml, bcit.ca, and / are treated the same.
+			I would also think it would be a good idea to make it case sensative even though not all servers are case sensative.
+		</p>
+	<code>
+		a:current{<br>
+		color:#666;<br>
+		}<br>
+	</code>
+	
+	<h2>Text flow</h2>
+	<h3>The problem</h3>
+	<p>When taking a element out of the flow of a document by using position:absolute or position:relative there is no way to clear a space for it to be placed back into the flow.</p>
+	<p>To start:</p>
+	<img src="css3_overlap.jpg" width="300" height="200" alt="Two paragraphs of text, the second one has a blue box floated to it's left." border="0">
+	<p>Position:relative</p>
+	<img src="css3_overlap2.jpg" width="300" height="200" alt="Two paragraphs of text, the blue box from the first has been positioned up and to the left but does not displace the text so over laps the first paragraph., and leaves a empty space where it was." border="0">
+	<p>Position:absolute</p>
+	<img src="css3_overlap3.jpg" width="300" height="200" alt="Two paragraphs of text, the blue box from the first examples has been absolutly positioned in the top left but does not displace the text o it over laps the first paragraph." border="0">
+
+	<h3>What it might look like</h3>
+	<p>Text wrap around absolute and relative positioned elements:</p>
+	<img src="css3_overlap_want.jpg" width="300" height="200" alt="" border="0">
+	<code>
+		text-flow:behind;<br>
+		text-flow:inline;<br>
+		text-flow:left;<br>
+		text-flow:right;<br>
+		text-flow:square;<br>
+	</code>
+	<ul>
+		<li>
+			behind: current behaviour and defalt setting, placing the text behind the absolutely positioned element<br>
+			<img src="css3_overlap2.jpg" width="300" height="200" alt="" border="0">
+		</li>
+		<li>
+			inline: text around the element would act as if the element had been placed on the page there in the code.<br>
+			<img src="css3_overlap_inline.jpg" width="300" height="200" alt="" border="0">
+		</li>
+		<li>
+			left: text would only wrap on the left hand side of the element<br>
+			<img src="css3_overlap_left.jpg" width="300" height="200" alt="" border="0">
+		</li>
+		<li>
+			right: text would only wrap on the right hand side of the element<br>
+			<img src="css3_overlap_right.jpg" width="300" height="200" alt="" border="0">
+		</li>
+		<li>
+			square: text would stop when it encounters the element, continue on the other side of it and wrap at the end of the line<br>
+			<img src="css3_overlap_square.jpg" width="300" height="200" alt="" border="0">
+		</li>
+	</ul>
+	<p>Relativly positioned elements could have an option not to leave a space behind when they go.  This effect can be achived currently by giving the element a negative margin equal to the distance it is being moved.</p>
+	<code>
+		.box{<br>
+		position:relative;<br>
+		top:-20px;<br>
+		left:-20px;<br>
+		text-flow:tight;<br>
+		}<br>
+	</code>
+	<img src="css3_overlap3.jpg" width="300" height="200" alt="" border="0">
+	
+	<h2>Styling tool tips</h2>
+	<h3>The problem</h3>
+	<p>Tool tips may clash with the design of a website.</p>
+	<p>Websites designed for low vision users have small tool tips with regular contrast text.</p>
+
+	<h3>What it might look like</h3>
+	<p>A pseudo class to allow styling of tool tips</p>
+	<code>
+		img:tip{<br>
+		background-color:#000;<br>
+		color:#FFF;<br>
+		font-size:2em;<br>
+		}<br><br>
+		abbr:tip{<br>
+		background-color:#00A;<br>
+		color:#FFF;<br>
+		font-size:2em;<br>
+		}<br>
+	</code>
+</div>
+	
+<small style="display:block;">I'm sorry for the bad photoshop pics, crummy examples, spelling mistakes, disjointed text, inline styles, not reading all the specs before commenting, and I'm sorry for being sorry! I'm sorry!</small>
+
+
+</body>
+</html>

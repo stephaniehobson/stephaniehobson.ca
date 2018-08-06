@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Internet Explorer and FireFox place bullets at different heights - a solution</title>
+</head>
+
+<style>
+
+body{background-image:url(basebg.gif);line-height:30px;}
+
+p{background-color:#fff;}
+
+img{border:1px solid #669933;float:left; margin-right:10px;}
+
+ul{
+	list-style-image:url(square.gif);
+}
+
+ul.fixed{
+	padding-top:2px;
+}
+
+.fixed li:first-line{
+	vertical-align:-25%;
+} 
+
+.code{
+	background-color:#fff;
+	border:1px solid #669933;
+	padding:10px;
+}
+
+</style>
+
+
+
+
+<body>
+
+<h1>The problem</h1>
+
+<img src="compare_default.gif" alt="Screen shot of the problem.">
+<p>FireFox and Internet Explorer have two different ideas about where to display a list-style-image. IE places them higher than Fire Fox. I'm not saying one or the other is wrong, it's differences that give us all headaches right? You can see it in action on the list below if you flip between the browsers:</p>
+
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three is really long so you can see how it works on multiple lines. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in velit vitae nisi fringilla tincidunt dapibus vitae dui. Nunc pulvinar tempor laoreet. In leo turpis, imperdiet a egestas blandit, porttitor ac mi. Maecenas eleifend pulvinar tortor, eu iaculis mauris mollis placerat. Fusce metus sapien, rutrum sed faucibus venenatis, feugiat et dui. Donec semper eros vel velit imperdiet sit amet scelerisque arcu imperdiet. Aenean a nisi vitae eros lobortis interdum qui.</li>
+<li>Four</li>
+</ul>
+
+<h1>A Fix?</h1>
+
+<img src="compare_fix.gif" alt="Screen shot of the solution.">
+<p>Usually we fix this by not using bullets but instead using background images. It's a good fix, but I found myself in a situation where I couldn't use it.</p>
+
+<p>I discovered that through a combination of :first-line and vertical-align it was possible to jog them up in FireFox and not in IE. It's a first pass so it's buggy but here's what it looks like in action:</p>
+
+<ul class="fixed">
+<li>One</li>
+<li>Two</li>
+<li>Three is really long so you can see how it works on multiple lines. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in velit vitae nisi fringilla tincidunt dapibus vitae dui. Nunc pulvinar tempor laoreet. In leo turpis, imperdiet a egestas blandit, porttitor ac mi. Maecenas eleifend pulvinar tortor, eu iaculis mauris mollis placerat. Fusce metus sapien, rutrum sed faucibus venenatis, feugiat et dui. Donec semper eros vel velit imperdiet sit amet scelerisque arcu imperdiet. Aenean a nisi vitae eros lobortis interdum qui.</li>
+<li>Four</li>
+</ul>
+
+<p>Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element? This is what I'm doing:</p>
+
+<div class="code"><code>
+ul{<br>
+list-style-image:url(square.gif);<br>
+}<br>
+<br>
+ul.fixed{<br>
+/* without the padding IE places the first bullet in the list at it's corrected height, too high for us */<br>
+padding-top:2px;<br>
+}<br>
+<br>
+.fixed li:first-line{<br>
+vertical-align:-25%;<br>
+} <br>
+</code></div>
+
+<p>Now that they're displaying consistantly you can add a little space at the top of the bullet image if you want to move it down :)</p>
+
+<p>It works in IE 7 and FF 3.6 on Windows XP. It does not change Chrome 6 which still places the bullet as low as FireFox by default (text-bottom, I assume). You should <a href="http://twitter.com/stephaniehobson">tweet me</a> if you test in other browsers.</p>
+
+<p>Adding other properties to the lists <em>might</em> break it. I blew it up good a couple times working on the solution.</p>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-535288-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>

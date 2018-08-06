@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style>
+
+
+.wrapper_outter{width:960px;height:500px;overflow:hidden; border:1px solid #00f;}
+.wrapper_inner{width:20000px;padding:0px 960px;/* width of wrapper_outter */}
+.wrapper_inner li{display:block; float:left;width:20px; height:500px;}
+.wrapper_inner a{position:relative;left:380px;display:block; height:300px; width:20px; overflow:hidden;z-index:10;}
+
+.wrapper_inner li:target{width:960px;/* witdth of wrapper_outter */text-align:center;}
+.wrapper_inner li:target a{position:static; height:300px; width:200px;margin:auto;}
+
+.wrapper_inner li:target ~ li a{left:-380px;}
+
+
+body{background:#000;color:#fff;}
+
+a:active{background-color:#0000FF !important;}
+
+ul.scroll{position:absolute; top:400px; left:330px; z-index:200;}
+ul.scroll li{float:left;width:20px;height:10px;overflow:hidden;list-style-type:none;}
+ul.scroll li a{background-color:#999999; padding-left:20px;}
+ul.scroll li:nth-child(even) a{background-color:#CCCCCC;}
+/*
+
+.wrapper_outter {
+	height:500px;
+	overflow:hidden;
+	position:relative;
+	width:1000px;
+	-webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0)), color-stop(0.1, rgba(0,0,0,1)), color-stop(0.9, rgba(0,0,0,1)),to(rgba(0,0,0,0)));
+}
+
+.wrapper_inner{
+	width:2000px;
+}
+
+.wrapper_inner .cover{
+	position:relative;
+	float:left;
+	margin-right:-150px; *//* width of image - a bit *//*
+	-webkit-perspective: 400;
+	background-color:#000;
+	padding:50px 20px 200px 0px;
+	
+
+}
+
+.wrapper_inner .cover a{    
+display:block;
+
+
+-webkit-transform: translate3d(-28px, 0px, 0px) rotateY(45deg) scale(0.8);
+
+	-webkit-box-reflect:below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(rgba(255,255,255,0.2)));
+	
+	-webkit-transition-property: -webkit-transform padding;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-out;
+
+
+}
+
+.wrapper_inner .cover:target{padding-right:0px;margin:0px 0px 0px 0px; z-index:100;}
+.wrapper_inner .cover:target a{-webkit-transform: translate3d(0px, 0px, 0px) rotateY(-0deg);}
+*/
+/*
+.wrapper_inner .after {width:220px;overflow:hidden;margin-right:-176px;}
+.wrapper_inner .after a{-webkit-transform: translate3d(-90px, 0px, 0px) rotateY(-45deg) scale(0.8)};
+
+/*
+.wrapper_inner .cover:target ~ .cover {background-color:#00f !important;}
+.wrapper_inner .cover:target ~ .cover a{-webkit-transform: translate3d(-81px, 0px, 0px) rotateY(-45deg) scale(0.8);}
+*/
+
+
+
+</style>
+
+</head>
+
+<body>
+	
+<ul class="scroll">
+	<li><a href="#berries">berries</a></li>
+	<li><a href="#cherry">cherry</a></li>
+	<li><a href="#cirque">cirque</a></li>
+	<li><a href="#wall">wall</a></li>
+	<li><a href="#sky">sky</a></li>
+	<li><a href="#bird">bird</a></li>
+	<li><a href="#cupid">cupid</a></li>
+	<li><a href="#tunnel">tunnel</a></li>
+	<li><a href="#angel">angel</a></li>
+	<li><a href="#fates">fates</a></li>
+	<li><a href="#giraffe">giraffe</a></li>
+	<li><a href="#fountian">fountian</a></li>
+</ul>
+
+<div class="wrapper_outter">
+<div class="wrapper_inner" >
+	<ul>
+		<li class="cover" id="berries"><a href="berries.jpg"><img src="berries.jpg" width="200" /></a></li>
+		<li class="cover" id="cherry"><a href="cherry.jpg"><img src="cherry.jpg" width="200"  /></a></li>
+		<li class="cover" id="cirque"><a href="cirque.jpg"><img src="cirque.jpg" width="200" /></a></li>
+		<li class="cover" id="wall"><a href="europe07_0002_Layer 25.jpg"><img src="europe07_0002_Layer 25.jpg" width="200"  /></a></li>
+		<li class="cover" id="sky"><a href="europe07_0003_Layer 24.jpg"><img src="europe07_0003_Layer 24.jpg" width="200" /></a></li>
+		<li class="cover" id="bird"><a href="europe07_0004_Layer 23.jpg"><img src="europe07_0004_Layer 23.jpg" width="200" /></a></li>
+		<li class="cover after" id="cupid"><a href="europe07_0005_Layer 22.jpg"><img src="europe07_0005_Layer 22.jpg" width="200" /></a></li>
+		<li class="cover after" id="tunnel"><a href="europe07_0006_Layer 21.jpg"><img src="europe07_0006_Layer 21.jpg" width="200" /></a></li>
+		<li class="cover after" id="angel"><a href="europe07_0018_Layer 9.jpg"><img src="europe07_0018_Layer 9.jpg" width="200" /></a></li>
+		<li class="cover after" id="fates"><a href="europe07_0020_Layer 7.jpg"><img src="europe07_0020_Layer 7.jpg" width="200" /></a></li>
+		<li class="cover after" id="giraffe"><a href="europe07_0021_Layer 6.jpg"><img src="europe07_0021_Layer 6.jpg" width="200" /></a></li>
+		<li class="cover after" id="fountian"><a href="fountian.jpg"><img src="fountian.jpg" width="200" /></a></li>
+	</ul>
+</div>
+</div>
+
+
+<div>
+<p>idea for centering image: make cover full width of view port but transparent on either side, the negative margins on this could get kind of mathy OR, make target a 1px by 1px target in the center? Need to devise a test to swee what Safari considers the target and what it scrolls to </p>
+<p>transition from after to target is wrong</p>
+
+<ul>
+	<li>you should go try this first</li>
+	<li>resources (links to websites I found useful + links to west civ tools for rotation and gradient</li>
+	<li>link to safari bug</li>
+	<li>info about backwards compatability</li>
+	<li>break it down
+		<ul>
+			<li>links bar: nth child</li>
+			<li>cover flows: parent box/sidescroll, gradient, reflection, 3D transform, left side vs right side & general sibling, transitions</li>
+		</ul>
+	</li>
+	<li>suggestions for future improvements</li>
+</ul>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Good Example</title>
+
+<style>
+
+body {
+    margin: 50px;
+}
+
+h3 {
+    margin: 0;
+}
+
+dt {
+    float: left;
+    clear: left;
+    font-weight: bold;
+}
+
+dt:after{
+    content: ':\00a0';
+}
+
+.server {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+
+    margin: 0 0 5px 0;
+    border: 0;
+    padding: 20px;
+
+    background-color: green;
+    color: #fff;
+    font-family: helvetica;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+    .server.server_down {
+        background-color: red;
+    }
+
+    .server:after {
+        content: 'details \25B8';
+        speak: none;
+
+        position: absolute;
+        top: 2em;
+        right: 20px;
+        display: inline-block;
+
+        border-radius: 4px;
+        border: 0px none;
+        padding: 5px 11px;
+        box-shadow: 0px -2px rgba(0,0,0, 0.5) inset;
+
+        background-color: #fff;
+        color: #4D4E53;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+        .server[aria-expanded="true"]:after {
+            content: 'details \25BE';
+        }
+
+.server:hover,
+.server:focus {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+    .server:hover:after,
+    .server:focus:after {
+        padding: 8px 14px;
+        top: calc(2em - 3px);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.icon_check:before {
+    content: '\2713';
+    speak: none;
+}
+
+.icon_cross:before {
+    content: '\2715';
+    speak: none;
+}
+
+.server_details {
+    margin-bottom: 5px;
+    margin-top: -8px;
+    padding: 10px 20px;
+    border: 3px solid green;
+
+    font-family: helvetica;
+    line-height:2;
+
+    list-style-type: none;
+}
+
+    .server_down + .server_details {
+        border-color: red;
+    }
+
+    .server_details[aria-hidden="true"] {
+        display: none;
+    }
+
+.offscreen {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+</style>
+
+</head>
+<body>
+
+<h3>
+    <button class="server" aria-controls="blueberry" aria-expanded="false">
+        <span class="icon">
+            <span class="icon_check" aria-hidden="true"></span>
+            <span class="offscreen">Server up:</span>
+        </span>
+        Blueberry
+    </button>
+</h3>
+<dl class="server_details" id="blueberry" aria-hidden="true">
+    <dt>Hostname</dt><dd>web02.onr.example.com</dd>
+    <dt>Service Tag</dt><dd>JCQFZK1</dd>
+    <dt>Datacentre</dt><dd>ONR</dd>
+    <dt>Rack Location</dt><dd>104.6, Unit #24</dd>
+</dl>
+
+<h3 class="server_down">
+    <button class="server server_down" aria-controls="raspberry" aria-expanded="true">
+        <span class="icon">
+            <span class="icon_cross" aria-hidden="true"></span>
+            <span class="offscreen">Server down:</span>
+        </span>
+        Raspberry
+    </button>
+</h3>
+<dl class="server_details" id="raspberry" aria-hidden="false">
+    <dt>Hostname</dt><dd>web02.onr.example.com</dd>
+    <dt>Service Tag</dt><dd>JCQFZK1</dd>
+    <dt>Datacentre</dt><dd>ONR</dd>
+    <dt>Rack Location</dt><dd>104.6, Unit #24</dd>
+</dl>
+
+<h3>
+    <button class="server" aria-controls="strawberry" aria-expanded="false">
+        <span class="icon">
+            <span class="icon_check" aria-hidden="true"></span>
+            <span class="offscreen">Server up:</span>
+        </span>
+        Strawberry
+    </button>
+</h3>
+<dl class="server_details" id="strawberry" aria-hidden="true">
+    <dt>Hostname</dt><dd>web02.onr.example.com</dd>
+    <dt>Service Tag</dt><dd>JCQFZK1</dd>
+    <dt>Datacentre</dt><dd>ONR</dd>
+    <dt>Rack Location</dt><dd>104.6, Unit #24</dd>
+</dl>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+<script>
+
+(function ($) {
+    $.fn.toggleExpand = function(){
+        // this == control element
+        var $controller = $(this);
+        // get controlled element
+        var controlledId = $controller.attr('aria-controls');
+        var $controlled = $('#' + controlledId);
+        // toggle values on both
+        $controller.ariaToggle('aria-expanded');
+        $controlled.ariaToggle('aria-hidden');
+
+        // make it so we can chain this function, like any good jQuery function
+        return this;
+    };
+
+
+   $.fn.ariaToggle = function(attr) {
+        var $this = $(this);
+        var currentValue = $this.attr(attr);
+        if(currentValue === 'true'){
+            $this.attr(attr, false);
+        } else {
+            $this.attr(attr, true);
+        }
+
+        // make it so we can chain this function, like any good jQuery function
+        return this;
+    };
+
+    $('.server').on('click', function(){
+        $(this).toggleExpand();
+    });
+}(jQuery));
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VJ2HD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VJ2HD');</script>
+<!-- End Google Tag Manager -->
+
+
+
+</body>
+</html>
