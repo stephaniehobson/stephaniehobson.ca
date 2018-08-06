@@ -3,11 +3,12 @@ MVP:
 - Archive pages
 - RSS feed
   - home
-    - <link rel="alternate" type="application/rss+xml" title="Abstract Sequential RSS Feed" href="http://stephaniehobson.ca/feed/" />
   - tag and category pages
-    - <link rel="alternate" type="application/rss+xml" title="Abstract Sequential &raquo; webdesign Category Feed" href="http://stephaniehobson.ca/wordpress/category/webdesign/feed/" />
-    - <link rel="alternate" type="application/rss+xml" title="Abstract Sequential &raquo; conference Tag Feed" href="http://stephaniehobson.ca/wordpress/tag/conference/feed/" />
   - make sure old Wordpress URLs still work
+    - GHP will serve index.xml as folder index \o/
+    - http://stephaniehobson.ca/feed/
+    - http://stephaniehobson.ca/wordpress/category/webdesign/feed/
+    - http://stephaniehobson.ca/wordpress/tag/conference/feed/
 - Redirect old Wordpress URLs
   - all posts
   - tags: /wordpress/tag/accomplishment/
@@ -30,3 +31,4 @@ Other:
   - still need "webdesign" category? Isn't the whole blog about it?
 - fix posts with <dl>s
 - fix posts with HTML tags
+- warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")

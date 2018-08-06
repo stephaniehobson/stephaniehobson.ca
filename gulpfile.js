@@ -62,8 +62,15 @@ gulp.task('icons', () => {
         .pipe(gulp.dest('static/images/icons'));
 });
 
+// copy RSS feed to old directory
+gulp.task('rss', () => {
+    del(['public/feed/*']);
+    gulp.src('public/posts/index.xml')
+        .pipe(gulp.dest('public/feed'));
+});
+
 // Watch asset folder for changes
-gulp.task('watch', ['scss', 'scss:lint', 'images', 'js', 'icons'], () => {
+gulp.task('watch', ['scss', 'scss:lint', 'images', 'js', 'icons', 'rss'], () => {
     gulp.watch('src/scss/**/*', ['scss']);
     gulp.watch('src/images/**/*', ['images']);
     gulp.watch('src/js/**/*', ['js']);
