@@ -26,5 +26,7 @@ Other:
 - Reader view
 - Write & implement summaries for posts
 - Remove tags or categories? (remove all posts not webdesign?)
+  - only categories
+  - still need "webdesign" category? Isn't the whole blog about it?
 - fix posts with <dl>s
 - fix posts with HTML tags

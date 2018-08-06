@@ -32,6 +32,15 @@ h4 {
     margin-bottom: 20px;
 }
 
+main {
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-left: calc(#{$grid} * -1)
+  }
+}
+
 p {
     padding: $grid 0;
     margin: 0;
