@@ -1,9 +1,8 @@
 {{ define "main" }}
 {{ partial "social.html" (dict "context" . "class" "social-header") }}
 <main>
-    {{ range first 10 .Data.Pages }}
-    {{ if eq .Type "posts" }}
-        <article>
+    {{ range first 1 .Data.Pages }}
+        {{ if eq .Type "posts" }}
             <h1>
                 <a href="{{ .Permalink }}">
                     {{ .Title }}
@@ -13,8 +12,27 @@
             <a href="{{ .Permalink }}">
                 Permalink
             </a>
-        </article>
+        {{ end }}
     {{ end }}
+    {{ range first 10 (after 1 .Data.Pages) }}
+        {{ if eq .Type "posts" }}
+            <div>
+                <h1>
+                    <a href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                </h1>
+                <p>Published: {{ .PublishDate.Format "2006 January 02" }}</p>
+                <p>Categorized as:
+                {{ with .Params.categories }}
+                    {{ range $i, $e := . }}
+                        {{ if $i }}, {{ end }}
+                        <a href="{{ "categories/" | absURL }}{{ $e | urlize }}" rel="tag">{{ $e }}</a>{{ if not $i }}.{{ end }}
+                    {{ end }}
+                {{ end }}
+                </p>
+            </div>
+        {{ end }}
     {{ end }}
 </main>
 
