@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/categories/links/</link>
+    <description>Recent content in Links on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2015 10:31:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conference Debrief: An Event Apart Austin 2015</title>
+      <link>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</link>
+      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</guid>
+      <description>Last week, because working at Mozilla is awesome, I got to attend An Event Apart Austin, the conference put on by the A List Apart organization. It&amp;rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
+The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/categories/conference/</link>
+    <description>Recent content in Conference on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Oct 2015 10:31:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/categories/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conference Debrief: An Event Apart Austin 2015</title>
+      <link>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</link>
+      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</guid>
+      <description>Last week, because working at Mozilla is awesome, I got to attend An Event Apart Austin, the conference put on by the A List Apart organization. It&amp;rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
+The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer.</description>
+    </item>
+    
+    <item>
+      <title>CADE/AMTECH Conference</title>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+    </item>
+    
+  </channel>
+</rss>

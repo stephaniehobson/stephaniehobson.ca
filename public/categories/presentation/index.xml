@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentation on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/categories/presentation/</link>
+    <description>Recent content in Presentation on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/categories/presentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping More Table</title>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
+The video of my talk has been posted:   And my slides are available here.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility with CSS: Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
+      <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
+      <description> Last night I spoke at the Style &amp;amp; Class Meet-up about Accessibility and CSS. Posting the slides here for posterity:
+   Accessibility with CSS: Making Websites Better for Everyone  from Stephanie Hobson   Resources  Intro to Accessibility WCAG Validator Intro to ARIA :Focus and keyboard accessibility High contrast CSS Sprites Bullet Proof Accessible Icon Fonts The Offscreen Class Floating Form Labels Javascript fix for Skip Links  </description>
+    </item>
+    
+    <item>
+      <title>CADE/AMTECH Conference</title>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+    </item>
+    
+  </channel>
+</rss>

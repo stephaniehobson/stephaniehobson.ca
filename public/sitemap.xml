@@ -382,13 +382,92 @@
   </url>
   
   <url>
+    <loc>https://stephaniehobson.ca/year/2007/</loc>
+    <lastmod>2007-12-19T14:49:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/2008/</loc>
+    <lastmod>2008-08-11T21:03:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/2010/</loc>
+    <lastmod>2010-09-10T12:59:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/2011/</loc>
+    <lastmod>2011-09-06T14:34:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/2014/</loc>
+    <lastmod>2014-05-14T17:20:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/2015/</loc>
+    <lastmod>2015-10-15T10:31:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/2016/</loc>
+    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stephaniehobson.ca/</loc>
     <lastmod>2017-10-31T21:19:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://stephaniehobson.ca/categories/accessibility/</loc>
+    <lastmod>2008-08-11T21:03:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/accomplishment/</loc>
+    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/bcit/</loc>
+    <lastmod>2014-01-21T20:05:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stephaniehobson.ca/categories/</loc>
+    <lastmod>2008-08-11T21:03:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/code/</loc>
+    <lastmod>2011-09-06T14:34:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/conference/</loc>
+    <lastmod>2015-10-15T10:31:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/links/</loc>
+    <lastmod>2015-10-15T10:31:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -410,8 +489,32 @@
   </url>
   
   <url>
+    <loc>https://stephaniehobson.ca/categories/presentation/</loc>
+    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/slides/</loc>
+    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/categories/video/</loc>
+    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stephaniehobson.ca/categories/webdesign/</loc>
     <lastmod>2017-10-31T21:19:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/year/</loc>
+    <lastmod>2007-12-19T14:49:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   

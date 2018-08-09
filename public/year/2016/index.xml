@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2016 on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/year/2016/</link>
+    <description>Recent content in 2016 on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/year/2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping More Table</title>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
+The video of my talk has been posted:   And my slides are available here.</description>
+    </item>
+    
+  </channel>
+</rss>

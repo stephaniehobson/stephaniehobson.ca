@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accomplishment on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/categories/accomplishment/</link>
+    <description>Recent content in Accomplishment on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/categories/accomplishment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping More Table</title>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
+The video of my talk has been posted:   And my slides are available here.</description>
+    </item>
+    
+    <item>
+      <title>A Dull April Fool&#39;s Day</title>
+      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
+      <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
+ Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
+    </item>
+    
+    <item>
+      <title>CADE/AMTECH Conference</title>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+    </item>
+    
+  </channel>
+</rss>

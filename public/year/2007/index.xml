@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2007 on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/year/2007/</link>
+    <description>Recent content in 2007 on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Dec 2007 14:49:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/year/2007/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS bug in IE 6 with: .class a:hover element</title>
+      <link>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</link>
+      <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
+      <description>This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like .class a:hover span{} or #id a:hover strong{}. The solution is to define a property on the parent link .class a:hover{} that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.
+All the work for the solution was done by Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
+Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
+ From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
+    </item>
+    
+    <item>
+      <title>CADE/AMTECH Conference</title>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+    </item>
+    
+    <item>
+      <title>Delicious &#43; FireFox &#43; Snap Links</title>
+      <link>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</link>
+      <pubDate>Tue, 27 Mar 2007 15:06:24 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</guid>
+      <description>I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the &amp;ldquo;open all in tabs&amp;rdquo; option that FireFox so nicely includes to open all the book marks at once. That way I can keep track of which ones I&amp;rsquo;ve read by closing them once I&amp;rsquo;m done :) Yeah, it&amp;rsquo;s lazy I know.
+I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m away from my home computer (who doesn&amp;rsquo;t) so I jumped on the del.</description>
+    </item>
+    
+    <item>
+      <title>Border Collapse</title>
+      <link>https://stephaniehobson.ca/posts/border-collapse/</link>
+      <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/border-collapse/</guid>
+      <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
+I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
+    </item>
+    
+  </channel>
+</rss>

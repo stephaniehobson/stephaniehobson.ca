@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2014 on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/year/2014/</link>
+    <description>Recent content in 2014 on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 May 2014 17:20:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/year/2014/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accessibility with CSS: Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
+      <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
+      <description> Last night I spoke at the Style &amp;amp; Class Meet-up about Accessibility and CSS. Posting the slides here for posterity:
+   Accessibility with CSS: Making Websites Better for Everyone  from Stephanie Hobson   Resources  Intro to Accessibility WCAG Validator Intro to ARIA :Focus and keyboard accessibility High contrast CSS Sprites Bullet Proof Accessible Icon Fonts The Offscreen Class Floating Form Labels Javascript fix for Skip Links  </description>
+    </item>
+    
+    <item>
+      <title>A Matter of Semantics</title>
+      <link>https://stephaniehobson.ca/posts/a-matter-of-semantics/</link>
+      <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid>
+      <description>Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.
+Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.</description>
+    </item>
+    
+  </channel>
+</rss>

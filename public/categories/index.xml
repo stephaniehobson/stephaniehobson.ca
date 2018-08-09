@@ -6,9 +6,64 @@
     <description>Recent content in Categories on Abstract Sequential</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2008 21:03:13 +0000</lastBuildDate>
     
 	<atom:link href="https://stephaniehobson.ca/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Accessibility</title>
+      <link>https://stephaniehobson.ca/categories/accessibility/</link>
+      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/accessibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accomplishment</title>
+      <link>https://stephaniehobson.ca/categories/accomplishment/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/accomplishment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bcit</title>
+      <link>https://stephaniehobson.ca/categories/bcit/</link>
+      <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/bcit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://stephaniehobson.ca/categories/code/</link>
+      <pubDate>Tue, 06 Sep 2011 14:34:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>https://stephaniehobson.ca/categories/conference/</link>
+      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://stephaniehobson.ca/categories/links/</link>
+      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/links/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Personal</title>
@@ -16,6 +71,33 @@
       <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>https://stephaniehobson.ca/categories/presentation/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://stephaniehobson.ca/categories/slides/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://stephaniehobson.ca/categories/video/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/categories/video/</guid>
       <description></description>
     </item>
     

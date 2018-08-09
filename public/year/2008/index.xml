@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2008 on Abstract Sequential</title>
+    <link>https://stephaniehobson.ca/year/2008/</link>
+    <description>Recent content in 2008 on Abstract Sequential</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2008 21:03:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/year/2008/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accessibility Problem with Gilder/Levin Image Replacement Method</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link>
+      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid>
+      <description>I have a friend who lives his life in low contrast. He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.
+His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour schemes and he also makes use of IE&amp;rsquo;s ability to override a website&amp;rsquo;s CSS.</description>
+    </item>
+    
+    <item>
+      <title>Eight random things</title>
+      <link>https://stephaniehobson.ca/posts/eight-random-things/</link>
+      <pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/eight-random-things/</guid>
+      <description>In the spirit of Jeremy Keith&amp;rsquo;s post, here&amp;rsquo;s 8 random things I see about me:
+ Black queen carved like Raven. Small brass Buddha. Wind up penguin. iPhone. Microformats pocket cheat sheet. Salt. 8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;. Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;  You&amp;rsquo;re it.</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
+    </item>
+    
+    <item>
+      <title>Finally figure out what my problem is</title>
+      <link>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</link>
+      <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</guid>
+      <description>I read John Resig&amp;rsquo;s article Sub-Pixel Problems in CSS a few days ago and found it to very useful information.
+And then today I had an &amp;ldquo;ah-ha&amp;rsquo; moment - this this is why I hate coding flexible horizontal navigation menus.</description>
+    </item>
+    
+  </channel>
+</rss>
