@@ -1,10 +1,12 @@
 ---
 title: Delicious + FireFox + Snap Links
-tags:
+aliases:
+  - /wordpress/2017/03/27/delicious-firefox-snap-links-just-the-way-i-like-it
+date: 2007-03-27 15:06:24
+year: "2007"
 id: 11
 categories:
   - webdesign
-date: 2007-03-27 15:06:24
 ---
 
 I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the "open all in tabs" option that FireFox so nicely includes to open all the book marks at once.  That way I can keep track of which ones I've read by closing them once I'm done :)  Yeah, it's lazy I know.

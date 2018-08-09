@@ -1,11 +1,13 @@
 ---
 title: A Matter of Semantics
+aliases:
+  - /wordpress/2014/01/21/a-matter-of-semantics/
+date: 2014-01-21 20:05:49
+year: "2014"
 id: 591
 categories:
-  - webdesign
-date: 2014-01-21 20:05:49
-tags:
   - bcit
+  - webdesign
 ---
 
 _Adapted from a blog post on Web Services' blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience._

@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Abstract Sequential"
 [taxonomies]
   category = "categories"
+  year = "year"

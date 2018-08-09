@@ -1,12 +1,14 @@
 ---
 title: A Dull April Fool's Day
-tags:
-  - accomplishment
-  - bcit
+aliases:
+  - /wordpress/2011/07/14/dull-april-fools-day/
+date: 2011-07-16 18:59:20
+year: "2011"
 id: 303
 categories:
+  - accomplishment
+  - bcit
   - webdesign
-date: 2011-07-16 18:59:20
 ---
 
 There was a rash of black and white April Fool's Day sites this year. We weren't the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn't have been the same without any of them:

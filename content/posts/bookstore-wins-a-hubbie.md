@@ -1,12 +1,14 @@
 ---
 title: Bookstore wins a hubbie
-tags:
-  - accomplishment
-  - bcit
+aliases:
+  - /wordpress/2008/04/16/bookstore-wins-a-hubbie/
+date: 2008-04-16 15:15:10
+year: "2008"
 id: 38
 categories:
+  - accomplishment
+  - bcit
   - webdesign
-date: 2008-04-16 15:15:10
 ---
 
 Almost a year ago now the [BCIT Bookstore](http://bcitbookstore.ca) let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we'd like to help skin the new site.  The department was pretty busy at the time and my manager said we didn't have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.

@@ -1,11 +1,13 @@
 ---
 title: 'CSS bug in IE 6 with: .class a:hover element'
-tags:
-  - code
+aliases:
+  - /wordpress/2007/12/19/css-bug-in-ie-6-with-class-ahover-element/
+date: 2007-12-19 14:49:05
+year: "2007"
 id: 41
 categories:
+  - code
   - webdesign
-date: 2007-12-19 14:49:05
 ---
 
 This bug seems to apply to styling elements under a class or id within a link on hover.  Stuff like `.class a:hover span{}` or `#id a:hover strong{}`.  The solution is to define a property on the parent link `.class a:hover{}` that hasn't been declared anywhere else in your CSS, like a text indent of 0 or something.

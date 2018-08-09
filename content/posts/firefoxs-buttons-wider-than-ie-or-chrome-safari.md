@@ -1,11 +1,13 @@
 ---
 title: FireFox's buttons are wider than IE or Chrome/Safari's
-tags:
-  - code
+aliases:
+  - /wordpress/2011/03/09/firefoxs-buttons-wider-than-ie-or-chrome-safari/
+date: 2011-03-09 14:29:42
+year: "2011"
 id: 296
 categories:
+  - code
   - webdesign
-date: 2011-03-09 14:29:42
 ---
 
 I hate form styling on the best of days. This is a good example of why:

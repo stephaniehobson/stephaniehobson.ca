@@ -1,14 +1,16 @@
 ---
-title: Flipping More Tables
-tags:
+title: Flipping More Table
+aliases:
+  - /wordpress/2016/08/25/flipping-more-tables/
+date: 2016-08-25 11:43:02
+year: "2016"
+id: 758
+categories:
   - accomplishment
   - slides
   - presentation
   - video
-id: 758
-categories:
   - webdesign
-date: 2016-08-25 11:43:02
 ---
 
 A few weeks ago I gave my talk on displaying data tables on small screens at [Cascadia Fest](http://2016.cascadiafest.org/). Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)

@@ -1,11 +1,13 @@
 ---
 title: Border Collapse
-tags:
-  - code
+aliases:
+  - /wordpress/2014/05/14/border-collapse/
+date: 2007-03-06 20:13:22
+year: "2007"
 id: 5
 categories:
+  - code
   - webdesign
-date: 2007-03-06 20:13:22
 ---
 
 I am, for the most part, self taught when it comes to HTML and CSS.  I've take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.

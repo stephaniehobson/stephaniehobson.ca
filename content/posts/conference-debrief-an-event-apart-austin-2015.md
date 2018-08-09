@@ -1,12 +1,14 @@
 ---
 title: 'Conference Debrief: An Event Apart Austin 2015'
+aliases:
+  - /wordpress/2015/10/15/accessibility
+date: 2015-10-15 10:31:02
+year: "2015"
 id: 675
 categories:
-  - webdesign
-date: 2015-10-15 10:31:02
-tags:
   - conference
   - links
+  - webdesign
 ---
 
 Last week, because working at Mozilla is awesome, I got to attend [An Event Apart Austin](http://aneventapart.com/event/austin-2015), the conference put on by the [A List Apart](http://alistapart.com/) organization. It's consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.

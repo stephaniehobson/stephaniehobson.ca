@@ -1,11 +1,13 @@
 ---
 title: Bullets aligned to the top of the text
+aliases:
+  - /wordpress/2010/09/10/bullets-alligned-top-text/
+date: 2010-09-10 12:59:47
+year: "2010"
 id: 281
 categories:
-  - webdesign
-date: 2010-09-10 12:59:47
-tags:
   - code
+  - webdesign
 ---
 
 Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?

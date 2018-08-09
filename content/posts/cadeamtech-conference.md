@@ -1,14 +1,16 @@
 ---
 title: CADE/AMTECH Conference
-tags:
+aliases:
+  - /wordpress/2007/05/24/cadeamtech-conference/
+date: 2007-05-24 01:56:09
+year: "2007"
+id: 24
+categories:
   - accomplishment
   - bcit
   - conference
   - presentation
-id: 24
-categories:
   - webdesign
-date: 2007-05-24 01:56:09
 ---
 
 I was in Winnipeg speaking at the <abbr title="Canadian Association for Distance Education">CADE</abbr>/<abbr title="Association for Media and Technology in Education in Canada">AMTECH</abbr> Conference last week.  The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks' farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).

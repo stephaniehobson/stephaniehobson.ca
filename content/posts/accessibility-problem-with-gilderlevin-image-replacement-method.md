@@ -1,11 +1,13 @@
 ---
 title: Accessibility Problem with Gilder/Levin Image Replacement Method
-tags:
-  - accessibility
+aliases:
+  - /wordpress/2008/08/11/accessibility-problem-with-gilderlevin-image-replacement-method/
+date: 2008-08-11 21:03:13
+year: "2008"
 id: 55
 categories:
+  - accessibility
   - webdesign
-date: 2008-08-11 21:03:13
 ---
 
 I have a friend who lives his life in low contrast.  He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.

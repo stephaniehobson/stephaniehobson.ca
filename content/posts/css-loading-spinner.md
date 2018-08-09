@@ -1,11 +1,13 @@
 ---
 title: CSS Loading Spinner
+aliases:
+  - /wordpress/2011/09/06/css-loading-spinner/
+date: 2011-09-06 14:34:49
+year: "2011"
 id: 406
 categories:
-  - webdesign
-date: 2011-09-06 14:34:49
-tags:
   - code
+  - webdesign
 ---
 
 I needed a loading spinner for a side project the other day but I was too lazy to steal someone else's off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is [my hammer](http://en.wikipedia.org/wiki/Law_of_the_instrument)).
