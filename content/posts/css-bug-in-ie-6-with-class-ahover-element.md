@@ -70,7 +70,7 @@ I added float:none to my declaration for `.promo a:hover{}` and all is now well 
 
 ```css
 .promo a:hover{
-    color:#000;
+    float:none;
 }
 ```
 
