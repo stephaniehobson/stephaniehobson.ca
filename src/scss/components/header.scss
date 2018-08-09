@@ -5,13 +5,18 @@
     border-bottom: $divider;
     margin-bottom: $grid;
     padding-bottom: $grid;
+}
 
-    span {
-        color: #666;
-        display: block;
-        font-size: calc(#{$font-base} * #{$f-2});
-        font-weight: normal;
-    }
+.header-site {
+    display: block;
+    padding-bottom: calc(#{$grid} / 2);
+}
+
+.header-subtitle {
+    color: #666;
+    display: block;
+    font-size: calc(#{$font-base} * #{$f-2});
+    font-weight: normal;
 }
 
 .header-avatar {

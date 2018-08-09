@@ -1,15 +1,16 @@
 <header>
     <div class="header">
-        <a href="/about/">
-            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200">
-        </a>
-        <h1>
+        <h1 class="header-title">
             {{ if .IsHome }}
-                Abstract Sequential
+                <span class="header-site">Abstract Sequential</span>
             {{ else }}
-                <a href="/">Abstract Sequential</a>
+                <a href="/" class="header-site">Abstract Sequential</a>
             {{ end }}
-            <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
+            <span class="header-subtitle">Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
         </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
     </div>
 </header>
