@@ -10,6 +10,7 @@ MVP:
   - all posts
   - tags: /wordpress/tag/accomplishment/
   - catagories: /wordpress/category/webdesign/
+- noindex typography file
 
 Other:
 
