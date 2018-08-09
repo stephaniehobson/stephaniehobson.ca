@@ -37,13 +37,15 @@
         padding: $grid 0;
     }
 
-    main {
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            margin: 0 0 0 calc(#{$grid} * 2 * -1);
+    @media #{$mq-480-and-up} {
+        main {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                margin: 0 0 0 calc(#{$grid} * 2 * -1);
+            }
         }
     }
 
