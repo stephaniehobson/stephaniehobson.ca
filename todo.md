@@ -13,10 +13,13 @@ MVP:
   - all posts
   - tags: /wordpress/tag/accomplishment/
   - catagories: /wordpress/category/webdesign/
-- 404 page
-- demo/experiment pages
+
 
 Other:
+- useful 404 page
+- twitter replacement, micro blogs
+    - import Tweets
+- service worker to cache articles
 - Implement code syntax styling
 - Update about page
 - Decide on grid size and implement
@@ -32,3 +35,8 @@ Other:
 - fix posts with <dl>s
 - fix posts with HTML tags
 - warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")
+
+
+Done:
+- demo/experiment pages
+- styled 404 page
