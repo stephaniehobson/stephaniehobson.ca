@@ -2,6 +2,7 @@ MVP:
 
 - Deploy
 - Archive pages
+    - years
 - RSS feed
   - make sure old Wordpress URLs still work
     - http://stephaniehobson.ca/wordpress/category/webdesign/feed/
@@ -50,6 +51,7 @@ Done:
 - demo/experiment pages
 - styled 404 page
 - review all tags and categories, attempt to standardize
+- add category pages
 - youtube short code
 - slide share short code
 - linting
