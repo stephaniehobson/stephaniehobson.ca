@@ -1,6 +1,16 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
+:root {
+    --social-icon-width: 24px;
+
+    @media #{$mq-480-and-up} {
+        --social-icon-width: 32px;
+    }
+}
+
+$social-icon-width: var(--social-icon-width);
+
 .social {
     border-bottom: $divider;
     margin-bottom: $grid;
@@ -24,8 +34,8 @@
 }
 
 .social-icon {
-    height: 32px;
-    width: 32px;
+    height: $social-icon-width;
+    width: $social-icon-width;
     -moz-transition: -webkit-transform 0.1s ease-out;
     -webkit-transition: -webkit-transform 0.1s ease-out;
     transition: -webkit-transform 0.1s ease-out;
@@ -73,7 +83,7 @@ Grid
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: $grid;
 
-        @media #{$mq-680-and-up} {
+        @media #{$mq-320-and-up} {
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         }
     }

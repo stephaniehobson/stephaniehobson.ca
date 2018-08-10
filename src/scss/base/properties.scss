@@ -1,7 +1,16 @@
 :root {
-    --grid-value: 0.5rem;
-    --font-base: 1rem;
+    --grid-value: 0.4rem;
+    --font-base: 0.85rem;
 }
+
+
+@media #{$mq-480-and-up} {
+    :root {
+        --grid-value: 0.5rem;
+        --font-base: 1rem;
+    }
+}
+
 
 @media #{$mq-680-and-up} {
     :root {
