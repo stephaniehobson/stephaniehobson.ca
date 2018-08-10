@@ -1,6 +1,6 @@
 baseURL = "https://stephaniehobson.ca"
 languageCode = "en-us"
-title = "Abstract Sequential"
+title = "Stephanie Hobson"
 [taxonomies]
   category = "categories"
   year = "year"
