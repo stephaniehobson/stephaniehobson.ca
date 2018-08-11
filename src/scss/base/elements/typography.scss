@@ -105,6 +105,10 @@
 
         &:visited {
             color: $color-link-visited;
+
+            &:hover {
+                color: $color-link-visited-hover;
+            }
         }
     }
 
