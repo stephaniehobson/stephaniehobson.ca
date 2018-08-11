@@ -35,6 +35,14 @@ Other:
 - fix posts with <dl>s
 - fix posts with HTML tags
 - warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")
+- most recent instagram and twitter posts
+- share icons & links? (maybe I'm opposed to this? :P)
+- pages:
+    - talks
+        - grouped by talk with links to resources, only show most recent slides, dates presented link to Notist
+    - portfolio/work
+- blurb at end of blog posts introducing myself (comic book inspired? Imagine Eric Meyer is introducing me)
+- "read more" buttons specific to content "see the code" "view the slides"
 
 Done:
 
