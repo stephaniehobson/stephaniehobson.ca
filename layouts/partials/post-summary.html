@@ -4,14 +4,15 @@
             {{ .Title }}
         </a>
     </h2>
-    <p class="summary-info">
+    <div class="summary-info">
         <div class="summary-date">{{ .PublishDate.Format "2006 January 02" }}</div>
-        Categorized as:
-        {{ with .Params.categories }}
-            {{- range $i, $e := . -}}
-                {{ if $i }}, {{ end }}
-                #<a href="{{ "tags/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a>
-            {{- end -}}.
-        {{ end }}
-    </p>
+        <ul class="summary-tags">
+            {{ with .Params.categories }}
+                {{- range $i, $e := . -}}
+                    {{ if $i }}, {{ end }}
+                    <li class="summary-tag">#<a href="{{ "tags/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a></li>
+                {{- end -}}
+            {{ end }}
+        </ul>
+    </div>
 </div>

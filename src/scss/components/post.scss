@@ -1,19 +1,80 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
+@import '../includes/vars';
+@import '../includes/mixins';
+
 .post {
-    border-bottom: $divider;
-    padding: $grid 0 0 0;
+    padding: $grid;
 }
 
-.post-byline {
-    color: #555;
-    font-size: 0.8rem;
-    margin-top: calc(#{$grid} * -1);
+.post-title {
+    font-size: calc(#{$font-base} * #{$f3});
+    padding: 0;
 }
 
-.post-title-link {
-    &:after {
-        content: '\00a0➡';
+.post-info {
+    @media #{$mq-480-and-up} {
+        // out-dent
+        main & {
+            margin: 0 0 0 calc(#{$grid} * 2 * -1);
+        }
     }
+}
+
+.post-link {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+
+    &:before {
+        display: inline-block;
+        color: $color-link;
+        content: '➡';
+        left: 5px;
+        position: relative;
+        transition: all 0.2s ease-out;
+        text-decoration: none;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        &:after {
+            color: $color-link-hover;
+            left: 15px;
+            text-decoration: none;
+        }
+    }
+
+    &:visited {
+        &:hover {
+            &:after {
+                color: $color-link-visited-hover;
+            }
+        }
+    }
+}
+
+.post-date {
+    background-color: $color-text;
+    color: $color-background;
+    display: inline-block;
+    font-size: calc(#{$font-base} * #{$f-1});
+    line-height: 1;
+    padding: 3px 4px 2px;
+}
+
+.post-tags {
+    display: inline-block;
+    font-size: calc(#{$font-base} * #{$f-1});
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.post-tag {
+    padding: 0;
 }

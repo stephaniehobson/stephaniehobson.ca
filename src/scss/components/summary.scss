@@ -1,24 +1,72 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
+.summary {
+    padding: $grid;
+}
+
 .summary-title {
-    padding-bottom: 0;
+    font-size: calc(#{$font-base} * #{$f3});
+    padding: 0;
 }
 
 .summary-info {
-    padding-top: 0;
+    @media #{$mq-480-and-up} {
+        // out-dent
+        main & {
+            margin: 0 0 0 calc(#{$grid} * 2 * -1);
+        }
+    }
+}
+
+.summary-title-link {
+    @include links-subtle;
+
+    &:after {
+        display: inline-block;
+        color: $color-link;
+        content: '➡';
+        left: 5px;
+        position: relative;
+        transition: all 0.2s ease-out;
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        &:after {
+            color: $color-link-hover;
+            left: 15px;
+            text-decoration: none;
+        }
+    }
+
+    &:visited {
+        &:hover {
+            &:after {
+                color: $color-link-visited-hover;
+            }
+        }
+    }
 }
 
 .summary-date {
     background-color: $color-text;
     color: $color-background;
     display: inline-block;
-    padding: 3px 4px 2px;
+    font-size: calc(#{$font-base} * #{$f-1});
     line-height: 1;
+    padding: 3px 4px 2px;
 }
 
-.summary-title-link {
-    &:after {
-        content: '\00a0➡';
-    }
+.summary-tags {
+    display: inline-block;
+    font-size: calc(#{$font-base} * #{$f-1});
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.summary-tag {
+    padding: 0;
 }

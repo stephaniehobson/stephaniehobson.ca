@@ -31,3 +31,34 @@
         }
     }
 }
+
+@mixin links {
+    & {
+        color: $color-link;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $color-link-hover;
+        text-decoration: underline;
+    }
+
+    &:visited {
+        &:hover {
+            color: $color-link-visited-hover;
+        }
+    }
+}
+
+@mixin links-subtle {
+    &,
+    &:visited,
+    &:visited:hover,
+    &:hover,
+    &:focus {
+        color: $color-text;
+    }
+}

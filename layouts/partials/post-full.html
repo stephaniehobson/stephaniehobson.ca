@@ -1,23 +1,18 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <h1 itemprop="name headline">{{ .Title }}</h1>
-    <p>Published: <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">{{ .PublishDate.Format "2006 January 02" }}</p>
-  </time>
+    <div class="post-info">
+        <a class="post-link" href="{{ .Permalink }}" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">{{ .PublishDate.Format "2006 January 02" }}</time>
+        <ul class="post-tags">
+            {{ with .Params.categories }}
+                {{- range $i, $e := . -}}
+                    {{ if $i }}, {{ end }}
+                    <li class="post-tag">#<a href="{{ "tags/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a></li>
+                {{- end -}}
+            {{ end }}
+        </ul>
+    </div>
     <div itemprop="articleBody">
         {{ .Content }}
-    </div>
-
-    <div class="post-meta">
-        <p>
-            By: <span itemprop="author">Stephanie Hobson</span><br>
-        </p>
-        {{ with .Params.categories }}
-        <p>More posts categorized as:</p>
-            <ul id="categories">
-                {{ range . }}
-                    <li>#<a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
-                {{ end }}
-            </ul>
-        {{ end }}
-        <p><a href="{{ .Permalink }}" itemprop="url">Permalink</a></p>
     </div>
 </article>

@@ -20,6 +20,7 @@ $avatar-size: var(--avatar-size);
 }
 
 .header-site {
+    color: $color-text;
     display: block;
     padding-bottom: calc(#{$grid} / 2);
 }
