@@ -3,7 +3,7 @@
 <main>
     {{ range first 1 .Data.Pages }}
         {{ if eq .Type "posts" }}
-            {{ partial "post-full.html" . }}
+            {{ partial "post-summary.html" . }}
         {{ end }}
     {{ end }}
     {{ range first 10 (after 1 .Data.Pages) }}
@@ -12,5 +12,4 @@
         {{ end }}
     {{ end }}
 </main>
-
 {{ end }}

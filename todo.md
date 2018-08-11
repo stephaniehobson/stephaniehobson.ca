@@ -39,7 +39,7 @@ Other:
 - share icons & links? (maybe I'm opposed to this? :P)
 - pages:
     - talks
-        - grouped by talk with links to resources, only show most recent slides, dates presented link to Notist
+        - grouped by talk with links to resources, only show most recent slides(or video), dates presented link to Notist
     - portfolio/work
 - blurb at end of blog posts introducing myself (comic book inspired? Imagine Eric Meyer is introducing me)
 - "read more" buttons specific to content "see the code" "view the slides"

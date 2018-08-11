@@ -1,11 +1,11 @@
 ---
-title: Flipping More Table
+title: Flipping More Tables
 aliases:
   - /wordpress/2016/08/25/flipping-more-tables/
 date: 2016-08-25 11:43:02
 year: "2016"
 id: 758
-categories:
+tags:
   - accomplishment
   - slides
   - presentation

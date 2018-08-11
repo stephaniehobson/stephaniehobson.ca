@@ -5,7 +5,7 @@ aliases:
 date: 2008-05-02 04:30:27
 year: "2008"
 id: 54
-categories:
+tags:
   - personal
 ---
 

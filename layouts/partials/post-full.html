@@ -14,7 +14,7 @@
         <p>More posts categorized as:</p>
             <ul id="categories">
                 {{ range . }}
-                    <li> <a href="{{ "categories" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
+                    <li>#<a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> </li>
                 {{ end }}
             </ul>
         {{ end }}

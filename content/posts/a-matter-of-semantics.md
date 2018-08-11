@@ -5,7 +5,7 @@ aliases:
 date: 2014-01-21 20:05:49
 year: "2014"
 id: 591
-categories:
+tags:
   - bcit
   - webdesign
 ---

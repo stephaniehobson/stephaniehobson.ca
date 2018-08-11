@@ -5,7 +5,7 @@ aliases:
 date: 2015-10-15 10:31:02
 year: "2015"
 id: 675
-categories:
+tags:
   - conference
   - links
   - webdesign

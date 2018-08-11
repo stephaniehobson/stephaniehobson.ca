@@ -5,7 +5,7 @@ aliases:
 date: 2011-07-16 18:59:20
 year: "2011"
 id: 303
-categories:
+tags:
   - accomplishment
   - bcit
   - webdesign

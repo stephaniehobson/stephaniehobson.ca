@@ -1,16 +1,16 @@
-<div>
-    <h2>
-        <a href="{{ .Permalink }}">
+<div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="{{ .Permalink }}">
             {{ .Title }}
         </a>
     </h2>
-    <p>
-        Published: {{ .PublishDate.Format "2006 January 02" }}.<br>
+    <p class="summary-info">
+        <div class="summary-date">{{ .PublishDate.Format "2006 January 02" }}</div>
         Categorized as:
         {{ with .Params.categories }}
             {{- range $i, $e := . -}}
                 {{ if $i }}, {{ end }}
-                <a href="{{ "categories/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a>
+                #<a href="{{ "tags/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a>
             {{- end -}}.
         {{ end }}
     </p>

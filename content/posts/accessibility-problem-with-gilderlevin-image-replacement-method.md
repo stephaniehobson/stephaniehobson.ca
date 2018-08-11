@@ -5,7 +5,7 @@ aliases:
 date: 2008-08-11 21:03:13
 year: "2008"
 id: 55
-categories:
+tags:
   - accessibility
   - webdesign
 ---

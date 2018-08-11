@@ -5,7 +5,7 @@ aliases:
 date: 2007-05-24 01:56:09
 year: "2007"
 id: 24
-categories:
+tags:
   - accomplishment
   - bcit
   - conference

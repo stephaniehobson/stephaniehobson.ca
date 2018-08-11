@@ -5,7 +5,7 @@ aliases:
 date: 2007-08-10 15:32:34
 year: "2007"
 id: 36
-categories:
+tags:
   - bcit
   - personal
   - video

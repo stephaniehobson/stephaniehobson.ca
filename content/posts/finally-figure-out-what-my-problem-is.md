@@ -5,7 +5,7 @@ aliases:
 date: 2008-02-05 11:18:38
 year: "2008"
 id: 48
-categories:
+tags:
   - webdesign
 ---
 

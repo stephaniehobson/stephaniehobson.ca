@@ -5,7 +5,7 @@ aliases:
 date: 2008-04-16 15:15:10
 year: "2008"
 id: 38
-categories:
+tags:
   - accomplishment
   - bcit
   - webdesign

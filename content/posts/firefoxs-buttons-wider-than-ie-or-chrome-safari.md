@@ -5,7 +5,7 @@ aliases:
 date: 2011-03-09 14:29:42
 year: "2011"
 id: 296
-categories:
+tags:
   - code
   - webdesign
 ---
