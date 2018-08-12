@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-<title>Abstract Sequential</title>
+<title>Stephanie Hobson</title>
 <meta charset="UTF-8">
 <meta name="description" content="">
-<link rel="stylesheet" href="/css/main-1a2c93ff.css">
+<link rel="stylesheet" href="/css/main-3ec4dbfa.css">
 
-<link rel="alternate" type="application/rss+xml" href="https://stephaniehobson.ca/index.xml" title="Abstract Sequential" />
+<link rel="alternate" type="application/rss+xml" href="https://stephaniehobson.ca/index.xml" title="Stephanie Hobson" />
 
 <body>
     <header>
     <div class="header">
-        <a href="/about/">
-            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200">
-        </a>
-        <h1>
+        <h1 class="header-title">
             
-                Abstract Sequential
+                <span class="header-site">Stephanie Hobson</span>
             
-            <span>Stephanie Hobson's abstract thoughts in the sequence she has them.</span>
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
         </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
     </div>
 </header>
 
@@ -40,7 +41,7 @@
         </li>
         <li class="social-item">
             <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
-                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <img class="social-icon" alt="" src="/images/icons/notist.svg" height="32" width="32">
                 <span class="social-name">Notist</span>
             </a>
         </li>
@@ -66,315 +67,229 @@
 </div>
 
 <main>
-
-<h1>Heading 1</h1>
-<h2>Heading 2</h1>
-<h3>Heading 3</h1>
-<blockquote>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</blockquote>
-<h4>Heading 4</h1>
-<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
-<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
-<dl>
-  <dt>Term</dt>
-  <dd>Definition</dd>
-  <dd>Definition</dd>
-  <dt>Term</dt>
-  <dd>Definition</dd>
-  <dt>Term</dt>
-  <dd>Definition</dd>
-</dl>
-<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
-<ul>
-  <li>one</li>
-  <li>two</li>
-  <li>three</li>
-  <li>four</li>
-</ul>
-<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
-<pre><code>
-&lt;a href=&quot;http://www.example.com&quot;
-    onclick=&quot;trackOutboundLink('http://www.example.com'); return false;&quot;&gt;
-        Check out example.com
-&lt;/a&gt;`
-
-`var trackOutboundLink = function(url) {
-    ga('send', 'event', 'outbound', 'click', url, {
-        'transport': 'beacon',
-        'hitCallback': function(){document.location = url;}
-    });
-}
-</pre></code>
-<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
-
     
         
-            <article itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 itemprop="name headline">How we rebuilt the viewsourceconf.org website</h1>
-    <div itemprop="articleBody">
-        
-
-<p><em>This article was originally published on Mozilla’s <a href="https://hacks.mozilla.org/2017/10/how-we-rebuilt-the-viewsourceconf-org-website/">Hacks Blog</a>.</em></p>
-
-<p>As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.</p>
-
-<p>The <a href="http://viewsourceconf.org/">View Source Conference</a> website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</p>
-
-<p>Here are a few highlights of the architectural decisions we made to make the site faster, more secure, and more reliable.</p>
-
-<h2 id="a-static-site">A Static Site</h2>
-
-<p>When a user requests a page from a CMS (content management system) like Wordpress the server puts it together from databases and templates. This takes the server a small amount of time. When a site is built on request like this we call it a &ldquo;dynamic&rdquo; website.</p>
-
-<p>When a user requests a page from a static site the server only has to find and serve one file. It’s faster and takes fewer resources. We used a <a href="https://www.sitepoint.com/7-reasons-use-static-site-generator/">static site generator</a> to generate our files before transferring them to the server.</p>
-
-<p>Static files are also easier to copy than dynamic sites, this means we can copy our static site to different CDNs (content delivery networks) around the world. Getting our content closer to our users is a very effective way to reduce <a href="https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/">latency</a> which is one of the biggest hurdles to delivering a site fast.</p>
-
-<h2 id="offline-first">Offline First</h2>
-
-<p>A <a href="https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers">service worker</a> is JavaScript that runs in a browser but not as part of a page. The most common use for service workers is to watch network requests and respond instead of the server.</p>
-
-<p>I wanted to be sure the conference attendees would have access to the event schedule, even if they didn’t have wifi. So, when a user arrives on the site, browsers that support service workers automatically cache the conference schedule.</p>
-
-<p>If the user returns to the site without a network connection the service worker will reply to the request with the cached schedule.</p>
-
-<p>I am very grateful for the documentation published by <a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom">The Guardian</a>, <a href="https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom">Jeremy Keith</a>, and  others who are already using Service Workers.</p>
-
-<h2 id="mobile-first">Mobile First</h2>
-
-<p>When responsive web design first became the norm, the industry standard was to serve the full desktop site to all browsers with a bunch of extra code telling mobile browsers which pieces to remove to make the simplified mobile version. With the spread of mobile came the  <a href="https://www.lukew.com/ff/entry.asp?1137">Mobile First</a> development approach. Mobile first delivers the content and code for the mobile version of a site first and then the larger more powerful desktop computers do the work of creating a better large screen experience.</p>
-
-<p>The View Source Conf site starts as a minimal mobile-friendly version. Then <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries">media queries in CSS</a> and <a href="https://hacks.mozilla.org/2012/06/using-window-matchmedia-to-do-media-queries-in-javascript/">media queries in JavaScript</a> add more complicated layout instructions for larger screens.</p>
-
-<h2 id="svg">SVG</h2>
-
-<p>I used inline <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG</a>s for the logo and icons. They look crisper on retina screens and, because they’re inline, don’t require any extra assets to download. Inlining also meant that I could <a href="https://css-tricks.com/cascading-svg-fill-color/">change the logo’s colour</a> in our print styles. It was my first time <a href="https://www.sitepoint.com/tips-accessible-svg/">creating accessible SVGs</a>.</p>
-
-<h2 id="no-script">No Script</h2>
-
-<p>All the content and functionality on the View Source site works with JavaScript disabled. Instead of sending shims and polyfills to older browsers to make them handle newer JavaScript features, we support those browsers by telling them not to load the JavaScript at all.</p>
-
-<p>This meant we could write modern JavaScript! It also simplified testing. Less capable browsers just get functional, readable content, with no chance for odd JavaScript errors.</p>
-
-<p>This isn’t a new idea, it’s <a href="https://alistapart.com/article/understandingprogressiveenhancement">progressive enhancement</a> combined with the <a href="http://responsivenews.co.uk/post/18948466399/cutting-the-mustard">BBC News’ “Cut the Mustard” test</a>.</p>
-
-<h2 id="https">HTTPS</h2>
-
-<p><a href="https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https">HTTPS protects the privacy and security of your users</a> and with <a href="https://letsencrypt.org/">Let’s Encrypt</a> it’s free. You can tell browsers to only load your site over HTTPS with the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security"><code>Strict-Transport-Security</code> header</a>.</p>
-
-<h2 id="do-not-track">Do Not Track</h2>
-
-<p>We use Google Analytics to measure site traffic and try to improve our conversion rates but we respect the privacy of users visiting with <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track</a> enabled. By <a href="http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/">detecting Do Not Track settings</a> we can avoid serving them the Google Analytics file. If a user has not set Do Not Track but has an ad blocker installed all our code runs without requiring Google Analytics to initialize.</p>
-
-<h2 id="view-source">View Source</h2>
-
-<p>Hear industry leaders speak about topics like web performance, security, reliability, CSS grids and more at the <a href="https://viewsourceconf.org/london-2017/">View Source Conference in London</a> October 27, 2017. See the <a href="https://viewsourceconf.org/london-2017/#schedule">full schedule</a>! Or <a href="https://viewsourceconf.org/berlin-2016/">watch videos of last year&rsquo;s talks</a>.</p>
-
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/">
+            How we rebuilt the viewsourceconf.org website
+        </a>
+    </h2>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2017/">2017</a>
+            October 31
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/mozilla" rel="tag">mozilla</a></li>
+        </ul>
     </div>
-
-    <div class="post-meta">
-        <p>
-            <span itemprop="author">Stephanie Hobson</span><br>
-            Published: <time datetime="2017-10-31" itemprop="datePublished">
-                2017 October 31
-          </time>
-        </p>
-        
-        <p>More posts categorized as:</p>
-            <ul id="categories">
-                
-                    <li> <a href="https://stephaniehobson.ca/categories/webdesign">webdesign</a> </li>
-                
-            </ul>
-        
-        <p><a href="https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/" itemprop="url">Permalink</a></p>
-    </div>
-</article>
+</div>
 
         
     
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/">
             Flipping Tables at CSSDevConf
         </a>
     </h2>
-    <p>
-        Published: 2017 October 10<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2017/">2017</a>
+            October 10
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/conference" rel="tag">conference</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/presentation" rel="tag">presentation</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/slides" rel="tag">slides</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/writing-for-every-reader/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/writing-for-every-reader/">
             Writing for Every Reader
         </a>
     </h2>
-    <p>
-        Published: 2017 October 08<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2017/">2017</a>
+            October 08
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/accessibility" rel="tag">accessibility</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/accomplishment" rel="tag">accomplishment</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/presentation" rel="tag">presentation</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/slides" rel="tag">slides</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/">
             The MDN Redesign “Behind the Scenes”
         </a>
     </h2>
-    <p>
-        Published: 2017 August 01<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2017/">2017</a>
+            August 01
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/mozilla" rel="tag">mozilla</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/http2-on-mdn/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/http2-on-mdn/">
             HTTP/2 on MDN
         </a>
     </h2>
-    <p>
-        Published: 2017 July 10<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2017/">2017</a>
+            July 10
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/mozilla" rel="tag">mozilla</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/flipping-more-tables/">
-            Flipping More Table
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/flipping-more-tables/">
+            Flipping More Tables
         </a>
     </h2>
-    <p>
-        Published: 2016 August 25<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/accomplishment" rel="tag">accomplishment</a>, <a href="https://stephaniehobson.ca/categories/slides" rel="tag">slides</a>, <a href="https://stephaniehobson.ca/categories/presentation" rel="tag">presentation</a>, <a href="https://stephaniehobson.ca/categories/video" rel="tag">video</a>, <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2016/">2016</a>
+            August 25
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/accomplishment" rel="tag">accomplishment</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/slides" rel="tag">slides</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/presentation" rel="tag">presentation</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/video" rel="tag">video</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/webdesign" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/">
             Google Analytics, Privacy, and Event Tracking
         </a>
     </h2>
-    <p>
-        Published: 2016 July 28<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2016/">2016</a>
+            July 28
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/mozilla" rel="tag">mozilla</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/flipping-tables/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/flipping-tables/">
             Flipping Tables
         </a>
     </h2>
-    <p>
-        Published: 2016 April 19<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2016/">2016</a>
+            April 19
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/accomplishment" rel="tag">accomplishment</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/presentation" rel="tag">presentation</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/slides" rel="tag">slides</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/">
             (Still) Making Websites Better for Everyone
         </a>
     </h2>
-    <p>
-        Published: 2015 October 27<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2015/">2015</a>
+            October 27
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/presentation" rel="tag">presentation</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/slides" rel="tag">slides</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/">
             Conference Debrief: An Event Apart Austin 2015
         </a>
     </h2>
-    <p>
-        Published: 2015 October 15<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/conference" rel="tag">conference</a>, <a href="https://stephaniehobson.ca/categories/links" rel="tag">links</a>, <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2015/">2015</a>
+            October 15
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/conference" rel="tag">conference</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/links" rel="tag">links</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/webdesign" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
         
-            <div>
-    <h2>
-        <a href="https://stephaniehobson.ca/posts/how-to-debug-css/">
+            <div class="summary">
+    <h2 class="summary-title">
+        <a class="summary-title-link" href="https://stephaniehobson.ca/posts/how-to-debug-css/">
             How To Debug CSS
         </a>
     </h2>
-    <p>
-        Published: 2015 August 15<br>
-        Categorized as:
-        
-            <a href="https://stephaniehobson.ca/categories/webdesign" rel="tag">webdesign</a>.
-        
-    </p>
+    <div class="summary-info">
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/2015/">2015</a>
+            August 15
+        </span>
+        <ul class="summary-tags">
+            <li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/conference" rel="tag">conference</a></li><li class="summary-tag">#<a href="https://stephaniehobson.ca/tags/presentation" rel="tag">presentation</a></li>
+        </ul>
+    </div>
 </div>
 
         
     
 </main>
-
 
 
     <footer>
@@ -394,7 +309,7 @@
         </li>
         <li class="social-item">
             <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
-                <img class="social-icon" alt="" src="/images/notist-2961d3e4.svg" height="32" width="32">
+                <img class="social-icon" alt="" src="/images/icons/notist.svg" height="32" width="32">
                 <span class="social-name">Notist</span>
             </a>
         </li>

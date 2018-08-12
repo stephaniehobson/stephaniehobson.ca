@@ -1,22 +1,19 @@
 MVP:
 
 - Deploy
-- Archive pages
-    - years
 - RSS feed
   - make sure old Wordpress URLs still work
-    - http://stephaniehobson.ca/wordpress/category/webdesign/feed/
     - http://stephaniehobson.ca/wordpress/tag/conference/feed/
 - Redirect old Wordpress URLs
   - all posts
   - tags: /wordpress/tag/accomplishment/
   - catagories: /wordpress/category/webdesign/
 - noindex typography file
+- favicon
 
 Other:
 
-- make year template descending
-    - show post count
+- pagination for home page
 - make sure heading levels are accurate on all pages
 - useful 404 page
 - twitter replacement, micro blogs
@@ -49,6 +46,10 @@ Other:
 
 Done:
 
+- Archive pages
+    - years
+        - make year template descending
+        - show post count
 - display posts
   - add meta data
   - add structured data markup
@@ -59,6 +60,7 @@ Done:
       - http://stephaniehobson.ca/feed/
         - gulp script to copy to /feed/ folder
         - GHP will serve index.xml as folder index \o/
+    - http://stephaniehobson.ca/wordpress/category/webdesign/feed/
 - demo/experiment pages
 - styled 404 page
 - review all tags and categories, attempt to standardize

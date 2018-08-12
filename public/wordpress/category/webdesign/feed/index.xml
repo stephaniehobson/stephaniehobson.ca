@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdesign on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/tags/webdesign/</link>
+    <description>Recent content in Webdesign on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/tags/webdesign/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping More Tables</title>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
+The video of my talk has been posted:   And my slides are available here.</description>
+    </item>
+    
+    <item>
+      <title>Conference Debrief: An Event Apart Austin 2015</title>
+      <link>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</link>
+      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</guid>
+      <description>Last week, because working at Mozilla is awesome, I got to attend An Event Apart Austin, the conference put on by the A List Apart organization. It&amp;rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
+The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility with CSS: Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
+      <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
+      <description> Last night I spoke at the Style &amp;amp; Class Meet-up about Accessibility and CSS. Posting the slides here for posterity:
+   Accessibility with CSS: Making Websites Better for Everyone  from Stephanie Hobson   Resources  Intro to Accessibility WCAG Validator Intro to ARIA :Focus and keyboard accessibility High contrast CSS Sprites Bullet Proof Accessible Icon Fonts The Offscreen Class Floating Form Labels Javascript fix for Skip Links  </description>
+    </item>
+    
+    <item>
+      <title>A Matter of Semantics</title>
+      <link>https://stephaniehobson.ca/posts/a-matter-of-semantics/</link>
+      <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid>
+      <description>Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.
+Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.</description>
+    </item>
+    
+    <item>
+      <title>CSS Loading Spinner</title>
+      <link>https://stephaniehobson.ca/posts/css-loading-spinner/</link>
+      <pubDate>Tue, 06 Sep 2011 14:34:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/css-loading-spinner/</guid>
+      <description>I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&amp;rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is my hammer).
+On the bright side it works on any background colour and is a little transparent which is neat. And it&amp;rsquo;s way faster to adjust the colour scheme than an image file would be.</description>
+    </item>
+    
+    <item>
+      <title>A Dull April Fool&#39;s Day</title>
+      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
+      <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
+ Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
+    </item>
+    
+    <item>
+      <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
+      <link>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</link>
+      <pubDate>Wed, 09 Mar 2011 14:29:42 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</guid>
+      <description>I hate form styling on the best of days. This is a good example of why:
+Firefox&amp;rsquo;s buttons are wider than IE&amp;rsquo;s or Webkit&amp;rsquo;s. Why? This little gem in the browser&amp;rsquo;s style sheets:
+button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px 2px 0px 2px; }  That&amp;rsquo;s right, it&amp;rsquo;s 4px wider. Thank you FireFox.
+Fortunately, we can fix it!
+button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px; }  That was easy :)</description>
+    </item>
+    
+    <item>
+      <title>Bullets aligned to the top of the text</title>
+      <link>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</link>
+      <pubDate>Fri, 10 Sep 2010 12:59:47 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
+      <description>Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?
+Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?
+If you&amp;rsquo;re working on displaying the bullets at the same height, this might be the fix for you.</description>
+    </item>
+    
+    <item>
+      <title>CSS3 only cover flow</title>
+      <link>https://stephaniehobson.ca/posts/css3-only-cover-flow/</link>
+      <pubDate>Fri, 28 May 2010 22:40:44 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
+      <description>Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.
+Some of it works in FireFox but all the cool stuff works best in webkit: here&amp;rsquo;s as far as I got.
+Have fun with it :)</description>
+    </item>
+    
+    <item>
+      <title>Accessibility Problem with Gilder/Levin Image Replacement Method</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link>
+      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid>
+      <description>I have a friend who lives his life in low contrast. He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.
+His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour schemes and he also makes use of IE&amp;rsquo;s ability to override a website&amp;rsquo;s CSS.</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
+    </item>
+    
+    <item>
+      <title>Finally figure out what my problem is</title>
+      <link>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</link>
+      <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</guid>
+      <description>I read John Resig&amp;rsquo;s article Sub-Pixel Problems in CSS a few days ago and found it to very useful information.
+And then today I had an &amp;ldquo;ah-ha&amp;rsquo; moment - this this is why I hate coding flexible horizontal navigation menus.</description>
+    </item>
+    
+    <item>
+      <title>CSS bug in IE 6 with: .class a:hover element</title>
+      <link>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</link>
+      <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
+      <description>This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like .class a:hover span{} or #id a:hover strong{}. The solution is to define a property on the parent link .class a:hover{} that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.
+All the work for the solution was done by Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</description>
+    </item>
+    
+    <item>
+      <title>CADE/AMTECH Conference</title>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+    </item>
+    
+    <item>
+      <title>Delicious &#43; FireFox &#43; Snap Links</title>
+      <link>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</link>
+      <pubDate>Tue, 27 Mar 2007 15:06:24 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</guid>
+      <description>I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the &amp;ldquo;open all in tabs&amp;rdquo; option that FireFox so nicely includes to open all the book marks at once. That way I can keep track of which ones I&amp;rsquo;ve read by closing them once I&amp;rsquo;m done :) Yeah, it&amp;rsquo;s lazy I know.
+I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m away from my home computer (who doesn&amp;rsquo;t) so I jumped on the del.</description>
+    </item>
+    
+    <item>
+      <title>Border Collapse</title>
+      <link>https://stephaniehobson.ca/posts/border-collapse/</link>
+      <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/border-collapse/</guid>
+      <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
+I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
+    </item>
+    
+  </channel>
+</rss>

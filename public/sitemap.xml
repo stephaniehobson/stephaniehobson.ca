@@ -378,7 +378,8 @@
   </url>
   
   <url>
-    <loc>https://stephaniehobson.ca/pages/about/</loc>
+    <loc>https://stephaniehobson.ca/posts/</loc>
+    <lastmod>2017-10-31T21:19:14+00:00</lastmod>
   </url>
   
   <url>
@@ -424,91 +425,100 @@
   </url>
   
   <url>
+    <loc>https://stephaniehobson.ca/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/accessibility/</loc>
+    <lastmod>2017-10-08T14:14:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/accomplishment/</loc>
+    <lastmod>2017-10-08T14:14:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/bcit/</loc>
+    <lastmod>2014-01-21T20:05:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/code/</loc>
+    <lastmod>2012-07-10T16:26:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/conference/</loc>
+    <lastmod>2017-10-10T14:50:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/link/</loc>
+    <lastmod>2008-02-21T20:22:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/links/</loc>
+    <lastmod>2015-10-15T10:31:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/mozilla/</loc>
+    <lastmod>2017-10-31T21:19:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/personal/</loc>
+    <lastmod>2010-01-08T19:09:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/presentation/</loc>
+    <lastmod>2017-10-10T14:50:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/slides/</loc>
+    <lastmod>2017-10-10T14:50:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stephaniehobson.ca/</loc>
     <lastmod>2017-10-31T21:19:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephaniehobson.ca/categories/accessibility/</loc>
-    <lastmod>2008-08-11T21:03:13+00:00</lastmod>
+    <loc>https://stephaniehobson.ca/tags/</loc>
+    <lastmod>2017-10-08T14:14:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephaniehobson.ca/categories/accomplishment/</loc>
+    <loc>https://stephaniehobson.ca/typography/</loc>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/tags/video/</loc>
     <lastmod>2016-08-25T11:43:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephaniehobson.ca/categories/bcit/</loc>
-    <lastmod>2014-01-21T20:05:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/</loc>
-    <lastmod>2008-08-11T21:03:13+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/code/</loc>
-    <lastmod>2011-09-06T14:34:49+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/conference/</loc>
-    <lastmod>2015-10-15T10:31:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/links/</loc>
-    <lastmod>2015-10-15T10:31:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/pages/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/personal/</loc>
-    <lastmod>2012-05-24T23:02:56+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/posts/</loc>
-    <lastmod>2017-10-31T21:19:14+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/presentation/</loc>
+    <loc>https://stephaniehobson.ca/tags/webdesign/</loc>
     <lastmod>2016-08-25T11:43:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/slides/</loc>
-    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/video/</loc>
-    <lastmod>2016-08-25T11:43:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephaniehobson.ca/categories/webdesign/</loc>
-    <lastmod>2017-10-31T21:19:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   

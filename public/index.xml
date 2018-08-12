@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abstract Sequential</title>
+    <title>Stephanie Hobson</title>
     <link>https://stephaniehobson.ca/</link>
-    <description>Recent content on Abstract Sequential</description>
+    <description>Recent content on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:19:14 +0000</lastBuildDate>
@@ -68,7 +68,7 @@ You don&amp;rsquo;t have to get ready before you start using HTTP/2 While doing 
     </item>
     
     <item>
-      <title>Flipping More Table</title>
+      <title>Flipping More Tables</title>
       <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
       <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
       
@@ -790,14 +790,22 @@ I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Dire
     </item>
     
     <item>
-      <title></title>
-      <link>https://stephaniehobson.ca/pages/about/</link>
+      <title>About</title>
+      <link>https://stephaniehobson.ca/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/pages/about/</guid>
-      <description>Abstract Sequential   Abstract Sequential Stephanie Hobson&amp;#39;s abstract thoughts in the sequence she has them.
-    On 2018-01-19. I was once compared to a striped carrot, a potion of beguiling, a saffron crayon and the Batmobile by a group of university friends while in Quebec City drinking some very cheep wine because it comes in bottles that make pretty beach glass.
-I got an education, a career, and a house but it turns out that doesn’t necessarily lead to happiness… so now I’m trying other things.</description>
+      <guid>https://stephaniehobson.ca/about/</guid>
+      <description>I was once compared to a striped carrot, a potion of beguiling, a saffron crayon and the Batmobile by a group of university friends while in Quebec City drinking some very cheep wine because it comes in bottles that make pretty beach glass.
+I got an education, a career, and a house but it turns out that doesn’t necessarily lead to happiness… so now I’m trying other things. One day I’d like to do something more rewarding with my life than recycling my bottles and giving money to charities.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>https://stephaniehobson.ca/typography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/typography/</guid>
+      <description>Heading 1 Heading 2 Heading 3 I don&amp;rsquo;t know who&amp;rsquo;s telling you that Mario Lemieux is the brains of the operation, &amp;lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick in these machines, eh? And Deadmau5, you&amp;rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&amp;rsquo;m Constable Jason Priestly. Heading 4 I don&amp;rsquo;t know who&amp;rsquo;s telling you that Mario Lemieux is the brains of the operation, &amp;lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation.</description>
     </item>
     
   </channel>

@@ -8,6 +8,7 @@ Develop:
 
 Deploy:
 ```
+gulp
 rm -rf public
 hugo
 gulp
