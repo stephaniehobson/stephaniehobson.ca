@@ -8,8 +8,6 @@ MVP:
 - search for "wordpress" to find all internal links
 - about
 - footer links
-- http://localhost:1313/tags/
-    - copy year solution
 
 Other:
 
@@ -46,6 +44,7 @@ Other:
 
 Done:
 
+- Tag archive, alphabetical with post count
 - Archive pages
     - years
         - make year template descending

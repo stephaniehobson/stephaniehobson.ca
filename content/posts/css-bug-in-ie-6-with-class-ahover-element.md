@@ -29,7 +29,7 @@ It's sort of a solution to the fact that "read more" makes bad link text.  Bad. 
 
 Then I tried to style it with something like this:
 
-```css
+```
 /* default link behaviour */
 a {
     text-decoration:none;
@@ -68,7 +68,7 @@ Which did exactly what I wanted it to do... in FireFox but in IE 6 the hover was
 
 I added float:none to my declaration for `.promo a:hover{}` and all is now well :)
 
-```css
+```
 .promo a:hover{
     float:none;
 }
