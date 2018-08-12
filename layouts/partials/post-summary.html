@@ -5,11 +5,13 @@
         </a>
     </h2>
     <div class="summary-info">
-        <div class="summary-date">{{ .PublishDate.Format "2006 January 02" }}</div>
+        <span class="summary-date">
+            <a class="summary-date-year" href="/year/{{ .PublishDate.Format "2006" }}/">{{ .PublishDate.Format "2006" }}</a>
+            {{ .PublishDate.Format "January 02" }}
+        </span>
         <ul class="summary-tags">
-            {{ with .Params.categories }}
+            {{ with .Params.tags }}
                 {{- range $i, $e := . -}}
-                    {{ if $i }}, {{ end }}
                     <li class="summary-tag">#<a href="{{ "tags/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a></li>
                 {{- end -}}
             {{ end }}

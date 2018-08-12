@@ -7,16 +7,12 @@
 
 .summary-title {
     font-size: calc(#{$font-base} * #{$f3});
+    margin-left: 0;
     padding: 0;
 }
 
 .summary-info {
-    @media #{$mq-480-and-up} {
-        // out-dent
-        main & {
-            margin: 0 0 0 calc(#{$grid} * 2 * -1);
-        }
-    }
+    padding-bottom: $grid;
 }
 
 .summary-title-link {
@@ -28,8 +24,8 @@
         content: '➡';
         left: 5px;
         position: relative;
-        transition: all 0.2s ease-out;
         text-decoration: none;
+        transition: left 0.2s ease-out;
     }
 
     &:hover,
@@ -51,17 +47,34 @@
     }
 }
 
-.summary-date {
+.summary-info {
+    font-size: calc(#{$font-base} * #{$f-1});
+}
+
+.summary-date-year {
     background-color: $color-text;
     color: $color-background;
     display: inline-block;
     font-size: calc(#{$font-base} * #{$f-1});
     line-height: 1;
     padding: 3px 4px 2px;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-link-hover;
+        color: $color-text;
+        text-decoration: none;
+    }
+
+    &:visited:hover {
+        background-color: $color-link-visited-hover;
+        color: $color-text;
+    }
 }
 
 .summary-tags {
-    display: inline-block;
+    display: inline;
     font-size: calc(#{$font-base} * #{$f-1});
     list-style-type: none;
     padding-left: 0;
@@ -69,4 +82,6 @@
 
 .summary-tag {
     padding: 0;
+    display: inline-block;
+    padding-left: $grid;
 }

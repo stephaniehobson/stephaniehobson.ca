@@ -15,6 +15,8 @@ MVP:
 
 Other:
 
+- make year template descending
+    - show post count
 - make sure heading levels are accurate on all pages
 - useful 404 page
 - twitter replacement, micro blogs
@@ -43,6 +45,7 @@ Other:
     - portfolio/work
 - blurb at end of blog posts introducing myself (comic book inspired? Imagine Eric Meyer is introducing me)
 - "read more" buttons specific to content "see the code" "view the slides"
+
 
 Done:
 

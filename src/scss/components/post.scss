@@ -4,10 +4,6 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
-.post {
-    padding: $grid;
-}
-
 .post-title {
     font-size: calc(#{$font-base} * #{$f3});
     padding: 0;
@@ -23,53 +19,59 @@
 }
 
 .post-link {
-    display: block;
-    width: 2rem;
-    height: 2rem;
-    overflow: hidden;
+    display: none;
+}
 
-    &:before {
-        display: inline-block;
-        color: $color-link;
-        content: '➡';
-        left: 5px;
-        position: relative;
-        transition: all 0.2s ease-out;
-        text-decoration: none;
-        width: 2rem;
-        height: 2rem;
+@media #{$mq-960-and-up} {
+    .post-link {
+        display: block;
+        font-size: calc(#{$font-base} * #{$f5});
+        height: 1.2em;
+        overflow: hidden;
+        position: absolute;
+        right: calc(100% + #{$grid});
+        text-align: right;
+        top: 12px;
+        width: 1.2em;
+
+        &:before {
+            content: '➡';
+            display: inline-block;
+            height: 1.2em;
+            text-decoration: none;
+            width: 1.2em;
+        }
     }
+}
+
+.post-info {
+    font-size: calc(#{$font-base} * #{$f-1});
+    padding-bottom: $grid;
+}
+
+.post-date-year {
+    background-color: $color-text;
+    color: $color-background;
+    display: inline-block;
+    line-height: 1;
+    padding: 3px 4px 2px;
 
     &:hover,
     &:focus,
     &:active {
-        &:after {
-            color: $color-link-hover;
-            left: 15px;
-            text-decoration: none;
-        }
+        background-color: $color-link-hover;
+        color: $color-text;
+        text-decoration: none;
     }
 
-    &:visited {
-        &:hover {
-            &:after {
-                color: $color-link-visited-hover;
-            }
-        }
+    &:visited:hover {
+        background-color: $color-link-visited-hover;
+        color: $color-text;
     }
-}
-
-.post-date {
-    background-color: $color-text;
-    color: $color-background;
-    display: inline-block;
-    font-size: calc(#{$font-base} * #{$f-1});
-    line-height: 1;
-    padding: 3px 4px 2px;
 }
 
 .post-tags {
-    display: inline-block;
+    display: inline;
     font-size: calc(#{$font-base} * #{$f-1});
     list-style-type: none;
     padding-left: 0;
@@ -77,4 +79,6 @@
 
 .post-tag {
     padding: 0;
+    display: inline-block;
+    padding-left: $grid;
 }
