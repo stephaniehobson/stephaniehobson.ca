@@ -1,11 +1,13 @@
 ---
 title: 'Google Analytics, Privacy, and Event Tracking'
-id: 752
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2016/07/28/google-analytics-privacy-and-event-tracking/
 date: 2016-07-28 09:38:57
+year: "2016"
+id: 752
 tags:
   - mozilla
+  - webdesign
 ---
 
 _This article was [originally published on the Mozilla Hacks blog](https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/)._

@@ -1,15 +1,15 @@
 MVP:
 
 - Deploy
-- RSS feed
-  - make sure old Wordpress URLs still work
-    - http://stephaniehobson.ca/wordpress/tag/conference/feed/
 - Redirect old Wordpress URLs
   - all posts
-  - tags: /wordpress/tag/accomplishment/
-  - catagories: /wordpress/category/webdesign/
 - noindex typography file
 - favicon
+- search for "wordpress" to find all internal links
+- about
+- footer links
+- http://localhost:1313/tags/
+    - copy year solution
 
 Other:
 
@@ -60,7 +60,8 @@ Done:
       - http://stephaniehobson.ca/feed/
         - gulp script to copy to /feed/ folder
         - GHP will serve index.xml as folder index \o/
-    - http://stephaniehobson.ca/wordpress/category/webdesign/feed/
+      - http://stephaniehobson.ca/wordpress/category/webdesign/feed/
+      - http://stephaniehobson.ca/wordpress/tag/conference/feed/
 - demo/experiment pages
 - styled 404 page
 - review all tags and categories, attempt to standardize

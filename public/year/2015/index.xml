@@ -21,5 +21,28 @@
 The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer.</description>
     </item>
     
+    <item>
+      <title>How To Debug CSS</title>
+      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
+      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
+      <description>Some quick notes and links for the talk I gave at WordCamp Vancouver about Debugging CSS.
+Edit: You can now watch a recording of Debugging CSS. Spot the three projector failures!
+Steps  Is the HTML valid? Is the CSS valid? Is the right CSS being applied?
+ Is what you typed being applied? Is other stuff being applied? Is what&amp;rsquo;s being applied right?  Does CSS support what you’re doing?</description>
+    </item>
+    
+    <item>
+      <title>Mobile First Is Performance First</title>
+      <link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link>
+      <pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid>
+      <description>Tonight I spoke at Vancouver Web Performance Meetup and I promised to share my slides so here they are:
+   Mobile First Is Performance First  from Stephanie Hobson   If what you&amp;rsquo;re really after are the links, let me save you a bit of time:
+ Patrick Hamann - Building theguardian.com (slides) and Breaking News at 1000ms (video) Paul Irish - Delivering the Goods in under 1000ms (video) Scott Jehl - Responsible Responsive Design (book) Ilya Grigorik - High Performance Browser Networking” (book - free online!</description>
+    </item>
+    
   </channel>
 </rss>

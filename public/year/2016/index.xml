@@ -21,5 +21,27 @@
 The video of my talk has been posted:   And my slides are available here.</description>
     </item>
     
+    <item>
+      <title>Google Analytics, Privacy, and Event Tracking</title>
+      <link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
+      <pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
+      <description>This article was originally published on the Mozilla Hacks blog.
+Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.
+Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet.</description>
+    </item>
+    
+    <item>
+      <title>Flipping Tables</title>
+      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
+      <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
+      <description>I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.
+Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
+   Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   And the links I encouraged everyone to check out:</description>
+    </item>
+    
   </channel>
 </rss>

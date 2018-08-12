@@ -1,10 +1,12 @@
 ---
 title: I lie to Batman
-tags:
-id: 130
-categories:
-  - personal
+aliases:
+  - /wordpress/2009/12/17/http2-on-mdn/
 date: 2009-12-17 22:16:51
+year: "2009"
+id: 130
+tags:
+  - personal
 ---
 
 _**Note:** If you're following me because you're a code geek, like I am, and you want only my web design related feed and posts [they have their own category now](http://stephaniehobson.ca/wordpress/category/webdesign/)._

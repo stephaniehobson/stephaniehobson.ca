@@ -1,13 +1,15 @@
 ---
 title: Flipping Tables
+aliases:
+  - /wordpress/2016/04/19/flipping-tables/
+date: 2016-04-19 18:37:00
+year: "2016"
+id: 746
 tags:
   - accomplishment
   - presentation
   - slides
-id: 746
-categories:
   - webdesign
-date: 2016-04-19 18:37:00
 ---
 
 I was very pleased to be invited back to [Style and Class](http://styleandclass.ca/events/2016/coding-mentorship-data/) to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can't recommend enough.

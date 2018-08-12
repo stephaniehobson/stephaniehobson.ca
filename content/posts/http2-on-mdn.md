@@ -1,11 +1,13 @@
 ---
 title: HTTP/2 on MDN
-id: 764
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2017/07/10/i-lie-to-batman/
 date: 2017-07-10 12:46:34
+date: "2017"
+id: 764
 tags:
   - mozilla
+  - webdesign
 ---
 
 _This article was originally published on the [Mozilla Marketing Engineering & Operations blog](https://mozilla.github.io/meao/2017/06/26/http2/)._

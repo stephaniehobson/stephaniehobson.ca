@@ -54,28 +54,8 @@ gulp.task('icons', () => {
         .pipe(gulp.dest('static/images/icons'));
 });
 
-// copy main RSS feed to old directory
-gulp.task('wordpress:rss', () => {
-    del(['public/feed/*']);
-    gulp.src('public/posts/index.xml')
-        .pipe(gulp.dest('public/feed'));
-});
-
-// copy category RSS feeds to old directory
-gulp.task('wordpress:categories', () => {
-    del(['wordpress/category/*']);
-    gulp.src('public/tags/webdesign/index.xml')
-        .pipe(gulp.dest('public/wordpress/category/webdesign/feed/'));
-    gulp.src('public/tags/personal/index.xml')
-        .pipe(gulp.dest('public/wordpress/category/personal/feed/'));
-});
-
-// Tasks that need to be done before hugo is run
-gulp.task('deploy:pre', ['scss', 'scss:lint', 'js', 'icons']);
-
-// Tasks that need to be done after hugo is run
-// mostly tasks that handle old wordpress features
-gulp.task('deploy:post', ['wordpress:rss', 'wordpress:categories']);
+// Watch asset folder for changes
+gulp.task('deploy', ['scss', 'scss:lint', 'js', 'icons']);
 
 // Watch asset folder for changes
 gulp.task('watch', ['scss', 'scss:lint', 'js', 'icons'], () => {

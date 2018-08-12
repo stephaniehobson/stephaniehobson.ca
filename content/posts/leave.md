@@ -1,12 +1,14 @@
 ---
 title: Leave
-id: 509
-categories:
-  - personal
-  - webdesign
+aliases:
+  - /wordpress/2012/05/24/leave/
 date: 2012-05-24 23:02:56
+year: "2012"
+id: 509
 tags:
   - bcit
+  - personal
+  - webdesign
 ---
 
 I'm taking a one year leave of absence from my job at BCIT beginning June 1<sup>st</sup>, 2012.

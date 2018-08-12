@@ -6,10 +6,21 @@
     <description>Recent content in 2007 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Dec 2007 14:49:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Dec 2007 11:00:29 +0000</lastBuildDate>
     
 	<atom:link href="https://stephaniehobson.ca/year/2007/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I would live with dial up if it meant I could live here.</title>
+      <link>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</link>
+      <pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid>
+      <description>One of my bestest friends lives in the middle of no where. High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.
+For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.
+Also, turning off the images is not that easy. I wonder how true the assertion that people with dial up turn them off is.</description>
+    </item>
     
     <item>
       <title>CSS bug in IE 6 with: .class a:hover element</title>
@@ -33,6 +44,46 @@ Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help,
     </item>
     
     <item>
+      <title>Forming form guidelines</title>
+      <link>https://stephaniehobson.ca/posts/forming-form-guidelines/</link>
+      <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid>
+      <description>Who knew web design could be so&amp;hellip; academic?
+Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
+    </item>
+    
+    <item>
+      <title>@media links to check out</title>
+      <link>https://stephaniehobson.ca/posts/media-links-to-check-out/</link>
+      <pubDate>Sat, 26 May 2007 02:50:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/media-links-to-check-out/</guid>
+      <description>&lt;p&gt;This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>@media: Day Two</title>
+      <link>https://stephaniehobson.ca/posts/media-day-two/</link>
+      <pubDate>Sat, 26 May 2007 02:08:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/media-day-two/</guid>
+      <description>Today I got two free books, Jeremy signed Bullet Proof Ajax for me and I snagged an extra Microformats cheat sheet for Brandon. All in all a success.</description>
+    </item>
+    
+    <item>
+      <title>@media: Day One</title>
+      <link>https://stephaniehobson.ca/posts/media-day-one/</link>
+      <pubDate>Fri, 25 May 2007 10:10:04 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/media-day-one/</guid>
+      <description>One day I&amp;rsquo;d like to be able to make the same kind of contribution to the web design world that these speakers have. Trying to find a way to do that is as intimidating as the idea of writing a Master&amp;rsquo;s thesis. How does one come up with new ideas?
+The speakers have all been excellent so far. I always need a few days to process information though so I don&amp;rsquo;t have much to say at this point.</description>
+    </item>
+    
+    <item>
       <title>CADE/AMTECH Conference</title>
       <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
       <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
@@ -53,6 +104,27 @@ I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m aw
     </item>
     
     <item>
+      <title>I&#39;m presenting at a conference!</title>
+      <link>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</link>
+      <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</guid>
+      <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
+    </item>
+    
+    <item>
+      <title>Insecurity</title>
+      <link>https://stephaniehobson.ca/posts/insecurity/</link>
+      <pubDate>Thu, 08 Mar 2007 21:21:29 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/insecurity/</guid>
+      <description>All I did was copy the cgi file and change the file name and now it&amp;rsquo;s not encrypting the e-mails it sends any more.
+Hm.
+Edit: Yup, the problem was that I changed the name.
+Edit 07-03-26: I&amp;rsquo;ve also discovered that cgi files are not encoded using windows text format so opening them in notepad and saving them again is enough to destroy all functionality.</description>
+    </item>
+    
+    <item>
       <title>Border Collapse</title>
       <link>https://stephaniehobson.ca/posts/border-collapse/</link>
       <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
@@ -60,6 +132,15 @@ I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m aw
       <guid>https://stephaniehobson.ca/posts/border-collapse/</guid>
       <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
 I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://stephaniehobson.ca/posts/hello-world/</link>
+      <pubDate>Mon, 05 Mar 2007 01:53:59 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/hello-world/</guid>
+      <description>I&amp;rsquo;ve been wanting a professional blog for a while now. It&amp;rsquo;s funny how there&amp;rsquo;s somethings you can tell complete strangers and there&amp;rsquo;s some things you can&amp;rsquo;t.</description>
     </item>
     
   </channel>

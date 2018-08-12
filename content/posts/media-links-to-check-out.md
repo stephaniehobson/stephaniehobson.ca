@@ -1,12 +1,14 @@
 ---
 title: '@media links to check out'
+aliases:
+  - /wordpress/2007/05/26/media-links-to-check-out/
+date: 2007-05-26 02:50:53
+year: "2007"
+id: 28
 tags:
   - links
   - conference
-id: 28
-categories:
   - webdesign
-date: 2007-05-26 02:50:53
 ---
 
 This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):

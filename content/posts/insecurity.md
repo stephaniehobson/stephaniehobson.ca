@@ -1,10 +1,12 @@
 ---
 title: Insecurity
-tags:
-id: 6
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2007/03/08/insecurity/
 date: 2007-03-08 21:21:29
+year: "2007"
+id: 6
+tags:
+  - webdesign
 ---
 
 All I did was copy the cgi file and change the file name and now it's not encrypting the e-mails it sends any more.

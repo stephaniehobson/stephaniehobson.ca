@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2012 on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/year/2012/</link>
+    <description>Recent content in 2012 on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jul 2012 16:26:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/year/2012/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTML5 Forms OF DOOM</title>
+      <link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
+      <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
+      <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
+   HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
+Finished form (no peeking).
+Resources Basic Introductions
+ Dive Into HTML5: A Form of Madness Have a Field Day with HTML5 Forms Making Forms Fabulous with HTML5 Forward Thinking Form Validation  CSS</description>
+    </item>
+    
+    <item>
+      <title>Leave</title>
+      <link>https://stephaniehobson.ca/posts/leave/</link>
+      <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/leave/</guid>
+      <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
+Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
+I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
+I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,13 +1,15 @@
 ---
 title: Flipping Tables at CSSDevConf
+aliases:
+  - /wordpress/2017/10/10/flipping-tables-at-cssdevconf/
+date: 2017-10-10 14:50:03
+year: "2017"
+id: 779
 tags:
   - conference
   - presentation
   - slides
-id: 779
-categories:
   - webdesign
-date: 2017-10-10 14:50:03
 ---
 
 Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at [CSS Dev Conf](http://2017.cssdevconf.com/).

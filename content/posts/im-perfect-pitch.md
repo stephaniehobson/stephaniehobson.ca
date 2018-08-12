@@ -1,10 +1,12 @@
 ---
 title: Imperfect Pitch
-tags:
-id: 85
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2019/11/03/im-perfect-pitch/
 date: 2009-11-03 13:07:02
+year: "2009"
+id: 85
+tags:
+  - webdesign
 ---
 
 There's been [a lot of talk about](http://www.speakoutoncopyright.ca/) [copyright in Canada](http://www.faircopyrightforcanada.ca/) lately since we've been trying to perfect the updates the Conservatives are pitching to our outdated copyright legislation - so reading about Jeremy's copyright woes in his recent post [Perfect Pitch](http://adactio.com/journal/1623/) really struck a chord.

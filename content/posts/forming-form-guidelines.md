@@ -1,11 +1,13 @@
 ---
 title: Forming form guidelines
+aliases:
+  - /wordpress/2007/06/04/forming-form-guidelines/
+date: 2007-06-04 16:36:49
+year: "2007"
+id: 31
 tags:
   - bcit
-id: 31
-categories:
   - webdesign
-date: 2007-06-04 16:36:49
 ---
 
 Who knew web design could be so... academic?

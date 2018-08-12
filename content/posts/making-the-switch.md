@@ -1,10 +1,11 @@
 ---
 title: Making the switch
-tags:
-id: 34
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2007/07/30/making-the-switch/
 date: 2007-07-30 23:27:18
+id: 34
+tags:
+  - webdesign
 ---
 
 Macs have always struck me as more of a religion than an operating system. A family friend and I have a long history of a friendly Mac vs Windows rivalry.  He's the Mac evangelist and I was, well, I wasn't a Windows evangelist but I guess I played the part of a disbeliever.

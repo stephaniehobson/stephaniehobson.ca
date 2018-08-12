@@ -1,11 +1,13 @@
 ---
 title: Maintaining your CSS helps maintain your site
+aliases:
+  - /wordpress/2009/12/12/maintaining-css-help-maintain-site/
+date: 2009-12-10 12:02:44
+year: "2009"
+id: 112
 tags:
   - bcit
-id: 112
-categories:
   - webdesign
-date: 2009-12-10 12:02:44
 ---
 
 Rather than doing one giant redesign and launch, at BCIT, we've been doing small updates for a while now.

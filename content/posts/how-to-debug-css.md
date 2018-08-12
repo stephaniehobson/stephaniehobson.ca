@@ -1,12 +1,14 @@
 ---
 title: How To Debug CSS
+aliases:
+  - /wordpress/2015/08/15/how-to-debug-css/
+date: 2015-08-15 09:39:01
+year: "2015"
+id: 661
 tags:
   - conference
   - presentation
-id: 661
-categories:
   - webdesign
-date: 2015-08-15 09:39:01
 ---
 
 Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://vancouver.wordcamp.org/2015/session/debugging-css/) about Debugging CSS.

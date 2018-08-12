@@ -1,31 +1,30 @@
 ---
 title: Links from An Event Apart 2008 - Day Two
+aliases:
+  - /wordpress/2008/08/19/links-from-an-event-apart-2008-day-two/
+date: 2008-08-19 16:54:05
+year: "2008"
+id: 59
 tags:
   - conference
   - links
-id: 59
-categories:
   - webdesign
-date: 2008-08-19 16:54:05
 ---
 
-<dl>
-<dt>[Edenbee](http://edenbee.com/)</dt>
-<dd>Social networking and carbon footprints by Clearleft.</dd>
+[Edenbee](http://edenbee.com/)
+: Social networking and carbon footprints by Clearleft.
 
-<dt>[A Dao of Web Design](http://www.alistapart.com/articles/dao)</dt>
-<dd>Jeremy Keith says everyone must read this.  It talks about giving up pixel perfect control of the display of your websites.</dd>
+[A Dao of Web Design](http://www.alistapart.com/articles/dao)
+: Jeremy Keith says everyone must read this.  It talks about giving up pixel perfect control of the display of your websites.
 
-<dt>[Google social graph API]( http://code.google.com/apis/socialgraph/)</dt>
-<dd>Traces XFN and hCard references to connect your different profiles and find out who you are connected to.</dd>
+[Google social graph API]( http://code.google.com/apis/socialgraph/)
+: Traces XFN and hCard references to connect your different profiles and find out who you are connected to.
 
-<dt>[SCRUM](http://en.wikipedia.org/wiki/SCRUM)</dt>
-<dd>Replacement for the waterfall development method.  It's agile.  Recommended by Kelly Goto.</dd>
+[SCRUM](http://en.wikipedia.org/wiki/SCRUM)
+: Replacement for the waterfall development method.  It's agile.  Recommended by Kelly Goto.
 
-<dt>[Trulia Snapshot](http://snapshot.trulia.com/CA/San_Francisco/#most_expensive)</dt>
-<dd>Data visualization by Stamen - using real estate in San Francisco.</dd>
+[Trulia Snapshot](http://snapshot.trulia.com/CA/San_Francisco/#most_expensive)
+: Data visualization by Stamen - using real estate in San Francisco.
 
-<dt>[Rescue Time](http://www.rescuetime.com/)</dt>
-<dd>Track what you spend time doing on your computer.</dd>
-
-</dl>
+[Rescue Time](http://www.rescuetime.com/)
+: Track what you spend time doing on your computer.

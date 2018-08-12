@@ -1,15 +1,13 @@
-Develop:
+# Develop
 
 `hugo server -wv`
 
 `gulp`
 
-`http://localhost:1313`
+Site appears at: `http://localhost:1313`
 
-Deploy:
+# Deploy
+
 ```
-gulp
-rm -rf public
-hugo
-gulp
+./deploy.sh
 ```

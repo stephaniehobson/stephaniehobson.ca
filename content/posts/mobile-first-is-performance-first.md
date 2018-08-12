@@ -1,12 +1,14 @@
 ---
 title: Mobile First Is Performance First
-id: 656
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2015/02/23/mobile-first-is-performance-first/
 date: 2015-02-23 22:10:03
+year: "2015"
+id: 656
 tags:
   - presentation
   - slides
+  - webdesign
 ---
 
 Tonight I spoke at [Vancouver Web Performance Meetup](http://www.meetup.com/Vancouver-Web-Performance/) and I promised to share my slides so here they are:

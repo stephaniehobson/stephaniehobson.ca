@@ -1,11 +1,13 @@
 ---
 title: I would live with dial up if it meant I could live here.
+aliases:
+  - /wordpress/2017/12/31/i-would-live-with-dial-up-if-it-meant-i-could-live-here/
+date: 2007-12-31 11:00:29
+year: "2007"
+id: 42
 tags:
   - accessibility
-id: 42
-categories:
   - webdesign
-date: 2007-12-31 11:00:29
 ---
 
 One of my bestest friends lives in the middle of no where.  High speed internet has not yet come to this island so I'm on dial up today, which is leading to interesting discoveries.

@@ -6,10 +6,22 @@
     <description>Recent content in 2014 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 May 2014 17:20:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2014 11:00:15 +0000</lastBuildDate>
     
 	<atom:link href="https://stephaniehobson.ca/year/2014/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
+      <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
+      <description>There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.
+The most detailed (and longest) version of my talk is available to watch on Wordpress TV.
+My first slide deck and links to the resources I recommend are part of an earlier blog post.
+In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page.</description>
+    </item>
     
     <item>
       <title>Accessibility with CSS: Making Websites Better for Everyone</title>

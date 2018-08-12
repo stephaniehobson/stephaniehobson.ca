@@ -1,11 +1,13 @@
 ---
 title: '@media: Day One'
+aliases:
+  - /wordpress/2007/05/25/media-day-one/
+date: 2007-05-25 10:10:04
+year: "2007"
+id: 26
 tags:
   - conference
-id: 26
-categories:
   - webdesign
-date: 2007-05-25 10:10:04
 ---
 
 One day I'd like to be able to make the same kind of contribution to the web design world that these speakers have.  Trying to find a way to do that is as intimidating as the idea of writing a Master's thesis.  How does one come up with new ideas?

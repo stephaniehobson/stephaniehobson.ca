@@ -1,14 +1,17 @@
 ---
 title: HTML5 Forms OF DOOM
+aliases:
+  - /wordpress/2012/07/10/html5-forms-of-doom/
+date: 2012-07-10 16:26:19
+year: "2012"
+id: 576
 tags:
   - accomplishment
   - code
   - presentation
   - slides
-id: 576
-categories:
   - webdesign
-date: 2012-07-10 16:26:19
+
 ---
 
 I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They're so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
