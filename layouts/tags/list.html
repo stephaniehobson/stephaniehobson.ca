@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main>
+    <div>
+        <h1>{{ .Title }}</h1>
+        <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+        {{ $data := .Data }}
+        {{ range $key, $value := .Data.Terms.Alphabetical }}
+            <div class="summary">
+                <h2 class="summary-title">
+                    <a href="/{{ $data.Plural }}/{{ $value.Name | urlize }}"> {{ $value.Name }}</a>
+                </h2>
+                <div class="summary-info">
+                    <span class="summary-count">
+                    {{ $value.Count }} posts
+                    </span>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</main>
+{{ end }}
