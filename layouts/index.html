@@ -1,6 +1,7 @@
+{{ define "social" }}
+    {{ partial "social.html" (dict "context" . "class" "social-header") }}
+{{ end }}
 {{ define "main" }}
-{{ partial "social.html" (dict "context" . "class" "social-header") }}
-<main>
     {{ range first 1 .Data.Pages }}
         {{ if eq .Type "posts" }}
             {{ partial "post-summary.html" . }}
@@ -11,5 +12,7 @@
             {{ partial "post-summary.html" . }}
         {{ end }}
     {{ end }}
-</main>
+    <div>
+        <a href="/year/">Archives</a>
+    </div>
 {{ end }}

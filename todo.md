@@ -11,8 +11,8 @@ MVP:
 
 Other:
 
+- symbol at end of blog posts (like bobulate's dog) (maincule?)
 - review heading levels
-- favicon
 - pagination for home page
 - make sure heading levels are accurate on all pages
 - useful 404 page
@@ -46,6 +46,7 @@ Other:
 
 Done:
 
+- favicon
 - Tag archive, alphabetical with post count
 - Archive pages
     - years

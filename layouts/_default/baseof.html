@@ -3,8 +3,10 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "header.html" . }}
-
-    {{ block "main" . }}{{ end }}
+    {{ block "social" . }}{{ end }}
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
 
     {{ partial "footer.html" . }}
 </body>

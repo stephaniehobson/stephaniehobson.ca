@@ -26,6 +26,10 @@
         position: relative;
         text-decoration: none;
         transition: left 0.2s ease-out;
+
+        @media #{$mq-680-and-up} {
+            margin-right: -30px;
+        }
     }
 
     &:hover,

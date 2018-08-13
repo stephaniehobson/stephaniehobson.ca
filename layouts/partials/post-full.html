@@ -1,5 +1,5 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 itemprop="name headline">{{ .Title }}</h1>
+    <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
     <div class="post-info">
         <a class="post-link" href="{{ .Permalink }}" itemprop="url">Permalink</a>
         <time class="post-date" datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">

@@ -1,5 +1,5 @@
 ---
-title: Finally figure out what my problem is
+title: Finally figured out what my problem is
 aliases:
   - /wordpress/2008/02/05/finally-figure-out-what-my-problem-is/
 date: 2008-02-05 11:18:38

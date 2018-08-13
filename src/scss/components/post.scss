@@ -5,8 +5,7 @@
 @import '../includes/mixins';
 
 .post-title {
-    font-size: calc(#{$font-base} * #{$f3});
-    padding: 0;
+    padding-bottom: 0;
 }
 
 .post-info {

@@ -1,11 +1,7 @@
 {{ define "main" }}
-<main>
-    <div>
-        <h1>Tags / {{ .Title }}</h1>
-        <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
-        {{ range .Pages }}
-            {{ partial "post-summary.html" . }}
-        {{ end }}
-    </div>
-</main>
+    <h1>Tags / {{ .Title }}</h1>
+    <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+    {{ range .Pages }}
+        {{ partial "post-summary.html" . }}
+    {{ end }}
 {{ end }}
