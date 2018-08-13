@@ -4,13 +4,15 @@ MVP:
 - Redirect old Wordpress URLs
   - all posts
 - noindex typography file
-- favicon
+
 - search for "wordpress" to find all internal links
+    - add images to posts linking to /wp-content
 - about
 - footer links
 
 Other:
 
+- favicon
 - pagination for home page
 - make sure heading levels are accurate on all pages
 - useful 404 page
