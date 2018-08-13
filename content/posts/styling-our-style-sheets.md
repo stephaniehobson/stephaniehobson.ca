@@ -1,11 +1,13 @@
 ---
 title: Styling Our Style Sheets
+aliases:
+  - /wordpress/2007/04/23/styling-our-style-sheets/
+date: 2007-04-23 13:15:26
+year: "2007"
+id: 17
 tags:
   - bcit
-id: 17
-categories:
   - webdesign
-date: 2007-04-23 13:15:26
 ---
 
 I've been wanting to seriously redo some of the HTML and CSS behind the [BCIT](http://bcit.ca) site since I came on board here almost a year ago.

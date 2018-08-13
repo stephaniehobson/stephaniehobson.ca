@@ -1,10 +1,12 @@
 ---
 title: Print Styles Are Responsive Design
-id: 305
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2012/03/14/print-styles-responsive-design/
 date: 2012-03-14 23:26:09
+year: "2012"
+id: 305
 tags:
+  - webdesign
 ---
 
 Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?

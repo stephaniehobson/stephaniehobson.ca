@@ -1,10 +1,12 @@
 ---
 title: 'No, wait, I wasn''t done reading that!'
-tags:
-id: 37
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2007/08/12/no-wait-i-wasnt-done-reading-that/
 date: 2007-08-12 00:23:34
+year: "2007"
+id: 37
+tags:
+  - webdesign
 ---
 
 When I went on vacation a few weeks ago I got a little behind on my RSS feeds.  I'd manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit "mark all as read" instead.

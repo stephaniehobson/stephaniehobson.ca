@@ -1,12 +1,14 @@
 ---
 title: Perfect Stranger
+aliases:
+  - /wordpress/2011/07/16/perfect-stranger/
+date: 2011-07-16 18:59:51
+year: "2011"
+id: 289
 tags:
   - accomplishment
-id: 289
-categories:
   - personal
   - webdesign
-date: 2011-07-16 18:59:51
 ---
 
 [![](http://stephaniehobson.ca/wordpress/wp-content/uploads/2011/07/perfectstranger.jpg)](http://twitter.com/perfectstranger)Twitter is an amazing tool to catch a glimpse of the collective consciousness. I've seen it during the Olympics and I've been apart of it at conferences like An Event Apart. [Jeremy Keith](http://adactio.com) once said that Twitter was the closest he'd ever come to feeling as though he's jacked into the Matrix.

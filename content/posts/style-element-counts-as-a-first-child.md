@@ -1,11 +1,13 @@
 ---
 title: 'A style tag counts as a :first-child'
+aliases:
+  - /wordpress/2011/08/24/style-element-counts-as-a-first-child/
+date: 2011-08-24 23:31:09
+year: "2011"
+id: 365
 tags:
   - code
-id: 365
-categories:
   - webdesign
-date: 2011-08-24 23:31:09
 ---
 
 **EDIT 2011-09-15: All of this applies to `<script>` in the body as well.**

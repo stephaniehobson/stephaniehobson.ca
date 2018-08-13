@@ -1,11 +1,13 @@
 ---
 title: The MDN Redesign “Behind the Scenes”
-id: 781
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2017/08/01/the-mdn-redesign-behind-the-scenes/
 date: 2017-08-01 19:34:47
+year: "2017"
+id: 781
 tags:
   - mozilla
+  - webdesign
 ---
 
 _This article was originally published on Mozilla's [Hacks Blog](https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/)._

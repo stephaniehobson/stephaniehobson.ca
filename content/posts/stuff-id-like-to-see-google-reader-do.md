@@ -1,10 +1,12 @@
 ---
 title: Stuff I'd like to see Google Reader do
-tags:
-id: 60
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2008/09/15/stuff-id-like-to-see-google-reader-do/
 date: 2008-09-15 16:21:16
+year: "2008"
+id: 60
+tags:
+  - webdesign
 ---
 
 I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different... taste than I do... repeatedly).

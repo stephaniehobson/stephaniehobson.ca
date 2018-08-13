@@ -1,12 +1,14 @@
 ---
 title: Striving for excellence
+aliases:
+  - /wordpress/2007/03/30/striving-for-excellence/
+date: 2007-03-30 11:51:10
+year: "2007"
+id: 12
 tags:
   - bcit
-id: 12
-categories:
   - personal
   - webdesign
-date: 2007-03-30 11:51:10
 ---
 
 I just finished my first micoformatted page!  When I was writing the information page for [HOPE's spring dinners](http://hope-international.com/fundraising/07_springdinners.html) I coded all the dinners as events and the organizers as hcards :)  I did work with Brandon to re-do the [BCIT Contacts](http://www.bcit.ca/contacts) application to use microformats but he did most of the coding on that project.  This is the first time I've done it myself.

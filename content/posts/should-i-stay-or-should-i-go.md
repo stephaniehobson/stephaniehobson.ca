@@ -1,10 +1,12 @@
 ---
 title: Should I stay or should I go?
-tags:
-id: 62
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2009/03/22/should-i-stay-or-should-i-go/
 date: 2009-03-22 15:08:43
+year: "2009"
+id: 62
+tags:
+  - webdesign
 ---
 
 What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that's, well, *boring* for me and for you.  So I'm thinking of re-doing it.

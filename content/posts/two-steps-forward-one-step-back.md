@@ -1,10 +1,13 @@
 ---
 title: 'Two steps forward, one step back'
-tags:
-id: 51
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2008/03/04/two-steps-forward-one-step-back/
 date: 2008-03-04 15:34:30
+year: "2008"
+id: 51
+tags:
+  - webdesign
+
 ---
 
 Tuesday I was a guest speaker at Mrs.A's gifted class.  She's teaching a group of 9-12 year olds web design and asked if I'd come in an talk for an afternoon.

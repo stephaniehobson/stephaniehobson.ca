@@ -1,10 +1,12 @@
 ---
 title: Searching for an answer
-tags:
-id: 33
-categories:
-  - webdesign
+aliases:
+  - /wordpress/2007/06/29/searching-for-an-answer/
 date: 2007-06-29 17:02:09
+year: "2007"
+id: 33
+tags:
+  - webdesign
 ---
 
 Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?
