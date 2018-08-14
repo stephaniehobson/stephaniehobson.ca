@@ -1,11 +1,13 @@
 ---
 title: Working hard?
+aliases:
+  - /wordpress/2007/04/24/working-hard/
+date: 2007-04-24 17:58:15
+year: "2007"
+id: 20
 tags:
   - bcit
-id: 20
-categories:
   - personal
-date: 2007-04-24 17:58:15
 ---
 
 Or hardly working?

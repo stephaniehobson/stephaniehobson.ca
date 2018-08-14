@@ -1,10 +1,12 @@
 ---
 title: Why Abstract Sequential?
-tags:
-id: 104
-categories:
-  - personal
+aliases:
+  - /wordpress/2009/11/12/why-abstract-sequential/
 date: 2009-11-12 22:02:24
+year: "2009"
+id: 104
+tags:
+  - personal
 ---
 
 Short answer: it's my thinking style :)

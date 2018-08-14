@@ -1,11 +1,12 @@
 ---
 title: Why I follow my heroes on Twitter
-tags:
-id: 69
-categories:
-  - personal
-  - webdesign
+aliases:
+  - /wordpress/2009/05/20/why-i-follow-my-heroes/
 date: 2009-05-20 22:04:29
+year: "2009"
+id: 69
+tags:
+  - personal
 ---
 
 A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They've all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, "If you don't like it, don't follow."
@@ -25,4 +26,4 @@ I like knowing that they're human, because it makes it okay for me to be human t
 * * *
 
 In case you're wondering who I'm talking about:
-[zeldman](http://twitter.com/zeldman) [fraying](http://twitter.com/fraying) [meyerweb](http://twitter.com/meyerweb) [collylogic](http://twitter.com/collylogic) [hchamp](http://twitter.com/hchamp) [Malarkey](http://twitter.com/Malarkey) [mezzoblue](http://twitter.com/mezzoblue)
+[zeldman](http://twitter.com/zeldman) [fraying](http://twitter.com/fraying) [meyerweb](http://twitter.com/meyerweb) [hchamp](http://twitter.com/hchamp) [mezzoblue](http://twitter.com/mezzoblue)

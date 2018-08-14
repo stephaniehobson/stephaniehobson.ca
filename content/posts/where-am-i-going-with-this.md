@@ -1,10 +1,13 @@
 ---
 title: Where am I going with this?
-tags:
-id: 7
-categories:
-  - personal
+aliases:
+  - /wordpress/2007/03/14/where-am-i-going-with-this/
 date: 2007-03-14 16:05:07
+year: "2007"
+id: 7
+tags:
+  - personal
+
 ---
 
 Vivian is such a great motivator.  I'm still sorry to see her go.

@@ -1,14 +1,16 @@
 ---
 title: Writing for Every Reader
+aliases:
+  - /wordpress/2017/10/08/writing-for-every-reader/
+date: 2017-10-08 14:14:11
+year: "2017"
+id: 773
 tags:
   - accessibility
   - accomplishment
   - presentation
   - slides
-id: 773
-categories:
   - webdesign
-date: 2017-10-08 14:14:11
 ---
 
 I [recently spoke at #a11yTOConf](http://conf.a11yto.com/talks#writingForEveryReader), a conference by the organizers of the regular [a11yTO meet-up](https://www.meetup.com/a11yTO/). The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won't be the last!

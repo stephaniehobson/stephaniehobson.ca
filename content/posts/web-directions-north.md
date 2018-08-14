@@ -1,11 +1,13 @@
 ---
 title: Web Directions North
+aliases:
+  - /wordpress/2007/04/04/web-directions-north/
+date: 2007-04-04 14:11:08
+year: "2007"
+id: 13
 tags:
   - conference
-id: 13
-categories:
   - webdesign
-date: 2007-04-04 14:11:08
 ---
 
 I thought I'd post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I've been wanting to write a more technical and personal review of it but it's pretty clear to me that if I haven't done it by now, I'm not going to get around to doing it :)

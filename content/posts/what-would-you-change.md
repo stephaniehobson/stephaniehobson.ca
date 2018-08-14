@@ -1,11 +1,13 @@
 ---
 title: What would you change?
+aliases:
+  - /wordpress/2009/01/14/what-would-you-change/
+date: 2009-01-14 10:53:21
+year: "2009"
+id: 61
 tags:
   - bcit
-id: 61
-categories:
   - webdesign
-date: 2009-01-14 10:53:21
 ---
 
 Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different.  With so much of our target audience using social media it's particularly important for us.
