@@ -43,5 +43,35 @@ Take our footer for example, I got to update all of them using the CSS a few tim
 He discovered a page in The Sessions&amp;rsquo;s discussion form about perfect pitch had been removed from Google search results due to a copyright infringement accusation by a company that makes a product called Perfect Pitch - the page isn&amp;rsquo;t about the product and, in fact, barely mentions it.</description>
     </item>
     
+    <item>
+      <title>Quick spam solution for email forms</title>
+      <link>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link>
+      <pubDate>Fri, 30 Oct 2009 22:23:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
+      <description>I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.
+The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.</description>
+    </item>
+    
+    <item>
+      <title>Should I stay or should I go?</title>
+      <link>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link>
+      <pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid>
+      <description>What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, boring for me and for you. So I&amp;rsquo;m thinking of re-doing it.
+I&amp;rsquo;m going to use this site to bring together all my activities from around the web in one place.</description>
+    </item>
+    
+    <item>
+      <title>What would you change?</title>
+      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
+      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
+      <description>Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.
+BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and What Would You Change?</description>
+    </item>
+    
   </channel>
 </rss>

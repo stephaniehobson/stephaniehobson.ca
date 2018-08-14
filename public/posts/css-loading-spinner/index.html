@@ -3,7 +3,7 @@
 <title>CSS Loading Spinner</title>
 <meta charset="UTF-8">
 <meta name="description" content="">
-<link rel="stylesheet" href="/css/main-3ec4dbfa.css">
+<link rel="stylesheet" href="/css/main-07115706.css">
 
 
 <body>
@@ -22,11 +22,11 @@
     </div>
 </header>
 
-
     
-<main>
+    <main>
+        
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 itemprop="name headline">CSS Loading Spinner</h1>
+    <h1 class="post-title" itemprop="name headline">CSS Loading Spinner</h1>
     <div class="post-info">
         <a class="post-link" href="https://stephaniehobson.ca/posts/css-loading-spinner/" itemprop="url">Permalink</a>
         <time class="post-date" datetime="2011-09-06" itemprop="datePublished">
@@ -44,13 +44,13 @@
 
 <p>On the bright side it works on any background colour and is a little transparent which is neat. And it&rsquo;s <em>way</em> faster to adjust the colour scheme than an image file would be.</p>
 
-<iframe src="http://stephaniehobson.ca/loading-spinner/" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
+<iframe src="/loading-spinner/" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
 
 <h2 id="the-basic-idea">The basic idea</h2>
 
 <p>It&rsquo;s one <code>&lt;div&gt;</code> containing 8 <code>&lt;span&gt;</code>s, styled to be little grey lozenges:</p>
 
-<pre><code class="language-css">.spinner span {
+<pre><code>.spinner span {
     display:block;
     height:13px;
     width:5px;
@@ -61,14 +61,14 @@
 
 <p>In anticipation of rotating them I moved the <code>transform-origin</code> to the middle of the element and then a significant way down beneath it. Later, when I rotate the lozenges this spaces them further apart.</p>
 
-<pre><code class="language-css">    ...
+<pre><code>    ...
     transform-origin: 50% 160%;
     ...
 </code></pre>
 
 <p>They all have a simple animation applied to them that makes them fade in and out (it has a bit of an opacity on it just for fun):</p>
 
-<pre><code class="language-css">    ...
+<pre><code>    ...
     animation-name: fade;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -91,7 +91,7 @@
 
 <p>Using <code>nth-of-type</code> each lozenge is rotated 45degrees more than the last and has a delay of 250ms added to the animation on it. Unfortunately there is no easy way to do this program-magically so they have to be specified for each. Here is an example of the code for the second one:</p>
 
-<pre><code class="language-css">.spinner span:nth-of-type(2) {
+<pre><code>.spinner span:nth-of-type(2) {
     transform: rotate(45deg);
     animation-delay: -750ms;
 }
@@ -105,7 +105,7 @@
 
 <p>I added some absolute positioning to the <code>&lt;span&gt;</code>s, so the origin of the transform is at the top left of their parent <code>&lt;div&gt;</code>. This means the spinner fans out from the top left of the <code>&lt;div&gt;</code> and you can absolutely position it to exactly where you want the <em>middle</em> of the spinner.  Handy if you want to place the spinner in the middle of something, like I did.</p>
 
-<pre><code class="language-css">.spinner {
+<pre><code>.spinner {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -122,7 +122,7 @@
 
 <p>Changing the colour is as simple as creating a new animation and applying that to your special spinner spans.</p>
 
-<pre><code class="language-css">.special .spinner span {
+<pre><code>.special .spinner span {
     animation-name: specialfade;
 }
 </code></pre>
@@ -140,51 +140,16 @@
     </div>
 </article>
 
-</main>
 
+    </main>
 
     <footer>
-    &copy; Stephanie Hobson. <div class="social social-footer">
-    <ul class="social-list">
-        <li class="social-item">
-            <a class="social-link" href="http://www.flickr.com/people/stephaniehobson/" rel="me">
-                <img class="social-icon" alt="" src="/images/icons/flickr.svg" height="32" width="32">
-                <span class="social-name">Flickr</span>
-            </a>
-        </li>
-        <li class="social-item">
-            <a class="social-link" href="https://github.com/stephaniehobson" rel="me">
-                <img class="social-icon" alt="" src="/images/icons/github.svg" height="32" width="32">
-                <span class="social-name">GitHub</span>
-            </a>
-        </li>
-        <li class="social-item">
-            <a class="social-link" href="https://noti.st/stephaniehobson" rel="me">
-                <img class="social-icon" alt="" src="/images/icons/notist.svg" height="32" width="32">
-                <span class="social-name">Notist</span>
-            </a>
-        </li>
-        <li class="social-item">
-            <a class="social-link" href="http://www.linkedin.com/in/stephaniehobsonca" rel="me">
-                <img class="social-icon" alt="" src="/images/icons/linkedin.svg" height="32" width="32">
-                <span class="social-name">LinkedIn</span>
-            </a>
-        </li>
-        <li class="social-item">
-            <a class="social-link" href="https://pinboard.in/search/u:stephaniehobson?query=webdesign" rel="me">
-                <img class="social-icon" alt="" src="/images/icons/pinboard.svg" height="32" width="32">
-                <span class="social-name">Pinboard</span>
-            </a>
-        </li>
-        <li class="social-item">
-            <a class="social-link" href="http://twitter.com/stephaniehobson" rel="me">
-                <img class="social-icon" alt="" src="/images/icons/twitter.svg" height="32" width="32">
-                <span class="social-name">Twitter</span>
-            </a>
-        </li>
-    </ul>
-</div>
-
+    <p>My name is Stephanie Hobson and I like to make websites everyone can use.</p>
+    <p>&copy; Stephanie Hobson. </p>
+    <p>
+        <a href="/about/">About</a>
+        <a href="/year/">Archives</a>
+    </p>
 </footer>
 
 </body>

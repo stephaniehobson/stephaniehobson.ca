@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Feature or bug?</title>
+
+<style>
+body{
+	font: 14px/1.2 Arial, Helvetica, sans-serif;
+}
+
+body > p{
+	max-width:400px;
+	padding:20px;
+	background-color:#CCCCCC;
+}
+
+div{
+	margin:10px; /* the margin kind of confuses the issue, but my example is illegable without it, remove this is you're playing around */
+	border:25px solid rgba(0,255,0,0.5);
+	padding:25px;
+	background-color: rgba(0,0,255,1);
+	overflow:visible;
+}
+
+span{
+	display:block;
+	height:50px;
+	width:50px;
+	background-color: rgba(0,255,255,.5);
+}
+
+section{
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	display:block;
+	width:50%;
+	min-width:440px;
+	float:left;
+	border:10px solid #fff;
+	background-color:#CCCCCC;
+}
+
+section + p	{
+clear:both;
+}
+
+article{display:block;width:50%;float:left;}
+article + article div{box-sizing:border-box; -moz-box-sizing:border-box;}
+section + section div{border:0;padding:0;}
+
+article div:nth-child(2){height:250px;}
+article div:nth-child(3){height:200px;}
+article div:nth-child(4){height:150px;}
+article div:nth-child(5){height:100px;}
+article div:nth-child(6){height:50px;}
+article div:nth-child(7){height:0px;}
+
+
+
+</style>
+
+</head>
+
+<body>
+	<p>My goal was to make a box with padding on it that could be transformed from 0px to <abrr title="Well, I wanted to go to height auto actually but you can't to a transform on a element that doesn't have a specific height, apparently.">200px</abbr> high. Except that, well, I couldn't.</p>
+	<p>The browser was respecting the box-sizing:border-box declaration until I tried to shrink it smaller than it's padding. Then it behaved like a regular old box (demonstration below). My question is, <strong>is this the expected behaviour or do I have bug reports to file?</strong></p>
+	<p>Each box below has it's height set progressivly smaller from 250 to 0 px, with overflow visible and they surround a span with a height of 50px. You can see by comparing the top two boxes whether or not the browser is respecting the box-sizing declaration.</p>
+<section>
+	<p>Each of these boxes has 25px border and 25px padding.</p>
+	<article>
+		<p>These boxes use the traditional box model:</p>
+		<div><span>250</span></div>
+		<div><span>200</span></div>
+		<div><span>150</span></div>
+		<div><span>100</span></div>
+		<div><span>50</span></div>
+		<div><span>0</span></div>
+	</article>
+	<article>
+		<p>These boxes have box-sizing set to border-box:</p>
+		<div><span>250</span></div>
+		<div><span>200</span></div>
+		<div><span>150</span></div>
+		<div><span>100</span></div>
+		<div><span>50</span></div>
+		<div><span>0</span></div>
+		<p>why doesn't the box above this</p>
+	</article>
+</section>
+<section>
+	<p>Each of these boxes has no border or padding.</p>
+	<article>
+		<p>These boxes use the traditional box model:</p>
+		<div><span>250</span></div>
+		<div><span>200</span></div>
+		<div><span>150</span></div>
+		<div><span>100</span></div>
+		<div><span>50</span></div>
+		<div><span>0</span></div>
+	</article>
+	<article>
+		<p>These boxes have box-sizing set to border-box:</p>
+		<div><span>250</span></div>
+		<div><span>200</span></div>
+		<div><span>150</span></div>
+		<div><span>100</span></div>
+		<div><span>50</span></div>
+		<div><span>0</span></div>
+		<p>behave like the box above this????</p>
+	</article>
+</section>
+<p>For +1 internet view this page in both a webkit and a firefox based browser and checking out what my rbga borders do. That's a webdesign headache of the day waiting to happen.</p>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-535288-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>

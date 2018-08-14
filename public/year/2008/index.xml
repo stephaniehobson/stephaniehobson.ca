@@ -6,10 +6,20 @@
     <description>Recent content in 2008 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Aug 2008 16:54:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2008 16:21:16 +0000</lastBuildDate>
     
 	<atom:link href="https://stephaniehobson.ca/year/2008/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stuff I&#39;d like to see Google Reader do</title>
+      <link>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</link>
+      <pubDate>Mon, 15 Sep 2008 16:21:16 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</guid>
+      <description>I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different&amp;hellip; taste than I do&amp;hellip; repeatedly).
+I also wish I could share my feeds with different audiences in mind. Right now what I share is pretty bland because my clients, friends, and family all see it.</description>
+    </item>
     
     <item>
       <title>Links from An Event Apart 2008 - Day Two</title>
@@ -68,6 +78,26 @@ His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour
     </item>
     
     <item>
+      <title>Two steps forward, one step back</title>
+      <link>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</link>
+      <pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</guid>
+      <description>Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class. She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.
+So I spent 30 minutes talking to them about the basics of user centred design and how the internet works. Then I helped them trouble shoot their table based layouts and font tags.</description>
+    </item>
+    
+    <item>
+      <title>Web Directions North 2008</title>
+      <link>https://stephaniehobson.ca/posts/web-directions-north-2008/</link>
+      <pubDate>Thu, 21 Feb 2008 20:22:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/web-directions-north-2008/</guid>
+      <description>Just like last year I thought I&amp;rsquo;d post my summary of the conference that I distributed to my department. If I have any regular readers at all, it&amp;rsquo;s probably a little too general to do you any good but I&amp;rsquo;m happy to answer questions:
+Web Directions North is an internationally respected conference for web professionals. This year’s conference was a good high level overview of the new trends and technologies online.</description>
+    </item>
+    
+    <item>
       <title>Keeping up</title>
       <link>https://stephaniehobson.ca/posts/keeping-up/</link>
       <pubDate>Thu, 21 Feb 2008 20:19:31 +0000</pubDate>
@@ -78,7 +108,7 @@ His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour
     </item>
     
     <item>
-      <title>Finally figure out what my problem is</title>
+      <title>Finally figured out what my problem is</title>
       <link>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</link>
       <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
       

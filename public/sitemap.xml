@@ -385,7 +385,7 @@
   
   <url>
     <loc>https://stephaniehobson.ca/year/2008/</loc>
-    <lastmod>2008-08-19T16:54:05+00:00</lastmod>
+    <lastmod>2008-09-15T16:21:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -490,6 +490,11 @@
   <url>
     <loc>https://stephaniehobson.ca/tags/mozilla/</loc>
     <lastmod>2017-10-31T21:19:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stephaniehobson.ca/pages/</loc>
     <priority>0</priority>
   </url>
   

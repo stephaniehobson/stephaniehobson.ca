@@ -97,7 +97,7 @@ All the work for the solution was done by Tanfa, who wrote an article on IE Pure
       
       <guid>https://stephaniehobson.ca/posts/something-new-today/</guid>
       <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
-&amp;amp;lt;a href=&amp;quot;http://stephaniehobson.ca/file.php » ?fire=hot&amp;amp;amp;amp;beer=foamy&amp;quot;&amp;amp;gt;link&amp;amp;lt;/a&amp;amp;gt;</description>
+&amp;lt;a href=&amp;quot;/file.php?fire=hot&amp;amp;amp;beer=foamy&amp;quot;&amp;gt;link&amp;lt;/a&amp;gt;;  </description>
     </item>
     
     <item>

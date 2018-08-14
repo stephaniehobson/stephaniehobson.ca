@@ -478,7 +478,7 @@ Web Directions North is an internationally respected conference for web professi
     </item>
     
     <item>
-      <title>Finally figure out what my problem is</title>
+      <title>Finally figured out what my problem is</title>
       <link>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</link>
       <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
       
@@ -711,7 +711,7 @@ I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m aw
       
       <guid>https://stephaniehobson.ca/posts/something-new-today/</guid>
       <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
-&amp;amp;lt;a href=&amp;quot;http://stephaniehobson.ca/file.php » ?fire=hot&amp;amp;amp;amp;beer=foamy&amp;quot;&amp;amp;gt;link&amp;amp;lt;/a&amp;amp;gt;</description>
+&amp;lt;a href=&amp;quot;/file.php?fire=hot&amp;amp;amp;beer=foamy&amp;quot;&amp;gt;link&amp;lt;/a&amp;gt;;  </description>
     </item>
     
     <item>

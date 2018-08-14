@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BCIT Works</title>
+
+<script src="jquery.js"></script>
+
+
+<style>
+
+
+/* =================================================== */
+
+html{height:100%;}
+
+body{height:100%;margin:0;}
+
+.sectors{position:absolute;z-index:300;width:100%;}
+.sectors nav{display:table;width:100%;}
+.sectors ul{display:table-row;}
+.sectors li{
+	display:table-cell;
+	height:44px;
+	width:14.2857%;
+	overflow:hidden;
+	text-indent:-999px;
+}
+
+.sectors a{
+	display:block;
+	height:44px;
+	width:100%;
+	font-size:1px;}
+	
+.sectors a:hover{background-color:#FFFFFF;}
+
+.bcit.invert{background:#003c79;}
+.appliedsciences.invert{background:#76b900;}
+.business.invert{background:#005bc4;}
+.computing.invert{background:#f17c0e;}
+.health.invert{background:#d32939;}
+.engineering.invert{background:#577633;}
+.trades.invert{background:#003c79;}
+
+#content{
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+}
+
+.pannel{
+	display:none;
+	width:100%;
+	height:100%;
+	padding-top:44px;
+}
+
+.pannel:target{
+	display:block;
+	z-index:100;
+}
+
+.pannel:target{
+	-webkit-animation-name: panneltransition;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes panneltransition {
+ 0% {
+   padding-left:100%;
+ }
+ 50%{
+ 	padding-left:100%;
+ }
+ 100% {
+	padding-left:0%;
+ }
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<header class="sectors">
+	<nav>
+		<ul>
+			<li class="bcit invert"><a href="#bcit">Home</a></li>
+			<li class="appliedsciences invert"><a href="#appliedsciences">Applied &amp; Natural Sciences</a></li>
+			<li class="business invert"><a href="#business">Business &amp; Media</a></li>
+			<li class="computing invert"><a href="#computing">Computing &amp; IT</a></li>
+			<li class="engineering invert"><a href="#engineering">Engineering</a></li>
+			<li class="health invert"><a href="#health">Health Sciences</a></li>
+			<li class="trades invert"><a href="#trades">Trades &amp; Apprenticeship</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="content">
+	<div id="bcit" class="pannel">
+		<div class="pipe bcit invert">=</div>
+		<div class="content">home</div>
+	</div>
+	<div id="appliedsciences" class="pannel">
+		<div class="pipe appliedsciences invert">=</div>
+		<div class="content">a</div>
+	</div>
+	<div id="business" class="pannel">
+		<div class="pipe business invert">=</div>
+		<div class="content">b</div>
+	</div>
+	<div id="computing" class="pannel">
+		<div class="pipe computing invert">=</div>
+		<div class="content">c</div>
+	</div>
+	<div id="engineering" class="pannel">
+		<div class="pipe engineering invert">=</div>
+		<div class="content">e</div>
+	</div>
+	<div id="health" class="pannel">
+		<div class="pipe health invert">=</div>
+		<div class="content">h</div>
+	</div>
+	<div id="trades" class="pannel">
+		<div class="pipe trades invert">=</div>
+		<div class="content">t</div>
+	</div>
+</div>
+
+<!--
+<footer>
+	<ul>
+		<li>infosessions</li>
+		<li>request more info</li>
+		<li>tours</li>
+		<li>share
+			<ul>
+				<li>email</li>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Plus</li>
+			</ul>
+		</li>
+	</ul>
+</footer>
+-->
+
+</body>
+</html>

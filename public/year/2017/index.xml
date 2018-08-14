@@ -32,5 +32,15 @@ The View Source Conference website, on the other hand, is a small site. So when 
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
     </item>
     
+    <item>
+      <title>The MDN Redesign “Behind the Scenes”</title>
+      <link>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
+      <pubDate>Tue, 01 Aug 2017 19:34:47 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
+      <description>This article was originally published on Mozilla&amp;rsquo;s Hacks Blog.
+Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!</description>
+    </item>
+    
   </channel>
 </rss>

@@ -33,6 +33,16 @@ The View Source Conference website, on the other hand, is a small site. So when 
     </item>
     
     <item>
+      <title>The MDN Redesign “Behind the Scenes”</title>
+      <link>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
+      <pubDate>Tue, 01 Aug 2017 19:34:47 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
+      <description>This article was originally published on Mozilla&amp;rsquo;s Hacks Blog.
+Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!</description>
+    </item>
+    
+    <item>
       <title>Flipping More Tables</title>
       <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
       <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
@@ -62,6 +72,17 @@ Because these services are installed on multiple websites these third-parties ca
       <description>I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.
 Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   And the links I encouraged everyone to check out:</description>
+    </item>
+    
+    <item>
+      <title>(Still) Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link>
+      <pubDate>Tue, 27 Oct 2015 18:40:28 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid>
+      <description>In the next few weeks I&amp;rsquo;ll be speaking at JavaScript Open Day Calgary, View Source, and JavaScript Open Day Toronto giving an updated version of Web Accessibility: Making Websites Better for Everyone.
+Edit: videos have been posted for View Source and JavaScript Open Day Toronto. I&amp;rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.
+In my talk I encourage people to try out different assistive technologies themselves:</description>
     </item>
     
     <item>
@@ -155,6 +176,16 @@ I want to build something cool. I want to learn something new. I want to live in
     </item>
     
     <item>
+      <title>Print Styles Are Responsive Design</title>
+      <link>https://stephaniehobson.ca/posts/print-styles-responsive-design/</link>
+      <pubDate>Wed, 14 Mar 2012 23:26:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/print-styles-responsive-design/</guid>
+      <description>Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?
+Yes, people still print web pages. Extrapolating from these numbers about 10,000 pages are printed from bcit.ca every month. The print experience is an important part of a good site and relying on your screen styles to print properly is foolish:</description>
+    </item>
+    
+    <item>
       <title>CSS Loading Spinner</title>
       <link>https://stephaniehobson.ca/posts/css-loading-spinner/</link>
       <pubDate>Tue, 06 Sep 2011 14:34:49 +0000</pubDate>
@@ -162,6 +193,27 @@ I want to build something cool. I want to learn something new. I want to live in
       <guid>https://stephaniehobson.ca/posts/css-loading-spinner/</guid>
       <description>I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&amp;rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is my hammer).
 On the bright side it works on any background colour and is a little transparent which is neat. And it&amp;rsquo;s way faster to adjust the colour scheme than an image file would be.</description>
+    </item>
+    
+    <item>
+      <title>A style tag counts as a :first-child</title>
+      <link>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</link>
+      <pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</guid>
+      <description>EDIT 2011-09-15: All of this applies to &amp;lt;script&amp;gt; in the body as well.
+I have some bad news and a fix (I hesitate to call it good news).
+HTML5 introduces a way for us to include &amp;lt;style&amp;gt; elements on the page, we just need to give them an attribute of scoped. So, for example, if you have an SSI included widget you can include the styles in the widget file instead of trying to devise a way to add them to the head.</description>
+    </item>
+    
+    <item>
+      <title>Perfect Stranger</title>
+      <link>https://stephaniehobson.ca/posts/perfect-stranger/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
+      <description>Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. Jeremy Keith once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.
+Most of us use Twitter to keep in touch with people we know and keep up with things we care about.</description>
     </item>
     
     <item>
@@ -230,6 +282,46 @@ He discovered a page in The Sessions&amp;rsquo;s discussion form about perfect p
     </item>
     
     <item>
+      <title>Quick spam solution for email forms</title>
+      <link>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link>
+      <pubDate>Fri, 30 Oct 2009 22:23:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
+      <description>I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.
+The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.</description>
+    </item>
+    
+    <item>
+      <title>Should I stay or should I go?</title>
+      <link>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link>
+      <pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid>
+      <description>What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, boring for me and for you. So I&amp;rsquo;m thinking of re-doing it.
+I&amp;rsquo;m going to use this site to bring together all my activities from around the web in one place.</description>
+    </item>
+    
+    <item>
+      <title>What would you change?</title>
+      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
+      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
+      <description>Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.
+BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and What Would You Change?</description>
+    </item>
+    
+    <item>
+      <title>Stuff I&#39;d like to see Google Reader do</title>
+      <link>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</link>
+      <pubDate>Mon, 15 Sep 2008 16:21:16 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</guid>
+      <description>I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different&amp;hellip; taste than I do&amp;hellip; repeatedly).
+I also wish I could share my feeds with different audiences in mind. Right now what I share is pretty bland because my clients, friends, and family all see it.</description>
+    </item>
+    
+    <item>
       <title>Links from An Event Apart 2008 - Day Two</title>
       <link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</link>
       <pubDate>Tue, 19 Aug 2008 16:54:05 +0000</pubDate>
@@ -276,6 +368,26 @@ His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour
     </item>
     
     <item>
+      <title>Two steps forward, one step back</title>
+      <link>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</link>
+      <pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</guid>
+      <description>Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class. She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.
+So I spent 30 minutes talking to them about the basics of user centred design and how the internet works. Then I helped them trouble shoot their table based layouts and font tags.</description>
+    </item>
+    
+    <item>
+      <title>Web Directions North 2008</title>
+      <link>https://stephaniehobson.ca/posts/web-directions-north-2008/</link>
+      <pubDate>Thu, 21 Feb 2008 20:22:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/web-directions-north-2008/</guid>
+      <description>Just like last year I thought I&amp;rsquo;d post my summary of the conference that I distributed to my department. If I have any regular readers at all, it&amp;rsquo;s probably a little too general to do you any good but I&amp;rsquo;m happy to answer questions:
+Web Directions North is an internationally respected conference for web professionals. This year’s conference was a good high level overview of the new trends and technologies online.</description>
+    </item>
+    
+    <item>
       <title>Keeping up</title>
       <link>https://stephaniehobson.ca/posts/keeping-up/</link>
       <pubDate>Thu, 21 Feb 2008 20:19:31 +0000</pubDate>
@@ -286,7 +398,7 @@ His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour
     </item>
     
     <item>
-      <title>Finally figure out what my problem is</title>
+      <title>Finally figured out what my problem is</title>
       <link>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</link>
       <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
       
@@ -344,6 +456,24 @@ All the work for the solution was done by Tanfa, who wrote an article on IE Pure
     </item>
     
     <item>
+      <title>These are a few of my favourite things</title>
+      <link>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</link>
+      <pubDate>Fri, 14 Dec 2007 12:55:33 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</guid>
+      <description>Comics and web design together at last!</description>
+    </item>
+    
+    <item>
+      <title>No, wait, I wasn&#39;t done reading that!</title>
+      <link>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</link>
+      <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</guid>
+      <description>When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.</description>
+    </item>
+    
+    <item>
       <title>Making the switch</title>
       <link>https://stephaniehobson.ca/posts/making-the-switch/</link>
       <pubDate>Mon, 30 Jul 2007 23:27:18 +0000</pubDate>
@@ -354,6 +484,16 @@ At some point in 2004 he finally won the argument and I promised my next compute
     </item>
     
     <item>
+      <title>Searching for an answer</title>
+      <link>https://stephaniehobson.ca/posts/searching-for-an-answer/</link>
+      <pubDate>Fri, 29 Jun 2007 17:02:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/searching-for-an-answer/</guid>
+      <description>Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?
+I was trying to find out if legend was a required tag in fieldset and I got a tutorial that said not to use legend because Netscape 4 doesn&amp;rsquo;t support it yet but should soon!</description>
+    </item>
+    
+    <item>
       <title>Forming form guidelines</title>
       <link>https://stephaniehobson.ca/posts/forming-form-guidelines/</link>
       <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
@@ -361,6 +501,16 @@ At some point in 2004 he finally won the argument and I promised my next compute
       <guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid>
       <description>Who knew web design could be so&amp;hellip; academic?
 Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
+    </item>
+    
+    <item>
+      <title>This time it&#39;s not IE.</title>
+      <link>https://stephaniehobson.ca/posts/this-time-its-not-ie/</link>
+      <pubDate>Mon, 28 May 2007 13:14:48 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/this-time-its-not-ie/</guid>
+      <description>Wow, FireFox does not play nice with styling legends.
+FireFox, I&amp;rsquo;m not mad, I&amp;rsquo;m just disappointed.</description>
     </item>
     
     <item>
@@ -404,6 +554,36 @@ As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt,
     </item>
     
     <item>
+      <title>Styling Our Style Sheets</title>
+      <link>https://stephaniehobson.ca/posts/styling-our-style-sheets/</link>
+      <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/styling-our-style-sheets/</guid>
+      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
+Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
+As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
+    </item>
+    
+    <item>
+      <title>Web Directions North</title>
+      <link>https://stephaniehobson.ca/posts/web-directions-north/</link>
+      <pubDate>Wed, 04 Apr 2007 14:11:08 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/web-directions-north/</guid>
+      <description>&lt;p&gt;I thought I&amp;rsquo;d post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I&amp;rsquo;ve been wanting to write a more technical and personal review of it but it&amp;rsquo;s pretty clear to me that if I haven&amp;rsquo;t done it by now, I&amp;rsquo;m not going to get around to doing it :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Striving for excellence</title>
+      <link>https://stephaniehobson.ca/posts/striving-for-excellence/</link>
+      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/striving-for-excellence/</guid>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
+    </item>
+    
+    <item>
       <title>Delicious &#43; FireFox &#43; Snap Links</title>
       <link>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</link>
       <pubDate>Tue, 27 Mar 2007 15:06:24 +0000</pubDate>
@@ -411,6 +591,16 @@ As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt,
       <guid>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</guid>
       <description>I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the &amp;ldquo;open all in tabs&amp;rdquo; option that FireFox so nicely includes to open all the book marks at once. That way I can keep track of which ones I&amp;rsquo;ve read by closing them once I&amp;rsquo;m done :) Yeah, it&amp;rsquo;s lazy I know.
 I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m away from my home computer (who doesn&amp;rsquo;t) so I jumped on the del.</description>
+    </item>
+    
+    <item>
+      <title>Something new today</title>
+      <link>https://stephaniehobson.ca/posts/something-new-today/</link>
+      <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/something-new-today/</guid>
+      <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
+&amp;lt;a href=&amp;quot;/file.php?fire=hot&amp;amp;amp;beer=foamy&amp;quot;&amp;gt;link&amp;lt;/a&amp;gt;;  </description>
     </item>
     
     <item>
