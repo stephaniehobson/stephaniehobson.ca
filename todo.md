@@ -1,16 +1,17 @@
 MVP:
 
 - Deploy
-- Redirect old Wordpress URLs
-  - all posts
 - noindex typography file
 - search for "wordpress" to find all internal links
     - add images to posts linking to /wp-content
-- about
 - footer links
 
 Other:
 
+- about
+- Redirect old Wordpress URLs
+  - all posts
+- make slide share and videos take up full width of <main>
 - symbol at end of blog posts (like bobulate's dog) (maincule?)
 - review heading levels
 - pagination for home page
