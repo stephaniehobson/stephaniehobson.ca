@@ -1,11 +1,9 @@
 MVP:
 
-
+- add canonical URLs
 - Deploy
     - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
 - noindex typography file
-- search for "wordpress" to find all internal links
-  - add images to posts linking to /wp-content
 - link to tag list
 - add canonical link to all posts and pages, use fully qualified URL
   - add optional canonical parameter to posts to point to Hacks?
@@ -62,7 +60,8 @@ Other:
 
 
 Done:
-- add images
+- search for "wordpress" to find all internal links
+  - add images to posts linking to /wp-content
 - test iframes
 - generate site map of current site and submit
       - make sure all current pages are being indexed
