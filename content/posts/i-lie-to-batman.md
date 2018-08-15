@@ -9,7 +9,7 @@ tags:
   - personal
 ---
 
-_**Note:** If you're following me because you're a code geek, like I am, and you want only my web design related feed and posts [they have their own category now](http://stephaniehobson.ca/wordpress/category/webdesign/)._
+_**Note:** If you're following me because you're a code geek, like I am, and you want only my web design related feed and posts [they have their own category now](/tags/webdesign/)._
 
 I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They'd be close.
 

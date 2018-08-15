@@ -21,7 +21,7 @@ In my talk I encourage people to try out different assistive technologies themse
 * Take the batteries out of your mouse or keyboard.
 * Try using a touch screen or track pad with your nose.
 
-Here are two demo pages that list server status for a fictional hosting company, you should compare the [bad example](http://stephaniehobson.ca/demos/hosting_bad.html) to the [good example](http://stephaniehobson.ca/demos/hosting_good.html) with one of the technology options listed above.
+Here are two demo pages that list server status for a fictional hosting company, you should compare the [bad example](/demos/hosting_bad.html) to the [good example](/demos/hosting_good.html) with one of the technology options listed above.
 
 And here are all the resources I mention in my talk:
 

@@ -105,10 +105,11 @@ Changing the colour is as simple as creating a new animation and applying that t
 
 ## Using it
 
-[Here's the loading spinner](http://stephaniehobson.ca/loading-spinner/) with the `moz` and `webkit` prefixes. Of course, it only works in browsers that support animation and transforms but there's more and more of those these days.
+[Here's the loading spinner](/loading-spinner/) with the `moz` and `webkit` prefixes. Of course, it only works in browsers that support animation and transforms but there's more and more of those these days.
 
 Also, yes, totally, please use it. [Tweet me](http://twitter.com/stephaniehobson) if you make any improvements.
 
 ## A little bit more
 
-I got a little carried away and made a few [other styles](http://stephaniehobson.ca/loading-spinner/other-styles.html).
+I got a little carried away and made a few other styles:
+<iframe src="/loading-spinner/other-styles.html" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
