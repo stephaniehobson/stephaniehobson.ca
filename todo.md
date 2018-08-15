@@ -1,33 +1,31 @@
 MVP:
 
+- add images
 - Deploy
+    - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
 - noindex typography file
 - search for "wordpress" to find all internal links
-    - add images to posts linking to /wp-content
-- footer links
+  - add images to posts linking to /wp-content
 - link to tag list
+- add canonical link to all posts and pages, use fully qualified URL
+  - add optional canonical parameter to posts to point to Hacks?
+    <link rel="canonical" href="http://stephaniehobson.ca/wordpress/2017/10/31/how-we-rebuilt-the-viewsourceconf-org-website/">
 - SEO
-    - generate site map of current site and submit
-        - make sure all current pages are being indexed
-        - (I can create a site map myself from crawling data)
-    -  export the Webmastertrools 404 and 500 reports
-    - export the Search Console Perforamnce /Exclude (for redirects?)
+    - export the Webmaster tools 404 and 500 reports
+    - export the Search Console Performance / Exclude (for redirects?)
     - get backlinks report
-        - fix any 404s
-    - crawl with screaming frog
+      - fix any 404s
+    - crawl with screaming frog (can't save, find free tool replacement)
     - after move submit new sitemap to Google
-- do I need to add canonical links to new template?
-    <link rel="canonical" href="http://stephaniehobson.ca/wordpress/2017/10/31/how-we-rebuilt-the-viewsourceconf-org-website/" />
-- do I need to alias short URLs?
+- do I need to alias short URLs? ... can I?
     <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
 - change from posts to blog?
+- 410 for deleted tags?
 
 
 Other:
 
-- about
-- Redirect old Wordpress URLs
-  - all posts
+- update coverflow page with new code & prefixes
 - make slide share and videos take up full width of <main>
 - symbol at end of blog posts (like bobulate's dog) (maincule?)
 - review heading levels
@@ -63,7 +61,14 @@ Other:
 
 
 Done:
-
+- test iframes
+- generate site map of current site and submit
+      - make sure all current pages are being indexed
+      - (I can create a site map myself from crawling data)
+- footer links
+- about
+- Redirect old Wordpress URLs
+  - all posts
 - favicon
 - Tag archive, alphabetical with post count
 - Archive pages
