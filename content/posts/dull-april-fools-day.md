@@ -17,7 +17,7 @@ There was a rash of black and white April Fool's Day sites this year. We weren't
 * Desaturating every image on the site, that's right, all of them.
 * Authentic content.
 
-[![](http://farm6.static.flickr.com/5022/5584653410_3f0a069163_o.jpg)](http://www.flickr.com/photos/stephaniehobson/5584653410/)
+[![](https://farm6.static.flickr.com/5022/5584653410_3f0a069163_o.jpg)](https://www.flickr.com/photos/stephaniehobson/5584653410/)
 
 **Desaturating the colours in the stylesheet.**
 
@@ -29,7 +29,7 @@ Once I had the desaturated colours I did a find and replace for the original hex
 
 All the images? Yep, all the images.
 
-For this I tried out a couple different javascript libraries but ultimately went with [PaintBrushJS](http://mezzoblue.github.com/PaintbrushJS/demo/) by [Dave Shea](http://mezzoblue.com) because it was the only one that could handle background images and didn't add any extra elements to the page. PaintBrushJS uses a combination of javascript and canvas to alter the images.
+For this I tried out a couple different javascript libraries but ultimately went with [PaintBrushJS](https://mezzoblue.github.com/PaintbrushJS/demo/) by [Dave Shea](https://mezzoblue.com) because it was the only one that could handle background images and didn't add any extra elements to the page. PaintBrushJS uses a combination of javascript and canvas to alter the images.
 
 For backwards compatibility I manually converted all the header and footer assets to black and white, this also meant I could restrict the desaturating javascript to running on just the content and leaving these pieces alone, taking a bit of a load off the client.
 

@@ -25,11 +25,11 @@ Here are two demo pages that list server status for a fictional hosting company,
 
 And here are all the resources I mention in my talk:
 
-* [WebAIM](http://webaim.org)
-* [Web Accessibility Evaluation Tool (wave)](http://wave.webaim.org)
-* [The Accessibility of WAI-ARIA](http://alistapart.com/article/the-accessibility-of-wai-aria)
-* [Don't Lose Your :focus](http://24ways.org/2009/dont-lose-your-focus/)
-* [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)
-* [Bulletproof Accessible Icon Fonts](http://filamentgroup.com/lab/bulletproof_icon_fonts.html)
-* [Hiding Content for Accessibility](http://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
-* [Switch Control Overview](http://www.youtube.com/watch?v=GQKEE9nI1lk)(a video about switch control made using a switch control)
+* [WebAIM](https://webaim.org)
+* [Web Accessibility Evaluation Tool (wave)](https://wave.webaim.org)
+* [The Accessibility of WAI-ARIA](https://alistapart.com/article/the-accessibility-of-wai-aria)
+* [Don't Lose Your :focus](https://24ways.org/2009/dont-lose-your-focus/)
+* [Designing Safer Web Animation For Motion Sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)
+* [Bulletproof Accessible Icon Fonts](https://filamentgroup.com/lab/bulletproof_icon_fonts.html)
+* [Hiding Content for Accessibility](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
+* [Switch Control Overview](https://www.youtube.com/watch?v=GQKEE9nI1lk)(a video about switch control made using a switch control)

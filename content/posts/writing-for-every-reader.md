@@ -22,7 +22,7 @@ Here are [my slides for Writing for Every Reader](https://www.slideshare.net/ste
 ## Resources I mentioned:
 
 * [Hemingway App](http://www.hemingwayapp.com/), the app that helps improve the readability of your content.
-* [BeeLine Reader](http://beelinereader.com/), the browser plugin for dyslexics.
+* [BeeLine Reader](https://beelinereader.com/), the browser plugin for dyslexics.
 
 ## Articles that were helpful to me:
 

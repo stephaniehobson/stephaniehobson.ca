@@ -27,14 +27,14 @@ I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms a
 **Basic Introductions**
 
 * [Dive Into HTML5: A Form of Madness](http://diveintohtml5.info/forms.html)
-* [Have a Field Day with HTML5 Forms](http://24ways.org/2009/have-a-field-day-with-html5-forms/)
+* [Have a Field Day with HTML5 Forms](https://24ways.org/2009/have-a-field-day-with-html5-forms/)
 * [Making Forms Fabulous with HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
-* [Forward Thinking Form Validation](http://www.alistapart.com/articles/forward-thinking-form-validation/)
+* [Forward Thinking Form Validation](https://www.alistapart.com/articles/forward-thinking-form-validation/)
 
 **CSS**
 
 *   [CSS3 Pseudo-Classes and HTML5 Forms](http://html5doctor.com/css3-pseudo-classes-and-html5-forms/)
-*   [Have a Field Day with HTML5 Forms](http://24ways.org/2009/have-a-field-day-with-html5-forms/)
+*   [Have a Field Day with HTML5 Forms](https://24ways.org/2009/have-a-field-day-with-html5-forms/)
 
 **Compatibility Specifics**
 
@@ -44,4 +44,4 @@ I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms a
 **Shim**
 
 *   [Ryan Seddons's H5F](https://github.com/ryanseddon/H5F)
-*   [The design of datalist](http://adactio.com/journal/4272/)
+*   [The design of datalist](https://adactio.com/journal/4272/)

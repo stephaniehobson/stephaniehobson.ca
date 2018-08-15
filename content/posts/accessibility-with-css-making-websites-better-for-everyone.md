@@ -17,12 +17,12 @@ Last night I spoke at the [Style & Class Meet-up](http://www.meetup.com/styleand
 
 ## Resources
 
-* [Intro to Accessibility](http://webaim.org)
-* [WCAG Validator](http://wave.webaim.org)
-* [Intro to ARIA](http://alistapart.com/article/the-accessibility-of-wai-aria)
-* [:Focus and keyboard accessibility](http://24ways.org/2009/dont-lose-your-focus/)
+* [Intro to Accessibility](https://webaim.org)
+* [WCAG Validator](https://wave.webaim.org)
+* [Intro to ARIA](https://alistapart.com/article/the-accessibility-of-wai-aria)
+* [:Focus and keyboard accessibility](https://24ways.org/2009/dont-lose-your-focus/)
 * [High contrast CSS Sprites](http://blog.paciellogroup.com/2010/01/high-contrast-proof-css-sprites)
 * [Bullet Proof Accessible Icon Fonts](http://filamentgroup.com/lab/bulletproof_icon_fonts.html)
-* [The Offscreen Class](http://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
-* [Floating Form Labels](http://snook.ca/archives/html_and_css/floated-label-pattern-css)
+* [The Offscreen Class](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)
+* [Floating Form Labels](https://snook.ca/archives/html_and_css/floated-label-pattern-css)
 * [Javascript fix for Skip Links](http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links)

@@ -10,7 +10,7 @@ tags:
   - webdesign
 ---
 
-I needed a loading spinner for a side project the other day but I was too lazy to steal someone else's off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is [my hammer](http://en.wikipedia.org/wiki/Law_of_the_instrument)).
+I needed a loading spinner for a side project the other day but I was too lazy to steal someone else's off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is [my hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument)).
 
 On the bright side it works on any background colour and is a little transparent which is neat. And it's _way_ faster to adjust the colour scheme than an image file would be.
 
@@ -107,7 +107,7 @@ Changing the colour is as simple as creating a new animation and applying that t
 
 [Here's the loading spinner](/loading-spinner/) with the `moz` and `webkit` prefixes. Of course, it only works in browsers that support animation and transforms but there's more and more of those these days.
 
-Also, yes, totally, please use it. [Tweet me](http://twitter.com/stephaniehobson) if you make any improvements.
+Also, yes, totally, please use it. [Tweet me](https://twitter.com/stephaniehobson) if you make any improvements.
 
 ## A little bit more
 

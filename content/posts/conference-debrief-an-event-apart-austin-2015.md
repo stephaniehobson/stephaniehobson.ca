@@ -11,7 +11,7 @@ tags:
   - webdesign
 ---
 
-Last week, because working at Mozilla is awesome, I got to attend [An Event Apart Austin](http://aneventapart.com/event/austin-2015), the conference put on by the [A List Apart](http://alistapart.com/) organization. It's consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
+Last week, because working at Mozilla is awesome, I got to attend [An Event Apart Austin](https://aneventapart.com/event/austin-2015), the conference put on by the [A List Apart](https://alistapart.com/) organization. It's consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
 
 The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer. The caliber of the attendees is also consistently high. I have great conversations no matter who I sit with at lunch.
 
@@ -57,7 +57,7 @@ Based on his personal experience sitting in a stranger's car barreling down a hi
 
 **Brad Frost**
 _Atomic Design_
-Pioneer of style guides and pattern libraries, Brad reminded us what these look like and why they are valuable and demoed his open source tool [patternlab.io](http://patternlab.io/) for helping to create and maintain them. [He has a great system, you can read about it here.](http://bradfrost.com/blog/post/atomic-web-design/)
+Pioneer of style guides and pattern libraries, Brad reminded us what these look like and why they are valuable and demoed his open source tool [patternlab.io](https://patternlab.io/) for helping to create and maintain them. [He has a great system, you can read about it here.](https://bradfrost.com/blog/post/atomic-web-design/)
 
 **Matt Haughey**
 _Empathy Is Good Business: How Front-Line Customer Support Can Make You A Better Designer_

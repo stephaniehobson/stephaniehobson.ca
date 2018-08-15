@@ -14,7 +14,7 @@ tags:
 [Edenbee](http://edenbee.com/)
 : Social networking and carbon footprints by Clearleft.
 
-[A Dao of Web Design](http://www.alistapart.com/articles/dao)
+[A Dao of Web Design](https://www.alistapart.com/articles/dao)
 : Jeremy Keith says everyone must read this.  It talks about giving up pixel perfect control of the display of your websites.
 
 [Google social graph API]( http://code.google.com/apis/socialgraph/)

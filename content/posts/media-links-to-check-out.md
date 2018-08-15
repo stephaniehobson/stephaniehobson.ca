@@ -31,7 +31,7 @@ This is a list consisting of all the websites and books recommended during the c
 * [Pingerati](http://pingerati.net/)
 * Book: [Just Ask](http://www.uiaccess.com/justask/index.html)
 * Book: [Neuromancer](http://en.wikipedia.org/wiki/Neuromancer "Wikipedia entry on Neuromancer")
-* Article: [Tao of Web Design](http://alistapart.com/articles/dao/)
+* Article: [Tao of Web Design](https://alistapart.com/articles/dao/)
 * [Book: Pro Javascript Techniques](http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273)
 
 ## Presentations:

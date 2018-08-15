@@ -11,7 +11,7 @@ tags:
   - webdesign
 ---
 
-Almost a year ago now the [BCIT Bookstore](http://bcitbookstore.ca) let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we'd like to help skin the new site.  The department was pretty busy at the time and my manager said we didn't have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.
+Almost a year ago now the [BCIT Bookstore](https://bcitbookstore.ca) let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we'd like to help skin the new site.  The department was pretty busy at the time and my manager said we didn't have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.
 
 I had a look at the application and decided we could do better than that so I asked my manager if I could do some follow up and he said it was okay as long as it didn't interfere with my other work.
 

@@ -10,4 +10,4 @@ tags:
 
 ---
 
-[Comics and web design together at last!](http://24ways.org/2007/underpants-over-my-trousers)
+[Comics and web design together at last!](https://24ways.org/2007/underpants-over-my-trousers)

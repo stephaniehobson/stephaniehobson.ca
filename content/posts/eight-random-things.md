@@ -9,7 +9,7 @@ tags:
   - personal
 ---
 
-In the spirit of [Jeremy Keith's post](http://adactio.com/journal/1449), here's 8 random things I see about me:
+In the spirit of [Jeremy Keith's post](https://adactio.com/journal/1449), here's 8 random things I see about me:
 
 1. Black queen carved like Raven.
 2. Small brass Buddha.
