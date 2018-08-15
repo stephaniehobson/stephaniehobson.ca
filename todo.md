@@ -1,13 +1,13 @@
 MVP:
 
 - add canonical URLs
-- Deploy
-    - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
-- noindex typography file
-- link to tag list
-- add canonical link to all posts and pages, use fully qualified URL
+  - add canonical link to all posts and pages, use fully qualified URL
   - add optional canonical parameter to posts to point to Hacks?
     <link rel="canonical" href="http://stephaniehobson.ca/wordpress/2017/10/31/how-we-rebuilt-the-viewsourceconf-org-website/">
+    - no canonical on 404 page
+- noindex typography file
+- link to tag list
+
 - SEO
     - export the Webmaster tools 404 and 500 reports
     - export the Search Console Performance / Exclude (for redirects?)
@@ -19,6 +19,8 @@ MVP:
     <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
 - change from posts to blog?
 - 410 for deleted tags?
+- Deploy
+    - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
 
 
 Other:
@@ -56,6 +58,7 @@ Other:
         - grouped by talk with links to resources, only show most recent slides(or video), dates presented link to Notist
     - portfolio/work
 - blurb at end of blog posts introducing myself (comic book inspired? Imagine Eric Meyer is introducing me)
+- better about page content
 - "read more" buttons specific to content "see the code" "view the slides"
 
 

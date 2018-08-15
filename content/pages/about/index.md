@@ -9,7 +9,7 @@ layout: "about"
 
 My name is Stephanie Hobson and I like to make websites everyone can use.
 
-That means thinking about the people who use the sites I make with different tools and different lives than I have. People with: slower internet connections, older devices, screen readers, switch controls, or high contrast themes. People with: different gender, sexual orientation, skin colour, first language, or brain wiring.
+That means thinking about the people who use the web with different tools and different lives than what I have. People with: slower internet connections, older devices, screen readers, switch controls, or high contrast themes. People with: different gender, sexual orientation, skin colour, first language, or brain wiring.
 
 I like to think I'm making the world a better place one byte at a time.
 
