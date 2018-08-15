@@ -8,7 +8,7 @@
 .summary-title {
     font-size: calc(#{$font-base} * #{$f3});
     margin-left: 0;
-    padding: 0;
+    padding: 0 0 calc(#{$grid} / 2) 0;
 }
 
 .summary-info {
@@ -87,5 +87,14 @@
 .summary-tag {
     padding: 0;
     display: inline-block;
-    padding-left: $grid;
+    padding-right: $grid; // padding on right so there's no left padding on tags which wrap to the next line
+
+    &:first-child {
+        padding-left: $grid;
+    }
+
+    &:last-child {
+        padding-right: 0;
+    }
+
 }

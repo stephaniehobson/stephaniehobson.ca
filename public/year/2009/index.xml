@@ -34,6 +34,17 @@ Take our footer for example, I got to update all of them using the CSS a few tim
     </item>
     
     <item>
+      <title>Why Abstract Sequential?</title>
+      <link>https://stephaniehobson.ca/posts/why-abstract-sequential/</link>
+      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
+      <description>Short answer: it&amp;rsquo;s my thinking style :)
+It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
+It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
+    </item>
+    
+    <item>
       <title>Imperfect Pitch</title>
       <link>https://stephaniehobson.ca/posts/im-perfect-pitch/</link>
       <pubDate>Tue, 03 Nov 2009 13:07:02 +0000</pubDate>
@@ -51,6 +62,17 @@ He discovered a page in The Sessions&amp;rsquo;s discussion form about perfect p
       <guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
       <description>I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.
 The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.</description>
+    </item>
+    
+    <item>
+      <title>Why I follow my heroes on Twitter</title>
+      <link>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link>
+      <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
+      <description>A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;
+I just want to go on the record and say I like the personal tweets.
+I like knowing that despite their mega awesome coding skills they still have problems with clients.</description>
     </item>
     
     <item>

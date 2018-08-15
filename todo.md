@@ -5,6 +5,23 @@ MVP:
 - search for "wordpress" to find all internal links
     - add images to posts linking to /wp-content
 - footer links
+- link to tag list
+- SEO
+    - generate site map of current site and submit
+        - make sure all current pages are being indexed
+        - (I can create a site map myself from crawling data)
+    -  export the Webmastertrools 404 and 500 reports
+    - export the Search Console Perforamnce /Exclude (for redirects?)
+    - get backlinks report
+        - fix any 404s
+    - crawl with screaming frog
+    - after move submit new sitemap to Google
+- do I need to add canonical links to new template?
+    <link rel="canonical" href="http://stephaniehobson.ca/wordpress/2017/10/31/how-we-rebuilt-the-viewsourceconf-org-website/" />
+- do I need to alias short URLs?
+    <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
+- change from posts to blog?
+
 
 Other:
 

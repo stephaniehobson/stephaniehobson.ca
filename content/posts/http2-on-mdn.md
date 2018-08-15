@@ -1,9 +1,9 @@
 ---
 title: HTTP/2 on MDN
 aliases:
-  - /wordpress/2017/07/10/i-lie-to-batman/
+  - /wordpress/2017/07/10/http2-on-mdn/
 date: 2017-07-10 12:46:34
-date: "2017"
+year: "2017"
 id: 764
 tags:
   - mozilla

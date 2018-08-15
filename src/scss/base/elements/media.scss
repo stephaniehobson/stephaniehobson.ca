@@ -10,3 +10,7 @@ img {
     }
 }
 
+figure {
+    margin: 0 calc(#{$grid} * 2 * -1);
+    padding: $grid 0;
+}

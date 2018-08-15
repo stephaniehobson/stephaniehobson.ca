@@ -1,6 +1,8 @@
-<title>{{ .Title }}</title>
 <meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>{{ .Title }}</title>
 <meta name="description" content="{{ .Description }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}">
 
 {{ range .AlternativeOutputFormats -}}
