@@ -56,12 +56,14 @@ It boggles my mind that browsers will still _delay rendering a page_ until it ha
 
 If you're just trying to avoid the extra http request and your print styles are very small you can always just add them into your main CSS file.
 
-`@media screen {
+```
+@media screen {
 /* screen styles here */
 }
 @media print {
 /* print styles here */
-}`
+}
+```
 
 Otherwise you can look at techniques to load them asynchronously. There's a [couple](https://web.archive.org/web/20120318141226/http://www.duncanmcdougall.co.uk:80/delay-loading-the-print-stylesheet) [ways](http://www.duncanmcdougall.co.uk/articles/delay-loading-print-stylesheet.html) to do this.
 
