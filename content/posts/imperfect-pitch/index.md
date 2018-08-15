@@ -15,7 +15,7 @@ He discovered [a page in The Sessions's discussion form about perfect pitch](htt
 
 The usual method for dealing with DMCA complaints is to contact the ISP, not search engines. So why did this company without a valid complaint go to Google? Well, one goes to Google to get sites removed from search results. Maybe... search results where it is pushing down your company's results?
 
-![Screen capture of search results for perfect pitch - showing DMCA take down notice.](http://farm4.static.flickr.com/3518/4072428493_b8a99df965_o.jpg "Screen capture of search results for perfect pitch - showing DMCA take down notice.")
+{{< figure src="google.jpg" alt="Google search results for perfect pitch - showing DMCA take down notice." >}}
 
 We don't know, we don't have the full story here, but it wouldn't be the first time a DMCA has been filed to remove content which isn't infringing on anyone's copyrights. [It happened to political videos during the US Presidential elections](http://www.eff.org/deeplinks/2008/10/mccain-campaign-feels-dmca-sting) and it _scares_ me.
 

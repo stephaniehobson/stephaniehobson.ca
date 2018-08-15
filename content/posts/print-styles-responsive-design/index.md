@@ -63,19 +63,27 @@ If you're just trying to avoid the extra http request and your print styles are 
 /* print styles here */
 }`
 
-Otherwise you can look at techniques to load them asynchronously. There's a [couple](http://www.bulletbits.com/delay-loading-the-print-stylesheet/) [ways](http://www.duncanmcdougall.co.uk/delay-loading-the-print-stylesheet) to do this.
+Otherwise you can look at techniques to load them asynchronously. There's a [couple](https://web.archive.org/web/20120318141226/http://www.duncanmcdougall.co.uk:80/delay-loading-the-print-stylesheet) [ways](http://www.duncanmcdougall.co.uk/articles/delay-loading-print-stylesheet.html) to do this.
 
 ## Seeing it in action
 
-<div style="text-align:center;margin:1em;"><span style="width:31%;display:inline-block;padding-right:2%;vertical-align:top;">[![Original page.](http://farm8.staticflickr.com/7066/6836645874_b14e83d502.jpg)](http://www.flickr.com/photos/stephaniehobson/6836645874/)</span><span style="width:31%;display:inline-block;padding-right:2%;vertical-align:top;">[![Without a print stylesheet.](http://farm8.staticflickr.com/7057/6982808259_cf759d7507.jpg)](http://www.flickr.com/photos/stephaniehobson/6982808259/)</span><span style="width:31%;display:inline-block;vertical-align:top;">[![With a print stylesheet.](http://farm8.staticflickr.com/7068/6982772033_1f4913d0a9.jpg)](http://www.flickr.com/photos/stephaniehobson/6982772033/)
-</span>
+<div style="text-align:center;margin:1em;">
+    <span style="width:25%;display:inline-block;padding-right:11%;vertical-align:top;">
+        <a href="https://www.flickr.com/photos/stephaniehobson/6836645818/">{{< figure src="site.jpg" alt="The original page has full colour images and a video" >}}</a>
+    </span>
+    <span style="width:25%;display:inline-block;padding-right:11%;vertical-align:top;">
+        <a href="https://www.flickr.com/photos/stephaniehobson/6836681816//">{{< figure src="before.jpg" alt="Without a print style sheet there are blank spaces and useless information" >}}</a>
+    </span>
+    <span style="width:25%;display:inline-block;vertical-align:top;">
+        <a href="https://www.flickr.com/photos/stephaniehobson/6836645794/">{{< figure src="after.jpg" alt="With a print style sheet only the primary page content prints, filling the page" >}}</a>
+    </span>
 </div>
 
 On the left is our site on a screen, on the right how it looks formatted for print. In the middle, without any print styles, you can see it <abbr title="has a number of problems">goes boom</abbr>:
 
 * The white logo is invisible
 * Chrome decides to crop rather than shrink the site to fit making it obvious things are not right.
-* Our grid falls appart without the background images.*   There are large gaps where the videos are.
+* Our grid falls apart without the background images.*   There are large gaps where the videos are.
 * The only useful information in the footer is pushed off screen by a sea of links.
 
 Did you see what happens to the Bebas font we used on our section names? You caught me, this is a screen cap not a scan of a printed page. Bebas wouldn't actually print and the 6 pixels of word spacing we have to apply to it to get it to play nice looks kind of silly on Arial Narrow.

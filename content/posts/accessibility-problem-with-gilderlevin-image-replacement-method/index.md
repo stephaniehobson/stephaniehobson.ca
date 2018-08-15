@@ -20,7 +20,7 @@ The [Gilder/Levin method](https://www.google.com/search?q=gilder+levin+image+rep
 
 The screen cap below show the BCIT home page, with the black areas corresponding to span tags using the Gilder/Levin method to place images.  You can also see that we've changed all of IE7's accessibility settings to white in an attempt to figure out which one is causing the change without success:
 
-[![Accessibility Problem](https://farm4.static.flickr.com/3001/2756056310_cf0f527b51.jpg)](https://www.flickr.com/photos/stephaniehobson/2756056310/ "Accessibility Problem by Stephanie Hobson, on Flickr")
+[{{<figure src="problem.jpg" alt="BCIT home page, with black areas where there should be text">}}](https://www.flickr.com/photos/stephaniehobson/2756056310/)
 
 I tried many things but nothing could be done with CSS to fix it.  Considering most image replacement techniques use background images of one form or another I imagine the problem happens quite frequently.  My friend was still able to navigate (albeit uncomfortably) by hovering his mouse over the navigation menus and reading the tool tips.
 

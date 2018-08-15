@@ -17,7 +17,7 @@ There was a rash of black and white April Fool's Day sites this year. We weren't
 * Desaturating every image on the site, that's right, all of them.
 * Authentic content.
 
-[![](https://farm6.static.flickr.com/5022/5584653410_3f0a069163_o.jpg)](https://www.flickr.com/photos/stephaniehobson/5584653410/)
+[{{< figure src="oldskool.jpg" alt="The 1960s logo and a photo of giant 'new' computer really make the home page look dated">}}](https://www.flickr.com/photos/stephaniehobson/5584653410/)
 
 **Desaturating the colours in the stylesheet.**
 

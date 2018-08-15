@@ -1,6 +1,6 @@
 MVP:
 
-- add images
+
 - Deploy
     - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
 - noindex typography file
@@ -25,6 +25,7 @@ MVP:
 
 Other:
 
+- shrink images on print styles post
 - update coverflow page with new code & prefixes
 - make slide share and videos take up full width of <main>
 - symbol at end of blog posts (like bobulate's dog) (maincule?)
@@ -61,6 +62,7 @@ Other:
 
 
 Done:
+- add images
 - test iframes
 - generate site map of current site and submit
       - make sure all current pages are being indexed
