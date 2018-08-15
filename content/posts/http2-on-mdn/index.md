@@ -36,9 +36,9 @@ A better way to interpret those quotes is:
 
 On MDN we concatenate a lot of our files but we don't concatenate all of them. For example, our article pages have 9 different files coming from our CDN. I thought we could benefit from a bit of HTTP/2's multiplexing and header compression. And we did. You can see the DNS lookup time drop off in this waterfall from [Pingdom](https://tools.pingdom.com/):
 
-![Waterfall showing over 0.3s of DNS look up for each request.](http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/07/waterfall_before.png)
+{{< figure src="waterfall_before.png" alt="Waterfall showing over 0.3s of DNS look up for each request." >}}
 
-![Waterfall showing DNS lookup for only first asset requested.](http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/07/waterfall_after.png)
+{{< figure src="waterfall_after.png" alt="Waterfall showing DNS lookup for only first asset requested." >}}
 
 ## Some numbers
 

@@ -30,7 +30,7 @@ MDN is _huge_, and we can’t test every page in every locale. We’re really lu
 
 ### Highlighting
 
-![Problems with Zilla Highlight in Vietnamese and when there&#039;s inline code examples.](http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/10/vi.png)
+{{<figure src="vi.png" alt="Problems with Zilla Highlight in Vietnamese and when there are inline code examples.">}}
 
 We started out by replicating Mozilla’s brand “highlight” effect by using the Zilla Slab Highlight font, but we abandoned that pretty quickly when problems turned up in many [of](https://bugzilla.mozilla.org/show_bug.cgi?id=1375831) [our](https://bugzilla.mozilla.org/show_bug.cgi?id=1375917) [locales](https://bugzilla.mozilla.org/show_bug.cgi?id=1375879) and when used in combination with inline code.
 
@@ -40,7 +40,7 @@ We went back and forth about this for a while, wondering if the JavaScript and e
 
 ### What’s Taiwanese for Slab Serif?
 
-![Showing the difference between Zilla&#039;s thick strokes and the thin strokes of Taiwanese.](http://stephaniehobson.ca/wordpress/wp-content/uploads/2017/10/taiwanese.png)
+{{<figure src="taiwanese.png" alt="Showing the difference between Zilla&#039;s thick strokes and the thin strokes of Taiwanese.">}}
 
 Previously we used Open Sans as our heading text. With the redesign, we switched to Zilla Slab. Open Sans was thin and an average height for a font. It didn’t look out of place next to the system fallbacks for Chinese or Japanese characters.
 
