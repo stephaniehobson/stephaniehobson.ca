@@ -22,10 +22,9 @@
         display: inline-block;
         color: $color-link;
         content: '➡';
-        left: 5px;
-        position: relative;
+        padding-left: 5px;
         text-decoration: none;
-        transition: left 0.2s ease-out;
+        transition: padding 0.2s ease-out;
 
         @media #{$mq-680-and-up} {
             margin-right: -30px;
@@ -37,7 +36,7 @@
     &:active {
         &:after {
             color: $color-link-hover;
-            left: 15px;
+            padding-left: 15px;
             text-decoration: none;
         }
     }
