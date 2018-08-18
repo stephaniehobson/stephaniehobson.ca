@@ -7,6 +7,7 @@ year: "2016"
 id: 752
 canonical: https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/
 tags:
+  - analytics
   - mozilla
   - webdesign
 ---

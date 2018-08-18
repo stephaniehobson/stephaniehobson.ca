@@ -7,7 +7,6 @@ year: "2007"
 id: 36
 tags:
   - bcit
-  - work
 ---
 
 Part of my job at BCIT is providing technical support to our content publishing community.  These are the people who provide the text to fill the templates we make and keep that text up to date.  Most of them aren't web developers and are a little intimidated by the idea of working on the website.
