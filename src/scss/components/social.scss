@@ -80,8 +80,8 @@ Grid
 @supports ( display:grid ) {
     .social-list {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: $grid;
+        grid-template-columns: 1fr 1fr 1fr;
 
         @media #{$mq-320-and-up} {
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;

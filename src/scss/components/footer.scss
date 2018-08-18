@@ -1,8 +1,19 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
-footer {
+.footer {
     border-top: $divider;
-    margin-top: $grid;
-    padding: calc(#{$grid} / 2) 0;
+    margin-top: calc(#{$grid} * 3);
+}
+
+.footer-nav {
+    float: left;
+    padding: $grid $grid $grid 0;
+    line-height: 1.2rem;
+}
+
+.footer-copy {
+    float: right;
+    font-size: calc(#{$font-base} * #{$f-1});
+    line-height: 1.2rem;
 }

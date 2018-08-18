@@ -2,8 +2,8 @@
 @import '../../includes/mixins';
 
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 
     a & {
         border: none;

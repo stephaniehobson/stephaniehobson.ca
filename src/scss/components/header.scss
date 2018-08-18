@@ -46,15 +46,15 @@ $avatar-size: var(--avatar-size);
 
 @media #{$mq-480-and-up} {
     .header {
-        text-align: left;
         padding-right: calc(#{$grid} + #{$avatar-size});
         padding-top: 0;
+        text-align: left;
     }
 
     .header-about {
-        top: 0;
         left: auto;
         right: 0;
+        top: 0;
         transform: none;
     }
 }
