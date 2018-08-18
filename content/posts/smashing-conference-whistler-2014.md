@@ -1,7 +1,7 @@
 ---
 title: Smashing Conference Whistler 2014
 aliases:
-  - /2015/01/06/conference-debrief-smashing-conference-whistler-2014/ ‎
+  - /wordpress/2015/01/06/conference-debrief-smashing-conference-whistler-2014/ ‎
 date: 2010-01-06 22:32:27
 year: "2010"
 id: 251
