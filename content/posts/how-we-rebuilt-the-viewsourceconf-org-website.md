@@ -5,6 +5,7 @@ aliases:
 date: 2017-10-31 21:19:14
 year: "2017"
 id: 792
+canonical: https://hacks.mozilla.org/2017/10/how-we-rebuilt-the-viewsourceconf-org-website/
 tags:
   - mozilla
   - webdesign

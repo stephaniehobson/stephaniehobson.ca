@@ -5,6 +5,7 @@ aliases:
 date: 2017-07-10 12:46:34
 year: "2017"
 id: 764
+canonical: https://mozilla.github.io/meao/2017/06/26/http2/
 tags:
   - mozilla
   - webdesign

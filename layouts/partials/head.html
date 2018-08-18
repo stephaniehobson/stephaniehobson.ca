@@ -4,7 +4,13 @@
 <meta name="description" content="{{ .Description }}">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}">
-
+{{ if eq .Type "posts" -}}
+    {{ if .Params.canonical -}}
+    <link rel="canonical" href="{{ .Params.canonical }}">
+    {{ else -}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end -}}
+{{ end -}}
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 {{ end -}}

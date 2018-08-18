@@ -5,6 +5,7 @@ aliases:
 date: 2016-07-28 09:38:57
 year: "2016"
 id: 752
+canonical: https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/
 tags:
   - mozilla
   - webdesign

@@ -5,6 +5,7 @@ aliases:
 date: 2017-08-01 19:34:47
 year: "2017"
 id: 781
+canonical: https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/
 tags:
   - mozilla
   - webdesign
