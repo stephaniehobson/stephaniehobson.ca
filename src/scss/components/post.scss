@@ -12,7 +12,7 @@
     @media #{$mq-480-and-up} {
         // out-dent
         main & {
-            margin: 0 0 0 calc(#{$grid} * 2 * -1);
+            margin-left: calc(#{$grid} * 2 * -1);
         }
     }
 }
@@ -72,8 +72,16 @@
         padding-right: 0;
     }
 }
-/*
-.post-body > *:last-child:after {
-    content: ' ⌁';
+
+.post-body {
+    &:after {
+        content: '⌁';
+        display: block;
+        padding: calc(#{$grid} * 2) 0;
+
+        @media #{$mq-480-and-up} {
+            margin-left: calc(#{$grid} * 2 * -1);
+        }
+    }
 }
-*/
+

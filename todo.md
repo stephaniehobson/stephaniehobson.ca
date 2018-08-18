@@ -28,7 +28,6 @@ Other:
 - shrink images on print styles post
 - update coverflow page with new code & prefixes
 - make slide share and videos take up full width of <main>
-- symbol at end of blog posts (like bobulate's dog) (maincule? shoes? feather? bird? ⌁ ☝ )
 - review heading levels
 - pagination for home page
 - make sure heading levels are accurate on all pages
@@ -63,6 +62,7 @@ Other:
 
 
 Done:
+- symbol at end of blog posts (like bobulate's dog) (maincule? shoes? feather? bird? ⌁ ☝ )
 - add iframe shortcode
 - search for "wordpress" to find all internal links
   - add images to posts linking to /wp-content
