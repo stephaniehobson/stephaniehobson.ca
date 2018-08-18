@@ -9,7 +9,7 @@ MVP:
     - after move submit new sitemap to Google
 - Deploy
     - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
-
+- move stephaniehobson.github.io content into Hugo
 
 Other:
 
