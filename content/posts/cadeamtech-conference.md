@@ -8,7 +8,6 @@ id: 24
 tags:
   - accomplishment
   - bcit
-  - conference
   - presentation
   - webdesign
 ---

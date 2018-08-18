@@ -6,7 +6,7 @@ date: 2017-10-10 14:50:03
 year: "2017"
 id: 779
 tags:
-  - conference
+  - accomplishment
   - presentation
   - slides
   - webdesign

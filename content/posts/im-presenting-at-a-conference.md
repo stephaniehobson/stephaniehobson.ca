@@ -6,7 +6,6 @@ date: 2007-03-20 14:01:53
 year: "2007"
 id: 8
 tags:
-  - accomplishment
   - bcit
   - presentation
   - personal

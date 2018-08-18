@@ -8,12 +8,15 @@ id: 661
 tags:
   - conference
   - presentation
+  - video
   - webdesign
 ---
 
 Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://vancouver.wordcamp.org/2015/session/debugging-css/) about Debugging CSS.
 
-**Edit**: You can now watch a recording of [Debugging CSS](http://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/). Spot the three projector failures!
+**Edit**: You can now watch [a recording of Debugging CSS](http://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/). Spot the three projector failures!
+
+<iframe width="560" height="315" src="https://videopress.com/embed/y20nhn6z" frameborder="0" allowfullscreen></iframe>
 
 ## Steps
 
