@@ -11,6 +11,6 @@ img {
 }
 
 figure {
-    margin: 0 calc(#{$grid} * 2 * -1);
+    margin: 0 $outdent;
     padding: $grid 0;
 }

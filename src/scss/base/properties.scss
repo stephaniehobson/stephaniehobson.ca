@@ -1,6 +1,8 @@
 :root {
     --grid-value: 0.4rem;
     --font-base: 0.85rem;
+    --indent: 0;
+    --outdent: calc(var(--indent) * -1);
 }
 
 
@@ -8,6 +10,7 @@
     :root {
         --grid-value: 0.5rem;
         --font-base: 1rem;
+        --indent: calc(var(--grid-value) * 2);
     }
 }
 

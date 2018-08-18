@@ -18,11 +18,8 @@
         margin: 0;
         padding: $grid 0;
 
-        @media #{$mq-480-and-up} {
-            // out-dent headings in the page body
-            main & {
-                margin: 0 0 0 calc(#{$grid} * 2 * -1);
-            }
+        main & {
+            margin: 0 0 0 $outdent;
         }
     }
 

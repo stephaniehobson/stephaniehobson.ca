@@ -9,11 +9,8 @@
 }
 
 .post-info {
-    @media #{$mq-480-and-up} {
-        // out-dent
-        main & {
-            margin-left: calc(#{$grid} * 2 * -1);
-        }
+    main & {
+        margin-left: $outdent;
     }
 }
 
@@ -78,10 +75,7 @@
         content: '⌁';
         display: block;
         padding: calc(#{$grid} * 2) 0;
-
-        @media #{$mq-480-and-up} {
-            margin-left: calc(#{$grid} * 2 * -1);
-        }
+        margin-left: $outdent;
     }
 }
 

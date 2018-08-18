@@ -1,9 +1,7 @@
 @import '../../includes/vars';
 @import '../../includes/mixins';
 
-@media #{$mq-480-and-up} {
-    main {
-        padding: 0 calc(#{$grid} * 2);
-        position: relative;
-    }
+main {
+    padding: 0 $indent;
+    position: relative;
 }
