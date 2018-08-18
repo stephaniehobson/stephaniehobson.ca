@@ -6,7 +6,7 @@
 }
 
 .summary-title {
-    font-size: calc(#{$font-base} * #{$f3});
+    font-size: $fontsize3;
     margin-left: 0;
     padding: 0 0 calc(#{$grid} / 2) 0;
 }
@@ -51,7 +51,7 @@
 }
 
 .summary-info {
-    font-size: calc(#{$font-base} * #{$f-1});
+    font-size: $fontsize-1;
 }
 
 .summary-date-year {

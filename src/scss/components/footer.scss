@@ -14,6 +14,6 @@
 
 .footer-copy {
     float: right;
-    font-size: calc(#{$font-base} * #{$f-1});
+    font-size: $fontsize-1;
     line-height: 1.2rem;
 }

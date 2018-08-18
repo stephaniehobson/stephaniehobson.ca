@@ -7,7 +7,7 @@
 }
 
 .slideshare-credit {
-    font-size: 0.8rem;
+    font-size: $fontsize-2;
     margin-bottom: $grid;
     margin-top: calc(#{$grid} * -1);
 }

@@ -28,7 +28,7 @@ $avatar-size: var(--avatar-size);
 .header-subtitle {
     color: #666;
     display: block;
-    font-size: calc(#{$font-base} * #{$f1});
+    font-size: $fontsize1;
     font-weight: normal;
 }
 

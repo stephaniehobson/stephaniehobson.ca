@@ -30,7 +30,7 @@ $social-icon-width: var(--social-icon-width);
 }
 
 .social-name {
-    font-size: calc(#{$font-base} * #{$f-2});
+    font-size: $fontsize-2;
 }
 
 .social-icon {

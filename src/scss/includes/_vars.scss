@@ -29,6 +29,14 @@ $f1: 1;
 $f-1: 0.8409;
 $f-2: 0.7071; //thank you fmarier
 
+$fontsize5: calc(#{$font-base} * #{$f5});
+$fontsize4: calc(#{$font-base} * #{$f4});
+$fontsize3: calc(#{$font-base} * #{$f3});
+$fontsize2: calc(#{$font-base} * #{$f2});
+$fontsize1: calc(#{$font-base} * #{$f1});
+$fontsize-1: calc(#{$font-base} * #{$f-1});
+$fontsize-2: calc(#{$font-base} * #{$f-2});
+
 /*
 breakpoints & media queries
 ====================================================================== */

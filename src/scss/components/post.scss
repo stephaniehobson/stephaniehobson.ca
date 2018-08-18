@@ -21,7 +21,7 @@
 @media #{$mq-960-and-up} {
     .post-link {
         display: block;
-        font-size: calc(#{$font-base} * #{$f5});
+        font-size: $fontsize5;
         height: 1.2em;
         overflow: hidden;
         position: absolute;
@@ -41,7 +41,7 @@
 }
 
 .post-info {
-    font-size: calc(#{$font-base} * #{$f-1});
+    font-size: $fontsize-1;
     padding-bottom: $grid;
 }
 

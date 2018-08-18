@@ -85,7 +85,7 @@
 
 @mixin tags {
     display: inline;
-    font-size: calc(#{$font-base} * #{$f-1});
+    font-size: $fontsize-1;
     list-style-type: none;
     padding-left: 0;
 
