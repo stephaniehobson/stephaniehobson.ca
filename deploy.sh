@@ -5,7 +5,7 @@ gulp deploy
 # delete the previous deploy
 rm -rf public
 # generate the static site
-hugo
+hugo --minify
 
 # make sure wordpress tag feeds continue to work
 # http://stephaniehobson.ca/wordpress/tag/conference/feed/
