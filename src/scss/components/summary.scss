@@ -59,21 +59,5 @@
 }
 
 .summary-tags {
-    display: inline;
-    font-size: calc(#{$font-base} * #{$f-1});
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.summary-tag {
-    display: inline-block;
-    padding: 0 $grid 0 0; // padding on right so there's no left padding on tags which wrap to the next line
-
-    &:first-child {
-        padding-left: $grid;
-    }
-
-    &:last-child {
-        padding-right: 0;
-    }
+    @include tags;
 }

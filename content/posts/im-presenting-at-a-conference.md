@@ -8,7 +8,6 @@ id: 8
 tags:
   - bcit
   - presentation
-  - personal
   - webdesign
 ---
 
