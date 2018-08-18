@@ -1,12 +1,5 @@
 MVP:
 
-- add canonical URLs
-  - add canonical link to all posts and pages, use fully qualified URL
-  - add optional canonical parameter to posts to point to Hacks?
-    <link rel="canonical" href="http://stephaniehobson.ca/wordpress/2017/10/31/how-we-rebuilt-the-viewsourceconf-org-website/">
-    - no canonical on 404 page
-- noindex typography file
-- link to tag list
 - SEO
     - export the Webmaster tools 404 and 500 reports
     - export the Search Console Performance / Exclude (for redirects?)
@@ -14,16 +7,15 @@ MVP:
       - fix any 404s
     - crawl with screaming frog (can't save, find free tool replacement)
     - after move submit new sitemap to Google
-- do I need to alias short URLs? ... can I?
-    <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
-- change from posts to blog?
-- 410 for deleted tags?
 - Deploy
     - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
 
 
 Other:
 
+- link to tag list
+- do I need to alias short URLs? ... can I?
+    <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
 - add static files to site map
 - shrink images on print styles post
 - update coverflow page with new code & prefixes
@@ -62,6 +54,11 @@ Other:
 
 
 Done:
+- noindex typography file
+- add canonical URLs
+  - add canonical link to all posts, use fully qualified URL
+  - add optional canonical parameter to posts to point to Hacks?
+    - no canonical on 404 page
 - symbol at end of blog posts (like bobulate's dog) (maincule? shoes? feather? bird? ⌁ ☝ )
 - add iframe shortcode
 - search for "wordpress" to find all internal links
