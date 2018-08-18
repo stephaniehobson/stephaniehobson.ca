@@ -1,0 +1,63 @@
+Want:
+- transform
+- gradients with opacity - ability to set and place multiple midpoints
+- nth selectors
+
+background opacity
+
+way to style link to current page
+
+text wrap on absolute postioned elements - ability to wrap around not straight line elements too (clipping paths)?
+
+varibables: http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59442
+need to be able to put them in classes too so that .t_school $blue is different from .t_path $blue if nessisary
+
+ability to assign classes to classes or ids #nav ul{class:nav;}
+
+forground images
+
+corner padding (may be able to achive with rounded corners that aren't rounded) - can we make dimonds with border-radius? (sounds like it clips content instead of padding it) - diagonal borders /link/link/
+
+elements which size to minium width (to solve problem of divs with captions and images in them): or size dependent sizing: http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59484 #div1{width: (div2.width * 2)}
+
+for columns - ability to split them at a specific height (like screen height) to avoid up and down scrolling between columsn
+
+ability to position backgrounds in pixels from bottom left
+
+background image z-indexes rather than assigning them numbers.
+
+clearfix
+
+more control over form elements - including scroll bars
+
+tool tip styling
+
+math width:50% - 10px; -> right now want to solve problem with box model, not as hard if we can set box model to border model but would also be handy if we can use it with variables
+
+position:relative, that doesn't leave a space behind
+
+define boxes around existing elements? could solve the multiple borders request#box:outer { } http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59529
+
+vertical text - text paths would fix this
+
+define characters for bullets
+
+style nth bullets differently, and bullets different from text
+
+In positioned elements, to be able to set the position of not only the left, right, top, and bottom, but also the horizontal center and/or vertical center of the element.  (http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59588)
+
+A way to target different rendering engines for specific things - because let's face it we're always going to need to do hacks
+
+solution for problem of .mySpecificClass #mySpecificId (p, ul, ol) {color:#666666;} http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59606
+
+place divs inside other divs #div{position:#otherdiv top left;}
+
+5) Declare entire font styles the way that font-family is currently used. Instead of something like “font-x, font-y, sans”, let me say “Family size line height”. For example “font-x 14px 1.3em, font-y 16px 1.2em, sans 14px 1.2em”. Should some solution offering more web fonts surface (which will probably happen in the very near future judging by potential) we need a way to work with the fact that different fonts are…different. (http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59801)
+
+.div{height:#otherdiv;}
+
+decimal nested uls (http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-61368) 1.0 1.1 1.2 2.0 2.1
+
+
+
+layout tools??!??! what do I want, what do I think of current spec?

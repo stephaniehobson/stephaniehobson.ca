@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>CSS bug in IE 6 with: .class a:hover element</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-2509415e.css">
+<link rel="canonical" href="https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">CSS bug in IE 6 with: .class a:hover element</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2007-12-19" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2007/">2007</a>
+            December 19
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/code" rel="tag">code</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        <p>This bug seems to apply to styling elements under a class or id within a link on hover.  Stuff like <code>.class a:hover span{}</code> or <code>#id a:hover strong{}</code>.  The solution is to define a property on the parent link <code>.class a:hover{}</code> that hasn&rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.</p>
+
+<p>All the work for the solution was done by <a href="http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp">Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug</a>, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</p>
+
+<p>Here&rsquo;s what happened to me:</p>
+
+<p>I had some text inside a link, and I wanted some of it to do one thing when rolled over and some of it to do something else.  I marked it up like this:</p>
+
+<pre><code class="language-html">&lt;div class=&quot;promo&quot;&gt;
+    &lt;h3&gt;News&lt;/h3&gt;
+    &lt;a href=&quot;link.html&quot;&gt;IE has lots of bugs&lt;strong&gt;read more&lt;/strong&gt;.&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>It&rsquo;s sort of a solution to the fact that &ldquo;read more&rdquo; makes bad link text.  Bad.  And I don&rsquo;t write the copy.</p>
+
+<p>Then I tried to style it with something like this:</p>
+
+<pre><code>/* default link behaviour */
+a {
+    text-decoration:none;
+    color:#8ec3e2;
+}
+
+a:visited {
+    color:#6d80a8;
+}
+
+a:hover {
+    color:#c1fcff;
+}
+
+/* overrides for this element */
+.promo a {
+    color:#000;
+}
+
+.promo a:hover {
+    color:#000;
+}
+
+.promo a strong,
+.promo a:visited strong {
+    color:#8ec3e2;
+    display:block;
+}
+
+.promo a:hover strong {
+    color:#c1fcff;
+}
+</code></pre>
+
+<p>Which did exactly what I wanted it to do&hellip; in FireFox but in IE 6 the hover was not displaying properly.  After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided <a href="http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp">Tanfa&rsquo;s article on IE Pure CSS Pop Ups Bug</a> in response to my query.</p>
+
+<p>I added float:none to my declaration for <code>.promo a:hover{}</code> and all is now well :)</p>
+
+<pre><code>.promo a:hover{
+    float:none;
+}
+</code></pre>
+
+<p>Thank you Tanfa!</p>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a>
+    </nav>
+    <p class="footer-copy">&copy; Stephanie Hobson 2007- 2018</p>
+</footer>
+
+</body>
+</html>

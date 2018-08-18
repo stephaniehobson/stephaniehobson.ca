@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bad Example</title>
+
+
+<style>
+
+body {
+    margin: 50px;
+}
+.server {
+    position: relative;
+    color: #fff;
+    background-color: green;
+    line-height: 4;
+    padding: 0;
+    margin: 0 0 5px 0;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    font-family: helvetica;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-indent: 20px;
+}
+
+.server.server_down {
+    background-color: red;
+}
+
+div.server span {
+    position: absolute;
+    top: 2em;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 0px none;
+    box-shadow: 0px -2px rgba(0,0,0, 0.5) inset;
+    color: #4D4E53;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 1;
+    padding: 5px 11px;
+    text-indent: 0;
+    text-transform: uppercase;
+}
+
+.server span:hover {
+    padding: 8px 14px;
+    top: calc(2em - 3px);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.server_details {
+    font-family: helvetica;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    margin-top: -8px;
+    line-height:2;
+    border: 3px solid green;
+    list-style-type: none;
+}
+
+.server_down + .server_details {
+    border-color: red;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div class="server">Blueberry <span class="server_button">DETAILS &#x25B8;</span></div>
+<div class="server_details hide">
+    <div>Hostname: web02.onr.example.com</div>
+    <div>Service Tag: JCQFZK1</div>
+    <div>Datacentre: ONR</div>
+    <div>Rack Location: 104.6, Unit #24</div>
+</div>
+<div class="server server_down">Raspberry <span class="server_button">DETAILS &#x25B8;</span></div>
+<div class="server_details">
+    <div>Hostname: web02.onr.example.com</div>
+    <div>Service Tag: JCQFZK1</div>
+    <div>Datacentre: ONR</div>
+    <div>Rack Location: 104.6, Unit #24</div>
+</div>
+<div class="server">Strawberry <span class="server_button">DETAILS &#x25B8;</span></div>
+<div class="server_details hide">
+    <div>Hostname: web02.onr.example.com</div>
+    <div>Service Tag: JCQFZK1</div>
+    <div>Datacentre: ONR</div>
+    <div>Rack Location: 104.6, Unit #24</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+<script>
+
+$('.server_button').on( 'click', function() {
+    $(this).parent().next().toggleClass('hide');
+});
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VJ2HD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5VJ2HD');</script>
+<!-- End Google Tag Manager -->
+
+
+</body>
+</html>

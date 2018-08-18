@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/tags/video/</link>
+    <description>Recent content in Video on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping More Tables</title>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
+The video of my talk has been posted:   And my slides are available here.</description>
+    </item>
+    
+    <item>
+      <title>How To Debug CSS</title>
+      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
+      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
+      <description>Some quick notes and links for the talk I gave at WordCamp Vancouver about Debugging CSS.
+Edit: You can now watch a recording of Debugging CSS. Spot the three projector failures!
+  Steps  Is the HTML valid? Is the CSS valid? Is the right CSS being applied?  Is what you typed being applied? Is other stuff being applied? Is what&amp;rsquo;s being applied right?  Does CSS support what you’re doing?</description>
+    </item>
+    
+    <item>
+      <title>Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
+      <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
+      <description>There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.
+The most detailed (and longest) version of my talk is available to watch on Wordpress TV.
+My first slide deck and links to the resources I recommend are part of an earlier blog post.
+In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page.</description>
+    </item>
+    
+    <item>
+      <title>Taking a photo of yourself with an iPhone</title>
+      <link>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
+      <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Smashing Conference Whistler 2014</title>
+      <link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link>
+      <pubDate>Wed, 06 Jan 2010 22:32:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
+      <description>A few weeks ago Smashing Conference came to Whistler. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)
+The conference As good as I hoped it would be. A mix of strategy and near future technology examples. My Favourite Talk  Building the next-generation of theguardian.com, by Patrick Hamann Slides The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads.</description>
+    </item>
+    
+    <item>
+      <title>We made the cut!</title>
+      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
+      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
+A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
+Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
+ From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
+    </item>
+    
+  </channel>
+</rss>

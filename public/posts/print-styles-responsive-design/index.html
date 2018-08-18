@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Print Styles Are Responsive Design</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-2509415e.css">
+<link rel="canonical" href="https://stephaniehobson.ca/posts/print-styles-responsive-design/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="http://en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">Print Styles Are Responsive Design</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/print-styles-responsive-design/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2012-03-14" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2012/">2012</a>
+            March 14
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        
+
+<p>Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?</p>
+
+<p>Yes, people still print web pages. <a href="http://devblog.xing.com/frontend/monitor-webpage-printouts/">Extrapolating from these numbers</a> about 10,000 pages are printed from bcit.ca every month. The print experience is an important part of a good site and relying on your screen styles to print properly is foolish:</p>
+
+<ul>
+<li>Background images and colours are stripped.</li>
+<li>Web fonts might turn into gibberish or not print at all.</li>
+<li>Layout bugs can cause missing content.</li>
+<li>You&rsquo;re ignoring the fact that paper is a totally different medium!</li>
+</ul>
+
+<p>Printing can really screw up a web page.</p>
+
+<h2 id="avoid-common-problems">Avoid common problems</h2>
+
+<p>One of the most common problems I saw when doing my survey of print styles was white text printing on a white page. To save ink the browsers will strip all background colours and background images before printing so in your print style sheet be sure to over-ride any light coloured fonts. I also add a thin border to elements where the background colour is used on the screen to differentiate the content and reinforce the grid.</p>
+
+<p>There&rsquo;s a variety of common layout bugs everything from floats to absolute, fixed, fixed-width, and semi-opaque elements can get cut off, misplaced, or disappeared entirely especially when the element flows across a page break. If it&rsquo;s too wide some browsers will shrink your page until it fits and others will crop it. Where possible do away with your layout and make your content linear and fluid.</p>
+
+<p>Web fonts introduce a new quandary to the world of print styles. <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=468568">FireFox</a> and <a href="http://code.google.com/p/chromium/issues/detail?id=98011">Chrome</a> don&rsquo;t print web fonts. Have you ever seen a site with the word-spacing, line-height, and font-size picked for one font displaying its fallback font? It&rsquo;s not usually a pretty picture. I recommend over-riding web fonts in favour of a common font, especially for body copy.</p>
+
+<h2 id="focus-on-content-and-save-paper">Focus on content and save paper</h2>
+
+<p>While you&rsquo;re stripping your web fonts out, consider the readability of the rest of your typography. How does it look printed? If your page is being printed chances are someone is going to spend some time reading it - more time than they&rsquo;d spend on your site. Do what you can to make that pleasant.</p>
+
+<p>Layout elements like headers, footers, banners, ads, and menus distract from the information the user is trying consume, are un-usable on a printed page, and take up extra paper.  It&rsquo;s very common to remove these elements when printing. A three-column page layout doesn&rsquo;t look so bad on one short page but if your site has a substantial amount of content those columns will likely be empty from the second page onward leaving large fields of empty space or worse your columns will spread onto a second page when your content only filled the first. What&rsquo;s your user going to do with that printed navigation menu anyway - click on it? How does that logo in your header look in black and white? Removing layout elements makes it much easier to make your remaining content fluid to avoid common print bugs and fit the page. Think about a better way to communicate the other information - more on this in a bit.</p>
+
+<h2 id="provide-a-better-print-experience">Provide a better print experience</h2>
+
+<p>Print doesn&rsquo;t <em>work</em> like a web page. The user can&rsquo;t interact with it anymore all they can do is read it. Consider what that means for content on your page that you can&rsquo;t normally see.</p>
+
+<p>There&rsquo;s some pretty fancy CSS tricks you can use to add the URL of links to the page in brackets after the link. I think I&rsquo;ve seen it done best by the <a hef="http://html5boilerplate.com/">HTML5 boilerplate</a> but I prefer to <a href="http://www.alistapart.com/articles/improvingprint/">add footnotes with javascript</a>. This is much less disruptive for readers. Either way make sure you consider how you&rsquo;ll handle links that aren&rsquo;t URLs: javascript hooks, in page anchors, mailto or tel. These same tricks can be applied to abbreviation titles and other attributes.</p>
+
+<p>Not all interactive content can be exposed. There&rsquo;s no CSS trick to print a video or Flash file and frequently this missing content will just leave a big white gap in your page. Your options are pretty much: hide it, provide a place holder, include a short summary, or include a full transcript. I&rsquo;ll leave the method up to you.</p>
+
+<p>For content revealed by javascript my suggestion is to do your best to print the content that the user sees. If they&rsquo;ve toggled open two out of ten of your FAQs, just print the full text of those two and leave the others closed. I&rsquo;ve seen several sites which don&rsquo;t include their global styles when printing but forget to include the styles their pages are dependant on in print stylesheets (this is most common with javascript). I can only imagine how frustrating that would be to a user.</p>
+
+<h2 id="provide-a-better-brand-experience">Provide a better brand experience</h2>
+
+<p>The most basic print styles make a page more readable <a href="http://evolt.org/ResponsiveWebAndPrint">at the expense of some of its character</a> but we don&rsquo;t just have to take away. You can include a print specific header and footer hidden in your HTML or add them later with javascript. This gives you a chance to include a black and white version of your logo and any other brand cues you feel are important. You might already be using a grid to maintain visual consistency between desktop and mobile, here&rsquo;s your chance to do it in print too.</p>
+
+<p>Other information you might consider adding in a print header or footer is: way-finding clues like a section or category name, general contact information like a 1-800 number (more useful than a link to a contact us page), and a short URL to help the user get back to that page. Some sites even include a QR code but <abbr title="don't do it">use your best judgement</abbr>.</p>
+
+<h2 id="speed-up-your-pages">Speed up your pages</h2>
+
+<p>It boggles my mind that browsers will still <em>delay rendering a page</em> until it has loaded a style sheet with the media type of print. #seriously <a href="http://www.phpied.com/files/css-loading/print.php">#testyours</a>. This article on <a href="http://zoompf.com/blog/2009/12/browser-performance-problem-with-css-print-media-type">Browser Performance Problem with CSS &ldquo;print&rdquo; Media Type</a> outlines the problem really well.</p>
+
+<p>If you&rsquo;re just trying to avoid the extra http request and your print styles are very small you can always just add them into your main CSS file.</p>
+
+<pre><code>@media screen {
+/* screen styles here */
+}
+@media print {
+/* print styles here */
+}
+</code></pre>
+
+<p>Otherwise you can look at techniques to load them asynchronously. There&rsquo;s a <a href="https://web.archive.org/web/20120318141226/http://www.duncanmcdougall.co.uk:80/delay-loading-the-print-stylesheet">couple</a> <a href="http://www.duncanmcdougall.co.uk/articles/delay-loading-print-stylesheet.html">ways</a> to do this.</p>
+
+<h2 id="seeing-it-in-action">Seeing it in action</h2>
+
+<div style="text-align:center;margin:1em;">
+    <span style="width:25%;display:inline-block;padding-right:11%;vertical-align:top;">
+        <a href="https://www.flickr.com/photos/stephaniehobson/6836645818/">
+<figure>
+    
+        <img src="site.jpg" alt="The original page has full colour images and a video" />
+    
+    
+</figure>
+</a>
+    </span>
+    <span style="width:25%;display:inline-block;padding-right:11%;vertical-align:top;">
+        <a href="https://www.flickr.com/photos/stephaniehobson/6836681816//">
+<figure>
+    
+        <img src="before.jpg" alt="Without a print style sheet there are blank spaces and useless information" />
+    
+    
+</figure>
+</a>
+    </span>
+    <span style="width:25%;display:inline-block;vertical-align:top;">
+        <a href="https://www.flickr.com/photos/stephaniehobson/6836645794/">
+<figure>
+    
+        <img src="after.jpg" alt="With a print style sheet only the primary page content prints, filling the page" />
+    
+    
+</figure>
+</a>
+    </span>
+</div>
+
+<p>On the left is our site on a screen, on the right how it looks formatted for print. In the middle, without any print styles, you can see it <abbr title="has a number of problems">goes boom</abbr>:</p>
+
+<ul>
+<li>The white logo is invisible</li>
+<li>Chrome decides to crop rather than shrink the site to fit making it obvious things are not right.</li>
+<li>Our grid falls apart without the background images.*   There are large gaps where the videos are.</li>
+<li>The only useful information in the footer is pushed off screen by a sea of links.</li>
+</ul>
+
+<p>Did you see what happens to the Bebas font we used on our section names? You caught me, this is a screen cap not a scan of a printed page. Bebas wouldn&rsquo;t actually print and the 6 pixels of word spacing we have to apply to it to get it to play nice looks kind of silly on Arial Narrow.</p>
+
+<p>Our print style sheet is loaded asynchronously after the rest of the page and at the same time I run functions to add a print header, print footer and the URLs of the links on the page as footnotes.</p>
+
+<p>The screen header, sidebars, banners, and footer are hidden from display and I force the main content to become fluid again. Other than that the  actual body of the page needs only minor work because these styles are layered over our global styles. I darken up some text, remove videos and Flash elements, and on pages which don&rsquo;t already have outdented headings I outdent the headings. If this page had javascript elements everything would print as the user left it before printing.</p>
+
+<p>The print header includes a black and white version of our logo which prints nice and crisp compared to a colour one and uses a few thin lines to re-establish the grid creating a visual tie back the way the website looks on a monitor. It also includes the name of which section of the site the page is from and a shortened URL to return to the page.</p>
+
+<p>The footnote function is complex enough to re-use a footnote if there are multiple links to the same page, provided a shortened URL if it&rsquo;s an internal link, include fallback text for javascript links, and skip footnoting an email address if the address itself is all that&rsquo;s included between the anchor tags (our style guide mandates this but the odd one slips through the cracks).</p>
+
+<p>The very basic footer was a victim of time constraints. We couldn&rsquo;t include our 1-800 number on all pages because it&rsquo;s specific to Student Enrolment and wouldn&rsquo;t be appropriate on business services pages, for example.</p>
+
+<h2 id="code-tips">Code tips</h2>
+
+<p>If you have a large constantly evolving site I recommend making your global style sheets apply to both screen and print. It saves you the trouble of keeping two sets of stylesheets up to date when changes are made. That leaves you the task of over-riding some of the screen styles in the print style sheet. This will be much easier if you&rsquo;re already <a href="http://oli.jp/2011/ids/">avoiding IDs for styling</a>. If you&rsquo;re not it <a href="http://coding.smashingmagazine.com/2010/11/02/the-important-css-declaration-how-and-when-to-use-it/">seems to be acceptable</a> to sprinkle your print styles with !important declarations.</p>
+
+<h2 id="print-preview-lied-to-me-hicksdesign-https-twitter-com-hicksdesign-status-12243956069"><a href="https://twitter.com/#!/Hicksdesign/status/12243956069">&ldquo;Print preview lied to me.&rdquo; - @hicksdesign</a></h2>
+
+<p>Test until it&rsquo;s perfect in print preview.
+Then test until it&rsquo;s perfect when you print to PDF.
+Then test until it&rsquo;s perfect when you <em>print it out <strong>on paper</strong></em>.
+There is no other way to be sure you&rsquo;ve got it right.</p>
+
+<h2 id="more-information">More information</h2>
+
+<ul>
+<li><a href="http://coding.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/">How To Set Up A Print Style Sheet</a></li>
+<li><a href="http://designshack.net/articles/css/6-thinks-i-learned-about-print-stylesheets-from-html5-boilerplate/">6 Things I Learned About Print Stylesheets From HTML5 Boilerplate</a></li>
+</ul>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a>
+    </nav>
+    <p class="footer-copy">&copy; Stephanie Hobson 2007- 2018</p>
+</footer>
+
+</body>
+</html>
