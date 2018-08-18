@@ -1,0 +1,7 @@
+@import '../includes/vars';
+@import '../includes/mixins';
+
+.frame {
+    @include intrinsic();
+    border: $divider;
+}

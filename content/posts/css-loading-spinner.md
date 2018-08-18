@@ -14,7 +14,7 @@ I needed a loading spinner for a side project the other day but I was too lazy t
 
 On the bright side it works on any background colour and is a little transparent which is neat. And it's _way_ faster to adjust the colour scheme than an image file would be.
 
-<iframe src="/loading-spinner/" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
+{{< frame "/loading-spinner/" >}}
 
 ## The basic idea
 
@@ -112,4 +112,5 @@ Also, yes, totally, please use it. [Tweet me](https://twitter.com/stephaniehobso
 ## A little bit more
 
 I got a little carried away and made a few other styles:
-<iframe src="/loading-spinner/other-styles.html" scrolling="no" height="210px" width="100%" style="border:0"></iframe>
+
+{{< frame "/loading-spinner/other-styles.html" >}}

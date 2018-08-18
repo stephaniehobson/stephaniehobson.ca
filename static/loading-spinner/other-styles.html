@@ -5,7 +5,7 @@
 <title>CSS Loading Spinners - Other Styles</title>
 <style>
 
-body{font-family:Courier, monospace;}
+body{font-family:Courier, monospace;margin:0;}
 
 /* SPINNER */
 .spinner{
@@ -58,77 +58,77 @@ animation-fill-mode:backwards;
 }
 
 .spinner span:nth-of-type(1){
--moz-transform: rotate(0deg); 
+-moz-transform: rotate(0deg);
 -moz-animation-delay:-1000ms;
-	-webkit-transform: rotate(0deg); 
+	-webkit-transform: rotate(0deg);
 	-webkit-animation-delay:-1000ms;
-	transform: rotate(0deg); 
+	transform: rotate(0deg);
 	animation-delay:-1000ms;
 }
- 
+
 .spinner span:nth-of-type(2){
--moz-transform: rotate(45deg); 
+-moz-transform: rotate(45deg);
 -moz-animation-delay:-750ms;
-	-webkit-transform: rotate(45deg); 
+	-webkit-transform: rotate(45deg);
 	-webkit-animation-delay:-750ms;
-	transform: rotate(45deg); 
+	transform: rotate(45deg);
 	animation-delay:-750ms;
 }
 .spinner span:nth-of-type(3){
 -moz-transform: rotate(90deg);
 -moz-animation-delay:-500ms;
-	-webkit-transform: rotate(90deg); 
+	-webkit-transform: rotate(90deg);
 	-webkit-animation-delay:-500ms;
-	transform: rotate(90deg); 
+	transform: rotate(90deg);
 	animation-delay:-500ms;
 }
- 
+
 .spinner span:nth-of-type(4){
--moz-transform: rotate(135deg); 
+-moz-transform: rotate(135deg);
 -moz-animation-delay:-250ms;
-	-webkit-transform: rotate(135deg); 
+	-webkit-transform: rotate(135deg);
 	-webkit-animation-delay:-250ms;
-	transform: rotate(135deg); 
+	transform: rotate(135deg);
 	animation-delay:-250ms;
 }
- 
+
 .spinner span:nth-of-type(5){
--moz-transform: rotate(180deg); 
+-moz-transform: rotate(180deg);
 -moz-animation-delay:0s;
-	-webkit-transform: rotate(180deg); 
+	-webkit-transform: rotate(180deg);
 	-webkit-animation-delay:0s;
-	transform: rotate(180deg); 
+	transform: rotate(180deg);
 	animation-delay:0s;
 }
- 
+
 .spinner span:nth-of-type(6){
 -moz-transform: rotate(225deg);
 -moz-animation-delay:250ms;
-	-webkit-transform: rotate(225deg); 
+	-webkit-transform: rotate(225deg);
 	-webkit-animation-delay:250ms;
-	transform: rotate(225deg); 
+	transform: rotate(225deg);
 	animation-delay:250ms;
 }
- 
+
 .spinner span:nth-of-type(7){
--moz-transform: rotate(270deg); 
+-moz-transform: rotate(270deg);
 -moz-animation-delay:500ms;
-	-webkit-transform: rotate(270deg); 
+	-webkit-transform: rotate(270deg);
 	-webkit-animation-delay:500ms;
-	transform: rotate(270deg); 
+	transform: rotate(270deg);
 	animation-delay:500ms;
 }
- 
+
 .spinner span:nth-of-type(8){
 -moz-transform: rotate(315deg);
 -moz-animation-delay:750ms;
-	-webkit-transform: rotate(315deg); 
+	-webkit-transform: rotate(315deg);
 	-webkit-animation-delay:750ms;
-	transform: rotate(315deg); 
+	transform: rotate(315deg);
 	animation-delay:750ms;
 }
- 
- 
+
+
 @-moz-keyframes fade {
  0% {
    background-color:rgba(77, 77, 77,0.8);
@@ -140,7 +140,7 @@ animation-fill-mode:backwards;
    background-color:rgba(255, 255, 255,0.8);
  }
 }
- 
+
 	@-webkit-keyframes fade {
 		0% {
 			background-color:rgba(77, 77, 77,0.8);
@@ -152,7 +152,7 @@ animation-fill-mode:backwards;
 			background-color:rgba(255, 255, 255,0.8);
 		}
 	}
- 
+
 	@keyframes fade {
 		0% {
 			background-color:rgba(77, 77, 77,0.8);
@@ -180,7 +180,8 @@ animation-fill-mode:backwards;
 	-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
 		box-sizing:border-box;
-	height:100px;
+    min-height:50px;
+    height: 50vh;
 	width:33%;
 	float:left;
 	padding:10px;
@@ -227,17 +228,17 @@ background-color:transparent;
 	background: -moz-radial-gradient(50% 50%, circle, rgba(77, 77, 77,0.8) 3px, rgba(77, 77, 77,0) 10px );
 		background: -webkit-radial-gradient(50% 50%, circle, rgba(77, 77, 77,0.8) 3px, rgba(77, 77, 77,0) 10px );
 		background: radial-gradient(50% 50%, circle, rgba(77, 77, 77,0.8) 3px, rgba(77, 77, 77,0) 10px );
-	
+
 	-moz-animation-duration: 2s;
 	-moz-animation-iteration-count: infinite;
 	-moz-animation-direction: normal;
 	-moz-animation-name: embiggen;
-	
+
 	-webkit-animation-duration: 2s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: normal;
 	-webkit-animation-name: embiggen;
-	
+
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
@@ -262,7 +263,7 @@ background-color:transparent;
 	animation-delay:500ms;
 }
 
-.demo-frame.loading-bigdot .spinner span:nth-of-type(4):after{ 
+.demo-frame.loading-bigdot .spinner span:nth-of-type(4):after{
 	-moz-animation-delay:750ms;
 	-webkit-animation-delay:750ms;
 	animation-delay:750ms;
@@ -331,7 +332,7 @@ background-color:transparent;
 			-webkit-transform:scale(0);
 		}
 	}
-	
+
 	@keyframes embiggen {
 		 0% {
 			transform:scale(1);
@@ -414,7 +415,7 @@ background-color:transparent;
  }
 }
 
-	
+
 	@-webkit-keyframes chaos {
 	 0% {
 		opacity:0.8;
@@ -427,8 +428,8 @@ background-color:transparent;
 		opacity:0;
 	 }
 	}
-	
-	
+
+
 	@keyframes chaos {
 	 0% {
 		opacity:0.8;
@@ -459,7 +460,7 @@ background-color:transparent;
 	-moz-transform-origin:50% 90%;
 		-webkit-transform-origin:50% 90%;
 		transform-origin:50% 90%;
-	
+
 }
 
 @-moz-keyframes mmmpie {
@@ -480,7 +481,7 @@ background-color:transparent;
 			border-top-color:rgba(0, 107, 210,1);
 		 }
 	}
-	
+
 	@keyframes mmmpie {
 		0% {
 			border-top-color:rgba(0, 107, 210,0.3);
@@ -513,10 +514,10 @@ background-color:transparent;
 
 	-moz-animation-name: shiny;
 	-moz-animation-duration: 0.5s;
-	
+
 	-webkit-animation-name: shiny;
 	-webkit-animation-duration: 0.5s;
-	
+
 	animation-name: shiny;
 	animation-duration: 0.5s;
 }
@@ -539,7 +540,7 @@ background-color:transparent;
 	animation-delay:250ms;
 }
 
-.demo-frame.loading-piehole .spinner span:nth-of-type(4){ 
+.demo-frame.loading-piehole .spinner span:nth-of-type(4){
 -moz-animation-delay:375ms;
 	-webkit-animation-delay:375ms;
 	animation-delay:375ms;
@@ -600,8 +601,8 @@ background-color:transparent;
 			border-top-color:rgba(0, 107, 210,1);
 		 }
 	}
-	
-	
+
+
 	@keyframes shiny {
 		0% {
 			border-top-color:rgba(0, 107, 210,0.3);

@@ -7,7 +7,6 @@ MVP:
     - no canonical on 404 page
 - noindex typography file
 - link to tag list
-
 - SEO
     - export the Webmaster tools 404 and 500 reports
     - export the Search Console Performance / Exclude (for redirects?)
@@ -25,10 +24,11 @@ MVP:
 
 Other:
 
+- add static files to site map
 - shrink images on print styles post
 - update coverflow page with new code & prefixes
 - make slide share and videos take up full width of <main>
-- symbol at end of blog posts (like bobulate's dog) (maincule?)
+- symbol at end of blog posts (like bobulate's dog) (maincule? shoes? feather? bird? ⌁ ☝ )
 - review heading levels
 - pagination for home page
 - make sure heading levels are accurate on all pages
@@ -63,6 +63,7 @@ Other:
 
 
 Done:
+- add iframe shortcode
 - search for "wordpress" to find all internal links
   - add images to posts linking to /wp-content
 - test iframes
