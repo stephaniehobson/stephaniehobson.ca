@@ -49,24 +49,7 @@
 }
 
 .post-date-year {
-    background-color: $color-text;
-    color: $color-background;
-    display: inline-block;
-    line-height: 1;
-    padding: 3px 4px 2px;
-
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: $color-link-hover;
-        color: $color-text;
-        text-decoration: none;
-    }
-
-    &:visited:hover {
-        background-color: $color-link-visited-hover;
-        color: $color-text;
-    }
+    @include links-block;
 }
 
 .post-tags {
@@ -79,5 +62,17 @@
 .post-tag {
     padding: 0;
     display: inline-block;
-    padding-left: $grid;
+    padding-right: $grid; // padding on right so there's no left padding on tags which wrap to the next line
+
+    &:first-child {
+        padding-left: $grid;
+    }
+
+    &:last-child {
+        padding-right: 0;
+    }
+}
+
+.post-body > *:last-child:after {
+    content: ' ⌁';
 }

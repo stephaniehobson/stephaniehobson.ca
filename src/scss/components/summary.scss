@@ -56,25 +56,7 @@
 }
 
 .summary-date-year {
-    background-color: $color-text;
-    color: $color-background;
-    display: inline-block;
-    font-size: calc(#{$font-base} * #{$f-1});
-    line-height: 1;
-    padding: 3px 4px 2px;
-
-    &:hover,
-    &:focus,
-    &:active {
-        background-color: $color-link-hover;
-        color: $color-text;
-        text-decoration: none;
-    }
-
-    &:visited:hover {
-        background-color: $color-link-visited-hover;
-        color: $color-text;
-    }
+    @include links-block;
 }
 
 .summary-tags {
@@ -96,5 +78,4 @@
     &:last-child {
         padding-right: 0;
     }
-
 }
