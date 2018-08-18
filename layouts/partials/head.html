@@ -14,3 +14,6 @@
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
+{{ if .Params.noindex -}}
+    <meta name="robots" content="noindex">
+{{ end -}}
