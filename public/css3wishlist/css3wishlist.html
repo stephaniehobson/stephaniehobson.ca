@@ -32,17 +32,17 @@
 			display:block;
 			font-size:1.5em;
 		}
-		
-			
+
+
 		.contentimage{
 				border:3px solid #000;
 			}
-	
+
 		.contentimage2{
 			border:3px solid #000;
 			width:214px;
 			}
-	
+
 	</style>
 </head>
 <body>
@@ -69,7 +69,7 @@
 
 <div id="code" class="cat">
 	<h1 id="simplify">Simplifying code size and maintainability</h1>
-	
+
 	<h2 id="assignclasses">Assigning classes using CSS</h2>
 	<h3>The problems</h3>
 	<p>A default class might be created to set up the basics of styling similar page elements.  This base class is then applied to varous elements in the code.  Deciding to change one of the multiple elements this class is applied to requires editing the HTML.</p>
@@ -147,7 +147,7 @@
 		color:#00a;</strong><br>
 		}<br>
 	</code>
-	
+
 	<h3>What it might look like</h3>
 	<p>Allow classes to be assigned to classes in the CSS.  I imagine it would be best to add the class to the element giving it multiple classes instead of overwritting other classes.</p>
 	<code>
@@ -186,7 +186,7 @@
 		<strong>class:attention;</strong><br>
 		}<br>
 	</code>
-	
+
 	<h2 id="variables">Variables</h2>
 	<h3>The problem</h3>
 	<p>A colour scheme often exists of a small range of hex codes which get reused extensively throughout a document.</p>
@@ -230,7 +230,7 @@
 				color:#00a;<br>
 			}<br>
 		</code>
-	
+
 	<h3>What it might look like</h3>
 	<p>Chaining elements or selectors:</p>
 	<code>
@@ -243,12 +243,12 @@
 <div id="backgrounds"  class="cat">
 
 	<h1 id="backgrounds">Backgrounds</h1>
-	
+
 	<h2 id="foreground">Foreground images</h2>
 	<h3>The problem</h3>
 	<p>Current image replacement techniques require moving the text off screen so it does not appear over top of the background image, with images off neither the text nor the background image appear on the screen.</p>
 	<code>
-		#home a {<br>	
+		#home a {<br>
 		text-indent:-999px;<br>
 		background-image: url(home.jpg);<br>
 		display:block;<br>
@@ -273,7 +273,7 @@
 	<h3>What it might look like</h3>
 	<p>Wanting to access the box from a point other than the top left seems to be a common theme, the solution to this could be applied to other things like rotation and positioning too.</p>
 	<p>I think lots of other people have come up with solutions for this, do I really need to to?</p>
-	
+
 	<h2 id="multiplebg">Multiple background images</h2>
 	<h3>The problem</h3>
 	<p>I haven't read the all of the multiple image background specs yet but I would like to be sure that it is possible to insert a background image in between other background images defined elsewhere.</p>
@@ -307,7 +307,7 @@
 <div id="lists" class="cat">
 
 	<h1 id="lists">Lists</h1>
-	
+
 	<h2 id="listcolumns">Colums for lists</h2>
 	<p>Using floats we are currently able to make a one colum list into a multi column list</p>
 	<ul style="width:300px;float:left;">
@@ -330,12 +330,12 @@
 		or<br>
 		stack-width:100px;<br>
 		}<br>
-	</code>	
-	
+	</code>
+
 	<h2 id="bulletstyling">Define list item styling seperate from bullet styling:</h2>
 	<h3>The problem</h3>
 	<img src="css3_list.jpg" width="261" height="173" alt="" border="0">
-	
+
 	<h3>What it might look like</h3>
 	<code>
 		.vegas li{<br>
@@ -348,11 +348,11 @@
 		color:#000;<br>
 		}<br>
 	</code>
-	
+
 	<h2 id="bulletchar">Define a character for use as a bullet:</h2>
 	<h3>The problem</h3>
 	<img src="css3_list.jpg" width="261" height="173" alt="" border="0">
-	
+
 	<h3>What it might look like</h3>
 	<code>
 		.vegas li{<br>
@@ -362,8 +362,8 @@
 		list-style-type:"&#9829;"<br>
 		}<br>
 	</code>
-	
-	
+
+
 </div>
 <div id="boxes" class="cat">
 
@@ -383,7 +383,7 @@
 			</div>
 			</div>
 		</div>
-		
+
 	<h3>What it might look like</h3>
 	<p>Multiple borders, following the multiple background image model:</p>
 	<code>
@@ -392,12 +392,12 @@
 		}<br>
 	</code>
 	<p>Or we could have the ability to define a second box around the element dynamically <a href="http://www.webstandards.org/2008/01/18/tell-the-css-wg-what-you-want-from-css3/#comment-59529">as suggested in comment 31</a>.</p>
-	
+
 	<code>
 	#box:outer{border:20px solid #000;}<br>
 	#box:outer:outer{border:10px solid #fff799;}<br>
 	</code>
-	
+
 	<h2 id="clearfloats">Containing floated contents</h2>
 	<h3>The problem</h3>
 	<p>Elements with floated elements inside them need to have extra HTML code added that the end in order to completely contain the floated element.  This might be a div with style="clear:both;" or it might be added dynamically using the <a href="http://www.webtoolkit.info/css-clearfix.html">.clearfix method</a>.</p>
@@ -429,14 +429,14 @@
 		clear:contents;<br>
 		}<br>
 	</code>
-	
+
 	<h2 id="rotation">Rotated boxes</h2>
 	<h3>The problem</h3>
 	<p>We want to be able to rotate boxes.</p>
 	<img src="css3_rotate.jpg" width="100" height="100" alt="" border="0">
 
 	<h3>What it might look like</h3>
-	<p>New properties could be created to designate a pivot point and a rotation in degrees (or radians but good luck getting designers to understand those).<img src="css3_rotate2.jpg" width="200" height="100" alt="" border="0"></p>	
+	<p>New properties could be created to designate a pivot point and a rotation in degrees (or radians but good luck getting designers to understand those).<img src="css3_rotate2.jpg" width="200" height="100" alt="" border="0"></p>
 
 	<code>
 		#box{<br>
@@ -469,7 +469,7 @@
 			This would be the caption for the image, I would like it to wrap at 214px but not have to tell it that.
 		</div>
 	</div>
-	
+
 	<h3>What it might look like</h3>
 	<p>A property that could be set on the parent div to make it the minimum width possible:</p>
 	<code>
@@ -485,7 +485,7 @@
 		width:parent;<br>
 	}<br>
 	</code>
-	
+
 	<h2 id="linkcurrent">Indicating links to the current page</h2>
 	<h3>The problem</h3>
 		<p>A well designed navigation menu will indicate to users the page that they are currently on so that they do not try to navigate to it again.</p>
@@ -502,7 +502,7 @@
 		color:#666;<br>
 		}<br>
 	</code>
-	
+
 	<h2 id="textflow">Text flow</h2>
 	<h3>The problem</h3>
 	<p>When taking a element out of the flow of a document by using position:absolute or position:relative there is no way to clear a space for it to be placed back into the flow.</p>
@@ -555,7 +555,7 @@
 		}<br>
 	</code>
 	<img src="css3_overlap3.jpg" width="300" height="200" alt="" border="0">
-	
+
 	<h2 id="tooltips">Styling tool tips</h2>
 	<h3>The problem</h3>
 	<p>Tool tips may clash with the design of a website.</p>
@@ -578,10 +578,10 @@
 </div>
 
 <h1>All done</h1>
-	
+
 <small style="display:block;">I'm sorry for the bad photoshop pics, crummy examples, spelling mistakes, disjointed text, inline styles, not reading all the specs before commenting, and I'm sorry for being sorry! I'm sorry!</small>
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+<script src="//www.google-analytics.com/urchin.js" type="text/javascript">
 </script>
 <script type="text/javascript">
 _uacct = "UA-535288-5";
