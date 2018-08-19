@@ -1,7 +1,7 @@
 ---
 title: Imperfect Pitch
 aliases:
-  - /wordpress/2019/11/03/im-perfect-pitch/
+  - /wordpress/2009/11/03/im-perfect-pitch/
 date: 2009-11-03 13:07:02
 year: "2009"
 id: 85
