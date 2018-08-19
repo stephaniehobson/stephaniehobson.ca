@@ -1,6 +1,6 @@
 <div class="summary">
     <h2 class="summary-title">
-        <a class="summary-title-link" href="{{ .Permalink }}">
+        <a class="summary-title-link" href="{{ .URL }}">
             {{ .Title }}
         </a>
     </h2>
@@ -12,7 +12,7 @@
         <ul class="summary-tags">
             {{ with .Params.tags }}
                 {{- range $i, $e := . -}}
-                    <li class="summary-tag">#<a href="{{ "tags/" | absURL }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a></li>
+                    <li class="summary-tag">#<a href="{{ "/tags/" }}{{ $e | urlize }}" rel="tag">{{- $e -}}</a></li>
                 {{- end -}}
             {{ end }}
         </ul>
