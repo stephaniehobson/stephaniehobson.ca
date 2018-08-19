@@ -29,5 +29,8 @@ ln -s ../index.xml public/feed/index.xml
 git add *
 git commit -m "Generate static site"
 # push static to github pages branch
-git push origin
+git push origin master
+# delete gh-pages branch to avoid conflics
+# git push origin :gh-pages
+# push public directory to gh-pages branch
 git subtree push --prefix public origin gh-pages
