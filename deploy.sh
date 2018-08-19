@@ -33,4 +33,4 @@ git push origin master
 # delete gh-pages branch to avoid conflics
 # git push origin :gh-pages
 # push public directory to gh-pages branch
-git subtree push --prefix public origin gh-pages
+# git subtree push --prefix public origin gh-pages
