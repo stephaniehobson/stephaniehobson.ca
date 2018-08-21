@@ -7,6 +7,11 @@ rm -rf public
 # generate the static site
 hugo
 
+# check CNAME record included
+echo "Checking for CNAME"
+ls docs/CNAME || exit 1
+echo "CNAME found"
+
 # make sure wordpress tag feeds continue to work
 # http://stephaniehobson.ca/wordpress/tag/conference/feed/
 for t in bcit conference ; do
