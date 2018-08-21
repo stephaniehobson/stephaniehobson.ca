@@ -13,6 +13,7 @@ MVP:
 
 Other:
 
+- print styles
 - link to tag list
 - do I need to alias short URLs? ... can I?
     <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
