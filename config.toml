@@ -1,6 +1,7 @@
 baseURL = "https://stephaniehobson.ca"
 languageCode = "en-us"
 title = "Stephanie Hobson"
+publishDir = "docs"
 relativeURLs = true
 [taxonomies]
   tag = "tags"
