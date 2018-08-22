@@ -1,5 +1,5 @@
 baseURL = "https://stephaniehobson.ca"
-languageCode = "en-us"
+languageCode = "en-ca"
 title = "Stephanie Hobson"
 publishDir = "docs"
 relativeURLs = true
@@ -9,3 +9,4 @@ relativeURLs = true
   talk = "talks"
 [author]
     name = "Stephanie Hobson"
+rssLimit = 10
