@@ -7,3 +7,5 @@ relativeURLs = true
   tag = "tags"
   year = "year"
   talk = "talks"
+[author]
+    name = "Stephanie Hobson"
