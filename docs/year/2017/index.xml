@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017 on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/year/2017/</link>
+    <link>http://stephaniehobson.ca/year/2017/</link>
     <description>Recent content in 2017 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:19:14 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/year/2017/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://stephaniehobson.ca/year/2017/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How we rebuilt the viewsourceconf.org website</title>
-      <link>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</link>
+      <link>http://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</link>
       <pubDate>Tue, 31 Oct 2017 21:19:14 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</guid>
+      <guid>http://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</guid>
       <description>This article was originally published on Mozilla’s Hacks Blog.
 As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.
 The View Source Conference website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</description>
@@ -24,20 +24,20 @@ The View Source Conference website, on the other hand, is a small site. So when 
     
     <item>
       <title>Flipping Tables at CSSDevConf</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
+      <link>http://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
       <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
+      <guid>http://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
       <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
     </item>
     
     <item>
       <title>Writing for Every Reader</title>
-      <link>https://stephaniehobson.ca/posts/writing-for-every-reader/</link>
+      <link>http://stephaniehobson.ca/posts/writing-for-every-reader/</link>
       <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
+      <guid>http://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
       <description>I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!
    Writing for Every Reader  from Stephanie Hobson   Here are my slides for Writing for Every Reader.
 Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content.</description>
@@ -45,20 +45,20 @@ Resources I mentioned:  Hemingway App, the app that helps improve the readabilit
     
     <item>
       <title>The MDN Redesign “Behind the Scenes”</title>
-      <link>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
+      <link>http://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
       <pubDate>Tue, 01 Aug 2017 19:34:47 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
+      <guid>http://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
       <description>This article was originally published on Mozilla&amp;rsquo;s Hacks Blog.
 Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!</description>
     </item>
     
     <item>
       <title>HTTP/2 on MDN</title>
-      <link>https://stephaniehobson.ca/posts/http2-on-mdn/</link>
+      <link>http://stephaniehobson.ca/posts/http2-on-mdn/</link>
       <pubDate>Mon, 10 Jul 2017 12:46:34 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/http2-on-mdn/</guid>
+      <guid>http://stephaniehobson.ca/posts/http2-on-mdn/</guid>
       <description>This article was originally published on the Mozilla Marketing Engineering &amp;amp; Operations blog.
 We enabled HTTP/2 on MDN&amp;rsquo;s CDN.
 We didn&amp;rsquo;t do anything to optimize for HTTP/2, we just enabled it.

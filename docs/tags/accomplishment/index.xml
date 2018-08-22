@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accomplishment on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/tags/accomplishment/</link>
+    <link>http://stephaniehobson.ca/tags/accomplishment/</link>
     <description>Recent content in Accomplishment on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Oct 2017 14:50:03 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/tags/accomplishment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://stephaniehobson.ca/tags/accomplishment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Flipping Tables at CSSDevConf</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
+      <link>http://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
       <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
+      <guid>http://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
       <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
     </item>
     
     <item>
       <title>Writing for Every Reader</title>
-      <link>https://stephaniehobson.ca/posts/writing-for-every-reader/</link>
+      <link>http://stephaniehobson.ca/posts/writing-for-every-reader/</link>
       <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
+      <guid>http://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
       <description>I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!
    Writing for Every Reader  from Stephanie Hobson   Here are my slides for Writing for Every Reader.
 Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content.</description>
@@ -34,20 +34,20 @@ Resources I mentioned:  Hemingway App, the app that helps improve the readabilit
     
     <item>
       <title>Flipping More Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <link>http://stephaniehobson.ca/posts/flipping-more-tables/</link>
       <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <guid>http://stephaniehobson.ca/posts/flipping-more-tables/</guid>
       <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
 The video of my talk has been posted:   And my slides are available here.</description>
     </item>
     
     <item>
       <title>Flipping Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
+      <link>http://stephaniehobson.ca/posts/flipping-tables/</link>
       <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
+      <guid>http://stephaniehobson.ca/posts/flipping-tables/</guid>
       <description>I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.
 Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   And the links I encouraged everyone to check out:</description>
@@ -55,10 +55,10 @@ Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
     
     <item>
       <title>HTML5 Forms OF DOOM</title>
-      <link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
+      <link>http://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
       <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
+      <guid>http://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
       <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
    HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
 Finished form (no peeking).
@@ -68,58 +68,58 @@ Resources Basic Introductions
     
     <item>
       <title>Perfect Stranger</title>
-      <link>https://stephaniehobson.ca/posts/perfect-stranger/</link>
+      <link>http://stephaniehobson.ca/posts/perfect-stranger/</link>
       <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
+      <guid>http://stephaniehobson.ca/posts/perfect-stranger/</guid>
       <description>Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. Jeremy Keith once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.
 Most of us use Twitter to keep in touch with people we know and keep up with things we care about.</description>
     </item>
     
     <item>
       <title>A Dull April Fool&#39;s Day</title>
-      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
+      <link>http://stephaniehobson.ca/posts/dull-april-fools-day/</link>
       <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
+      <guid>http://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
       <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
  Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
     </item>
     
     <item>
       <title>New site for my favorite client</title>
-      <link>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</link>
+      <link>http://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</link>
       <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid>
+      <guid>http://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid>
       <description>Just updated the look of Mum&amp;rsquo;s campaign website: Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville. I changed everything without altering one line of HTML, man do I love CSS (IE6, I still hate you).</description>
     </item>
     
     <item>
       <title>Bookstore wins a hubbie</title>
-      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <link>http://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
       <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <guid>http://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
       <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
     </item>
     
     <item>
       <title>We made the cut!</title>
-      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
+      <link>http://stephaniehobson.ca/posts/we-made-the-cut/</link>
       <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
+      <guid>http://stephaniehobson.ca/posts/we-made-the-cut/</guid>
       <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
 A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
     </item>
     
     <item>
       <title>CADE/AMTECH Conference</title>
-      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <link>http://stephaniehobson.ca/posts/cadeamtech-conference/</link>
       <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <guid>http://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
       <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
 As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
     </item>

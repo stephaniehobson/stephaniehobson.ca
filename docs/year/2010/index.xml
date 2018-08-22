@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2010 on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/year/2010/</link>
+    <link>http://stephaniehobson.ca/year/2010/</link>
     <description>Recent content in 2010 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Sep 2010 22:31:27 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/year/2010/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://stephaniehobson.ca/year/2010/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Taking a photo of yourself with an iPhone</title>
-      <link>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
+      <link>http://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
       <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
+      <guid>http://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
       <description>  </description>
     </item>
     
     <item>
       <title>Bullets aligned to the top of the text</title>
-      <link>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</link>
+      <link>http://stephaniehobson.ca/posts/bullets-alligned-top-text/</link>
       <pubDate>Fri, 10 Sep 2010 12:59:47 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
+      <guid>http://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
       <description>Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?
 Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?
 If you&amp;rsquo;re working on displaying the bullets at the same height, this might be the fix for you.</description>
@@ -33,10 +33,10 @@ If you&amp;rsquo;re working on displaying the bullets at the same height, this m
     
     <item>
       <title>CSS3 only cover flow</title>
-      <link>https://stephaniehobson.ca/posts/css3-only-cover-flow/</link>
+      <link>http://stephaniehobson.ca/posts/css3-only-cover-flow/</link>
       <pubDate>Fri, 28 May 2010 22:40:44 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
+      <guid>http://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
       <description>Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.
 Some of it works in FireFox but all the cool stuff works best in webkit: here&amp;rsquo;s as far as I got.
 Have fun with it :)</description>
@@ -44,10 +44,10 @@ Have fun with it :)</description>
     
     <item>
       <title>2009 in Review</title>
-      <link>https://stephaniehobson.ca/posts/2009/</link>
+      <link>http://stephaniehobson.ca/posts/2009/</link>
       <pubDate>Fri, 08 Jan 2010 19:09:46 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/2009/</guid>
+      <guid>http://stephaniehobson.ca/posts/2009/</guid>
       <description>My year in review Powazek style.
 JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.
 FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.
@@ -60,10 +60,10 @@ JUL: Fireworks with Sue. Decemberists.</description>
     
     <item>
       <title>Smashing Conference Whistler 2014</title>
-      <link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link>
+      <link>http://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link>
       <pubDate>Wed, 06 Jan 2010 22:32:27 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
+      <guid>http://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
       <description>A few weeks ago Smashing Conference came to Whistler. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)
 The conference As good as I hoped it would be. A mix of strategy and near future technology examples. My Favourite Talk  Building the next-generation of theguardian.com, by Patrick Hamann Slides The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mozilla on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/tags/mozilla/</link>
+    <link>http://stephaniehobson.ca/tags/mozilla/</link>
     <description>Recent content in Mozilla on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:19:14 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://stephaniehobson.ca/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How we rebuilt the viewsourceconf.org website</title>
-      <link>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</link>
+      <link>http://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</link>
       <pubDate>Tue, 31 Oct 2017 21:19:14 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</guid>
+      <guid>http://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</guid>
       <description>This article was originally published on Mozilla’s Hacks Blog.
 As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.
 The View Source Conference website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</description>
@@ -24,20 +24,20 @@ The View Source Conference website, on the other hand, is a small site. So when 
     
     <item>
       <title>The MDN Redesign “Behind the Scenes”</title>
-      <link>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
+      <link>http://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
       <pubDate>Tue, 01 Aug 2017 19:34:47 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
+      <guid>http://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
       <description>This article was originally published on Mozilla&amp;rsquo;s Hacks Blog.
 Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!</description>
     </item>
     
     <item>
       <title>HTTP/2 on MDN</title>
-      <link>https://stephaniehobson.ca/posts/http2-on-mdn/</link>
+      <link>http://stephaniehobson.ca/posts/http2-on-mdn/</link>
       <pubDate>Mon, 10 Jul 2017 12:46:34 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/http2-on-mdn/</guid>
+      <guid>http://stephaniehobson.ca/posts/http2-on-mdn/</guid>
       <description>This article was originally published on the Mozilla Marketing Engineering &amp;amp; Operations blog.
 We enabled HTTP/2 on MDN&amp;rsquo;s CDN.
 We didn&amp;rsquo;t do anything to optimize for HTTP/2, we just enabled it.
@@ -48,10 +48,10 @@ You don&amp;rsquo;t have to get ready before you start using HTTP/2 While doing 
     
     <item>
       <title>Google Analytics, Privacy, and Event Tracking</title>
-      <link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
+      <link>http://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
       <pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
+      <guid>http://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
       <description>This article was originally published on the Mozilla Hacks blog.
 Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.
 Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet.</description>
