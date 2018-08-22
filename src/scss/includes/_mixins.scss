@@ -74,6 +74,7 @@
     &:focus,
     &:active {
         background-color: $color-link-hover;
+        color: $color-text;
         text-decoration: none;
     }
 
