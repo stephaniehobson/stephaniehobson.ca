@@ -1,4 +1,4 @@
-baseURL = "https://stephaniehobson.ca"
+baseURL = "http://stephaniehobson.ca"
 languageCode = "en-us"
 title = "Stephanie Hobson"
 publishDir = "docs"
