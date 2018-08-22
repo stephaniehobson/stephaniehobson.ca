@@ -6,10 +6,22 @@
     <description>Recent content on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 31 Oct 2017 21:19:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Aug 2018 00:36:00 +0000</lastBuildDate>
     
         <atom:link href="https://stephaniehobson.ca/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Surprise Emergency Site Migration</title>
+      <link>https://stephaniehobson.ca/posts/surprise-emergency-site-migration/</link>
+      <pubDate>Wed, 22 Aug 2018 00:36:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/surprise-emergency-site-migration/</guid>
+      <description>&lt;p&gt;A small tweak to my WordPress config went sideways and, long story short, now my blog is hosted with Hugo on GitHub pages over https&amp;hellip; Oops?&lt;/p&gt;
+
+&lt;p&gt;I wasn&amp;rsquo;t planning to migrate just yet so apologies for the RSS weirdness.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How we rebuilt the viewsourceconf.org website</title>

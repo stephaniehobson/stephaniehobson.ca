@@ -1,3 +1,9 @@
+RSS weirdness:
+- should be limited to 10
+- do not include pages
+- does it include full posts?
+- does it include author?
+
 MVP:
 
 - SEO
