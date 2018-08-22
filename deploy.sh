@@ -3,7 +3,7 @@
 # create files in /static that hugo needs
 gulp deploy
 # delete the previous deploy
-rm -rf public
+rm -rf docs
 # generate the static site
 hugo
 
