@@ -5,10 +5,10 @@
     <link>https://stephaniehobson.ca/year/2012/</link>
     <description>Recent content in 2012 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-ca</language>
     <lastBuildDate>Tue, 10 Jul 2012 16:26:19 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/year/2012/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://stephaniehobson.ca/year/2012/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,11 +17,58 @@
       <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
-      <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
-   HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
-Finished form (no peeking).
-Resources Basic Introductions
- Dive Into HTML5: A Form of Madness Have a Field Day with HTML5 Forms Making Forms Fabulous with HTML5 Forward Thinking Form Validation  CSS</description>
+      <description>
+
+&lt;p&gt;I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/fc8wSTwX7fQYZs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/html5-forms-of-doom&#34; target=&#34;_blank&#34;&gt;HTML5 Forms OF DOOM&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;../../html5forms/unfinished.html&#34;&gt;Sample form.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../../html5forms/finished.html&#34;&gt;Finished form (no peeking).&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Basic Introductions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://diveintohtml5.info/forms.html&#34;&gt;Dive Into HTML5: A Form of Madness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.html5rocks.com/en/tutorials/forms/html5forms/&#34;&gt;Making Forms Fabulous with HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alistapart.com/articles/forward-thinking-form-validation/&#34;&gt;Forward Thinking Form Validation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://html5doctor.com/css3-pseudo-classes-and-html5-forms/&#34;&gt;CSS3 Pseudo-Classes and HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Compatibility Specifics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wufoo.com/html5/&#34;&gt;The Current State of HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://miketaylr.com/code/input-type-attr.html&#34;&gt;HTML5 inputs and attribute support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Shim&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ryanseddon/H5F&#34;&gt;Ryan Seddons&amp;rsquo;s H5F&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adactio.com/journal/4272/&#34;&gt;The design of datalist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -30,10 +77,37 @@ Resources Basic Introductions
       <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/leave/</guid>
-      <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
-Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
-I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
-I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long.</description>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1&lt;sup&gt;st&lt;/sup&gt;, 2012.&lt;/p&gt;
+
+&lt;p&gt;Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.&lt;/p&gt;
+
+&lt;p&gt;I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long. I want to get to know the friends that I&amp;rsquo;ve made in my travels but never lived near.&lt;/p&gt;
+
+&lt;p&gt;Along the way I&amp;rsquo;d going to have to do a bit of work. Contract/sub-contract work I can do remotely while I&amp;rsquo;m traveling or job offers in San Francisco and London that will help me with the paperwork to work there.&lt;/p&gt;
+
+&lt;p&gt;Work that will let me do what I do really well&lt;sup&gt;&lt;a href=&#34;#one&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, work that will let me do things I enjoy but don&amp;rsquo;t do enough of&lt;sup&gt;&lt;a href=&#34;#two&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and work that will give me a chance to learn what I don&amp;rsquo;t do at all yet&lt;sup&gt;&lt;a href=&#34;#three&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;HTML, CSS, JavaScript, jQuery, brainstorming and problem solving.&lt;/li&gt;
+&lt;li&gt;Responsive design, user experience testing, information architecture, interface design.&lt;/li&gt;
+&lt;li&gt;SVG, SASS, ePub.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I&amp;rsquo;m also looking for cheap places to say - friend of a friends who need house sitters or subletters, empty guest rooms and comfy couches. In London or Brighton in Aug and Sept and San Francisco or Berkeley from Oct-Dec.&lt;/p&gt;
+
+&lt;p&gt;If you have some work, a place to stay, or some advice for me I can be contacted on &lt;a href=&#34;http://www.linkedin.com/in/stephaniehobsonca&#34;&gt;LinkedIn&lt;/a&gt;, or &lt;a href=&#34;http://twitter.com/stephaniehobson&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;an-invocation-for-beginnings&#34;&gt;An Invocation for Beginnings&lt;/h2&gt;
+
+&lt;div class=&#34;youtube&#34;&gt;
+  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/RYlCVwxoL_g?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -42,8 +116,141 @@ I want to build something cool. I want to learn something new. I want to live in
       <pubDate>Wed, 14 Mar 2012 23:26:09 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/print-styles-responsive-design/</guid>
-      <description>Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?
-Yes, people still print web pages. Extrapolating from these numbers about 10,000 pages are printed from bcit.ca every month. The print experience is an important part of a good site and relying on your screen styles to print properly is foolish:</description>
+      <description>
+
+&lt;p&gt;Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?&lt;/p&gt;
+
+&lt;p&gt;Yes, people still print web pages. &lt;a href=&#34;http://devblog.xing.com/frontend/monitor-webpage-printouts/&#34;&gt;Extrapolating from these numbers&lt;/a&gt; about 10,000 pages are printed from bcit.ca every month. The print experience is an important part of a good site and relying on your screen styles to print properly is foolish:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Background images and colours are stripped.&lt;/li&gt;
+&lt;li&gt;Web fonts might turn into gibberish or not print at all.&lt;/li&gt;
+&lt;li&gt;Layout bugs can cause missing content.&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re ignoring the fact that paper is a totally different medium!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Printing can really screw up a web page.&lt;/p&gt;
+
+&lt;h2 id=&#34;avoid-common-problems&#34;&gt;Avoid common problems&lt;/h2&gt;
+
+&lt;p&gt;One of the most common problems I saw when doing my survey of print styles was white text printing on a white page. To save ink the browsers will strip all background colours and background images before printing so in your print style sheet be sure to over-ride any light coloured fonts. I also add a thin border to elements where the background colour is used on the screen to differentiate the content and reinforce the grid.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a variety of common layout bugs everything from floats to absolute, fixed, fixed-width, and semi-opaque elements can get cut off, misplaced, or disappeared entirely especially when the element flows across a page break. If it&amp;rsquo;s too wide some browsers will shrink your page until it fits and others will crop it. Where possible do away with your layout and make your content linear and fluid.&lt;/p&gt;
+
+&lt;p&gt;Web fonts introduce a new quandary to the world of print styles. &lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=468568&#34;&gt;FireFox&lt;/a&gt; and &lt;a href=&#34;http://code.google.com/p/chromium/issues/detail?id=98011&#34;&gt;Chrome&lt;/a&gt; don&amp;rsquo;t print web fonts. Have you ever seen a site with the word-spacing, line-height, and font-size picked for one font displaying its fallback font? It&amp;rsquo;s not usually a pretty picture. I recommend over-riding web fonts in favour of a common font, especially for body copy.&lt;/p&gt;
+
+&lt;h2 id=&#34;focus-on-content-and-save-paper&#34;&gt;Focus on content and save paper&lt;/h2&gt;
+
+&lt;p&gt;While you&amp;rsquo;re stripping your web fonts out, consider the readability of the rest of your typography. How does it look printed? If your page is being printed chances are someone is going to spend some time reading it - more time than they&amp;rsquo;d spend on your site. Do what you can to make that pleasant.&lt;/p&gt;
+
+&lt;p&gt;Layout elements like headers, footers, banners, ads, and menus distract from the information the user is trying consume, are un-usable on a printed page, and take up extra paper.  It&amp;rsquo;s very common to remove these elements when printing. A three-column page layout doesn&amp;rsquo;t look so bad on one short page but if your site has a substantial amount of content those columns will likely be empty from the second page onward leaving large fields of empty space or worse your columns will spread onto a second page when your content only filled the first. What&amp;rsquo;s your user going to do with that printed navigation menu anyway - click on it? How does that logo in your header look in black and white? Removing layout elements makes it much easier to make your remaining content fluid to avoid common print bugs and fit the page. Think about a better way to communicate the other information - more on this in a bit.&lt;/p&gt;
+
+&lt;h2 id=&#34;provide-a-better-print-experience&#34;&gt;Provide a better print experience&lt;/h2&gt;
+
+&lt;p&gt;Print doesn&amp;rsquo;t &lt;em&gt;work&lt;/em&gt; like a web page. The user can&amp;rsquo;t interact with it anymore all they can do is read it. Consider what that means for content on your page that you can&amp;rsquo;t normally see.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s some pretty fancy CSS tricks you can use to add the URL of links to the page in brackets after the link. I think I&amp;rsquo;ve seen it done best by the &lt;a hef=&#34;http://html5boilerplate.com/&#34;&gt;HTML5 boilerplate&lt;/a&gt; but I prefer to &lt;a href=&#34;http://www.alistapart.com/articles/improvingprint/&#34;&gt;add footnotes with javascript&lt;/a&gt;. This is much less disruptive for readers. Either way make sure you consider how you&amp;rsquo;ll handle links that aren&amp;rsquo;t URLs: javascript hooks, in page anchors, mailto or tel. These same tricks can be applied to abbreviation titles and other attributes.&lt;/p&gt;
+
+&lt;p&gt;Not all interactive content can be exposed. There&amp;rsquo;s no CSS trick to print a video or Flash file and frequently this missing content will just leave a big white gap in your page. Your options are pretty much: hide it, provide a place holder, include a short summary, or include a full transcript. I&amp;rsquo;ll leave the method up to you.&lt;/p&gt;
+
+&lt;p&gt;For content revealed by javascript my suggestion is to do your best to print the content that the user sees. If they&amp;rsquo;ve toggled open two out of ten of your FAQs, just print the full text of those two and leave the others closed. I&amp;rsquo;ve seen several sites which don&amp;rsquo;t include their global styles when printing but forget to include the styles their pages are dependant on in print stylesheets (this is most common with javascript). I can only imagine how frustrating that would be to a user.&lt;/p&gt;
+
+&lt;h2 id=&#34;provide-a-better-brand-experience&#34;&gt;Provide a better brand experience&lt;/h2&gt;
+
+&lt;p&gt;The most basic print styles make a page more readable &lt;a href=&#34;http://evolt.org/ResponsiveWebAndPrint&#34;&gt;at the expense of some of its character&lt;/a&gt; but we don&amp;rsquo;t just have to take away. You can include a print specific header and footer hidden in your HTML or add them later with javascript. This gives you a chance to include a black and white version of your logo and any other brand cues you feel are important. You might already be using a grid to maintain visual consistency between desktop and mobile, here&amp;rsquo;s your chance to do it in print too.&lt;/p&gt;
+
+&lt;p&gt;Other information you might consider adding in a print header or footer is: way-finding clues like a section or category name, general contact information like a 1-800 number (more useful than a link to a contact us page), and a short URL to help the user get back to that page. Some sites even include a QR code but &lt;abbr title=&#34;don&#39;t do it&#34;&gt;use your best judgement&lt;/abbr&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;speed-up-your-pages&#34;&gt;Speed up your pages&lt;/h2&gt;
+
+&lt;p&gt;It boggles my mind that browsers will still &lt;em&gt;delay rendering a page&lt;/em&gt; until it has loaded a style sheet with the media type of print. #seriously &lt;a href=&#34;http://www.phpied.com/files/css-loading/print.php&#34;&gt;#testyours&lt;/a&gt;. This article on &lt;a href=&#34;http://zoompf.com/blog/2009/12/browser-performance-problem-with-css-print-media-type&#34;&gt;Browser Performance Problem with CSS &amp;ldquo;print&amp;rdquo; Media Type&lt;/a&gt; outlines the problem really well.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re just trying to avoid the extra http request and your print styles are very small you can always just add them into your main CSS file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@media screen {
+/* screen styles here */
+}
+@media print {
+/* print styles here */
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Otherwise you can look at techniques to load them asynchronously. There&amp;rsquo;s a &lt;a href=&#34;https://web.archive.org/web/20120318141226/http://www.duncanmcdougall.co.uk:80/delay-loading-the-print-stylesheet&#34;&gt;couple&lt;/a&gt; &lt;a href=&#34;http://www.duncanmcdougall.co.uk/articles/delay-loading-print-stylesheet.html&#34;&gt;ways&lt;/a&gt; to do this.&lt;/p&gt;
+
+&lt;h2 id=&#34;seeing-it-in-action&#34;&gt;Seeing it in action&lt;/h2&gt;
+
+&lt;div style=&#34;text-align:center;margin:1em;&#34;&gt;
+    &lt;span style=&#34;width:25%;display:inline-block;padding-right:11%;vertical-align:top;&#34;&gt;
+        &lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/6836645818/&#34;&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;site.jpg&#34; alt=&#34;The original page has full colour images and a video&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span style=&#34;width:25%;display:inline-block;padding-right:11%;vertical-align:top;&#34;&gt;
+        &lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/6836681816//&#34;&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;before.jpg&#34; alt=&#34;Without a print style sheet there are blank spaces and useless information&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span style=&#34;width:25%;display:inline-block;vertical-align:top;&#34;&gt;
+        &lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/6836645794/&#34;&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;after.jpg&#34; alt=&#34;With a print style sheet only the primary page content prints, filling the page&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;On the left is our site on a screen, on the right how it looks formatted for print. In the middle, without any print styles, you can see it &lt;abbr title=&#34;has a number of problems&#34;&gt;goes boom&lt;/abbr&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The white logo is invisible&lt;/li&gt;
+&lt;li&gt;Chrome decides to crop rather than shrink the site to fit making it obvious things are not right.&lt;/li&gt;
+&lt;li&gt;Our grid falls apart without the background images.*   There are large gaps where the videos are.&lt;/li&gt;
+&lt;li&gt;The only useful information in the footer is pushed off screen by a sea of links.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Did you see what happens to the Bebas font we used on our section names? You caught me, this is a screen cap not a scan of a printed page. Bebas wouldn&amp;rsquo;t actually print and the 6 pixels of word spacing we have to apply to it to get it to play nice looks kind of silly on Arial Narrow.&lt;/p&gt;
+
+&lt;p&gt;Our print style sheet is loaded asynchronously after the rest of the page and at the same time I run functions to add a print header, print footer and the URLs of the links on the page as footnotes.&lt;/p&gt;
+
+&lt;p&gt;The screen header, sidebars, banners, and footer are hidden from display and I force the main content to become fluid again. Other than that the  actual body of the page needs only minor work because these styles are layered over our global styles. I darken up some text, remove videos and Flash elements, and on pages which don&amp;rsquo;t already have outdented headings I outdent the headings. If this page had javascript elements everything would print as the user left it before printing.&lt;/p&gt;
+
+&lt;p&gt;The print header includes a black and white version of our logo which prints nice and crisp compared to a colour one and uses a few thin lines to re-establish the grid creating a visual tie back the way the website looks on a monitor. It also includes the name of which section of the site the page is from and a shortened URL to return to the page.&lt;/p&gt;
+
+&lt;p&gt;The footnote function is complex enough to re-use a footnote if there are multiple links to the same page, provided a shortened URL if it&amp;rsquo;s an internal link, include fallback text for javascript links, and skip footnoting an email address if the address itself is all that&amp;rsquo;s included between the anchor tags (our style guide mandates this but the odd one slips through the cracks).&lt;/p&gt;
+
+&lt;p&gt;The very basic footer was a victim of time constraints. We couldn&amp;rsquo;t include our 1-800 number on all pages because it&amp;rsquo;s specific to Student Enrolment and wouldn&amp;rsquo;t be appropriate on business services pages, for example.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-tips&#34;&gt;Code tips&lt;/h2&gt;
+
+&lt;p&gt;If you have a large constantly evolving site I recommend making your global style sheets apply to both screen and print. It saves you the trouble of keeping two sets of stylesheets up to date when changes are made. That leaves you the task of over-riding some of the screen styles in the print style sheet. This will be much easier if you&amp;rsquo;re already &lt;a href=&#34;http://oli.jp/2011/ids/&#34;&gt;avoiding IDs for styling&lt;/a&gt;. If you&amp;rsquo;re not it &lt;a href=&#34;http://coding.smashingmagazine.com/2010/11/02/the-important-css-declaration-how-and-when-to-use-it/&#34;&gt;seems to be acceptable&lt;/a&gt; to sprinkle your print styles with !important declarations.&lt;/p&gt;
+
+&lt;h2 id=&#34;print-preview-lied-to-me-hicksdesign-https-twitter-com-hicksdesign-status-12243956069&#34;&gt;&lt;a href=&#34;https://twitter.com/#!/Hicksdesign/status/12243956069&#34;&gt;&amp;ldquo;Print preview lied to me.&amp;rdquo; - @hicksdesign&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Test until it&amp;rsquo;s perfect in print preview.
+Then test until it&amp;rsquo;s perfect when you print to PDF.
+Then test until it&amp;rsquo;s perfect when you &lt;em&gt;print it out &lt;strong&gt;on paper&lt;/strong&gt;&lt;/em&gt;.
+There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-information&#34;&gt;More information&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://coding.smashingmagazine.com/2011/11/24/how-to-set-up-a-print-style-sheet/&#34;&gt;How To Set Up A Print Style Sheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://designshack.net/articles/css/6-thinks-i-learned-about-print-stylesheets-from-html5-boilerplate/&#34;&gt;6 Things I Learned About Print Stylesheets From HTML5 Boilerplate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

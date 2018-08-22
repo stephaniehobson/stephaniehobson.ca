@@ -5,10 +5,10 @@
     <link>https://stephaniehobson.ca/tags/accomplishment/</link>
     <description>Recent content in Accomplishment on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-ca</language>
     <lastBuildDate>Tue, 10 Oct 2017 14:50:03 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/tags/accomplishment/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://stephaniehobson.ca/tags/accomplishment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +17,32 @@
       <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
-      <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
-   Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
+      <description>
+
+&lt;p&gt;Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at &lt;a href=&#34;http://2017.cssdevconf.com/&#34;&gt;CSS Dev Conf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/f9ppa6m4uNRzsR&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-80633870&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;links-i-mentioned-in-my-talk&#34;&gt;Links I mentioned in my talk&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://v6.robweychert.com/blog/2017/10/robtober/&#34;&gt;Rob Weychert&amp;rsquo;s horror films schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mdn/browser-compat-data&#34;&gt;MDN&amp;rsquo;s browser compat data in JSON&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -27,9 +51,48 @@
       <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
-      <description>I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!
-   Writing for Every Reader  from Stephanie Hobson   Here are my slides for Writing for Every Reader.
-Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content.</description>
+      <description>
+
+&lt;p&gt;I &lt;a href=&#34;http://conf.a11yto.com/talks#writingForEveryReader&#34;&gt;recently spoke at #a11yTOConf&lt;/a&gt;, a conference by the organizers of the regular &lt;a href=&#34;https://www.meetup.com/a11yTO/&#34;&gt;a11yTO meet-up&lt;/a&gt;. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/ozEG7wyJ5BvL00&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader&#34; target=&#34;_blank&#34;&gt;Writing for Every Reader&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Here are &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader/&#34;&gt;my slides for Writing for Every Reader&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources-i-mentioned&#34;&gt;Resources I mentioned:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.hemingwayapp.com/&#34;&gt;Hemingway App&lt;/a&gt;, the app that helps improve the readability of your content.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://beelinereader.com/&#34;&gt;BeeLine Reader&lt;/a&gt;, the browser plugin for dyslexics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;articles-that-were-helpful-to-me&#34;&gt;Articles that were helpful to me:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://webaim.org/articles/cognitive/&#34;&gt;Cognitive Disabilities&lt;/a&gt;, an introduction by WebAIM.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://csskarma.com/blog/dyslexia-typography&#34;&gt;Dyslexia and Typography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axesslab.com/fonts-dont-matter/&#34;&gt;Fonts don&amp;rsquo;t matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/chunking/&#34;&gt;How Chunking Helps Content Processing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/legibility-readability-comprehension/&#34;&gt;Legibility, Readability, and Comprehension: Making Users Read Your Words&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UKHomeOffice/posters&#34;&gt;Accessibility posters&lt;/a&gt; by the UK Home Office.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;more-on-accessibility&#34;&gt;More on accessibility:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://adrianroselli.com/2017/06/slides-from-wordcamp-europe.html&#34;&gt;Selfish Accessibility&lt;/a&gt; by Adrian Roselli got mentioned in a few different talks. It&amp;rsquo;s well worth watching.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -38,8 +101,16 @@ Resources I mentioned:  Hemingway App, the app that helps improve the readabilit
       <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
-      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
-The video of my talk has been posted:   And my slides are available here.</description>
+      <description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
+
+&lt;p&gt;The video of my talk has been posted:
+&lt;div class=&#34;youtube&#34;&gt;
+  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And &lt;a href=&#34;http://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -48,9 +119,30 @@ The video of my talk has been posted:   And my slides are available here.</descr
       <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
-      <description>I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.
-Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
-   Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   And the links I encouraged everyone to check out:</description>
+      <description>&lt;p&gt;I was very pleased to be invited back to &lt;a href=&#34;http://styleandclass.ca/events/2016/coding-mentorship-data/&#34;&gt;Style and Class&lt;/a&gt; to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.&lt;/p&gt;
+
+&lt;p&gt;Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;And the links I encouraged everyone to check out:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -59,11 +151,58 @@ Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
       <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
-      <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
-   HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
-Finished form (no peeking).
-Resources Basic Introductions
- Dive Into HTML5: A Form of Madness Have a Field Day with HTML5 Forms Making Forms Fabulous with HTML5 Forward Thinking Form Validation  CSS</description>
+      <description>
+
+&lt;p&gt;I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/fc8wSTwX7fQYZs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/html5-forms-of-doom&#34; target=&#34;_blank&#34;&gt;HTML5 Forms OF DOOM&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;../../html5forms/unfinished.html&#34;&gt;Sample form.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../../html5forms/finished.html&#34;&gt;Finished form (no peeking).&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Basic Introductions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://diveintohtml5.info/forms.html&#34;&gt;Dive Into HTML5: A Form of Madness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.html5rocks.com/en/tutorials/forms/html5forms/&#34;&gt;Making Forms Fabulous with HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alistapart.com/articles/forward-thinking-form-validation/&#34;&gt;Forward Thinking Form Validation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://html5doctor.com/css3-pseudo-classes-and-html5-forms/&#34;&gt;CSS3 Pseudo-Classes and HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Compatibility Specifics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wufoo.com/html5/&#34;&gt;The Current State of HTML5 Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://miketaylr.com/code/input-type-attr.html&#34;&gt;HTML5 inputs and attribute support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Shim&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ryanseddon/H5F&#34;&gt;Ryan Seddons&amp;rsquo;s H5F&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adactio.com/journal/4272/&#34;&gt;The design of datalist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -72,8 +211,25 @@ Resources Basic Introductions
       <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
-      <description>Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. Jeremy Keith once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.
-Most of us use Twitter to keep in touch with people we know and keep up with things we care about.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/perfectstranger&#34;&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;perfectstranger.jpg&#34; alt=&#34;Perfect Stranger&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. &lt;a href=&#34;http://adactio.com&#34;&gt;Jeremy Keith&lt;/a&gt; once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.&lt;/p&gt;
+
+&lt;p&gt;Most of us use Twitter to keep in touch with people we know and keep up with things we care about. It makes sense, it&amp;rsquo;s familiar and comforting but it blocks out people and ideas we disagree with and it ignores some of the most powerful potential of Twitter.&lt;/p&gt;
+
+&lt;p&gt;What are we missing by insulating ourselves with the familiar? A recent episode of &lt;a href=&#34;http://www.cbc.ca/spark/2010/08/joel-johnson-and-jonah-lehrer-on-following-complete-strangers-on-twitter/&#34;&gt;CBC&amp;rsquo;s Spark discussed the benefits of following a stranger&lt;/a&gt; with Joel Johnson who wrote a &lt;a href=&#34;http://gizmodo.com/5586970/why-i-stalk-a-sexy-black-woman-on-twitter-and-why-you-should-too&#34;&gt;Gizmodo article&lt;/a&gt; on the topic.&lt;/p&gt;
+
+&lt;p&gt;Not only can it help us avoid &lt;a href=&#34;http://en.wikipedia.org/wiki/Groupthink&#34;&gt;groupthink&lt;/a&gt; but Joel mentions a study that suggests exposure to other view points can make us more creative.&lt;/p&gt;
+
+&lt;p&gt;So I had the idea to create a twitter account that will add a random tweet to my feed now and then and when I mentioned it to &lt;a href=&#34;https://danielquinn.org/&#34;&gt;Daniel&lt;/a&gt; he took a few minutes and built it.&lt;/p&gt;
+
+&lt;p&gt;You should follow a &lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;@perfectstranger&lt;/a&gt; on Twitter, and let me know what you think.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -82,8 +238,51 @@ Most of us use Twitter to keep in touch with people we know and keep up with thi
       <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
-      <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
- Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
+      <description>&lt;p&gt;There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Desaturating the colours in the style sheet.&lt;/li&gt;
+&lt;li&gt;Desaturating every image on the site, that&amp;rsquo;s right, all of them.&lt;/li&gt;
+&lt;li&gt;Authentic content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/5584653410/&#34;&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;oldskool.jpg&#34; alt=&#34;The 1960s logo and a photo of giant &amp;#39;new&amp;#39; computer really make the home page look dated&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Desaturating the colours in the stylesheet.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I captured the colours in the stylesheet using the Web Developer Extension in FireFox. Information &amp;gt; View Color Information produces a list of all the colours used in the styles and their hex codes. I took a screen shot of that and then desaturated it in Photoshop by adding a desaturation layer.&lt;/p&gt;
+
+&lt;p&gt;Once I had the desaturated colours I did a find and replace for the original hex codes in the style sheet, sampling the new hex codes from my Photoshop document.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Desaturating all the images.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All the images? Yep, all the images.&lt;/p&gt;
+
+&lt;p&gt;For this I tried out a couple different javascript libraries but ultimately went with &lt;a href=&#34;https://mezzoblue.github.com/PaintbrushJS/demo/&#34;&gt;PaintBrushJS&lt;/a&gt; by &lt;a href=&#34;https://mezzoblue.com&#34;&gt;Dave Shea&lt;/a&gt; because it was the only one that could handle background images and didn&amp;rsquo;t add any extra elements to the page. PaintBrushJS uses a combination of javascript and canvas to alter the images.&lt;/p&gt;
+
+&lt;p&gt;For backwards compatibility I manually converted all the header and footer assets to black and white, this also meant I could restrict the desaturating javascript to running on just the content and leaving these pieces alone, taking a bit of a load off the client.&lt;/p&gt;
+
+&lt;p&gt;I actually had the easiest time getting it to work in IE&amp;hellip; there&amp;rsquo;s a filter. I wouldn&amp;rsquo;t have used an evil evil filter if it hadn&amp;rsquo;t just been for half of one day but it was so I did.&lt;/p&gt;
+
+&lt;p&gt;I think this kind of photo manipulation has a place in web design since it means we can keep the unaltered versions of files and change their rendering when we change the theme, that&amp;rsquo;s pretty powerful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Authentic Content.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We were lucky that the &lt;a href=&#34;http://www.bcit.ca/archives/&#34;&gt;BCIT Archives&lt;/a&gt; have begun digitizing much of their collection. We got a great deal of source material from the &lt;a href=&#34;http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf&#34;&gt;1968-69 Program and Course Catalogue&lt;/a&gt;. We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.&lt;/p&gt;
+
+&lt;p&gt;Nope, the logo wasn&amp;rsquo;t a Star Trek knock off, that&amp;rsquo;s what the future looked like in the 60s and both BCIT and Star Trek ran with it.&lt;/p&gt;
+
+&lt;p&gt;The content about campus events came from copies of the student news paper from the same era. My favourite of the new stories was about how BCIT was getting its &lt;em&gt;second&lt;/em&gt; computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It was a lot of fun and I&amp;rsquo;m glad we work at the kind of place that was keen to let us do it.&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -92,7 +291,8 @@ Most of us use Twitter to keep in touch with people we know and keep up with thi
       <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid>
-      <description>Just updated the look of Mum&amp;rsquo;s campaign website: Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville. I changed everything without altering one line of HTML, man do I love CSS (IE6, I still hate you).</description>
+      <description>&lt;p&gt;Just updated the look of Mum&amp;rsquo;s campaign website: &lt;a href=&#34;http://barbhobson.ca&#34;&gt;Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville&lt;/a&gt;.  I changed everything without altering one line of HTML, man do I love CSS &lt;small&gt;(IE6, I still hate you)&lt;/small&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -101,7 +301,32 @@ Most of us use Twitter to keep in touch with people we know and keep up with thi
       <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
-      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
+      <description>&lt;p&gt;Almost a year ago now the &lt;a href=&#34;https://bcitbookstore.ca&#34;&gt;BCIT Bookstore&lt;/a&gt; let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site.  The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.&lt;/p&gt;
+
+&lt;p&gt;I had a look at the application and decided we could do better than that so I asked my manager if I could do some follow up and he said it was okay as long as it didn&amp;rsquo;t interfere with my other work.&lt;/p&gt;
+
+&lt;p&gt;I met with the Bookstore intending only to talk about the web app but ended up talking about their static store front just as much.  Because of the way their inventory and software work they have not one but three online stores and they have trouble communicating the difference to their customers.  They also felt like some of their most important information, like their return policy, was buried.&lt;/p&gt;
+
+&lt;p&gt;Skinning the e-commerce sites was relatively easy.  The new version of the application was set up logically with good CSS tags and lots of includes.  Not only that, the default layout was very easy to transform into the existing template I wanted to mimic.&lt;/p&gt;
+
+&lt;p&gt;I started off with this:
+&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/55n4v1&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1179/1116075730_3f24897c6b_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;BCIT Bookstore Store - Original&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And created this:
+&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/n1jY39&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1419/1116007176_a9513dd1a0_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;Bookstore Store - New Version&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For the static store front I made some changes to the left navigation based on the most desired pages, created three clear calls to action, placed the catch all action at the bottom of the list instead of the top of the list of options, and separated the two  unrelated messages contained in the single page block on the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/LUT5X7&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1049/1115949204_8f4502331e_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;Original BCIT Bookstore&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/PWPA1R&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1397/1115948514_4dc00bb7d2_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;BCIT Bookstore with some touch ups&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I worked off the side of my desk for a few months on it, meeting with the bookstore a few times, and when I was done they were happy enough with the results to email my manager and thank me in the Campus Update newsletter!&lt;/p&gt;
+
+&lt;p&gt;My manger called me into his office to talk about it and I thought, &amp;ldquo;Uh-oh, what if he&amp;rsquo;s upset I spent so much time working on this?&amp;rdquo; But I worried unnecessarily since he proceeded to tell me how it was good interaction design :)&lt;/p&gt;
+
+&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;http://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -110,8 +335,10 @@ Most of us use Twitter to keep in touch with people we know and keep up with thi
       <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
-      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
-A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
+      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;../../posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
+
+&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -120,8 +347,16 @@ A second video of ours was chosen as a featured clip. If you got to the page wit
       <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
-      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
-As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+      <description>&lt;p&gt;I was in Winnipeg speaking at the &lt;abbr title=&#34;Canadian Association for Distance Education&#34;&gt;CADE&lt;/abbr&gt;/&lt;abbr title=&#34;Association for Media and Technology in Education in Canada&#34;&gt;AMTECH&lt;/abbr&gt; Conference last week.  The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).&lt;/p&gt;
+
+&lt;p&gt;As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.  Throughout the journey he used blogging, digital photography, virtual lecture software, shared file storage space, and of course e-mail to keep in touch which his students and communicate with the world.&lt;/p&gt;
+
+&lt;p&gt;Terry Fuller, the instructional development coordinator that was helping Danny with the project submitted a paper to CADE to talk about &amp;ldquo;Using the Internet to make Meaningful Global Connections in the Classroom.&amp;ldquo;  I was involved in creating the &lt;a href=&#34;http://blogs.bcit.ca/catttrax2/&#34;&gt;web page and blog&lt;/a&gt; that was the highlight of the project and Terry asked me to talk about the &amp;ldquo;technical&amp;rdquo; side of designing the website.&lt;/p&gt;
+
+&lt;p&gt;Rather than boring the crowd with PHP, HTML, CSS, CMS and other &lt;abbr title=&#34;three letter acronyms&#34;&gt;TLA&lt;/abbr&gt;s.  I talked about the rest of the stuff that goes into the design process: user needs, site objectives, functional specifications, content requirements, information architecture, navigation design, visual design, and &lt;a href=&#34;http://www.jjg.net/elements/pdf/elements.pdf&#34; title=&#34;Jesse James Garrett&#34;&gt;all that good stuff&lt;/a&gt; but for those of you who care the site was driven by Drupal and included a XML driven flash photo gallery, a Google map mashup, and some video and audio recordings, though not as many as we&amp;rsquo;d hoped - apparently it&amp;rsquo;s tough to upload media files from the middle of the Amazon - who knew?&lt;/p&gt;
+
+&lt;p&gt;The project was a lot of fun and very different my usual daily duties.  I&amp;rsquo;ll post a summary and the slides soon.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
