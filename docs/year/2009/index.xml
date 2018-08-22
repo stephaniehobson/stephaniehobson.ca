@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2009 on Stephanie Hobson</title>
-    <link>http://stephaniehobson.ca/year/2009/</link>
+    <link>https://stephaniehobson.ca/year/2009/</link>
     <description>Recent content in 2009 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Dec 2009 22:16:51 +0000</lastBuildDate>
     
-	<atom:link href="http://stephaniehobson.ca/year/2009/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/year/2009/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I lie to Batman</title>
-      <link>http://stephaniehobson.ca/posts/i-lie-to-batman/</link>
+      <link>https://stephaniehobson.ca/posts/i-lie-to-batman/</link>
       <pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/i-lie-to-batman/</guid>
+      <guid>https://stephaniehobson.ca/posts/i-lie-to-batman/</guid>
       <description>Note: If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts they have their own tag now.
 I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.
 It&amp;rsquo;s Robin all the way.
@@ -25,20 +25,20 @@ Not Dick Grayson, Jason Todd, or Tim Drake - Robin.</description>
     
     <item>
       <title>Maintaining your CSS helps maintain your site</title>
-      <link>http://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
+      <link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
       <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid>
+      <guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid>
       <description>Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.
 Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).</description>
     </item>
     
     <item>
       <title>Why Abstract Sequential?</title>
-      <link>http://stephaniehobson.ca/posts/why-abstract-sequential/</link>
+      <link>https://stephaniehobson.ca/posts/why-abstract-sequential/</link>
       <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
+      <guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
       <description>Short answer: it&amp;rsquo;s my thinking style :)
 It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
 It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
@@ -46,30 +46,30 @@ It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Greg
     
     <item>
       <title>Imperfect Pitch</title>
-      <link>http://stephaniehobson.ca/posts/imperfect-pitch/</link>
+      <link>https://stephaniehobson.ca/posts/imperfect-pitch/</link>
       <pubDate>Tue, 03 Nov 2009 13:07:02 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/imperfect-pitch/</guid>
+      <guid>https://stephaniehobson.ca/posts/imperfect-pitch/</guid>
       <description>There&amp;rsquo;s been a lot of talk about copyright in Canada lately since we&amp;rsquo;ve been trying to perfect the updates the Conservatives are pitching to our outdated copyright legislation - so reading about Jeremy&amp;rsquo;s copyright woes in his recent post Perfect Pitch really struck a chord.
 He discovered a page in The Sessions&amp;rsquo;s discussion form about perfect pitch had been removed from Google search results due to a copyright infringement accusation by a company that makes a product called Perfect Pitch - the page isn&amp;rsquo;t about the product and, in fact, barely mentions it.</description>
     </item>
     
     <item>
       <title>Quick spam solution for email forms</title>
-      <link>http://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link>
+      <link>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link>
       <pubDate>Fri, 30 Oct 2009 22:23:53 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
+      <guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
       <description>I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.
 The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.</description>
     </item>
     
     <item>
       <title>Why I follow my heroes on Twitter</title>
-      <link>http://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link>
+      <link>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link>
       <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
+      <guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
       <description>A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;
 I just want to go on the record and say I like the personal tweets.
 I like knowing that despite their mega awesome coding skills they still have problems with clients.</description>
@@ -77,20 +77,20 @@ I like knowing that despite their mega awesome coding skills they still have pro
     
     <item>
       <title>Should I stay or should I go?</title>
-      <link>http://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link>
+      <link>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link>
       <pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid>
+      <guid>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid>
       <description>What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, boring for me and for you. So I&amp;rsquo;m thinking of re-doing it.
 I&amp;rsquo;m going to use this site to bring together all my activities from around the web in one place.</description>
     </item>
     
     <item>
       <title>What would you change?</title>
-      <link>http://stephaniehobson.ca/posts/what-would-you-change/</link>
+      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
       <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/what-would-you-change/</guid>
+      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
       <description>Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.
 BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and What Would You Change?</description>
     </item>

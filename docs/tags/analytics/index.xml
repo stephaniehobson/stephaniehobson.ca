@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analytics on Stephanie Hobson</title>
-    <link>http://stephaniehobson.ca/tags/analytics/</link>
+    <link>https://stephaniehobson.ca/tags/analytics/</link>
     <description>Recent content in Analytics on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Jul 2016 09:38:57 +0000</lastBuildDate>
     
-	<atom:link href="http://stephaniehobson.ca/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Google Analytics, Privacy, and Event Tracking</title>
-      <link>http://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
+      <link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
       <pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
+      <guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
       <description>This article was originally published on the Mozilla Hacks blog.
 Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.
 Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet.</description>
@@ -24,10 +24,10 @@ Because these services are installed on multiple websites these third-parties ca
     
     <item>
       <title>Intro to Google Tag Manager</title>
-      <link>http://stephaniehobson.ca/posts/google-tag-manager-intro/</link>
+      <link>https://stephaniehobson.ca/posts/google-tag-manager-intro/</link>
       <pubDate>Wed, 04 Jun 2014 22:01:01 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
+      <guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
       <description>Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).
 What is GTM You include a code snippet from GTM on your site which, among other things, includes a file. Then you use the GTM interface to configure what goes in that file.</description>
     </item>

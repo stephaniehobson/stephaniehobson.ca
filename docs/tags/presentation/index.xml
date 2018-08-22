@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentation on Stephanie Hobson</title>
-    <link>http://stephaniehobson.ca/tags/presentation/</link>
+    <link>https://stephaniehobson.ca/tags/presentation/</link>
     <description>Recent content in Presentation on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Oct 2017 14:50:03 +0000</lastBuildDate>
     
-	<atom:link href="http://stephaniehobson.ca/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Flipping Tables at CSSDevConf</title>
-      <link>http://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
+      <link>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
       <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
+      <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
       <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
     </item>
     
     <item>
       <title>Writing for Every Reader</title>
-      <link>http://stephaniehobson.ca/posts/writing-for-every-reader/</link>
+      <link>https://stephaniehobson.ca/posts/writing-for-every-reader/</link>
       <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
+      <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
       <description>I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!
    Writing for Every Reader  from Stephanie Hobson   Here are my slides for Writing for Every Reader.
 Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content.</description>
@@ -34,20 +34,20 @@ Resources I mentioned:  Hemingway App, the app that helps improve the readabilit
     
     <item>
       <title>Flipping More Tables</title>
-      <link>http://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
       <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
       <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
 The video of my talk has been posted:   And my slides are available here.</description>
     </item>
     
     <item>
       <title>Flipping Tables</title>
-      <link>http://stephaniehobson.ca/posts/flipping-tables/</link>
+      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
       <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/flipping-tables/</guid>
+      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
       <description>I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.
 Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
    Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   And the links I encouraged everyone to check out:</description>
@@ -55,10 +55,10 @@ Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
     
     <item>
       <title>(Still) Making Websites Better for Everyone</title>
-      <link>http://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link>
+      <link>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link>
       <pubDate>Tue, 27 Oct 2015 18:40:28 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid>
+      <guid>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid>
       <description>In the next few weeks I&amp;rsquo;ll be speaking at JavaScript Open Day Calgary, View Source, and JavaScript Open Day Toronto giving an updated version of Web Accessibility: Making Websites Better for Everyone.
 Edit: videos have been posted for View Source and JavaScript Open Day Toronto. I&amp;rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.
 In my talk I encourage people to try out different assistive technologies themselves:</description>
@@ -66,10 +66,10 @@ In my talk I encourage people to try out different assistive technologies themse
     
     <item>
       <title>How To Debug CSS</title>
-      <link>http://stephaniehobson.ca/posts/how-to-debug-css/</link>
+      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
       <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/how-to-debug-css/</guid>
+      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
       <description>Some quick notes and links for the talk I gave at WordCamp Vancouver about Debugging CSS.
 Edit: You can now watch a recording of Debugging CSS. Spot the three projector failures!
   Steps  Is the HTML valid? Is the CSS valid? Is the right CSS being applied?  Is what you typed being applied? Is other stuff being applied? Is what&amp;rsquo;s being applied right?  Does CSS support what you’re doing?</description>
@@ -77,10 +77,10 @@ Edit: You can now watch a recording of Debugging CSS. Spot the three projector f
     
     <item>
       <title>Mobile First Is Performance First</title>
-      <link>http://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link>
+      <link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link>
       <pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid>
+      <guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid>
       <description>Tonight I spoke at Vancouver Web Performance Meetup and I promised to share my slides so here they are:
    Mobile First Is Performance First  from Stephanie Hobson   If what you&amp;rsquo;re really after are the links, let me save you a bit of time:
  Patrick Hamann - Building theguardian.com (slides) and Breaking News at 1000ms (video) Paul Irish - Delivering the Goods in under 1000ms (video) Scott Jehl - Responsible Responsive Design (book) Ilya Grigorik - High Performance Browser Networking” (book - free online!</description>
@@ -88,10 +88,10 @@ Edit: You can now watch a recording of Debugging CSS. Spot the three projector f
     
     <item>
       <title>Making Websites Better for Everyone</title>
-      <link>http://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
+      <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
       <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
+      <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
       <description>There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.
 The most detailed (and longest) version of my talk is available to watch on Wordpress TV.
 My first slide deck and links to the resources I recommend are part of an earlier blog post.
@@ -100,20 +100,20 @@ In the most recent version of my talk I used a demo of a fictional hosting compa
     
     <item>
       <title>Accessibility with CSS: Making Websites Better for Everyone</title>
-      <link>http://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
+      <link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
       <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
+      <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
       <description> Last night I spoke at the Style &amp;amp; Class Meet-up about Accessibility and CSS. Posting the slides here for posterity:
    Accessibility with CSS: Making Websites Better for Everyone  from Stephanie Hobson   Resources  Intro to Accessibility WCAG Validator Intro to ARIA :Focus and keyboard accessibility High contrast CSS Sprites Bullet Proof Accessible Icon Fonts The Offscreen Class Floating Form Labels Javascript fix for Skip Links  </description>
     </item>
     
     <item>
       <title>HTML5 Forms OF DOOM</title>
-      <link>http://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
+      <link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
       <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
+      <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
       <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
    HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
 Finished form (no peeking).
@@ -123,20 +123,20 @@ Resources Basic Introductions
     
     <item>
       <title>CADE/AMTECH Conference</title>
-      <link>http://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
       <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
       <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
 As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
     </item>
     
     <item>
       <title>I&#39;m presenting at a conference!</title>
-      <link>http://stephaniehobson.ca/posts/im-presenting-at-a-conference/</link>
+      <link>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</link>
       <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/im-presenting-at-a-conference/</guid>
+      <guid>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</guid>
       <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
     </item>
     

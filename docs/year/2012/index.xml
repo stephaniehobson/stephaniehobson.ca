@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2012 on Stephanie Hobson</title>
-    <link>http://stephaniehobson.ca/year/2012/</link>
+    <link>https://stephaniehobson.ca/year/2012/</link>
     <description>Recent content in 2012 on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Jul 2012 16:26:19 +0000</lastBuildDate>
     
-	<atom:link href="http://stephaniehobson.ca/year/2012/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/year/2012/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML5 Forms OF DOOM</title>
-      <link>http://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
+      <link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
       <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
+      <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
       <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
    HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
 Finished form (no peeking).
@@ -26,10 +26,10 @@ Resources Basic Introductions
     
     <item>
       <title>Leave</title>
-      <link>http://stephaniehobson.ca/posts/leave/</link>
+      <link>https://stephaniehobson.ca/posts/leave/</link>
       <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/leave/</guid>
+      <guid>https://stephaniehobson.ca/posts/leave/</guid>
       <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
 Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
 I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
@@ -38,10 +38,10 @@ I want to build something cool. I want to learn something new. I want to live in
     
     <item>
       <title>Print Styles Are Responsive Design</title>
-      <link>http://stephaniehobson.ca/posts/print-styles-responsive-design/</link>
+      <link>https://stephaniehobson.ca/posts/print-styles-responsive-design/</link>
       <pubDate>Wed, 14 Mar 2012 23:26:09 +0000</pubDate>
       
-      <guid>http://stephaniehobson.ca/posts/print-styles-responsive-design/</guid>
+      <guid>https://stephaniehobson.ca/posts/print-styles-responsive-design/</guid>
       <description>Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?
 Yes, people still print web pages. Extrapolating from these numbers about 10,000 pages are printed from bcit.ca every month. The print experience is an important part of a good site and relying on your screen styles to print properly is foolish:</description>
     </item>
