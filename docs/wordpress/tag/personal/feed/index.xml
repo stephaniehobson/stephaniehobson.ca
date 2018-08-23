@@ -8,7 +8,7 @@
     <language>en-ca</language>
     <lastBuildDate>Thu, 24 May 2012 23:02:56 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://stephaniehobson.ca/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,10 +17,37 @@
       <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/leave/</guid>
-      <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
-Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
-I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
-I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long.</description>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1&lt;sup&gt;st&lt;/sup&gt;, 2012.&lt;/p&gt;
+
+&lt;p&gt;Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.&lt;/p&gt;
+
+&lt;p&gt;I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long. I want to get to know the friends that I&amp;rsquo;ve made in my travels but never lived near.&lt;/p&gt;
+
+&lt;p&gt;Along the way I&amp;rsquo;d going to have to do a bit of work. Contract/sub-contract work I can do remotely while I&amp;rsquo;m traveling or job offers in San Francisco and London that will help me with the paperwork to work there.&lt;/p&gt;
+
+&lt;p&gt;Work that will let me do what I do really well&lt;sup&gt;&lt;a href=&#34;#one&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, work that will let me do things I enjoy but don&amp;rsquo;t do enough of&lt;sup&gt;&lt;a href=&#34;#two&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and work that will give me a chance to learn what I don&amp;rsquo;t do at all yet&lt;sup&gt;&lt;a href=&#34;#three&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;HTML, CSS, JavaScript, jQuery, brainstorming and problem solving.&lt;/li&gt;
+&lt;li&gt;Responsive design, user experience testing, information architecture, interface design.&lt;/li&gt;
+&lt;li&gt;SVG, SASS, ePub.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I&amp;rsquo;m also looking for cheap places to say - friend of a friends who need house sitters or subletters, empty guest rooms and comfy couches. In London or Brighton in Aug and Sept and San Francisco or Berkeley from Oct-Dec.&lt;/p&gt;
+
+&lt;p&gt;If you have some work, a place to stay, or some advice for me I can be contacted on &lt;a href=&#34;http://www.linkedin.com/in/stephaniehobsonca&#34;&gt;LinkedIn&lt;/a&gt;, or &lt;a href=&#34;http://twitter.com/stephaniehobson&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;an-invocation-for-beginnings&#34;&gt;An Invocation for Beginnings&lt;/h2&gt;
+
+&lt;div class=&#34;youtube&#34;&gt;
+  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/RYlCVwxoL_g?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -29,8 +56,25 @@ I want to build something cool. I want to learn something new. I want to live in
       <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
-      <description>Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. Jeremy Keith once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.
-Most of us use Twitter to keep in touch with people we know and keep up with things we care about.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/perfectstranger&#34;&gt;
+&lt;figure&gt;
+    
+        &lt;img src=&#34;perfectstranger.jpg&#34; alt=&#34;Perfect Stranger&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. &lt;a href=&#34;http://adactio.com&#34;&gt;Jeremy Keith&lt;/a&gt; once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.&lt;/p&gt;
+
+&lt;p&gt;Most of us use Twitter to keep in touch with people we know and keep up with things we care about. It makes sense, it&amp;rsquo;s familiar and comforting but it blocks out people and ideas we disagree with and it ignores some of the most powerful potential of Twitter.&lt;/p&gt;
+
+&lt;p&gt;What are we missing by insulating ourselves with the familiar? A recent episode of &lt;a href=&#34;http://www.cbc.ca/spark/2010/08/joel-johnson-and-jonah-lehrer-on-following-complete-strangers-on-twitter/&#34;&gt;CBC&amp;rsquo;s Spark discussed the benefits of following a stranger&lt;/a&gt; with Joel Johnson who wrote a &lt;a href=&#34;http://gizmodo.com/5586970/why-i-stalk-a-sexy-black-woman-on-twitter-and-why-you-should-too&#34;&gt;Gizmodo article&lt;/a&gt; on the topic.&lt;/p&gt;
+
+&lt;p&gt;Not only can it help us avoid &lt;a href=&#34;http://en.wikipedia.org/wiki/Groupthink&#34;&gt;groupthink&lt;/a&gt; but Joel mentions a study that suggests exposure to other view points can make us more creative.&lt;/p&gt;
+
+&lt;p&gt;So I had the idea to create a twitter account that will add a random tweet to my feed now and then and when I mentioned it to &lt;a href=&#34;https://danielquinn.org/&#34;&gt;Daniel&lt;/a&gt; he took a few minutes and built it.&lt;/p&gt;
+
+&lt;p&gt;You should follow a &lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;@perfectstranger&lt;/a&gt; on Twitter, and let me know what you think.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -39,14 +83,32 @@ Most of us use Twitter to keep in touch with people we know and keep up with thi
       <pubDate>Fri, 08 Jan 2010 19:09:46 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/2009/</guid>
-      <description>My year in review Powazek style.
-JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.
-FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.
-MAR: Giants Fan Bus.
-APR: I check into my first Gowalla spot.
-MAY: My temporary roommate drops her phone down an elevator shaft after a Colonel Panic concert. Ultimate with H.A.M.M.E.R. starts.
-JUN: Program catalogue launch. Asthon Lane, Inverness and @media.
-JUL: Fireworks with Sue. Decemberists.</description>
+      <description>&lt;p&gt;My year in review &lt;a href=&#34;https://powazek.com/posts/2219&#34;&gt;Powazek style&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.&lt;/p&gt;
+
+&lt;p&gt;FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.&lt;/p&gt;
+
+&lt;p&gt;MAR: Giants Fan Bus.&lt;/p&gt;
+
+&lt;p&gt;APR: I check into my first &lt;a href=&#34;http://gowalla.com&#34;&gt;Gowalla&lt;/a&gt; spot.&lt;/p&gt;
+
+&lt;p&gt;MAY: My temporary roommate drops her phone down an elevator shaft after a &lt;a href=&#34;http://colonelpanic.ca/&#34;&gt;Colonel Panic&lt;/a&gt; concert. Ultimate with H.A.M.M.E.R. starts.&lt;/p&gt;
+
+&lt;p&gt;JUN: Program catalogue launch. Asthon Lane, Inverness and @media.&lt;/p&gt;
+
+&lt;p&gt;JUL: Fireworks with Sue. Decemberists.&lt;/p&gt;
+
+&lt;p&gt;AUG: Camping. Victoria. Drive-in movie. Summerland.&lt;/p&gt;
+
+&lt;p&gt;SEP: Copyfight. Franz Ferdinand and Great Big Sea.&lt;/p&gt;
+
+&lt;p&gt;OCT: Barcamp. Whistler.&lt;/p&gt;
+
+&lt;p&gt;NOV: Hopscotch. Bought the hat. San Francisco. Bad things happen to good people.&lt;/p&gt;
+
+&lt;p&gt;DEC: UXCamp. We survived Christmas party. Quebec.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -55,10 +117,27 @@ JUL: Fireworks with Sue. Decemberists.</description>
       <pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/i-lie-to-batman/</guid>
-      <description>Note: If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts they have their own tag now.
-I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.
-It&amp;rsquo;s Robin all the way.
-Not Dick Grayson, Jason Todd, or Tim Drake - Robin.</description>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts &lt;a href=&#34;../../tags/webdesign/&#34;&gt;they have their own tag now&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s Robin all the way.&lt;/p&gt;
+
+&lt;p&gt;Not Dick Grayson,  Jason Todd, or Tim Drake - Robin. You know, that colourful target that swings into action next to the dark knight.&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;robin.jpg&#34; alt=&#34;Don&amp;#39;t doubt Robin is a bad ass. He lies to Batman.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I like the idea that Batman needs a little bit of light to balance his darkness. I like the energy, optimism, and ingenuity of a kid fighting in an adult world.&lt;/p&gt;
+
+&lt;p&gt;Who&amp;rsquo;s your favourite?&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -67,9 +146,16 @@ Not Dick Grayson, Jason Todd, or Tim Drake - Robin.</description>
       <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
-      <description>Short answer: it&amp;rsquo;s my thinking style :)
-It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
-It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
+      <description>&lt;p&gt;Short answer: it&amp;rsquo;s my thinking style :)&lt;/p&gt;
+
+&lt;p&gt;It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater. The thinking styles are actually very useful for figuring out how to deal with people. For example, if you&amp;rsquo;re discussing something with me you&amp;rsquo;re more likely to persuade me with logic than heartfelt pleas ;)&lt;/p&gt;
+
+&lt;p&gt;The other three styles are: abstract random, concrete random, and concrete sequential. The fun stuff starts once you know which you are or which one that person at work who drives you up the wall is. Floating Neutrinos has a great information page summarizing each style&amp;rsquo;s&lt;a href=&#34;http://www.floatingneutrinos.com/Message/arcs/links_on_abstractrandom.htm&#34;&gt; learning preferences, strengths, and weaknesses&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You may be able to figure out which one is you just by&lt;a href=&#34;http://people.usd.edu/~ssanto/gregorc.html&#34;&gt; reading the descriptions&lt;/a&gt;, but here&amp;rsquo;s a good old fashioned &lt;a href=&#34;http://www.thelearningweb.net/personalthink.html&#34;&gt;pen and paper quiz&lt;/a&gt; to help you figure it out.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -78,9 +164,25 @@ It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Greg
       <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
-      <description>A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;
-I just want to go on the record and say I like the personal tweets.
-I like knowing that despite their mega awesome coding skills they still have problems with clients.</description>
+      <description>&lt;p&gt;A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I just want to go on the record and say I &lt;em&gt;like&lt;/em&gt; the personal tweets.&lt;/p&gt;
+
+&lt;p&gt;I like knowing that despite their mega awesome coding skills they still have problems with clients.&lt;/p&gt;
+
+&lt;p&gt;I like knowing that while working on that beautiful design they spent an hour moving something 2 pixels to the left and then 2 pixels to the right, and then 2 pixels to the left..&lt;/p&gt;
+
+&lt;p&gt;I like knowing that they still get nervous about giving presentations, lie awake at night wondering which tag would be more semantic, over dose on caffeine or have a sushi addiction.&lt;/p&gt;
+
+&lt;p&gt;I like knowing that despite their commitment to user experience design, web standards, and innovation, they all go home at the end of the day to people and things they think are more important than their work - and those aren&amp;rsquo;t always going the way they want either.&lt;/p&gt;
+
+&lt;p&gt;I like knowing that they&amp;rsquo;re human, because it makes it okay for me to be human too.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In case you&amp;rsquo;re wondering who I&amp;rsquo;m talking about:
+&lt;a href=&#34;http://twitter.com/zeldman&#34;&gt;zeldman&lt;/a&gt; &lt;a href=&#34;http://twitter.com/fraying&#34;&gt;fraying&lt;/a&gt; &lt;a href=&#34;http://twitter.com/meyerweb&#34;&gt;meyerweb&lt;/a&gt; &lt;a href=&#34;http://twitter.com/hchamp&#34;&gt;hchamp&lt;/a&gt; &lt;a href=&#34;http://twitter.com/mezzoblue&#34;&gt;mezzoblue&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -89,8 +191,21 @@ I like knowing that despite their mega awesome coding skills they still have pro
       <pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/eight-random-things/</guid>
-      <description>In the spirit of Jeremy Keith&amp;rsquo;s post, here&amp;rsquo;s 8 random things I see about me:
- Black queen carved like Raven. Small brass Buddha. Wind up penguin. iPhone. Microformats pocket cheat sheet. Salt. 8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;. Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;  You&amp;rsquo;re it.</description>
+      <description>&lt;p&gt;In the spirit of &lt;a href=&#34;https://adactio.com/journal/1449&#34;&gt;Jeremy Keith&amp;rsquo;s post&lt;/a&gt;, here&amp;rsquo;s 8 random things I see about me:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Black queen carved like Raven.&lt;/li&gt;
+&lt;li&gt;Small brass Buddha.&lt;/li&gt;
+&lt;li&gt;Wind up penguin.&lt;/li&gt;
+&lt;li&gt;iPhone.&lt;/li&gt;
+&lt;li&gt;Microformats pocket cheat sheet.&lt;/li&gt;
+&lt;li&gt;Salt.&lt;/li&gt;
+&lt;li&gt;8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You&amp;rsquo;re it.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -99,8 +214,10 @@ I like knowing that despite their mega awesome coding skills they still have pro
       <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
-      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
-A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
+      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;../../posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
+
+&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -109,9 +226,16 @@ A second video of ours was chosen as a featured clip. If you got to the page wit
       <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
-      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
-Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
- From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
+      <description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
+
+&lt;p&gt;Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hVsxOxE_F1s&#34;&gt;From computer to computer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y98qg9pa87E&#34;&gt;Chin up bars with fancy editing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9jZpK5wYkBM&#34;&gt;Gmail for lunch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -120,48 +244,10 @@ Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help,
       <pubDate>Tue, 24 Apr 2007 17:58:15 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/working-hard/</guid>
-      <description>Or hardly working?
-When the network goes down the whole department starts acting like school kids when the power goes out. We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)</description>
-    </item>
-    
-    <item>
-      <title>Striving for excellence</title>
-      <link>https://stephaniehobson.ca/posts/striving-for-excellence/</link>
-      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/striving-for-excellence/</guid>
-      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
-I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
-    </item>
-    
-    <item>
-      <title>Where am I going with this?</title>
-      <link>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</link>
-      <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</guid>
-      <description>Vivian is such a great motivator. I&amp;rsquo;m still sorry to see her go.
-I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.
-She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.</description>
-    </item>
-    
-    <item>
-      <title>What&#39;s keeping me busy?</title>
-      <link>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</link>
-      <pubDate>Mon, 05 Mar 2007 12:16:18 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</guid>
-      <description>Well, outside of my day job I&amp;rsquo;m:
- making my Mum a website moving hosting servers for digitalphoenix.ca learning cgi so I can create an auto generated thank you message for HOPE&amp;rsquo;s donors taking Mandarin (what was I thinking?)  </description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://stephaniehobson.ca/posts/hello-world/</link>
-      <pubDate>Mon, 05 Mar 2007 01:53:59 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/hello-world/</guid>
-      <description>I&amp;rsquo;ve been wanting a professional blog for a while now. It&amp;rsquo;s funny how there&amp;rsquo;s somethings you can tell complete strangers and there&amp;rsquo;s some things you can&amp;rsquo;t.</description>
+      <description>&lt;p&gt;Or hardly working?&lt;/p&gt;
+
+&lt;p&gt;When the network goes down the whole department starts acting like school kids when the power goes out.  We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

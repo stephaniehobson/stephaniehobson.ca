@@ -8,7 +8,7 @@
     <language>en-ca</language>
     <lastBuildDate>Tue, 31 Oct 2017 21:19:14 +0000</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/year/2017/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://stephaniehobson.ca/year/2017/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,9 +17,64 @@
       <pubDate>Tue, 31 Oct 2017 21:19:14 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</guid>
-      <description>This article was originally published on Mozilla’s Hacks Blog.
-As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.
-The View Source Conference website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</description>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This article was originally published on Mozilla’s &lt;a href=&#34;https://hacks.mozilla.org/2017/10/how-we-rebuilt-the-viewsourceconf-org-website/&#34;&gt;Hacks Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://viewsourceconf.org/&#34;&gt;View Source Conference&lt;/a&gt; website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.&lt;/p&gt;
+
+&lt;p&gt;Here are a few highlights of the architectural decisions we made to make the site faster, more secure, and more reliable.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-static-site&#34;&gt;A Static Site&lt;/h2&gt;
+
+&lt;p&gt;When a user requests a page from a CMS (content management system) like Wordpress the server puts it together from databases and templates. This takes the server a small amount of time. When a site is built on request like this we call it a &amp;ldquo;dynamic&amp;rdquo; website.&lt;/p&gt;
+
+&lt;p&gt;When a user requests a page from a static site the server only has to find and serve one file. It’s faster and takes fewer resources. We used a &lt;a href=&#34;https://www.sitepoint.com/7-reasons-use-static-site-generator/&#34;&gt;static site generator&lt;/a&gt; to generate our files before transferring them to the server.&lt;/p&gt;
+
+&lt;p&gt;Static files are also easier to copy than dynamic sites, this means we can copy our static site to different CDNs (content delivery networks) around the world. Getting our content closer to our users is a very effective way to reduce &lt;a href=&#34;https://www.igvita.com/2012/07/19/latency-the-new-web-performance-bottleneck/&#34;&gt;latency&lt;/a&gt; which is one of the biggest hurdles to delivering a site fast.&lt;/p&gt;
+
+&lt;h2 id=&#34;offline-first&#34;&gt;Offline First&lt;/h2&gt;
+
+&lt;p&gt;A &lt;a href=&#34;https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers&#34;&gt;service worker&lt;/a&gt; is JavaScript that runs in a browser but not as part of a page. The most common use for service workers is to watch network requests and respond instead of the server.&lt;/p&gt;
+
+&lt;p&gt;I wanted to be sure the conference attendees would have access to the event schedule, even if they didn’t have wifi. So, when a user arrives on the site, browsers that support service workers automatically cache the conference schedule.&lt;/p&gt;
+
+&lt;p&gt;If the user returns to the site without a network connection the service worker will reply to the request with the cached schedule.&lt;/p&gt;
+
+&lt;p&gt;I am very grateful for the documentation published by &lt;a href=&#34;https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom&#34;&gt;The Guardian&lt;/a&gt;, &lt;a href=&#34;https://www.theguardian.com/info/developer-blog/2015/nov/04/building-an-offline-page-for-theguardiancom&#34;&gt;Jeremy Keith&lt;/a&gt;, and  others who are already using Service Workers.&lt;/p&gt;
+
+&lt;h2 id=&#34;mobile-first&#34;&gt;Mobile First&lt;/h2&gt;
+
+&lt;p&gt;When responsive web design first became the norm, the industry standard was to serve the full desktop site to all browsers with a bunch of extra code telling mobile browsers which pieces to remove to make the simplified mobile version. With the spread of mobile came the  &lt;a href=&#34;https://www.lukew.com/ff/entry.asp?1137&#34;&gt;Mobile First&lt;/a&gt; development approach. Mobile first delivers the content and code for the mobile version of a site first and then the larger more powerful desktop computers do the work of creating a better large screen experience.&lt;/p&gt;
+
+&lt;p&gt;The View Source Conf site starts as a minimal mobile-friendly version. Then &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries&#34;&gt;media queries in CSS&lt;/a&gt; and &lt;a href=&#34;https://hacks.mozilla.org/2012/06/using-window-matchmedia-to-do-media-queries-in-javascript/&#34;&gt;media queries in JavaScript&lt;/a&gt; add more complicated layout instructions for larger screens.&lt;/p&gt;
+
+&lt;h2 id=&#34;svg&#34;&gt;SVG&lt;/h2&gt;
+
+&lt;p&gt;I used inline &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/SVG&#34;&gt;SVG&lt;/a&gt;s for the logo and icons. They look crisper on retina screens and, because they’re inline, don’t require any extra assets to download. Inlining also meant that I could &lt;a href=&#34;https://css-tricks.com/cascading-svg-fill-color/&#34;&gt;change the logo’s colour&lt;/a&gt; in our print styles. It was my first time &lt;a href=&#34;https://www.sitepoint.com/tips-accessible-svg/&#34;&gt;creating accessible SVGs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;no-script&#34;&gt;No Script&lt;/h2&gt;
+
+&lt;p&gt;All the content and functionality on the View Source site works with JavaScript disabled. Instead of sending shims and polyfills to older browsers to make them handle newer JavaScript features, we support those browsers by telling them not to load the JavaScript at all.&lt;/p&gt;
+
+&lt;p&gt;This meant we could write modern JavaScript! It also simplified testing. Less capable browsers just get functional, readable content, with no chance for odd JavaScript errors.&lt;/p&gt;
+
+&lt;p&gt;This isn’t a new idea, it’s &lt;a href=&#34;https://alistapart.com/article/understandingprogressiveenhancement&#34;&gt;progressive enhancement&lt;/a&gt; combined with the &lt;a href=&#34;http://responsivenews.co.uk/post/18948466399/cutting-the-mustard&#34;&gt;BBC News’ “Cut the Mustard” test&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;https&#34;&gt;HTTPS&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https&#34;&gt;HTTPS protects the privacy and security of your users&lt;/a&gt; and with &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let’s Encrypt&lt;/a&gt; it’s free. You can tell browsers to only load your site over HTTPS with the &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security&#34;&gt;&lt;code&gt;Strict-Transport-Security&lt;/code&gt; header&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;do-not-track&#34;&gt;Do Not Track&lt;/h2&gt;
+
+&lt;p&gt;We use Google Analytics to measure site traffic and try to improve our conversion rates but we respect the privacy of users visiting with &lt;a href=&#34;https://en.wikipedia.org/wiki/Do_Not_Track&#34;&gt;Do Not Track&lt;/a&gt; enabled. By &lt;a href=&#34;http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/&#34;&gt;detecting Do Not Track settings&lt;/a&gt; we can avoid serving them the Google Analytics file. If a user has not set Do Not Track but has an ad blocker installed all our code runs without requiring Google Analytics to initialize.&lt;/p&gt;
+
+&lt;h2 id=&#34;view-source&#34;&gt;View Source&lt;/h2&gt;
+
+&lt;p&gt;Hear industry leaders speak about topics like web performance, security, reliability, CSS grids and more at the &lt;a href=&#34;https://viewsourceconf.org/london-2017/&#34;&gt;View Source Conference in London&lt;/a&gt; October 27, 2017. See the &lt;a href=&#34;https://viewsourceconf.org/london-2017/#schedule&#34;&gt;full schedule&lt;/a&gt;! Or &lt;a href=&#34;https://viewsourceconf.org/berlin-2016/&#34;&gt;watch videos of last year&amp;rsquo;s talks&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,8 +83,32 @@ The View Source Conference website, on the other hand, is a small site. So when 
       <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
-      <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
-   Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
+      <description>
+
+&lt;p&gt;Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at &lt;a href=&#34;http://2017.cssdevconf.com/&#34;&gt;CSS Dev Conf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/f9ppa6m4uNRzsR&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-80633870&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;links-i-mentioned-in-my-talk&#34;&gt;Links I mentioned in my talk&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://v6.robweychert.com/blog/2017/10/robtober/&#34;&gt;Rob Weychert&amp;rsquo;s horror films schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mdn/browser-compat-data&#34;&gt;MDN&amp;rsquo;s browser compat data in JSON&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -38,9 +117,48 @@ The View Source Conference website, on the other hand, is a small site. So when 
       <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
-      <description>I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!
-   Writing for Every Reader  from Stephanie Hobson   Here are my slides for Writing for Every Reader.
-Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content.</description>
+      <description>
+
+&lt;p&gt;I &lt;a href=&#34;http://conf.a11yto.com/talks#writingForEveryReader&#34;&gt;recently spoke at #a11yTOConf&lt;/a&gt;, a conference by the organizers of the regular &lt;a href=&#34;https://www.meetup.com/a11yTO/&#34;&gt;a11yTO meet-up&lt;/a&gt;. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!&lt;/p&gt;
+
+&lt;div class=&#34;slideshare&#34;&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/ozEG7wyJ5BvL00&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader&#34; target=&#34;_blank&#34;&gt;Writing for Every Reader&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Here are &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader/&#34;&gt;my slides for Writing for Every Reader&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;resources-i-mentioned&#34;&gt;Resources I mentioned:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.hemingwayapp.com/&#34;&gt;Hemingway App&lt;/a&gt;, the app that helps improve the readability of your content.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://beelinereader.com/&#34;&gt;BeeLine Reader&lt;/a&gt;, the browser plugin for dyslexics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;articles-that-were-helpful-to-me&#34;&gt;Articles that were helpful to me:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://webaim.org/articles/cognitive/&#34;&gt;Cognitive Disabilities&lt;/a&gt;, an introduction by WebAIM.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://csskarma.com/blog/dyslexia-typography&#34;&gt;Dyslexia and Typography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://axesslab.com/fonts-dont-matter/&#34;&gt;Fonts don&amp;rsquo;t matter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/chunking/&#34;&gt;How Chunking Helps Content Processing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/legibility-readability-comprehension/&#34;&gt;Legibility, Readability, and Comprehension: Making Users Read Your Words&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/UKHomeOffice/posters&#34;&gt;Accessibility posters&lt;/a&gt; by the UK Home Office.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;more-on-accessibility&#34;&gt;More on accessibility:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://adrianroselli.com/2017/06/slides-from-wordcamp-europe.html&#34;&gt;Selfish Accessibility&lt;/a&gt; by Adrian Roselli got mentioned in a few different talks. It&amp;rsquo;s well worth watching.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -49,8 +167,90 @@ Resources I mentioned:  Hemingway App, the app that helps improve the readabilit
       <pubDate>Tue, 01 Aug 2017 19:34:47 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
-      <description>This article was originally published on Mozilla&amp;rsquo;s Hacks Blog.
-Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!</description>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This article was originally published on Mozilla&amp;rsquo;s &lt;a href=&#34;https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/&#34;&gt;Hacks Blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mozilla/kuma&#34;&gt;Kuma&lt;/a&gt;, the code that produces the &lt;a href=&#34;https://developer.mozilla.org/en-US/&#34;&gt;MDN&lt;/a&gt; site, is a weird mix of the old and the new. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/MDN_at_ten&#34;&gt;MDN turned ten&lt;/a&gt; in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was &lt;a href=&#34;https://github.com/mozilla/kuma/pull/4254&#34;&gt;remove the last few traces of the last redesign&lt;/a&gt;. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support! &lt;a href=&#34;https://mozilla.github.io/meao/2017/06/26/http2/&#34;&gt;We enabled http2&lt;/a&gt;, and 98% of our users have seen benefits from that.&lt;/p&gt;
+
+&lt;p&gt;One of the ways we deal with old code in kuma is with the campsite rule: &lt;em&gt;Always leave your campsite better than you found it&lt;/em&gt;. A redesign touches a lot of files, and this was a great opportunity to clean up and refactor — at least until the deadline started getting close.&lt;/p&gt;
+
+&lt;p&gt;A redesign is also a great time to change stuff you’re afraid of breaking. People are more understanding of you working the bugs out of something new than breaking something that’s worked for years. I removed 640 lines of stale code during the redesign. (And if I broke a six-year-old XPCOM tutorial you use daily by removing the custom list-style-type, please &lt;a href=&#34;https://bugzilla.mozilla.org/enter_bug.cgi?format=guided#h=dupes|Mozilla%20Developer%20Network|&#34;&gt;file a bug&lt;/a&gt;!)&lt;/p&gt;
+
+&lt;h2 id=&#34;one-website-with-two-looks&#34;&gt;One website with two looks&lt;/h2&gt;
+
+&lt;p&gt;Rather than working on the CSS for the redesign in a separate “redesign” folder, we duplicated all the files and added “-old” to the file name of the old files, which means that all of our redesign work is happening in the “official” files. This preserves the git history and means we don’t have to move anything around after launch. Once we’re happy with the code, we can delete the “-old” files with confidence.&lt;/p&gt;
+
+&lt;p&gt;To serve the new styles to our beta testers and the “-old” ones to everyone else, we use &lt;a href=&#34;https://github.com/jsocol/django-waffle&#34;&gt;Django Waffle&lt;/a&gt;. Waffle can also be used to serve different content but because there’s a strong separation of presentation and content on MDN, we’ve made very few changes to the HTML.&lt;/p&gt;
+
+&lt;h2 id=&#34;bugs-our-beta-testers-found&#34;&gt;Bugs our beta testers found&lt;/h2&gt;
+
+&lt;p&gt;MDN is &lt;em&gt;huge&lt;/em&gt;, and we can’t test every page in every locale. We’re really lucky to have active beta testers. :) Some of the biggest things they turned up for us were:&lt;/p&gt;
+
+&lt;h3 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h3&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;vi.png&#34; alt=&#34;Problems with Zilla Highlight in Vietnamese and when there are inline code examples.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;We started out by replicating Mozilla’s brand “highlight” effect by using the Zilla Slab Highlight font, but we abandoned that pretty quickly when problems turned up in many &lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=1375831&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=1375917&#34;&gt;our&lt;/a&gt; &lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=1375879&#34;&gt;locales&lt;/a&gt; and when used in combination with inline code.&lt;/p&gt;
+
+&lt;p&gt;The current approach puts a full-width black background on h3 and h4 headings by default, and then some JavaScript runs to add a &lt;code&gt;&amp;amp;lt;span&amp;amp;gt;&lt;/code&gt; tag so that the black background hugs the heading text. Progressive enhancement at work.&lt;/p&gt;
+
+&lt;p&gt;We went back and forth about this for a while, wondering if the JavaScript and extra &lt;code&gt;&amp;amp;lt;span&amp;amp;gt;&lt;/code&gt; was worth the effort. But we stuck with it because it makes the h3 and h4 headings much easier to spot when scanning the page.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-s-taiwanese-for-slab-serif&#34;&gt;What’s Taiwanese for Slab Serif?&lt;/h3&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;taiwanese.png&#34; alt=&#34;Showing the difference between Zilla&amp;amp;#039;s thick strokes and the thin strokes of Taiwanese.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Previously we used Open Sans as our heading text. With the redesign, we switched to Zilla Slab. Open Sans was thin and an average height for a font. It didn’t look out of place next to the system fallbacks for Chinese or Japanese characters.&lt;/p&gt;
+
+&lt;p&gt;Zilla is big and thick, and we started getting feedback about the contrast with these system fallbacks. Additionally, the character set for Zilla is European Latin only at the moment, so Vietnamese, which uses Latin characters plus a couple Latin characters not used in Europe, displayed &lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=1379259&#34;&gt;font fallbacks in the middles of words&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To address both these problems, we implemented a system that allowed us to &lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=1379259&#34;&gt;override the site fonts on a per-locale basis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;contrast&#34;&gt;Contrast&lt;/h3&gt;
+
+&lt;p&gt;We received many complaints about the old design’s low-contrast display. We went a bit too far the other way with this design and received complaints about the high contrast. We’ve toned it down to the ever-popular &lt;code&gt;#333&lt;/code&gt; now.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-next&#34;&gt;What’s next&lt;/h2&gt;
+
+&lt;p&gt;We’re moving on from this to make specific improvements to the article pages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Putting code samples high on the page; our hard-working writers and volunteers are doing this, one page at a time.&lt;/li&gt;
+&lt;li&gt;A better approach to readable line-lengths and wide code examples, inspired by the Hacks Blog theme.&lt;/li&gt;
+&lt;li&gt;Compatibility tables that display desktop and mobile data side by side.&lt;/li&gt;
+&lt;li&gt;Code samples you can experiment with in the page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;who-is-we&#34;&gt;Who is “we”?&lt;/h2&gt;
+
+&lt;p&gt;The MDN dev team is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stephanie Hobson&lt;/strong&gt;, me, CSS-Pre-Pre-Processor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Schalk Neethling&lt;/strong&gt;, who reviewed each of my 30+ pull requests in ALL THE BROWSERS, sometimes multiple times&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;John Whitlock&lt;/strong&gt;, who did the awesome &lt;a href=&#34;https://github.com/mozilla/kuma/pull/4303#issue-241394205&#34;&gt;locale fallbacks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ryan Johnson&lt;/strong&gt;, who always asks “Why not?” when John and I say things can’t be done.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We blog sporadically on the &lt;a href=&#34;https://mozilla.github.io/meao/2017/07/06/kuma-report/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should also read this blog post by our Product Manager, Kadir Topal, about &lt;a href=&#34;https://blog.mozilla.org/opendesign/future-mdn-focus-web-docs/&#34;&gt;The Future of MDN&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -59,12 +259,175 @@ Kuma, the code that produces the MDN site, is a weird mix of the old and the new
       <pubDate>Mon, 10 Jul 2017 12:46:34 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/http2-on-mdn/</guid>
-      <description>This article was originally published on the Mozilla Marketing Engineering &amp;amp; Operations blog.
-We enabled HTTP/2 on MDN&amp;rsquo;s CDN.
-We didn&amp;rsquo;t do anything to optimize for HTTP/2, we just enabled it.
-We&amp;rsquo;re seeing performance improvements.
-You don&amp;rsquo;t have to get ready before you start using HTTP/2 While doing research to see if turning it on without doing any optimizations was a good idea I read things like:
- &amp;ldquo;It also means that all of those HTTP1 performance techniques are harmful.</description>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This article was originally published on the &lt;a href=&#34;https://mozilla.github.io/meao/2017/06/26/http2/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We enabled HTTP/2 on MDN&amp;rsquo;s CDN.&lt;/p&gt;
+
+&lt;p&gt;We didn&amp;rsquo;t do anything to optimize for HTTP/2, we just enabled it.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re seeing performance improvements.&lt;/p&gt;
+
+&lt;h2 id=&#34;you-don-t-have-to-get-ready-before-you-start-using-http-2&#34;&gt;You don&amp;rsquo;t have to get ready before you start using HTTP/2&lt;/h2&gt;
+
+&lt;p&gt;While doing research to see if turning it on without doing any optimizations was a good idea I read things like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;It also means that all of those HTTP1 performance techniques are harmful.  They will make a HTTP2 website slower, not faster - don&amp;rsquo;t use them.&amp;rdquo; - &lt;a href=&#34;https://mattwilcox.net/web-development/http2-for-front-end-web-developers&#34;&gt;HTTP2 for front-end web developers&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;However, many of the things you think of as being best practices can be detrimental to performance under HTTP/2.&amp;rdquo; - &lt;a href=&#34;https://www.smashingmagazine.com/2016/02/getting-ready-for-http2/&#34;&gt;Getting Ready For HTTP2: A Guide For Web Designers And Developers&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Which suggest that enabling HTTP/2 on a site optimized for HTTP/1.1 could result in a slower site.&lt;/p&gt;
+
+&lt;p&gt;A better way to interpret those quotes is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If you optimize for HTTP/1.1 and turn on HTTP/2 your site will not be as fast as it could be - but it might still be faster!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On MDN we concatenate a lot of our files but we don&amp;rsquo;t concatenate all of them. For example, our article pages have 9 different files coming from our CDN. I thought we could benefit from a bit of HTTP/2&amp;rsquo;s multiplexing and header compression. And we did. You can see the DNS lookup time drop off in this waterfall from &lt;a href=&#34;https://tools.pingdom.com/&#34;&gt;Pingdom&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;waterfall_before.png&#34; alt=&#34;Waterfall showing over 0.3s of DNS look up for each request.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;waterfall_after.png&#34; alt=&#34;Waterfall showing DNS lookup for only first asset requested.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;some-numbers&#34;&gt;Some numbers&lt;/h2&gt;
+
+&lt;p&gt;Overall, our tests don&amp;rsquo;t show a huge improvement in page load speed but there are small improvements for everyone, and a real improvement for users located far away from our servers. (Hi Australia and China!)&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Service&lt;/th&gt;
+&lt;th&gt;Location&lt;/th&gt;
+&lt;th&gt;Browser&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;HTTP/1.1&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;HTTP/2&lt;/th&gt;
+&lt;th&gt;Change&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tools.pingdom.com/&#34;&gt;Pingdom&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Dallas&lt;/td&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.54s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.34s&lt;/td&gt;
+&lt;td&gt;0.2s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tools.pingdom.com/&#34;&gt;Pingdom&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Melbourne&lt;/td&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.94s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.80s&lt;/td&gt;
+&lt;td&gt;0.14s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.webpagetest.org/&#34;&gt;WebPageTest&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;London&lt;/td&gt;
+&lt;td&gt;IE11&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.39s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;2.37s&lt;/td&gt;
+&lt;td&gt;0.02s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.webpagetest.org/&#34;&gt;WebPageTest&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Australia&lt;/td&gt;
+&lt;td&gt;Firefox&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5.61s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5.17s&lt;/td&gt;
+&lt;td&gt;0.44s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Google Analytics&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td&gt;Chrome&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.74s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.04s&lt;/td&gt;
+&lt;td&gt;0.7s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Google Analytics&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td&gt;Firefox&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.99s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.71s&lt;/td&gt;
+&lt;td&gt;0.28s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Google Analytics&lt;/td&gt;
+&lt;td&gt;Australia&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3.01s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.69s&lt;/td&gt;
+&lt;td&gt;1.32s&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Google Analytics&lt;/td&gt;
+&lt;td&gt;China&lt;/td&gt;
+&lt;td&gt;All&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8.10s&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;6.69s&lt;/td&gt;
+&lt;td&gt;1.41s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I tried to segment our users in Google Analytics to make sure we did not have a negative impact on users relying on HTTP/1.1 and&amp;hellip; I couldn&amp;rsquo;t find enough users to draw any conclusions. MDN is lucky like that. (It&amp;rsquo;s possible the IE11 test in the table above is on Windows 7 and does not support HTTP/2, but WebPageTest doesn&amp;rsquo;t identify the OS.) In theory, older browsers should not be affected because the protocol falls back to HTTP/1.1.&lt;/p&gt;
+
+&lt;p&gt;There was a lot of variation in the page speed data I examined. I recommend running your before and after benchmark tests multiple times on multiple days so you can take an average. Try to wait a week before drawing conclusions from your analytics data as well.&lt;/p&gt;
+
+&lt;p&gt;In a perfect world you don&amp;rsquo;t increase the amount of code on your site or invalidate anyone&amp;rsquo;s caches in the sample time period, but we don&amp;rsquo;t develop in a perfect world.&lt;/p&gt;
+
+&lt;h2 id=&#34;read-more-on-http-2&#34;&gt;Read more on HTTP/2&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mattwilcox.net/web-development/http2-for-front-end-web-developers&#34;&gt;HTTP2 for front-end web developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2016/02/getting-ready-for-http2/&#34;&gt;Getting Ready For HTTP2: A Guide For Web Designers And Developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/http-2-for-web-developers/&#34;&gt;HTTP/2 For Web Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;next&#34;&gt;Next&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Get our pages into data centres around the world.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This involves changing our hosting services, not a small task, and changing our pages to serve the same content to all logged out users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decrease asset size by removing support for older browsers.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you think working on MDN was a great job because we have very modern browser support requirements, remember we&amp;rsquo;re also working on a &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/MDN_at_ten/History_of_MDN&#34;&gt;10 year old code base&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for using MDN!&lt;/p&gt;
+</description>
     </item>
     
   </channel>
