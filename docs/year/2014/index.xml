@@ -33,15 +33,17 @@
       <pubDate>Wed, 04 Jun 2014 22:01:01 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
-      <description>&lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
+      <description>
 
-&lt;h3&gt;What is GTM&lt;/h3&gt;
+&lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-gtm&#34;&gt;What is GTM&lt;/h2&gt;
 
 &lt;p&gt;You include a code snippet from GTM on your site which, among other things, includes a file. Then you use the GTM interface to configure what goes in that file.&lt;/p&gt;
 
 &lt;p&gt;This is intended to replace any scripts you&amp;rsquo;d normally have to write yourself to track stuff that isn&amp;rsquo;t a regular page view (example: tracking a file download as a page view). Say good bye to code like this: &lt;code&gt;pageTracker._trackPageview(fileurl);&lt;/code&gt;&lt;/p&gt;
 
-&lt;h3&gt;Why do we care?&lt;/h3&gt;
+&lt;h2 id=&#34;why-do-we-care&#34;&gt;Why do we care?&lt;/h2&gt;
 
 &lt;p&gt;One snippet to rule them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
 
@@ -49,19 +51,19 @@
 
 &lt;p&gt;It cuts down on the amount of code writing and maintenance we have to do in the future. Also less work for us!&lt;/p&gt;
 
-&lt;h3&gt;Is it a trap?&lt;/h3&gt;
+&lt;h2 id=&#34;is-it-a-trap&#34;&gt;Is it a trap?&lt;/h2&gt;
 
 &lt;p&gt;Could be. Yup.&lt;/p&gt;
 
 &lt;p&gt;A javascript error in GTM code can break all the javascript on the page and anyone with access to your GTM account can add javascript.&lt;/p&gt;
 
-&lt;p&gt;GTM seems to insist on following the href on &amp;lt;a&amp;gt; elements. So if you are hijaxing any links GMT could break your code. For example: if you are using a lightbox style plugin which opens links in overlays.&lt;/p&gt;
+&lt;p&gt;GTM seems to insist on following the href on &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; elements. So if you are hijaxing any links GMT could break your code. For example: if you are using a lightbox style plugin which opens links in overlays.&lt;/p&gt;
 
 &lt;p&gt;Some GTM features can add query strings or hash tags to URLs, depending on the system on the other end of the link, this could cause problems too.&lt;/p&gt;
 
 &lt;p&gt;So test, and limit the publishing permissions on your account to people who know how to test.&lt;/p&gt;
 
-&lt;h3&gt;Creating an account&lt;/h3&gt;
+&lt;h2 id=&#34;creating-an-account&#34;&gt;Creating an account&lt;/h2&gt;
 
 &lt;p&gt;Remember how we all went out and got personal Google Analytics accounts and added our clients to them and then stopped working for those clients and it got awkward? Google remembers too.&lt;/p&gt;
 
@@ -69,22 +71,25 @@
 
 &lt;p&gt;(This seems like sound advice if you&amp;rsquo;re just getting started but will lead to some code duplication in the long run if you have multiple domains, I have complicated thoughts on this that belong in a separate blog post).&lt;/p&gt;
 
-&lt;p&gt;Once you&amp;rsquo;ve set up a container you get the code snippet. Place the code snippet on the page after the opening &amp;lt;body&amp;gt; tag.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;ve set up a container you get the code snippet. Place the code snippet on the page after the opening &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
 
-&lt;h3&gt;What&#39;s all this?&lt;/h3&gt;
+&lt;h2 id=&#34;what-s-all-this&#34;&gt;What&amp;rsquo;s all this?&lt;/h2&gt;
 
 &lt;p&gt;Your container contains 3 things: tags, rules, and macros.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;
-Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;,  &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
+&lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Rules&lt;/strong&gt;
-Rules are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each rule can have multiple conditions so you can combine them to create rules like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;,  &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Macros&lt;/strong&gt;
-Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in macros: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference macros inside tags, rules, and other macros by writing its name in  {{double curly braces}}.&lt;/p&gt;
+&lt;h3 id=&#34;rules&#34;&gt;Rules&lt;/h3&gt;
 
-&lt;h3&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h3&gt;
+&lt;p&gt;Rules are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each rule can have multiple conditions so you can combine them to create rules like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;macros&#34;&gt;Macros&lt;/h3&gt;
+
+&lt;p&gt;Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in macros: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference macros inside tags, rules, and other macros by writing its name in  {{double curly braces}}.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-tracking-page-views-and-external-link-clicks-with-universal-analytics&#34;&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h2&gt;
 
 &lt;p&gt;My examples are all for Universal Analytics but if you&amp;rsquo;re still using Classic the concept is the same where I pick Universal Analytics from the Tag Type menu pick Google Analytics Classic and do your best with the slightly different options that follow from there.&lt;/p&gt;
 
@@ -122,7 +127,7 @@ Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly t
                     &lt;dt&gt;Value:&lt;/dt&gt;
                     &lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
                 &lt;/dl&gt;
-                Or, if prefer a screen shot:
+                Or, if prefer a screen shot:&lt;br&gt;
                 &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id macro&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
             &lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
@@ -139,7 +144,7 @@ Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly t
                     &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this rule, GTM creates it automatically.&lt;/dd&gt;
                 &lt;/dl&gt;
-                Or, if you prefer a screen shot:
+                Or, if you prefer a screen shot:&lt;br&gt;
                 &lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
             &lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
@@ -213,9 +218,9 @@ Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly t
     &lt;li&gt;Publish (blue button in top right of Container Draft &gt; Overview page)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;You can see some changes applied immediately in Analytics on the Real-Time &gt; Overview page. Other events which don&#39;t seem to be working on Real-Time occasionally start showing up in the stats a day later. I have no insight to offer here, sorry.&lt;/p&gt;
+&lt;p&gt;You can see some changes applied immediately in Analytics on the Real-Time &amp;gt; Overview page. Other events which don&amp;rsquo;t seem to be working on Real-Time occasionally start showing up in the stats a day later. I have no insight to offer here, sorry.&lt;/p&gt;
 
-&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;So we create tags to do things, rules to govern when we do the things in the tags, and macros to save ourselves time when creating tags and rules.&lt;/p&gt;
 </description>
