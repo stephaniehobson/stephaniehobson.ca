@@ -14,7 +14,7 @@ echo "CNAME found"
 
 # make sure wordpress tag feeds continue to work
 # http://stephaniehobson.ca/wordpress/tag/conference/feed/
-for t in accessibiltity accomplishment analytics bcit code conference links mozilla personal presentation slides video webdesign ; do
+for t in accessibility accomplishment analytics bcit code conference links mozilla personal presentation slides video webdesign ; do
     mkdir -p docs/wordpress/tag/$t/feed/
     cp -p docs/tags/$t/index.xml docs/wordpress/tag/$t/feed/index.xml
 done
