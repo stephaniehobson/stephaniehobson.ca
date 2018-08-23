@@ -8,7 +8,7 @@
     <language>en-ca</language>
     <lastBuildDate>Wed, 15 Sep 2010 22:31:27 +0000</lastBuildDate>
     
-        <atom:link href="https://stephaniehobson.ca/year/2010/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/year/2010/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,11 +17,7 @@
       <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
-      <description>&lt;div class=&#34;youtube&#34;&gt;
-  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/xckrxgvTsyY?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>  </description>
     </item>
     
     <item>
@@ -30,16 +26,9 @@
       <pubDate>Fri, 10 Sep 2010 12:59:47 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
-      <description>&lt;p&gt;Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../bulletfix/compare_default.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../bulletfix/compare_fix.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re working on displaying the bullets at the same height, &lt;a href=&#34;../../bulletfix/&#34;&gt;this might be the fix for you&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?
+Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?
+If you&amp;rsquo;re working on displaying the bullets at the same height, this might be the fix for you.</description>
     </item>
     
     <item>
@@ -48,12 +37,9 @@
       <pubDate>Fri, 28 May 2010 22:40:44 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
-      <description>&lt;p&gt;Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.&lt;/p&gt;
-
-&lt;p&gt;Some of it works in FireFox but all the cool stuff works best in webkit: &lt;a href=&#34;../../coverflow/#sky&#34;&gt;here&amp;rsquo;s as far as I got&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Have fun with it :)&lt;/p&gt;
-</description>
+      <description>Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.
+Some of it works in FireFox but all the cool stuff works best in webkit: here&amp;rsquo;s as far as I got.
+Have fun with it :)</description>
     </item>
     
     <item>
@@ -62,32 +48,14 @@
       <pubDate>Fri, 08 Jan 2010 19:09:46 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/2009/</guid>
-      <description>&lt;p&gt;My year in review &lt;a href=&#34;https://powazek.com/posts/2219&#34;&gt;Powazek style&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.&lt;/p&gt;
-
-&lt;p&gt;FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.&lt;/p&gt;
-
-&lt;p&gt;MAR: Giants Fan Bus.&lt;/p&gt;
-
-&lt;p&gt;APR: I check into my first &lt;a href=&#34;http://gowalla.com&#34;&gt;Gowalla&lt;/a&gt; spot.&lt;/p&gt;
-
-&lt;p&gt;MAY: My temporary roommate drops her phone down an elevator shaft after a &lt;a href=&#34;http://colonelpanic.ca/&#34;&gt;Colonel Panic&lt;/a&gt; concert. Ultimate with H.A.M.M.E.R. starts.&lt;/p&gt;
-
-&lt;p&gt;JUN: Program catalogue launch. Asthon Lane, Inverness and @media.&lt;/p&gt;
-
-&lt;p&gt;JUL: Fireworks with Sue. Decemberists.&lt;/p&gt;
-
-&lt;p&gt;AUG: Camping. Victoria. Drive-in movie. Summerland.&lt;/p&gt;
-
-&lt;p&gt;SEP: Copyfight. Franz Ferdinand and Great Big Sea.&lt;/p&gt;
-
-&lt;p&gt;OCT: Barcamp. Whistler.&lt;/p&gt;
-
-&lt;p&gt;NOV: Hopscotch. Bought the hat. San Francisco. Bad things happen to good people.&lt;/p&gt;
-
-&lt;p&gt;DEC: UXCamp. We survived Christmas party. Quebec.&lt;/p&gt;
-</description>
+      <description>My year in review Powazek style.
+JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.
+FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.
+MAR: Giants Fan Bus.
+APR: I check into my first Gowalla spot.
+MAY: My temporary roommate drops her phone down an elevator shaft after a Colonel Panic concert. Ultimate with H.A.M.M.E.R. starts.
+JUN: Program catalogue launch. Asthon Lane, Inverness and @media.
+JUL: Fireworks with Sue. Decemberists.</description>
     </item>
     
     <item>
@@ -96,94 +64,8 @@
       <pubDate>Wed, 06 Jan 2010 22:32:27 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
-      <description>&lt;p&gt;A few weeks ago &lt;a href=&#34;http://smashingconf.com/whistler-2014/&#34;&gt;Smashing Conference came to Whistler&lt;/a&gt;. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)&lt;/p&gt;
-
-&lt;h3&gt;The conference&lt;/h3&gt;
-As good as I hoped it would be. A mix of strategy and near future technology examples.
-
-&lt;h3&gt;My Favourite Talk&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Building the next-generation of &lt;a href=&#34;http://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Talk Summaries&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Marcin Wichary&lt;/strong&gt;
-&lt;em&gt;Good is the enemy of great: On designing, and then undesigning, a perfect link underline&lt;/em&gt;
-200 years of typographic history was lost when we moved from printing presses to the typewriter, Marcin Took us through some of what he did in his attempt to re-create the perfect underline.His ultimate point was that it&amp;rsquo;s important to find a balance between shipping and creating good code. Perfectionism is not the right balance but we should strive to make things good and not just improve the status quo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Susan Robertson&lt;/strong&gt;
-&lt;em&gt;Style Guides: Why bother?&lt;/em&gt;
-Susan walked us through a long list of benefits to using a style guide. Highlights included: front-end speed, consistency, and performance. Lots of good resources here: &lt;a href=&#34;http://styleguides.io&#34;&gt;styleguides.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Yoav Weiss&lt;/strong&gt;
-&lt;em&gt;Responsive Images are Coming to a Browser Near You &lt;/em&gt;
-I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;picture&gt; is a solution for providing art direction of images on different screen sizes and srcset gets added to &lt;img&gt; if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Marcy Sutton&lt;/strong&gt;
-&lt;em&gt;A Web for Everybody&lt;/em&gt;
-Accessibility is easier if you build it you build it in from the start. Ask, does it work: With the keyboard only? In a screen reader? Without sound? Without colour? In high contrast mode? &amp;ldquo;This stuff is not that hard.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jenn Lukas&lt;/strong&gt;
-&lt;em&gt;The Developer’s Ampersandwich&lt;/em&gt;
-Things to consider when implementing type on a website: if you haven&amp;rsquo;t been given design direction you can find the type by looking at what&amp;rsquo;s popular and already in use, separate presentation from content, be aware of performance issues with web fonts, add accessible fallbacks for a icon fonts, use tools like typecast to communicate with designers about general styles rather than content specific styles.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Zach Leatherman&lt;/strong&gt;
-&lt;em&gt;Better @font-face with Font Load Events&lt;/em&gt;
-Web fonts are rendered blocking. Zach proposes a JavaScript fix which prioritizes a FOIT for icon fonts and a FOUT for content fonts. Lots of good stuff from &lt;a href=&#34;http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;this excellent article of his&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stephen Hay&lt;/strong&gt;
-&lt;em&gt;Easing the Pain of Designing in the Browser&lt;/em&gt;
-We need to stop thinking about layout first, we need to start thinking about structured content first. Begin by focusing on the small screen, and then focus on type and color.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;John Allsopp&lt;/strong&gt;
-&lt;em&gt;The Web&amp;rsquo;s future is offline&lt;/em&gt;
-&amp;ldquo;We can&amp;rsquo;t keep building apps with the desktop mindset of permanent, fast connectivity, where a temporary disconnection or slow service is regarded as a problem and communicated as an error.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dave Shea&lt;/strong&gt;
-&lt;em&gt;Rolling Your Own CSS Methodology&lt;/em&gt;
-A CSS framework is not about syntax. It&amp;rsquo;s about discipline and optimizing for people. Ideals Mobify uses when building theirs: classes for everything, no IDs, no nesting, no !important.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;That was one day. It was a really long day.
-&lt;hr&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Johnathan Snook&lt;/strong&gt;
-Jonathan gave a very personal talk about the development of his career overtime and the importance of empathy. It touched a lot of people, but it is difficult to summarize in two sentences.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;
-&lt;em&gt;Atomic Design&lt;/em&gt;
-If we all use the same framework we all look alike. We should be building &amp;ldquo;Tiny Bootstraps, for every client.&amp;rdquo; - Dave Rupert. Brad demoed &lt;a href=&#34;http://patternlab.io&#34;&gt;patternlab.io&lt;/a&gt; which is a really cool tool for breaking designs down into component parts.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lyza D. Gardner&lt;/strong&gt;
-&lt;em&gt;Soothing Web Weariness: Saving the Web by Doing as Little as Possible&lt;/em&gt;
-Make projects smaller to begin with - increase your constraints - improve them iteratively and systematically instead of accepting complexity as the status quo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Val Head&lt;/strong&gt;
-&lt;em&gt;All the Right Moves: Putting your UIs in Motion&lt;/em&gt;
-Animations needs to be designed with intent the same way you would design any other part of the site. Prototype animations. Test that they match your site&amp;rsquo;s style and feel fast.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kyle Simpson&lt;/strong&gt;
-&lt;em&gt;#CSS {Yawn: Yay!}&lt;/em&gt;
-Kyle talked about some high-level concepts he&amp;rsquo;d like to see implemented in CSS templating. It was very much a talk about the next generation of CSS informed by some complex computing science principles. I can&amp;rsquo;t do it justice, &lt;a href=&#34;https://speakerdeck.com/getify/number-css-yawn-yay&#34;&gt;his slides are here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tim Kadlec&lt;/strong&gt;
-&lt;em&gt;In Between &lt;/em&gt;
-Like Val, Tim talked about designing animations with intent. He had lots of great examples and data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Paul Irish&lt;/strong&gt;
-&lt;em&gt;Getting to Fast&lt;/em&gt;
-Not all pixels are created equal. Paul talked about why the first 14KB transferred are the most important to performance.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :)&lt;/p&gt;
-
-&lt;p&gt;I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;
-</description>
+      <description>A few weeks ago Smashing Conference came to Whistler. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)
+The conference As good as I hoped it would be. A mix of strategy and near future technology examples. My Favourite Talk  Building the next-generation of theguardian.com, by Patrick Hamann Slides The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads.</description>
     </item>
     
   </channel>

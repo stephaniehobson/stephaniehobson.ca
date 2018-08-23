@@ -8,7 +8,7 @@
     <language>en-ca</language>
     <lastBuildDate>Mon, 31 Dec 2007 11:00:29 +0000</lastBuildDate>
     
-        <atom:link href="https://stephaniehobson.ca/year/2007/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/year/2007/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,14 +17,9 @@
       <pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid>
-      <description>&lt;p&gt;One of my bestest friends lives in the middle of no where.  High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.&lt;/p&gt;
-
-&lt;p&gt;For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.&lt;/p&gt;
-
-&lt;p&gt;Also, turning off the images is not that easy.  I wonder how true the assertion that people with dial up turn them off is.&lt;/p&gt;
-
-&lt;p&gt;Bonne Annee!&lt;/p&gt;
-</description>
+      <description>One of my bestest friends lives in the middle of no where. High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.
+For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.
+Also, turning off the images is not that easy. I wonder how true the assertion that people with dial up turn them off is.</description>
     </item>
     
     <item>
@@ -33,69 +28,8 @@
       <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
-      <description>&lt;p&gt;This bug seems to apply to styling elements under a class or id within a link on hover.  Stuff like &lt;code&gt;.class a:hover span{}&lt;/code&gt; or &lt;code&gt;#id a:hover strong{}&lt;/code&gt;.  The solution is to define a property on the parent link &lt;code&gt;.class a:hover{}&lt;/code&gt; that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.&lt;/p&gt;
-
-&lt;p&gt;All the work for the solution was done by &lt;a href=&#34;http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp&#34;&gt;Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug&lt;/a&gt;, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s what happened to me:&lt;/p&gt;
-
-&lt;p&gt;I had some text inside a link, and I wanted some of it to do one thing when rolled over and some of it to do something else.  I marked it up like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;promo&amp;quot;&amp;gt;
-    &amp;lt;h3&amp;gt;News&amp;lt;/h3&amp;gt;
-    &amp;lt;a href=&amp;quot;link.html&amp;quot;&amp;gt;IE has lots of bugs&amp;lt;strong&amp;gt;read more&amp;lt;/strong&amp;gt;.&amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It&amp;rsquo;s sort of a solution to the fact that &amp;ldquo;read more&amp;rdquo; makes bad link text.  Bad.  And I don&amp;rsquo;t write the copy.&lt;/p&gt;
-
-&lt;p&gt;Then I tried to style it with something like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/* default link behaviour */
-a {
-    text-decoration:none;
-    color:#8ec3e2;
-}
-
-a:visited {
-    color:#6d80a8;
-}
-
-a:hover {
-    color:#c1fcff;
-}
-
-/* overrides for this element */
-.promo a {
-    color:#000;
-}
-
-.promo a:hover {
-    color:#000;
-}
-
-.promo a strong,
-.promo a:visited strong {
-    color:#8ec3e2;
-    display:block;
-}
-
-.promo a:hover strong {
-    color:#c1fcff;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which did exactly what I wanted it to do&amp;hellip; in FireFox but in IE 6 the hover was not displaying properly.  After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided &lt;a href=&#34;http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp&#34;&gt;Tanfa&amp;rsquo;s article on IE Pure CSS Pop Ups Bug&lt;/a&gt; in response to my query.&lt;/p&gt;
-
-&lt;p&gt;I added float:none to my declaration for &lt;code&gt;.promo a:hover{}&lt;/code&gt; and all is now well :)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.promo a:hover{
-    float:none;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Thank you Tanfa!&lt;/p&gt;
-</description>
+      <description>This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like .class a:hover span{} or #id a:hover strong{}. The solution is to define a property on the parent link .class a:hover{} that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.
+All the work for the solution was done by Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</description>
     </item>
     
     <item>
@@ -104,8 +38,7 @@ a:hover {
       <pubDate>Fri, 14 Dec 2007 12:55:33 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://24ways.org/2007/underpants-over-my-trousers&#34;&gt;Comics and web design together at last!&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Comics and web design together at last!</description>
     </item>
     
     <item>
@@ -114,10 +47,8 @@ a:hover {
       <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
-      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;../../posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
-
-&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
-</description>
+      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
+A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
     </item>
     
     <item>
@@ -126,16 +57,7 @@ a:hover {
       <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</guid>
-      <description>&lt;p&gt;When I went on vacation a few weeks ago I got a little behind on my RSS feeds.  I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.&lt;/p&gt;
-
-&lt;p&gt;Noooooooooooo!&lt;/p&gt;
-
-&lt;p&gt;This is an unrecoverable error. There&amp;rsquo;s no undo and there&amp;rsquo;s no way to mark an article more than a certain number of days (30?) old as unread again even if I open it individually.&lt;/p&gt;
-
-&lt;p&gt;A quick visit to the Reader group confirms that I&amp;rsquo;m not crazy and I&amp;rsquo;m not the only one who has done this.&lt;/p&gt;
-
-&lt;p&gt;What gives Google?&lt;/p&gt;
-</description>
+      <description>When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.</description>
     </item>
     
     <item>
@@ -144,16 +66,9 @@ a:hover {
       <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
-      <description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
-
-&lt;p&gt;Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hVsxOxE_F1s&#34;&gt;From computer to computer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y98qg9pa87E&#34;&gt;Chin up bars with fancy editing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9jZpK5wYkBM&#34;&gt;Gmail for lunch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
+Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
+ From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
     </item>
     
     <item>
@@ -162,14 +77,8 @@ a:hover {
       <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid>
-      <description>&lt;p&gt;Part of my job at BCIT is providing technical support to our content publishing community.  These are the people who provide the text to fill the templates we make and keep that text up to date.  Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.&lt;/p&gt;
-
-&lt;p&gt;Forty percent of our job is providing encouragement.  &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.&amp;rdquo; &amp;ldquo;We can always undo the changes if you think you&amp;rsquo;ve made a mistake.&amp;rdquo;  I get my best compliments from these kinds of support calls.&lt;/p&gt;
-
-&lt;p&gt;This morning on of our clients told me, &amp;ldquo;You&amp;rsquo;ve made me feel so much better about all this now, I&amp;rsquo;m so glad you called.  What a great way to start a Monday.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;What a great way to start a Monday :)&lt;/p&gt;
-</description>
+      <description>Part of my job at BCIT is providing technical support to our content publishing community. These are the people who provide the text to fill the templates we make and keep that text up to date. Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.
+Forty percent of our job is providing encouragement. &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.</description>
     </item>
     
     <item>
@@ -178,10 +87,8 @@ a:hover {
       <pubDate>Fri, 29 Jun 2007 17:02:09 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/searching-for-an-answer/</guid>
-      <description>&lt;p&gt;Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?&lt;/p&gt;
-
-&lt;p&gt;I was trying to find out if legend was a required tag in fieldset and I got a tutorial that said not to use legend because Netscape 4 doesn&amp;rsquo;t support it yet but should soon!&lt;/p&gt;
-</description>
+      <description>Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?
+I was trying to find out if legend was a required tag in fieldset and I got a tutorial that said not to use legend because Netscape 4 doesn&amp;rsquo;t support it yet but should soon!</description>
     </item>
     
     <item>
@@ -190,13 +97,8 @@ a:hover {
       <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid>
-      <description>&lt;p&gt;Who knew web design could be so&amp;hellip; academic?&lt;/p&gt;
-
-&lt;p&gt;Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel.  I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s a bit more information on my quibble with FireFox:&lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=269908&#34;&gt; the bug report and ensuing argument&lt;/a&gt;.  Some one who knows what they&amp;rsquo;re doing should probably read the CSS3 proposals to see if this can be avoided in the future.
-Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s in San Francisco.&lt;/p&gt;
-</description>
+      <description>Who knew web design could be so&amp;hellip; academic?
+Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
     </item>
     
     <item>
@@ -207,40 +109,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <guid>https://stephaniehobson.ca/posts/media-links-to-check-out/</guid>
       <description>&lt;p&gt;This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tim.oreilly.com/&#34;&gt;Tim O&amp;rsquo;Reilly&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.deltatangobravo.com/&#34;&gt;Delta Tango Bravo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://webtypography.net/&#34;&gt;Web Typography&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.boxesandarrows.com/&#34;&gt;Boxes and Arrows&lt;/a&gt; - currently featuring &lt;a href=&#34;http://www.boxesandarrows.com/view/comics-not-just-for&#34;&gt;an article on comic books&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.netvibes.com/&#34;&gt;Netvibes&lt;/a&gt; - normally I&amp;rsquo;m not a portal person.  To be check out in combination with &lt;a href=&#34;http://veerle.duoh.com/blog/comments/veerle_theme_for_netvibes/&#34;&gt;Veerle&amp;rsquo;s theme&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.searchmash.com/&#34;&gt;searchmash&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.poetpainter.com/thoughts/&#34;&gt;poetpainter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Book: &lt;a href=&#34;http://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307353133&#34; title=&#34;Amazon&#34;&gt;Four Hour Work Week&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ma.gnolia.com/&#34;&gt;ma.gnolia.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://osflash.org/flashaid&#34;&gt;Flash aid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.notetab.com/&#34;&gt;Note Tab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://labs.digg.com/&#34;&gt;digg labs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Book: Concrete by &lt;a href=&#34;http://en.wikipedia.org/wiki/Paul_Chadwick&#34; title=&#34;Wikipedia entry on Paul Chadwick.&#34;&gt;Paul Chadwick&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pingerati.net/&#34;&gt;Pingerati&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Book: &lt;a href=&#34;http://www.uiaccess.com/justask/index.html&#34;&gt;Just Ask&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Book: &lt;a href=&#34;http://en.wikipedia.org/wiki/Neuromancer&#34; title=&#34;Wikipedia entry on Neuromancer&#34;&gt;Neuromancer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Article: &lt;a href=&#34;https://alistapart.com/articles/dao/&#34;&gt;Tao of Web Design&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273&#34;&gt;Book: Pro Javascript Techniques&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;presentations&#34;&gt;Presentations:&lt;/h2&gt;
-
-&lt;p&gt;Missed a few, let me know if you have them.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://simplebits.com/publications/speak/juggling/&#34;&gt;Dan Cederholm: Interface Design Juggling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.veen.com/atmedia07.pdf&#34;&gt;Jeffrey Veen: Designing the Next Generation of Web Apps&lt;/a&gt; (PDF)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cameronmoll.com/speaking/communication&#34;&gt;Cameron Moll: Designing for Communication&lt;/a&gt; (isn&amp;rsquo;t working, might not have written fast enough to get the whole thing?)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.stuffandnonsense.co.uk/events&#34;&gt;Andy Clarke: Royale with Cheese&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tantek.com/presentations/2007/05/microformats-bb-you/&#34;&gt;Tantek Celik: Microformats, Building Blocks, and You&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -249,8 +118,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Sat, 26 May 2007 02:08:34 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/media-day-two/</guid>
-      <description>&lt;p&gt;Today I got two free books, Jeremy signed Bullet Proof Ajax for me and I snagged an extra Microformats cheat sheet for Brandon.  All in all a success.&lt;/p&gt;
-</description>
+      <description>Today I got two free books, Jeremy signed Bullet Proof Ajax for me and I snagged an extra Microformats cheat sheet for Brandon. All in all a success.</description>
     </item>
     
     <item>
@@ -259,12 +127,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Fri, 25 May 2007 10:10:04 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/media-day-one/</guid>
-      <description>&lt;p&gt;One day I&amp;rsquo;d like to be able to make the same kind of contribution to the web design world that these speakers have.  Trying to find a way to do that is as intimidating as the idea of writing a Master&amp;rsquo;s thesis.  How does one come up with new ideas?&lt;/p&gt;
-
-&lt;p&gt;The speakers have all been excellent so far.  I always need a few days to process information though so I don&amp;rsquo;t have much to say at this point.&lt;/p&gt;
-
-&lt;p&gt;A few sessions feel like the same information I got at WDN which makes me question just how many of these conferences one needs to go to in a year and makes me feel better about the fact that I won&amp;rsquo;t be able to attend &lt;a href=&#34;http://www.aneventapart.com/events/seattle07/&#34;&gt;An Event Apart&lt;/a&gt;, mind you I haven&amp;rsquo;t heard most of their speakers&amp;hellip;  Are conferences addictive?  Either way I&amp;rsquo;m out of funding sources and would have to pay for that one myself.  Since I&amp;rsquo;m on the market for a new computer that&amp;rsquo;s not likely.&lt;/p&gt;
-</description>
+      <description>One day I&amp;rsquo;d like to be able to make the same kind of contribution to the web design world that these speakers have. Trying to find a way to do that is as intimidating as the idea of writing a Master&amp;rsquo;s thesis. How does one come up with new ideas?
+The speakers have all been excellent so far. I always need a few days to process information though so I don&amp;rsquo;t have much to say at this point.</description>
     </item>
     
     <item>
@@ -273,16 +137,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
-      <description>&lt;p&gt;I was in Winnipeg speaking at the &lt;abbr title=&#34;Canadian Association for Distance Education&#34;&gt;CADE&lt;/abbr&gt;/&lt;abbr title=&#34;Association for Media and Technology in Education in Canada&#34;&gt;AMTECH&lt;/abbr&gt; Conference last week.  The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).&lt;/p&gt;
-
-&lt;p&gt;As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.  Throughout the journey he used blogging, digital photography, virtual lecture software, shared file storage space, and of course e-mail to keep in touch which his students and communicate with the world.&lt;/p&gt;
-
-&lt;p&gt;Terry Fuller, the instructional development coordinator that was helping Danny with the project submitted a paper to CADE to talk about &amp;ldquo;Using the Internet to make Meaningful Global Connections in the Classroom.&amp;ldquo;  I was involved in creating the &lt;a href=&#34;http://blogs.bcit.ca/catttrax2/&#34;&gt;web page and blog&lt;/a&gt; that was the highlight of the project and Terry asked me to talk about the &amp;ldquo;technical&amp;rdquo; side of designing the website.&lt;/p&gt;
-
-&lt;p&gt;Rather than boring the crowd with PHP, HTML, CSS, CMS and other &lt;abbr title=&#34;three letter acronyms&#34;&gt;TLA&lt;/abbr&gt;s.  I talked about the rest of the stuff that goes into the design process: user needs, site objectives, functional specifications, content requirements, information architecture, navigation design, visual design, and &lt;a href=&#34;http://www.jjg.net/elements/pdf/elements.pdf&#34; title=&#34;Jesse James Garrett&#34;&gt;all that good stuff&lt;/a&gt; but for those of you who care the site was driven by Drupal and included a XML driven flash photo gallery, a Google map mashup, and some video and audio recordings, though not as many as we&amp;rsquo;d hoped - apparently it&amp;rsquo;s tough to upload media files from the middle of the Amazon - who knew?&lt;/p&gt;
-
-&lt;p&gt;The project was a lot of fun and very different my usual daily duties.  I&amp;rsquo;ll post a summary and the slides soon.&lt;/p&gt;
-</description>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
     </item>
     
     <item>
@@ -291,10 +147,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Tue, 24 Apr 2007 17:58:15 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/working-hard/</guid>
-      <description>&lt;p&gt;Or hardly working?&lt;/p&gt;
-
-&lt;p&gt;When the network goes down the whole department starts acting like school kids when the power goes out.  We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)&lt;/p&gt;
-</description>
+      <description>Or hardly working?
+When the network goes down the whole department starts acting like school kids when the power goes out. We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)</description>
     </item>
     
     <item>
@@ -303,28 +157,9 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/styling-our-style-sheets/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the &lt;a href=&#34;http://bcit.ca&#34;&gt;BCIT&lt;/a&gt; site since I came on board here almost a year ago.&lt;/p&gt;
-
-&lt;p&gt;Well, I get my wish.  We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (&lt;a href=&#34;http://tantek.com/log/2007/04.html#d20t0823&#34;&gt;POSH&lt;/a&gt; if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.&lt;/p&gt;
-
-&lt;p&gt;As a first step I&amp;rsquo;m trying to write a CSS coding style guide.  I can&amp;rsquo;t necessarily clean up the current mess but I can try to stop any new ones from being made ;)&lt;/p&gt;
-
-&lt;p&gt;What I want to do is develop guidelines for:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;if and how style definitions should be divided between multiple style sheets&lt;/li&gt;
-&lt;li&gt;what order style definitions should be listed in (I currently put all my tag definitions at the top of documents and then place my id and class definitions beneath them in the order they&amp;rsquo;re anticipated to appear on the page)&lt;/li&gt;
-&lt;li&gt;naming conventions for ids and classes&lt;/li&gt;
-&lt;li&gt;commenting conventions&lt;/li&gt;
-&lt;li&gt;what order properties should be arranged within definitions&lt;/li&gt;
-&lt;li&gt;if and when we should use shorthand properties&lt;/li&gt;
-&lt;li&gt;formatting guidelines&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So far my research has turned up very few examples to help me with the development.  &lt;a href=&#34;http://bitworking.org/news/CSS_Coding_Style&#34;&gt;This somewhat out dated post&lt;/a&gt; is the best I&amp;rsquo;ve found so far.  Part of my problem is that searching for a style guide for CSS is just coming up with guides to styling with CSS.&lt;/p&gt;
-
-&lt;p&gt;Do you work with a CSS coding style guide or know any good resources for developing one?&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
+Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
+As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
     </item>
     
     <item>
@@ -333,31 +168,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Wed, 04 Apr 2007 14:11:08 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/web-directions-north/</guid>
-      <description>&lt;p&gt;I thought I&amp;rsquo;d post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I&amp;rsquo;ve been wanting to write a more technical and personal review of it but it&amp;rsquo;s pretty clear to me that if I haven&amp;rsquo;t done it by now, I&amp;rsquo;m not going to get around to doing it :)&lt;/p&gt;
-
-&lt;p&gt;Web Directions North is an international conference for people who work with the web, from project managers to web programmers to web designers. This year it was hosted in Vancouver and a few of us jumped at the opportunity to go and were grateful to have the department&amp;rsquo;s support.&lt;/p&gt;
-
-&lt;p&gt;The conference covered a good balance of theoretical big thinking ideas and practical hands on code ideas and we were fortunate to come home with both things to work towards in the long run and ideas that could be implemented immediately.&lt;/p&gt;
-
-&lt;p&gt;These are a few of the &amp;ldquo;big picture&amp;rdquo; ideas that stood out to us:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;User Experience&lt;/strong&gt; – It&amp;rsquo;s the difference between making a website as popular as the SunDisk Sansa MP3 player and making a website as popular as the iPod. Many of the speakers talked about the ways they integrate user experience design and testing into their work early in the project process and what a huge positive impact it has had on their websites.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Web Standards&lt;/strong&gt; – All the presenters were strong advocates of web standards. They also argued against the idea that all a website needs to meet standards is to be well coded. In their eyes a website with standards has &lt;em&gt;high&lt;/em&gt; standards – it should also be accessible, backwards compatible, built using the principles of progressive enhancement, semantic, and have good user experience.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ajax&lt;/strong&gt; – There was a lot of discussion about Ajax, what it is, why it has become popular, and where and how to best use it. It was advocated that sites should be built to function perfectly without Ajax and Ajax can be added after to enhance user experience. There were also some user experience issues identified with using Ajax and some solutions proposed.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These ideas touch on difference skill sets and the presenters who talked about project management felt that the ideal web team would consist of a mix of individuals with skills that cross the disciplines of development, design, usability, and content. This structure keeps the team nimble, and promotes rapid prototyping for continuous improvement.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s rare that a conference provides information you can act on the next day when you sit back down at you desk but these are ideas we found immediately useful:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Microformats&lt;/strong&gt; – &lt;a href=&#34;http://microformats.org/&#34;&gt;Microformats&lt;/a&gt; are a standardized way to add CSS to XHTML to code standardized information such as addresses and events so that programs such as address books and calendars can import them with a single click if you have a newer browser or the right plugins. The contacts application (&lt;a href=&#34;http://www.bcit.ca/contacts&#34;&gt;bcit.ca/contacts&lt;/a&gt;) has been rewritten to use microformats and the new version launched March 6&lt;sup&gt;th&lt;/sup&gt;!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mashups&lt;/strong&gt; – A mashup is when part of a website is integrated into another website. You might have seen a Google Maps mashup like this one: &lt;a href=&#34;http://blogs.bcit.ca/catttrax2/journey/route&#34;&gt;http://blogs.bcit.ca/catttrax2/journey/route&lt;/a&gt;.  One of the sessions covered what&amp;rsquo;s involved in beginning a mashup and now a campus map mashup is on the way!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Progressive Enhancement&lt;/strong&gt; – This is a &amp;ldquo;big idea&amp;rdquo; about how to code and a shift from the old concept of &amp;ldquo;graceful degradation&amp;rdquo;. The suggestion is that content should be written first and then semantic code, presentation, and behavior should be added on top of it in layers so that the core content is still accessible and intelligible if it is accessed without the presentation and behavior layers. The contacts application was rewritten using the principles of progressive enhancement; check it out with JavaScript or CSS turned off!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in learning more about any of these ideas the presentation summaries and notes are available on the &lt;a href=&#34;http://north.webdirections.org/wdn07-resources/&#34;&gt;Web Directions North&lt;/a&gt; website or you can talk to Brandon, Alan or me :)&lt;/p&gt;</description>
+      <description>&lt;p&gt;I thought I&amp;rsquo;d post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I&amp;rsquo;ve been wanting to write a more technical and personal review of it but it&amp;rsquo;s pretty clear to me that if I haven&amp;rsquo;t done it by now, I&amp;rsquo;m not going to get around to doing it :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -366,18 +177,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/striving-for-excellence/</guid>
-      <description>&lt;p&gt;I just finished my first micoformatted page!  When I was writing the information page for &lt;a href=&#34;http://hope-international.com/fundraising/07_springdinners.html&#34;&gt;HOPE&amp;rsquo;s spring dinners&lt;/a&gt; I coded all the dinners as events and the organizers as hcards :)  I did work with Brandon to re-do the &lt;a href=&#34;http://www.bcit.ca/contacts&#34;&gt;BCIT Contacts&lt;/a&gt; application to use microformats but he did most of the coding on that project.  This is the first time I&amp;rsquo;ve done it myself.&lt;/p&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.  However, my friend thinks I should tell them so they recognize just how good a job I&amp;rsquo;m doing for them.&lt;/p&gt;
-
-&lt;p&gt;I don&amp;rsquo;t really feel like I did anything other than my job.  Isn&amp;rsquo;t it my job to do a good job?&lt;/p&gt;
-
-&lt;p&gt;In the last two weeks of February, &lt;a href=&#34;http://www.cbc.ca/ideas/&#34;&gt;CBC&amp;rsquo;s &lt;em&gt;IDEAS&lt;/em&gt;&lt;/a&gt; aired a couple programs on the ideas of Richard Sennett, a sociologist and author who has studied the organization of work.  Among other things he suggests the Western world is obsessed not with the idea of craftsmanship but with productivity.  In other words: it doesn&amp;rsquo;t matter how well you do you job - just how quickly.&lt;/p&gt;
-
-&lt;p&gt;The speaker at my graduation ceremony spoke at length encouraging us to &amp;ldquo;&lt;quote&gt;strive for excellence&lt;/quote&gt;&amp;rdquo; in everything we do.  Not just in the work we do but also in our interactions as part of our daily lives.  From answering a client&amp;rsquo;s e-mail to cooking dinner, he urged us to do our best.&lt;/p&gt;
-
-&lt;p&gt;Is doing a good job something society has to be told to do now?&lt;/p&gt;
-</description>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
     </item>
     
     <item>
@@ -386,14 +187,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Tue, 27 Mar 2007 15:06:24 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</guid>
-      <description>&lt;p&gt;I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the &amp;ldquo;open all in tabs&amp;rdquo; option that FireFox so nicely includes to open all the book marks at once.  That way I can keep track of which ones I&amp;rsquo;ve read by closing them once I&amp;rsquo;m done :)  Yeah, it&amp;rsquo;s lazy I know.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m away from my home computer (who doesn&amp;rsquo;t) so I jumped on the &lt;a href=&#34;http://del.icio.us/sjhobson&#34;&gt;del.icio.us&lt;/a&gt; band wagon a few days ago.&lt;/p&gt;
-
-&lt;p&gt;I hunted around for an add-on of some sort that would let me open all my delicious bookmarks in new tabs without much success.  Turns out I was being too specific. &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/4336&#34;&gt;Snap Links&lt;/a&gt; is a great add on that will let you select links on your screen by dragging the mouse over them, sort of the same way you&amp;rsquo;d select icons on your desktop.  And it&amp;rsquo;s smart enough to only open the first link down in the HTML hierarchy, so with delicious you don&amp;rsquo;t open all the edit / delete links and with search engines you don&amp;rsquo;t open all the cached / similar pages links.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; It kind of interferes with my mouse gestures if I&amp;rsquo;m not careful but it&amp;rsquo;s not that hard to avoid.&lt;/p&gt;
-</description>
+      <description>I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the &amp;ldquo;open all in tabs&amp;rdquo; option that FireFox so nicely includes to open all the book marks at once. That way I can keep track of which ones I&amp;rsquo;ve read by closing them once I&amp;rsquo;m done :) Yeah, it&amp;rsquo;s lazy I know.
+I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m away from my home computer (who doesn&amp;rsquo;t) so I jumped on the del.</description>
     </item>
     
     <item>
@@ -402,11 +197,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/something-new-today/</guid>
-      <description>&lt;p&gt;So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;/file.php?fire=hot&amp;amp;amp;beer=foamy&amp;quot;&amp;gt;link&amp;lt;/a&amp;gt;;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
+&amp;lt;a href=&amp;quot;/file.php?fire=hot&amp;amp;amp;beer=foamy&amp;quot;&amp;gt;link&amp;lt;/a&amp;gt;;  </description>
     </item>
     
     <item>
@@ -415,12 +207,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</guid>
-      <description>&lt;p&gt;One of the projects I&amp;rsquo;ve worked on at BCIT is &lt;a href=&#34;http://blogs.bcit.ca/catttrax2/&#34; title=&#34;Catt -Trax2: The Antarctic to the Amazon.&#34;&gt;Catt-Trax2&lt;/a&gt;.  The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily.  He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences.  I helped architect the website and did some design and implementation work on it. We have fun stuff like a Google Maps mashup showing his route too.&lt;/p&gt;
-
-&lt;p&gt;The project manager for the project is an Instructional Development Coordinator named Terry Fuller who has done an excellent job pushing the team to give their most while restraining Danny&amp;rsquo;s overwhelming enthusiasm to keep the project in scope.&lt;/p&gt;
-
-&lt;p&gt;She&amp;rsquo;s asked me to co-present about the project at a conference for distance educators that is happening in Winnipeg in May. I&amp;rsquo;ve applied for funding to go with her.  &lt;a href=&#34;http://cade-aced.ca/conferences/2007/viewSession.php?presenterID=119&#34;&gt;Our names&lt;/a&gt; are already on the website, so I hope I get the funding :)&lt;/p&gt;
-</description>
+      <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
     </item>
     
     <item>
@@ -429,18 +216,9 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</guid>
-      <description>&lt;p&gt;Vivian is such a great motivator.  I&amp;rsquo;m still sorry to see her go.&lt;/p&gt;
-
-&lt;p&gt;I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.&lt;/p&gt;
-
-&lt;p&gt;She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.&lt;/p&gt;
-
-&lt;p&gt;She thinks I should, and told me I have the right skills and thought processes to, be a manager.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not sure I agree with where she wants me to go but she sure made me feel like I could get there if that&amp;rsquo;s where I wanted to go :)&lt;/p&gt;
-
-&lt;p&gt;Which begs the question, where do I want to go?&lt;/p&gt;
-</description>
+      <description>Vivian is such a great motivator. I&amp;rsquo;m still sorry to see her go.
+I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.
+She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.</description>
     </item>
     
     <item>
@@ -449,14 +227,10 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Thu, 08 Mar 2007 21:21:29 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/insecurity/</guid>
-      <description>&lt;p&gt;All I did was copy the cgi file and change the file name and now it&amp;rsquo;s not encrypting the e-mails it sends any more.&lt;/p&gt;
-
-&lt;p&gt;Hm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; Yup, the problem was that I changed the name.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit 07-03-26:&lt;/strong&gt; I&amp;rsquo;ve also discovered that cgi files are not encoded using windows text format so opening them in notepad and saving them again is enough to destroy all functionality.&lt;/p&gt;
-</description>
+      <description>All I did was copy the cgi file and change the file name and now it&amp;rsquo;s not encrypting the e-mails it sends any more.
+Hm.
+Edit: Yup, the problem was that I changed the name.
+Edit 07-03-26: I&amp;rsquo;ve also discovered that cgi files are not encoded using windows text format so opening them in notepad and saving them again is enough to destroy all functionality.</description>
     </item>
     
     <item>
@@ -465,17 +239,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/border-collapse/</guid>
-      <description>&lt;p&gt;I am, for the most part, self taught when it comes to HTML and CSS.  I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.&lt;/p&gt;
-
-&lt;p&gt;I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the &lt;a href=&#34;https://web.archive.org/web/20070306020032/http://north.webdirections.org&#34;&gt;Web Directions North&lt;/a&gt; conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;table {
-        border-collapse: collapse;
-    }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;There are quite a few tables I&amp;rsquo;ve designed where this would have been very useful.&lt;/p&gt;
-</description>
+      <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
+I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
     </item>
     
     <item>
@@ -484,15 +249,8 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Mon, 05 Mar 2007 12:16:18 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</guid>
-      <description>&lt;p&gt;Well, outside of my &lt;a href=&#34;http://www.bcit.ca/facultystaff/bios/1431805&#34;&gt;day job&lt;/a&gt; I&amp;rsquo;m:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;making my Mum a &lt;a href=&#34;http://barbhobson.ca&#34;&gt;website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;moving hosting servers for &lt;a href=&#34;http://digitalphoenix.ca&#34;&gt;digitalphoenix.ca&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;learning cgi so I can create an auto generated thank you message for &lt;a href=&#34;http://www.hope-international.com&#34;&gt;HOPE&lt;/a&gt;&amp;rsquo;s donors&lt;/li&gt;
-&lt;li&gt;taking &lt;a href=&#34;http://www.bcit.ca/study/courses/cint1110&#34;&gt;Mandarin&lt;/a&gt; (what was I thinking?)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Well, outside of my day job I&amp;rsquo;m:
+ making my Mum a website moving hosting servers for digitalphoenix.ca learning cgi so I can create an auto generated thank you message for HOPE&amp;rsquo;s donors taking Mandarin (what was I thinking?)  </description>
     </item>
     
     <item>
@@ -501,8 +259,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Mon, 05 Mar 2007 01:53:59 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/hello-world/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been wanting a professional blog for a while now.  It&amp;rsquo;s funny how there&amp;rsquo;s somethings you can tell complete strangers and there&amp;rsquo;s some things you can&amp;rsquo;t.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been wanting a professional blog for a while now. It&amp;rsquo;s funny how there&amp;rsquo;s somethings you can tell complete strangers and there&amp;rsquo;s some things you can&amp;rsquo;t.</description>
     </item>
     
   </channel>

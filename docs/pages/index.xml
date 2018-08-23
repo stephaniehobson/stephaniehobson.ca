@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
     
-        <atom:link href="https://stephaniehobson.ca/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,23 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/about/</guid>
-      <description>
-&lt;figure&gt;
-    
-        &lt;img src=&#34;stephanie.jpg&#34; alt=&#34;Me wearing a black turtle neck with my red-brown hair in a pony tail, smiling in front of a wall with lots of cool graffiti.&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;My name is Stephanie Hobson and I like to make websites everyone can use.&lt;/p&gt;
-
-&lt;p&gt;That means thinking about the people who use the web with different tools and different lives than what I have. People with: slower internet connections, older devices, screen readers, switch controls, or high contrast themes. People with: different gender, sexual orientation, skin colour, first language, or brain wiring.&lt;/p&gt;
-
-&lt;p&gt;I like to think I&amp;rsquo;m making the world a better place one byte at a time.&lt;/p&gt;
-
-&lt;p&gt;Sometimes I speak on stage about this.&lt;/p&gt;
-</description>
+      <description>My name is Stephanie Hobson and I like to make websites everyone can use.
+That means thinking about the people who use the web with different tools and different lives than what I have. People with: slower internet connections, older devices, screen readers, switch controls, or high contrast themes. People with: different gender, sexual orientation, skin colour, first language, or brain wiring.
+I like to think I&amp;rsquo;m making the world a better place one byte at a time.</description>
     </item>
     
   </channel>

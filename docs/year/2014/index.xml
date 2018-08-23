@@ -8,7 +8,7 @@
     <language>en-ca</language>
     <lastBuildDate>Sat, 13 Dec 2014 11:00:15 +0000</lastBuildDate>
     
-        <atom:link href="https://stephaniehobson.ca/year/2014/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephaniehobson.ca/year/2014/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,14 +17,10 @@
       <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.&lt;/p&gt;
-
-&lt;p&gt;The most detailed (and longest) version of my talk is available to watch on &lt;a href=&#34;http://wordpress.tv/2014/09/02/stephanie-hobson-accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;Wordpress TV&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My first slide deck and links to the resources I recommend are part of &lt;a href=&#34;../../posts/accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;an earlier blog post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page. Follow these thinks to see the &lt;a href=&#34;../../demos/hosting_bad.html&#34;&gt;bad&lt;/a&gt; and &lt;a href=&#34;../../demos/hosting_good.html&#34;&gt;good&lt;/a&gt; examples and I encourage you to compare the two right now using some assistive technology, or at the very least, using your nose or elbow on your mouse or trackpad.&lt;/p&gt;
-</description>
+      <description>There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.
+The most detailed (and longest) version of my talk is available to watch on Wordpress TV.
+My first slide deck and links to the resources I recommend are part of an earlier blog post.
+In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page.</description>
     </item>
     
     <item>
@@ -33,192 +29,8 @@
       <pubDate>Wed, 04 Jun 2014 22:01:01 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
-      <description>&lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
-
-&lt;h3&gt;What is GTM&lt;/h3&gt;
-
-&lt;p&gt;You include a code snippet from GTM on your site which, among other things, includes a file. Then you use the GTM interface to configure what goes in that file.&lt;/p&gt;
-
-&lt;p&gt;This is intended to replace any scripts you&amp;rsquo;d normally have to write yourself to track stuff that isn&amp;rsquo;t a regular page view (example: tracking a file download as a page view). Say good bye to code like this: &lt;code&gt;pageTracker._trackPageview(fileurl);&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3&gt;Why do we care?&lt;/h3&gt;
-
-&lt;p&gt;One snippet to rule them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
-
-&lt;p&gt;Theoretically, it means non-technical people will be able to do the set up for this kind of tracking. Less work for us! But let&amp;rsquo;s face it, the interface was written by devs, it still needs some technical knowledge.&lt;/p&gt;
-
-&lt;p&gt;It cuts down on the amount of code writing and maintenance we have to do in the future. Also less work for us!&lt;/p&gt;
-
-&lt;h3&gt;Is it a trap?&lt;/h3&gt;
-
-&lt;p&gt;Could be. Yup.&lt;/p&gt;
-
-&lt;p&gt;A javascript error in GTM code can break all the javascript on the page and anyone with access to your GTM account can add javascript.&lt;/p&gt;
-
-&lt;p&gt;GTM seems to insist on following the href on &amp;lt;a&amp;gt; elements. So if you are hijaxing any links GMT could break your code. For example: if you are using a lightbox style plugin which opens links in overlays.&lt;/p&gt;
-
-&lt;p&gt;Some GTM features can add query strings or hash tags to URLs, depending on the system on the other end of the link, this could cause problems too.&lt;/p&gt;
-
-&lt;p&gt;So test, and limit the publishing permissions on your account to people who know how to test.&lt;/p&gt;
-
-&lt;h3&gt;Creating an account&lt;/h3&gt;
-
-&lt;p&gt;Remember how we all went out and got personal Google Analytics accounts and added our clients to them and then stopped working for those clients and it got awkward? Google remembers too.&lt;/p&gt;
-
-&lt;p&gt;You hook an existing personal login up to GTM and then have the option to create accounts. One per business is ideal here. Then you get to set up what Google is calling a container. A container contains all the code snippets you are going to want to run. Google suggests you should create a different container for each website associated with the business that owns the account.&lt;/p&gt;
-
-&lt;p&gt;(This seems like sound advice if you&amp;rsquo;re just getting started but will lead to some code duplication in the long run if you have multiple domains, I have complicated thoughts on this that belong in a separate blog post).&lt;/p&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve set up a container you get the code snippet. Place the code snippet on the page after the opening &amp;lt;body&amp;gt; tag.&lt;/p&gt;
-
-&lt;h3&gt;What&#39;s all this?&lt;/h3&gt;
-
-&lt;p&gt;Your container contains 3 things: tags, rules, and macros.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt;
-Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;,  &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rules&lt;/strong&gt;
-Rules are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each rule can have multiple conditions so you can combine them to create rules like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Macros&lt;/strong&gt;
-Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in macros: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference macros inside tags, rules, and other macros by writing its name in  {{double curly braces}}.&lt;/p&gt;
-
-&lt;h3&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h3&gt;
-
-&lt;p&gt;My examples are all for Universal Analytics but if you&amp;rsquo;re still using Classic the concept is the same where I pick Universal Analytics from the Tag Type menu pick Google Analytics Classic and do your best with the slightly different options that follow from there.&lt;/p&gt;
-
-&lt;p&gt;This is, more or less, what we&amp;rsquo;ll be setting up, in an order that makes sense to me:&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;Macro&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.&lt;/li&gt;
-    &lt;li&gt;Create version&lt;/li&gt;
-    &lt;li&gt;Preview&lt;/li&gt;
-    &lt;li&gt;Publish&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I found the actual order somewhat more headache inducing, and that&amp;rsquo;s why I&amp;rsquo;m writing a blog post about it. Hopefully you end up at the end of this list with link tracking and no headache.&lt;/p&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve followed these steps once hopefully you will understand how the pieces fit together and you can go on to work in the way that makes the most sense to you :)&lt;/p&gt;
-
-&lt;p&gt;This is the part where I list actual steps, this part might change as the product develops.&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;Macro&lt;/em&gt;: your Analytics tracking number.
-        &lt;ol&gt;
-            &lt;li&gt;In Analytics get your tracking ID from Admin &gt; Property Settings&lt;/li&gt;
-            &lt;li&gt;In GTM go to your container&#39;s overview page.&lt;/li&gt;
-            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;macro&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
-                &lt;dl&gt;
-                    &lt;dt&gt;Macro Name:&lt;/dt&gt;
-                    &lt;dd&gt;&lt;kbd&gt;tracking ID&lt;/kbd&gt; (well you can name it whatever you want)&lt;/dd&gt;
-                    &lt;dt&gt;Macro Type:&lt;/dt&gt;
-                    &lt;dd&gt;&lt;kbd&gt;Constant String&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Value:&lt;/dt&gt;
-                    &lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
-                &lt;/dl&gt;
-                Or, if prefer a screen shot:
-                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id macro&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Save it.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.
-        &lt;ol&gt;
-            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
-                &lt;dl&gt;
-                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Pageview&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the macro we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
-                    &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this rule, GTM creates it automatically.&lt;/dd&gt;
-                &lt;/dl&gt;
-                Or, if you prefer a screen shot:
-                &lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Save it.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.
-        &lt;ol&gt;
-            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
-                &lt;dl&gt;
-                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
-                &lt;/dl&gt;
-                Leave everything else on the defaults.&lt;/li&gt;
-            &lt;li&gt;Save it.&lt;/li&gt;
-        &lt;/ol&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.
-        &lt;ul&gt;
-            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;rule&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt;Configure the rule like this:
-                &lt;dl&gt;
-                    &lt;dt&gt;Rule Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Conditions:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{event}} equals gtm.linkClick&lt;/kbd&gt;&lt;/dd&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}} starts with &lt;/kbd&gt;&lt;em&gt; your site URL&lt;/em&gt; &lt;/dd&gt;
-                &lt;/dl&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Save it.&lt;/li&gt;
-        &lt;/ul&gt;
-        I actually use a complex regex in a macro for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
-    &lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
-        &lt;ul&gt;
-            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt;Configure the rule like this:
-                &lt;dl&gt;
-                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;UA event - outbound link&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking id}}&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Event&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Category:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;outbound-link&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Action:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}}&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Label:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element text}}&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Value:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;1&lt;/kbd&gt;&lt;/dd&gt;
-                &lt;/dl&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Save it.&lt;/li&gt;
-        &lt;/ul&gt;
-        If you have an existing implementation you are trying to match so your stats aren&#39;t disrupted you should look in Google Analytics to see what you are currently using for the event category, action and label and match those values instead :)
-    &lt;/li&gt;
-    &lt;li&gt;Create version
-        &lt;ul&gt;
-            &lt;li&gt;On the Container Draft &gt; Overview page the Create Version button is in the top right.&lt;/li&gt;
-            &lt;li&gt;If you really want to be on the ball you can amend the name or add notes to describe what you added in this version, handy in case you want to roll back.&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;Preview
-        &lt;ul&gt;
-            &lt;li&gt;The Preview button is also on the top right of the Container Draft &gt; Overview screen.&lt;/li&gt;
-            &lt;li&gt;Click Debug in the popover&lt;/li&gt;
-            &lt;li&gt;In the next popover click on the url of your site. This will open a new window with your site and a Tag Manager window at the bottom.&lt;/li&gt;
-            &lt;li&gt;In the window at the bottom check that:
-                &lt;ul&gt;
-                    &lt;li&gt;&#34;Page View - Page&#34; and &#34;Listener - linkClick&#34; have the status &#34;Fired on Tag Manager Load&#34;&lt;/li&gt;
-                    &lt;li&gt;Click on a link and check that &#34;UA event - outbound link&#34; gets added with the status &#34;Fired on Event &#34;gtm.linkClick&#34;. You can usually see it flash to the top before the other page loads but if it&#39;s too fast find (or create) a link with the attribute target=&#34;_blank&#34; to click.&lt;/li&gt;
-                &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;If something is not working check your rules and try again.&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;Also important,&lt;/strong&gt; check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.&lt;/li&gt;
-            &lt;li&gt;Exit preview mode&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;li&gt;Publish (blue button in top right of Container Draft &gt; Overview page)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You can see some changes applied immediately in Analytics on the Real-Time &gt; Overview page. Other events which don&#39;t seem to be working on Real-Time occasionally start showing up in the stats a day later. I have no insight to offer here, sorry.&lt;/p&gt;
-
-&lt;h3&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;So we create tags to do things, rules to govern when we do the things in the tags, and macros to save ourselves time when creating tags and rules.&lt;/p&gt;
-</description>
+      <description>Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).
+What is GTM You include a code snippet from GTM on your site which, among other things, includes a file. Then you use the GTM interface to configure what goes in that file.</description>
     </item>
     
     <item>
@@ -227,36 +39,8 @@ Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly t
       <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
-      <description>
-
-&lt;p&gt;Last night I spoke at the &lt;a href=&#34;http://www.meetup.com/styleandclass/&#34;&gt;Style &amp;amp; Class Meet-up&lt;/a&gt; about Accessibility and CSS. Posting the slides here for posterity:&lt;/p&gt;
-
-&lt;div class=&#34;slideshare&#34;&gt;
-  &lt;div class=&#34;slideshare-slides&#34;&gt;
-    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/LbZCesLu0s7bH4&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;slideshare-credit&#34;&gt;
-    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/accessibility-with-css-making-website-better-for-everyone&#34; target=&#34;_blank&#34;&gt;Accessibility with CSS: Making Websites Better for Everyone&lt;/a&gt; &lt;/strong&gt;
-    from
-    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://webaim.org&#34;&gt;Intro to Accessibility&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wave.webaim.org&#34;&gt;WCAG Validator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alistapart.com/article/the-accessibility-of-wai-aria&#34;&gt;Intro to ARIA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/dont-lose-your-focus/&#34;&gt;:Focus and keyboard accessibility&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.paciellogroup.com/2010/01/high-contrast-proof-css-sprites&#34;&gt;High contrast CSS Sprites&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;Bullet Proof Accessible Icon Fonts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://snook.ca/archives/html_and_css/hiding-content-for-accessibility&#34;&gt;The Offscreen Class&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://snook.ca/archives/html_and_css/floated-label-pattern-css&#34;&gt;Floating Form Labels&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links&#34;&gt;Javascript fix for Skip Links&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Last night I spoke at the Style &amp;amp; Class Meet-up about Accessibility and CSS. Posting the slides here for posterity:
+   Accessibility with CSS: Making Websites Better for Everyone  from Stephanie Hobson   Resources  Intro to Accessibility WCAG Validator Intro to ARIA :Focus and keyboard accessibility High contrast CSS Sprites Bullet Proof Accessible Icon Fonts The Offscreen Class Floating Form Labels Javascript fix for Skip Links  </description>
     </item>
     
     <item>
@@ -265,62 +49,8 @@ Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly t
       <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid>
-      <description>
-
-&lt;p&gt;&lt;em&gt;Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“In the top left hand corner there’s a square, in the bottom right there’s a circle, big enough that it overlaps the square. Inside the circle is a triangle.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It was impossible to end up with an exact copy of the drawing. Usually the original and new drawings were hilariously different.&lt;/p&gt;
-
-&lt;p&gt;Every time you visit a web site, your computer is playing this game with another computer on the other end of the internet. In order to avoid ending up with a hilariously different web site, the computers speak a few &lt;em&gt;really precise&lt;/em&gt; languages to each other.&lt;/p&gt;
-
-&lt;p&gt;A CMS (Content Management System) lets you make updates to a website without learning those languages. So you’re telling the CMS what you want to do and the CMS is translating your intention into one of those &lt;em&gt;really precise&lt;/em&gt; languages – HTML.&lt;/p&gt;
-
-&lt;p&gt;HTML doesn&amp;rsquo;t tell the computer how to make things look. HTML tells the computer what things are: “this text is a link to another page”, “this text is a heading”, “this text a list of related stuff.” This is called &lt;strong&gt;semantic markup&lt;/strong&gt;: the content is &amp;ldquo;marked up&amp;rdquo; with HTML to indicate its &amp;ldquo;semantics&amp;rdquo; or meaning.&lt;/p&gt;
-
-&lt;p&gt;When users view your website, their browser combines your HTML with files the developers have written in two other languages – CSS and JavaScript –  to create the web page that they see.&lt;/p&gt;
-
-&lt;p&gt;CSS tells the computer how things should look: “links are blue,” “headings are bold,” “list items have bullets.”&lt;/p&gt;
-
-&lt;p&gt;JavaScript tells the computer how things should work: “When the user clicks this button, show the user that paragraph.”&lt;/p&gt;
-
-&lt;p&gt;With just the HTML a computer can do all kinds of interesting things with your content. It can read it out loud, translate it into a different language, put it on a really big screen (or a really little one), or search through it.&lt;/p&gt;
-
-&lt;h2 id=&#34;sometimes-things-get-misinterpreted&#34;&gt;Sometimes things get misinterpreted.&lt;/h2&gt;
-
-&lt;p&gt;When we edit pages in a CMS we see a visual metaphor instead of the plain HTML. We’re also playing the drawing game with the CMS. This means something that looks right might still not have the right HTML. Just because there are dots before that text doesn&amp;rsquo;t mean it’s a list. Just because this text is bold doesn&amp;rsquo;t mean it’s a heading.&lt;/p&gt;
-
-&lt;h2 id=&#34;with-the-wrong-html-the-other-computers-will-make-mistakes&#34;&gt;With the wrong HTML the other computers will make mistakes.&lt;/h2&gt;
-
-&lt;p&gt;When a screen reader comes to a list it will tell the user that there&amp;rsquo;s a list and how long it is, if the user has been to the page before and knows they need item number eight they can skip straight to it. With the wrong HTML the user has to skip past all the other items one at a time.&lt;/p&gt;
-
-&lt;p&gt;When a search engine is trying to identify what a page is about it looks for headings. Text that is marked up as an HTML heading is considered a better summary.&lt;/p&gt;
-
-&lt;p&gt;When the CSS (the way the website looks) changes the HTML doesn’t. In 2010 we changed how much space is between paragraphs on the website. Before we did this some editors had decided they wanted more space between their paragraphs and inserted it themselves by adding empty paragraphs, using markup to create visual formatting. After we made changes to the CSS their pages had huge spaces between paragraphs and it looked like something was wrong with them.&lt;/p&gt;
-
-&lt;p&gt;The mobile version of a website will often use the same HTML as a desktop version but different CSS. This is a very visual example of why separation of content and presentation matter.&lt;/p&gt;
-
-&lt;p&gt;From time to time, we see people use tables to impose a specific visual layout on their content, something that should really be done with CSS instead. Tables are hard for mobile browsers to handle because they are so wide. To avoid distorting content in them the tables could be re-arranged. This will make tables with data in them easier to read on a mobile phone but if the HTML says “this is a table” and what is inside is not data, just an image we wanted in a different position, things could end up looking like one of our drawing game pictures gone wrong.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-avoid-errors&#34;&gt;How to avoid errors.&lt;/h2&gt;
-
-&lt;p&gt;There are some simple things that can be done to avoid problems:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When you are copy and pasting into your CMS only paste plain text.&lt;/li&gt;
-&lt;li&gt;Use your CMS&amp;rsquo;s editing tool bar to communicate your intent to it. Use the buttons to create lists and the style drop down to create headings.&lt;/li&gt;
-&lt;li&gt;When inserting images remember to fill in the &amp;ldquo;alt&amp;rdquo; text and ask if there is a class to help you position the image where you want it on the page.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don&amp;rsquo;t fight the default styles. The designer made careful decisions about how the HTML should be styled by the CSS using principles of graphic design and interface design and did user testing to refine them. This should make your job easier, you don&amp;rsquo;t have to make these decisions yourself instead focus on the &lt;strong&gt;purpose&lt;/strong&gt; of each part of your content instead of how it should look.&lt;/p&gt;
-
-&lt;p&gt;If you are experienced enough to be writing your own HTML pay attention to what the meaning of the elements are.&lt;/p&gt;
-</description>
+      <description>Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.
+Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.</description>
     </item>
     
   </channel>

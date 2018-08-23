@@ -1,1 +1,176 @@
-../../../../tags/bcit/index.xml
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bcit on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/tags/bcit/</link>
+    <description>Recent content in Bcit on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Tue, 21 Jan 2014 20:05:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://stephaniehobson.ca/tags/bcit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Matter of Semantics</title>
+      <link>https://stephaniehobson.ca/posts/a-matter-of-semantics/</link>
+      <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid>
+      <description>Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.
+Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.</description>
+    </item>
+    
+    <item>
+      <title>Leave</title>
+      <link>https://stephaniehobson.ca/posts/leave/</link>
+      <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/leave/</guid>
+      <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
+Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
+I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
+I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long.</description>
+    </item>
+    
+    <item>
+      <title>A Dull April Fool&#39;s Day</title>
+      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
+      <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
+ Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
+    </item>
+    
+    <item>
+      <title>Maintaining your CSS helps maintain your site</title>
+      <link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
+      <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid>
+      <description>Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.
+Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).</description>
+    </item>
+    
+    <item>
+      <title>What would you change?</title>
+      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
+      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
+      <description>Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.
+BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and What Would You Change?</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
+    </item>
+    
+    <item>
+      <title>Missing table based layouts</title>
+      <link>https://stephaniehobson.ca/posts/missing-table-based-layouts/</link>
+      <pubDate>Fri, 18 Jan 2008 18:17:35 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/missing-table-based-layouts/</guid>
+      <description>There&amp;rsquo;s only one time where I ever really miss table based layouts: when I&amp;rsquo;m trying to make a flexible horizontal navigation bar with centred links. Like this or this](http://louisgervais.com) website I made for a Vancouver gourmet catering company. chews on keyboard with frustration</description>
+    </item>
+    
+    <item>
+      <title>We made the cut!</title>
+      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
+      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
+A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
+Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
+ From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
+    </item>
+    
+    <item>
+      <title>What a great way to start a Monday.</title>
+      <link>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid>
+      <description>Part of my job at BCIT is providing technical support to our content publishing community. These are the people who provide the text to fill the templates we make and keep that text up to date. Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.
+Forty percent of our job is providing encouragement. &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.</description>
+    </item>
+    
+    <item>
+      <title>Forming form guidelines</title>
+      <link>https://stephaniehobson.ca/posts/forming-form-guidelines/</link>
+      <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid>
+      <description>Who knew web design could be so&amp;hellip; academic?
+Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
+    </item>
+    
+    <item>
+      <title>CADE/AMTECH Conference</title>
+      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
+      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
+      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
+As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
+    </item>
+    
+    <item>
+      <title>Working hard?</title>
+      <link>https://stephaniehobson.ca/posts/working-hard/</link>
+      <pubDate>Tue, 24 Apr 2007 17:58:15 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/working-hard/</guid>
+      <description>Or hardly working?
+When the network goes down the whole department starts acting like school kids when the power goes out. We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)</description>
+    </item>
+    
+    <item>
+      <title>Styling Our Style Sheets</title>
+      <link>https://stephaniehobson.ca/posts/styling-our-style-sheets/</link>
+      <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/styling-our-style-sheets/</guid>
+      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
+Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
+As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
+    </item>
+    
+    <item>
+      <title>Striving for excellence</title>
+      <link>https://stephaniehobson.ca/posts/striving-for-excellence/</link>
+      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/striving-for-excellence/</guid>
+      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
+I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m presenting at a conference!</title>
+      <link>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</link>
+      <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</guid>
+      <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
+    </item>
+    
+  </channel>
+</rss>

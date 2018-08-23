@@ -2,7 +2,9 @@ RSS weirdness:
 - should be limited to 10
 - do not include pages
 - does it include full posts?
-- does it include author?
+- missing author
+- check wordpress URLs are working
+- dates on the pages? (about, typography)
 
 MVP:
 
@@ -19,6 +21,7 @@ MVP:
 
 Other:
 
+- git attributions for generated pages
 - print styles
 - link to tag list
 - do I need to alias short URLs? ... can I?

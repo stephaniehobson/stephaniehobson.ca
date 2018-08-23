@@ -14,22 +14,22 @@ echo "CNAME found"
 
 # make sure wordpress tag feeds continue to work
 # http://stephaniehobson.ca/wordpress/tag/conference/feed/
-for t in bcit conference ; do
+for t in accessibiltity accomplishment analytics bcit code conference links mozilla personal presentation slides video webdesign ; do
     mkdir -p docs/wordpress/tag/$t/feed/
-    ln -s ../../../../tags/$t/index.xml docs/wordpress/tag/$t/feed/index.xml
+    cp -p docs/tags/$t/index.xml docs/wordpress/tag/$t/feed/index.xml
 done
 
 # make sure wordpress category feeds continue to work
 # http://stephaniehobson.ca/wordpress/category/webdesign/feed/
 for c in webdesign personal ; do
     mkdir -p docs/wordpress/category/$c/feed/
-    ln -s ../../../../tags/$c/index.xml docs/wordpress/category/$c/feed/index.xml
+    cp -p docs/tags/$c/index.xml docs/wordpress/category/$c/feed/index.xml
 done
 
 # make sure wordpress site feed continues to work
 # http://stephaniehobson.ca/feed/
 mkdir -p docs/feed/
-ln -s ../index.xml docs/feed/index.xml
+cp -p docs/index.xml docs/feed/index.xml
 
 git add *
 git commit -m "Generate static site"
