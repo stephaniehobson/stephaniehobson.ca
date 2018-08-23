@@ -3,10 +3,11 @@ languageCode = "en-ca"
 title = "Stephanie Hobson"
 publishDir = "docs"
 relativeURLs = true
+rssLimit = 10
 [taxonomies]
   tag = "tags"
   year = "year"
   talk = "talks"
 [author]
     name = "Stephanie Hobson"
-rssLimit = 10
+
