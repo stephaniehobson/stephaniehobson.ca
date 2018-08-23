@@ -1,26 +1,3 @@
-RSS weirdness:
-- should be limited to 10
-- do not include pages
-- does it include full posts?
-- missing author
-- check wordpress URLs are working
-- dates on the pages? (about, typography)
-
-MVP:
-
-- SEO
-    - export the Webmaster tools 404 and 500 reports
-    - export the Search Console Performance / Exclude (for redirects?)
-    - get backlinks report
-      - fix any 404s
-    - crawl with screaming frog (can't save, find free tool replacement)
-    - after move submit new sitemap to Google
-- Deploy
-    - http://www.competa.com/blog/how-to-deploy-only-your-dist-folder-to-gh-pages-branch-github-pages/
-- move stephaniehobson.github.io content into Hugo
-
-Other:
-
 - git attributions for generated pages
 - print styles
 - link to tag list
@@ -32,23 +9,17 @@ Other:
 - make slide share and videos take up full width of <main>
 - review heading levels
 - pagination for home page
-- make sure heading levels are accurate on all pages
 - useful 404 page
 - twitter replacement, micro blogs
   - import Tweets
 - service worker to cache articles
 - Implement code syntax styling
-- Update about page
 - Decide on grid size and implement
-- Decide on typography and implement
-  - Fix heading levels for posts
 - Review each post
 - Next/Prev Links on individual posts (or other CTA at bottom of post)
 - Reader view
 - Write & implement summaries for posts
-- Remove tags or categories? (remove all posts not webdesign?)
-  - only categories
-  - still need "webdesign" category? Isn't the whole blog about it?
+- still need "webdesign" category? Isn't the whole blog about it?
 - fix posts with <dl>s
 - fix posts with HTML tags
 - warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")
@@ -64,6 +35,17 @@ Other:
 
 
 Done:
+- Migrate from categories to just tags
+- Decide on typography and implement
+- Update about page
+- SEO
+    - export the Webmaster tools 404 and 500 reports
+    - export the Search Console Performance / Exclude (for redirects?)
+    - get backlinks report
+      - fix any 404s
+    - crawl with screaming frog (can't save, find free tool replacement)
+    - after move submit new sitemap to Google
+- Deploy
 - noindex typography file
 - add canonical URLs
   - add canonical link to all posts, use fully qualified URL
