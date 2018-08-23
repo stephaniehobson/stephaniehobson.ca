@@ -6,10 +6,99 @@
     <description>Recent content in Analytics on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 28 Jul 2016 09:38:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 07:58:00 +0000</lastBuildDate>
     
         <atom:link href="https://stephaniehobson.ca/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to make a chart of your users&#39; window sizes</title>
+      <link>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</link>
+      <pubDate>Thu, 23 Aug 2018 07:58:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This article was originally published on the &lt;a href=&#34;https://mozilla.github.io/meao/2018/01/24/browser-sizes/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In preparation for the MDN redesign I examined our analytics to get an idea
+of how wide our users&amp;rsquo; browser windows were. I wanted window widths, not screen
+sizes and I thought a chart would tell a more compelling story than a table.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the chart I made:&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;browser-sizes.png&#34; alt=&#34;Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I found this view useful because it shows us &amp;ldquo;clumps&amp;rdquo; of window sizes.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-make-a-chart-of-browser-window-widths&#34;&gt;How to make a chart of browser window widths&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-basic-idea-is&#34;&gt;The basic idea is:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create and export a Custom Report for Browser Size.&lt;/li&gt;
+&lt;li&gt;Filter the Browser Size to just include widths.&lt;/li&gt;
+&lt;li&gt;Aggregate the number of users for each width.&lt;/li&gt;
+&lt;li&gt;Make a chart.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;working-with-google-analytics-and-google-sheets-the-specific-steps-i-used-were&#34;&gt;Working with Google Analytics and Google Sheets the specific steps I used were:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a custom report for browser sizes.
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Customization&lt;/strong&gt; &amp;gt; &lt;strong&gt;Custom Reports&lt;/strong&gt; &amp;gt; &lt;strong&gt;New Custom Report&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Set the &lt;strong&gt;Metric Group&lt;/strong&gt; to &lt;code&gt;Users&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Dimension Drilldowns&lt;/strong&gt; to &lt;code&gt;Browser Size&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Save&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;View the custom report.&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Show rows:&lt;/strong&gt; to &lt;code&gt;5000&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Export to Google Sheets.&lt;/li&gt;
+&lt;li&gt;Delete the extra stuff from the top and bottom of the export, you just want
+two columns: &lt;strong&gt;Browser Size&lt;/strong&gt;, and &lt;strong&gt;Users&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Create a new column &lt;code&gt;C&lt;/code&gt; called &lt;strong&gt;Width&lt;/strong&gt;. Add this regex to it and fill down:
+&lt;code&gt;=REGEXEXTRACT(A2, &amp;quot;^[0-9]+&amp;quot;)&lt;/code&gt;. This gives you a column with just the width
+part of the browser size.&lt;/li&gt;
+&lt;li&gt;Create a new column &lt;code&gt;D&lt;/code&gt; called &lt;strong&gt;Unique List&lt;/strong&gt;. Add this formula to it (you
+don&amp;rsquo;t need to fill down): &lt;code&gt;=UNIQUE(C2:C5001)&lt;/code&gt;.This gives you a list of
+widths with no repeating values. That means 1900x950 and 1900x970 will be
+treated the same in our final chart.&lt;/li&gt;
+&lt;li&gt;Create a new column &lt;code&gt;E&lt;/code&gt; called &lt;strong&gt;Conditional Sums&lt;/strong&gt;. Add this formula and
+fill down the height of your Unique List: &lt;code&gt;=SUMIF(C$2:C$5001,D2,B$2:B$5000)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Copy the &lt;strong&gt;Unique List&lt;/strong&gt; and &lt;strong&gt;Conditional Sums&lt;/strong&gt; columns.&lt;/li&gt;
+&lt;li&gt;Create a new sheet in your document.&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Edit&lt;/strong&gt; &amp;gt; &lt;strong&gt;Paste special&lt;/strong&gt; &amp;gt; &lt;strong&gt;Paste values only&lt;/strong&gt; to paste only the
+computed values of these columns.&lt;/li&gt;
+&lt;li&gt;Rename &lt;strong&gt;Unique List&lt;/strong&gt; to &lt;strong&gt;Width&lt;/strong&gt; and &lt;strong&gt;Conditional Sums&lt;/strong&gt; to &lt;strong&gt;Total
+Users&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Find the &lt;em&gt;(not set)&lt;/em&gt; row and delete it.&lt;/li&gt;
+&lt;li&gt;Make sure both columns are being treated as numbers (a hint this is happening
+properly is that they are right aligned). If you have headings on the columns
+make sure they&amp;rsquo;re frozen (&lt;strong&gt;View&lt;/strong&gt; &amp;gt; &lt;strong&gt;Freeze&lt;/strong&gt; &amp;gt; &lt;strong&gt;1 row&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Sort on &lt;strong&gt;Width&lt;/strong&gt; from A→Z.&lt;/li&gt;
+&lt;li&gt;Select both columns and create a chart (&lt;strong&gt;Insert&lt;/strong&gt; &amp;gt; &lt;strong&gt;Chart&lt;/strong&gt;). (I made a
+&amp;ldquo;Stepped area chart&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Width&lt;/strong&gt; as the X-axis.&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This answered a question I&amp;rsquo;ve been curious about for ages: &lt;strong&gt;Do people with
+large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Google Analytics, Privacy, and Event Tracking</title>

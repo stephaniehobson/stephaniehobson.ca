@@ -6,10 +6,99 @@
     <description>Recent content on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Wed, 22 Aug 2018 00:36:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 07:58:00 +0000</lastBuildDate>
     
         <atom:link href="https://stephaniehobson.ca/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to make a chart of your users&#39; window sizes</title>
+      <link>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</link>
+      <pubDate>Thu, 23 Aug 2018 07:58:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This article was originally published on the &lt;a href=&#34;https://mozilla.github.io/meao/2018/01/24/browser-sizes/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In preparation for the MDN redesign I examined our analytics to get an idea
+of how wide our users&amp;rsquo; browser windows were. I wanted window widths, not screen
+sizes and I thought a chart would tell a more compelling story than a table.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the chart I made:&lt;/p&gt;
+
+
+&lt;figure&gt;
+    
+        &lt;img src=&#34;browser-sizes.png&#34; alt=&#34;Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels.&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I found this view useful because it shows us &amp;ldquo;clumps&amp;rdquo; of window sizes.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-make-a-chart-of-browser-window-widths&#34;&gt;How to make a chart of browser window widths&lt;/h2&gt;
+
+&lt;h3 id=&#34;the-basic-idea-is&#34;&gt;The basic idea is:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create and export a Custom Report for Browser Size.&lt;/li&gt;
+&lt;li&gt;Filter the Browser Size to just include widths.&lt;/li&gt;
+&lt;li&gt;Aggregate the number of users for each width.&lt;/li&gt;
+&lt;li&gt;Make a chart.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;working-with-google-analytics-and-google-sheets-the-specific-steps-i-used-were&#34;&gt;Working with Google Analytics and Google Sheets the specific steps I used were:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a custom report for browser sizes.
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Customization&lt;/strong&gt; &amp;gt; &lt;strong&gt;Custom Reports&lt;/strong&gt; &amp;gt; &lt;strong&gt;New Custom Report&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Set the &lt;strong&gt;Metric Group&lt;/strong&gt; to &lt;code&gt;Users&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Dimension Drilldowns&lt;/strong&gt; to &lt;code&gt;Browser Size&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Save&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;View the custom report.&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Show rows:&lt;/strong&gt; to &lt;code&gt;5000&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Export to Google Sheets.&lt;/li&gt;
+&lt;li&gt;Delete the extra stuff from the top and bottom of the export, you just want
+two columns: &lt;strong&gt;Browser Size&lt;/strong&gt;, and &lt;strong&gt;Users&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Create a new column &lt;code&gt;C&lt;/code&gt; called &lt;strong&gt;Width&lt;/strong&gt;. Add this regex to it and fill down:
+&lt;code&gt;=REGEXEXTRACT(A2, &amp;quot;^[0-9]+&amp;quot;)&lt;/code&gt;. This gives you a column with just the width
+part of the browser size.&lt;/li&gt;
+&lt;li&gt;Create a new column &lt;code&gt;D&lt;/code&gt; called &lt;strong&gt;Unique List&lt;/strong&gt;. Add this formula to it (you
+don&amp;rsquo;t need to fill down): &lt;code&gt;=UNIQUE(C2:C5001)&lt;/code&gt;.This gives you a list of
+widths with no repeating values. That means 1900x950 and 1900x970 will be
+treated the same in our final chart.&lt;/li&gt;
+&lt;li&gt;Create a new column &lt;code&gt;E&lt;/code&gt; called &lt;strong&gt;Conditional Sums&lt;/strong&gt;. Add this formula and
+fill down the height of your Unique List: &lt;code&gt;=SUMIF(C$2:C$5001,D2,B$2:B$5000)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Copy the &lt;strong&gt;Unique List&lt;/strong&gt; and &lt;strong&gt;Conditional Sums&lt;/strong&gt; columns.&lt;/li&gt;
+&lt;li&gt;Create a new sheet in your document.&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Edit&lt;/strong&gt; &amp;gt; &lt;strong&gt;Paste special&lt;/strong&gt; &amp;gt; &lt;strong&gt;Paste values only&lt;/strong&gt; to paste only the
+computed values of these columns.&lt;/li&gt;
+&lt;li&gt;Rename &lt;strong&gt;Unique List&lt;/strong&gt; to &lt;strong&gt;Width&lt;/strong&gt; and &lt;strong&gt;Conditional Sums&lt;/strong&gt; to &lt;strong&gt;Total
+Users&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Find the &lt;em&gt;(not set)&lt;/em&gt; row and delete it.&lt;/li&gt;
+&lt;li&gt;Make sure both columns are being treated as numbers (a hint this is happening
+properly is that they are right aligned). If you have headings on the columns
+make sure they&amp;rsquo;re frozen (&lt;strong&gt;View&lt;/strong&gt; &amp;gt; &lt;strong&gt;Freeze&lt;/strong&gt; &amp;gt; &lt;strong&gt;1 row&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;Sort on &lt;strong&gt;Width&lt;/strong&gt; from A→Z.&lt;/li&gt;
+&lt;li&gt;Select both columns and create a chart (&lt;strong&gt;Insert&lt;/strong&gt; &amp;gt; &lt;strong&gt;Chart&lt;/strong&gt;). (I made a
+&amp;ldquo;Stepped area chart&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Set &lt;strong&gt;Width&lt;/strong&gt; as the X-axis.&lt;/li&gt;
+&lt;li&gt;Done!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This answered a question I&amp;rsquo;ve been curious about for ages: &lt;strong&gt;Do people with
+large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Surprise Emergency Site Migration</title>
@@ -627,42 +716,6 @@ if (!_dntEnabled()) {
 &lt;li&gt;&lt;a href=&#34;http://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>(Still) Making Websites Better for Everyone</title>
-      <link>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link>
-      <pubDate>Tue, 27 Oct 2015 18:40:28 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid>
-      <description>&lt;p&gt;In the next few weeks I&amp;rsquo;ll be speaking at &lt;a href=&#34;http://jsopencalgary.lighthouselabs.ca/&#34;&gt;JavaScript Open Day Calgary&lt;/a&gt;, &lt;a href=&#34;https://viewsourceconf.org&#34;&gt;View Source&lt;/a&gt;, and &lt;a href=&#34;http://jsopentoronto.lighthouselabs.ca/&#34;&gt;JavaScript Open Day Toronto&lt;/a&gt; giving an updated version of &lt;a href=&#34;http://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone&#34;&gt;Web Accessibility: Making Websites Better for Everyone&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; videos have been posted for &lt;a href=&#34;https://air.mozilla.org/stephanie-hobson-web-accessibility-making-websites-better-for-everyone/&#34;&gt;View Source&lt;/a&gt; and &lt;a href=&#34;https://channel9.msdn.com/Events/JS/JavaScript-Open-Day/Web-Accessibility&#34;&gt;JavaScript Open Day Toronto.&lt;/a&gt; I&amp;rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.&lt;/p&gt;
-
-&lt;p&gt;In my talk I encourage people to try out different assistive technologies themselves:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.chromevox.com/&#34;&gt;Chrome Vox&lt;/a&gt; / &lt;a href=&#34;http://www.nvaccess.org/&#34;&gt;NVDA&lt;/a&gt; (Windows only) / &lt;a href=&#34;http://www.apple.com/accessibility/osx/voiceover/&#34;&gt;VoiceOver&lt;/a&gt; (Mac only)&lt;/li&gt;
-&lt;li&gt;Change to a high contrast theme for your operating system or browser&lt;/li&gt;
-&lt;li&gt;Take the batteries out of your mouse or keyboard.&lt;/li&gt;
-&lt;li&gt;Try using a touch screen or track pad with your nose.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are two demo pages that list server status for a fictional hosting company, you should compare the &lt;a href=&#34;./demos/hosting_bad.html&#34;&gt;bad example&lt;/a&gt; to the &lt;a href=&#34;./demos/hosting_good.html&#34;&gt;good example&lt;/a&gt; with one of the technology options listed above.&lt;/p&gt;
-
-&lt;p&gt;And here are all the resources I mention in my talk:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://webaim.org&#34;&gt;WebAIM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wave.webaim.org&#34;&gt;Web Accessibility Evaluation Tool (wave)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alistapart.com/article/the-accessibility-of-wai-aria&#34;&gt;The Accessibility of WAI-ARIA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/dont-lose-your-focus/&#34;&gt;Don&amp;rsquo;t Lose Your :focus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity&#34;&gt;Designing Safer Web Animation For Motion Sensitivity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;Bulletproof Accessible Icon Fonts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://snook.ca/archives/html_and_css/hiding-content-for-accessibility&#34;&gt;Hiding Content for Accessibility&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GQKEE9nI1lk&#34;&gt;Switch Control Overview&lt;/a&gt;(a video about switch control made using a switch control)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
