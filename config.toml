@@ -2,7 +2,6 @@ baseURL = "https://stephaniehobson.ca"
 languageCode = "en-ca"
 title = "Stephanie Hobson"
 publishDir = "docs"
-relativeURLs = true
 rssLimit = 10
 [taxonomies]
   tag = "tags"
