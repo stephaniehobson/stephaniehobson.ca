@@ -32,13 +32,13 @@
       <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
       <description>&lt;p&gt;Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../bulletfix/compare_default.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_default.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../bulletfix/compare_fix.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_fix.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re working on displaying the bullets at the same height, &lt;a href=&#34;../../bulletfix/&#34;&gt;this might be the fix for you&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re working on displaying the bullets at the same height, &lt;a href=&#34;https://stephaniehobson.ca/bulletfix/&#34;&gt;this might be the fix for you&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -50,7 +50,7 @@
       <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
       <description>&lt;p&gt;Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.&lt;/p&gt;
 
-&lt;p&gt;Some of it works in FireFox but all the cool stuff works best in webkit: &lt;a href=&#34;../../coverflow/#sky&#34;&gt;here&amp;rsquo;s as far as I got&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some of it works in FireFox but all the cool stuff works best in webkit: &lt;a href=&#34;https://stephaniehobson.ca/coverflow/#sky&#34;&gt;here&amp;rsquo;s as far as I got&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Have fun with it :)&lt;/p&gt;
 </description>

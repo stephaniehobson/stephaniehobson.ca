@@ -33,9 +33,9 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;&lt;a href=&#34;../../html5forms/unfinished.html&#34;&gt;Sample form.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/html5forms/unfinished.html&#34;&gt;Sample form.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;../../html5forms/finished.html&#34;&gt;Finished form (no peeking).&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/html5forms/finished.html&#34;&gt;Finished form (no peeking).&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 
@@ -84,7 +84,7 @@
 &lt;p&gt;On the bright side it works on any background colour and is a little transparent which is neat. And it&amp;rsquo;s &lt;em&gt;way&lt;/em&gt; faster to adjust the colour scheme than an image file would be.&lt;/p&gt;
 
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;../../loading-spinner/&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -171,7 +171,7 @@
 
 &lt;h2 id=&#34;using-it&#34;&gt;Using it&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;../../loading-spinner/&#34;&gt;Here&amp;rsquo;s the loading spinner&lt;/a&gt; with the &lt;code&gt;moz&lt;/code&gt; and &lt;code&gt;webkit&lt;/code&gt; prefixes. Of course, it only works in browsers that support animation and transforms but there&amp;rsquo;s more and more of those these days.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/loading-spinner/&#34;&gt;Here&amp;rsquo;s the loading spinner&lt;/a&gt; with the &lt;code&gt;moz&lt;/code&gt; and &lt;code&gt;webkit&lt;/code&gt; prefixes. Of course, it only works in browsers that support animation and transforms but there&amp;rsquo;s more and more of those these days.&lt;/p&gt;
 
 &lt;p&gt;Also, yes, totally, please use it. &lt;a href=&#34;https://twitter.com/stephaniehobson&#34;&gt;Tweet me&lt;/a&gt; if you make any improvements.&lt;/p&gt;
 
@@ -180,7 +180,7 @@
 &lt;p&gt;I got a little carried away and made a few other styles:&lt;/p&gt;
 
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;../../loading-spinner/other-styles.html&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/other-styles.html&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -218,7 +218,7 @@
 
 &lt;p&gt;&lt;strong&gt;A Fix&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Fortunately we can include &lt;samp&gt;style&lt;/samp&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;../../wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
+&lt;p&gt;Fortunately we can include &lt;samp&gt;style&lt;/samp&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;https://stephaniehobson.ca/wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;div style:first-child + p
 &lt;/code&gt;&lt;/pre&gt;
@@ -303,13 +303,13 @@ input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;qu
       <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
       <description>&lt;p&gt;Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../bulletfix/compare_default.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_default.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../bulletfix/compare_fix.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_fix.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re working on displaying the bullets at the same height, &lt;a href=&#34;../../bulletfix/&#34;&gt;this might be the fix for you&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re working on displaying the bullets at the same height, &lt;a href=&#34;https://stephaniehobson.ca/bulletfix/&#34;&gt;this might be the fix for you&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -321,7 +321,7 @@ input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;qu
       <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
       <description>&lt;p&gt;Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.&lt;/p&gt;
 
-&lt;p&gt;Some of it works in FireFox but all the cool stuff works best in webkit: &lt;a href=&#34;../../coverflow/#sky&#34;&gt;here&amp;rsquo;s as far as I got&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Some of it works in FireFox but all the cool stuff works best in webkit: &lt;a href=&#34;https://stephaniehobson.ca/coverflow/#sky&#34;&gt;here&amp;rsquo;s as far as I got&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Have fun with it :)&lt;/p&gt;
 </description>

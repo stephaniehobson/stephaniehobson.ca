@@ -24,7 +24,7 @@
 &lt;p&gt;On the bright side it works on any background colour and is a little transparent which is neat. And it&amp;rsquo;s &lt;em&gt;way&lt;/em&gt; faster to adjust the colour scheme than an image file would be.&lt;/p&gt;
 
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;../../loading-spinner/&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -111,7 +111,7 @@
 
 &lt;h2 id=&#34;using-it&#34;&gt;Using it&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;../../loading-spinner/&#34;&gt;Here&amp;rsquo;s the loading spinner&lt;/a&gt; with the &lt;code&gt;moz&lt;/code&gt; and &lt;code&gt;webkit&lt;/code&gt; prefixes. Of course, it only works in browsers that support animation and transforms but there&amp;rsquo;s more and more of those these days.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/loading-spinner/&#34;&gt;Here&amp;rsquo;s the loading spinner&lt;/a&gt; with the &lt;code&gt;moz&lt;/code&gt; and &lt;code&gt;webkit&lt;/code&gt; prefixes. Of course, it only works in browsers that support animation and transforms but there&amp;rsquo;s more and more of those these days.&lt;/p&gt;
 
 &lt;p&gt;Also, yes, totally, please use it. &lt;a href=&#34;https://twitter.com/stephaniehobson&#34;&gt;Tweet me&lt;/a&gt; if you make any improvements.&lt;/p&gt;
 
@@ -120,7 +120,7 @@
 &lt;p&gt;I got a little carried away and made a few other styles:&lt;/p&gt;
 
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;../../loading-spinner/other-styles.html&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/other-styles.html&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -158,7 +158,7 @@
 
 &lt;p&gt;&lt;strong&gt;A Fix&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Fortunately we can include &lt;samp&gt;style&lt;/samp&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;../../wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
+&lt;p&gt;Fortunately we can include &lt;samp&gt;style&lt;/samp&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;https://stephaniehobson.ca/wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;div style:first-child + p
 &lt;/code&gt;&lt;/pre&gt;
