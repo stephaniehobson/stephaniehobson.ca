@@ -85,9 +85,9 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
       <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
       <description>
 
-&lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://vancouver.wordcamp.org/2015/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
+&lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://2015.vancouver.wordcamp.org/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;http://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;https://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
 
 &lt;div class=&#34;frame&#34;&gt;
   &lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -118,10 +118,10 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector&#34;&gt;Developer tools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;W3C &lt;a href=&#34;https://validator.w3.org/&#34;&gt;HTML validator&lt;/a&gt; / &lt;a href=&#34;https://jigsaw.w3.org/css-validator/&#34;&gt;CSS validator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://csslint.net/&#34;&gt;csslint.net&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caniuse.com/&#34;&gt;caniuse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/&#34;&gt;caniuse.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;MDN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
@@ -149,7 +149,7 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
 &lt;h3 id=&#34;my-favourite-talk&#34;&gt;My Favourite Talk&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Building the next-generation of &lt;a href=&#34;http://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
+&lt;li&gt;Building the next-generation of &lt;a href=&#34;https://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
 &lt;/ul&gt;
@@ -240,11 +240,11 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
       <description>&lt;dl&gt;
 &lt;dt&gt;&lt;a href=&#34;http://edenbee.com/&#34;&gt;Edenbee&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Social networking and carbon footprints by Clearleft.&lt;/dd&gt;
-&lt;dt&gt;&lt;a href=&#34;https://www.alistapart.com/articles/dao&#34;&gt;A Dao of Web Design&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&#34;https://alistapart.com/articles/dao&#34;&gt;A Dao of Web Design&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Jeremy Keith says everyone must read this.  It talks about giving up pixel perfect control of the display of your websites.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://code.google.com/apis/socialgraph/&#34;&gt;Google social graph API&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Traces XFN and hCard references to connect your different profiles and find out who you are connected to.&lt;/dd&gt;
-&lt;dt&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/SCRUM&#34;&gt;SCRUM&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SCRUM&#34;&gt;SCRUM&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Replacement for the waterfall development method.  It&amp;rsquo;s agile.  Recommended by Kelly Goto.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://snapshot.trulia.com/CA/San_Francisco/#most_expensive&#34;&gt;Trulia Snapshot&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Data visualization by Stamen - using real estate in San Francisco.&lt;/dd&gt;
@@ -263,7 +263,7 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
       <description>&lt;dl&gt;
 &lt;dt&gt;&lt;a href=&#34;http://bobulate.com/&#34;&gt;Bobulate&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Can&amp;rsquo;t remember why it was mentioned but it is about IA and looks interesting.&lt;/dd&gt;
-&lt;dt&gt;&lt;a href=&#34;http://www.wired.com/&#34;&gt;Wired&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&#34;https://www.wired.com/&#34;&gt;Wired&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Apparently half the people in the room read it.  Jason used it as an example of how print can be very cool looking but the web is missing that pizzaz for individual articles.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://www.nytimes.com/2008/08/03/magazine/03trolls-t.html?pagewanted=1&amp;amp;_r=1&#34;&gt;NY Times articles about Trolls&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Don&amp;rsquo;t feed the trolls.  One of the trials of community managers.&lt;/dd&gt;
@@ -281,7 +281,7 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
 &lt;dd&gt;Dreamweaver CS4 Beta.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;p&gt;Also, &lt;a href=&#34;http://adactio.com/journal/1504/&#34;&gt;Jeremy Keith live blogged the whole works&lt;/a&gt; from the front row.&lt;/p&gt;
+&lt;p&gt;Also, &lt;a href=&#34;https://adactio.com/journal/1504/&#34;&gt;Jeremy Keith live blogged the whole works&lt;/a&gt; from the front row.&lt;/p&gt;
 </description>
     </item>
     
@@ -383,10 +383,10 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
 &lt;li&gt;&lt;a href=&#34;http://osflash.org/flashaid&#34;&gt;Flash aid&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.notetab.com/&#34;&gt;Note Tab&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://labs.digg.com/&#34;&gt;digg labs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Book: Concrete by &lt;a href=&#34;http://en.wikipedia.org/wiki/Paul_Chadwick&#34; title=&#34;Wikipedia entry on Paul Chadwick.&#34;&gt;Paul Chadwick&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Book: Concrete by &lt;a href=&#34;https://en.wikipedia.org/wiki/Paul_Chadwick&#34; title=&#34;Wikipedia entry on Paul Chadwick.&#34;&gt;Paul Chadwick&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://pingerati.net/&#34;&gt;Pingerati&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Book: &lt;a href=&#34;http://www.uiaccess.com/justask/index.html&#34;&gt;Just Ask&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Book: &lt;a href=&#34;http://en.wikipedia.org/wiki/Neuromancer&#34; title=&#34;Wikipedia entry on Neuromancer&#34;&gt;Neuromancer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Book: &lt;a href=&#34;https://en.wikipedia.org/wiki/Neuromancer&#34; title=&#34;Wikipedia entry on Neuromancer&#34;&gt;Neuromancer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Article: &lt;a href=&#34;https://alistapart.com/articles/dao/&#34;&gt;Tao of Web Design&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273&#34;&gt;Book: Pro Javascript Techniques&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

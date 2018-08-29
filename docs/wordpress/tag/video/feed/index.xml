@@ -25,7 +25,7 @@
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;And &lt;a href=&#34;http://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -37,9 +37,9 @@
       <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
       <description>
 
-&lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://vancouver.wordcamp.org/2015/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
+&lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://2015.vancouver.wordcamp.org/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;http://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;https://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
 
 &lt;div class=&#34;frame&#34;&gt;
   &lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -70,10 +70,10 @@
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector&#34;&gt;Developer tools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;W3C &lt;a href=&#34;https://validator.w3.org/&#34;&gt;HTML validator&lt;/a&gt; / &lt;a href=&#34;https://jigsaw.w3.org/css-validator/&#34;&gt;CSS validator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://csslint.net/&#34;&gt;csslint.net&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caniuse.com/&#34;&gt;caniuse.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/&#34;&gt;caniuse.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;MDN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
@@ -101,7 +101,7 @@
 &lt;h3 id=&#34;my-favourite-talk&#34;&gt;My Favourite Talk&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Building the next-generation of &lt;a href=&#34;http://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
+&lt;li&gt;Building the next-generation of &lt;a href=&#34;https://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
 &lt;/ul&gt;

@@ -505,14 +505,14 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 
 &lt;ol&gt;
 &lt;li&gt;It is possible to add events to the queue before GA has loaded. (Cool! This is handy for tracking events that happen really quickly.)&lt;/li&gt;
-&lt;li&gt;We can&amp;rsquo;t check if GA has loaded by checking for the existence of the &lt;code&gt;ga&lt;/code&gt; object &lt;a href=&#34;http://ejohn.org/blog/fixing-google-analytics-for-ghostery/&#34;&gt;like we used to&lt;/a&gt; because it&amp;rsquo;s always there.&lt;/li&gt;
+&lt;li&gt;We can&amp;rsquo;t check if GA has loaded by checking for the existence of the &lt;code&gt;ga&lt;/code&gt; object &lt;a href=&#34;https://johnresig.com/blog/fixing-google-analytics-for-ghostery/&#34;&gt;like we used to&lt;/a&gt; because it&amp;rsquo;s always there.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;So how do we know if GA has loaded? Well, clever people have figured out that when it initializes, GA alters the global &lt;code&gt;ga&lt;/code&gt; object in a few different ways. None of these changes are officially documented by Google which means any of them could break in the long term.&lt;/p&gt;
 
 &lt;p&gt;In &lt;a href=&#34;http://veithen.github.io/2015/01/24/outbound-link-tracking.html&#34;&gt;Tracking outbound links with Google Analytics&lt;/a&gt;, Andreas Veithen (who works at Google but was writing on his personal blog) suggests that the most reliable check is to see if the &lt;code&gt;ga&lt;/code&gt; object still has the &lt;code&gt;q&lt;/code&gt; array. The array is removed after GA initializes and processes all the events waiting in the &lt;code&gt;ga.q&lt;/code&gt; queue. Because &lt;code&gt;ga.q&lt;/code&gt; is created by the snippet we paste on our sites, changing it would require us to make changes to our websites and so would be a major change for Google to undertake. On the other hand, it would also be possible for Google to change their code to not remove &lt;code&gt;ga.q&lt;/code&gt; so I&amp;rsquo;m not sure this is more reliable than any other method.&lt;/p&gt;
 
-&lt;p&gt;In &lt;a href=&#34;http://supergeekery.com/geekblog/comments/google-analytics-ghostery-and-event-tracking&#34;&gt;Google Analytics, Ghostery, and Event Tracking&lt;/a&gt; John Morton suggests checking for the &lt;code&gt;create&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://supergeekery.com/geekblog/comments/google-analytics-ghostery-and-event-tracking&#34;&gt;Google Analytics, Ghostery, and Event Tracking&lt;/a&gt; John Morton suggests checking for the &lt;code&gt;create&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).&lt;/p&gt;
 
 &lt;p&gt;In &lt;a href=&#34;https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js&#34;&gt;Workaround for when the hitCallback function does not receive a response (analytics.js)&lt;/a&gt;, Dom Sammut observes that we can check for the &lt;code&gt;loaded&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This is a method used informally in &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click&#34;&gt;some Google documentation&lt;/a&gt; so it&amp;rsquo;s probably also somewhat reliable. I like this one because it is obvious what we&amp;rsquo;re checking for.&lt;/p&gt;
 
@@ -533,7 +533,7 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;strong&gt;Making this kind of check before relying on &lt;em&gt;any&lt;/em&gt; third-party script is good practice.&lt;/strong&gt; You should also be &lt;a href=&#34;http://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/&#34;&gt;including a local fallback for any script that is not coming from your own domain&lt;/a&gt; - including CDNs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Making this kind of check before relying on &lt;em&gt;any&lt;/em&gt; third-party script is good practice.&lt;/strong&gt; You should also be &lt;a href=&#34;https://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/&#34;&gt;including a local fallback for any script that is not coming from your own domain&lt;/a&gt; - including CDNs.&lt;/p&gt;
 
 &lt;h2 id=&#34;respecting-our-users-privacy&#34;&gt;Respecting our users&amp;rsquo; privacy&lt;/h2&gt;
 
@@ -541,7 +541,7 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 
 &lt;h3 id=&#34;configuring-google-analytics-for-privacy&#34;&gt;Configuring Google Analytics for privacy&lt;/h3&gt;
 
-&lt;p&gt;If Google Analytics is your analytics platform of choice, there are &lt;a href=&#34;http://gu.illau.me/posts/privacy-and-google-analytics/&#34;&gt;a number of steps you can take to make it more private&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If Google Analytics is your analytics platform of choice, there are &lt;a href=&#34;https://gu.illau.me/posts/privacy-and-google-analytics/&#34;&gt;a number of steps you can take to make it more private&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;One of these is an easy configuration option to request anonymized user IP addresses. Essentially, &lt;a href=&#34;https://support.google.com/analytics/answer/2763052?hl=en&#34;&gt;Google Analytics changes the last octet of the user’s IP address to 0 before recording it&lt;/a&gt;.&lt;/p&gt;
 

@@ -36,10 +36,10 @@
 &lt;h2 id=&#34;links-i-mentioned-in-my-talk&#34;&gt;Links I mentioned in my talk&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://v6.robweychert.com/blog/2017/10/robtober/&#34;&gt;Rob Weychert&amp;rsquo;s horror films schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://v6.robweychert.com/blog/2017/10/robtober/&#34;&gt;Rob Weychert&amp;rsquo;s horror films schedule&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mdn/browser-compat-data&#34;&gt;MDN&amp;rsquo;s browser compat data in JSON&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -80,7 +80,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://webaim.org/articles/cognitive/&#34;&gt;Cognitive Disabilities&lt;/a&gt;, an introduction by WebAIM.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://csskarma.com/blog/dyslexia-typography&#34;&gt;Dyslexia and Typography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://csskarma.com/blog/dyslexia-typography/&#34;&gt;Dyslexia and Typography&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://axesslab.com/fonts-dont-matter/&#34;&gt;Fonts don&amp;rsquo;t matter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/chunking/&#34;&gt;How Chunking Helps Content Processing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/legibility-readability-comprehension/&#34;&gt;Legibility, Readability, and Comprehension: Making Users Read Your Words&lt;/a&gt;&lt;/li&gt;
@@ -109,7 +109,7 @@
 &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;And &lt;a href=&#34;http://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -138,9 +138,9 @@
 &lt;p&gt;And the links I encouraged everyone to check out:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -178,8 +178,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://diveintohtml5.info/forms.html&#34;&gt;Dive Into HTML5: A Form of Madness&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.html5rocks.com/en/tutorials/forms/html5forms/&#34;&gt;Making Forms Fabulous with HTML5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.alistapart.com/articles/forward-thinking-form-validation/&#34;&gt;Forward Thinking Form Validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.html5rocks.com/en/tutorials/forms/html5forms/&#34;&gt;Making Forms Fabulous with HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alistapart.com/articles/forward-thinking-form-validation/&#34;&gt;Forward Thinking Form Validation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
@@ -211,20 +211,20 @@
       <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://twitter.com/perfectstranger&#34;&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;
 &lt;figure&gt;
     
         &lt;img src=&#34;perfectstranger.jpg&#34; alt=&#34;Perfect Stranger&#34; /&gt;
     
     
 &lt;/figure&gt;
-&lt;/a&gt;Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. &lt;a href=&#34;http://adactio.com&#34;&gt;Jeremy Keith&lt;/a&gt; once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.&lt;/p&gt;
+&lt;/a&gt;Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. &lt;a href=&#34;https://adactio.com&#34;&gt;Jeremy Keith&lt;/a&gt; once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.&lt;/p&gt;
 
 &lt;p&gt;Most of us use Twitter to keep in touch with people we know and keep up with things we care about. It makes sense, it&amp;rsquo;s familiar and comforting but it blocks out people and ideas we disagree with and it ignores some of the most powerful potential of Twitter.&lt;/p&gt;
 
 &lt;p&gt;What are we missing by insulating ourselves with the familiar? A recent episode of &lt;a href=&#34;http://www.cbc.ca/spark/2010/08/joel-johnson-and-jonah-lehrer-on-following-complete-strangers-on-twitter/&#34;&gt;CBC&amp;rsquo;s Spark discussed the benefits of following a stranger&lt;/a&gt; with Joel Johnson who wrote a &lt;a href=&#34;http://gizmodo.com/5586970/why-i-stalk-a-sexy-black-woman-on-twitter-and-why-you-should-too&#34;&gt;Gizmodo article&lt;/a&gt; on the topic.&lt;/p&gt;
 
-&lt;p&gt;Not only can it help us avoid &lt;a href=&#34;http://en.wikipedia.org/wiki/Groupthink&#34;&gt;groupthink&lt;/a&gt; but Joel mentions a study that suggests exposure to other view points can make us more creative.&lt;/p&gt;
+&lt;p&gt;Not only can it help us avoid &lt;a href=&#34;https://en.wikipedia.org/wiki/Groupthink&#34;&gt;groupthink&lt;/a&gt; but Joel mentions a study that suggests exposure to other view points can make us more creative.&lt;/p&gt;
 
 &lt;p&gt;So I had the idea to create a twitter account that will add a random tweet to my feed now and then and when I mentioned it to &lt;a href=&#34;https://danielquinn.org/&#34;&gt;Daniel&lt;/a&gt; he took a few minutes and built it.&lt;/p&gt;
 
@@ -275,7 +275,7 @@
 
 &lt;p&gt;&lt;strong&gt;Authentic Content.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;We were lucky that the &lt;a href=&#34;http://www.bcit.ca/archives/&#34;&gt;BCIT Archives&lt;/a&gt; have begun digitizing much of their collection. We got a great deal of source material from the &lt;a href=&#34;http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf&#34;&gt;1968-69 Program and Course Catalogue&lt;/a&gt;. We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.&lt;/p&gt;
+&lt;p&gt;We were lucky that the &lt;a href=&#34;https://www.bcit.ca/archives/&#34;&gt;BCIT Archives&lt;/a&gt; have begun digitizing much of their collection. We got a great deal of source material from the &lt;a href=&#34;http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf&#34;&gt;1968-69 Program and Course Catalogue&lt;/a&gt;. We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.&lt;/p&gt;
 
 &lt;p&gt;Nope, the logo wasn&amp;rsquo;t a Star Trek knock off, that&amp;rsquo;s what the future looked like in the 60s and both BCIT and Star Trek ran with it.&lt;/p&gt;
 
@@ -325,7 +325,7 @@
 
 &lt;p&gt;My manger called me into his office to talk about it and I thought, &amp;ldquo;Uh-oh, what if he&amp;rsquo;s upset I spent so much time working on this?&amp;rdquo; But I worried unnecessarily since he proceeded to tell me how it was good interaction design :)&lt;/p&gt;
 
-&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;http://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;https://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
