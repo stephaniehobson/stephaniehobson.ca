@@ -26,4 +26,4 @@ I like knowing that they're human, because it makes it okay for me to be human t
 * * *
 
 In case you're wondering who I'm talking about:
-[zeldman](http://twitter.com/zeldman) [fraying](http://twitter.com/fraying) [meyerweb](http://twitter.com/meyerweb) [hchamp](http://twitter.com/hchamp) [mezzoblue](http://twitter.com/mezzoblue)
+[zeldman](https://twitter.com/zeldman) [fraying](https://twitter.com/fraying) [meyerweb](https://twitter.com/meyerweb) [hchamp](https://twitter.com/hchamp) [mezzoblue](https://twitter.com/mezzoblue)

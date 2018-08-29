@@ -28,8 +28,8 @@ I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms a
 
 * [Dive Into HTML5: A Form of Madness](http://diveintohtml5.info/forms.html)
 * [Have a Field Day with HTML5 Forms](https://24ways.org/2009/have-a-field-day-with-html5-forms/)
-* [Making Forms Fabulous with HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
-* [Forward Thinking Form Validation](https://www.alistapart.com/articles/forward-thinking-form-validation/)
+* [Making Forms Fabulous with HTML5](https://www.html5rocks.com/en/tutorials/forms/html5forms/)
+* [Forward Thinking Form Validation](https://alistapart.com/articles/forward-thinking-form-validation/)
 
 **CSS**
 

@@ -11,7 +11,7 @@ tags:
   - webdesign
 ---
 
-Last night I spoke at the [Style & Class Meet-up](http://www.meetup.com/styleandclass/) about Accessibility and CSS. Posting the slides here for posterity:
+Last night I spoke at the [Style & Class Meet-up](https://www.meetup.com/styleandclass/) about Accessibility and CSS. Posting the slides here for posterity:
 
 {{< slideshare LbZCesLu0s7bH4 "accessibility-with-css-making-website-better-for-everyone" "Accessibility with CSS: Making Websites Better for Everyone" >}}
 

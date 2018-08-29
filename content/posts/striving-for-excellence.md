@@ -11,7 +11,7 @@ tags:
   - webdesign
 ---
 
-I just finished my first micoformatted page!  When I was writing the information page for [HOPE's spring dinners](http://hope-international.com/fundraising/07_springdinners.html) I coded all the dinners as events and the organizers as hcards :)  I did work with Brandon to re-do the [BCIT Contacts](http://www.bcit.ca/contacts) application to use microformats but he did most of the coding on that project.  This is the first time I've done it myself.
+I just finished my first micoformatted page!  When I was writing the information page for [HOPE's spring dinners](http://hope-international.com/fundraising/07_springdinners.html) I coded all the dinners as events and the organizers as hcards :)  I did work with Brandon to re-do the [BCIT Contacts](https://www.bcit.ca/contacts) application to use microformats but he did most of the coding on that project.  This is the first time I've done it myself.
 
 I didn't actually tell anyone at HOPE that I'd done it that way since it doesn't effect the way the page looks and I figure they'll discover it for themselves if it's useful to them.  However, my friend thinks I should tell them so they recognize just how good a job I'm doing for them.
 

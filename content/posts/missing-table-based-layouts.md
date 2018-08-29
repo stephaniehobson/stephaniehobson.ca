@@ -10,4 +10,4 @@ tags:
   - webdesign
 ---
 
-There's only one time where I ever really miss table based layouts: when I'm trying to make a flexible horizontal navigation bar with centred links. Like [this](http://www.bcit.ca) or this](http://louisgervais.com) website I made for a Vancouver gourmet catering company. *chews on keyboard with frustration*
+There's only one time where I ever really miss table based layouts: when I'm trying to make a flexible horizontal navigation bar with centred links. Like [this](https://www.bcit.ca) or this](http://louisgervais.com) website I made for a Vancouver gourmet catering company. *chews on keyboard with frustration*

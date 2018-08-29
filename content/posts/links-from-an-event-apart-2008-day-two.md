@@ -14,13 +14,13 @@ tags:
 [Edenbee](http://edenbee.com/)
 : Social networking and carbon footprints by Clearleft.
 
-[A Dao of Web Design](https://www.alistapart.com/articles/dao)
+[A Dao of Web Design](https://alistapart.com/articles/dao)
 : Jeremy Keith says everyone must read this.  It talks about giving up pixel perfect control of the display of your websites.
 
 [Google social graph API]( http://code.google.com/apis/socialgraph/)
 : Traces XFN and hCard references to connect your different profiles and find out who you are connected to.
 
-[SCRUM](http://en.wikipedia.org/wiki/SCRUM)
+[SCRUM](https://en.wikipedia.org/wiki/SCRUM)
 : Replacement for the waterfall development method.  It's agile.  Recommended by Kelly Goto.
 
 [Trulia Snapshot](http://snapshot.trulia.com/CA/San_Francisco/#most_expensive)

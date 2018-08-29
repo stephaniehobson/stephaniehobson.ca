@@ -18,7 +18,7 @@ As good as I hoped it would be. A mix of strategy and near future technology exa
 
 ### My Favourite Talk
 
-* Building the next-generation of [theguardian.com](http://theguardian.com), by Patrick Hamann
+* Building the next-generation of [theguardian.com](https://theguardian.com), by Patrick Hamann
 * [Slides](https://speakerdeck.com/patrickhamann/building-theguardian-dot-com)
 * The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.
 

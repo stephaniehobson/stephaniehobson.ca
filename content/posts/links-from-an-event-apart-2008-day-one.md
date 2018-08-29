@@ -14,7 +14,7 @@ tags:
 [Bobulate](http://bobulate.com/)
 : Can't remember why it was mentioned but it is about IA and looks interesting.
 
-[Wired](http://www.wired.com/)
+[Wired](https://www.wired.com/)
 : Apparently half the people in the room read it.  Jason used it as an example of how print can be very cool looking but the web is missing that pizzaz for individual articles.
 
 [NY Times articles about Trolls](http://www.nytimes.com/2008/08/03/magazine/03trolls-t.html?pagewanted=1&_r=1)
@@ -38,4 +38,4 @@ tags:
 [Adobe Labs.](http://labs.adobe.com/)
 : Dreamweaver CS4 Beta.
 
-Also, [Jeremy Keith live blogged the whole works](http://adactio.com/journal/1504/) from the front row.
+Also, [Jeremy Keith live blogged the whole works](https://adactio.com/journal/1504/) from the front row.

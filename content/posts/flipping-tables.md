@@ -20,6 +20,6 @@ Here are my slides, though the video and animated gifs don't play :(
 
 And the links I encouraged everyone to check out:
 
-* [Designing Effective Data Tables](http://www.behance.net/gallery/Designing-Effective-Data-Tables/885004)
+* [Designing Effective Data Tables](https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004)
 * [Guidelines for Designing Tables](http://understandinggraphics.com/design/data-table-design/)
-* [Clear Off the Table](http://www.darkhorseanalytics.com/blog/clear-off-the-table/)
+* [Clear Off the Table](https://www.darkhorseanalytics.com/blog/clear-off-the-table/)

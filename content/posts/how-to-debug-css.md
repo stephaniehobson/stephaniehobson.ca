@@ -12,9 +12,9 @@ tags:
   - webdesign
 ---
 
-Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://vancouver.wordcamp.org/2015/session/debugging-css/) about Debugging CSS.
+Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://2015.vancouver.wordcamp.org/session/debugging-css/) about Debugging CSS.
 
-**Edit**: You can now watch [a recording of Debugging CSS](http://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/). Spot the three projector failures!
+**Edit**: You can now watch [a recording of Debugging CSS](https://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/). Spot the three projector failures!
 
 {{< frame "https://videopress.com/embed/y20nhn6z" >}}
 
@@ -36,10 +36,10 @@ Some quick notes and links for the talk I gave at [WordCamp Vancouver](https://v
 * [Developer tools](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector)
 * W3C [HTML validator](https://validator.w3.org/) / [CSS validator](https://jigsaw.w3.org/css-validator/)
 * [csslint.net](http://csslint.net/)
-* [caniuse.com](http://caniuse.com/)
+* [caniuse.com](https://caniuse.com/)
 * [MDN](https://developer.mozilla.org/)
-* [Stack Overflow](http://stackoverflow.com/)
-* [codepen.io](http://codepen.io/) /[jsfiddle.net](http://jsfiddle.net/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [codepen.io](https://codepen.io/) /[jsfiddle.net](http://jsfiddle.net/)
 
 ## Other resources
 

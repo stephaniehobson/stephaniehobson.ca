@@ -27,10 +27,10 @@ This is a list consisting of all the websites and books recommended during the c
 * [Flash aid](http://osflash.org/flashaid)
 * [Note Tab](http://www.notetab.com/)
 * [digg labs](http://labs.digg.com/)
-* Book: Concrete by [Paul Chadwick](http://en.wikipedia.org/wiki/Paul_Chadwick "Wikipedia entry on Paul Chadwick.")
+* Book: Concrete by [Paul Chadwick](https://en.wikipedia.org/wiki/Paul_Chadwick "Wikipedia entry on Paul Chadwick.")
 * [Pingerati](http://pingerati.net/)
 * Book: [Just Ask](http://www.uiaccess.com/justask/index.html)
-* Book: [Neuromancer](http://en.wikipedia.org/wiki/Neuromancer "Wikipedia entry on Neuromancer")
+* Book: [Neuromancer](https://en.wikipedia.org/wiki/Neuromancer "Wikipedia entry on Neuromancer")
 * Article: [Tao of Web Design](https://alistapart.com/articles/dao/)
 * [Book: Pro Javascript Techniques](http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273)
 

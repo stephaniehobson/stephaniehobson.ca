@@ -39,7 +39,7 @@ I think this kind of photo manipulation has a place in web design since it means
 
 **Authentic Content.**
 
-We were lucky that the [BCIT Archives](http://www.bcit.ca/archives/) have begun digitizing much of their collection. We got a great deal of source material from the [1968-69 Program and Course Catalogue](http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf). We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.
+We were lucky that the [BCIT Archives](https://www.bcit.ca/archives/) have begun digitizing much of their collection. We got a great deal of source material from the [1968-69 Program and Course Catalogue](http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf). We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.
 
 Nope, the logo wasn't a Star Trek knock off, that's what the future looked like in the 60s and both BCIT and Star Trek ran with it.
 

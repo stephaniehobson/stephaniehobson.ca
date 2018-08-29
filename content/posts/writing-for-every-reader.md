@@ -27,7 +27,7 @@ Here are [my slides for Writing for Every Reader](https://www.slideshare.net/ste
 ## Articles that were helpful to me:
 
 * [Cognitive Disabilities](http://webaim.org/articles/cognitive/), an introduction by WebAIM.
-* [Dyslexia and Typography](http://csskarma.com/blog/dyslexia-typography)
+* [Dyslexia and Typography](http://csskarma.com/blog/dyslexia-typography/)
 * [Fonts don't matter](https://axesslab.com/fonts-dont-matter/)
 * [How Chunking Helps Content Processing](https://www.nngroup.com/articles/chunking/)
 * [Legibility, Readability, and Comprehension: Making Users Read Your Words](https://www.nngroup.com/articles/legibility-readability-comprehension/)

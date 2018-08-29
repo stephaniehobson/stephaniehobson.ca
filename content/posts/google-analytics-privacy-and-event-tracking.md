@@ -73,13 +73,13 @@ This snippet creates a global `ga` object. The `ga` object is available in JavaS
 This means two things:
 
 1.  It is possible to add events to the queue before GA has loaded. (Cool! This is handy for tracking events that happen really quickly.)
-2.  We can't check if GA has loaded by checking for the existence of the `ga` object [like we used to](http://ejohn.org/blog/fixing-google-analytics-for-ghostery/) because it's always there.
+2.  We can't check if GA has loaded by checking for the existence of the `ga` object [like we used to](https://johnresig.com/blog/fixing-google-analytics-for-ghostery/) because it's always there.
 
 So how do we know if GA has loaded? Well, clever people have figured out that when it initializes, GA alters the global `ga` object in a few different ways. None of these changes are officially documented by Google which means any of them could break in the long term.
 
 In [Tracking outbound links with Google Analytics](http://veithen.github.io/2015/01/24/outbound-link-tracking.html), Andreas Veithen (who works at Google but was writing on his personal blog) suggests that the most reliable check is to see if the `ga` object still has the `q` array. The array is removed after GA initializes and processes all the events waiting in the `ga.q` queue. Because `ga.q` is created by the snippet we paste on our sites, changing it would require us to make changes to our websites and so would be a major change for Google to undertake. On the other hand, it would also be possible for Google to change their code to not remove `ga.q` so I'm not sure this is more reliable than any other method.
 
-In [Google Analytics, Ghostery, and Event Tracking](http://supergeekery.com/geekblog/comments/google-analytics-ghostery-and-event-tracking) John Morton suggests checking for the `create` property on the `ga` object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).
+In [Google Analytics, Ghostery, and Event Tracking](https://supergeekery.com/geekblog/comments/google-analytics-ghostery-and-event-tracking) John Morton suggests checking for the `create` property on the `ga` object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).
 
 In [Workaround for when the hitCallback function does not receive a response (analytics.js)](https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js), Dom Sammut observes that we can check for the `loaded` property on the `ga` object. This is a method used informally in [some Google documentation](https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click) so it's probably also somewhat reliable. I like this one because it is obvious what we're checking for.
 
@@ -100,7 +100,7 @@ var trackOutboundLink = function(url) {
 }
 ```
 
-**Making this kind of check before relying on _any_ third-party script is good practice.** You should also be [including a local fallback for any script that is not coming from your own domain](http://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/) - including CDNs.
+**Making this kind of check before relying on _any_ third-party script is good practice.** You should also be [including a local fallback for any script that is not coming from your own domain](https://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/) - including CDNs.
 
 ## Respecting our users' privacy
 
@@ -108,7 +108,7 @@ var trackOutboundLink = function(url) {
 
 ### Configuring Google Analytics for privacy
 
-If Google Analytics is your analytics platform of choice, there are [a number of steps you can take to make it more private](http://gu.illau.me/posts/privacy-and-google-analytics/).
+If Google Analytics is your analytics platform of choice, there are [a number of steps you can take to make it more private](https://gu.illau.me/posts/privacy-and-google-analytics/).
 
 One of these is an easy configuration option to request anonymized user IP addresses. Essentially, [Google Analytics changes the last octet of the user’s IP address to 0 before recording it](https://support.google.com/analytics/answer/2763052?hl=en).
 

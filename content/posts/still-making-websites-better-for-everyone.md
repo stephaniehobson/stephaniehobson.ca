@@ -10,13 +10,13 @@ tags:
   - webdesign
 ---
 
-In the next few weeks I'll be speaking at [JavaScript Open Day Calgary](http://jsopencalgary.lighthouselabs.ca/), [View Source](https://viewsourceconf.org), and [JavaScript Open Day Toronto](http://jsopentoronto.lighthouselabs.ca/) giving an updated version of [Web Accessibility: Making Websites Better for Everyone](http://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone).
+In the next few weeks I'll be speaking at [JavaScript Open Day Calgary](http://jsopencalgary.lighthouselabs.ca/), [View Source](https://viewsourceconf.org), and [JavaScript Open Day Toronto](http://jsopentoronto.lighthouselabs.ca/) giving an updated version of [Web Accessibility: Making Websites Better for Everyone](https://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone).
 
 **Edit:** videos have been posted for [View Source](https://air.mozilla.org/stephanie-hobson-web-accessibility-making-websites-better-for-everyone/) and [JavaScript Open Day Toronto.](https://channel9.msdn.com/Events/JS/JavaScript-Open-Day/Web-Accessibility) I'm more on the ball for View Source but the JSOpenDay one has some demos.
 
 In my talk I encourage people to try out different assistive technologies themselves:
 
-* [Chrome Vox](http://www.chromevox.com/) / [NVDA](http://www.nvaccess.org/) (Windows only) / [VoiceOver](http://www.apple.com/accessibility/osx/voiceover/) (Mac only)
+* [Chrome Vox](http://www.chromevox.com/) / [NVDA](https://www.nvaccess.org/) (Windows only) / [VoiceOver](https://www.apple.com/accessibility/osx/voiceover/) (Mac only)
 * Change to a high contrast theme for your operating system or browser
 * Take the batteries out of your mouse or keyboard.
 * Try using a touch screen or track pad with your nose.

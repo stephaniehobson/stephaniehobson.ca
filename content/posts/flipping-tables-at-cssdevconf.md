@@ -19,8 +19,8 @@ Here are my slides for Flipping Tables: Displaying Data on Small Screens which I
 
 ## Links I mentioned in my talk
 
-* [Rob Weychert's horror films schedule](http://v6.robweychert.com/blog/2017/10/robtober/)
+* [Rob Weychert's horror films schedule](https://v6.robweychert.com/blog/2017/10/robtober/)
 * [Designing Effective Data Tables](https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004)
 * [Guidelines for Designing Tables](http://understandinggraphics.com/design/data-table-design/)
-* [Clear Off the Table](http://www.darkhorseanalytics.com/blog/clear-off-the-table/)
+* [Clear Off the Table](https://www.darkhorseanalytics.com/blog/clear-off-the-table/)
 * [MDN's browser compat data in JSON](https://github.com/mdn/browser-compat-data)

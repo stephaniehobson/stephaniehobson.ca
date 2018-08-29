@@ -29,7 +29,7 @@ Work that will let me do what I do really well<sup>[1](#one)</sup>, work that wi
 
 I'm also looking for cheap places to say - friend of a friends who need house sitters or subletters, empty guest rooms and comfy couches. In London or Brighton in Aug and Sept and San Francisco or Berkeley from Oct-Dec.
 
-If you have some work, a place to stay, or some advice for me I can be contacted on [LinkedIn](http://www.linkedin.com/in/stephaniehobsonca), or [Twitter](http://twitter.com/stephaniehobson).
+If you have some work, a place to stay, or some advice for me I can be contacted on [LinkedIn](http://www.linkedin.com/in/stephaniehobsonca), or [Twitter](https://twitter.com/stephaniehobson).
 
 ## An Invocation for Beginnings
 

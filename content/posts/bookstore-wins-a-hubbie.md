@@ -35,4 +35,4 @@ I worked off the side of my desk for a few months on it, meeting with the bookst
 
 My manger called me into his office to talk about it and I thought, "Uh-oh, what if he's upset I spent so much time working on this?" But I worried unnecessarily since he proceeded to tell me how it was good interaction design :)
 
-Campus Hub, the third party company who hosts the actual stores liked it so much they've been directing people who want to skin their stores to talk to me for advice, and to top it all off, [they awarded the store with a "Hubbie" for usability](http://www.bcit.ca/news/events/event04180800000001.shtml).
+Campus Hub, the third party company who hosts the actual stores liked it so much they've been directing people who want to skin their stores to talk to me for advice, and to top it all off, [they awarded the store with a "Hubbie" for usability](https://www.bcit.ca/news/events/event04180800000001.shtml).
