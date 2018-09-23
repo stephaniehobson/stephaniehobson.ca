@@ -1,4 +1,16 @@
-- git attributions for generated pages
+- fix external links that 307 (mass find and replace http?)
+- make header not a h1 anymore
+- add "archive" or some other prefix to tags and year page titles?
+- title on EOF character
+- apply arrow fix to mobile (make it not transition if that looks bad)
+    - needs to not make post an extra line when hovered
+- improve non css variables experience
+    - give user pic a px size fallback
+    - give small text a px size fallback
+    - put arrow link position inside @supports
+    - fix wide code snippets
+    - add fallback margins on elements that don't get them
+- add DCC video
 - print styles
 - link to tag list
 - do I need to alias short URLs? ... can I?
@@ -35,6 +47,8 @@
 
 
 Done:
+- re-order CSS to push variables first in source
+- fix 301 links to tag and year pages (add trailing /)
 - Migrate from categories to just tags
 - Decide on typography and implement
 - Update about page
