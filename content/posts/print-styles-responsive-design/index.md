@@ -56,7 +56,7 @@ It boggles my mind that browsers will still _delay rendering a page_ until it ha
 
 If you're just trying to avoid the extra http request and your print styles are very small you can always just add them into your main CSS file.
 
-```
+```css
 @media screen {
 /* screen styles here */
 }

@@ -12,6 +12,6 @@ tags:
 
 So apparently we're supposed to be encoding ampersands when we write them in the href part of anchor tags.
 
-```
+```html
 <a href="/file.php?fire=hot&amp;beer=foamy">link</a>;
 ```

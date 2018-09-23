@@ -3,6 +3,12 @@ languageCode = "en-ca"
 title = "Stephanie Hobson"
 publishDir = "docs"
 rssLimit = 10
+
+# Code higlighting settings
+pygmentsCodefences = true
+pygmentsCodeFencesGuesSsyntax = false
+pygmentsUseClasses = true
+
 [taxonomies]
   tag = "tags"
   year = "year"

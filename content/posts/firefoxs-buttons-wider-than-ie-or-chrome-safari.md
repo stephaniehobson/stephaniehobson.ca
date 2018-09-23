@@ -14,7 +14,7 @@ I hate form styling on the best of days. This is a good example of why:
 
 Firefox's buttons are wider than IE's or Webkit's. Why? This little gem in the browser's style sheets:
 
-```
+```css
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -28,7 +28,7 @@ That's right, it's 4px wider. Thank you FireFox.
 
 Fortunately, we can fix it!
 
-```
+```css
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -42,7 +42,7 @@ That was easy :)
 
 We have a class on our site that is applied to every button. I call it "formbutton" (I didn't get to pick it. My boss picked it 8 years ago. It's a great name isn't it? Epic and enduring.) So I can simplify that code up to this:
 
-```
+```css
 .formbutton::-moz-focus-inner {
     padding: 0px;
 }

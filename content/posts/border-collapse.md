@@ -14,7 +14,7 @@ I am, for the most part, self taught when it comes to HTML and CSS.  I've take a
 
 I spotted this little CSS tidbit in a presenter's code at the [Web Directions North](https://web.archive.org/web/20070306020032/http://north.webdirections.org) conference a few weeks ago and now I'm wondering if this is the sort of thing I missed out on by being self taught:
 
-```
+```html
 table {
         border-collapse: collapse;
     }

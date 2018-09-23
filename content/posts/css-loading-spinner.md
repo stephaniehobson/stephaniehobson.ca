@@ -20,7 +20,7 @@ On the bright side it works on any background colour and is a little transparent
 
 It's one `<div>` containing 8 `<span>`s, styled to be little grey lozenges:
 
-```
+```css
 .spinner span {
     display:block;
     height:13px;
@@ -32,7 +32,7 @@ It's one `<div>` containing 8 `<span>`s, styled to be little grey lozenges:
 
 In anticipation of rotating them I moved the `transform-origin` to the middle of the element and then a significant way down beneath it. Later, when I rotate the lozenges this spaces them further apart.
 
-```
+```css
     ...
     transform-origin: 50% 160%;
     ...
@@ -40,7 +40,7 @@ In anticipation of rotating them I moved the `transform-origin` to the middle of
 
 They all have a simple animation applied to them that makes them fade in and out (it has a bit of an opacity on it just for fun):
 
-```
+```css
     ...
     animation-name: fade;
     animation-duration: 1s;
@@ -64,7 +64,7 @@ They all have a simple animation applied to them that makes them fade in and out
 
 Using `nth-of-type` each lozenge is rotated 45degrees more than the last and has a delay of 250ms added to the animation on it. Unfortunately there is no easy way to do this program-magically so they have to be specified for each. Here is an example of the code for the second one:
 
-```
+```css
 .spinner span:nth-of-type(2) {
     transform: rotate(45deg);
     animation-delay: -750ms;
@@ -79,7 +79,7 @@ Did you know that you can provide a _negative_ value for `animation-delay`? Cool
 
 I added some absolute positioning to the `<span>`s, so the origin of the transform is at the top left of their parent `<div>`. This means the spinner fans out from the top left of the `<div>` and you can absolutely position it to exactly where you want the _middle_ of the spinner.  Handy if you want to place the spinner in the middle of something, like I did.
 
-```
+```css
 .spinner {
     position: absolute;
     top: 50%;
@@ -97,7 +97,7 @@ I added some absolute positioning to the `<span>`s, so the origin of the transfo
 
 Changing the colour is as simple as creating a new animation and applying that to your special spinner spans.
 
-```
+```css
 .special .spinner span {
     animation-name: specialfade;
 }

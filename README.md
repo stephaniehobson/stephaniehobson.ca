@@ -12,6 +12,6 @@ Site appears at: `http://localhost:1313`
 
 # Deploy
 
-```
+```bash
 ./deploy.sh
 ```

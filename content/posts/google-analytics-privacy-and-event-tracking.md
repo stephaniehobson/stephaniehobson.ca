@@ -32,13 +32,14 @@ I'm also going to use the universal analytics tracking code (analytics.js) for m
 
 The current method (Jan 2016) for [tracking outbound links](https://support.google.com/analytics/answer/1136920?hl=en) as recommended by Google looks like this:
 
-```
-&lt;a href=&quot;http://www.example.com&quot;
-    onclick=&quot;trackOutboundLink('http://www.example.com'); return false;&quot;&gt;
+```html
+<a href="http://www.example.com"
+    onclick="trackOutboundLink('http://www.example.com'); return false;">
         Check out example.com
-&lt;/a&gt;`</pre>
-
-<pre>`var trackOutboundLink = function(url) {
+</a>
+```
+```js
+var trackOutboundLink = function(url) {
     ga('send', 'event', 'outbound', 'click', url, {
         'transport': 'beacon',
         'hitCallback': function(){document.location = url;}
@@ -61,7 +62,7 @@ We are relying on GA to send the user to the new page, but what if the GA code n
 
 If you're using the current recommended method of adding GA to your site you're including something like this on all your pages:
 
-```
+```js
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-xxxxx-x', 'auto');
@@ -84,7 +85,7 @@ In [Google Analytics, Ghostery, and Event Tracking](https://supergeekery.com/blo
 In [Workaround for when the hitCallback function does not receive a response (analytics.js)](https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js), Dom Sammut observes that we can check for the `loaded` property on the `ga` object. This is a method used informally in [some Google documentation](https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click) so it's probably also somewhat reliable. I like this one because it is obvious what we're checking for.
 
 Opting for the last method, we alter Google's suggested code like so:
-```
+```js
 var trackOutboundLink = function(url) {
     // check if the GA object exists and that it has initialized
     if(window.ga && ga.loaded) { {

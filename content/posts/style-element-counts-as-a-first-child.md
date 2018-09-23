@@ -22,17 +22,16 @@ But it causes an itsy bitsy problem with the styles. The `<style>` counts as an 
 
 In other words this:
 
-```
-div p:first-child
+``` css
+div p:first-child { }
 ```
 
 stopped working when I added the style to the HTML here:
 
-```
+```html
 <div>
-<style> p { color:#00F;}</style>
-<p>Text!</p>
-
+    <style> p { color: #00F; }</style>
+    <p>Text!</p>
 </div>
 ```
 
@@ -40,8 +39,8 @@ stopped working when I added the style to the HTML here:
 
 Fortunately we can include <samp>style</samp> in our CSS declarations (and even style it if you want, [I gave it a width, and garish background colour](/wtf/scope_style_first-child.html) in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:
 
-```
-div style:first-child + p
+```css
+div style:first-child + p { }
 ```
 
 I'm not keen on going through my styles sheets and adding this rule to every place I have first-child declarations but we don't use scoped style elements too much so hopefully I won't have to.
@@ -54,12 +53,9 @@ As of August 2011 there are no browsers that support the `<style>` attribute but
 
 The old browsers will apply the styles in your scoped tag to the entire page so I combine it with a class to get the effect I intended.
 
-```
-<div class="foo">"
-
-<style scoped> .foo p { color:#00F; } </style>
-
-<p>Text!</p>
-
+```html
+<div class="foo">
+    <style scoped> .foo p { color: #00F; } </style>
+    <p>Text!</p>
 </div>
 ```
