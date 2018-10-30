@@ -2,13 +2,13 @@
 &lt;p&gt;The most detailed (and longest) version of my talk is available to watch on &lt;a href=&#34;http://wordpress.tv/2014/09/02/stephanie-hobson-accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;Wordpress TV&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My first slide deck and links to the resources I recommend are part of &lt;a href=&#34;https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;an earlier blog post&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page. Follow these thinks to see the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_bad.html&#34;&gt;bad&lt;/a&gt; and &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_good.html&#34;&gt;good&lt;/a&gt; examples and I encourage you to compare the two right now using some assistive technology, or at the very least, using your nose or elbow on your mouse or trackpad.&lt;/p&gt;</description></item><item><title>Intro to Google Tag Manager</title><link>https://stephaniehobson.ca/posts/google-tag-manager-intro/</link><pubDate>Wed, 04 Jun 2014 22:01:01 +0000</pubDate><guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid><description>
-&lt;p&gt;&lt;em&gt;Edit: 2018-10-30. Google now calls macros variables (which makes more sense to me). I&amp;rsquo;ve updated the text but not the screen shots.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Edit: 2018-10-30. Google now calls macros variables and rules triggers. I&amp;rsquo;ve updated the text but not the screen shots.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
 &lt;h2 id=&#34;what-is-gtm&#34;&gt;What is GTM&lt;/h2&gt;
 &lt;p&gt;You include a code snippet from GTM on your site which, among other things, includes a file. Then you use the GTM interface to configure what goes in that file.&lt;/p&gt;
 &lt;p&gt;This is intended to replace any scripts you&amp;rsquo;d normally have to write yourself to track stuff that isn&amp;rsquo;t a regular page view (example: tracking a file download as a page view). Say good bye to code like this: &lt;code&gt;pageTracker._trackPageview(fileurl);&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;why-do-we-care&#34;&gt;Why do we care?&lt;/h2&gt;
-&lt;p&gt;One snippet to rule them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
+&lt;p&gt;One snippet to trigger them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
 &lt;p&gt;Theoretically, it means non-technical people will be able to do the set up for this kind of tracking. Less work for us! But let&amp;rsquo;s face it, the interface was written by devs, it still needs some technical knowledge.&lt;/p&gt;
 &lt;p&gt;It cuts down on the amount of code writing and maintenance we have to do in the future. Also less work for us!&lt;/p&gt;
 &lt;h2 id=&#34;is-it-a-trap&#34;&gt;Is it a trap?&lt;/h2&gt;
@@ -23,13 +23,13 @@
 &lt;p&gt;(This seems like sound advice if you&amp;rsquo;re just getting started but will lead to some code duplication in the long run if you have multiple domains, I have complicated thoughts on this that belong in a separate blog post).&lt;/p&gt;
 &lt;p&gt;Once you&amp;rsquo;ve set up a container you get the code snippet. Place the code snippet on the page after the opening &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
 &lt;h2 id=&#34;what-s-all-this&#34;&gt;What&amp;rsquo;s all this?&lt;/h2&gt;
-&lt;p&gt;Your container contains 3 things: tags, rules, and variables.&lt;/p&gt;
+&lt;p&gt;Your container contains 3 things: tags, triggers, and variables.&lt;/p&gt;
 &lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
 &lt;p&gt;Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;, &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
-&lt;h3 id=&#34;rules&#34;&gt;Rules&lt;/h3&gt;
-&lt;p&gt;Rules are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each rule can have multiple conditions so you can combine them to create rules like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;triggers&#34;&gt;Triggers&lt;/h3&gt;
+&lt;p&gt;Triggers are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each trigger can have multiple conditions so you can combine them to create triggers like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
 &lt;h3 id=&#34;variables&#34;&gt;Variables&lt;/h3&gt;
-&lt;p&gt;Variables are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, rules, and other variables by writing its name in {{double curly braces}}.&lt;/p&gt;
+&lt;p&gt;Variables are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, triggers, and other variables by writing its name in {{double curly braces}}.&lt;/p&gt;
 &lt;h2 id=&#34;example-tracking-page-views-and-external-link-clicks-with-universal-analytics&#34;&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h2&gt;
 &lt;p&gt;My examples are all for Universal Analytics but if you&amp;rsquo;re still using Classic the concept is the same where I pick Universal Analytics from the Tag Type menu pick Google Analytics Classic and do your best with the slightly different options that follow from there.&lt;/p&gt;
 &lt;p&gt;This is, more or less, what we&amp;rsquo;ll be setting up, in an order that makes sense to me:&lt;/p&gt;
@@ -37,7 +37,7 @@
 &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.&lt;/li&gt;
 &lt;li&gt;Create version&lt;/li&gt;
 &lt;li&gt;Preview&lt;/li&gt;
@@ -76,7 +76,7 @@ Or, if prefer a screen shot:&lt;br&gt;
 &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
 &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
 &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this rule, GTM creates it automatically.&lt;/dd&gt;
+&lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this trigger, GTM creates it automatically.&lt;/dd&gt;
 &lt;/dl&gt;
 Or, if you prefer a screen shot:&lt;br&gt;
 &lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
@@ -90,18 +90,18 @@ Or, if you prefer a screen shot:&lt;br&gt;
 &lt;dl&gt;
 &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
 &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
+&lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
 &lt;/dl&gt;
 Leave everything else on the defaults.&lt;/li&gt;
 &lt;li&gt;Save it.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.
+&lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.
 &lt;ul&gt;
-&lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;rule&#34; out of the list.&lt;/li&gt;
-&lt;li&gt;Configure the rule like this:
+&lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;trigger&#34; out of the list.&lt;/li&gt;
+&lt;li&gt;Configure the trigger like this:
 &lt;dl&gt;
-&lt;dt&gt;Rule Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
+&lt;dt&gt;Trigger Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
 &lt;dt&gt;Conditions:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{event}} equals gtm.linkClick&lt;/kbd&gt;&lt;/dd&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}} starts with &lt;/kbd&gt;&lt;em&gt; your site URL&lt;/em&gt; &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;/li&gt;
@@ -112,7 +112,7 @@ I actually use a complex regex in a variable for the conditions to catch a few e
 &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
 &lt;ul&gt;
 &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-&lt;li&gt;Configure the rule like this:
+&lt;li&gt;Configure the trigger like this:
 &lt;dl&gt;
 &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;UA event - outbound link&lt;/kbd&gt;&lt;/dd&gt;
 &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
@@ -145,7 +145,7 @@ If you have an existing implementation you are trying to match so your stats are
 &lt;li&gt;Click on a link and check that &#34;UA event - outbound link&#34; gets added with the status &#34;Fired on Event &#34;gtm.linkClick&#34;. You can usually see it flash to the top before the other page loads but if it&#39;s too fast find (or create) a link with the attribute target=&#34;_blank&#34; to click.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;If something is not working check your rules and try again.&lt;/li&gt;
+&lt;li&gt;If something is not working check your triggers and try again.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Also important,&lt;/strong&gt; check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.&lt;/li&gt;
 &lt;li&gt;Exit preview mode&lt;/li&gt;
 &lt;/ul&gt;
@@ -153,7 +153,7 @@ If you have an existing implementation you are trying to match so your stats are
 &lt;/ol&gt;
 &lt;p&gt;You can see some changes applied immediately in Analytics on the Real-Time &amp;gt; Overview page. Other events which don&amp;rsquo;t seem to be working on Real-Time occasionally start showing up in the stats a day later. I have no insight to offer here, sorry.&lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;So we create tags to do things, rules to govern when we do the things in the tags, and variables to save ourselves time when creating tags and rules.&lt;/p&gt;</description></item><item><title>Accessibility with CSS: Making Websites Better for Everyone</title><link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link><pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate><guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid><description>
+&lt;p&gt;So we create tags to do things, triggers to govern when we do the things in the tags, and variables to save ourselves time when creating tags and triggers.&lt;/p&gt;</description></item><item><title>Accessibility with CSS: Making Websites Better for Everyone</title><link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link><pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate><guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid><description>
 &lt;p&gt;Last night I spoke at the &lt;a href=&#34;https://www.meetup.com/styleandclass/&#34;&gt;Style &amp;amp; Class Meet-up&lt;/a&gt; about Accessibility and CSS. Posting the slides here for posterity:&lt;/p&gt;
 &lt;div class=&#34;slideshare&#34;&gt;
 &lt;div class=&#34;slideshare-slides&#34;&gt;
