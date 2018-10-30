@@ -10,7 +10,7 @@ tags:
   - analytics
 ---
 
-*Edit: 2018-10-30. Google now calls macros variables (which makes more sense to me). I've updated the text but not the screen shots.*
+*Edit: 2018-10-30. Google now calls macros variables and rules triggers. I've updated the text but not the screen shots.*
 
 Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I'm going to try to focus on techniques rather than step by step instructions (but I have some of those too).
 
@@ -22,7 +22,7 @@ This is intended to replace any scripts you'd normally have to write yourself to
 
 ## Why do we care?
 
-One snippet to rule them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex...) and you can theoretically code support for others in yourself.
+One snippet to trigger them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex...) and you can theoretically code support for others in yourself.
 
 Theoretically, it means non-technical people will be able to do the set up for this kind of tracking. Less work for us! But let's face it, the interface was written by devs, it still needs some technical knowledge.
 
@@ -52,19 +52,19 @@ Once you've set up a container you get the code snippet. Place the code snippet 
 
 ## What's all this?
 
-Your container contains 3 things: tags, rules, and variables.
+Your container contains 3 things: tags, triggers, and variables.
 
 ### Tags
 
 Tags are individual things to do. Things like "listen for links being clicked on", "track this page view", "listen for form submissions", "track this conversion",  "track pressing play". They're individual tasks so listening for form submissions and tracking a conversion takes two separate tags.
 
-### Rules
+### Triggers
 
-Rules are when to apply tags. The basic one is "on every page". Each rule can have multiple conditions so you can combine them to create rules like "if this event is a click and it happened on an element that does not link to this website".
+Triggers are when to apply tags. The basic one is "on every page". Each trigger can have multiple conditions so you can combine them to create triggers like "if this event is a click and it happened on an element that does not link to this website".
 
 ### Variables
 
-Variables are just a way to store stuff you're likely to re-use (mostly text or javascript). There's some pre-populated ones and you can write your own. Stuff I've been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, rules, and other variables by writing its name in  {{double curly braces}}.
+Variables are just a way to store stuff you're likely to re-use (mostly text or javascript). There's some pre-populated ones and you can write your own. Stuff I've been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, triggers, and other variables by writing its name in  {{double curly braces}}.
 
 ## Example: Tracking page views and external link clicks with Universal Analytics
 
@@ -76,7 +76,7 @@ This is, more or less, what we'll be setting up, in an order that makes sense to
     <li><em>Variable</em>: your Analytics tracking number.</li>
     <li><em>Tag</em>: track a pageview in Analytics.</li>
     <li><em>Tag</em>: listen for clicked links.</li>
-    <li><em>Rule</em>: if link does not lead to current site.</li>
+    <li><em>Trigger</em>: if link does not lead to current site.</li>
     <li><em>Tag</em>: create event in Analytics for outbound link click.</li>
     <li>Create version</li>
     <li>Preview</li>
@@ -119,7 +119,7 @@ This is the part where I list actual steps, this part might change as the produc
                     <dt>Tag Type:</dt><dd><kbd>Google Analytics</kbd> & gt; <kbd>Universal Analytics</kbd></dd>
                     <dt>Tracking ID:</dt><dd><kbd>{{tracking ID}}</kbd> <br>This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.</dd>
                     <dt>Track Type:</dt><dd><kbd>Page View</kbd></dd>
-                    <dt>Firing Rules:</dt><dd>Add <kbd>All pages</kbd> <br>You don't have to create this rule, GTM creates it automatically.</dd>
+                    <dt>Firing Triggers:</dt><dd>Add <kbd>All pages</kbd> <br>You don't have to create this trigger, GTM creates it automatically.</dd>
                 </dl>
                 Or, if you prefer a screen shot:<br>
                 <img src="tag_pageview.gif" alt="Screenshot of GTM tag setup up for pageviews" width="497" height="430">
@@ -133,18 +133,18 @@ This is the part where I list actual steps, this part might change as the produc
                 <dl>
                     <dt>Tag Name:</dt><dd><kbd>Listener - linkClick</kbd></dd>
                     <dt>Tag Type:</dt><dd><kbd>Link Click Listener</kbd></dd>
-                    <dt>Firing Rules:</dt><dd>Add <kbd>All pages</kbd> </dd>
+                    <dt>Firing Triggers:</dt><dd>Add <kbd>All pages</kbd> </dd>
                 </dl>
                 Leave everything else on the defaults.</li>
             <li>Save it.</li>
         </ol>
     </li>
-    <li><em>Rule</em>: if link does not lead to current site.
+    <li><em>Trigger</em>: if link does not lead to current site.
         <ul>
-            <li>Click on the big red "new" button and pick "rule" out of the list.</li>
-            <li>Configure the rule like this:
+            <li>Click on the big red "new" button and pick "trigger" out of the list.</li>
+            <li>Configure the trigger like this:
                 <dl>
-                    <dt>Rule Name:</dt><dd><kbd>on - outbound link click</kbd></dd>
+                    <dt>Trigger Name:</dt><dd><kbd>on - outbound link click</kbd></dd>
                     <dt>Conditions:</dt><dd><kbd>{{event}} equals gtm.linkClick</kbd></dd><dd><kbd>{{element url}} starts with </kbd><em> your site URL</em> </dd>
                 </dl>
             </li>
@@ -155,7 +155,7 @@ This is the part where I list actual steps, this part might change as the produc
     <li><em>Tag</em>: create event in Analytics for outbound link click.
         <ul>
             <li>Click on the big red "new" button and pick "tag" out of the list.</li>
-            <li>Configure the rule like this:
+            <li>Configure the trigger like this:
                 <dl>
                     <dt>Tag Name:</dt><dd><kbd>UA event - outbound link</kbd></dd>
                     <dt>Tag Type:</dt><dd><kbd>Universal Analytics</kbd></dd>
@@ -188,7 +188,7 @@ This is the part where I list actual steps, this part might change as the produc
                     <li>Click on a link and check that "UA event - outbound link" gets added with the status "Fired on Event "gtm.linkClick". You can usually see it flash to the top before the other page loads but if it's too fast find (or create) a link with the attribute target="_blank" to click.</li>
                 </ul>
             </li>
-            <li>If something is not working check your rules and try again.</li>
+            <li>If something is not working check your triggers and try again.</li>
             <li><strong>Also important,</strong> check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.</li>
             <li>Exit preview mode</li>
         </ul>
@@ -199,4 +199,4 @@ You can see some changes applied immediately in Analytics on the Real-Time > Ove
 
 ## Summary
 
-So we create tags to do things, rules to govern when we do the things in the tags, and variables to save ourselves time when creating tags and rules.
+So we create tags to do things, triggers to govern when we do the things in the tags, and variables to save ourselves time when creating tags and triggers.
