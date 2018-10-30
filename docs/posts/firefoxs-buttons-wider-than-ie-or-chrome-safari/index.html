@@ -5,7 +5,7 @@
 <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-bf436ee4.css">
+<link rel="stylesheet" href="/css/main-83157029.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/">
     
 <body>
@@ -43,38 +43,29 @@
         <p>I hate form styling on the best of days. This is a good example of why:</p>
 
 <p>Firefox&rsquo;s buttons are wider than IE&rsquo;s or Webkit&rsquo;s. Why? This little gem in the browser&rsquo;s style sheets:</p>
-
-<pre><code>button::-moz-focus-inner,
-input[type=&quot;reset&quot;]::-moz-focus-inner,
-input[type=&quot;button&quot;]::-moz-focus-inner,
-input[type=&quot;submit&quot;]::-moz-focus-inner,
-input[type=&quot;file&quot;] &gt; input[type=&quot;button&quot;]::-moz-focus-inner {
-    padding: 0px 2px 0px 2px;
-}
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 <p>That&rsquo;s right, it&rsquo;s 4px wider. Thank you FireFox.</p>
 
 <p>Fortunately, we can fix it!</p>
-
-<pre><code>button::-moz-focus-inner,
-input[type=&quot;reset&quot;]::-moz-focus-inner,
-input[type=&quot;button&quot;]::-moz-focus-inner,
-input[type=&quot;submit&quot;]::-moz-focus-inner,
-input[type=&quot;file&quot;] &gt; input[type=&quot;button&quot;]::-moz-focus-inner {
-    padding: 0px;
-}
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 <p>That was easy :)</p>
 
 <p>We have a class on our site that is applied to every button. I call it &ldquo;formbutton&rdquo; (I didn&rsquo;t get to pick it. My boss picked it 8 years ago. It&rsquo;s a great name isn&rsquo;t it? Epic and enduring.) So I can simplify that code up to this:</p>
-
-<pre><code>.formbutton::-moz-focus-inner {
-    padding: 0px;
-}
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">formbutton</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 <p><strong>Want a little more info:</strong></p>
 
 <p>I found this with a little help from this article on <a href="http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/">viewing FireFox&rsquo;s default style sheets</a>. The observant among you may notice there is another style in there. It is for keyboard navigation. Use your new found powers wisely, don&rsquo;t remove it without replacing it.</p>

@@ -35,6 +35,8 @@
       <guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
       <description>
 
+&lt;p&gt;Edit: 2018-10-30. Google now calls macros variables (which makes more sense to me). I&amp;rsquo;ve updated the text but not the screen shots.&lt;/p&gt;
+
 &lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
 
 &lt;h2 id=&#34;what-is-gtm&#34;&gt;What is GTM&lt;/h2&gt;
@@ -75,7 +77,7 @@
 
 &lt;h2 id=&#34;what-s-all-this&#34;&gt;What&amp;rsquo;s all this?&lt;/h2&gt;
 
-&lt;p&gt;Your container contains 3 things: tags, rules, and macros.&lt;/p&gt;
+&lt;p&gt;Your container contains 3 things: tags, rules, and variables.&lt;/p&gt;
 
 &lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
 
@@ -85,9 +87,9 @@
 
 &lt;p&gt;Rules are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each rule can have multiple conditions so you can combine them to create rules like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
 
-&lt;h3 id=&#34;macros&#34;&gt;Macros&lt;/h3&gt;
+&lt;h3 id=&#34;variables&#34;&gt;Variables&lt;/h3&gt;
 
-&lt;p&gt;Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in macros: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference macros inside tags, rules, and other macros by writing its name in  {{double curly braces}}.&lt;/p&gt;
+&lt;p&gt;Variables are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, rules, and other variables by writing its name in  {{double curly braces}}.&lt;/p&gt;
 
 &lt;h2 id=&#34;example-tracking-page-views-and-external-link-clicks-with-universal-analytics&#34;&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h2&gt;
 
@@ -96,7 +98,7 @@
 &lt;p&gt;This is, more or less, what we&amp;rsquo;ll be setting up, in an order that makes sense to me:&lt;/p&gt;
 
 &lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;Macro&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
@@ -113,22 +115,22 @@
 &lt;p&gt;This is the part where I list actual steps, this part might change as the product develops.&lt;/p&gt;
 
 &lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;Macro&lt;/em&gt;: your Analytics tracking number.
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.
         &lt;ol&gt;
             &lt;li&gt;In Analytics get your tracking ID from Admin &gt; Property Settings&lt;/li&gt;
             &lt;li&gt;In GTM go to your container&#39;s overview page.&lt;/li&gt;
-            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;macro&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;variable&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
                 &lt;dl&gt;
-                    &lt;dt&gt;Macro Name:&lt;/dt&gt;
+                    &lt;dt&gt;Variable Name:&lt;/dt&gt;
                     &lt;dd&gt;&lt;kbd&gt;tracking ID&lt;/kbd&gt; (well you can name it whatever you want)&lt;/dd&gt;
-                    &lt;dt&gt;Macro Type:&lt;/dt&gt;
+                    &lt;dt&gt;Variable Type:&lt;/dt&gt;
                     &lt;dd&gt;&lt;kbd&gt;Constant String&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Value:&lt;/dt&gt;
                     &lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
                 &lt;/dl&gt;
                 Or, if prefer a screen shot:&lt;br&gt;
-                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id macro&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
+                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id variable&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
             &lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
         &lt;/ol&gt;
@@ -136,11 +138,11 @@
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.
         &lt;ol&gt;
             &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
+            &lt;li&gt; Configure the variable like this:
                 &lt;dl&gt;
                     &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Pageview&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the macro we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
+                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
                     &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this rule, GTM creates it automatically.&lt;/dd&gt;
                 &lt;/dl&gt;
@@ -152,7 +154,7 @@
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.
         &lt;ol&gt;
             &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
+            &lt;li&gt; Configure the variable like this:
                 &lt;dl&gt;
                     &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
@@ -173,7 +175,7 @@
             &lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
         &lt;/ul&gt;
-        I actually use a complex regex in a macro for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
+        I actually use a complex regex in a variable for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
     &lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
         &lt;ul&gt;
@@ -222,7 +224,7 @@
 
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;So we create tags to do things, rules to govern when we do the things in the tags, and macros to save ourselves time when creating tags and rules.&lt;/p&gt;
+&lt;p&gt;So we create tags to do things, rules to govern when we do the things in the tags, and variables to save ourselves time when creating tags and rules.&lt;/p&gt;
 </description>
     </item>
     

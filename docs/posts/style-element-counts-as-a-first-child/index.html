@@ -5,7 +5,7 @@
 <title>A style tag counts as a :first-child</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-bf436ee4.css">
+<link rel="stylesheet" href="/css/main-83157029.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/">
     
 <body>
@@ -51,26 +51,16 @@
 <p>But it causes an itsy bitsy problem with the styles. The <code>&lt;style&gt;</code> counts as an element, and if you put it first, it becomes the first-child. The styles I&rsquo;d defined for the first-child in that block were not applied to the (now) second child.</p>
 
 <p>In other words this:</p>
-
-<pre><code>div p:first-child
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="nt">p</span><span class="p">:</span><span class="nd">first-child</span> <span class="p">{</span> <span class="p">}</span></code></pre></div>
 <p>stopped working when I added the style to the HTML here:</p>
-
-<pre><code>&lt;div&gt;
-&lt;style&gt; p { color:#00F;}&lt;/style&gt;
-&lt;p&gt;Text!&lt;/p&gt;
-
-&lt;/div&gt;
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span> <span class="nt">p</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#00F</span><span class="p">;</span> <span class="p">}&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Text!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
 <p><strong>A Fix</strong></p>
 
 <p>Fortunately we can include <samp>style</samp> in our CSS declarations (and even style it if you want, <a href="/wtf/scope_style_first-child.html">I gave it a width, and garish background colour</a> in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:</p>
-
-<pre><code>div style:first-child + p
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="nt">style</span><span class="p">:</span><span class="nd">first-child</span> <span class="o">+</span> <span class="nt">p</span> <span class="p">{</span> <span class="p">}</span></code></pre></div>
 <p>I&rsquo;m not keen on going through my styles sheets and adding this rule to every place I have first-child declarations but we don&rsquo;t use scoped style elements too much so hopefully I won&rsquo;t have to.</p>
 
 <p>The other option would be to not put the <code>&lt;style&gt;</code> first in the parent I pretty clearly remember reading that the style has to be the first-child, of course, I can&rsquo;t find where I read it.</p>
@@ -80,16 +70,10 @@
 <p>As of August 2011 there are no browsers that support the <code>&lt;style&gt;</code> attribute but if you&rsquo;re using an HTML5 doctype you can still use <code>&lt;style scoped&gt;</code> today. Browsers have been happily rendering style elements inside the body for quite some time, it just wasn&rsquo;t valid HTML before ;)</p>
 
 <p>The old browsers will apply the styles in your scoped tag to the entire page so I combine it with a class to get the effect I intended.</p>
-
-<pre><code>&lt;div class=&quot;foo&quot;&gt;&quot;
-
-&lt;style scoped&gt; .foo p { color:#00F; } &lt;/style&gt;
-
-&lt;p&gt;Text!&lt;/p&gt;
-
-&lt;/div&gt;
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;foo&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">style</span> <span class="na">scoped</span><span class="p">&gt;</span> <span class="p">.</span><span class="nc">foo</span> <span class="nt">p</span> <span class="p">{</span> <span class="k">color</span><span class="p">:</span> <span class="mh">#00F</span><span class="p">;</span> <span class="p">}</span> <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Text!<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
     </div>
 </article>
 

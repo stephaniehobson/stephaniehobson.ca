@@ -166,15 +166,12 @@
 &lt;p&gt;It boggles my mind that browsers will still &lt;em&gt;delay rendering a page&lt;/em&gt; until it has loaded a style sheet with the media type of print. #seriously &lt;a href=&#34;http://www.phpied.com/files/css-loading/print.php&#34;&gt;#testyours&lt;/a&gt;. This article on &lt;a href=&#34;http://zoompf.com/blog/2009/12/browser-performance-problem-with-css-print-media-type&#34;&gt;Browser Performance Problem with CSS &amp;ldquo;print&amp;rdquo; Media Type&lt;/a&gt; outlines the problem really well.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re just trying to avoid the extra http request and your print styles are very small you can always just add them into your main CSS file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@media screen {
-/* screen styles here */
-}
-@media print {
-/* print styles here */
-}
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;media&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;screen&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;/* screen styles here */&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;media&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;/* print styles here */&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Otherwise you can look at techniques to load them asynchronously. There&amp;rsquo;s a &lt;a href=&#34;https://web.archive.org/web/20120318141226/http://www.duncanmcdougall.co.uk:80/delay-loading-the-print-stylesheet&#34;&gt;couple&lt;/a&gt; &lt;a href=&#34;http://www.duncanmcdougall.co.uk/articles/delay-loading-print-stylesheet.html&#34;&gt;ways&lt;/a&gt; to do this.&lt;/p&gt;
 
 &lt;h2 id=&#34;seeing-it-in-action&#34;&gt;Seeing it in action&lt;/h2&gt;

@@ -5,7 +5,7 @@
 <title>CSS bug in IE 6 with: .class a:hover element</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-bf436ee4.css">
+<link rel="stylesheet" href="/css/main-83157029.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/">
     
 <body>
@@ -47,60 +47,51 @@
 <p>Here&rsquo;s what happened to me:</p>
 
 <p>I had some text inside a link, and I wanted some of it to do one thing when rolled over and some of it to do something else.  I marked it up like this:</p>
-
-<pre><code class="language-html">&lt;div class=&quot;promo&quot;&gt;
-    &lt;h3&gt;News&lt;/h3&gt;
-    &lt;a href=&quot;link.html&quot;&gt;IE has lots of bugs&lt;strong&gt;read more&lt;/strong&gt;.&lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;promo&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>News<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;link.html&#34;</span><span class="p">&gt;</span>IE has lots of bugs<span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>read more<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
 <p>It&rsquo;s sort of a solution to the fact that &ldquo;read more&rdquo; makes bad link text.  Bad.  And I don&rsquo;t write the copy.</p>
 
 <p>Then I tried to style it with something like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* default link behaviour */</span>
+<span class="nt">a</span> <span class="p">{</span>
+    <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#8ec3e2</span><span class="p">;</span>
+<span class="p">}</span>
 
-<pre><code>/* default link behaviour */
-a {
-    text-decoration:none;
-    color:#8ec3e2;
-}
+<span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#6d80a8</span><span class="p">;</span>
+<span class="p">}</span>
 
-a:visited {
-    color:#6d80a8;
-}
+<span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#c1fcff</span><span class="p">;</span>
+<span class="p">}</span>
 
-a:hover {
-    color:#c1fcff;
-}
+<span class="c">/* overrides for this element */</span>
+<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
+<span class="p">}</span>
 
-/* overrides for this element */
-.promo a {
-    color:#000;
-}
+<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
+<span class="p">}</span>
 
-.promo a:hover {
-    color:#000;
-}
+<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span> <span class="nt">strong</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="nt">strong</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#8ec3e2</span><span class="p">;</span>
+    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+<span class="p">}</span>
 
-.promo a strong,
-.promo a:visited strong {
-    color:#8ec3e2;
-    display:block;
-}
-
-.promo a:hover strong {
-    color:#c1fcff;
-}
-</code></pre>
-
+<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="nt">strong</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#c1fcff</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 <p>Which did exactly what I wanted it to do&hellip; in FireFox but in IE 6 the hover was not displaying properly.  After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided <a href="http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp">Tanfa&rsquo;s article on IE Pure CSS Pop Ups Bug</a> in response to my query.</p>
 
 <p>I added float:none to my declaration for <code>.promo a:hover{}</code> and all is now well :)</p>
-
-<pre><code>.promo a:hover{
-    float:none;
-}
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+    <span class="k">float</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 <p>Thank you Tanfa!</p>
 
     </div>
