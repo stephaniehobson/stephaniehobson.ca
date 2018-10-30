@@ -9,6 +9,9 @@ tags:
   - webdesign
   - analytics
 ---
+
+__Edit: 2018-10-30. Google now calls macros variables (which makes more sense to me). I've updated the text but not the screen shots.__
+
 Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I'm going to try to focus on techniques rather than step by step instructions (but I have some of those too).
 
 ## What is GTM
@@ -49,7 +52,7 @@ Once you've set up a container you get the code snippet. Place the code snippet 
 
 ## What's all this?
 
-Your container contains 3 things: tags, rules, and macros.
+Your container contains 3 things: tags, rules, and variables.
 
 ### Tags
 
@@ -59,9 +62,9 @@ Tags are individual things to do. Things like "listen for links being clicked on
 
 Rules are when to apply tags. The basic one is "on every page". Each rule can have multiple conditions so you can combine them to create rules like "if this event is a click and it happened on an element that does not link to this website".
 
-### Macros
+### Variables
 
-Macros are just a way to store stuff you're likely to re-use (mostly text or javascript). There's some pre-populated ones and you can write your own. Stuff I've been keeping in macros: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference macros inside tags, rules, and other macros by writing its name in  {{double curly braces}}.
+Variables are just a way to store stuff you're likely to re-use (mostly text or javascript). There's some pre-populated ones and you can write your own. Stuff I've been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, rules, and other variables by writing its name in  {{double curly braces}}.
 
 ## Example: Tracking page views and external link clicks with Universal Analytics
 
@@ -70,7 +73,7 @@ My examples are all for Universal Analytics but if you're still using Classic th
 This is, more or less, what we'll be setting up, in an order that makes sense to me:
 
 <ol>
-    <li><em>Macro</em>: your Analytics tracking number.</li>
+    <li><em>Variable</em>: your Analytics tracking number.</li>
     <li><em>Tag</em>: track a pageview in Analytics.</li>
     <li><em>Tag</em>: listen for clicked links.</li>
     <li><em>Rule</em>: if link does not lead to current site.</li>
@@ -87,22 +90,22 @@ Once you've followed these steps once hopefully you will understand how the piec
 This is the part where I list actual steps, this part might change as the product develops.
 
 <ol>
-    <li><em>Macro</em>: your Analytics tracking number.
+    <li><em>Variable</em>: your Analytics tracking number.
         <ol>
             <li>In Analytics get your tracking ID from Admin > Property Settings</li>
             <li>In GTM go to your container's overview page.</li>
-            <li>Click the big red "new" button and pick "macro" out of the list.</li>
-            <li> Configure the macro like this:
+            <li>Click the big red "new" button and pick "variable" out of the list.</li>
+            <li> Configure the variable like this:
                 <dl>
-                    <dt>Macro Name:</dt>
+                    <dt>Variable Name:</dt>
                     <dd><kbd>tracking ID</kbd> (well you can name it whatever you want)</dd>
-                    <dt>Macro Type:</dt>
+                    <dt>Variable Type:</dt>
                     <dd><kbd>Constant String</kbd></dd>
                     <dt>Value:</dt>
                     <dd><em>Your tracking ID</em></dd>
                 </dl>
                 Or, if prefer a screen shot:<br>
-                <img src="macro1.gif" alt="Screen shot of GTM tracking id macro" width="302" height="217">
+                <img src="macro1.gif" alt="Screen shot of GTM tracking id variable" width="302" height="217">
             </li>
             <li>Save it.</li>
         </ol>
@@ -110,11 +113,11 @@ This is the part where I list actual steps, this part might change as the produc
     <li><em>Tag</em>: track a pageview in Analytics.
         <ol>
             <li>Click the big red "new" button and pick "tag" out of the list.</li>
-            <li> Configure the macro like this:
+            <li> Configure the variable like this:
                 <dl>
                     <dt>Tag Name:</dt><dd><kbd>Pageview</kbd></dd>
                     <dt>Tag Type:</dt><dd><kbd>Google Analytics</kbd> & gt; <kbd>Universal Analytics</kbd></dd>
-                    <dt>Tracking ID:</dt><dd><kbd>{{tracking ID}}</kbd> <br>This is the macro we just created. You can either type it yourself or click the little lego block to pick it out of a list.</dd>
+                    <dt>Tracking ID:</dt><dd><kbd>{{tracking ID}}</kbd> <br>This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.</dd>
                     <dt>Track Type:</dt><dd><kbd>Page View</kbd></dd>
                     <dt>Firing Rules:</dt><dd>Add <kbd>All pages</kbd> <br>You don't have to create this rule, GTM creates it automatically.</dd>
                 </dl>
@@ -126,7 +129,7 @@ This is the part where I list actual steps, this part might change as the produc
     <li><em>Tag</em>: listen for clicked links.
         <ol>
             <li>Click the big red "new" button and pick "tag" out of the list.</li>
-            <li> Configure the macro like this:
+            <li> Configure the variable like this:
                 <dl>
                     <dt>Tag Name:</dt><dd><kbd>Listener - linkClick</kbd></dd>
                     <dt>Tag Type:</dt><dd><kbd>Link Click Listener</kbd></dd>
@@ -147,7 +150,7 @@ This is the part where I list actual steps, this part might change as the produc
             </li>
             <li>Save it.</li>
         </ul>
-        I actually use a complex regex in a macro for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
+        I actually use a complex regex in a variable for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
     </li>
     <li><em>Tag</em>: create event in Analytics for outbound link click.
         <ul>
@@ -196,4 +199,4 @@ You can see some changes applied immediately in Analytics on the Real-Time > Ove
 
 ## Summary
 
-So we create tags to do things, rules to govern when we do the things in the tags, and macros to save ourselves time when creating tags and rules.
+So we create tags to do things, rules to govern when we do the things in the tags, and variables to save ourselves time when creating tags and rules.
