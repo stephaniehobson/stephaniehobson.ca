@@ -1,276 +1,152 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2011 on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/year/2011/</link>
-    <description>Recent content in 2011 on Stephanie Hobson</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Tue, 06 Sep 2011 14:34:49 +0000</lastBuildDate>
-    
-        <atom:link href="https://stephaniehobson.ca/year/2011/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>CSS Loading Spinner</title>
-      <link>https://stephaniehobson.ca/posts/css-loading-spinner/</link>
-      <pubDate>Tue, 06 Sep 2011 14:34:49 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/css-loading-spinner/</guid>
-      <description>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2011 on Stephanie Hobson</title><link>https://stephaniehobson.ca/year/2011/</link><description>Recent content in 2011 on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Tue, 06 Sep 2011 14:34:49 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/year/2011/index.xml" rel="self" type="application/rss+xml"/><item><title>CSS Loading Spinner</title><link>https://stephaniehobson.ca/posts/css-loading-spinner/</link><pubDate>Tue, 06 Sep 2011 14:34:49 +0000</pubDate><guid>https://stephaniehobson.ca/posts/css-loading-spinner/</guid><description>
 &lt;p&gt;I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&amp;rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is &lt;a href=&#34;https://en.wikipedia.org/wiki/Law_of_the_instrument&#34;&gt;my hammer&lt;/a&gt;).&lt;/p&gt;
-
 &lt;p&gt;On the bright side it works on any background colour and is a little transparent which is neat. And it&amp;rsquo;s &lt;em&gt;way&lt;/em&gt; faster to adjust the colour scheme than an image file would be.&lt;/p&gt;
-
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
-
 &lt;h2 id=&#34;the-basic-idea&#34;&gt;The basic idea&lt;/h2&gt;
-
 &lt;p&gt;It&amp;rsquo;s one &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; containing 8 &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;s, styled to be little grey lozenges:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;spinner&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;border-radius&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;border-radius&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In anticipation of rotating them I moved the &lt;code&gt;transform-origin&lt;/code&gt; to the middle of the element and then a significant way down beneath it. Later, when I rotate the lozenges this spaces them further apart.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;    &lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;transform-origin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;160&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%;&lt;/span&gt;
-    &lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt; &lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;transform-origin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;160&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;They all have a simple animation applied to them that makes them fade in and out (it has a bit of an opacity on it just for fun):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;    &lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;animation-name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;fade&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;animation-duration&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;animation-iteration-count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;infinite&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;animation-direction&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;alternate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;animation-fill-mode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;backwards&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt; &lt;span class=&#34;o&#34;&gt;...&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;animation-name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;fade&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;animation-duration&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;1s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;animation-iteration-count&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;infinite&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;animation-direction&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;alternate&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;animation-fill-mode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;backwards&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;err&#34;&gt;}&lt;/span&gt;
-
 &lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;keyframes&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;fade&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;77&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Using &lt;code&gt;nth-of-type&lt;/code&gt; each lozenge is rotated 45degrees more than the last and has a delay of 250ms added to the animation on it. Unfortunately there is no easy way to do this program-magically so they have to be specified for each. Here is an example of the code for the second one:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;spinner&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;nth-of-type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;rotate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;45&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;deg&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;animation-delay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;-750&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;ms&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;rotate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;45&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;deg&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;animation-delay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;-750&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;ms&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;starting-in-the-middle&#34;&gt;Starting in the middle&lt;/h2&gt;
-
 &lt;p&gt;Did you know that you can provide a &lt;em&gt;negative&lt;/em&gt; value for &lt;code&gt;animation-delay&lt;/code&gt;? Cool, eh?!?! This means I can make it appear that the animation is beginning in the middle, otherwise the first time it&amp;rsquo;s run it looks funny.&lt;/p&gt;
-
 &lt;h2 id=&#34;placing-the-spinner&#34;&gt;Placing the spinner&lt;/h2&gt;
-
-&lt;p&gt;I added some absolute positioning to the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;s, so the origin of the transform is at the top left of their parent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;. This means the spinner fans out from the top left of the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and you can absolutely position it to exactly where you want the &lt;em&gt;middle&lt;/em&gt; of the spinner.  Handy if you want to place the spinner in the middle of something, like I did.&lt;/p&gt;
+&lt;p&gt;I added some absolute positioning to the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;s, so the origin of the transform is at the top left of their parent &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt;. This means the spinner fans out from the top left of the &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; and you can absolutely position it to exactly where you want the &lt;em&gt;middle&lt;/em&gt; of the spinner. Handy if you want to place the spinner in the middle of something, like I did.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;spinner&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;absolute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;absolute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;50&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;spinner&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;absolute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;-20&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;-3&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&#34;k&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;absolute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;-20&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;-3&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;changing-the-colour&#34;&gt;Changing the colour&lt;/h2&gt;
-
 &lt;p&gt;Changing the colour is as simple as creating a new animation and applying that to your special spinner spans.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;special&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;spinner&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;span&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;animation-name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;specialfade&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;animation-name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;specialfade&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;using-it&#34;&gt;Using it&lt;/h2&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/loading-spinner/&#34;&gt;Here&amp;rsquo;s the loading spinner&lt;/a&gt; with the &lt;code&gt;moz&lt;/code&gt; and &lt;code&gt;webkit&lt;/code&gt; prefixes. Of course, it only works in browsers that support animation and transforms but there&amp;rsquo;s more and more of those these days.&lt;/p&gt;
-
 &lt;p&gt;Also, yes, totally, please use it. &lt;a href=&#34;https://twitter.com/stephaniehobson&#34;&gt;Tweet me&lt;/a&gt; if you make any improvements.&lt;/p&gt;
-
 &lt;h2 id=&#34;a-little-bit-more&#34;&gt;A little bit more&lt;/h2&gt;
-
 &lt;p&gt;I got a little carried away and made a few other styles:&lt;/p&gt;
-
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/other-styles.html&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>A style tag counts as a :first-child</title>
-      <link>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</link>
-      <pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;EDIT 2011-09-15: All of this applies to &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; in the body as well.&lt;/strong&gt;&lt;/p&gt;
-
+&lt;iframe class=&#34;frame-src&#34; src=&#34;https://stephaniehobson.ca/loading-spinner/other-styles.html&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>A style tag counts as a :first-child</title><link>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</link><pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate><guid>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</guid><description>&lt;p&gt;&lt;strong&gt;EDIT 2011-09-15: All of this applies to &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; in the body as well.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I have some bad news and a fix (I hesitate to call it good news).&lt;/p&gt;
-
 &lt;p&gt;HTML5 introduces a way for us to include &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; elements on the page, we just need to give them an attribute of &lt;code&gt;scoped&lt;/code&gt;. So, for example, if you have an SSI included widget you can include the styles in the widget file instead of trying to devise a way to add them to the head.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;A Problem&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;But it causes an itsy bitsy problem with the styles. The &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; counts as an element, and if you put it first, it becomes the first-child. The styles I&amp;rsquo;d defined for the first-child in that block were not applied to the (now) second child.&lt;/p&gt;
-
 &lt;p&gt;In other words this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;first-child&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;stopped working when I added the style to the HTML here:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#00F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Text!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#00F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Text!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;A Fix&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;Fortunately we can include &lt;samp&gt;style&lt;/samp&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;https://stephaniehobson.ca/wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;first-child&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;I&amp;rsquo;m not keen on going through my styles sheets and adding this rule to every place I have first-child declarations but we don&amp;rsquo;t use scoped style elements too much so hopefully I won&amp;rsquo;t have to.&lt;/p&gt;
-
 &lt;p&gt;The other option would be to not put the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; first in the parent I pretty clearly remember reading that the style has to be the first-child, of course, I can&amp;rsquo;t find where I read it.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Side Note: using &lt;samp&gt;&amp;lt;style scoped&amp;gt;&lt;/samp&gt; today.&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;As of August 2011 there are no browsers that support the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; attribute but if you&amp;rsquo;re using an HTML5 doctype you can still use &lt;code&gt;&amp;lt;style scoped&amp;gt;&lt;/code&gt; today. Browsers have been happily rendering style elements inside the body for quite some time, it just wasn&amp;rsquo;t valid HTML before ;)&lt;/p&gt;
-
 &lt;p&gt;The old browsers will apply the styles in your scoped tag to the entire page so I combine it with a class to get the effect I intended.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;foo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;scoped&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;foo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#00F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Text!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Perfect Stranger</title>
-      <link>https://stephaniehobson.ca/posts/perfect-stranger/</link>
-      <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;scoped&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;foo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#00F&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Text!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Perfect Stranger</title><link>https://stephaniehobson.ca/posts/perfect-stranger/</link><pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate><guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid><description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;
 &lt;figure&gt;
-    
-        &lt;img src=&#34;perfectstranger.jpg&#34; alt=&#34;Perfect Stranger&#34; /&gt;
-    
-    
+&lt;img src=&#34;perfectstranger.jpg&#34; alt=&#34;Perfect Stranger&#34; /&gt;
 &lt;/figure&gt;
 &lt;/a&gt;Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. &lt;a href=&#34;https://adactio.com&#34;&gt;Jeremy Keith&lt;/a&gt; once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.&lt;/p&gt;
-
 &lt;p&gt;Most of us use Twitter to keep in touch with people we know and keep up with things we care about. It makes sense, it&amp;rsquo;s familiar and comforting but it blocks out people and ideas we disagree with and it ignores some of the most powerful potential of Twitter.&lt;/p&gt;
-
 &lt;p&gt;What are we missing by insulating ourselves with the familiar? A recent episode of &lt;a href=&#34;http://www.cbc.ca/spark/2010/08/joel-johnson-and-jonah-lehrer-on-following-complete-strangers-on-twitter/&#34;&gt;CBC&amp;rsquo;s Spark discussed the benefits of following a stranger&lt;/a&gt; with Joel Johnson who wrote a &lt;a href=&#34;http://gizmodo.com/5586970/why-i-stalk-a-sexy-black-woman-on-twitter-and-why-you-should-too&#34;&gt;Gizmodo article&lt;/a&gt; on the topic.&lt;/p&gt;
-
 &lt;p&gt;Not only can it help us avoid &lt;a href=&#34;https://en.wikipedia.org/wiki/Groupthink&#34;&gt;groupthink&lt;/a&gt; but Joel mentions a study that suggests exposure to other view points can make us more creative.&lt;/p&gt;
-
 &lt;p&gt;So I had the idea to create a twitter account that will add a random tweet to my feed now and then and when I mentioned it to &lt;a href=&#34;https://danielquinn.org/&#34;&gt;Daniel&lt;/a&gt; he took a few minutes and built it.&lt;/p&gt;
-
-&lt;p&gt;You should follow a &lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;@perfectstranger&lt;/a&gt; on Twitter, and let me know what you think.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Dull April Fool&#39;s Day</title>
-      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
-      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
-      <description>&lt;p&gt;There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:&lt;/p&gt;
-
+&lt;p&gt;You should follow a &lt;a href=&#34;https://twitter.com/perfectstranger&#34;&gt;@perfectstranger&lt;/a&gt; on Twitter, and let me know what you think.&lt;/p&gt;</description></item><item><title>A Dull April Fool&#39;s Day</title><link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link><pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate><guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid><description>&lt;p&gt;There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Desaturating the colours in the style sheet.&lt;/li&gt;
 &lt;li&gt;Desaturating every image on the site, that&amp;rsquo;s right, all of them.&lt;/li&gt;
 &lt;li&gt;Authentic content.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/5584653410/&#34;&gt;
 &lt;figure&gt;
-    
-        &lt;img src=&#34;oldskool.jpg&#34; alt=&#34;The 1960s logo and a photo of giant &amp;#39;new&amp;#39; computer really make the home page look dated&#34; /&gt;
-    
-    
+&lt;img src=&#34;oldskool.jpg&#34; alt=&#34;The 1960s logo and a photo of giant &amp;#39;new&amp;#39; computer really make the home page look dated&#34; /&gt;
 &lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Desaturating the colours in the stylesheet.&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;I captured the colours in the stylesheet using the Web Developer Extension in FireFox. Information &amp;gt; View Color Information produces a list of all the colours used in the styles and their hex codes. I took a screen shot of that and then desaturated it in Photoshop by adding a desaturation layer.&lt;/p&gt;
-
 &lt;p&gt;Once I had the desaturated colours I did a find and replace for the original hex codes in the style sheet, sampling the new hex codes from my Photoshop document.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Desaturating all the images.&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;All the images? Yep, all the images.&lt;/p&gt;
-
 &lt;p&gt;For this I tried out a couple different javascript libraries but ultimately went with &lt;a href=&#34;https://mezzoblue.github.com/PaintbrushJS/demo/&#34;&gt;PaintBrushJS&lt;/a&gt; by &lt;a href=&#34;https://mezzoblue.com&#34;&gt;Dave Shea&lt;/a&gt; because it was the only one that could handle background images and didn&amp;rsquo;t add any extra elements to the page. PaintBrushJS uses a combination of javascript and canvas to alter the images.&lt;/p&gt;
-
 &lt;p&gt;For backwards compatibility I manually converted all the header and footer assets to black and white, this also meant I could restrict the desaturating javascript to running on just the content and leaving these pieces alone, taking a bit of a load off the client.&lt;/p&gt;
-
 &lt;p&gt;I actually had the easiest time getting it to work in IE&amp;hellip; there&amp;rsquo;s a filter. I wouldn&amp;rsquo;t have used an evil evil filter if it hadn&amp;rsquo;t just been for half of one day but it was so I did.&lt;/p&gt;
-
 &lt;p&gt;I think this kind of photo manipulation has a place in web design since it means we can keep the unaltered versions of files and change their rendering when we change the theme, that&amp;rsquo;s pretty powerful.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Authentic Content.&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;We were lucky that the &lt;a href=&#34;https://www.bcit.ca/archives/&#34;&gt;BCIT Archives&lt;/a&gt; have begun digitizing much of their collection. We got a great deal of source material from the &lt;a href=&#34;http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf&#34;&gt;1968-69 Program and Course Catalogue&lt;/a&gt;. We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.&lt;/p&gt;
-
 &lt;p&gt;Nope, the logo wasn&amp;rsquo;t a Star Trek knock off, that&amp;rsquo;s what the future looked like in the 60s and both BCIT and Star Trek ran with it.&lt;/p&gt;
-
 &lt;p&gt;The content about campus events came from copies of the student news paper from the same era. My favourite of the new stories was about how BCIT was getting its &lt;em&gt;second&lt;/em&gt; computer.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;It was a lot of fun and I&amp;rsquo;m glad we work at the kind of place that was keen to let us do it.&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
-      <link>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</link>
-      <pubDate>Wed, 09 Mar 2011 14:29:42 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</guid>
-      <description>&lt;p&gt;I hate form styling on the best of days. This is a good example of why:&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;It was a lot of fun and I&amp;rsquo;m glad we work at the kind of place that was keen to let us do it.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title><link>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</link><pubDate>Wed, 09 Mar 2011 14:29:42 +0000</pubDate><guid>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</guid><description>&lt;p&gt;I hate form styling on the best of days. This is a good example of why:&lt;/p&gt;
 &lt;p&gt;Firefox&amp;rsquo;s buttons are wider than IE&amp;rsquo;s or Webkit&amp;rsquo;s. Why? This little gem in the browser&amp;rsquo;s style sheets:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;reset&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;submit&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;file&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;That&amp;rsquo;s right, it&amp;rsquo;s 4px wider. Thank you FireFox.&lt;/p&gt;
-
 &lt;p&gt;Fortunately, we can fix it!&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;reset&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;submit&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;file&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;input&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;button&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;That was easy :)&lt;/p&gt;
-
 &lt;p&gt;We have a class on our site that is applied to every button. I call it &amp;ldquo;formbutton&amp;rdquo; (I didn&amp;rsquo;t get to pick it. My boss picked it 8 years ago. It&amp;rsquo;s a great name isn&amp;rsquo;t it? Epic and enduring.) So I can simplify that code up to this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;formbutton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;-moz-focus-inner&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Want a little more info:&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;I found this with a little help from this article on &lt;a href=&#34;http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/&#34;&gt;viewing FireFox&amp;rsquo;s default style sheets&lt;/a&gt;. The observant among you may notice there is another style in there. It is for keyboard navigation. Use your new found powers wisely, don&amp;rsquo;t remove it without replacing it.&lt;/p&gt;
-
 &lt;p&gt;Also, here&amp;rsquo;s a link if you&amp;rsquo;re wondering what is up with the &lt;a href=&#34;http://www.evotech.net/blog/2007/05/after-v-after-what-is-double-colon-notation/&#34;&gt;double colon notation.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And so far it does not look like there are equivalent pseudo elements in Webkit or IE, but I will admit to not looking very hard since this fixed my problem ;)&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;And so far it does not look like there are equivalent pseudo elements in Webkit or IE, but I will admit to not looking very hard since this fixed my problem ;)&lt;/p&gt;</description></item></channel></rss>

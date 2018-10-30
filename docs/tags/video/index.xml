@@ -1,58 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Video on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/tags/video/</link>
-    <description>Recent content in Video on Stephanie Hobson</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
-    
-        <atom:link href="https://stephaniehobson.ca/tags/video/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Flipping More Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
-      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
-      <description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Video on Stephanie Hobson</title><link>https://stephaniehobson.ca/tags/video/</link><description>Recent content in Video on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/tags/video/index.xml" rel="self" type="application/rss+xml"/><item><title>Flipping More Tables</title><link>https://stephaniehobson.ca/posts/flipping-more-tables/</link><pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate><guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid><description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
 &lt;p&gt;The video of my talk has been posted:
 &lt;div class=&#34;youtube&#34;&gt;
-  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-
-&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Debug CSS</title>
-      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
-      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
-      <description>
-
+&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>How To Debug CSS</title><link>https://stephaniehobson.ca/posts/how-to-debug-css/</link><pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate><guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid><description>
 &lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://2015.vancouver.wordcamp.org/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;https://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
-
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
-
 &lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Is the HTML valid?&lt;/li&gt;
 &lt;li&gt;Is the CSS valid?&lt;/li&gt;
 &lt;li&gt;Is the right CSS being applied?
-
 &lt;ol&gt;
 &lt;li&gt;Is what you typed being applied?&lt;/li&gt;
 &lt;li&gt;Is other stuff being applied?&lt;/li&gt;
@@ -63,9 +25,7 @@
 &lt;li&gt;Can you isolate the problem?&lt;/li&gt;
 &lt;li&gt;Ask for help&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector&#34;&gt;Developer tools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;W3C &lt;a href=&#34;https://validator.w3.org/&#34;&gt;HTML validator&lt;/a&gt; / &lt;a href=&#34;https://jigsaw.w3.org/css-validator/&#34;&gt;CSS validator&lt;/a&gt;&lt;/li&gt;
@@ -75,172 +35,81 @@
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/&#34;&gt;Cross-Browser Debugging CSS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smashing Conference Whistler 2014</title>
-      <link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link>
-      <pubDate>Tue, 06 Jan 2015 22:32:27 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
-      <description>
-
+&lt;/ul&gt;</description></item><item><title>Smashing Conference Whistler 2014</title><link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link><pubDate>Tue, 06 Jan 2015 22:32:27 +0000</pubDate><guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid><description>
 &lt;p&gt;A few weeks ago &lt;a href=&#34;http://smashingconf.com/whistler-2014/&#34;&gt;Smashing Conference came to Whistler&lt;/a&gt;. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)&lt;/p&gt;
-
 &lt;h2 id=&#34;the-conference&#34;&gt;The conference&lt;/h2&gt;
-
 &lt;p&gt;As good as I hoped it would be. A mix of strategy and near future technology examples.&lt;/p&gt;
-
 &lt;h3 id=&#34;my-favourite-talk&#34;&gt;My Favourite Talk&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Building the next-generation of &lt;a href=&#34;https://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;talk-summaries&#34;&gt;Talk Summaries&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;Marcin Wichary&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Good is the enemy of great: On designing, and then undesigning, a perfect link underline&lt;/em&gt;&lt;br&gt;
 200 years of typographic history was lost when we moved from printing presses to the typewriter, Marcin Took us through some of what he did in his attempt to re-create the perfect underline.His ultimate point was that it&amp;rsquo;s important to find a balance between shipping and creating good code. Perfectionism is not the right balance but we should strive to make things good and not just improve the status quo.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Susan Robertson&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Style Guides: Why bother?&lt;/em&gt;&lt;br&gt;
 Susan walked us through a long list of benefits to using a style guide. Highlights included: front-end speed, consistency, and performance. Lots of good resources here: &lt;a href=&#34;http://styleguides.io&#34;&gt;styleguides.io&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Yoav Weiss&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Responsive Images are Coming to a Browser Near You&lt;/em&gt;&lt;br&gt;
-I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;is a solution for providing art direction of images on different screen sizes and &lt;code&gt;srcset&lt;/code&gt; gets added to  if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
-
+I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;is a solution for providing art direction of images on different screen sizes and &lt;code&gt;srcset&lt;/code&gt; gets added to if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Marcy Sutton&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;A Web for Everybody&lt;/em&gt;&lt;br&gt;
 Accessibility is easier if you build it you build it in from the start. Ask, does it work: With the keyboard only? In a screen reader? Without sound? Without colour? In high contrast mode? &amp;ldquo;This stuff is not that hard.&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Jenn Lukas&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;The Developer’s Ampersandwich&lt;/em&gt;&lt;br&gt;
 Things to consider when implementing type on a website: if you haven&amp;rsquo;t been given design direction you can find the type by looking at what&amp;rsquo;s popular and already in use, separate presentation from content, be aware of performance issues with web fonts, add accessible fallbacks for a icon fonts, use tools like typecast to communicate with designers about general styles rather than content specific styles.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Zach Leatherman&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Better @font-face with Font Load Events&lt;/em&gt;&lt;br&gt;
 Web fonts are rendered blocking. Zach proposes a JavaScript fix which prioritizes a FOIT for icon fonts and a FOUT for content fonts. Lots of good stuff from &lt;a href=&#34;http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;this excellent article of his&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Stephen Hay&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Easing the Pain of Designing in the Browser&lt;/em&gt;&lt;br&gt;
 We need to stop thinking about layout first, we need to start thinking about structured content first. Begin by focusing on the small screen, and then focus on type and color.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;John Allsopp&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;The Web&amp;rsquo;s future is offline&lt;/em&gt;&lt;br&gt;
 &amp;ldquo;We can&amp;rsquo;t keep building apps with the desktop mindset of permanent, fast connectivity, where a temporary disconnection or slow service is regarded as a problem and communicated as an error.&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Dave Shea&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Rolling Your Own CSS Methodology&lt;/em&gt;&lt;br&gt;
 A CSS framework is not about syntax. It&amp;rsquo;s about discipline and optimizing for people. Ideals Mobify uses when building theirs: classes for everything, no IDs, no nesting, no !important.&lt;/p&gt;
-
 &lt;hr /&gt;
-
 &lt;p&gt;That was one day. It was a really long day.&lt;/p&gt;
-
 &lt;hr /&gt;
-
 &lt;p&gt;&lt;strong&gt;Johnathan Snook&lt;/strong&gt; &lt;br&gt;
 Jonathan gave a very personal talk about the development of his career overtime and the importance of empathy. It touched a lot of people, but it is difficult to summarize in two sentences.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Atomic Design&lt;/em&gt;&lt;br&gt;
 If we all use the same framework we all look alike. We should be building &amp;ldquo;Tiny Bootstraps, for every client.&amp;rdquo; - Dave Rupert. Brad demoed &lt;a href=&#34;http://patternlab.io&#34;&gt;patternlab.io&lt;/a&gt; which is a really cool tool for breaking designs down into component parts.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Lyza D. Gardner&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Soothing Web Weariness: Saving the Web by Doing as Little as Possible&lt;/em&gt;&lt;br&gt;
 Make projects smaller to begin with - increase your constraints - improve them iteratively and systematically instead of accepting complexity as the status quo.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Val Head&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;All the Right Moves: Putting your UIs in Motion&lt;/em&gt;&lt;br&gt;
 Animations needs to be designed with intent the same way you would design any other part of the site. Prototype animations. Test that they match your site&amp;rsquo;s style and feel fast.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Kyle Simpson&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;#CSS {Yawn: Yay!}&lt;/em&gt;&lt;br&gt;
 Kyle talked about some high-level concepts he&amp;rsquo;d like to see implemented in CSS templating. It was very much a talk about the next generation of CSS informed by some complex computing science principles. I can&amp;rsquo;t do it justice, &lt;a href=&#34;https://speakerdeck.com/getify/number-css-yawn-yay&#34;&gt;his slides are here&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Tim Kadlec&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;In Between&lt;/em&gt;&lt;br&gt;
 Like Val, Tim talked about designing animations with intent. He had lots of great examples and data.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Paul Irish&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Getting to Fast&lt;/em&gt;&lt;br&gt;
 Not all pixels are created equal. Paul talked about why the first 14KB transferred are the most important to performance.&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :) I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Making Websites Better for Everyone</title>
-      <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
-      <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.&lt;/p&gt;
-
+&lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :) I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;</description></item><item><title>Making Websites Better for Everyone</title><link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link><pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate><guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid><description>&lt;p&gt;There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.&lt;/p&gt;
 &lt;p&gt;The most detailed (and longest) version of my talk is available to watch on &lt;a href=&#34;http://wordpress.tv/2014/09/02/stephanie-hobson-accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;Wordpress TV&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;My first slide deck and links to the resources I recommend are part of &lt;a href=&#34;https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;an earlier blog post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page. Follow these thinks to see the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_bad.html&#34;&gt;bad&lt;/a&gt; and &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_good.html&#34;&gt;good&lt;/a&gt; examples and I encourage you to compare the two right now using some assistive technology, or at the very least, using your nose or elbow on your mouse or trackpad.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Taking a photo of yourself with an iPhone</title>
-      <link>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
-      <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
-      <description>&lt;div class=&#34;youtube&#34;&gt;
-  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/xckrxgvTsyY?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>We made the cut!</title>
-      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
-      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
-      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
-
-&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>10 seconds of my 15 minutes</title>
-      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
-      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
-      <description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
-
+&lt;p&gt;In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page. Follow these thinks to see the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_bad.html&#34;&gt;bad&lt;/a&gt; and &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_good.html&#34;&gt;good&lt;/a&gt; examples and I encourage you to compare the two right now using some assistive technology, or at the very least, using your nose or elbow on your mouse or trackpad.&lt;/p&gt;</description></item><item><title>Taking a photo of yourself with an iPhone</title><link>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link><pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate><guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid><description>&lt;div class=&#34;youtube&#34;&gt;
+&lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/xckrxgvTsyY?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>We made the cut!</title><link>https://stephaniehobson.ca/posts/we-made-the-cut/</link><pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate><guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid><description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
+&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;</description></item><item><title>10 seconds of my 15 minutes</title><link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link><pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate><guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid><description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
 &lt;p&gt;Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hVsxOxE_F1s&#34;&gt;From computer to computer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y98qg9pa87E&#34;&gt;Chin up bars with fancy editing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9jZpK5wYkBM&#34;&gt;Gmail for lunch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>

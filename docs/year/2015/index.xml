@@ -1,106 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2015 on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/year/2015/</link>
-    <description>Recent content in 2015 on Stephanie Hobson</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Thu, 15 Oct 2015 10:31:02 +0000</lastBuildDate>
-    
-        <atom:link href="https://stephaniehobson.ca/year/2015/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Conference Debrief: An Event Apart Austin 2015</title>
-      <link>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</link>
-      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</guid>
-      <description>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2015 on Stephanie Hobson</title><link>https://stephaniehobson.ca/year/2015/</link><description>Recent content in 2015 on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Thu, 15 Oct 2015 10:31:02 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/year/2015/index.xml" rel="self" type="application/rss+xml"/><item><title>Conference Debrief: An Event Apart Austin 2015</title><link>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</link><pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate><guid>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</guid><description>
 &lt;p&gt;Last week, because working at Mozilla is awesome, I got to attend &lt;a href=&#34;https://aneventapart.com/event/austin-2015&#34;&gt;An Event Apart Austin&lt;/a&gt;, the conference put on by the &lt;a href=&#34;https://alistapart.com/&#34;&gt;A List Apart&lt;/a&gt; organization. It&amp;rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.&lt;/p&gt;
-
 &lt;p&gt;The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer. The caliber of the attendees is also consistently high. I have great conversations no matter who I sit with at lunch.&lt;/p&gt;
-
 &lt;p&gt;Most of these speakers are pros who have done their talks in multiple places so its usually possible to find videos of them online with a bit of Googling, and they might be speaking at a conference near you!&lt;/p&gt;
-
 &lt;h2 id=&#34;conference-overview&#34;&gt;Conference overview&lt;/h2&gt;
-
 &lt;p&gt;Designing for performance and designing with empathy were common themes this year and we got good overviews of some exciting CSS and HTML features that will be widely supported in the near future.&lt;/p&gt;
-
 &lt;h2 id=&#34;my-favourite-talk&#34;&gt;My Favourite Talk&lt;/h2&gt;
-
 &lt;p&gt;A CSS geek at heart I enjoyed Jen Simmons&amp;rsquo; &amp;ldquo;Modern Layouts: Getting Out of Our Ruts&amp;rdquo; the most. “We&amp;rsquo;re about to see a renaissance in design on the web,&amp;rdquo; she promised at one point and I, for one, will be excited to see more than rectangles on the web. She covered CSS Shapes, Regions, Grid Layout, and the new view-port units, illustrating wonderfully with some really unique examples of layout from &lt;em&gt;gasp&lt;/em&gt; print which she advocated we translate (not transfer) to the web. &lt;a href=&#34;https://www.youtube.com/watch?v=ZNpn7FBp_9U&#34;&gt;A similar version of this talk online if I&amp;rsquo;ve piqued your interest.&lt;/a&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;talk-summaries&#34;&gt;Talk Summaries&lt;/h2&gt;
-
 &lt;p&gt;&lt;strong&gt;Jeffrey Zeldman&lt;/strong&gt;
 &lt;em&gt;The Fault, Dear Brutus (or: Career Advice From a Cranky Old Man)&lt;/em&gt;
 Zeldman made a compelling argument for quitting your job regularly :P He had some anecdotes about how it is the easiest path to career advancement, and this resonated with my own experience. He said the same could be accomplished by switching teams within an organization and I am glad we have so much sideways movement at Mozilla.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Yesenia Perez-Cruz&lt;/strong&gt;
 &lt;em&gt;Design Decisions Through the Lens of Performance&lt;/em&gt;
 Yesenia made a clear case for designers needing to take a lot of responsibility for the performance of a website. Designers make decisions about some of the things that add the most weight to our pages: fonts, images, and functionality - before developers ever see them. She said performance budgets should be set and understood as part of the requirements process and designers can be educated to stay within them and enlisted to help communicate with clients about staying within them as well. Great talk +1 would watch again.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Cameron Moll&lt;/strong&gt;
 &lt;em&gt;Unified UX&lt;/em&gt;
 Cameron talked about how a brand&amp;rsquo;s presence covers more screens than just a desktop and said we should be unifying user experience across browsers, devices, apps, and accounts citing the fact that 40% of all online US users start an activity on one screen and finish on another. He said we should pay attention to form and function (making widgets look and work similarly, respecting our users mental models) and data symmetry (syncing shopping carts, reading places, etc).&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Karen McGrane&lt;/strong&gt;
 &lt;em&gt;Content in a Zombie Apocalypse&lt;/em&gt;
 Like Cameron spoke about the need for a unified UX, Karen spoke about the need for unified content - as much for the organization&amp;rsquo;s benefit as the users&amp;rsquo;. She encouraged us to find ways to create and update content in one place to share across all platforms. She despaired about how poor a tool a WYSIWYG editor is at translating styling decisions into semantic information (It&amp;rsquo;s not a list of links floated to the right with a narrow max width - it&amp;rsquo;s a table of contents!) and hoped for a future with better tools for storing and updating structured text so content doesn&amp;rsquo;t have to be redesigned every time a site is.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Ethan Marcotte&lt;/strong&gt;
 &lt;em&gt;Laziness in the Time of Responsive Design&lt;/em&gt;
 Ethan, who invented the term responsive web design, encouraged us to avoid the f-word for our sites - frameworks - and encouraged us to solve problems in context, watching to see where content needs adjustments rather than blanket redesigning the experience at different sizes. And he didn&amp;rsquo;t miss the opportunity to tell us hamburger menus are still awful.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Lara Hogan&lt;/strong&gt;
 &lt;em&gt;Designing for Performance&lt;/em&gt;
 Where Yesenia talked about process improvements for better performance Lara talked about code improvements. She talked in-depth about image compression, font sub-setting (explaining how the infamous 4 and a horse stars review bug occurred), style guides and OOCSS, and ended talking about setting a public performance budget and how to make performance everyone&amp;rsquo;s concern rather than having performance cops.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Eric Meyer&lt;/strong&gt;
 &lt;em&gt;Designing for Crisis&lt;/em&gt;
 Based on his personal experience sitting in a stranger&amp;rsquo;s car barreling down a highway, racing the med-evac helicopter carrying his young daughter to a hospital in an unfamiliar city, Eric implored us to add a new persona to our design toolbox: a user in crisis. We like to think we&amp;rsquo;re designing for cheerful, calm, with-it users living in the home of the future but we don&amp;rsquo;t get to decide when, where, or how a user will access our sites. He gave examples of how this persona could help the banking, hospital, airline, and insurance industries. And he gave some creative solutions to help us do user testing for these scenarios including using CSS to blur the page, JavaScript to transpose letters in words, or playing the Jeopardy theme song to testers. He encouraged us not to treat these users as edge cases, because defining edge cases defines the limits of what we care about, and we should care about these users. I don&amp;rsquo;t see much potential for an MDN user to be in crisis but it&amp;rsquo;s easy to imagine a Firefox user who just lost all their data or thinks an account of theirs has been hacked could be panicking and not thinking clearly.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;
 &lt;em&gt;Atomic Design&lt;/em&gt;
 Pioneer of style guides and pattern libraries, Brad reminded us what these look like and why they are valuable and demoed his open source tool &lt;a href=&#34;https://patternlab.io/&#34;&gt;patternlab.io&lt;/a&gt; for helping to create and maintain them. &lt;a href=&#34;https://bradfrost.com/blog/post/atomic-web-design/&#34;&gt;He has a great system, you can read about it here.&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Matt Haughey&lt;/strong&gt;
 &lt;em&gt;Empathy Is Good Business: How Front-Line Customer Support Can Make You A Better Designer&lt;/em&gt;
 Continuing the empathic design theme Matt encouraged us all to spend a couple hours a week doing front-line customer support and explained how Slack is set up so that all employees must do that. It gives everyone a better idea of how users are using the product and what their pain points are. Rather than having personas to refer to designers have real people they could reference. They also don&amp;rsquo;t talk down to their users or judge the feedback they give them. It&amp;rsquo;s all data that makes the product better.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Jeremy Keith&lt;/strong&gt;
 &lt;em&gt;Resilience: Building a Robust Web That Lasts&lt;/em&gt;
-Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace their resilience rather than fighting the inherent variability of the systems. He reminded us that we can build systems that work for everyone with very basic functionality and then layer enhancements on top of it. At it&amp;rsquo;s heart Instagram should be a bunch of &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;s and a &lt;code&gt;&amp;lt;input type=&amp;quot;file&amp;quot;&amp;gt;&lt;/code&gt; and there&amp;rsquo;s no reason to require JavaScript to see your friend&amp;rsquo;s images or add your own. Layout, fonts, file previews, filters, are all enhancements. &amp;ldquo;If you build pages with the idea that parts other than HTML are optional, you will create a better and stronger web page.&amp;rdquo; - &lt;a href=&#34;https://www.gov.uk/service-manual/making-software/progressive-enhancement.html&#34;&gt;gov.uk&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How To Debug CSS</title>
-      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
-      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
-      <description>
-
+Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace their resilience rather than fighting the inherent variability of the systems. He reminded us that we can build systems that work for everyone with very basic functionality and then layer enhancements on top of it. At it&amp;rsquo;s heart Instagram should be a bunch of &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;s and a &lt;code&gt;&amp;lt;input type=&amp;quot;file&amp;quot;&amp;gt;&lt;/code&gt; and there&amp;rsquo;s no reason to require JavaScript to see your friend&amp;rsquo;s images or add your own. Layout, fonts, file previews, filters, are all enhancements. &amp;ldquo;If you build pages with the idea that parts other than HTML are optional, you will create a better and stronger web page.&amp;rdquo; - &lt;a href=&#34;https://www.gov.uk/service-manual/making-software/progressive-enhancement.html&#34;&gt;gov.uk&lt;/a&gt;&lt;/p&gt;</description></item><item><title>How To Debug CSS</title><link>https://stephaniehobson.ca/posts/how-to-debug-css/</link><pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate><guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid><description>
 &lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://2015.vancouver.wordcamp.org/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;https://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
-
 &lt;div class=&#34;frame&#34;&gt;
-  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
-
 &lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Is the HTML valid?&lt;/li&gt;
 &lt;li&gt;Is the CSS valid?&lt;/li&gt;
 &lt;li&gt;Is the right CSS being applied?
-
 &lt;ol&gt;
 &lt;li&gt;Is what you typed being applied?&lt;/li&gt;
 &lt;li&gt;Is other stuff being applied?&lt;/li&gt;
@@ -111,9 +57,7 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
 &lt;li&gt;Can you isolate the problem?&lt;/li&gt;
 &lt;li&gt;Ask for help&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector&#34;&gt;Developer tools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;W3C &lt;a href=&#34;https://validator.w3.org/&#34;&gt;HTML validator&lt;/a&gt; / &lt;a href=&#34;https://jigsaw.w3.org/css-validator/&#34;&gt;CSS validator&lt;/a&gt;&lt;/li&gt;
@@ -123,144 +67,86 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/&#34;&gt;Cross-Browser Debugging CSS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile First Is Performance First</title>
-      <link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link>
-      <pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid>
-      <description>&lt;p&gt;Tonight I spoke at &lt;a href=&#34;https://www.meetup.com/Vancouver-Web-Performance/&#34;&gt;Vancouver Web Performance Meetup&lt;/a&gt; and I promised to share my slides so here they are:&lt;/p&gt;
-
+&lt;/ul&gt;</description></item><item><title>Mobile First Is Performance First</title><link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link><pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate><guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid><description>&lt;p&gt;Tonight I spoke at &lt;a href=&#34;https://www.meetup.com/Vancouver-Web-Performance/&#34;&gt;Vancouver Web Performance Meetup&lt;/a&gt; and I promised to share my slides so here they are:&lt;/p&gt;
 &lt;div class=&#34;slideshare&#34;&gt;
-  &lt;div class=&#34;slideshare-slides&#34;&gt;
-    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/j10Wox7jWv754N&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;slideshare-credit&#34;&gt;
-    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/mobile-first-is-performance-first&#34; target=&#34;_blank&#34;&gt;Mobile First Is Performance First&lt;/a&gt; &lt;/strong&gt;
-    from
-    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;slideshare-slides&#34;&gt;
+&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/j10Wox7jWv754N&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
 &lt;/div&gt;
-
-
+&lt;div class=&#34;slideshare-credit&#34;&gt;
+&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/mobile-first-is-performance-first&#34; target=&#34;_blank&#34;&gt;Mobile First Is Performance First&lt;/a&gt; &lt;/strong&gt;
+from
+&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;If what you&amp;rsquo;re really after are the links, let me save you a bit of time:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Patrick Hamann - &lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Building theguardian.com (slides)&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=dfweWyVScaI&#34;&gt;Breaking News at 1000ms (video)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Paul Irish - &lt;a href=&#34;https://docs.google.com/presentation/d/1MtDBNTH1g7CZzhwlJ1raEJagA8qM3uoV7ta6i66bO2M/present#slide=id.g3eb97ca8f_10&#34;&gt;Delivering the Goods in under 1000ms (video)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Scott Jehl - &lt;a href=&#34;https://abookapart.com/products/responsible-responsive-design&#34;&gt;Responsible Responsive Design (book)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Ilya Grigorik - &lt;a href=&#34;http://chimera.labs.oreilly.com/books/1230000000545/index.html&#34;&gt;High Performance Browser Networking” (book - free online!)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smashing Conference Whistler 2014</title>
-      <link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link>
-      <pubDate>Tue, 06 Jan 2015 22:32:27 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
-      <description>
-
+&lt;/ul&gt;</description></item><item><title>Smashing Conference Whistler 2014</title><link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link><pubDate>Tue, 06 Jan 2015 22:32:27 +0000</pubDate><guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid><description>
 &lt;p&gt;A few weeks ago &lt;a href=&#34;http://smashingconf.com/whistler-2014/&#34;&gt;Smashing Conference came to Whistler&lt;/a&gt;. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)&lt;/p&gt;
-
 &lt;h2 id=&#34;the-conference&#34;&gt;The conference&lt;/h2&gt;
-
 &lt;p&gt;As good as I hoped it would be. A mix of strategy and near future technology examples.&lt;/p&gt;
-
 &lt;h3 id=&#34;my-favourite-talk&#34;&gt;My Favourite Talk&lt;/h3&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Building the next-generation of &lt;a href=&#34;https://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;talk-summaries&#34;&gt;Talk Summaries&lt;/h3&gt;
-
 &lt;p&gt;&lt;strong&gt;Marcin Wichary&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Good is the enemy of great: On designing, and then undesigning, a perfect link underline&lt;/em&gt;&lt;br&gt;
 200 years of typographic history was lost when we moved from printing presses to the typewriter, Marcin Took us through some of what he did in his attempt to re-create the perfect underline.His ultimate point was that it&amp;rsquo;s important to find a balance between shipping and creating good code. Perfectionism is not the right balance but we should strive to make things good and not just improve the status quo.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Susan Robertson&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Style Guides: Why bother?&lt;/em&gt;&lt;br&gt;
 Susan walked us through a long list of benefits to using a style guide. Highlights included: front-end speed, consistency, and performance. Lots of good resources here: &lt;a href=&#34;http://styleguides.io&#34;&gt;styleguides.io&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Yoav Weiss&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Responsive Images are Coming to a Browser Near You&lt;/em&gt;&lt;br&gt;
-I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;is a solution for providing art direction of images on different screen sizes and &lt;code&gt;srcset&lt;/code&gt; gets added to  if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
-
+I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;is a solution for providing art direction of images on different screen sizes and &lt;code&gt;srcset&lt;/code&gt; gets added to if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Marcy Sutton&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;A Web for Everybody&lt;/em&gt;&lt;br&gt;
 Accessibility is easier if you build it you build it in from the start. Ask, does it work: With the keyboard only? In a screen reader? Without sound? Without colour? In high contrast mode? &amp;ldquo;This stuff is not that hard.&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Jenn Lukas&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;The Developer’s Ampersandwich&lt;/em&gt;&lt;br&gt;
 Things to consider when implementing type on a website: if you haven&amp;rsquo;t been given design direction you can find the type by looking at what&amp;rsquo;s popular and already in use, separate presentation from content, be aware of performance issues with web fonts, add accessible fallbacks for a icon fonts, use tools like typecast to communicate with designers about general styles rather than content specific styles.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Zach Leatherman&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Better @font-face with Font Load Events&lt;/em&gt;&lt;br&gt;
 Web fonts are rendered blocking. Zach proposes a JavaScript fix which prioritizes a FOIT for icon fonts and a FOUT for content fonts. Lots of good stuff from &lt;a href=&#34;http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;this excellent article of his&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Stephen Hay&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Easing the Pain of Designing in the Browser&lt;/em&gt;&lt;br&gt;
 We need to stop thinking about layout first, we need to start thinking about structured content first. Begin by focusing on the small screen, and then focus on type and color.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;John Allsopp&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;The Web&amp;rsquo;s future is offline&lt;/em&gt;&lt;br&gt;
 &amp;ldquo;We can&amp;rsquo;t keep building apps with the desktop mindset of permanent, fast connectivity, where a temporary disconnection or slow service is regarded as a problem and communicated as an error.&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Dave Shea&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Rolling Your Own CSS Methodology&lt;/em&gt;&lt;br&gt;
 A CSS framework is not about syntax. It&amp;rsquo;s about discipline and optimizing for people. Ideals Mobify uses when building theirs: classes for everything, no IDs, no nesting, no !important.&lt;/p&gt;
-
 &lt;hr /&gt;
-
 &lt;p&gt;That was one day. It was a really long day.&lt;/p&gt;
-
 &lt;hr /&gt;
-
 &lt;p&gt;&lt;strong&gt;Johnathan Snook&lt;/strong&gt; &lt;br&gt;
 Jonathan gave a very personal talk about the development of his career overtime and the importance of empathy. It touched a lot of people, but it is difficult to summarize in two sentences.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Atomic Design&lt;/em&gt;&lt;br&gt;
 If we all use the same framework we all look alike. We should be building &amp;ldquo;Tiny Bootstraps, for every client.&amp;rdquo; - Dave Rupert. Brad demoed &lt;a href=&#34;http://patternlab.io&#34;&gt;patternlab.io&lt;/a&gt; which is a really cool tool for breaking designs down into component parts.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Lyza D. Gardner&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Soothing Web Weariness: Saving the Web by Doing as Little as Possible&lt;/em&gt;&lt;br&gt;
 Make projects smaller to begin with - increase your constraints - improve them iteratively and systematically instead of accepting complexity as the status quo.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Val Head&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;All the Right Moves: Putting your UIs in Motion&lt;/em&gt;&lt;br&gt;
 Animations needs to be designed with intent the same way you would design any other part of the site. Prototype animations. Test that they match your site&amp;rsquo;s style and feel fast.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Kyle Simpson&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;#CSS {Yawn: Yay!}&lt;/em&gt;&lt;br&gt;
 Kyle talked about some high-level concepts he&amp;rsquo;d like to see implemented in CSS templating. It was very much a talk about the next generation of CSS informed by some complex computing science principles. I can&amp;rsquo;t do it justice, &lt;a href=&#34;https://speakerdeck.com/getify/number-css-yawn-yay&#34;&gt;his slides are here&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Tim Kadlec&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;In Between&lt;/em&gt;&lt;br&gt;
 Like Val, Tim talked about designing animations with intent. He had lots of great examples and data.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Paul Irish&lt;/strong&gt;&lt;br&gt;
 &lt;em&gt;Getting to Fast&lt;/em&gt;&lt;br&gt;
 Not all pixels are created equal. Paul talked about why the first 14KB transferred are the most important to performance.&lt;/p&gt;
-
 &lt;hr /&gt;
-
-&lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :) I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :) I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;</description></item></channel></rss>

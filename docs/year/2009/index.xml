@@ -1,188 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2009 on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/year/2009/</link>
-    <description>Recent content in 2009 on Stephanie Hobson</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Thu, 17 Dec 2009 22:16:51 +0000</lastBuildDate>
-    
-        <atom:link href="https://stephaniehobson.ca/year/2009/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>I lie to Batman</title>
-      <link>https://stephaniehobson.ca/posts/i-lie-to-batman/</link>
-      <pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/i-lie-to-batman/</guid>
-      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts &lt;a href=&#34;https://stephaniehobson.ca/tags/webdesign/&#34;&gt;they have their own tag now&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2009 on Stephanie Hobson</title><link>https://stephaniehobson.ca/year/2009/</link><description>Recent content in 2009 on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Thu, 17 Dec 2009 22:16:51 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/year/2009/index.xml" rel="self" type="application/rss+xml"/><item><title>I lie to Batman</title><link>https://stephaniehobson.ca/posts/i-lie-to-batman/</link><pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate><guid>https://stephaniehobson.ca/posts/i-lie-to-batman/</guid><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts &lt;a href=&#34;https://stephaniehobson.ca/tags/webdesign/&#34;&gt;they have their own tag now&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.&lt;/p&gt;
-
 &lt;p&gt;It&amp;rsquo;s Robin all the way.&lt;/p&gt;
-
-&lt;p&gt;Not Dick Grayson,  Jason Todd, or Tim Drake - Robin. You know, that colourful target that swings into action next to the dark knight.&lt;/p&gt;
-
-
+&lt;p&gt;Not Dick Grayson, Jason Todd, or Tim Drake - Robin. You know, that colourful target that swings into action next to the dark knight.&lt;/p&gt;
 &lt;figure&gt;
-    
-        &lt;img src=&#34;robin.jpg&#34; alt=&#34;Don&amp;#39;t doubt Robin is a bad ass. He lies to Batman.&#34; /&gt;
-    
-    
+&lt;img src=&#34;robin.jpg&#34; alt=&#34;Don&amp;#39;t doubt Robin is a bad ass. He lies to Batman.&#34; /&gt;
 &lt;/figure&gt;
-
-
 &lt;p&gt;I like the idea that Batman needs a little bit of light to balance his darkness. I like the energy, optimism, and ingenuity of a kid fighting in an adult world.&lt;/p&gt;
-
-&lt;p&gt;Who&amp;rsquo;s your favourite?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Maintaining your CSS helps maintain your site</title>
-      <link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
-      <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid>
-      <description>&lt;p&gt;Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.&lt;/p&gt;
-
+&lt;p&gt;Who&amp;rsquo;s your favourite?&lt;/p&gt;</description></item><item><title>Maintaining your CSS helps maintain your site</title><link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link><pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate><guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid><description>&lt;p&gt;Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.&lt;/p&gt;
 &lt;p&gt;Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).&lt;/p&gt;
-
 &lt;p&gt;We&amp;rsquo;ve phased in #fatfooter slowly across the 46ish templates, 3 CMSs, and only Brandon knows how many applications with their own code that make up our website.&lt;/p&gt;
-
 &lt;p&gt;We should be done now and, unintentionally, I made it easy for us to check. A quick search of the server for id=&amp;ldquo;footer&amp;rdquo; turned up all the stragglers.&lt;/p&gt;
-
 &lt;p&gt;Some of the stragglers had been neglected for a while and turned out to need more than just a new footer&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;So what&amp;rsquo;s languishing in your code that you can delete?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why Abstract Sequential?</title>
-      <link>https://stephaniehobson.ca/posts/why-abstract-sequential/</link>
-      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
-      <description>&lt;p&gt;Short answer: it&amp;rsquo;s my thinking style :)&lt;/p&gt;
-
+&lt;p&gt;So what&amp;rsquo;s languishing in your code that you can delete?&lt;/p&gt;</description></item><item><title>Why Abstract Sequential?</title><link>https://stephaniehobson.ca/posts/why-abstract-sequential/</link><pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate><guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid><description>&lt;p&gt;Short answer: it&amp;rsquo;s my thinking style :)&lt;/p&gt;
 &lt;p&gt;It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.&lt;/p&gt;
-
 &lt;p&gt;It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater. The thinking styles are actually very useful for figuring out how to deal with people. For example, if you&amp;rsquo;re discussing something with me you&amp;rsquo;re more likely to persuade me with logic than heartfelt pleas ;)&lt;/p&gt;
-
 &lt;p&gt;The other three styles are: abstract random, concrete random, and concrete sequential. The fun stuff starts once you know which you are or which one that person at work who drives you up the wall is. Floating Neutrinos has a great information page summarizing each style&amp;rsquo;s&lt;a href=&#34;http://www.floatingneutrinos.com/Message/arcs/links_on_abstractrandom.htm&#34;&gt; learning preferences, strengths, and weaknesses&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You may be able to figure out which one is you just by&lt;a href=&#34;http://people.usd.edu/~ssanto/gregorc.html&#34;&gt; reading the descriptions&lt;/a&gt;, but here&amp;rsquo;s a good old fashioned &lt;a href=&#34;http://www.thelearningweb.net/personalthink.html&#34;&gt;pen and paper quiz&lt;/a&gt; to help you figure it out.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Imperfect Pitch</title>
-      <link>https://stephaniehobson.ca/posts/imperfect-pitch/</link>
-      <pubDate>Tue, 03 Nov 2009 13:07:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/imperfect-pitch/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s been &lt;a href=&#34;http://www.speakoutoncopyright.ca/&#34;&gt;a lot of talk about&lt;/a&gt; &lt;a href=&#34;http://www.faircopyrightforcanada.ca/&#34;&gt;copyright in Canada&lt;/a&gt; lately since we&amp;rsquo;ve been trying to perfect the updates the Conservatives are pitching to our outdated copyright legislation - so reading about Jeremy&amp;rsquo;s copyright woes in his recent post &lt;a href=&#34;https://adactio.com/journal/1623/&#34;&gt;Perfect Pitch&lt;/a&gt; really struck a chord.&lt;/p&gt;
-
+&lt;p&gt;You may be able to figure out which one is you just by&lt;a href=&#34;http://people.usd.edu/~ssanto/gregorc.html&#34;&gt; reading the descriptions&lt;/a&gt;, but here&amp;rsquo;s a good old fashioned &lt;a href=&#34;http://www.thelearningweb.net/personalthink.html&#34;&gt;pen and paper quiz&lt;/a&gt; to help you figure it out.&lt;/p&gt;</description></item><item><title>Imperfect Pitch</title><link>https://stephaniehobson.ca/posts/imperfect-pitch/</link><pubDate>Tue, 03 Nov 2009 13:07:02 +0000</pubDate><guid>https://stephaniehobson.ca/posts/imperfect-pitch/</guid><description>&lt;p&gt;There&amp;rsquo;s been &lt;a href=&#34;http://www.speakoutoncopyright.ca/&#34;&gt;a lot of talk about&lt;/a&gt; &lt;a href=&#34;http://www.faircopyrightforcanada.ca/&#34;&gt;copyright in Canada&lt;/a&gt; lately since we&amp;rsquo;ve been trying to perfect the updates the Conservatives are pitching to our outdated copyright legislation - so reading about Jeremy&amp;rsquo;s copyright woes in his recent post &lt;a href=&#34;https://adactio.com/journal/1623/&#34;&gt;Perfect Pitch&lt;/a&gt; really struck a chord.&lt;/p&gt;
 &lt;p&gt;He discovered &lt;a href=&#34;http://www.thesession.org/discussions/display/21250&#34;&gt;a page in The Sessions&amp;rsquo;s discussion form about perfect pitch&lt;/a&gt; had been removed from Google search results due to a copyright infringement &lt;em&gt;accusation&lt;/em&gt; by a company that makes a product called Perfect Pitch - the page isn&amp;rsquo;t about the product and, in fact, barely mentions it. So there &lt;em&gt;wasn&amp;rsquo;t&lt;/em&gt; a copyright infringement but fighting it might require someone to show up in a California court room.&lt;/p&gt;
-
 &lt;p&gt;The usual method for dealing with DMCA complaints is to contact the ISP, not search engines. So why did this company without a valid complaint go to Google? Well, one goes to Google to get sites removed from search results. Maybe&amp;hellip; search results where it is pushing down your company&amp;rsquo;s results?&lt;/p&gt;
-
-
 &lt;figure&gt;
-    
-        &lt;img src=&#34;google.jpg&#34; alt=&#34;Google search results for perfect pitch - showing DMCA take down notice.&#34; /&gt;
-    
-    
+&lt;img src=&#34;google.jpg&#34; alt=&#34;Google search results for perfect pitch - showing DMCA take down notice.&#34; /&gt;
 &lt;/figure&gt;
-
-
 &lt;p&gt;We don&amp;rsquo;t know, we don&amp;rsquo;t have the full story here, but it wouldn&amp;rsquo;t be the first time a DMCA has been filed to remove content which isn&amp;rsquo;t infringing on anyone&amp;rsquo;s copyrights. &lt;a href=&#34;http://www.eff.org/deeplinks/2008/10/mccain-campaign-feels-dmca-sting&#34;&gt;It happened to political videos during the US Presidential elections&lt;/a&gt; and it &lt;em&gt;scares&lt;/em&gt; me.&lt;/p&gt;
-
 &lt;p&gt;This is a poignant example of why we need to think our new legislation through very carefully, and why I support a &amp;ldquo;notice and notice&amp;rdquo; system instead of the DMCA&amp;rsquo;s &amp;ldquo;notice and take down&amp;rdquo; one.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;UPDATE: The Perfect Pitch people contacted Jeremy with &lt;a href=&#34;https://adactio.com/journal/1624/&#34;&gt;an explanation&lt;/a&gt; and are attempting to reverse their submission. It was laziness, not malice, which in some ways makes it even scarier.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Quick spam solution for email forms</title>
-      <link>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link>
-      <pubDate>Fri, 30 Oct 2009 22:23:53 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.&lt;/p&gt;
-
+&lt;p&gt;&lt;em&gt;UPDATE: The Perfect Pitch people contacted Jeremy with &lt;a href=&#34;https://adactio.com/journal/1624/&#34;&gt;an explanation&lt;/a&gt; and are attempting to reverse their submission. It was laziness, not malice, which in some ways makes it even scarier.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Quick spam solution for email forms</title><link>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link><pubDate>Fri, 30 Oct 2009 22:23:53 +0000</pubDate><guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid><description>&lt;p&gt;I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.&lt;/p&gt;
 &lt;p&gt;The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.&lt;/p&gt;
-
-&lt;p&gt;Remember to label it appropriately so your users with CSS off know what to do with it ;)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why I follow my heroes on Twitter</title>
-      <link>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link>
-      <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
-      <description>&lt;p&gt;A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;&lt;/p&gt;
-
+&lt;p&gt;Remember to label it appropriately so your users with CSS off know what to do with it ;)&lt;/p&gt;</description></item><item><title>Why I follow my heroes on Twitter</title><link>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link><pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate><guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid><description>&lt;p&gt;A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;I just want to go on the record and say I &lt;em&gt;like&lt;/em&gt; the personal tweets.&lt;/p&gt;
-
 &lt;p&gt;I like knowing that despite their mega awesome coding skills they still have problems with clients.&lt;/p&gt;
-
 &lt;p&gt;I like knowing that while working on that beautiful design they spent an hour moving something 2 pixels to the left and then 2 pixels to the right, and then 2 pixels to the left..&lt;/p&gt;
-
 &lt;p&gt;I like knowing that they still get nervous about giving presentations, lie awake at night wondering which tag would be more semantic, over dose on caffeine or have a sushi addiction.&lt;/p&gt;
-
 &lt;p&gt;I like knowing that despite their commitment to user experience design, web standards, and innovation, they all go home at the end of the day to people and things they think are more important than their work - and those aren&amp;rsquo;t always going the way they want either.&lt;/p&gt;
-
 &lt;p&gt;I like knowing that they&amp;rsquo;re human, because it makes it okay for me to be human too.&lt;/p&gt;
-
 &lt;hr /&gt;
-
 &lt;p&gt;In case you&amp;rsquo;re wondering who I&amp;rsquo;m talking about:
-&lt;a href=&#34;https://twitter.com/zeldman&#34;&gt;zeldman&lt;/a&gt; &lt;a href=&#34;https://twitter.com/fraying&#34;&gt;fraying&lt;/a&gt; &lt;a href=&#34;https://twitter.com/meyerweb&#34;&gt;meyerweb&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hchamp&#34;&gt;hchamp&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mezzoblue&#34;&gt;mezzoblue&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Should I stay or should I go?</title>
-      <link>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link>
-      <pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid>
-      <description>&lt;p&gt;What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, &lt;em&gt;boring&lt;/em&gt; for me and for you.  So I&amp;rsquo;m thinking of re-doing it.&lt;/p&gt;
-
+&lt;a href=&#34;https://twitter.com/zeldman&#34;&gt;zeldman&lt;/a&gt; &lt;a href=&#34;https://twitter.com/fraying&#34;&gt;fraying&lt;/a&gt; &lt;a href=&#34;https://twitter.com/meyerweb&#34;&gt;meyerweb&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hchamp&#34;&gt;hchamp&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mezzoblue&#34;&gt;mezzoblue&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Should I stay or should I go?</title><link>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link><pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate><guid>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid><description>&lt;p&gt;What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, &lt;em&gt;boring&lt;/em&gt; for me and for you. So I&amp;rsquo;m thinking of re-doing it.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m going to use this site to bring together all my activities from around the web in one place. Yeah, I know, I always have big plans, but this time I have a deadline (I hope)! I would like it done before I attend @media 2009.&lt;/p&gt;
-
 &lt;p&gt;But I&amp;rsquo;m stalled on starting because I&amp;rsquo;m caught in a debate between leaving the other sites as the authoritative source and trying to make local copies of everything in case those other sources disappear (yes I kept my bookmarks on magnolia, how did you know?).&lt;/p&gt;
-
-&lt;p&gt;The public vs private nature of this space is also a bit of a conundrum. My business contacts and potential employers &lt;em&gt;will&lt;/em&gt; see this space first if they Google me.  This is my first impression, what does it say about me if I&amp;rsquo;ve been listening to ABBA and bookmarking lol cats? (Yeah, okay, I could be worse.)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What would you change?</title>
-      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
-      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
-      <description>&lt;p&gt;Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different.  With so much of our target audience using social media it&amp;rsquo;s particularly important for us.&lt;/p&gt;
-
-&lt;p&gt;BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help.  So the two groups came together and &lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt; was born.&lt;/p&gt;
-
-&lt;p&gt;What Would You Change? is meant to be a place for discussion about change, any kind of change, that you would like to make.  There&amp;rsquo;s a couple tools in place for discussion, recorded videos, short text messages, and a photo mashup generator that lets you paste a picture of what you&amp;rsquo;d change over the thing you want to change.  We&amp;rsquo;re hoping to integrate with social media better as time goes on - there are plans for Twitter and Facebook app tie-ins and you can already share your creations virtually everywhere :)&lt;/p&gt;
-
+&lt;p&gt;The public vs private nature of this space is also a bit of a conundrum. My business contacts and potential employers &lt;em&gt;will&lt;/em&gt; see this space first if they Google me. This is my first impression, what does it say about me if I&amp;rsquo;ve been listening to ABBA and bookmarking lol cats? (Yeah, okay, I could be worse.)&lt;/p&gt;</description></item><item><title>What would you change?</title><link>https://stephaniehobson.ca/posts/what-would-you-change/</link><pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate><guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid><description>&lt;p&gt;Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.&lt;/p&gt;
+&lt;p&gt;BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and &lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt; was born.&lt;/p&gt;
+&lt;p&gt;What Would You Change? is meant to be a place for discussion about change, any kind of change, that you would like to make. There&amp;rsquo;s a couple tools in place for discussion, recorded videos, short text messages, and a photo mashup generator that lets you paste a picture of what you&amp;rsquo;d change over the thing you want to change. We&amp;rsquo;re hoping to integrate with social media better as time goes on - there are plans for Twitter and Facebook app tie-ins and you can already share your creations virtually everywhere :)&lt;/p&gt;
 &lt;p&gt;I started by adding a window to my office:&lt;/p&gt;
-
 &lt;p&gt;&lt;object classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&#34; width=&#34;480&#34; height=&#34;360&#34; id=&#34;viewer&#34; align=&#34;middle&#34;&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;sameDomain&#34; /&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;false&#34; /&gt;&lt;param name=&#34;movie&#34; value=&#34;http://whatwouldyouchange.ca/sites/viewer/viewer.swf&#34; /&gt;&lt;param name=&#34;FlashVars&#34; value=&#34;xmldoc=http://whatwouldyouchange.ca/show-us/xml/213&amp;xmlfiletype=Default&#34; /&gt;&lt;param name=&#34;quality&#34; value=&#34;high&#34; /&gt;&lt;param name=&#34;bgcolor&#34; value=&#34;#ffffff&#34; /&gt;&lt;embed src=&#34;http://whatwouldyouchange.ca/sites/viewer/viewer.swf&#34; quality=&#34;high&#34; bgcolor=&#34;#ffffff&#34; width=&#34;480&#34; height=&#34;360&#34; name=&#34;viewer&#34; align=&#34;middle&#34; allowScriptAccess=&#34;sameDomain&#34; allowFullScreen=&#34;false&#34; flashvars=&#34;xmldoc=http://whatwouldyouchange.ca/show-us/xml/213&amp;xmlfiletype=Default&#34; type=&#34;application/x-shockwave-flash&#34; pluginspage=&#34;http://www.macromedia.com/go/getflashplayer&#34; /&gt;&lt;/object&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

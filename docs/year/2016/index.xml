@@ -1,192 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>2016 on Stephanie Hobson</title>
-    <link>https://stephaniehobson.ca/year/2016/</link>
-    <description>Recent content in 2016 on Stephanie Hobson</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate>
-    
-        <atom:link href="https://stephaniehobson.ca/year/2016/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Flipping More Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
-      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
-      <description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2016 on Stephanie Hobson</title><link>https://stephaniehobson.ca/year/2016/</link><description>Recent content in 2016 on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Thu, 25 Aug 2016 11:43:02 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/year/2016/index.xml" rel="self" type="application/rss+xml"/><item><title>Flipping More Tables</title><link>https://stephaniehobson.ca/posts/flipping-more-tables/</link><pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate><guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid><description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
 &lt;p&gt;The video of my talk has been posted:
 &lt;div class=&#34;youtube&#34;&gt;
-  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-
-&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Google Analytics, Privacy, and Event Tracking</title>
-      <link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
-      <pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
-      <description>
-
+&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Google Analytics, Privacy, and Event Tracking</title><link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link><pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate><guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid><description>
 &lt;p&gt;&lt;em&gt;This article was &lt;a href=&#34;https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/&#34;&gt;originally published on the Mozilla Hacks blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.&lt;/p&gt;
-
 &lt;p&gt;Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet. Not everyone is comfortable with that. Some people have started taking steps to protect their privacy by installing ad blockers like Ghostery or enabling &lt;a href=&#34;https://blog.mozilla.org/blog/2015/11/03/firefox-now-offers-a-more-private-browsing-experience/&#34;&gt;tracking protection in Firefox&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;I think this is great!&lt;/p&gt;
-
 &lt;h2 id=&#34;sometimes-this-breaks-things&#34;&gt;Sometimes this breaks things&lt;/h2&gt;
-
 &lt;p&gt;When code depends on these third-party services and they&amp;rsquo;re not there stuff goes wrong.&lt;/p&gt;
-
 &lt;p&gt;I&amp;rsquo;m going to use tracking external links as my example because it&amp;rsquo;s a common use case, but I started investigating this problem because we accidentally broke the ability to navigate &lt;abbr title=&#34;For certain edge cases, it&#39;s not as bad as it sounds.&#34;&gt;within&lt;/abbr&gt; our &lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;website&lt;/a&gt; for users who were choosing not to load the GA script.&lt;/p&gt;
-
 &lt;p&gt;I&amp;rsquo;m also going to use the universal analytics tracking code (analytics.js) for my examples here, not the classic analytics code (ga.js), so if you notice some differences between my code and yours that might be why.&lt;/p&gt;
-
 &lt;h2 id=&#34;what-goes-wrong&#34;&gt;What goes wrong?&lt;/h2&gt;
-
 &lt;p&gt;The current method (Jan 2016) for &lt;a href=&#34;https://support.google.com/analytics/answer/1136920?hl=en&#34;&gt;tracking outbound links&lt;/a&gt; as recommended by Google looks like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.example.com&amp;#34;&lt;/span&gt;
-    &lt;span class=&#34;na&#34;&gt;onclick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;trackOutboundLink(&amp;#39;http://www.example.com&amp;#39;); return false;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-        Check out example.com
+&lt;span class=&#34;na&#34;&gt;onclick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;trackOutboundLink(&amp;#39;http://www.example.com&amp;#39;); return false;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+Check out example.com
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-        &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;What Google is recommending here is:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;add &lt;code&gt;return false&lt;/code&gt; to your links so that clicking on them doesn&amp;rsquo;t take the user off the page&lt;/li&gt;
 &lt;li&gt;when a user clicks a link, add that click to the GA queue of events to track and tell GA to take the user to the new page after that is done&lt;/li&gt;
 &lt;li&gt;GA processes the event&lt;/li&gt;
 &lt;li&gt;GA triggers the callback, taking the user to the new page&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;This guarantees that the user doesn&amp;rsquo;t leave the site before their action is recorded. However, if GA fails to process the event&amp;hellip; it never triggers the callback, breaking all links off the website. :(&lt;/p&gt;
-
 &lt;p&gt;We are relying on GA to send the user to the new page, but what if the GA code never executes?&lt;/p&gt;
-
 &lt;h2 id=&#34;how-we-can-avoid-problems&#34;&gt;How we can avoid problems&lt;/h2&gt;
-
 &lt;p&gt;If you&amp;rsquo;re using the current recommended method of adding GA to your site you&amp;rsquo;re including something like this on all your pages:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;GoogleAnalyticsObject&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;arguments&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)},&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parentNode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;insertBefore&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)})(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;//www.google-analytics.com/analytics.js&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ga&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-
 &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;create&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;UA-xxxxx-x&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;auto&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;pageview&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This snippet creates a global &lt;code&gt;ga&lt;/code&gt; object. The &lt;code&gt;ga&lt;/code&gt; object is available in JavaScript whether the rest of the script successfully loads from Google or not.&lt;/p&gt;
-
 &lt;p&gt;This means two things:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;It is possible to add events to the queue before GA has loaded. (Cool! This is handy for tracking events that happen really quickly.)&lt;/li&gt;
 &lt;li&gt;We can&amp;rsquo;t check if GA has loaded by checking for the existence of the &lt;code&gt;ga&lt;/code&gt; object &lt;a href=&#34;https://johnresig.com/blog/fixing-google-analytics-for-ghostery/&#34;&gt;like we used to&lt;/a&gt; because it&amp;rsquo;s always there.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;So how do we know if GA has loaded? Well, clever people have figured out that when it initializes, GA alters the global &lt;code&gt;ga&lt;/code&gt; object in a few different ways. None of these changes are officially documented by Google which means any of them could break in the long term.&lt;/p&gt;
-
 &lt;p&gt;In &lt;a href=&#34;http://veithen.github.io/2015/01/24/outbound-link-tracking.html&#34;&gt;Tracking outbound links with Google Analytics&lt;/a&gt;, Andreas Veithen (who works at Google but was writing on his personal blog) suggests that the most reliable check is to see if the &lt;code&gt;ga&lt;/code&gt; object still has the &lt;code&gt;q&lt;/code&gt; array. The array is removed after GA initializes and processes all the events waiting in the &lt;code&gt;ga.q&lt;/code&gt; queue. Because &lt;code&gt;ga.q&lt;/code&gt; is created by the snippet we paste on our sites, changing it would require us to make changes to our websites and so would be a major change for Google to undertake. On the other hand, it would also be possible for Google to change their code to not remove &lt;code&gt;ga.q&lt;/code&gt; so I&amp;rsquo;m not sure this is more reliable than any other method.&lt;/p&gt;
-
 &lt;p&gt;In &lt;a href=&#34;https://supergeekery.com/blog/google-analytics-ghostery-and-event-tracking&#34;&gt;Google Analytics, Ghostery, and Event Tracking&lt;/a&gt; John Morton suggests checking for the &lt;code&gt;create&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).&lt;/p&gt;
-
 &lt;p&gt;In &lt;a href=&#34;https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js&#34;&gt;Workaround for when the hitCallback function does not receive a response (analytics.js)&lt;/a&gt;, Dom Sammut observes that we can check for the &lt;code&gt;loaded&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This is a method used informally in &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click&#34;&gt;some Google documentation&lt;/a&gt; so it&amp;rsquo;s probably also somewhat reliable. I like this one because it is obvious what we&amp;rsquo;re checking for.&lt;/p&gt;
-
 &lt;p&gt;Opting for the last method, we alter Google&amp;rsquo;s suggested code like so:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;c1&#34;&gt;// check if the GA object exists and that it has initialized
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;loaded&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;c1&#34;&gt;// if yes, rely on GA to follow link
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-            &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-            &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
-        &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-        &lt;span class=&#34;c1&#34;&gt;// if not, follow link ourselves
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// check if the GA object exists and that it has initialized
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;loaded&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// if yes, rely on GA to follow link
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// if not, follow link ourselves
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Making this kind of check before relying on &lt;em&gt;any&lt;/em&gt; third-party script is good practice.&lt;/strong&gt; You should also be &lt;a href=&#34;https://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/&#34;&gt;including a local fallback for any script that is not coming from your own domain&lt;/a&gt; - including CDNs.&lt;/p&gt;
-
 &lt;h2 id=&#34;respecting-our-users-privacy&#34;&gt;Respecting our users&amp;rsquo; privacy&lt;/h2&gt;
-
 &lt;p&gt;&lt;a href=&#34;http://www.pewinternet.org/2015/05/20/americans-views-about-data-collection-and-security/&#34;&gt;Most users care about their privacy&lt;/a&gt; and there are more steps we can take to protect it. Depending on where you work you may also be required by your country&amp;rsquo;s laws or your company’s privacy policy to take extra care with users’ data.&lt;/p&gt;
-
 &lt;h3 id=&#34;configuring-google-analytics-for-privacy&#34;&gt;Configuring Google Analytics for privacy&lt;/h3&gt;
-
 &lt;p&gt;If Google Analytics is your analytics platform of choice, there are &lt;a href=&#34;https://gu.illau.me/posts/privacy-and-google-analytics/&#34;&gt;a number of steps you can take to make it more private&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;One of these is an easy configuration option to request anonymized user IP addresses. Essentially, &lt;a href=&#34;https://support.google.com/analytics/answer/2763052?hl=en&#34;&gt;Google Analytics changes the last octet of the user’s IP address to 0 before recording it&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;This is triggered by adding an additional line to your tracking snippet after &lt;code&gt;ga(&#39;send&#39;, &#39;pageview&#39;);&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;anonymizeIp&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Of course, Google still gets the users&amp;rsquo; IP address (that&amp;rsquo;s the way the web works), we&amp;rsquo;re just trusting them not to store it.&lt;/p&gt;
-
 &lt;h3 id=&#34;respecting-do-not-track-dnt&#34;&gt;Respecting Do Not Track (DNT)&lt;/h3&gt;
-
 &lt;p&gt;It&amp;rsquo;s also possible to detect when a user has enabled Do Not Track and be pro-active about what scripts you choose to load.&lt;/p&gt;
-
 &lt;p&gt;Schalk Neethling documents the process in &lt;a href=&#34;http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/&#34;&gt;Respect User Choice ~ Do Not Track&lt;/a&gt;. In a nutshell, we wrap the GA call with a check to see if the user has enabled DNT before executing the call to include the file.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_dntEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;c1&#34;&gt;// include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
+&lt;span class=&#34;c1&#34;&gt;// include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;// Check the value of DNT before including GA
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_dntEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;c1&#34;&gt;// include the Google Analytics snippet
+&lt;span class=&#34;c1&#34;&gt;// include the Google Analytics snippet
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This means that the &lt;code&gt;ga&lt;/code&gt; object will not be added to the global scope for our page, but that&amp;rsquo;s okay, the code snippet above handles that case gracefully as well.&lt;/p&gt;
-
-&lt;p&gt;Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Flipping Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
-      <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
-      <description>&lt;p&gt;I was very pleased to be invited back to &lt;a href=&#34;http://styleandclass.ca/events/2016/coding-mentorship-data/&#34;&gt;Style and Class&lt;/a&gt; to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.&lt;/p&gt;
-
+&lt;p&gt;Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.&lt;/p&gt;</description></item><item><title>Flipping Tables</title><link>https://stephaniehobson.ca/posts/flipping-tables/</link><pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate><guid>https://stephaniehobson.ca/posts/flipping-tables/</guid><description>&lt;p&gt;I was very pleased to be invited back to &lt;a href=&#34;http://styleandclass.ca/events/2016/coding-mentorship-data/&#34;&gt;Style and Class&lt;/a&gt; to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.&lt;/p&gt;
 &lt;p&gt;Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(&lt;/p&gt;
-
 &lt;div class=&#34;slideshare&#34;&gt;
-  &lt;div class=&#34;slideshare-slides&#34;&gt;
-    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;slideshare-credit&#34;&gt;
-    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
-    from
-    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;slideshare-slides&#34;&gt;
+&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
 &lt;/div&gt;
-
-
+&lt;div class=&#34;slideshare-credit&#34;&gt;
+&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
+from
+&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;And the links I encouraged everyone to check out:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>
