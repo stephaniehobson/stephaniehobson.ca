@@ -10,7 +10,7 @@ tags:
   - analytics
 ---
 
-__Edit: 2018-10-30. Google now calls macros variables (which makes more sense to me). I've updated the text but not the screen shots.__
+*Edit: 2018-10-30. Google now calls macros variables (which makes more sense to me). I've updated the text but not the screen shots.*
 
 Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I'm going to try to focus on techniques rather than step by step instructions (but I have some of those too).
 
