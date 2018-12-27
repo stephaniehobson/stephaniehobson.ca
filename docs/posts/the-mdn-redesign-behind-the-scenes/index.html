@@ -1,4 +1,140 @@
-<!doctype html><html lang=en-ca><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><title>The MDN Redesign “Behind the Scenes”</title><meta name=description content><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=/css/main-83157029.css><link rel=canonical href=https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/><body><header><div class=header><h1 class=header-title><a href=/ class=header-site>Stephanie Hobson</a>
-<span class=header-subtitle>I like to make websites everyone can use.</span></h1><a class=header-about href=/about/><img class=header-avatar src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson"></a></div></header><main><article class=post itemscope itemtype=http://schema.org/BlogPosting><h1 class=post-title itemprop="name headline">The MDN Redesign “Behind the Scenes”</h1><div class=post-info><a class=post-link href=https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/ itemprop=url>Permalink</a>
-<time class=post-date datetime=2017-08-01 itemprop=datePublished><a class=post-date-year href=/year/2017/>2017</a>
-August 01</time><ul class=post-tags><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/mozilla/ rel=tag>mozilla</a><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/webdesign/ rel=tag>webdesign</a></ul></div><div class=post-body itemprop=articleBody><p><em>This article was originally published on Mozilla&rsquo;s <a href=https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/>Hacks Blog</a>.</em><p><a href=https://github.com/mozilla/kuma>Kuma</a>, the code that produces the <a href=https://developer.mozilla.org/en-US/>MDN</a> site, is a weird mix of the old and the new. <a href=https://developer.mozilla.org/en-US/docs/MDN_at_ten>MDN turned ten</a> in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was <a href=https://github.com/mozilla/kuma/pull/4254>remove the last few traces of the last redesign</a>. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support! <a href=https://mozilla.github.io/meao/2017/06/26/http2/>We enabled http2</a>, and 98% of our users have seen benefits from that.<p>One of the ways we deal with old code in kuma is with the campsite rule: <em>Always leave your campsite better than you found it</em>. A redesign touches a lot of files, and this was a great opportunity to clean up and refactor — at least until the deadline started getting close.<p>A redesign is also a great time to change stuff you’re afraid of breaking. People are more understanding of you working the bugs out of something new than breaking something that’s worked for years. I removed 640 lines of stale code during the redesign. (And if I broke a six-year-old XPCOM tutorial you use daily by removing the custom list-style-type, please <a href="https://bugzilla.mozilla.org/enter_bug.cgi?format=guided#h=dupes|Mozilla%20Developer%20Network|">file a bug</a>!)<h2 id=one-website-with-two-looks>One website with two looks</h2><p>Rather than working on the CSS for the redesign in a separate “redesign” folder, we duplicated all the files and added “-old” to the file name of the old files, which means that all of our redesign work is happening in the “official” files. This preserves the git history and means we don’t have to move anything around after launch. Once we’re happy with the code, we can delete the “-old” files with confidence.<p>To serve the new styles to our beta testers and the “-old” ones to everyone else, we use <a href=https://github.com/jsocol/django-waffle>Django Waffle</a>. Waffle can also be used to serve different content but because there’s a strong separation of presentation and content on MDN, we’ve made very few changes to the HTML.<h2 id=bugs-our-beta-testers-found>Bugs our beta testers found</h2><p>MDN is <em>huge</em>, and we can’t test every page in every locale. We’re really lucky to have active beta testers. :) Some of the biggest things they turned up for us were:<h3 id=highlighting>Highlighting</h3><figure><img src=vi.png alt="Problems with Zilla Highlight in Vietnamese and when there are inline code examples."></figure><p>We started out by replicating Mozilla’s brand “highlight” effect by using the Zilla Slab Highlight font, but we abandoned that pretty quickly when problems turned up in many <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375831">of</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375917">our</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375879">locales</a> and when used in combination with inline code.<p>The current approach puts a full-width black background on h3 and h4 headings by default, and then some JavaScript runs to add a <code>&amp;lt;span&amp;gt;</code> tag so that the black background hugs the heading text. Progressive enhancement at work.<p>We went back and forth about this for a while, wondering if the JavaScript and extra <code>&amp;lt;span&amp;gt;</code> was worth the effort. But we stuck with it because it makes the h3 and h4 headings much easier to spot when scanning the page.<h3 id=what-s-taiwanese-for-slab-serif>What’s Taiwanese for Slab Serif?</h3><figure><img src=taiwanese.png alt="Showing the difference between Zilla&amp;#039;s thick strokes and the thin strokes of Taiwanese."></figure><p>Previously we used Open Sans as our heading text. With the redesign, we switched to Zilla Slab. Open Sans was thin and an average height for a font. It didn’t look out of place next to the system fallbacks for Chinese or Japanese characters.<p>Zilla is big and thick, and we started getting feedback about the contrast with these system fallbacks. Additionally, the character set for Zilla is European Latin only at the moment, so Vietnamese, which uses Latin characters plus a couple Latin characters not used in Europe, displayed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379259">font fallbacks in the middles of words</a>.<p>To address both these problems, we implemented a system that allowed us to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379259">override the site fonts on a per-locale basis</a>.<h3 id=contrast>Contrast</h3><p>We received many complaints about the old design’s low-contrast display. We went a bit too far the other way with this design and received complaints about the high contrast. We’ve toned it down to the ever-popular <code>#333</code> now.<h2 id=what-s-next>What’s next</h2><p>We’re moving on from this to make specific improvements to the article pages:<ul><li>Putting code samples high on the page; our hard-working writers and volunteers are doing this, one page at a time.<li>A better approach to readable line-lengths and wide code examples, inspired by the Hacks Blog theme.<li>Compatibility tables that display desktop and mobile data side by side.<li>Code samples you can experiment with in the page.</ul><h2 id=who-is-we>Who is “we”?</h2><p>The MDN dev team is:<ul><li><strong>Stephanie Hobson</strong>, me, CSS-Pre-Pre-Processor<li><strong>Schalk Neethling</strong>, who reviewed each of my 30+ pull requests in ALL THE BROWSERS, sometimes multiple times<li><strong>John Whitlock</strong>, who did the awesome <a href=https://github.com/mozilla/kuma/pull/4303#issue-241394205>locale fallbacks</a><li><strong>Ryan Johnson</strong>, who always asks “Why not?” when John and I say things can’t be done.</ul><p>We blog sporadically on the <a href=https://mozilla.github.io/meao/2017/07/06/kuma-report/>Mozilla Marketing Engineering &amp; Operations blog</a>.<p>You should also read this blog post by our Product Manager, Kadir Topal, about <a href=https://blog.mozilla.org/opendesign/future-mdn-focus-web-docs/>The Future of MDN</a>.</div></article></main><footer class=footer><nav class=footer-nav><a href=/about/>About</a> ⁃ <a href=/year/>Archives</a></nav><p class=footer-copy>&copy; Stephanie Hobson 2007- 2018</footer></body></html>
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>The MDN Redesign “Behind the Scenes”</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-43f61513.css">
+<link rel="canonical" href="https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">The MDN Redesign “Behind the Scenes”</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2017-08-01" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2017/">2017</a>
+            August 01
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/mozilla/" rel="tag">mozilla</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign/" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        
+
+<p><em>This article was originally published on Mozilla&rsquo;s <a href="https://hacks.mozilla.org/2017/07/the-mdn-redesign-behind-the-scenes/">Hacks Blog</a>.</em></p>
+
+<p><a href="https://github.com/mozilla/kuma">Kuma</a>, the code that produces the <a href="https://developer.mozilla.org/en-US/">MDN</a> site, is a weird mix of the old and the new. <a href="https://developer.mozilla.org/en-US/docs/MDN_at_ten">MDN turned ten</a> in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was <a href="https://github.com/mozilla/kuma/pull/4254">remove the last few traces of the last redesign</a>. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support! <a href="https://mozilla.github.io/meao/2017/06/26/http2/">We enabled http2</a>, and 98% of our users have seen benefits from that.</p>
+
+<p>One of the ways we deal with old code in kuma is with the campsite rule: <em>Always leave your campsite better than you found it</em>. A redesign touches a lot of files, and this was a great opportunity to clean up and refactor — at least until the deadline started getting close.</p>
+
+<p>A redesign is also a great time to change stuff you’re afraid of breaking. People are more understanding of you working the bugs out of something new than breaking something that’s worked for years. I removed 640 lines of stale code during the redesign. (And if I broke a six-year-old XPCOM tutorial you use daily by removing the custom list-style-type, please <a href="https://bugzilla.mozilla.org/enter_bug.cgi?format=guided#h=dupes|Mozilla%20Developer%20Network|">file a bug</a>!)</p>
+
+<h2 id="one-website-with-two-looks">One website with two looks</h2>
+
+<p>Rather than working on the CSS for the redesign in a separate “redesign” folder, we duplicated all the files and added “-old” to the file name of the old files, which means that all of our redesign work is happening in the “official” files. This preserves the git history and means we don’t have to move anything around after launch. Once we’re happy with the code, we can delete the “-old” files with confidence.</p>
+
+<p>To serve the new styles to our beta testers and the “-old” ones to everyone else, we use <a href="https://github.com/jsocol/django-waffle">Django Waffle</a>. Waffle can also be used to serve different content but because there’s a strong separation of presentation and content on MDN, we’ve made very few changes to the HTML.</p>
+
+<h2 id="bugs-our-beta-testers-found">Bugs our beta testers found</h2>
+
+<p>MDN is <em>huge</em>, and we can’t test every page in every locale. We’re really lucky to have active beta testers. :) Some of the biggest things they turned up for us were:</p>
+
+<h3 id="highlighting">Highlighting</h3>
+
+
+<figure>
+    
+        <img src="vi.png" alt="Problems with Zilla Highlight in Vietnamese and when there are inline code examples." />
+    
+    
+</figure>
+
+
+<p>We started out by replicating Mozilla’s brand “highlight” effect by using the Zilla Slab Highlight font, but we abandoned that pretty quickly when problems turned up in many <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375831">of</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375917">our</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1375879">locales</a> and when used in combination with inline code.</p>
+
+<p>The current approach puts a full-width black background on h3 and h4 headings by default, and then some JavaScript runs to add a <code>&amp;lt;span&amp;gt;</code> tag so that the black background hugs the heading text. Progressive enhancement at work.</p>
+
+<p>We went back and forth about this for a while, wondering if the JavaScript and extra <code>&amp;lt;span&amp;gt;</code> was worth the effort. But we stuck with it because it makes the h3 and h4 headings much easier to spot when scanning the page.</p>
+
+<h3 id="what-s-taiwanese-for-slab-serif">What’s Taiwanese for Slab Serif?</h3>
+
+
+<figure>
+    
+        <img src="taiwanese.png" alt="Showing the difference between Zilla&amp;#039;s thick strokes and the thin strokes of Taiwanese." />
+    
+    
+</figure>
+
+
+<p>Previously we used Open Sans as our heading text. With the redesign, we switched to Zilla Slab. Open Sans was thin and an average height for a font. It didn’t look out of place next to the system fallbacks for Chinese or Japanese characters.</p>
+
+<p>Zilla is big and thick, and we started getting feedback about the contrast with these system fallbacks. Additionally, the character set for Zilla is European Latin only at the moment, so Vietnamese, which uses Latin characters plus a couple Latin characters not used in Europe, displayed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379259">font fallbacks in the middles of words</a>.</p>
+
+<p>To address both these problems, we implemented a system that allowed us to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1379259">override the site fonts on a per-locale basis</a>.</p>
+
+<h3 id="contrast">Contrast</h3>
+
+<p>We received many complaints about the old design’s low-contrast display. We went a bit too far the other way with this design and received complaints about the high contrast. We’ve toned it down to the ever-popular <code>#333</code> now.</p>
+
+<h2 id="what-s-next">What’s next</h2>
+
+<p>We’re moving on from this to make specific improvements to the article pages:</p>
+
+<ul>
+<li>Putting code samples high on the page; our hard-working writers and volunteers are doing this, one page at a time.</li>
+<li>A better approach to readable line-lengths and wide code examples, inspired by the Hacks Blog theme.</li>
+<li>Compatibility tables that display desktop and mobile data side by side.</li>
+<li>Code samples you can experiment with in the page.</li>
+</ul>
+
+<h2 id="who-is-we">Who is “we”?</h2>
+
+<p>The MDN dev team is:</p>
+
+<ul>
+<li><strong>Stephanie Hobson</strong>, me, CSS-Pre-Pre-Processor</li>
+<li><strong>Schalk Neethling</strong>, who reviewed each of my 30+ pull requests in ALL THE BROWSERS, sometimes multiple times</li>
+<li><strong>John Whitlock</strong>, who did the awesome <a href="https://github.com/mozilla/kuma/pull/4303#issue-241394205">locale fallbacks</a></li>
+<li><strong>Ryan Johnson</strong>, who always asks “Why not?” when John and I say things can’t be done.</li>
+</ul>
+
+<p>We blog sporadically on the <a href="https://mozilla.github.io/meao/2017/07/06/kuma-report/">Mozilla Marketing Engineering &amp; Operations blog</a>.</p>
+
+<p>You should also read this blog post by our Product Manager, Kadir Topal, about <a href="https://blog.mozilla.org/opendesign/future-mdn-focus-web-docs/">The Future of MDN</a>.</p>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a>
+    </nav>
+    <p class="footer-copy">&copy; Stephanie Hobson 2007- 2018</p>
+</footer>
+
+</body>
+</html>

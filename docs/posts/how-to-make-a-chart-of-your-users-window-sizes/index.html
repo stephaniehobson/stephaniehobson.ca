@@ -1,19 +1,137 @@
-<!doctype html><html lang=en-ca><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><title>How to make a chart of your users&#39; window sizes</title><meta name=description content><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=/css/main-83157029.css><link rel=canonical href=https://mozilla.github.io/meao/2018/01/24/browser-sizes/><body><header><div class=header><h1 class=header-title><a href=/ class=header-site>Stephanie Hobson</a>
-<span class=header-subtitle>I like to make websites everyone can use.</span></h1><a class=header-about href=/about/><img class=header-avatar src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson"></a></div></header><main><article class=post itemscope itemtype=http://schema.org/BlogPosting><h1 class=post-title itemprop="name headline">How to make a chart of your users&#39; window sizes</h1><div class=post-info><a class=post-link href=https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/ itemprop=url>Permalink</a>
-<time class=post-date datetime=2018-08-23 itemprop=datePublished><a class=post-date-year href=/year/2018/>2018</a>
-August 23</time><ul class=post-tags><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/analytics/ rel=tag>analytics</a><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/mozilla/ rel=tag>mozilla</a><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/webdesign/ rel=tag>webdesign</a></ul></div><div class=post-body itemprop=articleBody><p><em>This article was originally published on the <a href=https://mozilla.github.io/meao/2018/01/24/browser-sizes/>Mozilla Marketing Engineering &amp; Operations blog</a>.</em><p>In preparation for the MDN redesign I examined our analytics to get an idea
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>How to make a chart of your users&#39; window sizes</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-43f61513.css">
+<link rel="canonical" href="https://mozilla.github.io/meao/2018/01/24/browser-sizes/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">How to make a chart of your users&#39; window sizes</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2018-08-23" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2018/">2018</a>
+            August 23
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/analytics/" rel="tag">analytics</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/mozilla/" rel="tag">mozilla</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign/" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        
+
+<p><em>This article was originally published on the <a href="https://mozilla.github.io/meao/2018/01/24/browser-sizes/">Mozilla Marketing Engineering &amp; Operations blog</a>.</em></p>
+
+<p>In preparation for the MDN redesign I examined our analytics to get an idea
 of how wide our users&rsquo; browser windows were. I wanted window widths, not screen
-sizes and I thought a chart would tell a more compelling story than a table.<p>Here&rsquo;s the chart I made:<figure><img src=browser-sizes.png alt="Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels."></figure><p>I found this view useful because it shows us &ldquo;clumps&rdquo; of window sizes.<h2 id=how-to-make-a-chart-of-browser-window-widths>How to make a chart of browser window widths</h2><h3 id=the-basic-idea-is>The basic idea is:</h3><ol><li>Create and export a Custom Report for Browser Size.<li>Filter the Browser Size to just include widths.<li>Aggregate the number of users for each width.<li>Make a chart.</ol><h3 id=working-with-google-analytics-and-google-sheets-the-specific-steps-i-used-were>Working with Google Analytics and Google Sheets the specific steps I used were:</h3><ol><li>Create a custom report for browser sizes.<ol><li><strong>Customization</strong> &gt; <strong>Custom Reports</strong> &gt; <strong>New Custom Report</strong><li>Set the <strong>Metric Group</strong> to <code>Users</code><li>Set <strong>Dimension Drilldowns</strong> to <code>Browser Size</code><li>Save</ol><li>View the custom report.<li>Set <strong>Show rows:</strong> to <code>5000</code>.<li>Export to Google Sheets.<li>Delete the extra stuff from the top and bottom of the export, you just want
-two columns: <strong>Browser Size</strong>, and <strong>Users</strong>.<li>Create a new column <code>C</code> called <strong>Width</strong>. Add this regex to it and fill down:
+sizes and I thought a chart would tell a more compelling story than a table.</p>
+
+<p>Here&rsquo;s the chart I made:</p>
+
+
+<figure>
+    
+        <img src="browser-sizes.png" alt="Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels." />
+    
+    
+</figure>
+
+
+<p>I found this view useful because it shows us &ldquo;clumps&rdquo; of window sizes.</p>
+
+<h2 id="how-to-make-a-chart-of-browser-window-widths">How to make a chart of browser window widths</h2>
+
+<h3 id="the-basic-idea-is">The basic idea is:</h3>
+
+<ol>
+<li>Create and export a Custom Report for Browser Size.</li>
+<li>Filter the Browser Size to just include widths.</li>
+<li>Aggregate the number of users for each width.</li>
+<li>Make a chart.</li>
+</ol>
+
+<h3 id="working-with-google-analytics-and-google-sheets-the-specific-steps-i-used-were">Working with Google Analytics and Google Sheets the specific steps I used were:</h3>
+
+<ol>
+<li>Create a custom report for browser sizes.
+
+<ol>
+<li><strong>Customization</strong> &gt; <strong>Custom Reports</strong> &gt; <strong>New Custom Report</strong></li>
+<li>Set the <strong>Metric Group</strong> to <code>Users</code></li>
+<li>Set <strong>Dimension Drilldowns</strong> to <code>Browser Size</code></li>
+<li>Save</li>
+</ol></li>
+<li>View the custom report.</li>
+<li>Set <strong>Show rows:</strong> to <code>5000</code>.</li>
+<li>Export to Google Sheets.</li>
+<li>Delete the extra stuff from the top and bottom of the export, you just want
+two columns: <strong>Browser Size</strong>, and <strong>Users</strong>.</li>
+<li>Create a new column <code>C</code> called <strong>Width</strong>. Add this regex to it and fill down:
 <code>=REGEXEXTRACT(A2, &quot;^[0-9]+&quot;)</code>. This gives you a column with just the width
-part of the browser size.<li>Create a new column <code>D</code> called <strong>Unique List</strong>. Add this formula to it (you
+part of the browser size.</li>
+<li>Create a new column <code>D</code> called <strong>Unique List</strong>. Add this formula to it (you
 don&rsquo;t need to fill down): <code>=UNIQUE(C2:C5001)</code>.This gives you a list of
 widths with no repeating values. That means 1900x950 and 1900x970 will be
-treated the same in our final chart.<li>Create a new column <code>E</code> called <strong>Conditional Sums</strong>. Add this formula and
-fill down the height of your Unique List: <code>=SUMIF(C$2:C$5001,D2,B$2:B$5000)</code>.<li>Copy the <strong>Unique List</strong> and <strong>Conditional Sums</strong> columns.<li>Create a new sheet in your document.<li>Use <strong>Edit</strong> &gt; <strong>Paste special</strong> &gt; <strong>Paste values only</strong> to paste only the
-computed values of these columns.<li>Rename <strong>Unique List</strong> to <strong>Width</strong> and <strong>Conditional Sums</strong> to <strong>Total
-Users</strong>.<li>Find the <em>(not set)</em> row and delete it.<li>Make sure both columns are being treated as numbers (a hint this is happening
+treated the same in our final chart.</li>
+<li>Create a new column <code>E</code> called <strong>Conditional Sums</strong>. Add this formula and
+fill down the height of your Unique List: <code>=SUMIF(C$2:C$5001,D2,B$2:B$5000)</code>.</li>
+<li>Copy the <strong>Unique List</strong> and <strong>Conditional Sums</strong> columns.</li>
+<li>Create a new sheet in your document.</li>
+<li>Use <strong>Edit</strong> &gt; <strong>Paste special</strong> &gt; <strong>Paste values only</strong> to paste only the
+computed values of these columns.</li>
+<li>Rename <strong>Unique List</strong> to <strong>Width</strong> and <strong>Conditional Sums</strong> to <strong>Total
+Users</strong>.</li>
+<li>Find the <em>(not set)</em> row and delete it.</li>
+<li>Make sure both columns are being treated as numbers (a hint this is happening
 properly is that they are right aligned). If you have headings on the columns
-make sure they&rsquo;re frozen (<strong>View</strong> &gt; <strong>Freeze</strong> &gt; <strong>1 row</strong>).<li>Sort on <strong>Width</strong> from A→Z.<li>Select both columns and create a chart (<strong>Insert</strong> &gt; <strong>Chart</strong>). (I made a
-&ldquo;Stepped area chart&rdquo;)<li>Set <strong>Width</strong> as the X-axis.<li>Done!</ol><hr><p>This answered a question I&rsquo;ve been curious about for ages: <strong>Do people with
-large monitors use MDN full screen?</strong><p>About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.</div></article></main><footer class=footer><nav class=footer-nav><a href=/about/>About</a> ⁃ <a href=/year/>Archives</a></nav><p class=footer-copy>&copy; Stephanie Hobson 2007- 2018</footer></body></html>
+make sure they&rsquo;re frozen (<strong>View</strong> &gt; <strong>Freeze</strong> &gt; <strong>1 row</strong>).</li>
+<li>Sort on <strong>Width</strong> from A→Z.</li>
+<li>Select both columns and create a chart (<strong>Insert</strong> &gt; <strong>Chart</strong>). (I made a
+&ldquo;Stepped area chart&rdquo;)</li>
+<li>Set <strong>Width</strong> as the X-axis.</li>
+<li>Done!</li>
+</ol>
+
+<hr />
+
+<p>This answered a question I&rsquo;ve been curious about for ages: <strong>Do people with
+large monitors use MDN full screen?</strong></p>
+
+<p>About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.</p>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a>
+    </nav>
+    <p class="footer-copy">&copy; Stephanie Hobson 2007- 2018</p>
+</footer>
+
+</body>
+</html>

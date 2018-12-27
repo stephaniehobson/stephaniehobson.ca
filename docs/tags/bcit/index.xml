@@ -1,105 +1,301 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bcit on Stephanie Hobson</title><link>https://stephaniehobson.ca/tags/bcit/</link><description>Recent content in Bcit on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Tue, 21 Jan 2014 20:05:49 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/tags/bcit/index.xml" rel="self" type="application/rss+xml"/><item><title>A Matter of Semantics</title><link>https://stephaniehobson.ca/posts/a-matter-of-semantics/</link><pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate><guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bcit on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/tags/bcit/</link>
+    <description>Recent content in Bcit on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Tue, 21 Jan 2014 20:05:49 +0000</lastBuildDate>
+    
+        <atom:link href="https://stephaniehobson.ca/tags/bcit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Matter of Semantics</title>
+      <link>https://stephaniehobson.ca/posts/a-matter-of-semantics/</link>
+      <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid>
+      <description>
+
 &lt;p&gt;&lt;em&gt;Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.&lt;/p&gt;
+
 &lt;blockquote&gt;
 &lt;p&gt;“In the top left hand corner there’s a square, in the bottom right there’s a circle, big enough that it overlaps the square. Inside the circle is a triangle.”&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt;It was impossible to end up with an exact copy of the drawing. Usually the original and new drawings were hilariously different.&lt;/p&gt;
+
 &lt;p&gt;Every time you visit a web site, your computer is playing this game with another computer on the other end of the internet. In order to avoid ending up with a hilariously different web site, the computers speak a few &lt;em&gt;really precise&lt;/em&gt; languages to each other.&lt;/p&gt;
+
 &lt;p&gt;A CMS (Content Management System) lets you make updates to a website without learning those languages. So you’re telling the CMS what you want to do and the CMS is translating your intention into one of those &lt;em&gt;really precise&lt;/em&gt; languages – HTML.&lt;/p&gt;
+
 &lt;p&gt;HTML doesn&amp;rsquo;t tell the computer how to make things look. HTML tells the computer what things are: “this text is a link to another page”, “this text is a heading”, “this text a list of related stuff.” This is called &lt;strong&gt;semantic markup&lt;/strong&gt;: the content is &amp;ldquo;marked up&amp;rdquo; with HTML to indicate its &amp;ldquo;semantics&amp;rdquo; or meaning.&lt;/p&gt;
-&lt;p&gt;When users view your website, their browser combines your HTML with files the developers have written in two other languages – CSS and JavaScript – to create the web page that they see.&lt;/p&gt;
+
+&lt;p&gt;When users view your website, their browser combines your HTML with files the developers have written in two other languages – CSS and JavaScript –  to create the web page that they see.&lt;/p&gt;
+
 &lt;p&gt;CSS tells the computer how things should look: “links are blue,” “headings are bold,” “list items have bullets.”&lt;/p&gt;
+
 &lt;p&gt;JavaScript tells the computer how things should work: “When the user clicks this button, show the user that paragraph.”&lt;/p&gt;
+
 &lt;p&gt;With just the HTML a computer can do all kinds of interesting things with your content. It can read it out loud, translate it into a different language, put it on a really big screen (or a really little one), or search through it.&lt;/p&gt;
+
 &lt;h2 id=&#34;sometimes-things-get-misinterpreted&#34;&gt;Sometimes things get misinterpreted.&lt;/h2&gt;
+
 &lt;p&gt;When we edit pages in a CMS we see a visual metaphor instead of the plain HTML. We’re also playing the drawing game with the CMS. This means something that looks right might still not have the right HTML. Just because there are dots before that text doesn&amp;rsquo;t mean it’s a list. Just because this text is bold doesn&amp;rsquo;t mean it’s a heading.&lt;/p&gt;
+
 &lt;h2 id=&#34;with-the-wrong-html-the-other-computers-will-make-mistakes&#34;&gt;With the wrong HTML the other computers will make mistakes.&lt;/h2&gt;
+
 &lt;p&gt;When a screen reader comes to a list it will tell the user that there&amp;rsquo;s a list and how long it is, if the user has been to the page before and knows they need item number eight they can skip straight to it. With the wrong HTML the user has to skip past all the other items one at a time.&lt;/p&gt;
+
 &lt;p&gt;When a search engine is trying to identify what a page is about it looks for headings. Text that is marked up as an HTML heading is considered a better summary.&lt;/p&gt;
+
 &lt;p&gt;When the CSS (the way the website looks) changes the HTML doesn’t. In 2010 we changed how much space is between paragraphs on the website. Before we did this some editors had decided they wanted more space between their paragraphs and inserted it themselves by adding empty paragraphs, using markup to create visual formatting. After we made changes to the CSS their pages had huge spaces between paragraphs and it looked like something was wrong with them.&lt;/p&gt;
+
 &lt;p&gt;The mobile version of a website will often use the same HTML as a desktop version but different CSS. This is a very visual example of why separation of content and presentation matter.&lt;/p&gt;
+
 &lt;p&gt;From time to time, we see people use tables to impose a specific visual layout on their content, something that should really be done with CSS instead. Tables are hard for mobile browsers to handle because they are so wide. To avoid distorting content in them the tables could be re-arranged. This will make tables with data in them easier to read on a mobile phone but if the HTML says “this is a table” and what is inside is not data, just an image we wanted in a different position, things could end up looking like one of our drawing game pictures gone wrong.&lt;/p&gt;
+
 &lt;h2 id=&#34;how-to-avoid-errors&#34;&gt;How to avoid errors.&lt;/h2&gt;
+
 &lt;p&gt;There are some simple things that can be done to avoid problems:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;When you are copy and pasting into your CMS only paste plain text.&lt;/li&gt;
 &lt;li&gt;Use your CMS&amp;rsquo;s editing tool bar to communicate your intent to it. Use the buttons to create lists and the style drop down to create headings.&lt;/li&gt;
 &lt;li&gt;When inserting images remember to fill in the &amp;ldquo;alt&amp;rdquo; text and ask if there is a class to help you position the image where you want it on the page.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Don&amp;rsquo;t fight the default styles. The designer made careful decisions about how the HTML should be styled by the CSS using principles of graphic design and interface design and did user testing to refine them. This should make your job easier, you don&amp;rsquo;t have to make these decisions yourself instead focus on the &lt;strong&gt;purpose&lt;/strong&gt; of each part of your content instead of how it should look.&lt;/p&gt;
-&lt;p&gt;If you are experienced enough to be writing your own HTML pay attention to what the meaning of the elements are.&lt;/p&gt;</description></item><item><title>Leave</title><link>https://stephaniehobson.ca/posts/leave/</link><pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate><guid>https://stephaniehobson.ca/posts/leave/</guid><description>
+
+&lt;p&gt;If you are experienced enough to be writing your own HTML pay attention to what the meaning of the elements are.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leave</title>
+      <link>https://stephaniehobson.ca/posts/leave/</link>
+      <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/leave/</guid>
+      <description>
+
 &lt;p&gt;I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1&lt;sup&gt;st&lt;/sup&gt;, 2012.&lt;/p&gt;
+
 &lt;p&gt;Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.&lt;/p&gt;
+
 &lt;p&gt;I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.&lt;/p&gt;
+
 &lt;p&gt;I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long. I want to get to know the friends that I&amp;rsquo;ve made in my travels but never lived near.&lt;/p&gt;
+
 &lt;p&gt;Along the way I&amp;rsquo;d going to have to do a bit of work. Contract/sub-contract work I can do remotely while I&amp;rsquo;m traveling or job offers in San Francisco and London that will help me with the paperwork to work there.&lt;/p&gt;
+
 &lt;p&gt;Work that will let me do what I do really well&lt;sup&gt;&lt;a href=&#34;#one&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, work that will let me do things I enjoy but don&amp;rsquo;t do enough of&lt;sup&gt;&lt;a href=&#34;#two&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and work that will give me a chance to learn what I don&amp;rsquo;t do at all yet&lt;sup&gt;&lt;a href=&#34;#three&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;HTML, CSS, JavaScript, jQuery, brainstorming and problem solving.&lt;/li&gt;
 &lt;li&gt;Responsive design, user experience testing, information architecture, interface design.&lt;/li&gt;
 &lt;li&gt;SVG, SASS, ePub.&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;I&amp;rsquo;m also looking for cheap places to say - friend of a friends who need house sitters or subletters, empty guest rooms and comfy couches. In London or Brighton in Aug and Sept and San Francisco or Berkeley from Oct-Dec.&lt;/p&gt;
+
 &lt;p&gt;If you have some work, a place to stay, or some advice for me I can be contacted on &lt;a href=&#34;http://www.linkedin.com/in/stephaniehobsonca&#34;&gt;LinkedIn&lt;/a&gt;, or &lt;a href=&#34;https://twitter.com/stephaniehobson&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;an-invocation-for-beginnings&#34;&gt;An Invocation for Beginnings&lt;/h2&gt;
+
 &lt;div class=&#34;youtube&#34;&gt;
-&lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/RYlCVwxoL_g?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>A Dull April Fool&#39;s Day</title><link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link><pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate><guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid><description>&lt;p&gt;There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:&lt;/p&gt;
+  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/RYlCVwxoL_g?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>A Dull April Fool&#39;s Day</title>
+      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
+      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
+      <description>&lt;p&gt;There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Desaturating the colours in the style sheet.&lt;/li&gt;
 &lt;li&gt;Desaturating every image on the site, that&amp;rsquo;s right, all of them.&lt;/li&gt;
 &lt;li&gt;Authentic content.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/5584653410/&#34;&gt;
 &lt;figure&gt;
-&lt;img src=&#34;oldskool.jpg&#34; alt=&#34;The 1960s logo and a photo of giant &amp;#39;new&amp;#39; computer really make the home page look dated&#34; /&gt;
+    
+        &lt;img src=&#34;oldskool.jpg&#34; alt=&#34;The 1960s logo and a photo of giant &amp;#39;new&amp;#39; computer really make the home page look dated&#34; /&gt;
+    
+    
 &lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Desaturating the colours in the stylesheet.&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;I captured the colours in the stylesheet using the Web Developer Extension in FireFox. Information &amp;gt; View Color Information produces a list of all the colours used in the styles and their hex codes. I took a screen shot of that and then desaturated it in Photoshop by adding a desaturation layer.&lt;/p&gt;
+
 &lt;p&gt;Once I had the desaturated colours I did a find and replace for the original hex codes in the style sheet, sampling the new hex codes from my Photoshop document.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Desaturating all the images.&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;All the images? Yep, all the images.&lt;/p&gt;
+
 &lt;p&gt;For this I tried out a couple different javascript libraries but ultimately went with &lt;a href=&#34;https://mezzoblue.github.com/PaintbrushJS/demo/&#34;&gt;PaintBrushJS&lt;/a&gt; by &lt;a href=&#34;https://mezzoblue.com&#34;&gt;Dave Shea&lt;/a&gt; because it was the only one that could handle background images and didn&amp;rsquo;t add any extra elements to the page. PaintBrushJS uses a combination of javascript and canvas to alter the images.&lt;/p&gt;
+
 &lt;p&gt;For backwards compatibility I manually converted all the header and footer assets to black and white, this also meant I could restrict the desaturating javascript to running on just the content and leaving these pieces alone, taking a bit of a load off the client.&lt;/p&gt;
+
 &lt;p&gt;I actually had the easiest time getting it to work in IE&amp;hellip; there&amp;rsquo;s a filter. I wouldn&amp;rsquo;t have used an evil evil filter if it hadn&amp;rsquo;t just been for half of one day but it was so I did.&lt;/p&gt;
+
 &lt;p&gt;I think this kind of photo manipulation has a place in web design since it means we can keep the unaltered versions of files and change their rendering when we change the theme, that&amp;rsquo;s pretty powerful.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Authentic Content.&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;We were lucky that the &lt;a href=&#34;https://www.bcit.ca/archives/&#34;&gt;BCIT Archives&lt;/a&gt; have begun digitizing much of their collection. We got a great deal of source material from the &lt;a href=&#34;http://archives.bcit.ca/PDFs/1968_1969BCIT_PTCalendar.pdf&#34;&gt;1968-69 Program and Course Catalogue&lt;/a&gt;. We listed courses like Punch Card Systems and Fortran VI for the day - both sold out of course.&lt;/p&gt;
+
 &lt;p&gt;Nope, the logo wasn&amp;rsquo;t a Star Trek knock off, that&amp;rsquo;s what the future looked like in the 60s and both BCIT and Star Trek ran with it.&lt;/p&gt;
+
 &lt;p&gt;The content about campus events came from copies of the student news paper from the same era. My favourite of the new stories was about how BCIT was getting its &lt;em&gt;second&lt;/em&gt; computer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It was a lot of fun and I&amp;rsquo;m glad we work at the kind of place that was keen to let us do it.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Maintaining your CSS helps maintain your site</title><link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link><pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate><guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid><description>&lt;p&gt;Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It was a lot of fun and I&amp;rsquo;m glad we work at the kind of place that was keen to let us do it.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maintaining your CSS helps maintain your site</title>
+      <link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
+      <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid>
+      <description>&lt;p&gt;Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.&lt;/p&gt;
+
 &lt;p&gt;Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).&lt;/p&gt;
+
 &lt;p&gt;We&amp;rsquo;ve phased in #fatfooter slowly across the 46ish templates, 3 CMSs, and only Brandon knows how many applications with their own code that make up our website.&lt;/p&gt;
+
 &lt;p&gt;We should be done now and, unintentionally, I made it easy for us to check. A quick search of the server for id=&amp;ldquo;footer&amp;rdquo; turned up all the stragglers.&lt;/p&gt;
+
 &lt;p&gt;Some of the stragglers had been neglected for a while and turned out to need more than just a new footer&amp;hellip;&lt;/p&gt;
-&lt;p&gt;So what&amp;rsquo;s languishing in your code that you can delete?&lt;/p&gt;</description></item><item><title>What would you change?</title><link>https://stephaniehobson.ca/posts/what-would-you-change/</link><pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate><guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid><description>&lt;p&gt;Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.&lt;/p&gt;
-&lt;p&gt;BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and &lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt; was born.&lt;/p&gt;
-&lt;p&gt;What Would You Change? is meant to be a place for discussion about change, any kind of change, that you would like to make. There&amp;rsquo;s a couple tools in place for discussion, recorded videos, short text messages, and a photo mashup generator that lets you paste a picture of what you&amp;rsquo;d change over the thing you want to change. We&amp;rsquo;re hoping to integrate with social media better as time goes on - there are plans for Twitter and Facebook app tie-ins and you can already share your creations virtually everywhere :)&lt;/p&gt;
+
+&lt;p&gt;So what&amp;rsquo;s languishing in your code that you can delete?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What would you change?</title>
+      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
+      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
+      <description>&lt;p&gt;Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different.  With so much of our target audience using social media it&amp;rsquo;s particularly important for us.&lt;/p&gt;
+
+&lt;p&gt;BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help.  So the two groups came together and &lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt; was born.&lt;/p&gt;
+
+&lt;p&gt;What Would You Change? is meant to be a place for discussion about change, any kind of change, that you would like to make.  There&amp;rsquo;s a couple tools in place for discussion, recorded videos, short text messages, and a photo mashup generator that lets you paste a picture of what you&amp;rsquo;d change over the thing you want to change.  We&amp;rsquo;re hoping to integrate with social media better as time goes on - there are plans for Twitter and Facebook app tie-ins and you can already share your creations virtually everywhere :)&lt;/p&gt;
+
 &lt;p&gt;I started by adding a window to my office:&lt;/p&gt;
+
 &lt;p&gt;&lt;object classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&#34; width=&#34;480&#34; height=&#34;360&#34; id=&#34;viewer&#34; align=&#34;middle&#34;&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;sameDomain&#34; /&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;false&#34; /&gt;&lt;param name=&#34;movie&#34; value=&#34;http://whatwouldyouchange.ca/sites/viewer/viewer.swf&#34; /&gt;&lt;param name=&#34;FlashVars&#34; value=&#34;xmldoc=http://whatwouldyouchange.ca/show-us/xml/213&amp;xmlfiletype=Default&#34; /&gt;&lt;param name=&#34;quality&#34; value=&#34;high&#34; /&gt;&lt;param name=&#34;bgcolor&#34; value=&#34;#ffffff&#34; /&gt;&lt;embed src=&#34;http://whatwouldyouchange.ca/sites/viewer/viewer.swf&#34; quality=&#34;high&#34; bgcolor=&#34;#ffffff&#34; width=&#34;480&#34; height=&#34;360&#34; name=&#34;viewer&#34; align=&#34;middle&#34; allowScriptAccess=&#34;sameDomain&#34; allowFullScreen=&#34;false&#34; flashvars=&#34;xmldoc=http://whatwouldyouchange.ca/show-us/xml/213&amp;xmlfiletype=Default&#34; type=&#34;application/x-shockwave-flash&#34; pluginspage=&#34;http://www.macromedia.com/go/getflashplayer&#34; /&gt;&lt;/object&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Bookstore wins a hubbie</title><link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link><pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate><guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid><description>&lt;p&gt;Almost a year ago now the &lt;a href=&#34;https://bcitbookstore.ca&#34;&gt;BCIT Bookstore&lt;/a&gt; let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <description>&lt;p&gt;Almost a year ago now the &lt;a href=&#34;https://bcitbookstore.ca&#34;&gt;BCIT Bookstore&lt;/a&gt; let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site.  The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.&lt;/p&gt;
+
 &lt;p&gt;I had a look at the application and decided we could do better than that so I asked my manager if I could do some follow up and he said it was okay as long as it didn&amp;rsquo;t interfere with my other work.&lt;/p&gt;
-&lt;p&gt;I met with the Bookstore intending only to talk about the web app but ended up talking about their static store front just as much. Because of the way their inventory and software work they have not one but three online stores and they have trouble communicating the difference to their customers. They also felt like some of their most important information, like their return policy, was buried.&lt;/p&gt;
-&lt;p&gt;Skinning the e-commerce sites was relatively easy. The new version of the application was set up logically with good CSS tags and lots of includes. Not only that, the default layout was very easy to transform into the existing template I wanted to mimic.&lt;/p&gt;
+
+&lt;p&gt;I met with the Bookstore intending only to talk about the web app but ended up talking about their static store front just as much.  Because of the way their inventory and software work they have not one but three online stores and they have trouble communicating the difference to their customers.  They also felt like some of their most important information, like their return policy, was buried.&lt;/p&gt;
+
+&lt;p&gt;Skinning the e-commerce sites was relatively easy.  The new version of the application was set up logically with good CSS tags and lots of includes.  Not only that, the default layout was very easy to transform into the existing template I wanted to mimic.&lt;/p&gt;
+
 &lt;p&gt;I started off with this:
 &lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/55n4v1&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1179/1116075730_3f24897c6b_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;BCIT Bookstore Store - Original&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;And created this:
 &lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/n1jY39&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1419/1116007176_a9513dd1a0_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;Bookstore Store - New Version&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For the static store front I made some changes to the left navigation based on the most desired pages, created three clear calls to action, placed the catch all action at the bottom of the list instead of the top of the list of options, and separated the two unrelated messages contained in the single page block on the right.&lt;/p&gt;
+
+&lt;p&gt;For the static store front I made some changes to the left navigation based on the most desired pages, created three clear calls to action, placed the catch all action at the bottom of the list instead of the top of the list of options, and separated the two  unrelated messages contained in the single page block on the right.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/LUT5X7&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1049/1115949204_8f4502331e_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;Original BCIT Bookstore&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/PWPA1R&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1397/1115948514_4dc00bb7d2_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;BCIT Bookstore with some touch ups&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;I worked off the side of my desk for a few months on it, meeting with the bookstore a few times, and when I was done they were happy enough with the results to email my manager and thank me in the Campus Update newsletter!&lt;/p&gt;
+
 &lt;p&gt;My manger called me into his office to talk about it and I thought, &amp;ldquo;Uh-oh, what if he&amp;rsquo;s upset I spent so much time working on this?&amp;rdquo; But I worried unnecessarily since he proceeded to tell me how it was good interaction design :)&lt;/p&gt;
-&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;https://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Missing table based layouts</title><link>https://stephaniehobson.ca/posts/missing-table-based-layouts/</link><pubDate>Fri, 18 Jan 2008 18:17:35 +0000</pubDate><guid>https://stephaniehobson.ca/posts/missing-table-based-layouts/</guid><description>&lt;p&gt;There&amp;rsquo;s only one time where I ever really miss table based layouts: when I&amp;rsquo;m trying to make a flexible horizontal navigation bar with centred links. Like &lt;a href=&#34;https://www.bcit.ca&#34;&gt;this&lt;/a&gt; or this](&lt;a href=&#34;http://louisgervais.com&#34;&gt;http://louisgervais.com&lt;/a&gt;) website I made for a Vancouver gourmet catering company. &lt;em&gt;chews on keyboard with frustration&lt;/em&gt;&lt;/p&gt;</description></item><item><title>We made the cut!</title><link>https://stephaniehobson.ca/posts/we-made-the-cut/</link><pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate><guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid><description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
-&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;</description></item><item><title>10 seconds of my 15 minutes</title><link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link><pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate><guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid><description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
+
+&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;https://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Missing table based layouts</title>
+      <link>https://stephaniehobson.ca/posts/missing-table-based-layouts/</link>
+      <pubDate>Fri, 18 Jan 2008 18:17:35 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/missing-table-based-layouts/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s only one time where I ever really miss table based layouts: when I&amp;rsquo;m trying to make a flexible horizontal navigation bar with centred links. Like &lt;a href=&#34;https://www.bcit.ca&#34;&gt;this&lt;/a&gt; or this](&lt;a href=&#34;http://louisgervais.com&#34;&gt;http://louisgervais.com&lt;/a&gt;) website I made for a Vancouver gourmet catering company. &lt;em&gt;chews on keyboard with frustration&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We made the cut!</title>
+      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
+      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
+
+&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
+
 &lt;p&gt;Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hVsxOxE_F1s&#34;&gt;From computer to computer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y98qg9pa87E&#34;&gt;Chin up bars with fancy editing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9jZpK5wYkBM&#34;&gt;Gmail for lunch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>What a great way to start a Monday.</title><link>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</link><pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate><guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid><description>&lt;p&gt;Part of my job at BCIT is providing technical support to our content publishing community. These are the people who provide the text to fill the templates we make and keep that text up to date. Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.&lt;/p&gt;
-&lt;p&gt;Forty percent of our job is providing encouragement. &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.&amp;rdquo; &amp;ldquo;We can always undo the changes if you think you&amp;rsquo;ve made a mistake.&amp;rdquo; I get my best compliments from these kinds of support calls.&lt;/p&gt;
-&lt;p&gt;This morning on of our clients told me, &amp;ldquo;You&amp;rsquo;ve made me feel so much better about all this now, I&amp;rsquo;m so glad you called. What a great way to start a Monday.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;What a great way to start a Monday :)&lt;/p&gt;</description></item></channel></rss>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What a great way to start a Monday.</title>
+      <link>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid>
+      <description>&lt;p&gt;Part of my job at BCIT is providing technical support to our content publishing community.  These are the people who provide the text to fill the templates we make and keep that text up to date.  Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.&lt;/p&gt;
+
+&lt;p&gt;Forty percent of our job is providing encouragement.  &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.&amp;rdquo; &amp;ldquo;We can always undo the changes if you think you&amp;rsquo;ve made a mistake.&amp;rdquo;  I get my best compliments from these kinds of support calls.&lt;/p&gt;
+
+&lt;p&gt;This morning on of our clients told me, &amp;ldquo;You&amp;rsquo;ve made me feel so much better about all this now, I&amp;rsquo;m so glad you called.  What a great way to start a Monday.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;What a great way to start a Monday :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

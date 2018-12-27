@@ -1,26 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2008 on Stephanie Hobson</title><link>https://stephaniehobson.ca/year/2008/</link><description>Recent content in 2008 on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Mon, 15 Sep 2008 16:21:16 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/year/2008/index.xml" rel="self" type="application/rss+xml"/><item><title>Stuff I&#39;d like to see Google Reader do</title><link>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</link><pubDate>Mon, 15 Sep 2008 16:21:16 +0000</pubDate><guid>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</guid><description>&lt;p&gt;I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different&amp;hellip; taste than I do&amp;hellip; repeatedly).&lt;/p&gt;
-&lt;p&gt;I also wish I could share my feeds with different audiences in mind. Right now what I share is pretty bland because my clients, friends, and family all see it. I can&amp;rsquo;t export only fun shared items to my Facebook profile and only web related shared items to my blog everything I share goes everywhere.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2008 on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/year/2008/</link>
+    <description>Recent content in 2008 on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Mon, 15 Sep 2008 16:21:16 +0000</lastBuildDate>
+    
+        <atom:link href="https://stephaniehobson.ca/year/2008/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stuff I&#39;d like to see Google Reader do</title>
+      <link>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</link>
+      <pubDate>Mon, 15 Sep 2008 16:21:16 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</guid>
+      <description>&lt;p&gt;I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different&amp;hellip; taste than I do&amp;hellip; repeatedly).&lt;/p&gt;
+
+&lt;p&gt;I also wish I could share my feeds with different audiences in mind.  Right now what I share is pretty bland because my clients, friends, and family all see it.  I can&amp;rsquo;t export only fun shared items to my Facebook profile and only web related shared items to my blog everything I share goes everywhere.&lt;/p&gt;
+
 &lt;p&gt;I used to wish I could use the handy bookmarklets to page through my items and have a handy way to share but they solved that with the notes bookmarklet.&lt;/p&gt;
-&lt;p&gt;That said, I live in Reader these days, I check it as much as I do my email!&lt;/p&gt;</description></item><item><title>Links from An Event Apart 2008 - Day Two</title><link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</link><pubDate>Tue, 19 Aug 2008 16:54:05 +0000</pubDate><guid>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</guid><description>&lt;dl&gt;
+
+&lt;p&gt;That said, I live in Reader these days, I check it as much as I do my email!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links from An Event Apart 2008 - Day Two</title>
+      <link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</link>
+      <pubDate>Tue, 19 Aug 2008 16:54:05 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</guid>
+      <description>&lt;dl&gt;
 &lt;dt&gt;&lt;a href=&#34;http://edenbee.com/&#34;&gt;Edenbee&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Social networking and carbon footprints by Clearleft.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;https://alistapart.com/articles/dao&#34;&gt;A Dao of Web Design&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;Jeremy Keith says everyone must read this. It talks about giving up pixel perfect control of the display of your websites.&lt;/dd&gt;
+&lt;dd&gt;Jeremy Keith says everyone must read this.  It talks about giving up pixel perfect control of the display of your websites.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://code.google.com/apis/socialgraph/&#34;&gt;Google social graph API&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Traces XFN and hCard references to connect your different profiles and find out who you are connected to.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/SCRUM&#34;&gt;SCRUM&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;Replacement for the waterfall development method. It&amp;rsquo;s agile. Recommended by Kelly Goto.&lt;/dd&gt;
+&lt;dd&gt;Replacement for the waterfall development method.  It&amp;rsquo;s agile.  Recommended by Kelly Goto.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://snapshot.trulia.com/CA/San_Francisco/#most_expensive&#34;&gt;Trulia Snapshot&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Data visualization by Stamen - using real estate in San Francisco.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://www.rescuetime.com/&#34;&gt;Rescue Time&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Track what you spend time doing on your computer.&lt;/dd&gt;
-&lt;/dl&gt;</description></item><item><title>Links from An Event Apart 2008 - Day One</title><link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-one/</link><pubDate>Mon, 18 Aug 2008 22:21:20 +0000</pubDate><guid>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-one/</guid><description>&lt;dl&gt;
+&lt;/dl&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Links from An Event Apart 2008 - Day One</title>
+      <link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-one/</link>
+      <pubDate>Mon, 18 Aug 2008 22:21:20 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-one/</guid>
+      <description>&lt;dl&gt;
 &lt;dt&gt;&lt;a href=&#34;http://bobulate.com/&#34;&gt;Bobulate&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Can&amp;rsquo;t remember why it was mentioned but it is about IA and looks interesting.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;https://www.wired.com/&#34;&gt;Wired&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;Apparently half the people in the room read it. Jason used it as an example of how print can be very cool looking but the web is missing that pizzaz for individual articles.&lt;/dd&gt;
+&lt;dd&gt;Apparently half the people in the room read it.  Jason used it as an example of how print can be very cool looking but the web is missing that pizzaz for individual articles.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://www.nytimes.com/2008/08/03/magazine/03trolls-t.html?pagewanted=1&amp;amp;_r=1&#34;&gt;NY Times articles about Trolls&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;Don&amp;rsquo;t feed the trolls. One of the trials of community managers.&lt;/dd&gt;
+&lt;dd&gt;Don&amp;rsquo;t feed the trolls.  One of the trials of community managers.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://flickr.com/groups/flickrcolorcontest/&#34;&gt;Flickr Colouring Contest&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Making lemonaid out or error messages as part of community management.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://improveverywhere.com/&#34;&gt;Improve Everywhere&lt;/a&gt;&lt;/dt&gt;
@@ -28,24 +70,66 @@
 &lt;dt&gt;&lt;a href=&#34;http://abriefmessage.com/&#34;&gt;A Brief Message&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;200 word articles on design.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://icedorhot.com/&#34;&gt;Iced or Hot&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;The example website from Dan Cedarholm&amp;rsquo;s talk. The code is good but the data is not live.&lt;/dd&gt;
+&lt;dd&gt;The example website from Dan Cedarholm&amp;rsquo;s talk.  The code is good but the data is not live.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://dowebsitesneedtolookexactlythesameineverybrowser.com/&#34;&gt;http://dowebsitesneedtolookexactlythesameineverybrowser.com/&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;It doesn&amp;rsquo;t look the same in all browsers.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://labs.adobe.com/&#34;&gt;Adobe Labs.&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Dreamweaver CS4 Beta.&lt;/dd&gt;
 &lt;/dl&gt;
-&lt;p&gt;Also, &lt;a href=&#34;https://adactio.com/journal/1504/&#34;&gt;Jeremy Keith live blogged the whole works&lt;/a&gt; from the front row.&lt;/p&gt;</description></item><item><title>New site for my favorite client</title><link>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</link><pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate><guid>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid><description>&lt;p&gt;Just updated the look of Mum&amp;rsquo;s campaign website: &lt;a href=&#34;http://barbhobson.ca&#34;&gt;Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville&lt;/a&gt;. I changed everything without altering one line of HTML, man do I love CSS &lt;small&gt;(IE6, I still hate you)&lt;/small&gt;.&lt;/p&gt;</description></item><item><title>Accessibility Problem with Gilder/Levin Image Replacement Method</title><link>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link><pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate><guid>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid><description>&lt;p&gt;I have a friend who lives his life in low contrast. He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.&lt;/p&gt;
+
+&lt;p&gt;Also, &lt;a href=&#34;https://adactio.com/journal/1504/&#34;&gt;Jeremy Keith live blogged the whole works&lt;/a&gt; from the front row.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New site for my favorite client</title>
+      <link>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</link>
+      <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid>
+      <description>&lt;p&gt;Just updated the look of Mum&amp;rsquo;s campaign website: &lt;a href=&#34;http://barbhobson.ca&#34;&gt;Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville&lt;/a&gt;.  I changed everything without altering one line of HTML, man do I love CSS &lt;small&gt;(IE6, I still hate you)&lt;/small&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accessibility Problem with Gilder/Levin Image Replacement Method</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link>
+      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid>
+      <description>&lt;p&gt;I have a friend who lives his life in low contrast.  He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.&lt;/p&gt;
+
 &lt;p&gt;His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour schemes and he also makes use of IE&amp;rsquo;s ability to override a website&amp;rsquo;s CSS.&lt;/p&gt;
-&lt;p&gt;He started by showing me his university&amp;rsquo;s home page and complaining about the large black areas which (on my computer) corresponded to the header and main navigation. After a quick look at the code I got the sinking feeling I knew exactly what was happening, and a quick look at the BCIT home page confirmed it. IE7 was giving any elements with a background image defined a black background regardless of the background colour they were assigned in the element.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://www.google.com/search?q=gilder+levin+image+replacement&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;rls=org.mozilla:en-US:official&amp;amp;client=firefox-a&#34;&gt;Gilder/Levin method&lt;/a&gt; basically positions a span with a background image over top of the text you want to replace. In theory, if images are not being displayed the text beneath will show through the otherwise transparent span. IE gives these spans a black background even though they should be transparent.&lt;/p&gt;
-&lt;p&gt;The screen cap below show the BCIT home page, with the black areas corresponding to span tags using the Gilder/Levin method to place images. You can also see that we&amp;rsquo;ve changed all of IE7&amp;rsquo;s accessibility settings to white in an attempt to figure out which one is causing the change without success:&lt;/p&gt;
+
+&lt;p&gt;He started by showing me his university&amp;rsquo;s home page and complaining about the large black areas which (on my computer) corresponded to the header and main navigation.  After a quick look at the code I got the sinking feeling I knew exactly what was happening, and a quick look at the BCIT home page confirmed it.  IE7 was giving any elements with a background image defined a black background regardless of the background colour they were assigned in the element.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://www.google.com/search?q=gilder+levin+image+replacement&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;aq=t&amp;amp;rls=org.mozilla:en-US:official&amp;amp;client=firefox-a&#34;&gt;Gilder/Levin method&lt;/a&gt; basically positions a span with a background image over top of the text you want to replace.  In theory, if images are not being displayed the text beneath will show through the otherwise transparent span.  IE gives these spans a black background even though they should be transparent.&lt;/p&gt;
+
+&lt;p&gt;The screen cap below show the BCIT home page, with the black areas corresponding to span tags using the Gilder/Levin method to place images.  You can also see that we&amp;rsquo;ve changed all of IE7&amp;rsquo;s accessibility settings to white in an attempt to figure out which one is causing the change without success:&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/2756056310/&#34;&gt;
 &lt;figure&gt;
-&lt;img src=&#34;problem.jpg&#34; alt=&#34;BCIT home page, with black areas where there should be text&#34; /&gt;
+    
+        &lt;img src=&#34;problem.jpg&#34; alt=&#34;BCIT home page, with black areas where there should be text&#34; /&gt;
+    
+    
 &lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I tried many things but nothing could be done with CSS to fix it. Considering most image replacement techniques use background images of one form or another I imagine the problem happens quite frequently. My friend was still able to navigate (albeit uncomfortably) by hovering his mouse over the navigation menus and reading the tool tips.&lt;/p&gt;
-&lt;p&gt;The moral of this story could be something about roads to hell and good intentions, but I think the real lesson here is that all accessibility testing should be done over Rusty Nails. Go buy yourself some Drambuie.&lt;/p&gt;</description></item><item><title>Eight random things</title><link>https://stephaniehobson.ca/posts/eight-random-things/</link><pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate><guid>https://stephaniehobson.ca/posts/eight-random-things/</guid><description>&lt;p&gt;In the spirit of &lt;a href=&#34;https://adactio.com/journal/1449&#34;&gt;Jeremy Keith&amp;rsquo;s post&lt;/a&gt;, here&amp;rsquo;s 8 random things I see about me:&lt;/p&gt;
+
+&lt;p&gt;I tried many things but nothing could be done with CSS to fix it.  Considering most image replacement techniques use background images of one form or another I imagine the problem happens quite frequently.  My friend was still able to navigate (albeit uncomfortably) by hovering his mouse over the navigation menus and reading the tool tips.&lt;/p&gt;
+
+&lt;p&gt;The moral of this story could be something about roads to hell and good intentions, but I think the real lesson here is that all accessibility testing should be done over Rusty Nails.  Go buy yourself some Drambuie.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eight random things</title>
+      <link>https://stephaniehobson.ca/posts/eight-random-things/</link>
+      <pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/eight-random-things/</guid>
+      <description>&lt;p&gt;In the spirit of &lt;a href=&#34;https://adactio.com/journal/1449&#34;&gt;Jeremy Keith&amp;rsquo;s post&lt;/a&gt;, here&amp;rsquo;s 8 random things I see about me:&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;Black queen carved like Raven.&lt;/li&gt;
 &lt;li&gt;Small brass Buddha.&lt;/li&gt;
@@ -56,42 +140,108 @@
 &lt;li&gt;8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;You&amp;rsquo;re it.&lt;/p&gt;</description></item><item><title>Bookstore wins a hubbie</title><link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link><pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate><guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid><description>&lt;p&gt;Almost a year ago now the &lt;a href=&#34;https://bcitbookstore.ca&#34;&gt;BCIT Bookstore&lt;/a&gt; let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;re it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bookstore wins a hubbie</title>
+      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
+      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
+      <description>&lt;p&gt;Almost a year ago now the &lt;a href=&#34;https://bcitbookstore.ca&#34;&gt;BCIT Bookstore&lt;/a&gt; let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site.  The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.&lt;/p&gt;
+
 &lt;p&gt;I had a look at the application and decided we could do better than that so I asked my manager if I could do some follow up and he said it was okay as long as it didn&amp;rsquo;t interfere with my other work.&lt;/p&gt;
-&lt;p&gt;I met with the Bookstore intending only to talk about the web app but ended up talking about their static store front just as much. Because of the way their inventory and software work they have not one but three online stores and they have trouble communicating the difference to their customers. They also felt like some of their most important information, like their return policy, was buried.&lt;/p&gt;
-&lt;p&gt;Skinning the e-commerce sites was relatively easy. The new version of the application was set up logically with good CSS tags and lots of includes. Not only that, the default layout was very easy to transform into the existing template I wanted to mimic.&lt;/p&gt;
+
+&lt;p&gt;I met with the Bookstore intending only to talk about the web app but ended up talking about their static store front just as much.  Because of the way their inventory and software work they have not one but three online stores and they have trouble communicating the difference to their customers.  They also felt like some of their most important information, like their return policy, was buried.&lt;/p&gt;
+
+&lt;p&gt;Skinning the e-commerce sites was relatively easy.  The new version of the application was set up logically with good CSS tags and lots of includes.  Not only that, the default layout was very easy to transform into the existing template I wanted to mimic.&lt;/p&gt;
+
 &lt;p&gt;I started off with this:
 &lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/55n4v1&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1179/1116075730_3f24897c6b_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;BCIT Bookstore Store - Original&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;And created this:
 &lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/n1jY39&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1419/1116007176_a9513dd1a0_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;Bookstore Store - New Version&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For the static store front I made some changes to the left navigation based on the most desired pages, created three clear calls to action, placed the catch all action at the bottom of the list instead of the top of the list of options, and separated the two unrelated messages contained in the single page block on the right.&lt;/p&gt;
+
+&lt;p&gt;For the static store front I made some changes to the left navigation based on the most desired pages, created three clear calls to action, placed the catch all action at the bottom of the list instead of the top of the list of options, and separated the two  unrelated messages contained in the single page block on the right.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/LUT5X7&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1049/1115949204_8f4502331e_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;Original BCIT Bookstore&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://www.flickr.com/gp/stephaniehobson/PWPA1R&#34; title=&#34;Larger version.&#34;&gt;&lt;img src=&#34;https://farm2.staticflickr.com/1397/1115948514_4dc00bb7d2_z.jpg?zz&amp;amp;#x3D;1&#34; alt=&#34;BCIT Bookstore with some touch ups&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;I worked off the side of my desk for a few months on it, meeting with the bookstore a few times, and when I was done they were happy enough with the results to email my manager and thank me in the Campus Update newsletter!&lt;/p&gt;
+
 &lt;p&gt;My manger called me into his office to talk about it and I thought, &amp;ldquo;Uh-oh, what if he&amp;rsquo;s upset I spent so much time working on this?&amp;rdquo; But I worried unnecessarily since he proceeded to tell me how it was good interaction design :)&lt;/p&gt;
-&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;https://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Two steps forward, one step back</title><link>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</link><pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate><guid>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</guid><description>&lt;p&gt;Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class. She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.&lt;/p&gt;
-&lt;p&gt;So I spent 30 minutes talking to them about the basics of user centred design and how the internet works. Then I helped them trouble shoot their table based layouts and font tags.&lt;/p&gt;</description></item><item><title>Web Directions North 2008</title><link>https://stephaniehobson.ca/posts/web-directions-north-2008/</link><pubDate>Thu, 21 Feb 2008 20:22:53 +0000</pubDate><guid>https://stephaniehobson.ca/posts/web-directions-north-2008/</guid><description>&lt;p&gt;Just like last year I thought I&amp;rsquo;d post my summary of the conference that I distributed to my department. If I have any regular readers at all, it&amp;rsquo;s probably a little too general to do you any good but I&amp;rsquo;m happy to answer questions:&lt;/p&gt;
-&lt;p&gt;Web Directions North is an internationally respected conference for web professionals. This year’s conference was a good high level overview of the new trends and technologies online. Some of these trends are emerging organically and we need to react to them and others are good ideas which need the support of developers to be adopted.&lt;/p&gt;
+
+&lt;p&gt;Campus Hub, the third party company who hosts the actual stores liked it so much they&amp;rsquo;ve been directing people who want to skin their stores to talk to me for advice, and to top it all off, &lt;a href=&#34;https://www.bcit.ca/news/events/event04180800000001.shtml&#34;&gt;they awarded the store with a &amp;ldquo;Hubbie&amp;rdquo; for usability&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two steps forward, one step back</title>
+      <link>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</link>
+      <pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</guid>
+      <description>&lt;p&gt;Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class.  She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.&lt;/p&gt;
+
+&lt;p&gt;So I spent 30 minutes talking to them about the basics of user centred design and how the internet works.  Then I helped them trouble shoot their table based layouts and font tags.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Web Directions North 2008</title>
+      <link>https://stephaniehobson.ca/posts/web-directions-north-2008/</link>
+      <pubDate>Thu, 21 Feb 2008 20:22:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/web-directions-north-2008/</guid>
+      <description>&lt;p&gt;Just like last year I thought I&amp;rsquo;d post my summary of the conference that I distributed to my department. If I have any regular readers at all, it&amp;rsquo;s probably a little too general to do you any good but I&amp;rsquo;m happy to answer questions:&lt;/p&gt;
+
+&lt;p&gt;Web Directions North is an internationally respected conference for web professionals.  This year’s conference was a good high level overview of the new trends and technologies online.  Some of these trends are emerging organically and we need to react to them and others are good ideas which need the support of developers to be adopted.&lt;/p&gt;
+
 &lt;dl&gt;
 &lt;dt&gt;Open data&lt;/dt&gt;
-&lt;dd&gt;Open data formats like XFN, microformats, and APIs are encouraging sites to share data between them. This allows sites to combine data for display in new ways, to make new connections between data, and to formulate it is more user friendly ways. Users may one day be able to manage their profiles, passwords, and social networks from one central account.&lt;/dd&gt;
+&lt;dd&gt;Open data formats like XFN, microformats, and APIs are encouraging sites to share data between them.  This allows sites to combine data for display in new ways, to make new connections between data, and to formulate it is more user friendly ways.  Users may one day be able to manage their profiles, passwords, and social networks from one central account.&lt;/dd&gt;
 &lt;dt&gt;Mobile &amp;amp; Accessible Interfaces&lt;/dt&gt;
-&lt;dd&gt;In a few years there will be more people in the world with the ability to access the web with a mobile device than with a computer. Designing for browsing devices challenges designers to consider different contexts and device capabilities. Bright sunlight makes low contrast sites hard to read, common input devices like a keyboard and mouse may not be available. These are the same challenges developers face making interfaces accessible and there are over lapping.&lt;/dd&gt;
+&lt;dd&gt;In a few years there will be more people in the world with the ability to access the web with a mobile device than with a computer.  Designing for browsing devices challenges designers to consider different contexts and device capabilities. Bright sunlight makes low contrast sites hard to read, common input devices like a keyboard and mouse may not be available. These are the same challenges developers face making interfaces accessible and there are over lapping.&lt;/dd&gt;
 &lt;dt&gt;Dynamic User Interfaces&lt;/dt&gt;
-&lt;dd&gt;Many websites are providing their users with the ability to customize what information is displayed to them and how. Many more sites which don’t provide these services are being altered by users anyway using &lt;a href=&#34;http://lifehacker.com/software/exclusive-lifehacker-download/better-gmail-2-firefox-extension-for-new-gmail-320618.php&#34;&gt;special browser add-ons&lt;/a&gt; or websites which take data from &lt;a href=&#34;http://digg.com/&#34;&gt;existing websites&lt;/a&gt; and find &lt;a href=&#34;http://labs.digg.com/arc/&#34;&gt;new ways to display it&lt;/a&gt;.&lt;/dd&gt;
+&lt;dd&gt;Many websites are providing their users with the ability to customize what information is displayed to them and how.  Many more sites which don’t provide these services are being altered by users anyway using &lt;a href=&#34;http://lifehacker.com/software/exclusive-lifehacker-download/better-gmail-2-firefox-extension-for-new-gmail-320618.php&#34;&gt;special browser add-ons&lt;/a&gt; or websites which take data from &lt;a href=&#34;http://digg.com/&#34;&gt;existing websites&lt;/a&gt; and find &lt;a href=&#34;http://labs.digg.com/arc/&#34;&gt;new ways to display it&lt;/a&gt;.&lt;/dd&gt;
 &lt;/dl&gt;
+
 &lt;p&gt;ing websites](&lt;a href=&#34;http://digg.com/&#34;&gt;http://digg.com/&lt;/a&gt;) and find &lt;a href=&#34;http://labs.digg.com/arc/&#34;&gt;new ways to display it&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;There are also ties between these three trends – open and accessible data is easier to gather for customization with a different user interfaces which take into account different user needs like mobility or accessibility. Some examples:&lt;/p&gt;
+
 &lt;dl&gt;
 &lt;dt&gt;&lt;a href=&#34;http://ironfeathers.ca/routes/13/&#34;&gt;Ironfeathers&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;This site uses Google Maps API to display running routes but it has removed the inaccessible Google Map controls and replaced them with their own custom accessible buttons. Try zooming in on the map in Google Maps using only your keyboard – then try it on Ironfeathers.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://sf.everyblock.com/locations/neighborhoods/downtowncivic-center/by-type/&#34;&gt;Everyblock&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;This site brings together data from government websites for the police and city hall, commercial sites like craigslist and social sites like Flickr in one place where it customizes it to make it more accessible, searchable, and explorable.&lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt;&lt;/dt&gt;
-&lt;dd&gt;This site has an open API and presents all its data as microformats. It has made it super easy for spin off sites like &lt;a href=&#34;http://foamee.com/&#34;&gt;foamee&lt;/a&gt;. Foamee doesn’t require you to create a new username, password and profile – it just makes use of your twitter one. You don&amp;rsquo;t login and update foamee from your computer you just text message it.&lt;/dd&gt;
+&lt;dd&gt;This site has an open API and presents all its data as microformats. It has made it super easy for spin off sites like &lt;a href=&#34;http://foamee.com/&#34;&gt;foamee&lt;/a&gt;.  Foamee doesn’t require you to create a new username, password and profile – it just makes use of your twitter one.  You don&amp;rsquo;t login and update foamee from your computer you just text message it.&lt;/dd&gt;
 &lt;/dl&gt;
+
 &lt;p&gt;I also had good conversations with the Microsoft representatives about the version meta tag they are planning on introducing in IE8, the BBC team about CMSs and centralized CSS (we’ve got it easy), and several free lance designers about client management strategies.&lt;/p&gt;
-&lt;p&gt;It was encouraging to see that BCIT is headed in the right direction with the incorporation of microformats into contacts and VTcal, to get confirmation that standards are still the leading industry concern, and know that our work on the Marqui templates will be moving us in the right direction to create a mobile version of the site.&lt;/p&gt;</description></item><item><title>Keeping up</title><link>https://stephaniehobson.ca/posts/keeping-up/</link><pubDate>Thu, 21 Feb 2008 20:19:31 +0000</pubDate><guid>https://stephaniehobson.ca/posts/keeping-up/</guid><description>&lt;blockquote&gt;
+
+&lt;p&gt;It was encouraging to see that BCIT is headed in the right direction with the incorporation of microformats into contacts and VTcal, to get confirmation that standards are still the leading industry concern, and know that our work on the Marqui templates will be moving us in the right direction to create a mobile version of the site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Keeping up</title>
+      <link>https://stephaniehobson.ca/posts/keeping-up/</link>
+      <pubDate>Thu, 21 Feb 2008 20:19:31 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/keeping-up/</guid>
+      <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;From your 77 subscriptions, over the last 30 days you read 809 items&amp;hellip;&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;No wonder I don&amp;rsquo;t read any books any more.&lt;/p&gt;</description></item></channel></rss>
+
+&lt;p&gt;No wonder I don&amp;rsquo;t read any books any more.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

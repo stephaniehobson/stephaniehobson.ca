@@ -1,41 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Presentation on Stephanie Hobson</title><link>https://stephaniehobson.ca/tags/presentation/</link><description>Recent content in Presentation on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Tue, 10 Oct 2017 14:50:03 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/tags/presentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Flipping Tables at CSSDevConf</title><link>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link><pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate><guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentation on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/tags/presentation/</link>
+    <description>Recent content in Presentation on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Tue, 10 Oct 2017 14:50:03 +0000</lastBuildDate>
+    
+        <atom:link href="https://stephaniehobson.ca/tags/presentation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flipping Tables at CSSDevConf</title>
+      <link>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
+      <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
+      <description>
+
 &lt;p&gt;Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at &lt;a href=&#34;http://2017.cssdevconf.com/&#34;&gt;CSS Dev Conf&lt;/a&gt;.&lt;/p&gt;
+
 &lt;div class=&#34;slideshare&#34;&gt;
-&lt;div class=&#34;slideshare-slides&#34;&gt;
-&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/f9ppa6m4uNRzsR&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/f9ppa6m4uNRzsR&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-80633870&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;slideshare-credit&#34;&gt;
-&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-80633870&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
-from
-&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+
+
 &lt;h2 id=&#34;links-i-mentioned-in-my-talk&#34;&gt;Links I mentioned in my talk&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://v6.robweychert.com/blog/2017/10/robtober/&#34;&gt;Rob Weychert&amp;rsquo;s horror films schedule&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/mdn/browser-compat-data&#34;&gt;MDN&amp;rsquo;s browser compat data in JSON&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Writing for Every Reader</title><link>https://stephaniehobson.ca/posts/writing-for-every-reader/</link><pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate><guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid><description>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing for Every Reader</title>
+      <link>https://stephaniehobson.ca/posts/writing-for-every-reader/</link>
+      <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
+      <description>
+
 &lt;p&gt;I &lt;a href=&#34;http://conf.a11yto.com/talks#writingForEveryReader&#34;&gt;recently spoke at #a11yTOConf&lt;/a&gt;, a conference by the organizers of the regular &lt;a href=&#34;https://www.meetup.com/a11yTO/&#34;&gt;a11yTO meet-up&lt;/a&gt;. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!&lt;/p&gt;
+
 &lt;div class=&#34;slideshare&#34;&gt;
-&lt;div class=&#34;slideshare-slides&#34;&gt;
-&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/ozEG7wyJ5BvL00&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/ozEG7wyJ5BvL00&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader&#34; target=&#34;_blank&#34;&gt;Writing for Every Reader&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;slideshare-credit&#34;&gt;
-&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader&#34; target=&#34;_blank&#34;&gt;Writing for Every Reader&lt;/a&gt; &lt;/strong&gt;
-from
-&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+
+
 &lt;p&gt;Here are &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/writing-for-every-reader/&#34;&gt;my slides for Writing for Every Reader&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;resources-i-mentioned&#34;&gt;Resources I mentioned:&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.hemingwayapp.com/&#34;&gt;Hemingway App&lt;/a&gt;, the app that helps improve the readability of your content.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://beelinereader.com/&#34;&gt;BeeLine Reader&lt;/a&gt;, the browser plugin for dyslexics.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;articles-that-were-helpful-to-me&#34;&gt;Articles that were helpful to me:&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://webaim.org/articles/cognitive/&#34;&gt;Cognitive Disabilities&lt;/a&gt;, an introduction by WebAIM.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://csskarma.com/blog/dyslexia-typography/&#34;&gt;Dyslexia and Typography&lt;/a&gt;&lt;/li&gt;
@@ -44,43 +86,88 @@ from
 &lt;li&gt;&lt;a href=&#34;https://www.nngroup.com/articles/legibility-readability-comprehension/&#34;&gt;Legibility, Readability, and Comprehension: Making Users Read Your Words&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/UKHomeOffice/posters&#34;&gt;Accessibility posters&lt;/a&gt; by the UK Home Office.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;more-on-accessibility&#34;&gt;More on accessibility:&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://adrianroselli.com/2017/06/slides-from-wordcamp-europe.html&#34;&gt;Selfish Accessibility&lt;/a&gt; by Adrian Roselli got mentioned in a few different talks. It&amp;rsquo;s well worth watching.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Flipping More Tables</title><link>https://stephaniehobson.ca/posts/flipping-more-tables/</link><pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate><guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid><description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flipping More Tables</title>
+      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
+      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
+      <description>&lt;p&gt;A few weeks ago I gave my talk on displaying data tables on small screens at &lt;a href=&#34;http://2016.cascadiafest.org/&#34;&gt;Cascadia Fest&lt;/a&gt;. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)&lt;/p&gt;
+
 &lt;p&gt;The video of my talk has been posted:
 &lt;div class=&#34;youtube&#34;&gt;
-&lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/bGlULfoY6Ls?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Flipping Tables</title><link>https://stephaniehobson.ca/posts/flipping-tables/</link><pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate><guid>https://stephaniehobson.ca/posts/flipping-tables/</guid><description>&lt;p&gt;I was very pleased to be invited back to &lt;a href=&#34;http://styleandclass.ca/events/2016/coding-mentorship-data/&#34;&gt;Style and Class&lt;/a&gt; to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.&lt;/p&gt;
+
+&lt;p&gt;And &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens-201608&#34;&gt;my slides are available here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flipping Tables</title>
+      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
+      <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
+      <description>&lt;p&gt;I was very pleased to be invited back to &lt;a href=&#34;http://styleandclass.ca/events/2016/coding-mentorship-data/&#34;&gt;Style and Class&lt;/a&gt; to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.&lt;/p&gt;
+
 &lt;p&gt;Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(&lt;/p&gt;
+
 &lt;div class=&#34;slideshare&#34;&gt;
-&lt;div class=&#34;slideshare-slides&#34;&gt;
-&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;slideshare-credit&#34;&gt;
-&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
-from
-&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+
+
 &lt;p&gt;And the links I encouraged everyone to check out:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>(Still) Making Websites Better for Everyone</title><link>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link><pubDate>Tue, 27 Oct 2015 18:40:28 +0000</pubDate><guid>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid><description>&lt;p&gt;In the next few weeks I&amp;rsquo;ll be speaking at &lt;a href=&#34;http://jsopencalgary.lighthouselabs.ca/&#34;&gt;JavaScript Open Day Calgary&lt;/a&gt;, &lt;a href=&#34;https://viewsourceconf.org&#34;&gt;View Source&lt;/a&gt;, and &lt;a href=&#34;http://jsopentoronto.lighthouselabs.ca/&#34;&gt;JavaScript Open Day Toronto&lt;/a&gt; giving an updated version of &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone&#34;&gt;Web Accessibility: Making Websites Better for Everyone&lt;/a&gt;.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>(Still) Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link>
+      <pubDate>Tue, 27 Oct 2015 18:40:28 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid>
+      <description>&lt;p&gt;In the next few weeks I&amp;rsquo;ll be speaking at &lt;a href=&#34;http://jsopencalgary.lighthouselabs.ca/&#34;&gt;JavaScript Open Day Calgary&lt;/a&gt;, &lt;a href=&#34;https://viewsourceconf.org&#34;&gt;View Source&lt;/a&gt;, and &lt;a href=&#34;http://jsopentoronto.lighthouselabs.ca/&#34;&gt;JavaScript Open Day Toronto&lt;/a&gt; giving an updated version of &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/web-accessibility-making-websites-better-for-everyone&#34;&gt;Web Accessibility: Making Websites Better for Everyone&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt; videos have been posted for &lt;a href=&#34;https://air.mozilla.org/stephanie-hobson-web-accessibility-making-websites-better-for-everyone/&#34;&gt;View Source&lt;/a&gt; and &lt;a href=&#34;https://channel9.msdn.com/Events/JS/JavaScript-Open-Day/Web-Accessibility&#34;&gt;JavaScript Open Day Toronto.&lt;/a&gt; I&amp;rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.&lt;/p&gt;
+
 &lt;p&gt;In my talk I encourage people to try out different assistive technologies themselves:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.chromevox.com/&#34;&gt;Chrome Vox&lt;/a&gt; / &lt;a href=&#34;https://www.nvaccess.org/&#34;&gt;NVDA&lt;/a&gt; (Windows only) / &lt;a href=&#34;https://www.apple.com/accessibility/osx/voiceover/&#34;&gt;VoiceOver&lt;/a&gt; (Mac only)&lt;/li&gt;
 &lt;li&gt;Change to a high contrast theme for your operating system or browser&lt;/li&gt;
 &lt;li&gt;Take the batteries out of your mouse or keyboard.&lt;/li&gt;
 &lt;li&gt;Try using a touch screen or track pad with your nose.&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;Here are two demo pages that list server status for a fictional hosting company, you should compare the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_bad.html&#34;&gt;bad example&lt;/a&gt; to the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_good.html&#34;&gt;good example&lt;/a&gt; with one of the technology options listed above.&lt;/p&gt;
+
 &lt;p&gt;And here are all the resources I mention in my talk:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://webaim.org&#34;&gt;WebAIM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wave.webaim.org&#34;&gt;Web Accessibility Evaluation Tool (wave)&lt;/a&gt;&lt;/li&gt;
@@ -90,17 +177,34 @@ from
 &lt;li&gt;&lt;a href=&#34;https://filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;Bulletproof Accessible Icon Fonts&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://snook.ca/archives/html_and_css/hiding-content-for-accessibility&#34;&gt;Hiding Content for Accessibility&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GQKEE9nI1lk&#34;&gt;Switch Control Overview&lt;/a&gt;(a video about switch control made using a switch control)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>How To Debug CSS</title><link>https://stephaniehobson.ca/posts/how-to-debug-css/</link><pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate><guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid><description>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Debug CSS</title>
+      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
+      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
+      <description>
+
 &lt;p&gt;Some quick notes and links for the talk I gave at &lt;a href=&#34;https://2015.vancouver.wordcamp.org/session/debugging-css/&#34;&gt;WordCamp Vancouver&lt;/a&gt; about Debugging CSS.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Edit&lt;/strong&gt;: You can now watch &lt;a href=&#34;https://wordpress.tv/2015/10/02/stephanie-hobson-debugging-css/&#34;&gt;a recording of Debugging CSS&lt;/a&gt;. Spot the three projector failures!&lt;/p&gt;
+
 &lt;div class=&#34;frame&#34;&gt;
-&lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe class=&#34;frame-src&#34; src=&#34;https://videopress.com/embed/y20nhn6z&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+
+
 &lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+
 &lt;ol&gt;
 &lt;li&gt;Is the HTML valid?&lt;/li&gt;
 &lt;li&gt;Is the CSS valid?&lt;/li&gt;
 &lt;li&gt;Is the right CSS being applied?
+
 &lt;ol&gt;
 &lt;li&gt;Is what you typed being applied?&lt;/li&gt;
 &lt;li&gt;Is other stuff being applied?&lt;/li&gt;
@@ -111,7 +215,9 @@ from
 &lt;li&gt;Can you isolate the problem?&lt;/li&gt;
 &lt;li&gt;Ask for help&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector&#34;&gt;Developer tools&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;W3C &lt;a href=&#34;https://validator.w3.org/&#34;&gt;HTML validator&lt;/a&gt; / &lt;a href=&#34;https://jigsaw.w3.org/css-validator/&#34;&gt;CSS validator&lt;/a&gt;&lt;/li&gt;
@@ -121,42 +227,86 @@ from
 &lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://codepen.io/&#34;&gt;codepen.io&lt;/a&gt; /&lt;a href=&#34;http://jsfiddle.net/&#34;&gt;jsfiddle.net&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;other-resources&#34;&gt;Other resources&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.stubbornella.org/content/2012/05/02/cross-browser-debugging-css/&#34;&gt;Cross-Browser Debugging CSS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Mobile First Is Performance First</title><link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link><pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate><guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid><description>&lt;p&gt;Tonight I spoke at &lt;a href=&#34;https://www.meetup.com/Vancouver-Web-Performance/&#34;&gt;Vancouver Web Performance Meetup&lt;/a&gt; and I promised to share my slides so here they are:&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile First Is Performance First</title>
+      <link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link>
+      <pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid>
+      <description>&lt;p&gt;Tonight I spoke at &lt;a href=&#34;https://www.meetup.com/Vancouver-Web-Performance/&#34;&gt;Vancouver Web Performance Meetup&lt;/a&gt; and I promised to share my slides so here they are:&lt;/p&gt;
+
 &lt;div class=&#34;slideshare&#34;&gt;
-&lt;div class=&#34;slideshare-slides&#34;&gt;
-&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/j10Wox7jWv754N&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/j10Wox7jWv754N&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/mobile-first-is-performance-first&#34; target=&#34;_blank&#34;&gt;Mobile First Is Performance First&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;slideshare-credit&#34;&gt;
-&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/mobile-first-is-performance-first&#34; target=&#34;_blank&#34;&gt;Mobile First Is Performance First&lt;/a&gt; &lt;/strong&gt;
-from
-&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+
+
 &lt;p&gt;If what you&amp;rsquo;re really after are the links, let me save you a bit of time:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;Patrick Hamann - &lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Building theguardian.com (slides)&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/watch?v=dfweWyVScaI&#34;&gt;Breaking News at 1000ms (video)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Paul Irish - &lt;a href=&#34;https://docs.google.com/presentation/d/1MtDBNTH1g7CZzhwlJ1raEJagA8qM3uoV7ta6i66bO2M/present#slide=id.g3eb97ca8f_10&#34;&gt;Delivering the Goods in under 1000ms (video)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Scott Jehl - &lt;a href=&#34;https://abookapart.com/products/responsible-responsive-design&#34;&gt;Responsible Responsive Design (book)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Ilya Grigorik - &lt;a href=&#34;http://chimera.labs.oreilly.com/books/1230000000545/index.html&#34;&gt;High Performance Browser Networking” (book - free online!)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Making Websites Better for Everyone</title><link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link><pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate><guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid><description>&lt;p&gt;There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
+      <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.&lt;/p&gt;
+
 &lt;p&gt;The most detailed (and longest) version of my talk is available to watch on &lt;a href=&#34;http://wordpress.tv/2014/09/02/stephanie-hobson-accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;Wordpress TV&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;My first slide deck and links to the resources I recommend are part of &lt;a href=&#34;https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/&#34;&gt;an earlier blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page. Follow these thinks to see the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_bad.html&#34;&gt;bad&lt;/a&gt; and &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_good.html&#34;&gt;good&lt;/a&gt; examples and I encourage you to compare the two right now using some assistive technology, or at the very least, using your nose or elbow on your mouse or trackpad.&lt;/p&gt;</description></item><item><title>Accessibility with CSS: Making Websites Better for Everyone</title><link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link><pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate><guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid><description>
+
+&lt;p&gt;In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page. Follow these thinks to see the &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_bad.html&#34;&gt;bad&lt;/a&gt; and &lt;a href=&#34;https://stephaniehobson.ca/demos/hosting_good.html&#34;&gt;good&lt;/a&gt; examples and I encourage you to compare the two right now using some assistive technology, or at the very least, using your nose or elbow on your mouse or trackpad.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accessibility with CSS: Making Websites Better for Everyone</title>
+      <link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
+      <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
+      <description>
+
 &lt;p&gt;Last night I spoke at the &lt;a href=&#34;https://www.meetup.com/styleandclass/&#34;&gt;Style &amp;amp; Class Meet-up&lt;/a&gt; about Accessibility and CSS. Posting the slides here for posterity:&lt;/p&gt;
+
 &lt;div class=&#34;slideshare&#34;&gt;
-&lt;div class=&#34;slideshare-slides&#34;&gt;
-&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/LbZCesLu0s7bH4&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/LbZCesLu0s7bH4&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/accessibility-with-css-making-website-better-for-everyone&#34; target=&#34;_blank&#34;&gt;Accessibility with CSS: Making Websites Better for Everyone&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;slideshare-credit&#34;&gt;
-&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/accessibility-with-css-making-website-better-for-everyone&#34; target=&#34;_blank&#34;&gt;Accessibility with CSS: Making Websites Better for Everyone&lt;/a&gt; &lt;/strong&gt;
-from
-&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+
+
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://webaim.org&#34;&gt;Intro to Accessibility&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wave.webaim.org&#34;&gt;WCAG Validator&lt;/a&gt;&lt;/li&gt;
@@ -167,40 +317,69 @@ from
 &lt;li&gt;&lt;a href=&#34;https://snook.ca/archives/html_and_css/hiding-content-for-accessibility&#34;&gt;The Offscreen Class&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://snook.ca/archives/html_and_css/floated-label-pattern-css&#34;&gt;Floating Form Labels&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links&#34;&gt;Javascript fix for Skip Links&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>HTML5 Forms OF DOOM</title><link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link><pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate><guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid><description>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HTML5 Forms OF DOOM</title>
+      <link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
+      <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
+      <description>
+
 &lt;p&gt;I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!&lt;/p&gt;
+
 &lt;div class=&#34;slideshare&#34;&gt;
-&lt;div class=&#34;slideshare-slides&#34;&gt;
-&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/fc8wSTwX7fQYZs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;div class=&#34;slideshare-slides&#34;&gt;
+    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/fc8wSTwX7fQYZs&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;slideshare-credit&#34;&gt;
+    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/html5-forms-of-doom&#34; target=&#34;_blank&#34;&gt;HTML5 Forms OF DOOM&lt;/a&gt; &lt;/strong&gt;
+    from
+    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;slideshare-credit&#34;&gt;
-&lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/html5-forms-of-doom&#34; target=&#34;_blank&#34;&gt;HTML5 Forms OF DOOM&lt;/a&gt; &lt;/strong&gt;
-from
-&lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+
+
 &lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/html5forms/unfinished.html&#34;&gt;Sample form.&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://stephaniehobson.ca/html5forms/finished.html&#34;&gt;Finished form (no peeking).&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;Basic Introductions&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://diveintohtml5.info/forms.html&#34;&gt;Dive Into HTML5: A Form of Madness&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.html5rocks.com/en/tutorials/forms/html5forms/&#34;&gt;Making Forms Fabulous with HTML5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://alistapart.com/articles/forward-thinking-form-validation/&#34;&gt;Forward Thinking Form Validation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://html5doctor.com/css3-pseudo-classes-and-html5-forms/&#34;&gt;CSS3 Pseudo-Classes and HTML5 Forms&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://24ways.org/2009/have-a-field-day-with-html5-forms/&#34;&gt;Have a Field Day with HTML5 Forms&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;Compatibility Specifics&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://wufoo.com/html5/&#34;&gt;The Current State of HTML5 Forms&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://miketaylr.com/code/input-type-attr.html&#34;&gt;HTML5 inputs and attribute support&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;Shim&lt;/strong&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ryanseddon/H5F&#34;&gt;Ryan Seddons&amp;rsquo;s H5F&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://adactio.com/journal/4272/&#34;&gt;The design of datalist&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

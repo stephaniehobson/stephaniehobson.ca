@@ -127,20 +127,16 @@ large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-goes-wrong&#34;&gt;What goes wrong?&lt;/h2&gt;
 
 &lt;p&gt;The current method (Jan 2016) for &lt;a href=&#34;https://support.google.com/analytics/answer/1136920?hl=en&#34;&gt;tracking outbound links&lt;/a&gt; as recommended by Google looks like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;amp;lt;a href=&amp;amp;quot;http://www.example.com&amp;amp;quot;
-    onclick=&amp;amp;quot;trackOutboundLink(&#39;http://www.example.com&#39;); return false;&amp;amp;quot;&amp;amp;gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.example.com&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;na&#34;&gt;onclick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;trackOutboundLink(&amp;#39;http://www.example.com&amp;#39;); return false;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
         Check out example.com
-&amp;amp;lt;/a&amp;amp;gt;`&amp;lt;/pre&amp;gt;
-
-&amp;lt;pre&amp;gt;`var trackOutboundLink = function(url) {
-    ga(&#39;send&#39;, &#39;event&#39;, &#39;outbound&#39;, &#39;click&#39;, url, {
-        &#39;transport&#39;: &#39;beacon&#39;,
-        &#39;hitCallback&#39;: function(){document.location = url;}
-    });
-}
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;What Google is recommending here is:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -157,13 +153,11 @@ large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-we-can-avoid-problems&#34;&gt;How we can avoid problems&lt;/h2&gt;
 
 &lt;p&gt;If you&amp;rsquo;re using the current recommended method of adding GA to your site you&amp;rsquo;re including something like this on all your pages:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;GoogleAnalyticsObject&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;arguments&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)},&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parentNode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;insertBefore&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)})(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;//www.google-analytics.com/analytics.js&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ga&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 
-&lt;pre&gt;&lt;code&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,&#39;script&#39;,&#39;//www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
-ga(&#39;create&#39;, &#39;UA-xxxxx-x&#39;, &#39;auto&#39;);
-ga(&#39;send&#39;, &#39;pageview&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;create&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;UA-xxxxx-x&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;auto&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;pageview&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This snippet creates a global &lt;code&gt;ga&lt;/code&gt; object. The &lt;code&gt;ga&lt;/code&gt; object is available in JavaScript whether the rest of the script successfully loads from Google or not.&lt;/p&gt;
 
 &lt;p&gt;This means two things:&lt;/p&gt;
@@ -177,27 +171,25 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 
 &lt;p&gt;In &lt;a href=&#34;http://veithen.github.io/2015/01/24/outbound-link-tracking.html&#34;&gt;Tracking outbound links with Google Analytics&lt;/a&gt;, Andreas Veithen (who works at Google but was writing on his personal blog) suggests that the most reliable check is to see if the &lt;code&gt;ga&lt;/code&gt; object still has the &lt;code&gt;q&lt;/code&gt; array. The array is removed after GA initializes and processes all the events waiting in the &lt;code&gt;ga.q&lt;/code&gt; queue. Because &lt;code&gt;ga.q&lt;/code&gt; is created by the snippet we paste on our sites, changing it would require us to make changes to our websites and so would be a major change for Google to undertake. On the other hand, it would also be possible for Google to change their code to not remove &lt;code&gt;ga.q&lt;/code&gt; so I&amp;rsquo;m not sure this is more reliable than any other method.&lt;/p&gt;
 
-&lt;p&gt;In &lt;a href=&#34;https://supergeekery.com/geekblog/comments/google-analytics-ghostery-and-event-tracking&#34;&gt;Google Analytics, Ghostery, and Event Tracking&lt;/a&gt; John Morton suggests checking for the &lt;code&gt;create&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;https://supergeekery.com/blog/google-analytics-ghostery-and-event-tracking&#34;&gt;Google Analytics, Ghostery, and Event Tracking&lt;/a&gt; John Morton suggests checking for the &lt;code&gt;create&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).&lt;/p&gt;
 
 &lt;p&gt;In &lt;a href=&#34;https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js&#34;&gt;Workaround for when the hitCallback function does not receive a response (analytics.js)&lt;/a&gt;, Dom Sammut observes that we can check for the &lt;code&gt;loaded&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This is a method used informally in &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click&#34;&gt;some Google documentation&lt;/a&gt; so it&amp;rsquo;s probably also somewhat reliable. I like this one because it is obvious what we&amp;rsquo;re checking for.&lt;/p&gt;
 
 &lt;p&gt;Opting for the last method, we alter Google&amp;rsquo;s suggested code like so:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;var trackOutboundLink = function(url) {
-    // check if the GA object exists and that it has initialized
-    if(window.ga &amp;amp;&amp;amp; ga.loaded) { {
-        // if yes, rely on GA to follow link
-        ga(&#39;send&#39;, &#39;event&#39;, &#39;outbound&#39;, &#39;click&#39;, url, {
-            &#39;transport&#39;: &#39;beacon&#39;,
-            &#39;hitCallback&#39;: function(){document.location = url;}
-        });
-    } else {
-        // if not, follow link ourselves
-        document.location = url;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// check if the GA object exists and that it has initialized
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;loaded&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;// if yes, rely on GA to follow link
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;// if not, follow link ourselves
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Making this kind of check before relying on &lt;em&gt;any&lt;/em&gt; third-party script is good practice.&lt;/strong&gt; You should also be &lt;a href=&#34;https://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/&#34;&gt;including a local fallback for any script that is not coming from your own domain&lt;/a&gt; - including CDNs.&lt;/p&gt;
 
 &lt;h2 id=&#34;respecting-our-users-privacy&#34;&gt;Respecting our users&amp;rsquo; privacy&lt;/h2&gt;
@@ -211,10 +203,8 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 &lt;p&gt;One of these is an easy configuration option to request anonymized user IP addresses. Essentially, &lt;a href=&#34;https://support.google.com/analytics/answer/2763052?hl=en&#34;&gt;Google Analytics changes the last octet of the user’s IP address to 0 before recording it&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This is triggered by adding an additional line to your tracking snippet after &lt;code&gt;ga(&#39;send&#39;, &#39;pageview&#39;);&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;ga(&#39;set&#39;, &#39;anonymizeIp&#39;, true);
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;anonymizeIp&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Of course, Google still gets the users&amp;rsquo; IP address (that&amp;rsquo;s the way the web works), we&amp;rsquo;re just trusting them not to store it.&lt;/p&gt;
 
 &lt;h3 id=&#34;respecting-do-not-track-dnt&#34;&gt;Respecting Do Not Track (DNT)&lt;/h3&gt;
@@ -222,17 +212,15 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 &lt;p&gt;It&amp;rsquo;s also possible to detect when a user has enabled Do Not Track and be pro-active about what scripts you choose to load.&lt;/p&gt;
 
 &lt;p&gt;Schalk Neethling documents the process in &lt;a href=&#34;http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/&#34;&gt;Respect User Choice ~ Do Not Track&lt;/a&gt;. In a nutshell, we wrap the GA call with a check to see if the user has enabled DNT before executing the call to include the file.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function _dntEnabled() {
-    // include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
-
-}
-// Check the value of DNT before including GA
-if (!_dntEnabled()) {
-    // include the Google Analytics snippet
-}
-&lt;/code&gt;&lt;/pre&gt;
-
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_dntEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;// Check the value of DNT before including GA
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_dntEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// include the Google Analytics snippet
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This means that the &lt;code&gt;ga&lt;/code&gt; object will not be added to the global scope for our page, but that&amp;rsquo;s okay, the code snippet above handles that case gracefully as well.&lt;/p&gt;
 
 &lt;p&gt;Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.&lt;/p&gt;
@@ -247,6 +235,8 @@ if (!_dntEnabled()) {
       <guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
       <description>
 
+&lt;p&gt;&lt;em&gt;Edit: 2018-10-30. Google now calls macros variables and rules triggers. I&amp;rsquo;ve updated the text but not the screen shots.&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
 
 &lt;h2 id=&#34;what-is-gtm&#34;&gt;What is GTM&lt;/h2&gt;
@@ -257,7 +247,7 @@ if (!_dntEnabled()) {
 
 &lt;h2 id=&#34;why-do-we-care&#34;&gt;Why do we care?&lt;/h2&gt;
 
-&lt;p&gt;One snippet to rule them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
+&lt;p&gt;One snippet to trigger them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
 
 &lt;p&gt;Theoretically, it means non-technical people will be able to do the set up for this kind of tracking. Less work for us! But let&amp;rsquo;s face it, the interface was written by devs, it still needs some technical knowledge.&lt;/p&gt;
 
@@ -287,19 +277,19 @@ if (!_dntEnabled()) {
 
 &lt;h2 id=&#34;what-s-all-this&#34;&gt;What&amp;rsquo;s all this?&lt;/h2&gt;
 
-&lt;p&gt;Your container contains 3 things: tags, rules, and macros.&lt;/p&gt;
+&lt;p&gt;Your container contains 3 things: tags, triggers, and variables.&lt;/p&gt;
 
 &lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
 
 &lt;p&gt;Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;,  &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
 
-&lt;h3 id=&#34;rules&#34;&gt;Rules&lt;/h3&gt;
+&lt;h3 id=&#34;triggers&#34;&gt;Triggers&lt;/h3&gt;
 
-&lt;p&gt;Rules are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each rule can have multiple conditions so you can combine them to create rules like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Triggers are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each trigger can have multiple conditions so you can combine them to create triggers like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
 
-&lt;h3 id=&#34;macros&#34;&gt;Macros&lt;/h3&gt;
+&lt;h3 id=&#34;variables&#34;&gt;Variables&lt;/h3&gt;
 
-&lt;p&gt;Macros are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in macros: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference macros inside tags, rules, and other macros by writing its name in  {{double curly braces}}.&lt;/p&gt;
+&lt;p&gt;Variables are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, triggers, and other variables by writing its name in  {{double curly braces}}.&lt;/p&gt;
 
 &lt;h2 id=&#34;example-tracking-page-views-and-external-link-clicks-with-universal-analytics&#34;&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h2&gt;
 
@@ -308,10 +298,10 @@ if (!_dntEnabled()) {
 &lt;p&gt;This is, more or less, what we&amp;rsquo;ll be setting up, in an order that makes sense to me:&lt;/p&gt;
 
 &lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;Macro&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.&lt;/li&gt;
     &lt;li&gt;Create version&lt;/li&gt;
     &lt;li&gt;Preview&lt;/li&gt;
@@ -325,22 +315,22 @@ if (!_dntEnabled()) {
 &lt;p&gt;This is the part where I list actual steps, this part might change as the product develops.&lt;/p&gt;
 
 &lt;ol&gt;
-    &lt;li&gt;&lt;em&gt;Macro&lt;/em&gt;: your Analytics tracking number.
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.
         &lt;ol&gt;
             &lt;li&gt;In Analytics get your tracking ID from Admin &gt; Property Settings&lt;/li&gt;
             &lt;li&gt;In GTM go to your container&#39;s overview page.&lt;/li&gt;
-            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;macro&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;variable&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
                 &lt;dl&gt;
-                    &lt;dt&gt;Macro Name:&lt;/dt&gt;
+                    &lt;dt&gt;Variable Name:&lt;/dt&gt;
                     &lt;dd&gt;&lt;kbd&gt;tracking ID&lt;/kbd&gt; (well you can name it whatever you want)&lt;/dd&gt;
-                    &lt;dt&gt;Macro Type:&lt;/dt&gt;
+                    &lt;dt&gt;Variable Type:&lt;/dt&gt;
                     &lt;dd&gt;&lt;kbd&gt;Constant String&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Value:&lt;/dt&gt;
                     &lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
                 &lt;/dl&gt;
                 Or, if prefer a screen shot:&lt;br&gt;
-                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id macro&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
+                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id variable&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
             &lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
         &lt;/ol&gt;
@@ -348,13 +338,13 @@ if (!_dntEnabled()) {
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.
         &lt;ol&gt;
             &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
+            &lt;li&gt; Configure the variable like this:
                 &lt;dl&gt;
                     &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Pageview&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the macro we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
+                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
                     &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this rule, GTM creates it automatically.&lt;/dd&gt;
+                    &lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this trigger, GTM creates it automatically.&lt;/dd&gt;
                 &lt;/dl&gt;
                 Or, if you prefer a screen shot:&lt;br&gt;
                 &lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
@@ -364,33 +354,33 @@ if (!_dntEnabled()) {
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.
         &lt;ol&gt;
             &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt; Configure the macro like this:
+            &lt;li&gt; Configure the variable like this:
                 &lt;dl&gt;
                     &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
-                    &lt;dt&gt;Firing Rules:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
+                    &lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
                 &lt;/dl&gt;
                 Leave everything else on the defaults.&lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
         &lt;/ol&gt;
     &lt;/li&gt;
-    &lt;li&gt;&lt;em&gt;Rule&lt;/em&gt;: if link does not lead to current site.
+    &lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.
         &lt;ul&gt;
-            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;rule&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt;Configure the rule like this:
+            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;trigger&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt;Configure the trigger like this:
                 &lt;dl&gt;
-                    &lt;dt&gt;Rule Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Trigger Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Conditions:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{event}} equals gtm.linkClick&lt;/kbd&gt;&lt;/dd&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}} starts with &lt;/kbd&gt;&lt;em&gt; your site URL&lt;/em&gt; &lt;/dd&gt;
                 &lt;/dl&gt;
             &lt;/li&gt;
             &lt;li&gt;Save it.&lt;/li&gt;
         &lt;/ul&gt;
-        I actually use a complex regex in a macro for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
+        I actually use a complex regex in a variable for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
     &lt;/li&gt;
     &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
         &lt;ul&gt;
             &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-            &lt;li&gt;Configure the rule like this:
+            &lt;li&gt;Configure the trigger like this:
                 &lt;dl&gt;
                     &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;UA event - outbound link&lt;/kbd&gt;&lt;/dd&gt;
                     &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
@@ -423,7 +413,7 @@ if (!_dntEnabled()) {
                     &lt;li&gt;Click on a link and check that &#34;UA event - outbound link&#34; gets added with the status &#34;Fired on Event &#34;gtm.linkClick&#34;. You can usually see it flash to the top before the other page loads but if it&#39;s too fast find (or create) a link with the attribute target=&#34;_blank&#34; to click.&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/li&gt;
-            &lt;li&gt;If something is not working check your rules and try again.&lt;/li&gt;
+            &lt;li&gt;If something is not working check your triggers and try again.&lt;/li&gt;
             &lt;li&gt;&lt;strong&gt;Also important,&lt;/strong&gt; check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.&lt;/li&gt;
             &lt;li&gt;Exit preview mode&lt;/li&gt;
         &lt;/ul&gt;
@@ -434,7 +424,7 @@ if (!_dntEnabled()) {
 
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;So we create tags to do things, rules to govern when we do the things in the tags, and macros to save ourselves time when creating tags and rules.&lt;/p&gt;
+&lt;p&gt;So we create tags to do things, triggers to govern when we do the things in the tags, and variables to save ourselves time when creating tags and triggers.&lt;/p&gt;
 </description>
     </item>
     

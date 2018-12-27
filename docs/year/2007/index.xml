@@ -1,73 +1,211 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2007 on Stephanie Hobson</title><link>https://stephaniehobson.ca/year/2007/</link><description>Recent content in 2007 on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Mon, 31 Dec 2007 11:00:29 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/year/2007/index.xml" rel="self" type="application/rss+xml"/><item><title>I would live with dial up if it meant I could live here.</title><link>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</link><pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate><guid>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid><description>&lt;p&gt;One of my bestest friends lives in the middle of no where. High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2007 on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/year/2007/</link>
+    <description>Recent content in 2007 on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Mon, 31 Dec 2007 11:00:29 +0000</lastBuildDate>
+    
+        <atom:link href="https://stephaniehobson.ca/year/2007/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I would live with dial up if it meant I could live here.</title>
+      <link>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</link>
+      <pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid>
+      <description>&lt;p&gt;One of my bestest friends lives in the middle of no where.  High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.&lt;/p&gt;
+
 &lt;p&gt;For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.&lt;/p&gt;
-&lt;p&gt;Also, turning off the images is not that easy. I wonder how true the assertion that people with dial up turn them off is.&lt;/p&gt;
-&lt;p&gt;Bonne Annee!&lt;/p&gt;</description></item><item><title>CSS bug in IE 6 with: .class a:hover element</title><link>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</link><pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate><guid>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</guid><description>&lt;p&gt;This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like &lt;code&gt;.class a:hover span{}&lt;/code&gt; or &lt;code&gt;#id a:hover strong{}&lt;/code&gt;. The solution is to define a property on the parent link &lt;code&gt;.class a:hover{}&lt;/code&gt; that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.&lt;/p&gt;
+
+&lt;p&gt;Also, turning off the images is not that easy.  I wonder how true the assertion that people with dial up turn them off is.&lt;/p&gt;
+
+&lt;p&gt;Bonne Annee!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSS bug in IE 6 with: .class a:hover element</title>
+      <link>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</link>
+      <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
+      <description>&lt;p&gt;This bug seems to apply to styling elements under a class or id within a link on hover.  Stuff like &lt;code&gt;.class a:hover span{}&lt;/code&gt; or &lt;code&gt;#id a:hover strong{}&lt;/code&gt;.  The solution is to define a property on the parent link &lt;code&gt;.class a:hover{}&lt;/code&gt; that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.&lt;/p&gt;
+
 &lt;p&gt;All the work for the solution was done by &lt;a href=&#34;http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp&#34;&gt;Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug&lt;/a&gt;, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.&lt;/p&gt;
+
 &lt;p&gt;Here&amp;rsquo;s what happened to me:&lt;/p&gt;
-&lt;p&gt;I had some text inside a link, and I wanted some of it to do one thing when rolled over and some of it to do something else. I marked it up like this:&lt;/p&gt;
+
+&lt;p&gt;I had some text inside a link, and I wanted some of it to do one thing when rolled over and some of it to do something else.  I marked it up like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;promo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;News&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;link.html&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;IE has lots of bugs&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;read more&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;.&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;News&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;link.html&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;IE has lots of bugs&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;read more&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;.&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;It&amp;rsquo;s sort of a solution to the fact that &amp;ldquo;read more&amp;rdquo; makes bad link text. Bad. And I don&amp;rsquo;t write the copy.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s sort of a solution to the fact that &amp;ldquo;read more&amp;rdquo; makes bad link text.  Bad.  And I don&amp;rsquo;t write the copy.&lt;/p&gt;
+
 &lt;p&gt;Then I tried to style it with something like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;c&#34;&gt;/* default link behaviour */&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;text-decoration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#8ec3e2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;text-decoration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#8ec3e2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
 &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;visited&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#6d80a8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#6d80a8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
 &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;hover&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#c1fcff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#c1fcff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
 &lt;span class=&#34;c&#34;&gt;/* overrides for this element */&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;promo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;promo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;hover&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;promo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;promo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;visited&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#8ec3e2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#8ec3e2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;promo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;hover&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#c1fcff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#c1fcff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Which did exactly what I wanted it to do&amp;hellip; in FireFox but in IE 6 the hover was not displaying properly. After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided &lt;a href=&#34;http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp&#34;&gt;Tanfa&amp;rsquo;s article on IE Pure CSS Pop Ups Bug&lt;/a&gt; in response to my query.&lt;/p&gt;
+&lt;p&gt;Which did exactly what I wanted it to do&amp;hellip; in FireFox but in IE 6 the hover was not displaying properly.  After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided &lt;a href=&#34;http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp&#34;&gt;Tanfa&amp;rsquo;s article on IE Pure CSS Pop Ups Bug&lt;/a&gt; in response to my query.&lt;/p&gt;
+
 &lt;p&gt;I added float:none to my declaration for &lt;code&gt;.promo a:hover{}&lt;/code&gt; and all is now well :)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;promo&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;hover&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;float&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;k&#34;&gt;float&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;none&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Thank you Tanfa!&lt;/p&gt;</description></item><item><title>These are a few of my favourite things</title><link>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</link><pubDate>Fri, 14 Dec 2007 12:55:33 +0000</pubDate><guid>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</guid><description>&lt;p&gt;&lt;a href=&#34;https://24ways.org/2007/underpants-over-my-trousers&#34;&gt;Comics and web design together at last!&lt;/a&gt;&lt;/p&gt;</description></item><item><title>We made the cut!</title><link>https://stephaniehobson.ca/posts/we-made-the-cut/</link><pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate><guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid><description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
-&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;</description></item><item><title>No, wait, I wasn&#39;t done reading that!</title><link>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</link><pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate><guid>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</guid><description>&lt;p&gt;When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.&lt;/p&gt;
+&lt;p&gt;Thank you Tanfa!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>These are a few of my favourite things</title>
+      <link>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</link>
+      <pubDate>Fri, 14 Dec 2007 12:55:33 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://24ways.org/2007/underpants-over-my-trousers&#34;&gt;Comics and web design together at last!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We made the cut!</title>
+      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
+      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
+
+&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>No, wait, I wasn&#39;t done reading that!</title>
+      <link>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</link>
+      <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</guid>
+      <description>&lt;p&gt;When I went on vacation a few weeks ago I got a little behind on my RSS feeds.  I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.&lt;/p&gt;
+
 &lt;p&gt;Noooooooooooo!&lt;/p&gt;
+
 &lt;p&gt;This is an unrecoverable error. There&amp;rsquo;s no undo and there&amp;rsquo;s no way to mark an article more than a certain number of days (30?) old as unread again even if I open it individually.&lt;/p&gt;
+
 &lt;p&gt;A quick visit to the Reader group confirms that I&amp;rsquo;m not crazy and I&amp;rsquo;m not the only one who has done this.&lt;/p&gt;
-&lt;p&gt;What gives Google?&lt;/p&gt;</description></item><item><title>10 seconds of my 15 minutes</title><link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link><pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate><guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid><description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
+
+&lt;p&gt;What gives Google?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
+
 &lt;p&gt;Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hVsxOxE_F1s&#34;&gt;From computer to computer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y98qg9pa87E&#34;&gt;Chin up bars with fancy editing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9jZpK5wYkBM&#34;&gt;Gmail for lunch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>What a great way to start a Monday.</title><link>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</link><pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate><guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid><description>&lt;p&gt;Part of my job at BCIT is providing technical support to our content publishing community. These are the people who provide the text to fill the templates we make and keep that text up to date. Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.&lt;/p&gt;
-&lt;p&gt;Forty percent of our job is providing encouragement. &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.&amp;rdquo; &amp;ldquo;We can always undo the changes if you think you&amp;rsquo;ve made a mistake.&amp;rdquo; I get my best compliments from these kinds of support calls.&lt;/p&gt;
-&lt;p&gt;This morning on of our clients told me, &amp;ldquo;You&amp;rsquo;ve made me feel so much better about all this now, I&amp;rsquo;m so glad you called. What a great way to start a Monday.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;What a great way to start a Monday :)&lt;/p&gt;</description></item><item><title>Searching for an answer</title><link>https://stephaniehobson.ca/posts/searching-for-an-answer/</link><pubDate>Fri, 29 Jun 2007 17:02:09 +0000</pubDate><guid>https://stephaniehobson.ca/posts/searching-for-an-answer/</guid><description>&lt;p&gt;Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?&lt;/p&gt;
-&lt;p&gt;I was trying to find out if legend was a required tag in fieldset and I got a tutorial that said not to use legend because Netscape 4 doesn&amp;rsquo;t support it yet but should soon!&lt;/p&gt;</description></item><item><title>Forming form guidelines</title><link>https://stephaniehobson.ca/posts/forming-form-guidelines/</link><pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate><guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid><description>&lt;p&gt;Who knew web design could be so&amp;hellip; academic?&lt;/p&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What a great way to start a Monday.</title>
+      <link>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid>
+      <description>&lt;p&gt;Part of my job at BCIT is providing technical support to our content publishing community.  These are the people who provide the text to fill the templates we make and keep that text up to date.  Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.&lt;/p&gt;
+
+&lt;p&gt;Forty percent of our job is providing encouragement.  &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.&amp;rdquo; &amp;ldquo;We can always undo the changes if you think you&amp;rsquo;ve made a mistake.&amp;rdquo;  I get my best compliments from these kinds of support calls.&lt;/p&gt;
+
+&lt;p&gt;This morning on of our clients told me, &amp;ldquo;You&amp;rsquo;ve made me feel so much better about all this now, I&amp;rsquo;m so glad you called.  What a great way to start a Monday.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;What a great way to start a Monday :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Searching for an answer</title>
+      <link>https://stephaniehobson.ca/posts/searching-for-an-answer/</link>
+      <pubDate>Fri, 29 Jun 2007 17:02:09 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/searching-for-an-answer/</guid>
+      <description>&lt;p&gt;Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?&lt;/p&gt;
+
+&lt;p&gt;I was trying to find out if legend was a required tag in fieldset and I got a tutorial that said not to use legend because Netscape 4 doesn&amp;rsquo;t support it yet but should soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Forming form guidelines</title>
+      <link>https://stephaniehobson.ca/posts/forming-form-guidelines/</link>
+      <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid>
+      <description>&lt;p&gt;Who knew web design could be so&amp;hellip; academic?&lt;/p&gt;
+
 &lt;p&gt;Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel.  I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.&lt;/p&gt;
+
 &lt;p&gt;Here&amp;rsquo;s a bit more information on my quibble with FireFox:&lt;a href=&#34;https://bugzilla.mozilla.org/show_bug.cgi?id=269908&#34;&gt; the bug report and ensuing argument&lt;/a&gt;.  Some one who knows what they&amp;rsquo;re doing should probably read the CSS3 proposals to see if this can be avoided in the future.
-Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s in San Francisco.&lt;/p&gt;</description></item><item><title>@media links to check out</title><link>https://stephaniehobson.ca/posts/media-links-to-check-out/</link><pubDate>Sat, 26 May 2007 02:50:53 +0000</pubDate><guid>https://stephaniehobson.ca/posts/media-links-to-check-out/</guid><description>&lt;p&gt;This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):&lt;/p&gt;
+Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s in San Francisco.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>@media links to check out</title>
+      <link>https://stephaniehobson.ca/posts/media-links-to-check-out/</link>
+      <pubDate>Sat, 26 May 2007 02:50:53 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/media-links-to-check-out/</guid>
+      <description>&lt;p&gt;This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):&lt;/p&gt;
+
 &lt;p&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://tim.oreilly.com/&#34;&gt;Tim O&amp;rsquo;Reilly&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.deltatangobravo.com/&#34;&gt;Delta Tango Bravo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://webtypography.net/&#34;&gt;Web Typography&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.boxesandarrows.com/&#34;&gt;Boxes and Arrows&lt;/a&gt; - currently featuring &lt;a href=&#34;http://www.boxesandarrows.com/view/comics-not-just-for&#34;&gt;an article on comic books&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.netvibes.com/&#34;&gt;Netvibes&lt;/a&gt; - normally I&amp;rsquo;m not a portal person. To be check out in combination with &lt;a href=&#34;http://veerle.duoh.com/blog/comments/veerle_theme_for_netvibes/&#34;&gt;Veerle&amp;rsquo;s theme&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.netvibes.com/&#34;&gt;Netvibes&lt;/a&gt; - normally I&amp;rsquo;m not a portal person.  To be check out in combination with &lt;a href=&#34;http://veerle.duoh.com/blog/comments/veerle_theme_for_netvibes/&#34;&gt;Veerle&amp;rsquo;s theme&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.searchmash.com/&#34;&gt;searchmash&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.poetpainter.com/thoughts/&#34;&gt;poetpainter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Book: &lt;a href=&#34;http://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307353133&#34; title=&#34;Amazon&#34;&gt;Four Hour Work Week&lt;/a&gt;&lt;/li&gt;
@@ -82,12 +220,19 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
 &lt;li&gt;Article: &lt;a href=&#34;https://alistapart.com/articles/dao/&#34;&gt;Tao of Web Design&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.amazon.com/Pro-JavaScript-Techniques-John-Resig/dp/1590597273&#34;&gt;Book: Pro Javascript Techniques&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;presentations&#34;&gt;Presentations:&lt;/h2&gt;
+
 &lt;p&gt;Missed a few, let me know if you have them.&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://simplebits.com/publications/speak/juggling/&#34;&gt;Dan Cederholm: Interface Design Juggling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.veen.com/atmedia07.pdf&#34;&gt;Jeffrey Veen: Designing the Next Generation of Web Apps&lt;/a&gt; (PDF)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://cameronmoll.com/speaking/communication&#34;&gt;Cameron Moll: Designing for Communication&lt;/a&gt; (isn&amp;rsquo;t working, might not have written fast enough to get the whole thing?)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.stuffandnonsense.co.uk/events&#34;&gt;Andy Clarke: Royale with Cheese&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://tantek.com/presentations/2007/05/microformats-bb-you/&#34;&gt;Tantek Celik: Microformats, Building Blocks, and You&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

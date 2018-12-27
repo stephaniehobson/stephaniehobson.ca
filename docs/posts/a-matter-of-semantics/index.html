@@ -1,4 +1,112 @@
-<!doctype html><html lang=en-ca><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><title>A Matter of Semantics</title><meta name=description content><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=/css/main-83157029.css><link rel=canonical href=https://stephaniehobson.ca/posts/a-matter-of-semantics/><body><header><div class=header><h1 class=header-title><a href=/ class=header-site>Stephanie Hobson</a>
-<span class=header-subtitle>I like to make websites everyone can use.</span></h1><a class=header-about href=/about/><img class=header-avatar src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson"></a></div></header><main><article class=post itemscope itemtype=http://schema.org/BlogPosting><h1 class=post-title itemprop="name headline">A Matter of Semantics</h1><div class=post-info><a class=post-link href=https://stephaniehobson.ca/posts/a-matter-of-semantics/ itemprop=url>Permalink</a>
-<time class=post-date datetime=2014-01-21 itemprop=datePublished><a class=post-date-year href=/year/2014/>2014</a>
-January 21</time><ul class=post-tags><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/bcit/ rel=tag>bcit</a><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/webdesign/ rel=tag>webdesign</a></ul></div><div class=post-body itemprop=articleBody><p><em>Adapted from a blog post on Web Services&rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.</em><p>Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.<blockquote><p>“In the top left hand corner there’s a square, in the bottom right there’s a circle, big enough that it overlaps the square. Inside the circle is a triangle.”</blockquote><p>It was impossible to end up with an exact copy of the drawing. Usually the original and new drawings were hilariously different.<p>Every time you visit a web site, your computer is playing this game with another computer on the other end of the internet. In order to avoid ending up with a hilariously different web site, the computers speak a few <em>really precise</em> languages to each other.<p>A CMS (Content Management System) lets you make updates to a website without learning those languages. So you’re telling the CMS what you want to do and the CMS is translating your intention into one of those <em>really precise</em> languages – HTML.<p>HTML doesn&rsquo;t tell the computer how to make things look. HTML tells the computer what things are: “this text is a link to another page”, “this text is a heading”, “this text a list of related stuff.” This is called <strong>semantic markup</strong>: the content is &ldquo;marked up&rdquo; with HTML to indicate its &ldquo;semantics&rdquo; or meaning.<p>When users view your website, their browser combines your HTML with files the developers have written in two other languages – CSS and JavaScript – to create the web page that they see.<p>CSS tells the computer how things should look: “links are blue,” “headings are bold,” “list items have bullets.”<p>JavaScript tells the computer how things should work: “When the user clicks this button, show the user that paragraph.”<p>With just the HTML a computer can do all kinds of interesting things with your content. It can read it out loud, translate it into a different language, put it on a really big screen (or a really little one), or search through it.<h2 id=sometimes-things-get-misinterpreted>Sometimes things get misinterpreted.</h2><p>When we edit pages in a CMS we see a visual metaphor instead of the plain HTML. We’re also playing the drawing game with the CMS. This means something that looks right might still not have the right HTML. Just because there are dots before that text doesn&rsquo;t mean it’s a list. Just because this text is bold doesn&rsquo;t mean it’s a heading.<h2 id=with-the-wrong-html-the-other-computers-will-make-mistakes>With the wrong HTML the other computers will make mistakes.</h2><p>When a screen reader comes to a list it will tell the user that there&rsquo;s a list and how long it is, if the user has been to the page before and knows they need item number eight they can skip straight to it. With the wrong HTML the user has to skip past all the other items one at a time.<p>When a search engine is trying to identify what a page is about it looks for headings. Text that is marked up as an HTML heading is considered a better summary.<p>When the CSS (the way the website looks) changes the HTML doesn’t. In 2010 we changed how much space is between paragraphs on the website. Before we did this some editors had decided they wanted more space between their paragraphs and inserted it themselves by adding empty paragraphs, using markup to create visual formatting. After we made changes to the CSS their pages had huge spaces between paragraphs and it looked like something was wrong with them.<p>The mobile version of a website will often use the same HTML as a desktop version but different CSS. This is a very visual example of why separation of content and presentation matter.<p>From time to time, we see people use tables to impose a specific visual layout on their content, something that should really be done with CSS instead. Tables are hard for mobile browsers to handle because they are so wide. To avoid distorting content in them the tables could be re-arranged. This will make tables with data in them easier to read on a mobile phone but if the HTML says “this is a table” and what is inside is not data, just an image we wanted in a different position, things could end up looking like one of our drawing game pictures gone wrong.<h2 id=how-to-avoid-errors>How to avoid errors.</h2><p>There are some simple things that can be done to avoid problems:<ul><li>When you are copy and pasting into your CMS only paste plain text.<li>Use your CMS&rsquo;s editing tool bar to communicate your intent to it. Use the buttons to create lists and the style drop down to create headings.<li>When inserting images remember to fill in the &ldquo;alt&rdquo; text and ask if there is a class to help you position the image where you want it on the page.</ul><p>Don&rsquo;t fight the default styles. The designer made careful decisions about how the HTML should be styled by the CSS using principles of graphic design and interface design and did user testing to refine them. This should make your job easier, you don&rsquo;t have to make these decisions yourself instead focus on the <strong>purpose</strong> of each part of your content instead of how it should look.<p>If you are experienced enough to be writing your own HTML pay attention to what the meaning of the elements are.</div></article></main><footer class=footer><nav class=footer-nav><a href=/about/>About</a> ⁃ <a href=/year/>Archives</a></nav><p class=footer-copy>&copy; Stephanie Hobson 2007- 2018</footer></body></html>
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>A Matter of Semantics</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-43f61513.css">
+<link rel="canonical" href="https://stephaniehobson.ca/posts/a-matter-of-semantics/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">A Matter of Semantics</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/a-matter-of-semantics/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2014-01-21" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2014/">2014</a>
+            January 21
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/bcit/" rel="tag">bcit</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign/" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        
+
+<p><em>Adapted from a blog post on Web Services&rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.</em></p>
+
+<p>Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.</p>
+
+<blockquote>
+<p>“In the top left hand corner there’s a square, in the bottom right there’s a circle, big enough that it overlaps the square. Inside the circle is a triangle.”</p>
+</blockquote>
+
+<p>It was impossible to end up with an exact copy of the drawing. Usually the original and new drawings were hilariously different.</p>
+
+<p>Every time you visit a web site, your computer is playing this game with another computer on the other end of the internet. In order to avoid ending up with a hilariously different web site, the computers speak a few <em>really precise</em> languages to each other.</p>
+
+<p>A CMS (Content Management System) lets you make updates to a website without learning those languages. So you’re telling the CMS what you want to do and the CMS is translating your intention into one of those <em>really precise</em> languages – HTML.</p>
+
+<p>HTML doesn&rsquo;t tell the computer how to make things look. HTML tells the computer what things are: “this text is a link to another page”, “this text is a heading”, “this text a list of related stuff.” This is called <strong>semantic markup</strong>: the content is &ldquo;marked up&rdquo; with HTML to indicate its &ldquo;semantics&rdquo; or meaning.</p>
+
+<p>When users view your website, their browser combines your HTML with files the developers have written in two other languages – CSS and JavaScript –  to create the web page that they see.</p>
+
+<p>CSS tells the computer how things should look: “links are blue,” “headings are bold,” “list items have bullets.”</p>
+
+<p>JavaScript tells the computer how things should work: “When the user clicks this button, show the user that paragraph.”</p>
+
+<p>With just the HTML a computer can do all kinds of interesting things with your content. It can read it out loud, translate it into a different language, put it on a really big screen (or a really little one), or search through it.</p>
+
+<h2 id="sometimes-things-get-misinterpreted">Sometimes things get misinterpreted.</h2>
+
+<p>When we edit pages in a CMS we see a visual metaphor instead of the plain HTML. We’re also playing the drawing game with the CMS. This means something that looks right might still not have the right HTML. Just because there are dots before that text doesn&rsquo;t mean it’s a list. Just because this text is bold doesn&rsquo;t mean it’s a heading.</p>
+
+<h2 id="with-the-wrong-html-the-other-computers-will-make-mistakes">With the wrong HTML the other computers will make mistakes.</h2>
+
+<p>When a screen reader comes to a list it will tell the user that there&rsquo;s a list and how long it is, if the user has been to the page before and knows they need item number eight they can skip straight to it. With the wrong HTML the user has to skip past all the other items one at a time.</p>
+
+<p>When a search engine is trying to identify what a page is about it looks for headings. Text that is marked up as an HTML heading is considered a better summary.</p>
+
+<p>When the CSS (the way the website looks) changes the HTML doesn’t. In 2010 we changed how much space is between paragraphs on the website. Before we did this some editors had decided they wanted more space between their paragraphs and inserted it themselves by adding empty paragraphs, using markup to create visual formatting. After we made changes to the CSS their pages had huge spaces between paragraphs and it looked like something was wrong with them.</p>
+
+<p>The mobile version of a website will often use the same HTML as a desktop version but different CSS. This is a very visual example of why separation of content and presentation matter.</p>
+
+<p>From time to time, we see people use tables to impose a specific visual layout on their content, something that should really be done with CSS instead. Tables are hard for mobile browsers to handle because they are so wide. To avoid distorting content in them the tables could be re-arranged. This will make tables with data in them easier to read on a mobile phone but if the HTML says “this is a table” and what is inside is not data, just an image we wanted in a different position, things could end up looking like one of our drawing game pictures gone wrong.</p>
+
+<h2 id="how-to-avoid-errors">How to avoid errors.</h2>
+
+<p>There are some simple things that can be done to avoid problems:</p>
+
+<ul>
+<li>When you are copy and pasting into your CMS only paste plain text.</li>
+<li>Use your CMS&rsquo;s editing tool bar to communicate your intent to it. Use the buttons to create lists and the style drop down to create headings.</li>
+<li>When inserting images remember to fill in the &ldquo;alt&rdquo; text and ask if there is a class to help you position the image where you want it on the page.</li>
+</ul>
+
+<p>Don&rsquo;t fight the default styles. The designer made careful decisions about how the HTML should be styled by the CSS using principles of graphic design and interface design and did user testing to refine them. This should make your job easier, you don&rsquo;t have to make these decisions yourself instead focus on the <strong>purpose</strong> of each part of your content instead of how it should look.</p>
+
+<p>If you are experienced enough to be writing your own HTML pay attention to what the meaning of the elements are.</p>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a>
+    </nav>
+    <p class="footer-copy">&copy; Stephanie Hobson 2007- 2018</p>
+</footer>
+
+</body>
+</html>

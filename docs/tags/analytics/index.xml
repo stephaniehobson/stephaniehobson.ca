@@ -1,24 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Analytics on Stephanie Hobson</title><link>https://stephaniehobson.ca/tags/analytics/</link><description>Recent content in Analytics on Stephanie Hobson</description><generator>Hugo -- gohugo.io</generator><language>en-ca</language><lastBuildDate>Thu, 23 Aug 2018 07:58:00 +0000</lastBuildDate><atom:link href="https://stephaniehobson.ca/tags/analytics/index.xml" rel="self" type="application/rss+xml"/><item><title>How to make a chart of your users&#39; window sizes</title><link>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</link><pubDate>Thu, 23 Aug 2018 07:58:00 +0000</pubDate><guid>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on Stephanie Hobson</title>
+    <link>https://stephaniehobson.ca/tags/analytics/</link>
+    <description>Recent content in Analytics on Stephanie Hobson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    <lastBuildDate>Thu, 23 Aug 2018 07:58:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://stephaniehobson.ca/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to make a chart of your users&#39; window sizes</title>
+      <link>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</link>
+      <pubDate>Thu, 23 Aug 2018 07:58:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</guid>
+      <description>
+
 &lt;p&gt;&lt;em&gt;This article was originally published on the &lt;a href=&#34;https://mozilla.github.io/meao/2018/01/24/browser-sizes/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;In preparation for the MDN redesign I examined our analytics to get an idea
 of how wide our users&amp;rsquo; browser windows were. I wanted window widths, not screen
 sizes and I thought a chart would tell a more compelling story than a table.&lt;/p&gt;
+
 &lt;p&gt;Here&amp;rsquo;s the chart I made:&lt;/p&gt;
+
+
 &lt;figure&gt;
-&lt;img src=&#34;browser-sizes.png&#34; alt=&#34;Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels.&#34; /&gt;
+    
+        &lt;img src=&#34;browser-sizes.png&#34; alt=&#34;Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels.&#34; /&gt;
+    
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;I found this view useful because it shows us &amp;ldquo;clumps&amp;rdquo; of window sizes.&lt;/p&gt;
+
 &lt;h2 id=&#34;how-to-make-a-chart-of-browser-window-widths&#34;&gt;How to make a chart of browser window widths&lt;/h2&gt;
+
 &lt;h3 id=&#34;the-basic-idea-is&#34;&gt;The basic idea is:&lt;/h3&gt;
+
 &lt;ol&gt;
 &lt;li&gt;Create and export a Custom Report for Browser Size.&lt;/li&gt;
 &lt;li&gt;Filter the Browser Size to just include widths.&lt;/li&gt;
 &lt;li&gt;Aggregate the number of users for each width.&lt;/li&gt;
 &lt;li&gt;Make a chart.&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;h3 id=&#34;working-with-google-analytics-and-google-sheets-the-specific-steps-i-used-were&#34;&gt;Working with Google Analytics and Google Sheets the specific steps I used were:&lt;/h3&gt;
+
 &lt;ol&gt;
 &lt;li&gt;Create a custom report for browser sizes.
+
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Customization&lt;/strong&gt; &amp;gt; &lt;strong&gt;Custom Reports&lt;/strong&gt; &amp;gt; &lt;strong&gt;New Custom Report&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Set the &lt;strong&gt;Metric Group&lt;/strong&gt; to &lt;code&gt;Users&lt;/code&gt;&lt;/li&gt;
@@ -55,243 +90,343 @@ make sure they&amp;rsquo;re frozen (&lt;strong&gt;View&lt;/strong&gt; &amp;gt; &
 &lt;li&gt;Set &lt;strong&gt;Width&lt;/strong&gt; as the X-axis.&lt;/li&gt;
 &lt;li&gt;Done!&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;hr /&gt;
+
 &lt;p&gt;This answered a question I&amp;rsquo;ve been curious about for ages: &lt;strong&gt;Do people with
 large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.&lt;/p&gt;</description></item><item><title>Google Analytics, Privacy, and Event Tracking</title><link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link><pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate><guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid><description>
+
+&lt;p&gt;About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Analytics, Privacy, and Event Tracking</title>
+      <link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
+      <pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
+      <description>
+
 &lt;p&gt;&lt;em&gt;This article was &lt;a href=&#34;https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/&#34;&gt;originally published on the Mozilla Hacks blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.&lt;/p&gt;
+
 &lt;p&gt;Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet. Not everyone is comfortable with that. Some people have started taking steps to protect their privacy by installing ad blockers like Ghostery or enabling &lt;a href=&#34;https://blog.mozilla.org/blog/2015/11/03/firefox-now-offers-a-more-private-browsing-experience/&#34;&gt;tracking protection in Firefox&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;I think this is great!&lt;/p&gt;
+
 &lt;h2 id=&#34;sometimes-this-breaks-things&#34;&gt;Sometimes this breaks things&lt;/h2&gt;
+
 &lt;p&gt;When code depends on these third-party services and they&amp;rsquo;re not there stuff goes wrong.&lt;/p&gt;
+
 &lt;p&gt;I&amp;rsquo;m going to use tracking external links as my example because it&amp;rsquo;s a common use case, but I started investigating this problem because we accidentally broke the ability to navigate &lt;abbr title=&#34;For certain edge cases, it&#39;s not as bad as it sounds.&#34;&gt;within&lt;/abbr&gt; our &lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;website&lt;/a&gt; for users who were choosing not to load the GA script.&lt;/p&gt;
+
 &lt;p&gt;I&amp;rsquo;m also going to use the universal analytics tracking code (analytics.js) for my examples here, not the classic analytics code (ga.js), so if you notice some differences between my code and yours that might be why.&lt;/p&gt;
+
 &lt;h2 id=&#34;what-goes-wrong&#34;&gt;What goes wrong?&lt;/h2&gt;
+
 &lt;p&gt;The current method (Jan 2016) for &lt;a href=&#34;https://support.google.com/analytics/answer/1136920?hl=en&#34;&gt;tracking outbound links&lt;/a&gt; as recommended by Google looks like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.example.com&amp;#34;&lt;/span&gt;
-&lt;span class=&#34;na&#34;&gt;onclick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;trackOutboundLink(&amp;#39;http://www.example.com&amp;#39;); return false;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-Check out example.com
+    &lt;span class=&#34;na&#34;&gt;onclick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;trackOutboundLink(&amp;#39;http://www.example.com&amp;#39;); return false;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+        Check out example.com
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+    &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+        &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;What Google is recommending here is:&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;add &lt;code&gt;return false&lt;/code&gt; to your links so that clicking on them doesn&amp;rsquo;t take the user off the page&lt;/li&gt;
 &lt;li&gt;when a user clicks a link, add that click to the GA queue of events to track and tell GA to take the user to the new page after that is done&lt;/li&gt;
 &lt;li&gt;GA processes the event&lt;/li&gt;
 &lt;li&gt;GA triggers the callback, taking the user to the new page&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;This guarantees that the user doesn&amp;rsquo;t leave the site before their action is recorded. However, if GA fails to process the event&amp;hellip; it never triggers the callback, breaking all links off the website. :(&lt;/p&gt;
+
 &lt;p&gt;We are relying on GA to send the user to the new page, but what if the GA code never executes?&lt;/p&gt;
+
 &lt;h2 id=&#34;how-we-can-avoid-problems&#34;&gt;How we can avoid problems&lt;/h2&gt;
+
 &lt;p&gt;If you&amp;rsquo;re using the current recommended method of adding GA to your site you&amp;rsquo;re including something like this on all your pages:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;GoogleAnalyticsObject&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;q&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;arguments&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)},&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;parentNode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;insertBefore&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)})(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;//www.google-analytics.com/analytics.js&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;ga&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+
 &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;create&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;UA-xxxxx-x&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;auto&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;pageview&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This snippet creates a global &lt;code&gt;ga&lt;/code&gt; object. The &lt;code&gt;ga&lt;/code&gt; object is available in JavaScript whether the rest of the script successfully loads from Google or not.&lt;/p&gt;
+
 &lt;p&gt;This means two things:&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;It is possible to add events to the queue before GA has loaded. (Cool! This is handy for tracking events that happen really quickly.)&lt;/li&gt;
 &lt;li&gt;We can&amp;rsquo;t check if GA has loaded by checking for the existence of the &lt;code&gt;ga&lt;/code&gt; object &lt;a href=&#34;https://johnresig.com/blog/fixing-google-analytics-for-ghostery/&#34;&gt;like we used to&lt;/a&gt; because it&amp;rsquo;s always there.&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;So how do we know if GA has loaded? Well, clever people have figured out that when it initializes, GA alters the global &lt;code&gt;ga&lt;/code&gt; object in a few different ways. None of these changes are officially documented by Google which means any of them could break in the long term.&lt;/p&gt;
+
 &lt;p&gt;In &lt;a href=&#34;http://veithen.github.io/2015/01/24/outbound-link-tracking.html&#34;&gt;Tracking outbound links with Google Analytics&lt;/a&gt;, Andreas Veithen (who works at Google but was writing on his personal blog) suggests that the most reliable check is to see if the &lt;code&gt;ga&lt;/code&gt; object still has the &lt;code&gt;q&lt;/code&gt; array. The array is removed after GA initializes and processes all the events waiting in the &lt;code&gt;ga.q&lt;/code&gt; queue. Because &lt;code&gt;ga.q&lt;/code&gt; is created by the snippet we paste on our sites, changing it would require us to make changes to our websites and so would be a major change for Google to undertake. On the other hand, it would also be possible for Google to change their code to not remove &lt;code&gt;ga.q&lt;/code&gt; so I&amp;rsquo;m not sure this is more reliable than any other method.&lt;/p&gt;
+
 &lt;p&gt;In &lt;a href=&#34;https://supergeekery.com/blog/google-analytics-ghostery-and-event-tracking&#34;&gt;Google Analytics, Ghostery, and Event Tracking&lt;/a&gt; John Morton suggests checking for the &lt;code&gt;create&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This technique has been around the longest and is probably the most widely used (I say this after a quick informal glance at GitHub).&lt;/p&gt;
+
 &lt;p&gt;In &lt;a href=&#34;https://www.domsammut.com/code/workaround-for-when-the-hitcallback-function-does-not-receive-a-response-analytics-js&#34;&gt;Workaround for when the hitCallback function does not receive a response (analytics.js)&lt;/a&gt;, Dom Sammut observes that we can check for the &lt;code&gt;loaded&lt;/code&gt; property on the &lt;code&gt;ga&lt;/code&gt; object. This is a method used informally in &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#product-click&#34;&gt;some Google documentation&lt;/a&gt; so it&amp;rsquo;s probably also somewhat reliable. I like this one because it is obvious what we&amp;rsquo;re checking for.&lt;/p&gt;
+
 &lt;p&gt;Opting for the last method, we alter Google&amp;rsquo;s suggested code like so:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;// check if the GA object exists and that it has initialized
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;loaded&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;// if yes, rely on GA to follow link
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-&lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;// if not, follow link ourselves
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+    &lt;span class=&#34;c1&#34;&gt;// check if the GA object exists and that it has initialized
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;loaded&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;// if yes, rely on GA to follow link
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+            &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+            &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;c1&#34;&gt;// if not, follow link ourselves
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Making this kind of check before relying on &lt;em&gt;any&lt;/em&gt; third-party script is good practice.&lt;/strong&gt; You should also be &lt;a href=&#34;https://eddmann.com/posts/providing-local-js-and-css-resources-for-cdn-fallbacks/&#34;&gt;including a local fallback for any script that is not coming from your own domain&lt;/a&gt; - including CDNs.&lt;/p&gt;
+
 &lt;h2 id=&#34;respecting-our-users-privacy&#34;&gt;Respecting our users&amp;rsquo; privacy&lt;/h2&gt;
+
 &lt;p&gt;&lt;a href=&#34;http://www.pewinternet.org/2015/05/20/americans-views-about-data-collection-and-security/&#34;&gt;Most users care about their privacy&lt;/a&gt; and there are more steps we can take to protect it. Depending on where you work you may also be required by your country&amp;rsquo;s laws or your company’s privacy policy to take extra care with users’ data.&lt;/p&gt;
+
 &lt;h3 id=&#34;configuring-google-analytics-for-privacy&#34;&gt;Configuring Google Analytics for privacy&lt;/h3&gt;
+
 &lt;p&gt;If Google Analytics is your analytics platform of choice, there are &lt;a href=&#34;https://gu.illau.me/posts/privacy-and-google-analytics/&#34;&gt;a number of steps you can take to make it more private&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;One of these is an easy configuration option to request anonymized user IP addresses. Essentially, &lt;a href=&#34;https://support.google.com/analytics/answer/2763052?hl=en&#34;&gt;Google Analytics changes the last octet of the user’s IP address to 0 before recording it&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;This is triggered by adding an additional line to your tracking snippet after &lt;code&gt;ga(&#39;send&#39;, &#39;pageview&#39;);&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;set&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;anonymizeIp&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Of course, Google still gets the users&amp;rsquo; IP address (that&amp;rsquo;s the way the web works), we&amp;rsquo;re just trusting them not to store it.&lt;/p&gt;
+
 &lt;h3 id=&#34;respecting-do-not-track-dnt&#34;&gt;Respecting Do Not Track (DNT)&lt;/h3&gt;
+
 &lt;p&gt;It&amp;rsquo;s also possible to detect when a user has enabled Do Not Track and be pro-active about what scripts you choose to load.&lt;/p&gt;
+
 &lt;p&gt;Schalk Neethling documents the process in &lt;a href=&#34;http://schalkneethling.github.io/blog/2015/11/06/respect-user-choice-do-not-track/&#34;&gt;Respect User Choice ~ Do Not Track&lt;/a&gt;. In a nutshell, we wrap the GA call with a check to see if the user has enabled DNT before executing the call to include the file.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_dntEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;// include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
+    &lt;span class=&#34;c1&#34;&gt;// include the helper function from https://github.com/schalkneethling/dnt-helper/blob/master/js/dnt-helper.js
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;// Check the value of DNT before including GA
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_dntEnabled&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;// include the Google Analytics snippet
+    &lt;span class=&#34;c1&#34;&gt;// include the Google Analytics snippet
 &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This means that the &lt;code&gt;ga&lt;/code&gt; object will not be added to the global scope for our page, but that&amp;rsquo;s okay, the code snippet above handles that case gracefully as well.&lt;/p&gt;
-&lt;p&gt;Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.&lt;/p&gt;</description></item><item><title>Intro to Google Tag Manager</title><link>https://stephaniehobson.ca/posts/google-tag-manager-intro/</link><pubDate>Wed, 04 Jun 2014 22:01:01 +0000</pubDate><guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid><description>
+
+&lt;p&gt;Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intro to Google Tag Manager</title>
+      <link>https://stephaniehobson.ca/posts/google-tag-manager-intro/</link>
+      <pubDate>Wed, 04 Jun 2014 22:01:01 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/google-tag-manager-intro/</guid>
+      <description>
+
 &lt;p&gt;&lt;em&gt;Edit: 2018-10-30. Google now calls macros variables and rules triggers. I&amp;rsquo;ve updated the text but not the screen shots.&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Google Tag Manager (GTM) is still pretty new as I write this. Stuff is still changing so I&amp;rsquo;m going to try to focus on techniques rather than step by step instructions (but I have some of those too).&lt;/p&gt;
+
 &lt;h2 id=&#34;what-is-gtm&#34;&gt;What is GTM&lt;/h2&gt;
+
 &lt;p&gt;You include a code snippet from GTM on your site which, among other things, includes a file. Then you use the GTM interface to configure what goes in that file.&lt;/p&gt;
+
 &lt;p&gt;This is intended to replace any scripts you&amp;rsquo;d normally have to write yourself to track stuff that isn&amp;rsquo;t a regular page view (example: tracking a file download as a page view). Say good bye to code like this: &lt;code&gt;pageTracker._trackPageview(fileurl);&lt;/code&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;why-do-we-care&#34;&gt;Why do we care?&lt;/h2&gt;
+
 &lt;p&gt;One snippet to trigger them all. All your tracking scripts and pixels can be moved off the page and into GTM. Smaller pages, faster loading! They have some already supported services (AdWords, DoubleClick, Remarketing, Mediaplex&amp;hellip;) and you can theoretically code support for others in yourself.&lt;/p&gt;
+
 &lt;p&gt;Theoretically, it means non-technical people will be able to do the set up for this kind of tracking. Less work for us! But let&amp;rsquo;s face it, the interface was written by devs, it still needs some technical knowledge.&lt;/p&gt;
+
 &lt;p&gt;It cuts down on the amount of code writing and maintenance we have to do in the future. Also less work for us!&lt;/p&gt;
+
 &lt;h2 id=&#34;is-it-a-trap&#34;&gt;Is it a trap?&lt;/h2&gt;
+
 &lt;p&gt;Could be. Yup.&lt;/p&gt;
+
 &lt;p&gt;A javascript error in GTM code can break all the javascript on the page and anyone with access to your GTM account can add javascript.&lt;/p&gt;
+
 &lt;p&gt;GTM seems to insist on following the href on &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; elements. So if you are hijaxing any links GMT could break your code. For example: if you are using a lightbox style plugin which opens links in overlays.&lt;/p&gt;
+
 &lt;p&gt;Some GTM features can add query strings or hash tags to URLs, depending on the system on the other end of the link, this could cause problems too.&lt;/p&gt;
+
 &lt;p&gt;So test, and limit the publishing permissions on your account to people who know how to test.&lt;/p&gt;
+
 &lt;h2 id=&#34;creating-an-account&#34;&gt;Creating an account&lt;/h2&gt;
+
 &lt;p&gt;Remember how we all went out and got personal Google Analytics accounts and added our clients to them and then stopped working for those clients and it got awkward? Google remembers too.&lt;/p&gt;
+
 &lt;p&gt;You hook an existing personal login up to GTM and then have the option to create accounts. One per business is ideal here. Then you get to set up what Google is calling a container. A container contains all the code snippets you are going to want to run. Google suggests you should create a different container for each website associated with the business that owns the account.&lt;/p&gt;
+
 &lt;p&gt;(This seems like sound advice if you&amp;rsquo;re just getting started but will lead to some code duplication in the long run if you have multiple domains, I have complicated thoughts on this that belong in a separate blog post).&lt;/p&gt;
+
 &lt;p&gt;Once you&amp;rsquo;ve set up a container you get the code snippet. Place the code snippet on the page after the opening &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+
 &lt;h2 id=&#34;what-s-all-this&#34;&gt;What&amp;rsquo;s all this?&lt;/h2&gt;
+
 &lt;p&gt;Your container contains 3 things: tags, triggers, and variables.&lt;/p&gt;
+
 &lt;h3 id=&#34;tags&#34;&gt;Tags&lt;/h3&gt;
-&lt;p&gt;Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;, &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
+
+&lt;p&gt;Tags are individual things to do. Things like &amp;ldquo;listen for links being clicked on&amp;rdquo;, &amp;ldquo;track this page view&amp;rdquo;, &amp;ldquo;listen for form submissions&amp;rdquo;, &amp;ldquo;track this conversion&amp;rdquo;,  &amp;ldquo;track pressing play&amp;rdquo;. They&amp;rsquo;re individual tasks so listening for form submissions and tracking a conversion takes two separate tags.&lt;/p&gt;
+
 &lt;h3 id=&#34;triggers&#34;&gt;Triggers&lt;/h3&gt;
+
 &lt;p&gt;Triggers are when to apply tags. The basic one is &amp;ldquo;on every page&amp;rdquo;. Each trigger can have multiple conditions so you can combine them to create triggers like &amp;ldquo;if this event is a click and it happened on an element that does not link to this website&amp;rdquo;.&lt;/p&gt;
+
 &lt;h3 id=&#34;variables&#34;&gt;Variables&lt;/h3&gt;
-&lt;p&gt;Variables are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, triggers, and other variables by writing its name in {{double curly braces}}.&lt;/p&gt;
+
+&lt;p&gt;Variables are just a way to store stuff you&amp;rsquo;re likely to re-use (mostly text or javascript). There&amp;rsquo;s some pre-populated ones and you can write your own. Stuff I&amp;rsquo;ve been keeping in variables: our analytics tracking number, a line of javascript that retrieves the page title, and a complex regex that checks if the href of a link takes the user off the current site. You reference variables inside tags, triggers, and other variables by writing its name in  {{double curly braces}}.&lt;/p&gt;
+
 &lt;h2 id=&#34;example-tracking-page-views-and-external-link-clicks-with-universal-analytics&#34;&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h2&gt;
+
 &lt;p&gt;My examples are all for Universal Analytics but if you&amp;rsquo;re still using Classic the concept is the same where I pick Universal Analytics from the Tag Type menu pick Google Analytics Classic and do your best with the slightly different options that follow from there.&lt;/p&gt;
+
 &lt;p&gt;This is, more or less, what we&amp;rsquo;ll be setting up, in an order that makes sense to me:&lt;/p&gt;
+
 &lt;ol&gt;
-&lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.&lt;/li&gt;
-&lt;li&gt;Create version&lt;/li&gt;
-&lt;li&gt;Preview&lt;/li&gt;
-&lt;li&gt;Publish&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.&lt;/li&gt;
+    &lt;li&gt;Create version&lt;/li&gt;
+    &lt;li&gt;Preview&lt;/li&gt;
+    &lt;li&gt;Publish&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;I found the actual order somewhat more headache inducing, and that&amp;rsquo;s why I&amp;rsquo;m writing a blog post about it. Hopefully you end up at the end of this list with link tracking and no headache.&lt;/p&gt;
+
 &lt;p&gt;Once you&amp;rsquo;ve followed these steps once hopefully you will understand how the pieces fit together and you can go on to work in the way that makes the most sense to you :)&lt;/p&gt;
+
 &lt;p&gt;This is the part where I list actual steps, this part might change as the product develops.&lt;/p&gt;
+
 &lt;ol&gt;
-&lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.
-&lt;ol&gt;
-&lt;li&gt;In Analytics get your tracking ID from Admin &gt; Property Settings&lt;/li&gt;
-&lt;li&gt;In GTM go to your container&#39;s overview page.&lt;/li&gt;
-&lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;variable&#34; out of the list.&lt;/li&gt;
-&lt;li&gt; Configure the variable like this:
-&lt;dl&gt;
-&lt;dt&gt;Variable Name:&lt;/dt&gt;
-&lt;dd&gt;&lt;kbd&gt;tracking ID&lt;/kbd&gt; (well you can name it whatever you want)&lt;/dd&gt;
-&lt;dt&gt;Variable Type:&lt;/dt&gt;
-&lt;dd&gt;&lt;kbd&gt;Constant String&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Value:&lt;/dt&gt;
-&lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-Or, if prefer a screen shot:&lt;br&gt;
-&lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id variable&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
-&lt;/li&gt;
-&lt;li&gt;Save it.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.
+        &lt;ol&gt;
+            &lt;li&gt;In Analytics get your tracking ID from Admin &gt; Property Settings&lt;/li&gt;
+            &lt;li&gt;In GTM go to your container&#39;s overview page.&lt;/li&gt;
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;variable&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Variable Name:&lt;/dt&gt;
+                    &lt;dd&gt;&lt;kbd&gt;tracking ID&lt;/kbd&gt; (well you can name it whatever you want)&lt;/dd&gt;
+                    &lt;dt&gt;Variable Type:&lt;/dt&gt;
+                    &lt;dd&gt;&lt;kbd&gt;Constant String&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Value:&lt;/dt&gt;
+                    &lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
+                &lt;/dl&gt;
+                Or, if prefer a screen shot:&lt;br&gt;
+                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id variable&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.
+        &lt;ol&gt;
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Pageview&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
+                    &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this trigger, GTM creates it automatically.&lt;/dd&gt;
+                &lt;/dl&gt;
+                Or, if you prefer a screen shot:&lt;br&gt;
+                &lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.
+        &lt;ol&gt;
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
+                &lt;/dl&gt;
+                Leave everything else on the defaults.&lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.
+        &lt;ul&gt;
+            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;trigger&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt;Configure the trigger like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Trigger Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Conditions:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{event}} equals gtm.linkClick&lt;/kbd&gt;&lt;/dd&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}} starts with &lt;/kbd&gt;&lt;em&gt; your site URL&lt;/em&gt; &lt;/dd&gt;
+                &lt;/dl&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ul&gt;
+        I actually use a complex regex in a variable for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
+        &lt;ul&gt;
+            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt;Configure the trigger like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;UA event - outbound link&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking id}}&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Event&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Category:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;outbound-link&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Action:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}}&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Label:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element text}}&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Value:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;1&lt;/kbd&gt;&lt;/dd&gt;
+                &lt;/dl&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ul&gt;
+        If you have an existing implementation you are trying to match so your stats aren&#39;t disrupted you should look in Google Analytics to see what you are currently using for the event category, action and label and match those values instead :)
+    &lt;/li&gt;
+    &lt;li&gt;Create version
+        &lt;ul&gt;
+            &lt;li&gt;On the Container Draft &gt; Overview page the Create Version button is in the top right.&lt;/li&gt;
+            &lt;li&gt;If you really want to be on the ball you can amend the name or add notes to describe what you added in this version, handy in case you want to roll back.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Preview
+        &lt;ul&gt;
+            &lt;li&gt;The Preview button is also on the top right of the Container Draft &gt; Overview screen.&lt;/li&gt;
+            &lt;li&gt;Click Debug in the popover&lt;/li&gt;
+            &lt;li&gt;In the next popover click on the url of your site. This will open a new window with your site and a Tag Manager window at the bottom.&lt;/li&gt;
+            &lt;li&gt;In the window at the bottom check that:
+                &lt;ul&gt;
+                    &lt;li&gt;&#34;Page View - Page&#34; and &#34;Listener - linkClick&#34; have the status &#34;Fired on Tag Manager Load&#34;&lt;/li&gt;
+                    &lt;li&gt;Click on a link and check that &#34;UA event - outbound link&#34; gets added with the status &#34;Fired on Event &#34;gtm.linkClick&#34;. You can usually see it flash to the top before the other page loads but if it&#39;s too fast find (or create) a link with the attribute target=&#34;_blank&#34; to click.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;If something is not working check your triggers and try again.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Also important,&lt;/strong&gt; check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.&lt;/li&gt;
+            &lt;li&gt;Exit preview mode&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;li&gt;Publish (blue button in top right of Container Draft &gt; Overview page)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.
-&lt;ol&gt;
-&lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-&lt;li&gt; Configure the variable like this:
-&lt;dl&gt;
-&lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Pageview&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
-&lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this trigger, GTM creates it automatically.&lt;/dd&gt;
-&lt;/dl&gt;
-Or, if you prefer a screen shot:&lt;br&gt;
-&lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
-&lt;/li&gt;
-&lt;li&gt;Save it.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.
-&lt;ol&gt;
-&lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-&lt;li&gt; Configure the variable like this:
-&lt;dl&gt;
-&lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
-&lt;/dl&gt;
-Leave everything else on the defaults.&lt;/li&gt;
-&lt;li&gt;Save it.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.
-&lt;ul&gt;
-&lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;trigger&#34; out of the list.&lt;/li&gt;
-&lt;li&gt;Configure the trigger like this:
-&lt;dl&gt;
-&lt;dt&gt;Trigger Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Conditions:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{event}} equals gtm.linkClick&lt;/kbd&gt;&lt;/dd&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}} starts with &lt;/kbd&gt;&lt;em&gt; your site URL&lt;/em&gt; &lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/li&gt;
-&lt;li&gt;Save it.&lt;/li&gt;
-&lt;/ul&gt;
-I actually use a complex regex in a variable for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
-&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
-&lt;ul&gt;
-&lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
-&lt;li&gt;Configure the trigger like this:
-&lt;dl&gt;
-&lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;UA event - outbound link&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking id}}&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Event&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Category:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;outbound-link&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Action:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}}&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Label:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element text}}&lt;/kbd&gt;&lt;/dd&gt;
-&lt;dt&gt;Value:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;1&lt;/kbd&gt;&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/li&gt;
-&lt;li&gt;Save it.&lt;/li&gt;
-&lt;/ul&gt;
-If you have an existing implementation you are trying to match so your stats aren&#39;t disrupted you should look in Google Analytics to see what you are currently using for the event category, action and label and match those values instead :)
-&lt;/li&gt;
-&lt;li&gt;Create version
-&lt;ul&gt;
-&lt;li&gt;On the Container Draft &gt; Overview page the Create Version button is in the top right.&lt;/li&gt;
-&lt;li&gt;If you really want to be on the ball you can amend the name or add notes to describe what you added in this version, handy in case you want to roll back.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Preview
-&lt;ul&gt;
-&lt;li&gt;The Preview button is also on the top right of the Container Draft &gt; Overview screen.&lt;/li&gt;
-&lt;li&gt;Click Debug in the popover&lt;/li&gt;
-&lt;li&gt;In the next popover click on the url of your site. This will open a new window with your site and a Tag Manager window at the bottom.&lt;/li&gt;
-&lt;li&gt;In the window at the bottom check that:
-&lt;ul&gt;
-&lt;li&gt;&#34;Page View - Page&#34; and &#34;Listener - linkClick&#34; have the status &#34;Fired on Tag Manager Load&#34;&lt;/li&gt;
-&lt;li&gt;Click on a link and check that &#34;UA event - outbound link&#34; gets added with the status &#34;Fired on Event &#34;gtm.linkClick&#34;. You can usually see it flash to the top before the other page loads but if it&#39;s too fast find (or create) a link with the attribute target=&#34;_blank&#34; to click.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;If something is not working check your triggers and try again.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Also important,&lt;/strong&gt; check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.&lt;/li&gt;
-&lt;li&gt;Exit preview mode&lt;/li&gt;
-&lt;/ul&gt;
-&lt;li&gt;Publish (blue button in top right of Container Draft &gt; Overview page)&lt;/li&gt;
-&lt;/ol&gt;
+
 &lt;p&gt;You can see some changes applied immediately in Analytics on the Real-Time &amp;gt; Overview page. Other events which don&amp;rsquo;t seem to be working on Real-Time occasionally start showing up in the stats a day later. I have no insight to offer here, sorry.&lt;/p&gt;
+
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;So we create tags to do things, triggers to govern when we do the things in the tags, and variables to save ourselves time when creating tags and triggers.&lt;/p&gt;</description></item></channel></rss>
+
+&lt;p&gt;So we create tags to do things, triggers to govern when we do the things in the tags, and variables to save ourselves time when creating tags and triggers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

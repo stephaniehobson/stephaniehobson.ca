@@ -1,18 +1,90 @@
-<!doctype html><html lang=en-ca><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title><meta name=description content><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=stylesheet href=/css/main-83157029.css><link rel=canonical href=https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/><body><header><div class=header><h1 class=header-title><a href=/ class=header-site>Stephanie Hobson</a>
-<span class=header-subtitle>I like to make websites everyone can use.</span></h1><a class=header-about href=/about/><img class=header-avatar src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson"></a></div></header><main><article class=post itemscope itemtype=http://schema.org/BlogPosting><h1 class=post-title itemprop="name headline">FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</h1><div class=post-info><a class=post-link href=https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/ itemprop=url>Permalink</a>
-<time class=post-date datetime=2011-03-09 itemprop=datePublished><a class=post-date-year href=/year/2011/>2011</a>
-March 09</time><ul class=post-tags><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/code/ rel=tag>code</a><li class=post-tag>#<a href=https://stephaniehobson.ca/tags/webdesign/ rel=tag>webdesign</a></ul></div><div class=post-body itemprop=articleBody><p>I hate form styling on the best of days. This is a good example of why:<p>Firefox&rsquo;s buttons are wider than IE&rsquo;s or Webkit&rsquo;s. Why? This little gem in the browser&rsquo;s style sheets:<div class=highlight><pre class=chroma><code class=language-css data-lang=css><span class=nt>button</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;reset&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;button&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;submit&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;file&#34;</span><span class=o>]</span> <span class=o>&gt;</span> <span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;button&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span> <span class=p>{</span>
-    <span class=k>padding</span><span class=p>:</span> <span class=mi>0</span><span class=kt>px</span> <span class=mi>2</span><span class=kt>px</span> <span class=mi>0</span><span class=kt>px</span> <span class=mi>2</span><span class=kt>px</span><span class=p>;</span>
-<span class=p>}</span></code></pre></div><p>That&rsquo;s right, it&rsquo;s 4px wider. Thank you FireFox.<p>Fortunately, we can fix it!<div class=highlight><pre class=chroma><code class=language-css data-lang=css><span class=nt>button</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;reset&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;button&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;submit&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span><span class=o>,</span>
-<span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;file&#34;</span><span class=o>]</span> <span class=o>&gt;</span> <span class=nt>input</span><span class=o>[</span><span class=nt>type</span><span class=o>=</span><span class=s2>&#34;button&#34;</span><span class=o>]</span><span class=p>::</span><span class=nd>-moz-focus-inner</span> <span class=p>{</span>
-    <span class=k>padding</span><span class=p>:</span> <span class=mi>0</span><span class=kt>px</span><span class=p>;</span>
-<span class=p>}</span></code></pre></div><p>That was easy :)<p>We have a class on our site that is applied to every button. I call it &ldquo;formbutton&rdquo; (I didn&rsquo;t get to pick it. My boss picked it 8 years ago. It&rsquo;s a great name isn&rsquo;t it? Epic and enduring.) So I can simplify that code up to this:<div class=highlight><pre class=chroma><code class=language-css data-lang=css><span class=p>.</span><span class=nc>formbutton</span><span class=p>::</span><span class=nd>-moz-focus-inner</span> <span class=p>{</span>
-    <span class=k>padding</span><span class=p>:</span> <span class=mi>0</span><span class=kt>px</span><span class=p>;</span>
-<span class=p>}</span></code></pre></div><p><strong>Want a little more info:</strong><p>I found this with a little help from this article on <a href=http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/>viewing FireFox&rsquo;s default style sheets</a>. The observant among you may notice there is another style in there. It is for keyboard navigation. Use your new found powers wisely, don&rsquo;t remove it without replacing it.<p>Also, here&rsquo;s a link if you&rsquo;re wondering what is up with the <a href=http://www.evotech.net/blog/2007/05/after-v-after-what-is-double-colon-notation/>double colon notation.</a><p>And so far it does not look like there are equivalent pseudo elements in Webkit or IE, but I will admit to not looking very hard since this fixed my problem ;)</div></article></main><footer class=footer><nav class=footer-nav><a href=/about/>About</a> ⁃ <a href=/year/>Archives</a></nav><p class=footer-copy>&copy; Stephanie Hobson 2007- 2018</footer></body></html>
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-43f61513.css">
+<link rel="canonical" href="https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2011-03-09" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2011/">2011</a>
+            March 09
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/code/" rel="tag">code</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign/" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        <p>I hate form styling on the best of days. This is a good example of why:</p>
+
+<p>Firefox&rsquo;s buttons are wider than IE&rsquo;s or Webkit&rsquo;s. Why? This little gem in the browser&rsquo;s style sheets:</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+<p>That&rsquo;s right, it&rsquo;s 4px wider. Thank you FireFox.</p>
+
+<p>Fortunately, we can fix it!</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+<p>That was easy :)</p>
+
+<p>We have a class on our site that is applied to every button. I call it &ldquo;formbutton&rdquo; (I didn&rsquo;t get to pick it. My boss picked it 8 years ago. It&rsquo;s a great name isn&rsquo;t it? Epic and enduring.) So I can simplify that code up to this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">formbutton</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+<p><strong>Want a little more info:</strong></p>
+
+<p>I found this with a little help from this article on <a href="http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/">viewing FireFox&rsquo;s default style sheets</a>. The observant among you may notice there is another style in there. It is for keyboard navigation. Use your new found powers wisely, don&rsquo;t remove it without replacing it.</p>
+
+<p>Also, here&rsquo;s a link if you&rsquo;re wondering what is up with the <a href="http://www.evotech.net/blog/2007/05/after-v-after-what-is-double-colon-notation/">double colon notation.</a></p>
+
+<p>And so far it does not look like there are equivalent pseudo elements in Webkit or IE, but I will admit to not looking very hard since this fixed my problem ;)</p>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a>
+    </nav>
+    <p class="footer-copy">&copy; Stephanie Hobson 2007- 2018</p>
+</footer>
+
+</body>
+</html>
