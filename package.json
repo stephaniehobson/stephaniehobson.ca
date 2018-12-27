@@ -11,13 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
     "gulp-hash": "^4.2.2",
     "gulp-sass": "^4.0.1",
-    "gulp-stylelint": "^7.0.0",
+    "gulp-stylelint": "^8.0.0",
     "stylelint": "^9.4.0"
   },
   "dependencies": {
+    "gulp": "^4.0.0",
     "simple-icons": "^1.8.2"
   }
 }

@@ -5,7 +5,7 @@ const del = require('del');
 const gulpStylelint = require('gulp-stylelint');
 
 // compile SCSS files to CSS
-gulp.task('scss', () => {
+gulp.task('scss', gulp.series(function(done) {
     del(['static/css/**/*']);
     gulp.src('src/scss/main.scss')
         .pipe(sass({outputStyle : 'compressed'}))
@@ -15,10 +15,11 @@ gulp.task('scss', () => {
         .pipe(hash.manifest('hash.json'))
         //Put the map in the data directory
         .pipe(gulp.dest('data/css'));
-});
+    done();
+}));
 
 // lint SCSS files
-gulp.task('scss:lint', () => {
+gulp.task('scss:lint', gulp.series(function(done) {
     return gulp.src('src/scss/**/*.scss')
         .pipe(gulpStylelint({
             reporters: [{
@@ -26,20 +27,22 @@ gulp.task('scss:lint', () => {
                 console: true
             }]
         }));
-});
+    done();
+}));
 
 // hash javascript
-gulp.task('js', () => {
+gulp.task('js', gulp.series(function(done) {
     del(['static/js/**/*']);
     gulp.src('src/js/**/*')
         .pipe(hash())
         .pipe(gulp.dest('static/js'))
         .pipe(hash.manifest('hash.json'))
         .pipe(gulp.dest('data/js'));
-});
+    done();
+}));
 
 // copy icons to public folder
-gulp.task('icons', () => {
+gulp.task('icons', gulp.series(function(done) {
     del(['static/images/icons/*']);
     gulp.src([
         'node_modules/simple-icons/icons/flickr.svg',
@@ -52,16 +55,17 @@ gulp.task('icons', () => {
         .pipe(gulp.dest('static/images/icons'));
     gulp.src('src/images/notist.svg')
         .pipe(gulp.dest('static/images/icons'));
-});
+    done();
+}));
 
 // Watch asset folder for changes
-gulp.task('deploy', ['scss', 'scss:lint', 'js', 'icons']);
+gulp.task('deploy', gulp.series('scss', 'scss:lint', 'js', 'icons'));
 
 // Watch asset folder for changes
-gulp.task('watch', ['scss', 'scss:lint', 'js', 'icons'], () => {
-    gulp.watch('src/scss/**/*', ['scss']);
-    gulp.watch('src/js/**/*', ['js']);
-});
+gulp.task('watch', gulp.series('scss', 'scss:lint', 'js', 'icons', () => {
+    gulp.watch('src/scss/**/*', gulp.series('scss'));
+    gulp.watch('src/js/**/*', gulp.series('js'));
+}));
 
 // Set watch as default task
-gulp.task('default', ['watch']);
+gulp.task('default', gulp.series('watch'));
