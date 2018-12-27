@@ -6,9 +6,9 @@ $color-text: #222222;
 $color-border: $color-text;
 $color-background: #FDFDFD;
 $color-link: #0076CD;
-$color-link-hover: lighten(#0076CD, 15%); //#00A3E4;
-$color-link-visited: #6841CF;
-$color-link-visited-hover: lighten(#6841CF, 10%);// #8E78FF;
+$color-link-hover: lighten($color-link, 15%); //#00A3E4;
+$color-link-visited: #7C5333; //#6841CF;
+$color-link-visited-hover: lighten($color-link-visited, 10%); //#8E78FF;
 $color-embelish: #009531;
 
 /*
