@@ -19,20 +19,21 @@ $avatar-size: var(--avatar-size);
     text-align: center;
 }
 
-.header-site {
-    color: $color-text;
-    display: block;
-    padding-bottom: calc(#{$grid} / 2);
+a.header-site {
+    @include links-subtle;
 }
 
 .header-subtitle {
-    color: #666;
+    color: lighten($color-text, 20%);
     display: block;
     font-size: $fontsize1;
     font-weight: normal;
+    padding-top: calc(#{$grid} / 2);
 }
 
 .header-about {
+    padding: 0.2em;
+    margin: -0.2em;
     display: block;
     left: 50%;
     position: absolute;

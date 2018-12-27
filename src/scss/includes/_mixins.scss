@@ -34,53 +34,96 @@
 
 @mixin links {
     & {
+        border-radius: 1px;
         color: $color-link;
         font-weight: bold;
-        text-decoration: none;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-        color: $color-link-hover;
         text-decoration: underline;
+
+        padding: 0 0.2em;
+        margin: 0 -0.2em;
+        border: 1px solid transparent;
+        border-radius: 1px;
+        box-decoration-break: clone;
+        outline: none;
     }
 
     &:visited {
-        &:hover {
+        color: $color-link-visited;
+    }
+
+    &:hover,
+    &:focus {
+        color: $color-link-hover;
+        text-decoration: none;
+    }
+
+    &:visited {
+        &:hover,
+        &:focus {
             color: $color-link-visited-hover;
         }
+    }
+
+    &:focus {
+        color: #FFF;
+        background: $color-link-hover;
+    }
+
+    &:visited {
+        &:focus {
+            color: #FFF;
+            background: $color-link-visited-hover;
+        }
+    }
+
+    &:active,
+    &:visited:active {
+        color: #FFF;
+        background-color: $color-embelish;
     }
 }
 
 @mixin links-subtle {
     &,
-    &:visited,
-    &:visited:hover,
-    &:hover,
-    &:focus {
+    &:visited {
         color: $color-text;
+    }
+
+    &:focus,
+    &:active {
+        color: #FFF;
     }
 }
 
 @mixin links-block {
     background-color: $color-text;
+    border-radius: 1px;
     color: $color-background;
     display: inline-block;
     line-height: 1;
+    margin: 0;
     padding: 3px 4px 2px;
+
+    &:visited {
+        color: #FFF;
+    }
 
     &:hover,
     &:focus,
     &:active {
         background-color: $color-link-hover;
-        color: $color-text;
+        color: #FFF;
         text-decoration: none;
+        box-shadow: none;
     }
 
-    &:visited:hover {
-        background-color: $color-link-visited-hover;
-        color: $color-background;
+    &:visited {
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $color-link-visited-hover;
+            color: #FFF;
+        }
     }
 }
 

@@ -23,6 +23,7 @@
         display: block;
         font-size: $fontsize5;
         height: 1.2em;
+        line-height: 1.2;
         overflow: hidden;
         position: absolute;
         right: calc(100% + #{$grid});

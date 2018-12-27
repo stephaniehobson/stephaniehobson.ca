@@ -90,6 +90,10 @@
 
     a {
         @include links;
+
+        img {
+            display: block;
+        }
     }
 
     sup {
