@@ -5,7 +5,7 @@
 <title>Typography Test Page</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-42943d67.css">
+<link rel="stylesheet" href="/css/main-0946481c.css">
 <meta name="robots" content="noindex">
 
 <body>
@@ -30,11 +30,12 @@
     <h1>Typography Test Page</h1>
 <div>
     <p><h1>Heading 1</h1>
+<p>This bug seems to apply to styling elements under a class or id within a link on hover.  Stuff like <code>.class a:hover span{}</code> or <code>#id a:hover strong{}</code>.  The solution is to define a property on the parent link <code>.class a:hover{}</code> that hasn’t been declared anywhere else in your CSS, like a text indent of 0 or something.</p>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
-<blockquote>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, &lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you&rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&rsquo;m Constable Jason Priestly.</blockquote>
+<blockquote>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, &lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? </blockquote>
 <h4>Heading 4</h4>
-<p>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, &lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you&rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&rsquo;m Constable Jason Priestly.</p>
+<p>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, <a href="#">&lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation</a>. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? </p>
 <p>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, &lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you&rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&rsquo;m Constable Jason Priestly.</p>
 <dl>
   <dt>Term</dt>
@@ -51,22 +52,154 @@
   <li>two</li>
   <li>three</li>
   <li>four</li>
-</ul>
-<p>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, &lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you&rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&rsquo;m Constable Jason Priestly.</p>
-<pre><code>
-&lt;a href=&quot;<a href="http://www.example.com&quot;">http://www.example.com&quot;</a>
-    onclick=&quot;trackOutboundLink(&lsquo;<a href="http://www.example.com'">http://www.example.com'</a>); return false;&quot;&gt;
-        Check out example.com
-&lt;/a&gt;</p>
+</ul></p>
 
-<p>var trackOutboundLink = function(url) {
-    ga(&lsquo;send&rsquo;, &lsquo;event&rsquo;, &lsquo;outbound&rsquo;, &lsquo;click&rsquo;, url, {
-        &lsquo;transport&rsquo;: &lsquo;beacon&rsquo;,
-        &lsquo;hitCallback&rsquo;: function(){document.location = url;}
-    });
-}
-</pre></code>
-<p>I don&rsquo;t know who&rsquo;s telling you that Mario Lemieux is the brains of the operation, &lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you&rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&rsquo;m Constable Jason Priestly.</p></p>
+<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>My CSS experiment<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;style.css&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello World!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">p</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;test test2&#34;</span><span class="p">&gt;</span>This is my first CSS example<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- comment --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>This is<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>a list<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;http://www.example.com&#34;</span>
+    <span class="na">onclick</span><span class="o">=</span><span class="s">&#34;trackOutboundLink(&#39;http://www.example.com&#39;); return false;&#34;</span><span class="p">&gt;</span>
+        Check out example.com
+    <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(/</span><span class="nt">Stuff</span><span class="o">)</span><span class="p">;</span>
+<span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;/Stuff&#39;</span><span class="o">)</span><span class="p">;</span>
+
+<span class="p">@</span><span class="k">font-face</span> <span class="p">{</span>
+    <span class="nt">src</span><span class="o">:</span> <span class="nt">url</span><span class="o">(</span><span class="nt">Stuff</span><span class="o">);</span>
+    <span class="nt">font-family</span><span class="o">:</span> <span class="s1">&#39;main&#39;</span><span class="o">;</span>
+<span class="p">}</span>
+<span class="c">/* comment */</span>
+<span class="p">#</span><span class="nn">id</span> <span class="p">.</span><span class="nc">class</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+    <span class="k">color</span><span class="p">:</span> <span class="mh">#00f</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">blue</span><span class="p">;</span>
+  <span class="k">background-color</span><span class="p">:</span> <span class="kc">yellow</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="k">border</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="kc">black</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="p">:</span><span class="nd">first-child</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+  <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nt">p</span><span class="o">,</span> <span class="nt">li</span> <span class="p">{</span>
+  <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">underline</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// comment
+</span><span class="c1"></span><span class="cm">/*
+</span><span class="cm">   multi
+</span><span class="cm">   line
+</span><span class="cm">   comment
+</span><span class="cm"> */</span>
+<span class="kd">var</span> <span class="nx">trackOutboundLink</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">url</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">ga</span><span class="p">(</span><span class="s1">&#39;send&#39;</span><span class="p">,</span> <span class="s1">&#39;event&#39;</span><span class="p">,</span> <span class="s1">&#39;outbound&#39;</span><span class="p">,</span> <span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">url</span><span class="p">,</span> <span class="p">{</span>
+        <span class="s1">&#39;transport&#39;</span><span class="o">:</span> <span class="s1">&#39;beacon&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;hitCallback&#39;</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span><span class="nb">document</span><span class="p">.</span><span class="nx">location</span> <span class="o">=</span> <span class="nx">url</span><span class="p">;}</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+<span class="kd">let</span> <span class="nx">randomNumber</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="k">const</span> <span class="nx">guesses</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.guesses&#39;</span><span class="p">);</span>
+<span class="k">const</span> <span class="nx">lastResult</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.lastResult&#39;</span><span class="p">);</span>
+<span class="k">const</span> <span class="nx">lowOrHi</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.lowOrHi&#39;</span><span class="p">);</span>
+
+<span class="k">const</span> <span class="nx">guessSubmit</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.guessSubmit&#39;</span><span class="p">);</span>
+<span class="k">const</span> <span class="nx">guessField</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;.guessField&#39;</span><span class="p">);</span>
+
+<span class="kd">let</span> <span class="nx">guessCount</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">resetButton</span><span class="p">;</span>
+
+<span class="kd">let</span> <span class="nx">test</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<span class="nx">test</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+
+
+<span class="kd">var</span> <span class="nx">Prism</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+
+<span class="c1">// Private helper vars
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">lang</span> <span class="o">=</span> <span class="sr">/\blang(?:uage)?-([\w-]+)\b/i</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">uniqueId</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kd">var</span> <span class="nx">_</span> <span class="o">=</span> <span class="nx">_self</span><span class="p">.</span><span class="nx">Prism</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">manual</span><span class="o">:</span> <span class="nx">_self</span><span class="p">.</span><span class="nx">Prism</span> <span class="o">&amp;&amp;</span> <span class="nx">_self</span><span class="p">.</span><span class="nx">Prism</span><span class="p">.</span><span class="nx">manual</span><span class="p">,</span>
+    <span class="nx">disableWorkerMessageHandler</span><span class="o">:</span> <span class="nx">_self</span><span class="p">.</span><span class="nx">Prism</span> <span class="o">&amp;&amp;</span> <span class="nx">_self</span><span class="p">.</span><span class="nx">Prism</span><span class="p">.</span><span class="nx">disableWorkerMessageHandler</span><span class="p">,</span>
+    <span class="nx">util</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">encode</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">tokens</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nx">tokens</span> <span class="k">instanceof</span> <span class="nx">Token</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="k">new</span> <span class="nx">Token</span><span class="p">(</span><span class="nx">tokens</span><span class="p">.</span><span class="nx">type</span><span class="p">,</span> <span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">encode</span><span class="p">(</span><span class="nx">tokens</span><span class="p">.</span><span class="nx">content</span><span class="p">),</span> <span class="nx">tokens</span><span class="p">.</span><span class="nx">alias</span><span class="p">);</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="nx">tokens</span><span class="p">)</span> <span class="o">===</span> <span class="s1">&#39;Array&#39;</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="nx">tokens</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">encode</span><span class="p">);</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="nx">tokens</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/&amp;/g</span><span class="p">,</span> <span class="s1">&#39;&amp;amp;&#39;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/&lt;/g</span><span class="p">,</span> <span class="s1">&#39;&amp;lt;&#39;</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\u00a0/g</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">},</span>
+
+        <span class="nx">type</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">o</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">toString</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nx">o</span><span class="p">).</span><span class="nx">slice</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">);</span>
+        <span class="p">},</span>
+
+        <span class="nx">objId</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">obj</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">obj</span><span class="p">[</span><span class="s1">&#39;__id&#39;</span><span class="p">])</span> <span class="p">{</span>
+                <span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nx">obj</span><span class="p">,</span> <span class="s1">&#39;__id&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">value</span><span class="o">:</span> <span class="o">++</span><span class="nx">uniqueId</span> <span class="p">});</span>
+            <span class="p">}</span>
+            <span class="k">return</span> <span class="nx">obj</span><span class="p">[</span><span class="s1">&#39;__id&#39;</span><span class="p">];</span>
+        <span class="p">},</span>
+
+        <span class="c1">// Deep clone a language definition (e.g. to extend it)
+</span><span class="c1"></span>        <span class="nx">clone</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">o</span><span class="p">,</span> <span class="nx">visited</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">type</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">type</span><span class="p">(</span><span class="nx">o</span><span class="p">);</span>
+            <span class="nx">visited</span> <span class="o">=</span> <span class="nx">visited</span> <span class="o">||</span> <span class="p">{};</span>
+
+            <span class="k">switch</span> <span class="p">(</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">case</span> <span class="s1">&#39;Object&#39;</span><span class="o">:</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="nx">visited</span><span class="p">[</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">objId</span><span class="p">(</span><span class="nx">o</span><span class="p">)])</span> <span class="p">{</span>
+                        <span class="k">return</span> <span class="nx">visited</span><span class="p">[</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">objId</span><span class="p">(</span><span class="nx">o</span><span class="p">)];</span>
+                    <span class="p">}</span>
+                    <span class="kd">var</span> <span class="nx">clone</span> <span class="o">=</span> <span class="p">{};</span>
+                    <span class="nx">visited</span><span class="p">[</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">objId</span><span class="p">(</span><span class="nx">o</span><span class="p">)]</span> <span class="o">=</span> <span class="nx">clone</span><span class="p">;</span>
+
+                    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">key</span> <span class="k">in</span> <span class="nx">o</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="nx">o</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="nx">key</span><span class="p">))</span> <span class="p">{</span>
+                            <span class="nx">clone</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">clone</span><span class="p">(</span><span class="nx">o</span><span class="p">[</span><span class="nx">key</span><span class="p">],</span> <span class="nx">visited</span><span class="p">);</span>
+                        <span class="p">}</span>
+                    <span class="p">}</span>
+
+                    <span class="k">return</span> <span class="nx">clone</span><span class="p">;</span>
+
+                <span class="k">case</span> <span class="s1">&#39;Array&#39;</span><span class="o">:</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="nx">visited</span><span class="p">[</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">objId</span><span class="p">(</span><span class="nx">o</span><span class="p">)])</span> <span class="p">{</span>
+                        <span class="k">return</span> <span class="nx">visited</span><span class="p">[</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">objId</span><span class="p">(</span><span class="nx">o</span><span class="p">)];</span>
+                    <span class="p">}</span>
+                    <span class="kd">var</span> <span class="nx">clone</span> <span class="o">=</span> <span class="p">[];</span>
+                    <span class="nx">visited</span><span class="p">[</span><span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">objId</span><span class="p">(</span><span class="nx">o</span><span class="p">)]</span> <span class="o">=</span> <span class="nx">clone</span><span class="p">;</span>
+
+                    <span class="nx">o</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">v</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="nx">clone</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">util</span><span class="p">.</span><span class="nx">clone</span><span class="p">(</span><span class="nx">v</span><span class="p">,</span> <span class="nx">visited</span><span class="p">);</span>
+                    <span class="p">});</span>
+
+                    <span class="k">return</span> <span class="nx">clone</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="k">return</span> <span class="nx">o</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>I don't know who's telling you that Mario Lemieux is the brains of the operation, 'cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick  in these machines, eh? And Deadmau5, you've been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I'm Constable Jason Priestly.</p>
 
 </div>
 
