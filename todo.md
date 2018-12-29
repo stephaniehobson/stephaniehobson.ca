@@ -1,6 +1,5 @@
 - fix external links that 307 (mass find and replace http?)
 - make header not a h1 anymore
-- add "archive" or some other prefix to tags and year page titles?
 - title on EOF character
 - apply arrow fix to mobile (make it not transition if that looks bad)
     - needs to not make post an extra line when hovered
@@ -12,7 +11,6 @@
     - add fallback margins on elements that don't get them
 - add DCC video
 - print styles
-- link to tag list
 - do I need to alias short URLs? ... can I?
     <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
 - add static files to site map
@@ -25,14 +23,11 @@
 - twitter replacement, micro blogs
   - import Tweets
 - service worker to cache articles
-- Implement code syntax styling
 - Decide on grid size and implement
 - Review each post
 - Next/Prev Links on individual posts (or other CTA at bottom of post)
-- Reader view
 - Write & implement summaries for posts
-- still need "webdesign" category? Isn't the whole blog about it?
-- fix posts with <dl>s
+- fix posts with dls
 - fix posts with HTML tags
 - warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")
 - most recent instagram and twitter posts
@@ -102,3 +97,8 @@ Done:
 - youtube short code
 - slide share short code
 - linting
+- add "archive" or some other prefix to tags and year page titles?
+- link to tag list
+- Implement code syntax styling
+- Reader view
+- still need "webdesign" category? Isn't the whole blog about it?
