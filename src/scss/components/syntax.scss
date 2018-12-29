@@ -1,0 +1,435 @@
+$color-default: #545454;
+$color-tag: #0161AE;
+$color-comment: #848484;
+$color-string: #7C5333;
+$color-keyword: #009531;
+$color-number: $color-string;
+$color-regex: #6841CF;
+$color-operator: $color-default;
+$color-error: #EB2B22;
+
+.chroma {
+
+    /* Background */
+    & {
+        color: $color-default;
+        background: #FFF;
+        font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+        text-align: left;
+        white-space: pre;
+        word-spacing: normal;
+        word-break: normal;
+        word-wrap: normal;
+        line-height: 1.5;
+
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        tab-size: 4;
+
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+    }
+
+    /* Error */
+    .err {
+        color: $color-error;
+        background-color: rgb(255, 226, 226);
+    }
+
+    /* LineTableTD */
+    .lntd {
+        vertical-align: top;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    /* LineTable */
+    .lntable {
+        border-spacing: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: auto;
+        overflow: auto;
+        display: block;
+    }
+
+    /* LineHighlight */
+    .hl {
+        display: block;
+        width: 100%;
+        background-color: #FFFFCC;
+    }
+
+    /* LineNumbersTable */
+    .lnt {
+        margin-right: 0.4em;
+        padding: 0 0.4em 0 0.4em;
+    }
+
+    /* LineNumbers */
+    .ln {
+        margin-right: 0.4em;
+        padding: 0 0.4em 0 0.4em;
+    }
+
+    /* Keyword */
+    .k {
+        color: $color-keyword;
+    }
+    /* KeywordConstant */
+    .kc {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* KeywordDeclaration */
+    .kd {
+        color: $color-keyword;
+    }
+    /* KeywordNamespace */
+    .kn {
+        color: $color-keyword;
+    }
+    /* KeywordPseudo */
+    .kp {
+        color: $color-keyword;
+    }
+    /* KeywordReserved */
+    .kr {
+        color: $color-keyword;
+    }
+    /* KeywordType */
+    .kt {
+        color: $color-keyword;
+    }
+
+    /* NameAttribute */
+    .na {
+        color: $color-keyword;
+    }
+    /* NameBuiltin */
+    .nb {
+        color: $color-tag;
+    }
+    /* NameClass */
+    .nc {
+        color: $color-tag;
+    }
+    /* NameConstant */
+    .no {
+        color: #003366;
+        font-weight: bold;
+    }
+    /* NameDecorator */
+    .nd {
+        color: #555555;
+        font-weight: bold;
+    }
+    /* NameEntity */
+    .ni {
+        color: #880000;
+        font-weight: bold;
+    }
+    /* NameException */
+    .ne {
+        color: $color-error;
+        font-weight: bold;
+    }
+    /* NameFunction */
+    .nf {
+        color: #0066BB;
+        font-weight: bold;
+    }
+    /* NameLabel */
+    .nl {
+        color: #997700;
+        font-weight: bold;
+    }
+    /* NameNamespace */
+    .nn {
+        color: #0E84B5;
+        font-weight: bold;
+    }
+    /* NameTag */
+    .nt {
+        color: $color-tag;
+    }
+    /* NameVariable */
+    .nv {
+        color: #996633;
+    }
+    /* NameVariableClass */
+    .vc {
+        color: #336699;
+    }
+    /* NameVariableGlobal */
+    .vg {
+        color: #DD7700;
+        font-weight: bold;
+    }
+    /* NameVariableInstance */
+    .vi {
+        color: #3333BB;
+    }
+
+    /* LiteralString */
+    .s {
+        color: $color-string;
+    }
+    /* LiteralStringAFFix */
+    .sa {
+        color: $color-string;
+    }
+    /* LiteralStringBacktick */
+    .sb {
+        color: $color-string;
+    }
+    /* LiteralStringChar */
+    .sc {
+        color: $color-string;
+    }
+    /* LiteralStringDelimiter */
+    .dl {
+        color: $color-string;
+    }
+    /* LiteralStringDoc */
+    .sd {
+        color: $color-string;
+    }
+    /* LiteralStringDouble */
+    .s2 {
+        color: $color-string;
+    }
+    /* LiteralStringEscape */
+    .se {
+        color: $color-string;
+    }
+    /* LiteralStringHeredoc */
+    .sh {
+        color: $color-string;
+    }
+    /* LiteralStringInterpol */
+    .si {
+        color: $color-string;
+    }
+    /* LiteralStringOther */
+    .sx {
+        color: $color-string;
+    }
+    /* LiteralStringRegex */
+    .sr {
+        color: $color-regex;
+    }
+    /* LiteralStringSingle */
+    .s1 {
+        color: $color-string;
+    }
+    /* LiteralStringSymbol */
+    .ss {
+        color: $color-string;
+    }
+
+    /* LiteralNumber */
+    .m {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* LiteralNumberBin */
+    .mb {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* LiteralNumberFloat */
+    .mf {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* LiteralNumberHex */
+    .mh {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* LiteralNumberInteger */
+    .mi {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* LiteralNumberIntegerLong */
+    .il {
+        color: $color-number;
+        font-weight: bold;
+    }
+    /* LiteralNumberOct */
+    .mo {
+        color: $color-number;
+        font-weight: bold;
+    }
+
+    /* Operator */
+    .o {
+        color: $color-operator;
+    }
+    /* OperatorWord */
+    .ow {
+        color: $color-operator;
+        font-weight: bold;
+    }
+
+    /* Comment */
+    .c {
+        color: $color-comment;
+    }
+    /* CommentHashbang */
+    .ch {
+        color: $color-comment;
+    }
+    /* CommentMultiline */
+    .cm {
+        color: $color-comment;
+    }
+    /* CommentSingle */
+    .c1 {
+        color: $color-comment;
+    }
+    /* CommentSpecial */
+    .cs {
+        color: $color-error;
+        font-weight: bold;
+    }
+    /* CommentPreproc */
+    .cp {
+        color: $color-error;
+    }
+    /* CommentPreprocFile */
+    .cpf {
+        color: $color-comment;
+    }
+
+    /* GenericDeleted */
+    .gd {
+        color: $color-error;
+    }
+    /* GenericEmph */
+    .ge {
+        font-style: italic;
+    }
+
+    /* GenericError */
+    .gr {
+        color: $color-error;
+    }
+    /* GenericHeading */
+    .gh {
+        color: #000080;
+        font-weight: bold;
+    }
+    /* GenericInserted */
+    .gi {
+        color: #00A000;
+    }
+    /* GenericOutput */
+    .go {
+        color: #888888;
+    }
+    /* GenericPrompt */
+    .gp {
+        color: #C65D09;
+        font-weight: bold;
+    }
+    /* GenericStrong */
+    .gs {
+        font-weight: bold;
+    }
+    /* GenericSubheading */
+    .gu {
+        color: #800080;
+        font-weight: bold;
+    }
+    /* GenericTraceback */
+    .gt {
+        color: #0044DD;
+    }
+    /* GenericUnderline */
+    .gl {
+        text-decoration: underline;
+    }
+
+    /* TextWhitespace */
+    .w {
+        color: #BBBBBB;
+    }
+
+    /* Puncuation */
+    .p {
+        color: $color-comment;
+    }
+
+    .language-css {
+        /* KeywordConstant */
+        .kc {
+            color: $color-default;
+            font-weight: normal;
+        }
+
+        /* KeywordType */
+        .kt {
+            color: $color-number;
+        }
+
+        /* LiteralNumber */
+        .m {
+            font-weight: normal;
+        }
+        /* LiteralNumberBin */
+        .mb {
+            font-weight: normal;
+        }
+        /* LiteralNumberFloat */
+        .mf {
+            font-weight: normal;
+        }
+        /* LiteralNumberHex */
+        .mh {
+            font-weight: normal;
+            color: $color-number;
+        }
+        /* LiteralNumberInteger */
+        .mi {
+            font-weight: normal;
+            color: $color-number;
+        }
+        /* LiteralNumberIntegerLong */
+        .il {
+            font-weight: normal;
+            color: $color-number;
+        }
+        /* LiteralNumberOct */
+        .mo {
+            font-weight: normal;
+            color: $color-number;
+        }
+
+        /* NameClass */
+        .nc {
+            font-weight: normal;
+            color: $color-tag;
+        }
+        /* NameNamespace */
+        .nn {
+            font-weight: normal;
+            color: $color-tag;
+        }
+        /* NameDecorator */
+        .nd {
+            font-weight: normal;
+            color: $color-tag;
+        }
+        /* NameBuiltin */
+        .nb {
+            color: $color-tag;
+        }
+    }
+}

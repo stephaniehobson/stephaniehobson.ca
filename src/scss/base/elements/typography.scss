@@ -104,7 +104,7 @@
     }
 
     pre {
-        border: 1px solid #000;
+        border: 1px solid #848484;
         max-width: 100%;
         overflow-x: scroll;
         padding: $grid;
@@ -112,5 +112,14 @@
 
     code {
         max-width: 100%;
+
+        p &,
+        li &,
+        dl & {
+            margin: 0 2px;
+            padding: 0 2px;
+            background-color: #F1F1F1;
+            border-radius: 3px;
+        }
     }
 }

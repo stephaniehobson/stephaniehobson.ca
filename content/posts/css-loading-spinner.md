@@ -22,42 +22,42 @@ It's one `<div>` containing 8 `<span>`s, styled to be little grey lozenges:
 
 ```css
 .spinner span {
-    display:block;
-    height:13px;
-    width:5px;
+    display: block;
+    height: 13px;
+    width: 5px;
     border-radius: 2px;
-    background-color:rgba(77, 77, 77,0.5);
-    ...
+    background-color: rgba(77, 77, 77, 0.5);
+}
 ```
 
 In anticipation of rotating them I moved the `transform-origin` to the middle of the element and then a significant way down beneath it. Later, when I rotate the lozenges this spaces them further apart.
 
 ```css
-    ...
+.spinner span {
     transform-origin: 50% 160%;
-    ...
+}
 ```
 
 They all have a simple animation applied to them that makes them fade in and out (it has a bit of an opacity on it just for fun):
 
 ```css
-    ...
+.spinner span {
     animation-name: fade;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-fill-mode:backwards;
+    animation-fill-mode: backwards;
 }
 
 @keyframes fade {
     0% {
-        background-color:rgba(77, 77, 77,0.8);
+        background-color: rgba(77, 77, 77,0.8);
     }
     40% {
-        background-color:rgba(77, 77, 77,0.8);
+        background-color: rgba(77, 77, 77,0.8);
     }
     100% {
-        background-color:rgba(255, 255, 255,0.8);
+        background-color: rgba(255, 255, 255,0.8);
     }
 }
 ```
