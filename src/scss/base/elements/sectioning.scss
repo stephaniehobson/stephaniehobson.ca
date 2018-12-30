@@ -5,3 +5,10 @@ main {
     padding: 0 $indent;
     position: relative;
 }
+
+hr {
+    border: none;
+    border-top: $divider;
+    margin: $grid 0 0 0; // have to use margin for top padding
+    padding: 0 0 $grid 0;
+}
