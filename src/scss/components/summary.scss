@@ -17,6 +17,29 @@
     padding-bottom: $grid;
 }
 
+a.summary-title-link {
+    @include links-subtle;
+
+    &:after {
+        content: '➡';
+        color: $color-link;
+        text-decoration: underline;
+    }
+
+    &:visited:after {
+        color: $color-link-visited;
+    }
+
+    &:visited:hover:after,
+    &:visited:focus:after,
+    &:visited:active:after,
+    &:hover:after,
+    &:focus:after,
+    &:active:after {
+        color: inherit;
+    }
+}
+
 .summary-date-year {
     @include links-block;
 }

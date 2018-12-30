@@ -1,7 +1,7 @@
 @import '../includes/vars';
 
 @mixin container() {
-    max-width: 60ch;
+    max-width: 64ch;
     margin: 0 auto;
 }
 
@@ -84,14 +84,15 @@
 }
 
 @mixin links-subtle {
-    &,
-    &:visited {
+    & {
         color: $color-text;
+        text-decoration: none;
     }
 
+    &:hover,
     &:focus,
     &:active {
-        color: #FFF;
+        text-decoration: underline;
     }
 }
 

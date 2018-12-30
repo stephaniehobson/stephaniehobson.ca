@@ -9,12 +9,11 @@
 .footer-nav {
     float: left;
     padding: $grid $grid $grid 0;
-    line-height: 1.2rem;
     white-space: nowrap;
 }
 
 .footer-copy {
     float: right;
-    font-size: $fontsize-1;
-    line-height: 1.2rem;
+    white-space: nowrap;
+    padding-left: $grid;
 }

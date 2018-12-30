@@ -1,3 +1,5 @@
+- style heading links on homepage to be less distracting (add the arrow back?)
+- lists with 2 digits on mobile
 - fix external links that 307 (mass find and replace http?)
 - make header not a h1 anymore
 - title on EOF character
