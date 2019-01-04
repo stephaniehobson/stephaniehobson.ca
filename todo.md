@@ -1,3 +1,4 @@
+- add instagram link?
 - style heading links on homepage to be less distracting (add the arrow back?)
 - lists with 2 digits on mobile
 - fix external links that 307 (mass find and replace http?)
@@ -44,6 +45,7 @@
 
 
 Done:
+- remove Flickr
 - re-order CSS to push variables first in source
 - fix 301 links to tag and year pages (add trailing /)
 - Migrate from categories to just tags

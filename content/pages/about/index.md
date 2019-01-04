@@ -17,6 +17,6 @@ I stumbled into my career in web development while working on a BA in History. I
 
 I started my career as the primary front-end developer for [BCIT.ca](https://www.bcit.ca/). I took some time out to work for an agency. Then I joined Mozilla, first on [MDN](https://developer.mozilla.org/) and now on [Mozilla.org](https://www.mozilla.org/). So, I have experience working on both huge old websites and small young ones — always as part of a team.
 
-<!-- Invisibility is my super power. Bad spelling is my signature move. -->
+<!-- Crashing Apple products is my crummy super power. Bad spelling is my signature move. -->
 
 <!-- it ends abruptly -->

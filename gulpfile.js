@@ -45,7 +45,6 @@ gulp.task('js', gulp.series(function(done) {
 gulp.task('icons', gulp.series(function(done) {
     del(['static/images/icons/*']);
     gulp.src([
-        'node_modules/simple-icons/icons/flickr.svg',
         'node_modules/simple-icons/icons/github.svg',
         'node_modules/simple-icons/icons/pinboard.svg',
         'node_modules/simple-icons/icons/twitter.svg',
