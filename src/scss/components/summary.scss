@@ -30,13 +30,25 @@ a.summary-title-link {
         color: $color-link-visited;
     }
 
+    &:visited:hover,
+    &:hover,
     &:visited:hover:after,
+    &:hover:after {
+        color: $color-link-hover;
+    }
+
+    &:visited:focus,
+    &:focus,
     &:visited:focus:after,
+    &:focus:after {
+        color: #fff;
+    }
+
+    &:visited:active,
+    &:active,
     &:visited:active:after,
-    &:hover:after,
-    &:focus:after,
     &:active:after {
-        color: inherit;
+        color: #fff;
     }
 }
 
