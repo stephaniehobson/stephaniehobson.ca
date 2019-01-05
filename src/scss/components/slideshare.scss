@@ -4,6 +4,7 @@
 .slideshare-slides {
     @include intrinsic();
     border: $divider;
+    margin: 0 $outdent;
 }
 
 .slideshare-credit {

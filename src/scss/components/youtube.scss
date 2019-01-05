@@ -4,4 +4,5 @@
 .youtube {
     @include intrinsic();
     border: $divider;
+    margin: 0 $outdent;
 }

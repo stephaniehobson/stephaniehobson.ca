@@ -1,11 +1,8 @@
 - add instagram link?
-- style heading links on homepage to be less distracting (add the arrow back?)
 - lists with 2 digits on mobile
 - fix external links that 307 (mass find and replace http?)
 - make header not a h1 anymore
 - title on EOF character
-- apply arrow fix to mobile (make it not transition if that looks bad)
-    - needs to not make post an extra line when hovered
 - improve non css variables experience
     - give user pic a px size fallback
     - give small text a px size fallback
@@ -18,7 +15,6 @@
 - add static files to site map
 - shrink images on print styles post
 - update coverflow page with new code & prefixes
-- make slide share and videos take up full width of <main>
 - review heading levels
 - pagination for home page
 - useful 404 page
@@ -44,6 +40,7 @@
 
 
 Done:
+- make slide share and videos take up full width of <main>
 - print styles
 - remove Flickr
 - re-order CSS to push variables first in source
