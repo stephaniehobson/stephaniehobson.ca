@@ -10,6 +10,8 @@
     float: left;
     padding: $grid $grid $grid 0;
     white-space: nowrap;
+
+    @extend %print-no;
 }
 
 .footer-copy {

@@ -13,7 +13,6 @@
     - fix wide code snippets
     - add fallback margins on elements that don't get them
 - add DCC video
-- print styles
 - do I need to alias short URLs? ... can I?
     <link rel='shortlink' href='http://stephaniehobson.ca/?p=792' />
 - add static files to site map
@@ -45,6 +44,7 @@
 
 
 Done:
+- print styles
 - remove Flickr
 - re-order CSS to push variables first in source
 - fix 301 links to tag and year pages (add trailing /)

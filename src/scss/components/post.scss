@@ -61,6 +61,8 @@
         display: block;
         margin-left: $outdent;
         padding: calc(#{$grid} * 2) 0 0 0;
+
+        @extend %print-no;
     }
 }
 
