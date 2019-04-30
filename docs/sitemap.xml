@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/</loc>
+    <lastmod>2019-04-30T16:36:56-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</loc>
     <lastmod>2018-08-23T07:58:00+00:00</lastmod>
   </url>
@@ -404,7 +409,7 @@
   
   <url>
     <loc>https://stephaniehobson.ca/posts/</loc>
-    <lastmod>2018-08-23T07:58:00+00:00</lastmod>
+    <lastmod>2019-04-30T16:36:56-05:00</lastmod>
   </url>
   
   <url>
@@ -474,6 +479,12 @@
   </url>
   
   <url>
+    <loc>https://stephaniehobson.ca/year/2019/</loc>
+    <lastmod>2019-04-30T16:36:56-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stephaniehobson.ca/about/</loc>
   </url>
   
@@ -503,7 +514,7 @@
   
   <url>
     <loc>https://stephaniehobson.ca/tags/code/</loc>
-    <lastmod>2012-07-10T16:26:19+00:00</lastmod>
+    <lastmod>2019-04-30T16:36:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -550,7 +561,7 @@
   
   <url>
     <loc>https://stephaniehobson.ca/</loc>
-    <lastmod>2018-08-23T07:58:00+00:00</lastmod>
+    <lastmod>2019-04-30T16:36:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -577,7 +588,7 @@
   
   <url>
     <loc>https://stephaniehobson.ca/tags/webdesign/</loc>
-    <lastmod>2018-08-23T07:58:00+00:00</lastmod>
+    <lastmod>2019-04-30T16:36:56-05:00</lastmod>
     <priority>0</priority>
   </url>
   

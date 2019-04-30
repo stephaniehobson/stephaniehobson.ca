@@ -6,10 +6,63 @@
     <description>Recent content in Webdesign on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Thu, 23 Aug 2018 07:58:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 16:36:56 -0500</lastBuildDate>
     
         <atom:link href="https://stephaniehobson.ca/tags/webdesign/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Tinypng to optimize images from the command line</title>
+      <link>https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/</link>
+      <pubDate>Tue, 30 Apr 2019 16:36:56 -0500</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/</guid>
+      <description>&lt;p&gt;Our team has identified image optimization as one of the more time consuming and often forgotten steps of our current process. In the long run we want to automate it using a git pre-commit hook. As the first step to this I&amp;rsquo;ve got PNG and JPG optimization working manually using &lt;a href=&#34;https://tinypng.com/&#34;&gt;TinyPNG&lt;/a&gt; from the command line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git diff --diff-filter=ACM --name-only HEAD | grep &amp;quot;.png\|.jpg&amp;quot; | xargs tinypng
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To set this up:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://tinypng.com/developers&#34;&gt;Get a TinyPNG API key&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Save the API key in a file named &lt;code&gt;.tinypng&lt;/code&gt; in your home directory.&lt;/li&gt;
+&lt;li&gt;Install the &lt;a href=&#34;https://www.npmjs.com/package/tinypng-cli&#34;&gt;npm TinyPNG CLI&lt;/a&gt;.
+Because it&amp;rsquo;s not part of our site yet I installed it globally:
+&lt;code&gt;
+npm install -g tinypng-cli
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add the files you want to optimize to Git&amp;rsquo;s staging area. (&lt;code&gt;git add *&lt;/code&gt; will add all the files you&amp;rsquo;ve edited)&lt;/li&gt;
+&lt;li&gt;Run &lt;code&gt;git diff --diff-filter=ACM --name-only HEAD | grep &amp;quot;.png\|.jpg&amp;quot; | xargs tinypng&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add add the new modified files to your Git staging area before committing.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What it&amp;rsquo;s doing:&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Telling Git we want to a list of differences between two things&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;--diff-filter=ACM&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Filtering what we want to compare to include only Additions, Changes, and Modifications&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;--name-only&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Asking for just the file names instead of the full output.&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;HEAD&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;One of the two things we&amp;rsquo;re comparing is the files in the staging area. Specifying &lt;code&gt;HEAD&lt;/code&gt; here says to compare them to the files in the most recent commit.&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;|&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;This is a &amp;ldquo;pipe&amp;rdquo;, it passes the results of the Git diff to the next command.&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;grep&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Grep is a command line search tool.&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;&amp;quot;.png\|.jpg&amp;quot;&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;I&amp;rsquo;m using grep to find only the files with .png or .jpg file extensions.&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;|&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Another pipe to pass our reduced list of files on to the next step.&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;xargs&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;This is the results of the grep. (Why it goes here instead of after the next command I do not know.)&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;tinypng&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;Finally we get tinypng to do its magic. The compressed files will replace the originals.&lt;/dd&gt;
+&lt;/dl&gt;
+</description>
+    </item>
     
     <item>
       <title>How to make a chart of your users&#39; window sizes</title>
@@ -673,38 +726,6 @@ large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This means that the &lt;code&gt;ga&lt;/code&gt; object will not be added to the global scope for our page, but that&amp;rsquo;s okay, the code snippet above handles that case gracefully as well.&lt;/p&gt;
 
 &lt;p&gt;Do you have other techniques/suggestions for using analytics services while respecting the online privacy of visitors to your site? Feel free to share your experience.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Flipping Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
-      <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
-      <description>&lt;p&gt;I was very pleased to be invited back to &lt;a href=&#34;http://styleandclass.ca/events/2016/coding-mentorship-data/&#34;&gt;Style and Class&lt;/a&gt; to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.&lt;/p&gt;
-
-&lt;p&gt;Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(&lt;/p&gt;
-
-&lt;div class=&#34;slideshare&#34;&gt;
-  &lt;div class=&#34;slideshare-slides&#34;&gt;
-    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/2OqLxbPius4Ggf&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt; &lt;/iframe&gt;
-  &lt;/div&gt;
-  &lt;div class=&#34;slideshare-credit&#34;&gt;
-    &lt;strong&gt; &lt;a href=&#34;https://www.slideshare.net/stephaniehobson/flipping-tables-displaying-data-on-small-screens&#34; target=&#34;_blank&#34;&gt;Flipping Tables: Displaying Data on Small Screens&lt;/a&gt; &lt;/strong&gt;
-    from
-    &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/stephaniehobson&#34; target=&#34;_blank&#34;&gt;Stephanie Hobson&lt;/a&gt;&lt;/strong&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;And the links I encouraged everyone to check out:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.behance.net/gallery/Designing-Effective-Data-Tables/885004&#34;&gt;Designing Effective Data Tables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://understandinggraphics.com/design/data-table-design/&#34;&gt;Guidelines for Designing Tables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.darkhorseanalytics.com/blog/clear-off-the-table/&#34;&gt;Clear Off the Table&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

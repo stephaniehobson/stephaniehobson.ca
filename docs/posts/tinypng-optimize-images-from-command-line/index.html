@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Using Tinypng to optimize images from the command line</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/css/main-efe7d564.css">
+<link rel="canonical" href="https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/">
+    
+<body>
+    <header>
+    <div class="header">
+        <h1 class="header-title">
+            
+                <a href="/" class="header-site">Stephanie Hobson</a>
+            
+            <span class="header-subtitle">I like to make websites everyone can use.</span>
+        </h1>
+
+        <a class="header-about" href="/about/">
+            <img class="header-avatar" src="//en.gravatar.com/avatar/d70bd194080649fe6fac9c012d4de39c?s=200" alt="About Stephanie Hobson">
+        </a>
+    </div>
+</header>
+
+    
+    <main>
+        
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="post-title" itemprop="name headline">Using Tinypng to optimize images from the command line</h1>
+    <div class="post-info">
+        <a class="post-link" href="https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/" itemprop="url">Permalink</a>
+        <time class="post-date" datetime="2019-04-30" itemprop="datePublished">
+            <a class="post-date-year" href="/year/2019/">2019</a>
+            April 30
+        </time>
+        <ul class="post-tags">
+            <li class="post-tag">#<a href="https://stephaniehobson.ca/tags/code/" rel="tag">code</a></li><li class="post-tag">#<a href="https://stephaniehobson.ca/tags/webdesign/" rel="tag">webdesign</a></li>
+        </ul>
+    </div>
+    <div class="post-body" itemprop="articleBody">
+        <p>Our team has identified image optimization as one of the more time consuming and often forgotten steps of our current process. In the long run we want to automate it using a git pre-commit hook. As the first step to this I&rsquo;ve got PNG and JPG optimization working manually using <a href="https://tinypng.com/">TinyPNG</a> from the command line:</p>
+
+<pre><code>git diff --diff-filter=ACM --name-only HEAD | grep &quot;.png\|.jpg&quot; | xargs tinypng
+</code></pre>
+
+<p>To set this up:</p>
+
+<ol>
+<li><a href="https://tinypng.com/developers">Get a TinyPNG API key</a>.</li>
+<li>Save the API key in a file named <code>.tinypng</code> in your home directory.</li>
+<li>Install the <a href="https://www.npmjs.com/package/tinypng-cli">npm TinyPNG CLI</a>.
+Because it&rsquo;s not part of our site yet I installed it globally:
+<code>
+npm install -g tinypng-cli
+</code></li>
+<li>Add the files you want to optimize to Git&rsquo;s staging area. (<code>git add *</code> will add all the files you&rsquo;ve edited)</li>
+<li>Run <code>git diff --diff-filter=ACM --name-only HEAD | grep &quot;.png\|.jpg&quot; | xargs tinypng</code>.</li>
+<li>Add add the new modified files to your Git staging area before committing.</li>
+</ol>
+
+<p>What it&rsquo;s doing:</p>
+
+<dl>
+<dt><code>git diff</code></dt>
+<dd>Telling Git we want to a list of differences between two things</dd>
+<dt><code>--diff-filter=ACM</code></dt>
+<dd>Filtering what we want to compare to include only Additions, Changes, and Modifications</dd>
+<dt><code>--name-only</code></dt>
+<dd>Asking for just the file names instead of the full output.</dd>
+<dt><code>HEAD</code></dt>
+<dd>One of the two things we&rsquo;re comparing is the files in the staging area. Specifying <code>HEAD</code> here says to compare them to the files in the most recent commit.</dd>
+<dt><code>|</code></dt>
+<dd>This is a &ldquo;pipe&rdquo;, it passes the results of the Git diff to the next command.</dd>
+<dt><code>grep</code></dt>
+<dd>Grep is a command line search tool.</dd>
+<dt><code>&quot;.png\|.jpg&quot;</code></dt>
+<dd>I&rsquo;m using grep to find only the files with .png or .jpg file extensions.</dd>
+<dt><code>|</code></dt>
+<dd>Another pipe to pass our reduced list of files on to the next step.</dd>
+<dt><code>xargs</code></dt>
+<dd>This is the results of the grep. (Why it goes here instead of after the next command I do not know.)</dd>
+<dt><code>tinypng</code></dt>
+<dd>Finally we get tinypng to do its magic. The compressed files will replace the originals.</dd>
+</dl>
+
+    </div>
+</article>
+
+
+    </main>
+    <footer class="footer">
+    <nav class="footer-nav">
+        <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a> ⁃ <a href="/tags/">Tags</a>
+    </nav>
+    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2019</p>
+</footer>
+
+</body>
+</html>
