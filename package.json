@@ -10,14 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "del": "^3.0.0",
+    "del": "^5.1.0",
     "gulp-hash": "^4.2.2",
-    "gulp-sass": "^4.0.1",
-    "gulp-stylelint": "^8.0.0",
-    "stylelint": "^9.4.0"
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^11.0.0",
+    "stylelint": "^12.0.0"
   },
   "dependencies": {
     "gulp": "^4.0.0",
-    "simple-icons": "^1.8.2"
+    "simple-icons": "^2.2.0"
   }
 }
