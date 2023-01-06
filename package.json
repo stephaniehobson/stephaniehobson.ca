@@ -12,7 +12,7 @@
   "devDependencies": {
     "del": "^5.1.0",
     "gulp-hash": "^4.2.2",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-stylelint": "^11.0.0",
     "stylelint": "^12.0.0"
   },
