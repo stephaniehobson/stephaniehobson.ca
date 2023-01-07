@@ -1,811 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stephanie Hobson</title>
     <link>https://stephaniehobson.ca/</link>
     <description>Recent content on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 31 Oct 2017 21:19:14 +0000</lastBuildDate>
+    <language>en-ca</language>
+    <lastBuildDate>Tue, 30 Apr 2019 16:36:56 -0500</lastBuildDate>
     
-	<atom:link href="https://stephaniehobson.ca/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://stephaniehobson.ca/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How we rebuilt the viewsourceconf.org website</title>
-      <link>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</link>
-      <pubDate>Tue, 31 Oct 2017 21:19:14 +0000</pubDate>
+      <title></title>
+      <link>https://stephaniehobson.ca/posts/</link>
+      <pubDate>Tue, 30 Apr 2019 16:36:56 -0500</pubDate>
       
-      <guid>https://stephaniehobson.ca/posts/how-we-rebuilt-the-viewsourceconf-org-website/</guid>
-      <description>This article was originally published on Mozilla’s Hacks Blog.
-As a front-end developer at Mozilla, I end up working on big sites that have been around for a long time. There are a lot of interesting challenges when working with legacy code at a large scale, but rebuilding from scratch usually isn’t an option.
-The View Source Conference website, on the other hand, is a small site. So when we decided to move away from WordPress, we had the chance to start fresh.</description>
+      <guid>https://stephaniehobson.ca/posts/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Flipping Tables at CSSDevConf</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</link>
-      <pubDate>Tue, 10 Oct 2017 14:50:03 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-tables-at-cssdevconf/</guid>
-      <description> Here are my slides for Flipping Tables: Displaying Data on Small Screens which I had the pleasure of giving at CSS Dev Conf.
-   Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   Links I mentioned in my talk  Rob Weychert&amp;rsquo;s horror films schedule Designing Effective Data Tables Guidelines for Designing Tables Clear Off the Table MDN&amp;rsquo;s browser compat data in JSON  </description>
-    </item>
-    
-    <item>
-      <title>Writing for Every Reader</title>
-      <link>https://stephaniehobson.ca/posts/writing-for-every-reader/</link>
-      <pubDate>Sun, 08 Oct 2017 14:14:11 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/writing-for-every-reader/</guid>
-      <description>I recently spoke at #a11yTOConf, a conference by the organizers of the regular a11yTO meet-up. The organizers put together a great line up of speakers. It was the first #a11yTOConf but I hope it won&amp;rsquo;t be the last!
-   Writing for Every Reader  from Stephanie Hobson   Here are my slides for Writing for Every Reader.
-Resources I mentioned:  Hemingway App, the app that helps improve the readability of your content.</description>
-    </item>
-    
-    <item>
-      <title>The MDN Redesign “Behind the Scenes”</title>
-      <link>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</link>
-      <pubDate>Tue, 01 Aug 2017 19:34:47 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/the-mdn-redesign-behind-the-scenes/</guid>
-      <description>This article was originally published on Mozilla&amp;rsquo;s Hacks Blog.
-Kuma, the code that produces the MDN site, is a weird mix of the old and the new. MDN turned ten in 2015 and there’s still code and content around from those very first days. When I sat down to start coding the current redesign, the first thing I did was remove the last few traces of the last redesign. In contrast, we have a cutting-edge audience: 92% of our users have a browser with CSS grid support!</description>
-    </item>
-    
-    <item>
-      <title>Flipping More Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-more-tables/</link>
-      <pubDate>Thu, 25 Aug 2016 11:43:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-more-tables/</guid>
-      <description>A few weeks ago I gave my talk on displaying data tables on small screens at Cascadia Fest. Which is a super awesome 3 days conference in the Pacific North West focusing on CSS and JavaScript (Browser and Server side!)
-The video of my talk has been posted:   And my slides are available here.</description>
-    </item>
-    
-    <item>
-      <title>Google Analytics, Privacy, and Event Tracking</title>
-      <link>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</link>
-      <pubDate>Thu, 28 Jul 2016 09:38:57 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/google-analytics-privacy-and-event-tracking/</guid>
-      <description>This article was originally published on the Mozilla Hacks blog.
-Many of us use Google Analytics (GA) or similar third-party services to keep track of how people interact with our websites; telling us things like when people visit and what they click. This data can help us make important decisions, such as when to schedule maintenance or if a feature can be removed.
-Because these services are installed on multiple websites these third-parties can collect a lot of information about people as they move around the internet.</description>
-    </item>
-    
-    <item>
-      <title>Flipping Tables</title>
-      <link>https://stephaniehobson.ca/posts/flipping-tables/</link>
-      <pubDate>Tue, 19 Apr 2016 18:37:00 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/flipping-tables/</guid>
-      <description>I was very pleased to be invited back to Style and Class to give a talk about making data tables responsive. Style and Class is a great Vancouver meet-up I can&amp;rsquo;t recommend enough.
-Here are my slides, though the video and animated gifs don&amp;rsquo;t play :(
-   Flipping Tables: Displaying Data on Small Screens  from Stephanie Hobson   And the links I encouraged everyone to check out:</description>
-    </item>
-    
-    <item>
-      <title>(Still) Making Websites Better for Everyone</title>
-      <link>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</link>
-      <pubDate>Tue, 27 Oct 2015 18:40:28 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/still-making-websites-better-for-everyone/</guid>
-      <description>In the next few weeks I&amp;rsquo;ll be speaking at JavaScript Open Day Calgary, View Source, and JavaScript Open Day Toronto giving an updated version of Web Accessibility: Making Websites Better for Everyone.
-Edit: videos have been posted for View Source and JavaScript Open Day Toronto. I&amp;rsquo;m more on the ball for View Source but the JSOpenDay one has some demos.
-In my talk I encourage people to try out different assistive technologies themselves:</description>
-    </item>
-    
-    <item>
-      <title>Conference Debrief: An Event Apart Austin 2015</title>
-      <link>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</link>
-      <pubDate>Thu, 15 Oct 2015 10:31:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/conference-debrief-an-event-apart-austin-2015/</guid>
-      <description>Last week, because working at Mozilla is awesome, I got to attend An Event Apart Austin, the conference put on by the A List Apart organization. It&amp;rsquo;s consistently one of the highest quality conferences for front-end/user experience talks. I try to go every other year.
-The conference was great and the organizers did a good job making the speakers accessible, sitting them with us at lunch and keeping them around for the mixer.</description>
-    </item>
-    
-    <item>
-      <title>How To Debug CSS</title>
-      <link>https://stephaniehobson.ca/posts/how-to-debug-css/</link>
-      <pubDate>Sat, 15 Aug 2015 09:39:01 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/how-to-debug-css/</guid>
-      <description>Some quick notes and links for the talk I gave at WordCamp Vancouver about Debugging CSS.
-Edit: You can now watch a recording of Debugging CSS. Spot the three projector failures!
-Steps  Is the HTML valid? Is the CSS valid? Is the right CSS being applied?
- Is what you typed being applied? Is other stuff being applied? Is what&amp;rsquo;s being applied right?  Does CSS support what you’re doing?</description>
-    </item>
-    
-    <item>
-      <title>Mobile First Is Performance First</title>
-      <link>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</link>
-      <pubDate>Mon, 23 Feb 2015 22:10:03 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/mobile-first-is-performance-first/</guid>
-      <description>Tonight I spoke at Vancouver Web Performance Meetup and I promised to share my slides so here they are:
-   Mobile First Is Performance First  from Stephanie Hobson   If what you&amp;rsquo;re really after are the links, let me save you a bit of time:
- Patrick Hamann - Building theguardian.com (slides) and Breaking News at 1000ms (video) Paul Irish - Delivering the Goods in under 1000ms (video) Scott Jehl - Responsible Responsive Design (book) Ilya Grigorik - High Performance Browser Networking” (book - free online!</description>
-    </item>
-    
-    <item>
-      <title>Making Websites Better for Everyone</title>
-      <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
-      <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</guid>
-      <description>There&amp;rsquo;s a few different versions of my talk floating around now. I&amp;rsquo;m really excited and humbled to hear that people have been making changes to the way the work in response to something I said.
-The most detailed (and longest) version of my talk is available to watch on Wordpress TV.
-My first slide deck and links to the resources I recommend are part of an earlier blog post.
-In the most recent version of my talk I used a demo of a fictional hosting company&amp;rsquo;s server status page.</description>
-    </item>
-    
-    <item>
-      <title>Accessibility with CSS: Making Websites Better for Everyone</title>
-      <link>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</link>
-      <pubDate>Wed, 14 May 2014 17:20:48 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/accessibility-with-css-making-websites-better-for-everyone/</guid>
-      <description> Last night I spoke at the Style &amp;amp; Class Meet-up about Accessibility and CSS. Posting the slides here for posterity:
-   Accessibility with CSS: Making Websites Better for Everyone  from Stephanie Hobson   Resources  Intro to Accessibility WCAG Validator Intro to ARIA :Focus and keyboard accessibility High contrast CSS Sprites Bullet Proof Accessible Icon Fonts The Offscreen Class Floating Form Labels Javascript fix for Skip Links  </description>
-    </item>
-    
-    <item>
-      <title>A Matter of Semantics</title>
-      <link>https://stephaniehobson.ca/posts/a-matter-of-semantics/</link>
-      <pubDate>Tue, 21 Jan 2014 20:05:49 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/a-matter-of-semantics/</guid>
-      <description>Adapted from a blog post on Web Services&amp;rsquo; blog at BCIT, the audience was our content community: people who contribute content using the CMS, with little to no technical experience.
-Once, as part of a “getting to know you” activity at summer camp, I played a game where I was given a drawing and another camper was given a paper and pencil. Without her seeing the drawing, and without me seeing her paper, I had to try to get her to draw what I could see.</description>
-    </item>
-    
-    <item>
-      <title>HTML5 Forms OF DOOM</title>
-      <link>https://stephaniehobson.ca/posts/html5-forms-of-doom/</link>
-      <pubDate>Tue, 10 Jul 2012 16:26:19 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/html5-forms-of-doom/</guid>
-      <description>I spoke at an HTML5 Code Camp the other day on HTML5 forms because HTML5 forms are cool! They&amp;rsquo;re so cool you can use most of them today anywhere you have a text field to increase functionality for your users!
-   HTML5 Forms OF DOOM  from Stephanie Hobson   Sample form.
-Finished form (no peeking).
-Resources Basic Introductions
- Dive Into HTML5: A Form of Madness Have a Field Day with HTML5 Forms Making Forms Fabulous with HTML5 Forward Thinking Form Validation  CSS</description>
-    </item>
-    
-    <item>
-      <title>Leave</title>
-      <link>https://stephaniehobson.ca/posts/leave/</link>
-      <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/leave/</guid>
-      <description>I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1st, 2012.
-Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.
-I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.
-I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long.</description>
-    </item>
-    
-    <item>
-      <title>Print Styles Are Responsive Design</title>
-      <link>https://stephaniehobson.ca/posts/print-styles-responsive-design/</link>
-      <pubDate>Wed, 14 Mar 2012 23:26:09 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/print-styles-responsive-design/</guid>
-      <description>Print styles are the original responsive designs. Using media queries we pare down the content, focus on readability, and design with different device capabilities in mind but when was the last time you took a good look at your print styles?
-Yes, people still print web pages. Extrapolating from these numbers about 10,000 pages are printed from bcit.ca every month. The print experience is an important part of a good site and relying on your screen styles to print properly is foolish:</description>
-    </item>
-    
-    <item>
-      <title>CSS Loading Spinner</title>
-      <link>https://stephaniehobson.ca/posts/css-loading-spinner/</link>
-      <pubDate>Tue, 06 Sep 2011 14:34:49 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/css-loading-spinner/</guid>
-      <description>I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&amp;rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is my hammer).
-On the bright side it works on any background colour and is a little transparent which is neat. And it&amp;rsquo;s way faster to adjust the colour scheme than an image file would be.</description>
-    </item>
-    
-    <item>
-      <title>A style tag counts as a :first-child</title>
-      <link>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</link>
-      <pubDate>Wed, 24 Aug 2011 23:31:09 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/style-element-counts-as-a-first-child/</guid>
-      <description>EDIT 2011-09-15: All of this applies to &amp;lt;script&amp;gt; in the body as well.
-I have some bad news and a fix (I hesitate to call it good news).
-HTML5 introduces a way for us to include &amp;lt;style&amp;gt; elements on the page, we just need to give them an attribute of scoped. So, for example, if you have an SSI included widget you can include the styles in the widget file instead of trying to devise a way to add them to the head.</description>
-    </item>
-    
-    <item>
-      <title>Perfect Stranger</title>
-      <link>https://stephaniehobson.ca/posts/perfect-stranger/</link>
-      <pubDate>Sat, 16 Jul 2011 18:59:51 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/perfect-stranger/</guid>
-      <description>Twitter is an amazing tool to catch a glimpse of the collective consciousness. I&amp;rsquo;ve seen it during the Olympics and I&amp;rsquo;ve been apart of it at conferences like An Event Apart. Jeremy Keith once said that Twitter was the closest he&amp;rsquo;d ever come to feeling as though he&amp;rsquo;s jacked into the Matrix.
-Most of us use Twitter to keep in touch with people we know and keep up with things we care about.</description>
-    </item>
-    
-    <item>
-      <title>A Dull April Fool&#39;s Day</title>
-      <link>https://stephaniehobson.ca/posts/dull-april-fools-day/</link>
-      <pubDate>Sat, 16 Jul 2011 18:59:20 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/dull-april-fools-day/</guid>
-      <description>There was a rash of black and white April Fool&amp;rsquo;s Day sites this year. We weren&amp;rsquo;t the only ones to do it but I think we did it best, if I do say so myself. There were three parts to our little switch and it wouldn&amp;rsquo;t have been the same without any of them:
- Desaturating the colours in the style sheet. Desaturating every image on the site, that&amp;rsquo;s right, all of them.</description>
-    </item>
-    
-    <item>
-      <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
-      <link>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</link>
-      <pubDate>Wed, 09 Mar 2011 14:29:42 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/</guid>
-      <description>I hate form styling on the best of days. This is a good example of why:
-Firefox&amp;rsquo;s buttons are wider than IE&amp;rsquo;s or Webkit&amp;rsquo;s. Why? This little gem in the browser&amp;rsquo;s style sheets:
-button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px 2px 0px 2px; }  That&amp;rsquo;s right, it&amp;rsquo;s 4px wider. Thank you FireFox.
-Fortunately, we can fix it!
-button::-moz-focus-inner, input[type=&amp;quot;reset&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;submit&amp;quot;]::-moz-focus-inner, input[type=&amp;quot;file&amp;quot;] &amp;gt; input[type=&amp;quot;button&amp;quot;]::-moz-focus-inner { padding: 0px; }  That was easy :)</description>
-    </item>
-    
-    <item>
-      <title>Taking a photo of yourself with an iPhone</title>
-      <link>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
-      <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
-      <description>  </description>
-    </item>
-    
-    <item>
-      <title>Bullets aligned to the top of the text</title>
-      <link>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</link>
-      <pubDate>Fri, 10 Sep 2010 12:59:47 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
-      <description>Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?
-Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?
-If you&amp;rsquo;re working on displaying the bullets at the same height, this might be the fix for you.</description>
-    </item>
-    
-    <item>
-      <title>CSS3 only cover flow</title>
-      <link>https://stephaniehobson.ca/posts/css3-only-cover-flow/</link>
-      <pubDate>Fri, 28 May 2010 22:40:44 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
-      <description>Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.
-Some of it works in FireFox but all the cool stuff works best in webkit: here&amp;rsquo;s as far as I got.
-Have fun with it :)</description>
-    </item>
-    
-    <item>
-      <title>2009 in Review</title>
-      <link>https://stephaniehobson.ca/posts/2009/</link>
-      <pubDate>Fri, 08 Jan 2010 19:09:46 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/2009/</guid>
-      <description>My year in review Powazek style.
-JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.
-FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.
-MAR: Giants Fan Bus.
-APR: I check into my first Gowalla spot.
-MAY: My temporary roommate drops her phone down an elevator shaft after a Colonel Panic concert. Ultimate with H.A.M.M.E.R. starts.
-JUN: Program catalogue launch. Asthon Lane, Inverness and @media.
-JUL: Fireworks with Sue. Decemberists.</description>
-    </item>
-    
-    <item>
-      <title>I lie to Batman</title>
-      <link>https://stephaniehobson.ca/posts/i-lie-to-batman/</link>
-      <pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/i-lie-to-batman/</guid>
-      <description>Note: If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts they have their own category now.
-I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.
-It&amp;rsquo;s Robin all the way.
-Not Dick Grayson, Jason Todd, or Tim Drake - Robin.</description>
-    </item>
-    
-    <item>
-      <title>Maintaining your CSS helps maintain your site</title>
-      <link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
-      <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</guid>
-      <description>Rather than doing one giant redesign and launch, at BCIT, we&amp;rsquo;ve been doing small updates for a while now.
-Take our footer for example, I got to update all of them using the CSS a few times and then we decided we wanted to mix up the HTML. Templates and applications were updated with the new code in phases. There were a few different ways the CSS for this could have been managed but I chose to have the old code co-exist with the new in the same style sheet and differentiated the two with IDs (let&amp;rsquo;s say I called them #footer and #fatfooter).</description>
-    </item>
-    
-    <item>
-      <title>Why Abstract Sequential?</title>
-      <link>https://stephaniehobson.ca/posts/why-abstract-sequential/</link>
-      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
-      <description>Short answer: it&amp;rsquo;s my thinking style :)
-It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.
-It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater.</description>
-    </item>
-    
-    <item>
-      <title>Imperfect Pitch</title>
-      <link>https://stephaniehobson.ca/posts/im-perfect-pitch/</link>
-      <pubDate>Tue, 03 Nov 2009 13:07:02 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/im-perfect-pitch/</guid>
-      <description>There&amp;rsquo;s been a lot of talk about copyright in Canada lately since we&amp;rsquo;ve been trying to perfect the updates the Conservatives are pitching to our outdated copyright legislation - so reading about Jeremy&amp;rsquo;s copyright woes in his recent post Perfect Pitch really struck a chord.
-He discovered a page in The Sessions&amp;rsquo;s discussion form about perfect pitch had been removed from Google search results due to a copyright infringement accusation by a company that makes a product called Perfect Pitch - the page isn&amp;rsquo;t about the product and, in fact, barely mentions it.</description>
-    </item>
-    
-    <item>
-      <title>Quick spam solution for email forms</title>
-      <link>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</link>
-      <pubDate>Fri, 30 Oct 2009 22:23:53 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/quick-spam-solution-for-email-forms/</guid>
-      <description>I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.
-The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.</description>
-    </item>
-    
-    <item>
-      <title>Why I follow my heroes on Twitter</title>
-      <link>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link>
-      <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
-      <description>A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;
-I just want to go on the record and say I like the personal tweets.
-I like knowing that despite their mega awesome coding skills they still have problems with clients.</description>
-    </item>
-    
-    <item>
-      <title>Should I stay or should I go?</title>
-      <link>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</link>
-      <pubDate>Sun, 22 Mar 2009 15:08:43 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/should-i-stay-or-should-i-go/</guid>
-      <description>What should a personal website look like? What should it be for? Am I a person or a business? And what if the latest trend is for your business to be human. Stephaniehobson.ca was supposed to be a personal blog for business stuff but that&amp;rsquo;s, well, boring for me and for you. So I&amp;rsquo;m thinking of re-doing it.
-I&amp;rsquo;m going to use this site to bring together all my activities from around the web in one place.</description>
-    </item>
-    
-    <item>
-      <title>What would you change?</title>
-      <link>https://stephaniehobson.ca/posts/what-would-you-change/</link>
-      <pubDate>Wed, 14 Jan 2009 10:53:21 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/what-would-you-change/</guid>
-      <description>Most companies are fumbling around unsure of how to use this new social media thing to market themselves, and educational institutes are no different. With so much of our target audience using social media it&amp;rsquo;s particularly important for us.
-BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help. So the two groups came together and What Would You Change?</description>
-    </item>
-    
-    <item>
-      <title>Stuff I&#39;d like to see Google Reader do</title>
-      <link>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</link>
-      <pubDate>Mon, 15 Sep 2008 16:21:16 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/stuff-id-like-to-see-google-reader-do/</guid>
-      <description>I wish I could filter my feeds like I do my email, marking the news items in my web comic feeds as read automatically and blocking (deleting? marking as read?) feeds originating at certain URLs (some of my friends have different&amp;hellip; taste than I do&amp;hellip; repeatedly).
-I also wish I could share my feeds with different audiences in mind. Right now what I share is pretty bland because my clients, friends, and family all see it.</description>
-    </item>
-    
-    <item>
-      <title>Links from An Event Apart 2008 - Day Two</title>
-      <link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</link>
-      <pubDate>Tue, 19 Aug 2008 16:54:05 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-two/</guid>
-      <description>Edenbee Social networking and carbon footprints by Clearleft. A Dao of Web Design Jeremy Keith says everyone must read this. It talks about giving up pixel perfect control of the display of your websites. Google social graph API Traces XFN and hCard references to connect your different profiles and find out who you are connected to. SCRUM Replacement for the waterfall development method. It&amp;rsquo;s agile. Recommended by Kelly Goto. Trulia Snapshot Data visualization by Stamen - using real estate in San Francisco.</description>
-    </item>
-    
-    <item>
-      <title>Links from An Event Apart 2008 - Day One</title>
-      <link>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-one/</link>
-      <pubDate>Mon, 18 Aug 2008 22:21:20 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/links-from-an-event-apart-2008-day-one/</guid>
-      <description>Bobulate Can&amp;rsquo;t remember why it was mentioned but it is about IA and looks interesting. Wired Apparently half the people in the room read it. Jason used it as an example of how print can be very cool looking but the web is missing that pizzaz for individual articles. NY Times articles about Trolls Don&amp;rsquo;t feed the trolls. One of the trials of community managers. Flickr Colouring Contest Making lemonaid out or error messages as part of community management.</description>
-    </item>
-    
-    <item>
-      <title>New site for my favorite client</title>
-      <link>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</link>
-      <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid>
-      <description>Just updated the look of Mum&amp;rsquo;s campaign website: Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville. I changed everything without altering one line of HTML, man do I love CSS (IE6, I still hate you).</description>
-    </item>
-    
-    <item>
-      <title>Accessibility Problem with Gilder/Levin Image Replacement Method</title>
-      <link>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</link>
-      <pubDate>Mon, 11 Aug 2008 21:03:13 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/accessibility-problem-with-gilderlevin-image-replacement-method/</guid>
-      <description>I have a friend who lives his life in low contrast. He is frequently the inspiration I need to go the extra mile and find an accessible solution to a programing quandary. A few weeks ago I had the good fortune to get to visit him and we cruised around the internet while drinking Rusty Nails so I could walk in his shoes for a bit.
-His computer is set up to use one of Windows XP&amp;rsquo;s high contrast colour schemes and he also makes use of IE&amp;rsquo;s ability to override a website&amp;rsquo;s CSS.</description>
-    </item>
-    
-    <item>
-      <title>Eight random things</title>
-      <link>https://stephaniehobson.ca/posts/eight-random-things/</link>
-      <pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/eight-random-things/</guid>
-      <description>In the spirit of Jeremy Keith&amp;rsquo;s post, here&amp;rsquo;s 8 random things I see about me:
- Black queen carved like Raven. Small brass Buddha. Wind up penguin. iPhone. Microformats pocket cheat sheet. Salt. 8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;. Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;  You&amp;rsquo;re it.</description>
-    </item>
-    
-    <item>
-      <title>Bookstore wins a hubbie</title>
-      <link>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</link>
-      <pubDate>Wed, 16 Apr 2008 15:15:10 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/bookstore-wins-a-hubbie/</guid>
-      <description>Almost a year ago now the BCIT Bookstore let Web Services know that the e-commerce application they used to manage their online sales was upgrading and asked if we&amp;rsquo;d like to help skin the new site. The department was pretty busy at the time and my manager said we didn&amp;rsquo;t have time to help out but put them in contact with me so I could direct them to the style guide and technical guidelines.</description>
-    </item>
-    
-    <item>
-      <title>Two steps forward, one step back</title>
-      <link>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</link>
-      <pubDate>Tue, 04 Mar 2008 15:34:30 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/two-steps-forward-one-step-back/</guid>
-      <description>Tuesday I was a guest speaker at Mrs.A&amp;rsquo;s gifted class. She&amp;rsquo;s teaching a group of 9-12 year olds web design and asked if I&amp;rsquo;d come in an talk for an afternoon.
-So I spent 30 minutes talking to them about the basics of user centred design and how the internet works. Then I helped them trouble shoot their table based layouts and font tags.</description>
-    </item>
-    
-    <item>
-      <title>Web Directions North 2008</title>
-      <link>https://stephaniehobson.ca/posts/web-directions-north-2008/</link>
-      <pubDate>Thu, 21 Feb 2008 20:22:53 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/web-directions-north-2008/</guid>
-      <description>Just like last year I thought I&amp;rsquo;d post my summary of the conference that I distributed to my department. If I have any regular readers at all, it&amp;rsquo;s probably a little too general to do you any good but I&amp;rsquo;m happy to answer questions:
-Web Directions North is an internationally respected conference for web professionals. This year’s conference was a good high level overview of the new trends and technologies online.</description>
-    </item>
-    
-    <item>
-      <title>Keeping up</title>
-      <link>https://stephaniehobson.ca/posts/keeping-up/</link>
-      <pubDate>Thu, 21 Feb 2008 20:19:31 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/keeping-up/</guid>
-      <description>&amp;ldquo;From your 77 subscriptions, over the last 30 days you read 809 items&amp;hellip;&amp;rdquo;
- No wonder I don&amp;rsquo;t read any books any more.</description>
-    </item>
-    
-    <item>
-      <title>Finally figure out what my problem is</title>
-      <link>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</link>
-      <pubDate>Tue, 05 Feb 2008 11:18:38 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/finally-figure-out-what-my-problem-is/</guid>
-      <description>I read John Resig&amp;rsquo;s article Sub-Pixel Problems in CSS a few days ago and found it to very useful information.
-And then today I had an &amp;ldquo;ah-ha&amp;rsquo; moment - this this is why I hate coding flexible horizontal navigation menus.</description>
-    </item>
-    
-    <item>
-      <title>Google Launches Social Graph API</title>
-      <link>https://stephaniehobson.ca/posts/google-launches-social-graph-api/</link>
-      <pubDate>Mon, 04 Feb 2008 13:10:58 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/google-launches-social-graph-api/</guid>
-      <description>There were several speakers at WDN who spoke about open social networks, portability and consolidating friend information across applications. I found the talks interesting and then, while we were still at the conference, Google announced a Social Graph API aiming to do just what we&amp;rsquo;d been talking about.</description>
-    </item>
-    
-    <item>
-      <title>Links to check out from WDN08</title>
-      <link>https://stephaniehobson.ca/posts/links-to-check-out-from-wdn08/</link>
-      <pubDate>Fri, 01 Feb 2008 13:03:54 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/links-to-check-out-from-wdn08/</guid>
-      <description>JavaScript Libraries Overview recommended by Cameron Adams as good comparison of major libraries Twine called Web 3.0 by Boris Mann dotMobi Mobile Web Developer&amp;rsquo;s Guide by Brian Fling XHTML Mobile Profile Tutorial apparently if we know XHTML we know XHTML-MP, almost OpenID single sign on for the internet microformats.org/wiki/social-network-portability mentioned by Brain Oberkirch&amp;rsquo;s talk on data portabilty OAuth.net mentioned by Brain Oberkirch&amp;rsquo;s talk on data portabilty DiSo Distributed Social networking applications development community kayak good example of potential use of portable data upcoming I have been instructed to get an account getsatisfaction people powered customer service foamee doesn&amp;rsquo;t require account creation, just uses your twitter info cabspotting.</description>
-    </item>
-    
-    <item>
-      <title>Missing table based layouts</title>
-      <link>https://stephaniehobson.ca/posts/missing-table-based-layouts/</link>
-      <pubDate>Fri, 18 Jan 2008 18:17:35 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/missing-table-based-layouts/</guid>
-      <description>There&amp;rsquo;s only one time where I ever really miss table based layouts: when I&amp;rsquo;m trying to make a flexible horizontal navigation bar with centred links. Like this or this](http://louisgervais.com) website I made for a Vancouver gourmet catering company. chews on keyboard with frustration</description>
-    </item>
-    
-    <item>
-      <title>I would live with dial up if it meant I could live here.</title>
-      <link>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</link>
-      <pubDate>Mon, 31 Dec 2007 11:00:29 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/i-would-live-with-dial-up-if-it-meant-i-could-live-here/</guid>
-      <description>One of my bestest friends lives in the middle of no where. High speed internet has not yet come to this island so I&amp;rsquo;m on dial up today, which is leading to interesting discoveries.
-For example, IE6 loads images in the html before it loads background images from the CSS. Very interesting.
-Also, turning off the images is not that easy. I wonder how true the assertion that people with dial up turn them off is.</description>
-    </item>
-    
-    <item>
-      <title>CSS bug in IE 6 with: .class a:hover element</title>
-      <link>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</link>
-      <pubDate>Wed, 19 Dec 2007 14:49:05 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/</guid>
-      <description>This bug seems to apply to styling elements under a class or id within a link on hover. Stuff like .class a:hover span{} or #id a:hover strong{}. The solution is to define a property on the parent link .class a:hover{} that hasn&amp;rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.
-All the work for the solution was done by Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</description>
-    </item>
-    
-    <item>
-      <title>These are a few of my favourite things</title>
-      <link>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</link>
-      <pubDate>Fri, 14 Dec 2007 12:55:33 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/these-are-a-few-of-my-favourite-things/</guid>
-      <description>Comics and web design together at last!</description>
-    </item>
-    
-    <item>
-      <title>We made the cut!</title>
-      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
-      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
-      <description>One of the videos we made the other day made the cut into the final Gmail behind the scenes video. Alistair&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.
-A second video of ours was chosen as a featured clip. If you got to the page with the final Gmail behind the scenes video and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.</description>
-    </item>
-    
-    <item>
-      <title>No, wait, I wasn&#39;t done reading that!</title>
-      <link>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</link>
-      <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</guid>
-      <description>When I went on vacation a few weeks ago I got a little behind on my RSS feeds. I&amp;rsquo;d manage to whittle it down from almost 200 unread articles to about 40 over the course of the month, while keeping up with all the new articles, and I was feeling pretty good about it when I went to switch my view from new items to all items and hit &amp;ldquo;mark all as read&amp;rdquo; instead.</description>
-    </item>
-    
-    <item>
-      <title>10 seconds of my 15 minutes</title>
-      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
-      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
-      <description>Google is having this contesty thingy. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.
-Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:
- From computer to computer Chin up bars with fancy editing Gmail for lunch  </description>
-    </item>
-    
-    <item>
-      <title>Making the switch</title>
-      <link>https://stephaniehobson.ca/posts/making-the-switch/</link>
-      <pubDate>Mon, 30 Jul 2007 23:27:18 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/making-the-switch/</guid>
-      <description>Macs have always struck me as more of a religion than an operating system. A family friend and I have a long history of a friendly Mac vs Windows rivalry. He&amp;rsquo;s the Mac evangelist and I was, well, I wasn&amp;rsquo;t a Windows evangelist but I guess I played the part of a disbeliever.
-At some point in 2004 he finally won the argument and I promised my next computer would be a Mac.</description>
-    </item>
-    
-    <item>
-      <title>Searching for an answer</title>
-      <link>https://stephaniehobson.ca/posts/searching-for-an-answer/</link>
-      <pubDate>Fri, 29 Jun 2007 17:02:09 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/searching-for-an-answer/</guid>
-      <description>Has anyone else noticed a bunch of really old HTML coding tutorials at the top of their search results when searching for answers to HTML coding questions lately?
-I was trying to find out if legend was a required tag in fieldset and I got a tutorial that said not to use legend because Netscape 4 doesn&amp;rsquo;t support it yet but should soon!</description>
-    </item>
-    
-    <item>
-      <title>Forming form guidelines</title>
-      <link>https://stephaniehobson.ca/posts/forming-form-guidelines/</link>
-      <pubDate>Mon, 04 Jun 2007 16:36:49 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/forming-form-guidelines/</guid>
-      <description>Who knew web design could be so&amp;hellip; academic?
-Since I got back from @media I&amp;rsquo;ve been hard at work on a set of guidelines which ideally will one day guide the interaction and styling of all forms on the myriad of BCIT web applications though right now will only be applied to anything in the &amp;lsquo;public web&amp;rsquo; look and feel. I don&amp;rsquo;t think I&amp;rsquo;ve done this much research since I finished university.</description>
-    </item>
-    
-    <item>
-      <title>This time it&#39;s not IE.</title>
-      <link>https://stephaniehobson.ca/posts/this-time-its-not-ie/</link>
-      <pubDate>Mon, 28 May 2007 13:14:48 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/this-time-its-not-ie/</guid>
-      <description>Wow, FireFox does not play nice with styling legends.
-FireFox, I&amp;rsquo;m not mad, I&amp;rsquo;m just disappointed.</description>
-    </item>
-    
-    <item>
-      <title>@media links to check out</title>
-      <link>https://stephaniehobson.ca/posts/media-links-to-check-out/</link>
-      <pubDate>Sat, 26 May 2007 02:50:53 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/media-links-to-check-out/</guid>
-      <description>&lt;p&gt;This is a list consisting of all the websites and books recommended during the course of the conference that interested me enough to warrant writing down for later evaluation (including links to most of the presentations):&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>@media: Day Two</title>
-      <link>https://stephaniehobson.ca/posts/media-day-two/</link>
-      <pubDate>Sat, 26 May 2007 02:08:34 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/media-day-two/</guid>
-      <description>Today I got two free books, Jeremy signed Bullet Proof Ajax for me and I snagged an extra Microformats cheat sheet for Brandon. All in all a success.</description>
-    </item>
-    
-    <item>
-      <title>@media: Day One</title>
-      <link>https://stephaniehobson.ca/posts/media-day-one/</link>
-      <pubDate>Fri, 25 May 2007 10:10:04 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/media-day-one/</guid>
-      <description>One day I&amp;rsquo;d like to be able to make the same kind of contribution to the web design world that these speakers have. Trying to find a way to do that is as intimidating as the idea of writing a Master&amp;rsquo;s thesis. How does one come up with new ideas?
-The speakers have all been excellent so far. I always need a few days to process information though so I don&amp;rsquo;t have much to say at this point.</description>
-    </item>
-    
-    <item>
-      <title>CADE/AMTECH Conference</title>
-      <link>https://stephaniehobson.ca/posts/cadeamtech-conference/</link>
-      <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
-      <description>I was in Winnipeg speaking at the CADE/AMTECH Conference last week. The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).
-As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.</description>
-    </item>
-    
-    <item>
-      <title>Working hard?</title>
-      <link>https://stephaniehobson.ca/posts/working-hard/</link>
-      <pubDate>Tue, 24 Apr 2007 17:58:15 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/working-hard/</guid>
-      <description>Or hardly working?
-When the network goes down the whole department starts acting like school kids when the power goes out. We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)</description>
-    </item>
-    
-    <item>
-      <title>Styling Our Style Sheets</title>
-      <link>https://stephaniehobson.ca/posts/styling-our-style-sheets/</link>
-      <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/styling-our-style-sheets/</guid>
-      <description>I&amp;rsquo;ve been wanting to seriously redo some of the HTML and CSS behind the BCIT site since I came on board here almost a year ago.
-Well, I get my wish. We&amp;rsquo;re going to take some baby steps towards semantic HTML and CSS (POSH if you like) and despite my aversion to being in charge, I&amp;rsquo;m leading the project.
-As a first step I&amp;rsquo;m trying to write a CSS coding style guide.</description>
-    </item>
-    
-    <item>
-      <title>Web Directions North</title>
-      <link>https://stephaniehobson.ca/posts/web-directions-north/</link>
-      <pubDate>Wed, 04 Apr 2007 14:11:08 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/web-directions-north/</guid>
-      <description>&lt;p&gt;I thought I&amp;rsquo;d post my summary of Web Directions North that I distributed to the department a month or so after the conference.  I&amp;rsquo;ve been wanting to write a more technical and personal review of it but it&amp;rsquo;s pretty clear to me that if I haven&amp;rsquo;t done it by now, I&amp;rsquo;m not going to get around to doing it :)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Striving for excellence</title>
-      <link>https://stephaniehobson.ca/posts/striving-for-excellence/</link>
-      <pubDate>Fri, 30 Mar 2007 11:51:10 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/striving-for-excellence/</guid>
-      <description>I just finished my first micoformatted page! When I was writing the information page for HOPE&amp;rsquo;s spring dinners I coded all the dinners as events and the organizers as hcards :) I did work with Brandon to re-do the BCIT Contacts application to use microformats but he did most of the coding on that project. This is the first time I&amp;rsquo;ve done it myself.
-I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.</description>
-    </item>
-    
-    <item>
-      <title>Delicious &#43; FireFox &#43; Snap Links</title>
-      <link>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</link>
-      <pubDate>Tue, 27 Mar 2007 15:06:24 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/delicious-firefox-snap-links-just-the-way-i-like-it/</guid>
-      <description>I keep up on my favorite blogs and web comics by book marking them all in Firefox and then using the &amp;ldquo;open all in tabs&amp;rdquo; option that FireFox so nicely includes to open all the book marks at once. That way I can keep track of which ones I&amp;rsquo;ve read by closing them once I&amp;rsquo;m done :) Yeah, it&amp;rsquo;s lazy I know.
-I&amp;rsquo;ve been wanting to have access to my bookmarks when I&amp;rsquo;m away from my home computer (who doesn&amp;rsquo;t) so I jumped on the del.</description>
-    </item>
-    
-    <item>
-      <title>Something new today</title>
-      <link>https://stephaniehobson.ca/posts/something-new-today/</link>
-      <pubDate>Sun, 25 Mar 2007 15:20:32 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/something-new-today/</guid>
-      <description>So apparently we&amp;rsquo;re supposed to be encoding ampersands when we write them in the href part of anchor tags.
-&amp;amp;lt;a href=&amp;quot;http://stephaniehobson.ca/file.php » ?fire=hot&amp;amp;amp;amp;beer=foamy&amp;quot;&amp;amp;gt;link&amp;amp;lt;/a&amp;amp;gt;</description>
-    </item>
-    
-    <item>
-      <title>I&#39;m presenting at a conference!</title>
-      <link>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</link>
-      <pubDate>Tue, 20 Mar 2007 14:01:53 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/im-presenting-at-a-conference/</guid>
-      <description>One of the projects I&amp;rsquo;ve worked on at BCIT is Catt-Trax2. The website is for Danny Catt who is traveling through South America and Antarctica exploring conservation and sustainability issues and talking to the people in those regions working with those issues daily. He&amp;rsquo;s taking photos, video, and sound clips of this journey and blogging about his experiences. I helped architect the website and did some design and implementation work on it.</description>
-    </item>
-    
-    <item>
-      <title>Where am I going with this?</title>
-      <link>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</link>
-      <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</guid>
-      <description>Vivian is such a great motivator. I&amp;rsquo;m still sorry to see her go.
-I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.
-She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.</description>
-    </item>
-    
-    <item>
-      <title>Insecurity</title>
-      <link>https://stephaniehobson.ca/posts/insecurity/</link>
-      <pubDate>Thu, 08 Mar 2007 21:21:29 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/insecurity/</guid>
-      <description>All I did was copy the cgi file and change the file name and now it&amp;rsquo;s not encrypting the e-mails it sends any more.
-Hm.
-Edit: Yup, the problem was that I changed the name.
-Edit 07-03-26: I&amp;rsquo;ve also discovered that cgi files are not encoded using windows text format so opening them in notepad and saving them again is enough to destroy all functionality.</description>
-    </item>
-    
-    <item>
-      <title>Border Collapse</title>
-      <link>https://stephaniehobson.ca/posts/border-collapse/</link>
-      <pubDate>Tue, 06 Mar 2007 20:13:22 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/border-collapse/</guid>
-      <description>I am, for the most part, self taught when it comes to HTML and CSS. I&amp;rsquo;ve take a few courses to get a piece of paper that says I can do what I say I can do but learned very little from them.
-I spotted this little CSS tidbit in a presenter&amp;rsquo;s code at the Web Directions North conference a few weeks ago and now I&amp;rsquo;m wondering if this is the sort of thing I missed out on by being self taught:</description>
-    </item>
-    
-    <item>
-      <title>What&#39;s keeping me busy?</title>
-      <link>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</link>
-      <pubDate>Mon, 05 Mar 2007 12:16:18 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</guid>
-      <description>Well, outside of my day job I&amp;rsquo;m:
- making my Mum a website moving hosting servers for digitalphoenix.ca learning cgi so I can create an auto generated thank you message for HOPE&amp;rsquo;s donors taking Mandarin (what was I thinking?)  </description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://stephaniehobson.ca/posts/hello-world/</link>
-      <pubDate>Mon, 05 Mar 2007 01:53:59 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/hello-world/</guid>
-      <description>I&amp;rsquo;ve been wanting a professional blog for a while now. It&amp;rsquo;s funny how there&amp;rsquo;s somethings you can tell complete strangers and there&amp;rsquo;s some things you can&amp;rsquo;t.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://stephaniehobson.ca/about/</link>
+      <title>Pages</title>
+      <link>https://stephaniehobson.ca/pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://stephaniehobson.ca/about/</guid>
-      <description>I was once compared to a striped carrot, a potion of beguiling, a saffron crayon and the Batmobile by a group of university friends while in Quebec City drinking some very cheep wine because it comes in bottles that make pretty beach glass.
-I got an education, a career, and a house but it turns out that doesn’t necessarily lead to happiness… so now I’m trying other things. One day I’d like to do something more rewarding with my life than recycling my bottles and giving money to charities.</description>
+      <guid>https://stephaniehobson.ca/pages/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>HTTP/2 on MDN</title>
-      <link>https://stephaniehobson.ca/posts/http2-on-mdn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephaniehobson.ca/posts/http2-on-mdn/</guid>
-      <description>This article was originally published on the Mozilla Marketing Engineering &amp;amp; Operations blog.
-We enabled HTTP/2 on MDN&amp;rsquo;s CDN.
-We didn&amp;rsquo;t do anything to optimize for HTTP/2, we just enabled it.
-We&amp;rsquo;re seeing performance improvements.
-You don&amp;rsquo;t have to get ready before you start using HTTP/2 While doing research to see if turning it on without doing any optimizations was a good idea I read things like:
- &amp;ldquo;It also means that all of those HTTP1 performance techniques are harmful.</description>
-    </item>
-    
-    <item>
-      <title>Typography</title>
+      <title>Typography Test Page</title>
       <link>https://stephaniehobson.ca/typography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/typography/</guid>
-      <description>Heading 1 Heading 2 Heading 3 I don&amp;rsquo;t know who&amp;rsquo;s telling you that Mario Lemieux is the brains of the operation, &amp;lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation. Hey, check this out! Theres two-four and lacrosse stick in these machines, eh? And Deadmau5, you&amp;rsquo;ve been reading a copy of Chatelaine, from 1983. Denied, Ouch, Drake got their ribs rattled. I&amp;rsquo;m Constable Jason Priestly. Heading 4 I don&amp;rsquo;t know who&amp;rsquo;s telling you that Mario Lemieux is the brains of the operation, &amp;lsquo;cause Trevor Linden and Celine Dion are both the brains of the operation.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;charset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;My CSS experiment&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;style.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Hello World!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;test test2&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;This is my first CSS example&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- comment --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ul&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;This is&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;a list&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ul&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;na&#34;&gt;onclick&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;trackOutboundLink(&amp;#39;http://www.example.com&amp;#39;); return false;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        Check out example.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Stuff&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/Stuff&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;font-face&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Stuff&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;font-family&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;main&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;/* comment */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;id&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;hover&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#00f&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;blue&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;yellow&lt;/span&gt; &lt;span class=&#34;cp&#34;&gt;!important&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;border&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;solid&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;black&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;first-child&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;red&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;rgba&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;text-decoration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;underline&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;cm&#34;&gt;/*
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;   multi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;   line
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;   comment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt; */&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;trackOutboundLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;ga&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;send&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;event&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;outbound&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s1&#34;&gt;&amp;#39;transport&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;beacon&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s1&#34;&gt;&amp;#39;hitCallback&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;randomNumber&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;floor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;guesses&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.guesses&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lastResult&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.lastResult&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lowOrHi&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.lowOrHi&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;guessSubmit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.guessSubmit&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;guessField&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.guessField&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;guessCount&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;resetButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;test&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;test&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Prism&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Private helper vars
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;lang&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sr&#34;&gt;/\blang(?:uage)?-([\w-]+)\b/i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;uniqueId&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Prism&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;manual&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Prism&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Prism&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;manual&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;disableWorkerMessageHandler&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Prism&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Prism&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;disableWorkerMessageHandler&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;encode&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;instanceof&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Token&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Token&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;alias&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Array&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;map&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;encode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tokens&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sr&#34;&gt;/&amp;amp;/g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;amp;amp;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sr&#34;&gt;/&amp;lt;/g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;amp;lt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sr&#34;&gt;/\u00a0/g&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;prototype&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;toString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;call&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;slice&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;__id&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nb&#34;&gt;Object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;defineProperty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;__id&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;uniqueId&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;obj&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;__id&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;// Deep clone a language definition (e.g. to extend it)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;switch&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Object&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)])&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;hasOwnProperty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                            &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;case&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Array&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)])&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;objId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;forEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;util&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;visited&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;clone&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- raw HTML omitted --&gt;
+</description>
     </item>
     
   </channel>
