@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2010 on Stephanie Hobson</title>
@@ -31,13 +30,9 @@
       
       <guid>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</guid>
       <description>&lt;p&gt;Know how IE and FF display list-style-image bullets at two different heights and it drives us all nuts?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_default.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_default.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Did you know it was possible to use vertical-align on any inline element? Did you know that first-line is an inline element?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_fix.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://stephaniehobson.ca/bulletfix/compare_fix.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re working on displaying the bullets at the same height, &lt;a href=&#34;https://stephaniehobson.ca/bulletfix/&#34;&gt;this might be the fix for you&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
@@ -49,9 +44,7 @@
       
       <guid>https://stephaniehobson.ca/posts/css3-only-cover-flow/</guid>
       <description>&lt;p&gt;Nothing teaches me how to do something like a project and I was trying to learn CSS3 so I tried to make a CSS only cover flow.&lt;/p&gt;
-
 &lt;p&gt;Some of it works in FireFox but all the cool stuff works best in webkit: &lt;a href=&#34;https://stephaniehobson.ca/coverflow/#sky&#34;&gt;here&amp;rsquo;s as far as I got&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;Have fun with it :)&lt;/p&gt;
 </description>
     </item>
@@ -63,29 +56,17 @@
       
       <guid>https://stephaniehobson.ca/posts/2009/</guid>
       <description>&lt;p&gt;My year in review &lt;a href=&#34;https://powazek.com/posts/2219&#34;&gt;Powazek style&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.&lt;/p&gt;
-
 &lt;p&gt;FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.&lt;/p&gt;
-
 &lt;p&gt;MAR: Giants Fan Bus.&lt;/p&gt;
-
 &lt;p&gt;APR: I check into my first &lt;a href=&#34;http://gowalla.com&#34;&gt;Gowalla&lt;/a&gt; spot.&lt;/p&gt;
-
 &lt;p&gt;MAY: My temporary roommate drops her phone down an elevator shaft after a &lt;a href=&#34;http://colonelpanic.ca/&#34;&gt;Colonel Panic&lt;/a&gt; concert. Ultimate with H.A.M.M.E.R. starts.&lt;/p&gt;
-
 &lt;p&gt;JUN: Program catalogue launch. Asthon Lane, Inverness and @media.&lt;/p&gt;
-
 &lt;p&gt;JUL: Fireworks with Sue. Decemberists.&lt;/p&gt;
-
 &lt;p&gt;AUG: Camping. Victoria. Drive-in movie. Summerland.&lt;/p&gt;
-
 &lt;p&gt;SEP: Copyfight. Franz Ferdinand and Great Big Sea.&lt;/p&gt;
-
 &lt;p&gt;OCT: Barcamp. Whistler.&lt;/p&gt;
-
 &lt;p&gt;NOV: Hopscotch. Bought the hat. San Francisco. Bad things happen to good people.&lt;/p&gt;
-
 &lt;p&gt;DEC: UXCamp. We survived Christmas party. Quebec.&lt;/p&gt;
 </description>
     </item>

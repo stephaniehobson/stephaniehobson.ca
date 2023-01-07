@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 on Stephanie Hobson</title>
@@ -17,49 +16,34 @@
       <pubDate>Thu, 23 Aug 2018 07:58:00 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/how-to-make-a-chart-of-your-users-window-sizes/</guid>
-      <description>
-
-&lt;p&gt;&lt;em&gt;This article was originally published on the &lt;a href=&#34;https://mozilla.github.io/meao/2018/01/24/browser-sizes/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;em&gt;This article was originally published on the &lt;a href=&#34;https://mozilla.github.io/meao/2018/01/24/browser-sizes/&#34;&gt;Mozilla Marketing Engineering &amp;amp; Operations blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In preparation for the MDN redesign I examined our analytics to get an idea
 of how wide our users&amp;rsquo; browser windows were. I wanted window widths, not screen
 sizes and I thought a chart would tell a more compelling story than a table.&lt;/p&gt;
-
 &lt;p&gt;Here&amp;rsquo;s the chart I made:&lt;/p&gt;
-
-
-&lt;figure&gt;
-    
-        &lt;img src=&#34;browser-sizes.png&#34; alt=&#34;Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels.&#34; /&gt;
-    
-    
+&lt;figure&gt;&lt;img src=&#34;browser-sizes.png&#34;
+         alt=&#34;Chart of MDN window widths showing spikes at 1350 and 1900 pixels and very little between 420 and 930 pixels.&#34;/&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;I found this view useful because it shows us &amp;ldquo;clumps&amp;rdquo; of window sizes.&lt;/p&gt;
-
 &lt;h2 id=&#34;how-to-make-a-chart-of-browser-window-widths&#34;&gt;How to make a chart of browser window widths&lt;/h2&gt;
-
 &lt;h3 id=&#34;the-basic-idea-is&#34;&gt;The basic idea is:&lt;/h3&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Create and export a Custom Report for Browser Size.&lt;/li&gt;
 &lt;li&gt;Filter the Browser Size to just include widths.&lt;/li&gt;
 &lt;li&gt;Aggregate the number of users for each width.&lt;/li&gt;
 &lt;li&gt;Make a chart.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h3 id=&#34;working-with-google-analytics-and-google-sheets-the-specific-steps-i-used-were&#34;&gt;Working with Google Analytics and Google Sheets the specific steps I used were:&lt;/h3&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Create a custom report for browser sizes.
-
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Customization&lt;/strong&gt; &amp;gt; &lt;strong&gt;Custom Reports&lt;/strong&gt; &amp;gt; &lt;strong&gt;New Custom Report&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Set the &lt;strong&gt;Metric Group&lt;/strong&gt; to &lt;code&gt;Users&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Set &lt;strong&gt;Dimension Drilldowns&lt;/strong&gt; to &lt;code&gt;Browser Size&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Save&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;View the custom report.&lt;/li&gt;
 &lt;li&gt;Set &lt;strong&gt;Show rows:&lt;/strong&gt; to &lt;code&gt;5000&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Export to Google Sheets.&lt;/li&gt;
@@ -90,12 +74,9 @@ make sure they&amp;rsquo;re frozen (&lt;strong&gt;View&lt;/strong&gt; &amp;gt; &
 &lt;li&gt;Set &lt;strong&gt;Width&lt;/strong&gt; as the X-axis.&lt;/li&gt;
 &lt;li&gt;Done!&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;p&gt;This answered a question I&amp;rsquo;ve been curious about for ages: &lt;strong&gt;Do people with
 large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;About 40% of our users have a screen resolution of 1900px or wider and 25% of our users use MDN at 1900px or wider.&lt;/p&gt;
 </description>
     </item>
@@ -107,7 +88,6 @@ large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
       
       <guid>https://stephaniehobson.ca/posts/surprise-emergency-site-migration/</guid>
       <description>&lt;p&gt;A small tweak to my WordPress config went sideways and, long story short, now my blog is hosted with Hugo on GitHub pages over https&amp;hellip; Oops?&lt;/p&gt;
-
 &lt;p&gt;I wasn&amp;rsquo;t planning to migrate just yet so apologies for the RSS weirdness.&lt;/p&gt;
 </description>
     </item>

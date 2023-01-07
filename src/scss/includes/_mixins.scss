@@ -34,7 +34,6 @@
 
 @mixin links {
     & {
-        border-radius: 1px;
         color: $color-link;
         font-weight: bold;
         text-decoration: underline;

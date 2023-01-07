@@ -5,7 +5,7 @@
 <title>CSS bug in IE 6 with: .class a:hover element</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-efe7d564.css">
+<link rel="stylesheet" href="/css/main-005b5b86.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/css-bug-in-ie-6-with-class-ahover-element/">
     
 <body>
@@ -41,58 +41,53 @@
     </div>
     <div class="post-body" itemprop="articleBody">
         <p>This bug seems to apply to styling elements under a class or id within a link on hover.  Stuff like <code>.class a:hover span{}</code> or <code>#id a:hover strong{}</code>.  The solution is to define a property on the parent link <code>.class a:hover{}</code> that hasn&rsquo;t been declared anywhere else in your CSS, like a text indent of 0 or something.</p>
-
 <p>All the work for the solution was done by <a href="http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp">Tanfa, who wrote an article on IE Pure CSS Pop Ups Bug</a>, I just thought it was worth mentioning that this bug can be generalized to more than the CSS menus.</p>
-
 <p>Here&rsquo;s what happened to me:</p>
-
 <p>I had some text inside a link, and I wanted some of it to do one thing when rolled over and some of it to do something else.  I marked it up like this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;promo&#34;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>News<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;link.html&#34;</span><span class="p">&gt;</span>IE has lots of bugs<span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>read more<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span></code></pre></div>
-<p>It&rsquo;s sort of a solution to the fact that &ldquo;read more&rdquo; makes bad link text.  Bad.  And I don&rsquo;t write the copy.</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;promo&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>News<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;link.html&#34;</span><span class="p">&gt;</span>IE has lots of bugs<span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>read more<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>It&rsquo;s sort of a solution to the fact that &ldquo;read more&rdquo; makes bad link text.  Bad.  And I don&rsquo;t write the copy.</p>
 <p>Then I tried to style it with something like this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/* default link behaviour */</span>
-<span class="nt">a</span> <span class="p">{</span>
-    <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#8ec3e2</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#6d80a8</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#c1fcff</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="c">/* overrides for this element */</span>
-<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span> <span class="p">{</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span> <span class="nt">strong</span><span class="o">,</span>
-<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="nt">strong</span> <span class="p">{</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#8ec3e2</span><span class="p">;</span>
-    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="nt">strong</span> <span class="p">{</span>
-    <span class="k">color</span><span class="p">:</span> <span class="mh">#c1fcff</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<p>Which did exactly what I wanted it to do&hellip; in FireFox but in IE 6 the hover was not displaying properly.  After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided <a href="http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp">Tanfa&rsquo;s article on IE Pure CSS Pop Ups Bug</a> in response to my query.</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* default link behaviour */</span>
+</span></span><span class="line"><span class="cl"><span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#8ec3e2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#6d80a8</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#c1fcff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* overrides for this element */</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#000</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span> <span class="nt">strong</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">visited</span> <span class="nt">strong</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#8ec3e2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="nt">strong</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#c1fcff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Which did exactly what I wanted it to do&hellip; in FireFox but in IE 6 the hover was not displaying properly.  After a little tinkering the IE bug alarm bells started going off in the back of my head and Google provided <a href="http://www.tanfa.co.uk/css/articles/pure-css-popups-bug.asp">Tanfa&rsquo;s article on IE Pure CSS Pop Ups Bug</a> in response to my query.</p>
 <p>I added float:none to my declaration for <code>.promo a:hover{}</code> and all is now well :)</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
-    <span class="k">float</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<p>Thank you Tanfa!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">promo</span> <span class="nt">a</span><span class="p">:</span><span class="nd">hover</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">float</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Thank you Tanfa!</p>
 
     </div>
 </article>
@@ -103,7 +98,7 @@
     <nav class="footer-nav">
         <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a> ⁃ <a href="/tags/">Tags</a>
     </nav>
-    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2020</p>
+    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2023</p>
 </footer>
 
 </body>

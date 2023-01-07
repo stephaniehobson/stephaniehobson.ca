@@ -2,16 +2,13 @@
     {{ partial "social.html" (dict "context" . "class" "social-header") }}
 {{ end }}
 {{ define "main" }}
-    {{ range first 1 .Data.Pages }}
+    {{ range ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
         {{ if eq .Type "posts" }}
             {{ partial "post-summary.html" . }}
         {{ end }}
     {{ end }}
-    {{ range first 10 (after 1 .Data.Pages) }}
-        {{ if eq .Type "posts" }}
-            {{ partial "post-summary.html" . }}
-        {{ end }}
-    {{ end }}
+
+
     <div>
         <a href="/year/">Archives</a>
     </div>

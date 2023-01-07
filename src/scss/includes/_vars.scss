@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 /*
 colors
 ====================================================================== */
@@ -6,7 +8,7 @@ $color-text: #222222;
 $color-border: $color-text;
 $color-background: #FDFDFD;
 $color-link: #0076CD;
-$color-link-hover: lighten($color-link, 15%); //#00A3E4;
+$color-link-hover: color.scale($color-link, $lightness: 15%); //#00A3E4;
 $color-link-visited: #7C5333; //#6841CF;
 $color-link-visited-hover: $color-link-hover; //lighten($color-link-visited, 10%); //#8E78FF;
 $color-embelish: #009531;
@@ -41,11 +43,11 @@ $fontsize-2: calc(#{$font-base} * #{$f-2});
 breakpoints & media queries
 ====================================================================== */
 
-$point-320: 320 / 16 * 1em;
-$point-480: 480 / 16 * 1em;
-$point-680: 680 / 16 * 1em;
-$point-960: 960 / 16 * 1em;
-$point-1200: 1200 / 16 * 1em;
+$point-320: calc( 320 / 16 * 1em);
+$point-480: calc(480 / 16 * 1em);
+$point-680: calc(680 / 16 * 1em);
+$point-960: calc(960 / 16 * 1em);
+$point-1200: calc(1200 / 16 * 1em);
 
 $point-320-starts: $point-320;
 $point-480-starts: $point-480;

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 on Stephanie Hobson</title>
@@ -18,27 +17,20 @@
       
       <guid>https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/</guid>
       <description>&lt;p&gt;Our team has identified image optimization as one of the more time consuming and often forgotten steps of our current process. In the long run we want to automate it using a git pre-commit hook. As the first step to this I&amp;rsquo;ve got PNG and JPG optimization working manually using &lt;a href=&#34;https://tinypng.com/&#34;&gt;TinyPNG&lt;/a&gt; from the command line:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git diff --diff-filter=ACM --name-only HEAD | grep &amp;quot;.png\|.jpg&amp;quot; | xargs tinypng
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To set this up:&lt;/p&gt;
-
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git diff --diff-filter=ACM --name-only HEAD | grep &amp;#34;.png\|.jpg&amp;#34; | xargs tinypng
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To set this up:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://tinypng.com/developers&#34;&gt;Get a TinyPNG API key&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Save the API key in a file named &lt;code&gt;.tinypng&lt;/code&gt; in your home directory.&lt;/li&gt;
 &lt;li&gt;Install the &lt;a href=&#34;https://www.npmjs.com/package/tinypng-cli&#34;&gt;npm TinyPNG CLI&lt;/a&gt;.
 Because it&amp;rsquo;s not part of our site yet I installed it globally:
-&lt;code&gt;
-npm install -g tinypng-cli
-&lt;/code&gt;&lt;/li&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install -g tinypng-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;Add the files you want to optimize to Git&amp;rsquo;s staging area. (&lt;code&gt;git add *&lt;/code&gt; will add all the files you&amp;rsquo;ve edited)&lt;/li&gt;
 &lt;li&gt;Run &lt;code&gt;git diff --diff-filter=ACM --name-only HEAD | grep &amp;quot;.png\|.jpg&amp;quot; | xargs tinypng&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Add add the new modified files to your Git staging area before committing.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;What it&amp;rsquo;s doing:&lt;/p&gt;
-
 &lt;dl&gt;
 &lt;dt&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;/dt&gt;
 &lt;dd&gt;Telling Git we want to a list of differences between two things&lt;/dd&gt;

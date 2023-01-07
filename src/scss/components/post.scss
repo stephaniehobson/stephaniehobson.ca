@@ -1,17 +1,8 @@
 @import '../includes/vars';
 @import '../includes/mixins';
 
-@import '../includes/vars';
-@import '../includes/mixins';
-
 .post-title {
     padding-bottom: 0;
-}
-
-.post-info {
-    main & {
-        margin-left: $outdent;
-    }
 }
 
 .post-link {
@@ -44,6 +35,10 @@
 .post-info {
     font-size: $fontsize-1;
     padding-bottom: $grid;
+
+    main & {
+        margin-left: $outdent;
+    }
 }
 
 .post-date-year {

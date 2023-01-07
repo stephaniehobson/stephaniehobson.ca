@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Stephanie Hobson</title>
@@ -16,28 +15,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/about/</guid>
-      <description>
-&lt;figure&gt;
-    
-        &lt;img src=&#34;stephanie.jpg&#34; alt=&#34;Me wearing a black turtle neck with my red-brown hair in a pony tail, smiling in front of a wall covered in graffiti.&#34; /&gt;
-    
-    
+      <description>&lt;figure&gt;&lt;img src=&#34;stephanie.jpg&#34;
+         alt=&#34;Me wearing a black turtle neck with my red-brown hair in a pony tail, smiling in front of a wall covered in graffiti.&#34;/&gt;
 &lt;/figure&gt;
 
-
 &lt;p&gt;My name is Stephanie Hobson and I like to make websites everyone can use.&lt;/p&gt;
-
 &lt;p&gt;That means thinking about people who use the web differently than I do. Different technologies. Different identities. Different goals. Different languages. Different brains.&lt;/p&gt;
-
 &lt;p&gt;So, I like to make sites that are accessible, inclusive, fast, responsive, and robust.&lt;/p&gt;
-
 &lt;p&gt;I stumbled into my career in web development while working on a BA in History. I was self taught so I took a 10 month certificate program at &lt;a href=&#34;https://www.ubc.ca/&#34;&gt;UBC&lt;/a&gt; to get a piece of paper saying I knew how to do what I already knew how to do.&lt;/p&gt;
-
 &lt;p&gt;I started my career as the primary front-end developer for &lt;a href=&#34;https://www.bcit.ca/&#34;&gt;BCIT.ca&lt;/a&gt;. I took some time out to work for an agency. Then I joined Mozilla, first on &lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;MDN&lt;/a&gt; and now on &lt;a href=&#34;https://www.mozilla.org/&#34;&gt;Mozilla.org&lt;/a&gt;. So, I have experience working on both huge old websites and small young ones — always as part of a team.&lt;/p&gt;
-
-&lt;!-- Crashing Apple products is my crummy super power. Bad spelling is my signature move. --&gt;
-
-&lt;!-- it ends abruptly --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     

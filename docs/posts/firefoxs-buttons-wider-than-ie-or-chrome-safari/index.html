@@ -5,7 +5,7 @@
 <title>FireFox&#39;s buttons are wider than IE or Chrome/Safari&#39;s</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-efe7d564.css">
+<link rel="stylesheet" href="/css/main-005b5b86.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/firefoxs-buttons-wider-than-ie-or-chrome-safari/">
     
 <body>
@@ -41,37 +41,31 @@
     </div>
     <div class="post-body" itemprop="articleBody">
         <p>I hate form styling on the best of days. This is a good example of why:</p>
-
 <p>Firefox&rsquo;s buttons are wider than IE&rsquo;s or Webkit&rsquo;s. Why? This little gem in the browser&rsquo;s style sheets:</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
-    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<p>That&rsquo;s right, it&rsquo;s 4px wider. Thank you FireFox.</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span> <span class="mi">0</span><span class="kt">px</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>That&rsquo;s right, it&rsquo;s 4px wider. Thank you FireFox.</p>
 <p>Fortunately, we can fix it!</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
-    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<p>That was easy :)</p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">button</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;reset&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;submit&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;file&#34;</span><span class="o">]</span> <span class="o">&gt;</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&#34;button&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>That was easy :)</p>
 <p>We have a class on our site that is applied to every button. I call it &ldquo;formbutton&rdquo; (I didn&rsquo;t get to pick it. My boss picked it 8 years ago. It&rsquo;s a great name isn&rsquo;t it? Epic and enduring.) So I can simplify that code up to this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">formbutton</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
-    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<p><strong>Want a little more info:</strong></p>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">formbutton</span><span class="p">::</span><span class="nd">-moz-focus-inner</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><strong>Want a little more info:</strong></p>
 <p>I found this with a little help from this article on <a href="http://www.oppenheim.com.au/2008/07/06/how-to-view-firefoxs-default-internal-css-stylesheet/">viewing FireFox&rsquo;s default style sheets</a>. The observant among you may notice there is another style in there. It is for keyboard navigation. Use your new found powers wisely, don&rsquo;t remove it without replacing it.</p>
-
 <p>Also, here&rsquo;s a link if you&rsquo;re wondering what is up with the <a href="http://www.evotech.net/blog/2007/05/after-v-after-what-is-double-colon-notation/">double colon notation.</a></p>
-
 <p>And so far it does not look like there are equivalent pseudo elements in Webkit or IE, but I will admit to not looking very hard since this fixed my problem ;)</p>
 
     </div>
@@ -83,7 +77,7 @@
     <nav class="footer-nav">
         <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a> ⁃ <a href="/tags/">Tags</a>
     </nav>
-    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2020</p>
+    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2023</p>
 </footer>
 
 </body>

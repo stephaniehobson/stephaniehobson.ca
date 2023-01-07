@@ -1,12 +1,12 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const hash = require('gulp-hash');
-const del = require('del');
+//const del = require('del');
 const gulpStylelint = require('gulp-stylelint');
 
 // compile SCSS files to CSS
 gulp.task('scss', gulp.series(function(done) {
-    del(['static/css/**/*']);
+    //del(['static/css/**/*']);
     gulp.src('src/scss/main.scss')
         .pipe(sass({outputStyle : 'compressed'}))
         .pipe(hash())
@@ -32,7 +32,7 @@ gulp.task('scss:lint', gulp.series(function(done) {
 
 // hash javascript
 gulp.task('js', gulp.series(function(done) {
-    del(['static/js/**/*']);
+    //del(['static/js/**/*']);
     gulp.src('src/js/**/*')
         .pipe(hash())
         .pipe(gulp.dest('static/js'))
@@ -43,7 +43,7 @@ gulp.task('js', gulp.series(function(done) {
 
 // copy icons to public folder
 gulp.task('icons', gulp.series(function(done) {
-    del(['static/images/icons/*']);
+    //del(['static/images/icons/*']);
     gulp.src([
         'node_modules/simple-icons/icons/github.svg',
         'node_modules/simple-icons/icons/pinboard.svg',

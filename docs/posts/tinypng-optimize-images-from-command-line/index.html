@@ -5,7 +5,7 @@
 <title>Using Tinypng to optimize images from the command line</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-efe7d564.css">
+<link rel="stylesheet" href="/css/main-005b5b86.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/tinypng-optimize-images-from-command-line/">
     
 <body>
@@ -41,27 +41,20 @@
     </div>
     <div class="post-body" itemprop="articleBody">
         <p>Our team has identified image optimization as one of the more time consuming and often forgotten steps of our current process. In the long run we want to automate it using a git pre-commit hook. As the first step to this I&rsquo;ve got PNG and JPG optimization working manually using <a href="https://tinypng.com/">TinyPNG</a> from the command line:</p>
-
-<pre><code>git diff --diff-filter=ACM --name-only HEAD | grep &quot;.png\|.jpg&quot; | xargs tinypng
-</code></pre>
-
-<p>To set this up:</p>
-
+<pre tabindex="0"><code>git diff --diff-filter=ACM --name-only HEAD | grep &#34;.png\|.jpg&#34; | xargs tinypng
+</code></pre><p>To set this up:</p>
 <ol>
 <li><a href="https://tinypng.com/developers">Get a TinyPNG API key</a>.</li>
 <li>Save the API key in a file named <code>.tinypng</code> in your home directory.</li>
 <li>Install the <a href="https://www.npmjs.com/package/tinypng-cli">npm TinyPNG CLI</a>.
 Because it&rsquo;s not part of our site yet I installed it globally:
-<code>
-npm install -g tinypng-cli
-</code></li>
+<pre tabindex="0"><code>npm install -g tinypng-cli
+</code></pre></li>
 <li>Add the files you want to optimize to Git&rsquo;s staging area. (<code>git add *</code> will add all the files you&rsquo;ve edited)</li>
 <li>Run <code>git diff --diff-filter=ACM --name-only HEAD | grep &quot;.png\|.jpg&quot; | xargs tinypng</code>.</li>
 <li>Add add the new modified files to your Git staging area before committing.</li>
 </ol>
-
 <p>What it&rsquo;s doing:</p>
-
 <dl>
 <dt><code>git diff</code></dt>
 <dd>Telling Git we want to a list of differences between two things</dd>
@@ -94,7 +87,7 @@ npm install -g tinypng-cli
     <nav class="footer-nav">
         <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a> ⁃ <a href="/tags/">Tags</a>
     </nav>
-    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2020</p>
+    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2023</p>
 </footer>
 
 </body>

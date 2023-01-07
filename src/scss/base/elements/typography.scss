@@ -7,22 +7,8 @@
   - fonts related to grid?
 */
 
-// default element font size margin and padding if custom properties are not supported
+/* default element font size margin and padding if custom properties are not supported */
 @supports (--color: red) {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        line-height: 1.2;
-        margin: 0;
-        padding: $grid 0;
-
-        main & {
-            margin: 0 0 0 $outdent;
-        }
-    }
-
     h1 {
         font-size: $fontsize5;
     }
@@ -41,6 +27,20 @@
 
     h5 {
         font-size: $fontsize1;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        line-height: 1.2;
+        margin: 0;
+        padding: $grid 0;
+
+        main & {
+            margin: 0 0 0 $outdent;
+        }
     }
 
     p {

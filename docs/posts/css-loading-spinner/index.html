@@ -5,7 +5,7 @@
 <title>CSS Loading Spinner</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/css/main-efe7d564.css">
+<link rel="stylesheet" href="/css/main-005b5b86.css">
 <link rel="canonical" href="https://stephaniehobson.ca/posts/css-loading-spinner/">
     
 <body>
@@ -40,90 +40,75 @@
         </ul>
     </div>
     <div class="post-body" itemprop="articleBody">
-        
-
-<p>I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is <a href="https://en.wikipedia.org/wiki/Law_of_the_instrument">my hammer</a>).</p>
-
+        <p>I needed a loading spinner for a side project the other day but I was too lazy to steal someone else&rsquo;s off the internet or try to re-learn making an animated GIF so I just coded my own in CSS (CSS is <a href="https://en.wikipedia.org/wiki/Law_of_the_instrument">my hammer</a>).</p>
 <p>On the bright side it works on any background colour and is a little transparent which is neat. And it&rsquo;s <em>way</em> faster to adjust the colour scheme than an image file would be.</p>
-
 <div class="frame">
   <iframe class="frame-src" src="/loading-spinner/" allowfullscreen></iframe>
 </div>
 
-
 <h2 id="the-basic-idea">The basic idea</h2>
-
 <p>It&rsquo;s one <code>&lt;div&gt;</code> containing 8 <code>&lt;span&gt;</code>s, styled to be little grey lozenges:</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
-    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
-    <span class="k">height</span><span class="p">:</span> <span class="mi">13</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">);</span>
-<span class="p">}</span></code></pre></div>
-<p>In anticipation of rotating them I moved the <code>transform-origin</code> to the middle of the element and then a significant way down beneath it. Later, when I rotate the lozenges this spaces them further apart.</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
-    <span class="k">transform-origin</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span> <span class="mi">160</span><span class="kt">%</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<p>They all have a simple animation applied to them that makes them fade in and out (it has a bit of an opacity on it just for fun):</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
-    <span class="k">animation-name</span><span class="p">:</span> <span class="n">fade</span><span class="p">;</span>
-    <span class="k">animation-duration</span><span class="p">:</span> <span class="mi">1</span><span class="kt">s</span><span class="p">;</span>
-    <span class="k">animation-iteration-count</span><span class="p">:</span> <span class="kc">infinite</span><span class="p">;</span>
-    <span class="k">animation-direction</span><span class="p">:</span> <span class="kc">alternate</span><span class="p">;</span>
-    <span class="k">animation-fill-mode</span><span class="p">:</span> <span class="kc">backwards</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">@</span><span class="k">keyframes</span> <span class="nt">fade</span> <span class="p">{</span>
-    <span class="nt">0</span><span class="o">%</span> <span class="p">{</span>
-        <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="nt">40</span><span class="o">%</span> <span class="p">{</span>
-        <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="nt">100</span><span class="o">%</span> <span class="p">{</span>
-        <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
-    <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
-<p>Using <code>nth-of-type</code> each lozenge is rotated 45degrees more than the last and has a delay of 250ms added to the animation on it. Unfortunately there is no easy way to do this program-magically so they have to be specified for each. Here is an example of the code for the second one:</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span><span class="p">:</span><span class="nd">nth-of-type</span><span class="o">(</span><span class="nt">2</span><span class="o">)</span> <span class="p">{</span>
-    <span class="k">transform</span><span class="p">:</span> <span class="nb">rotate</span><span class="p">(</span><span class="mi">45</span><span class="kt">deg</span><span class="p">);</span>
-    <span class="k">animation-delay</span><span class="p">:</span> <span class="mi">-750</span><span class="kt">ms</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<h2 id="starting-in-the-middle">Starting in the middle</h2>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">height</span><span class="p">:</span> <span class="mi">13</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>In anticipation of rotating them I moved the <code>transform-origin</code> to the middle of the element and then a significant way down beneath it. Later, when I rotate the lozenges this spaces them further apart.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">transform-origin</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span> <span class="mi">160</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>They all have a simple animation applied to them that makes them fade in and out (it has a bit of an opacity on it just for fun):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-name</span><span class="p">:</span> <span class="n">fade</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-duration</span><span class="p">:</span> <span class="mi">1</span><span class="kt">s</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-iteration-count</span><span class="p">:</span> <span class="kc">infinite</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-direction</span><span class="p">:</span> <span class="kc">alternate</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-fill-mode</span><span class="p">:</span> <span class="kc">backwards</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">@</span><span class="k">keyframes</span> <span class="nt">fade</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">0</span><span class="o">%</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">40</span><span class="o">%</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span> <span class="mi">77</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">100</span><span class="o">%</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">background-color</span><span class="p">:</span> <span class="nb">rgba</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span><span class="mf">0.8</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Using <code>nth-of-type</code> each lozenge is rotated 45degrees more than the last and has a delay of 250ms added to the animation on it. Unfortunately there is no easy way to do this program-magically so they have to be specified for each. Here is an example of the code for the second one:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span><span class="p">:</span><span class="nd">nth-of-type</span><span class="o">(</span><span class="nt">2</span><span class="o">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">transform</span><span class="p">:</span> <span class="nb">rotate</span><span class="p">(</span><span class="mi">45</span><span class="kt">deg</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-delay</span><span class="p">:</span> <span class="mi">-750</span><span class="kt">ms</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="starting-in-the-middle">Starting in the middle</h2>
 <p>Did you know that you can provide a <em>negative</em> value for <code>animation-delay</code>? Cool, eh?!?! This means I can make it appear that the animation is beginning in the middle, otherwise the first time it&rsquo;s run it looks funny.</p>
-
 <h2 id="placing-the-spinner">Placing the spinner</h2>
-
 <p>I added some absolute positioning to the <code>&lt;span&gt;</code>s, so the origin of the transform is at the top left of their parent <code>&lt;div&gt;</code>. This means the spinner fans out from the top left of the <code>&lt;div&gt;</code> and you can absolutely position it to exactly where you want the <em>middle</em> of the spinner.  Handy if you want to place the spinner in the middle of something, like I did.</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">spinner</span> <span class="p">{</span>
-    <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
-    <span class="k">top</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
-    <span class="k">left</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
-    <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
-    <span class="k">top</span><span class="p">:</span> <span class="mi">-20</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">left</span><span class="p">:</span> <span class="mi">-3</span><span class="kt">px</span><span class="p">;</span>
-    <span class="err">...</span></code></pre></div>
-<h2 id="changing-the-colour">Changing the colour</h2>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">spinner</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">top</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">left</span><span class="p">:</span> <span class="mi">50</span><span class="kt">%</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">top</span><span class="p">:</span> <span class="mi">-20</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">left</span><span class="p">:</span> <span class="mi">-3</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="err">...</span>
+</span></span></code></pre></div><h2 id="changing-the-colour">Changing the colour</h2>
 <p>Changing the colour is as simple as creating a new animation and applying that to your special spinner spans.</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">special</span> <span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
-    <span class="k">animation-name</span><span class="p">:</span> <span class="n">specialfade</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-<h2 id="using-it">Using it</h2>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">special</span> <span class="p">.</span><span class="nc">spinner</span> <span class="nt">span</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">animation-name</span><span class="p">:</span> <span class="n">specialfade</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="using-it">Using it</h2>
 <p><a href="/loading-spinner/">Here&rsquo;s the loading spinner</a> with the <code>moz</code> and <code>webkit</code> prefixes. Of course, it only works in browsers that support animation and transforms but there&rsquo;s more and more of those these days.</p>
-
 <p>Also, yes, totally, please use it. <a href="https://twitter.com/stephaniehobson">Tweet me</a> if you make any improvements.</p>
-
 <h2 id="a-little-bit-more">A little bit more</h2>
-
 <p>I got a little carried away and made a few other styles:</p>
-
 <div class="frame">
   <iframe class="frame-src" src="/loading-spinner/other-styles.html" allowfullscreen></iframe>
 </div>
@@ -138,7 +123,7 @@
     <nav class="footer-nav">
         <a href="/about/">About</a> ⁃ <a href="/year/">Archives</a> ⁃ <a href="/tags/">Tags</a>
     </nav>
-    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2020</p>
+    <p class="footer-copy">&copy; <a href="/about/">Stephanie Hobson</a> 2007- 2023</p>
 </footer>
 
 </body>
