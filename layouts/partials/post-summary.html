@@ -4,6 +4,7 @@
             {{ .Title }}
         </a>
     </h2>
+    {{ if eq .Kind "page" }}
     <div class="summary-info">
         <span class="summary-date">
             <a class="summary-date-year" href="/year/{{ .PublishDate.Format "2006" }}/">{{ .PublishDate.Format "2006" }}</a>
@@ -17,4 +18,5 @@
             {{ end }}
         </ul>
     </div>
+    {{ end }}
 </div>
