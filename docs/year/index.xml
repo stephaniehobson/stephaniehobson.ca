@@ -5,10 +5,37 @@
     <description>Recent content in Year on Stephanie Hobson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-ca</language>
-    <lastBuildDate>Tue, 30 Apr 2019 16:36:56 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jan 2023 22:17:00 +0000</lastBuildDate>
     
         <atom:link href="https://stephaniehobson.ca/year/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dictation is turned off by screen time</title>
+      <link>https://stephaniehobson.ca/posts/dictation-is-turned-off-by-screen-time/</link>
+      <pubDate>Fri, 06 Jan 2023 22:17:00 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/dictation-is-turned-off-by-screen-time/</guid>
+      <description>&lt;p&gt;I recently ran into a problem where I could not enable dictation on my MacOS laptop. In the system settings
+the toggle was grayed out and could not be flipped. The message beneath it was &amp;ldquo;Dictation is turned off
+by Screen Time.&amp;rdquo;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;dictation.png&#34;
+         alt=&#34;Screen shot of the error appearing in the systems settings.&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I&amp;rsquo;m not bad at computers but I could not figure out where to re-enable it. It was not under &lt;em&gt;App Limits&lt;/em&gt;.
+It was not under &lt;em&gt;Content &amp;amp; Privacy&lt;/em&gt;. I could not add it to &lt;em&gt;Always Allowed&lt;/em&gt;. Searching the system settings
+for &amp;ldquo;dictation&amp;rdquo; turned up two options, neither of which did what I needed.&lt;/p&gt;
+&lt;p&gt;Out of desperation I posted about it on Twitter and Mastodon. Of course I found it 5 second later.&lt;/p&gt;
+&lt;p&gt;On MacOS Ventura it&amp;rsquo;s &lt;em&gt;System Settings&lt;/em&gt; &amp;gt; &lt;em&gt;Screen Time&lt;/em&gt; &amp;gt; &lt;em&gt;Content &amp;amp; Privacy&lt;/em&gt; &amp;gt; &lt;em&gt;App Restrictions&lt;/em&gt; &amp;gt;
+&lt;em&gt;Allow Siri &amp;amp; Dictation&lt;/em&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;allow-dictation.png&#34;
+         alt=&#34;Screen shot of App Restrictions settings.&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Happy dictating.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using Tinypng to optimize images from the command line</title>
