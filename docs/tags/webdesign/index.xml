@@ -714,6 +714,77 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
     </item>
     
     <item>
+      <title>Smashing Conference Whistler 2014</title>
+      <link>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</link>
+      <pubDate>Tue, 06 Jan 2015 22:32:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/smashing-conference-whistler-2014/</guid>
+      <description>&lt;p&gt;A few weeks ago &lt;a href=&#34;http://smashingconf.com/whistler-2014/&#34;&gt;Smashing Conference came to Whistler&lt;/a&gt;. This caliber of conference comes to Canada infrequently so I couldn&amp;rsquo;t not go ;)&lt;/p&gt;
+&lt;h2 id=&#34;the-conference&#34;&gt;The conference&lt;/h2&gt;
+&lt;p&gt;As good as I hoped it would be. A mix of strategy and near future technology examples.&lt;/p&gt;
+&lt;h3 id=&#34;my-favourite-talk&#34;&gt;My Favourite Talk&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Building the next-generation of &lt;a href=&#34;https://theguardian.com&#34;&gt;theguardian.com&lt;/a&gt;, by Patrick Hamann&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/patrickhamann/building-theguardian-dot-com&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;talk-summaries&#34;&gt;Talk Summaries&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Marcin Wichary&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Good is the enemy of great: On designing, and then undesigning, a perfect link underline&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+200 years of typographic history was lost when we moved from printing presses to the typewriter, Marcin Took us through some of what he did in his attempt to re-create the perfect underline.His ultimate point was that it&amp;rsquo;s important to find a balance between shipping and creating good code. Perfectionism is not the right balance but we should strive to make things good and not just improve the status quo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Susan Robertson&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Style Guides: Why bother?&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Susan walked us through a long list of benefits to using a style guide. Highlights included: front-end speed, consistency, and performance. Lots of good resources here: &lt;a href=&#34;http://styleguides.io&#34;&gt;styleguides.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Yoav Weiss&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Responsive Images are Coming to a Browser Near You&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;is a solution for providing art direction of images on different screen sizes and &lt;code&gt;srcset&lt;/code&gt; gets added to  if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Marcy Sutton&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;A Web for Everybody&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Accessibility is easier if you build it you build it in from the start. Ask, does it work: With the keyboard only? In a screen reader? Without sound? Without colour? In high contrast mode? &amp;ldquo;This stuff is not that hard.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jenn Lukas&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;The Developer’s Ampersandwich&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Things to consider when implementing type on a website: if you haven&amp;rsquo;t been given design direction you can find the type by looking at what&amp;rsquo;s popular and already in use, separate presentation from content, be aware of performance issues with web fonts, add accessible fallbacks for a icon fonts, use tools like typecast to communicate with designers about general styles rather than content specific styles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zach Leatherman&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Better @font-face with Font Load Events&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Web fonts are rendered blocking. Zach proposes a JavaScript fix which prioritizes a FOIT for icon fonts and a FOUT for content fonts. Lots of good stuff from &lt;a href=&#34;http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;this excellent article of his&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stephen Hay&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Easing the Pain of Designing in the Browser&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+We need to stop thinking about layout first, we need to start thinking about structured content first. Begin by focusing on the small screen, and then focus on type and color.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;John Allsopp&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;The Web&amp;rsquo;s future is offline&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&amp;ldquo;We can&amp;rsquo;t keep building apps with the desktop mindset of permanent, fast connectivity, where a temporary disconnection or slow service is regarded as a problem and communicated as an error.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dave Shea&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Rolling Your Own CSS Methodology&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+A CSS framework is not about syntax. It&amp;rsquo;s about discipline and optimizing for people. Ideals Mobify uses when building theirs: classes for everything, no IDs, no nesting, no !important.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That was one day. It was a really long day.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Johnathan Snook&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;
+Jonathan gave a very personal talk about the development of his career overtime and the importance of empathy. It touched a lot of people, but it is difficult to summarize in two sentences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Atomic Design&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+If we all use the same framework we all look alike. We should be building &amp;ldquo;Tiny Bootstraps, for every client.&amp;rdquo; - Dave Rupert. Brad demoed &lt;a href=&#34;http://patternlab.io&#34;&gt;patternlab.io&lt;/a&gt; which is a really cool tool for breaking designs down into component parts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lyza D. Gardner&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Soothing Web Weariness: Saving the Web by Doing as Little as Possible&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Make projects smaller to begin with - increase your constraints - improve them iteratively and systematically instead of accepting complexity as the status quo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Val Head&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;All the Right Moves: Putting your UIs in Motion&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Animations needs to be designed with intent the same way you would design any other part of the site. Prototype animations. Test that they match your site&amp;rsquo;s style and feel fast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kyle Simpson&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;#CSS {Yawn: Yay!}&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Kyle talked about some high-level concepts he&amp;rsquo;d like to see implemented in CSS templating. It was very much a talk about the next generation of CSS informed by some complex computing science principles. I can&amp;rsquo;t do it justice, &lt;a href=&#34;https://speakerdeck.com/getify/number-css-yawn-yay&#34;&gt;his slides are here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tim Kadlec&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;In Between&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Like Val, Tim talked about designing animations with intent. He had lots of great examples and data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paul Irish&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;em&gt;Getting to Fast&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+Not all pixels are created equal. Paul talked about why the first 14KB transferred are the most important to performance.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :) I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Making Websites Better for Everyone</title>
       <link>https://stephaniehobson.ca/posts/making-websites-better-for-everyone/</link>
       <pubDate>Sat, 13 Dec 2014 11:00:15 +0000</pubDate>
@@ -1192,6 +1263,19 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Taking a photo of yourself with an iPhone</title>
+      <link>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</link>
+      <pubDate>Wed, 15 Sep 2010 22:31:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/taking-a-photo-of-yourself-with-an-iphone/</guid>
+      <description>&lt;div class=&#34;youtube&#34;&gt;
+  &lt;iframe width=&#34;500&#34; height=&#34;281&#34; src=&#34;https://www.youtube-nocookie.com/embed/xckrxgvTsyY?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Bullets aligned to the top of the text</title>
       <link>https://stephaniehobson.ca/posts/bullets-alligned-top-text/</link>
       <pubDate>Fri, 10 Sep 2010 12:59:47 +0000</pubDate>
@@ -1218,6 +1302,47 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
     </item>
     
     <item>
+      <title>2009 in Review</title>
+      <link>https://stephaniehobson.ca/posts/2009/</link>
+      <pubDate>Fri, 08 Jan 2010 19:09:46 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/2009/</guid>
+      <description>&lt;p&gt;My year in review &lt;a href=&#34;https://powazek.com/posts/2219&#34;&gt;Powazek style&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;JAN: New Years at Joel&amp;rsquo;s. Seren born. Yelling and crying.&lt;/p&gt;
+&lt;p&gt;FEB: Mum&amp;rsquo;s nomination meeting. Elected to strata council.&lt;/p&gt;
+&lt;p&gt;MAR: Giants Fan Bus.&lt;/p&gt;
+&lt;p&gt;APR: I check into my first &lt;a href=&#34;http://gowalla.com&#34;&gt;Gowalla&lt;/a&gt; spot.&lt;/p&gt;
+&lt;p&gt;MAY: My temporary roommate drops her phone down an elevator shaft after a &lt;a href=&#34;http://colonelpanic.ca/&#34;&gt;Colonel Panic&lt;/a&gt; concert. Ultimate with H.A.M.M.E.R. starts.&lt;/p&gt;
+&lt;p&gt;JUN: Program catalogue launch. Asthon Lane, Inverness and @media.&lt;/p&gt;
+&lt;p&gt;JUL: Fireworks with Sue. Decemberists.&lt;/p&gt;
+&lt;p&gt;AUG: Camping. Victoria. Drive-in movie. Summerland.&lt;/p&gt;
+&lt;p&gt;SEP: Copyfight. Franz Ferdinand and Great Big Sea.&lt;/p&gt;
+&lt;p&gt;OCT: Barcamp. Whistler.&lt;/p&gt;
+&lt;p&gt;NOV: Hopscotch. Bought the hat. San Francisco. Bad things happen to good people.&lt;/p&gt;
+&lt;p&gt;DEC: UXCamp. We survived Christmas party. Quebec.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I lie to Batman</title>
+      <link>https://stephaniehobson.ca/posts/i-lie-to-batman/</link>
+      <pubDate>Thu, 17 Dec 2009 22:16:51 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/i-lie-to-batman/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you&amp;rsquo;re following me because you&amp;rsquo;re a code geek, like I am, and you want only my web design related feed and posts &lt;a href=&#34;https://stephaniehobson.ca/tags/webdesign/&#34;&gt;they have their own tag now&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I was asked the other night who my favourite comic book character is and anyone who knows me would answer without hesitation: Batman. They&amp;rsquo;d be close.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s Robin all the way.&lt;/p&gt;
+&lt;p&gt;Not Dick Grayson,  Jason Todd, or Tim Drake - Robin. You know, that colourful target that swings into action next to the dark knight.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;robin.jpg&#34;
+         alt=&#34;Don&amp;#39;t doubt Robin is a bad ass. He lies to Batman.&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I like the idea that Batman needs a little bit of light to balance his darkness. I like the energy, optimism, and ingenuity of a kid fighting in an adult world.&lt;/p&gt;
+&lt;p&gt;Who&amp;rsquo;s your favourite?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Maintaining your CSS helps maintain your site</title>
       <link>https://stephaniehobson.ca/posts/maintaining-css-help-maintain-site/</link>
       <pubDate>Thu, 10 Dec 2009 12:02:44 +0000</pubDate>
@@ -1229,6 +1354,20 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
 &lt;p&gt;We should be done now and, unintentionally, I made it easy for us to check. A quick search of the server for id=&amp;ldquo;footer&amp;rdquo; turned up all the stragglers.&lt;/p&gt;
 &lt;p&gt;Some of the stragglers had been neglected for a while and turned out to need more than just a new footer&amp;hellip;&lt;/p&gt;
 &lt;p&gt;So what&amp;rsquo;s languishing in your code that you can delete?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Abstract Sequential?</title>
+      <link>https://stephaniehobson.ca/posts/why-abstract-sequential/</link>
+      <pubDate>Thu, 12 Nov 2009 22:02:24 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/why-abstract-sequential/</guid>
+      <description>&lt;p&gt;Short answer: it&amp;rsquo;s my thinking style :)&lt;/p&gt;
+&lt;p&gt;It means I enjoy theory, logic, precision and abstract thought and that I learn best through lecture, independent research, and following procedures. This means I love web design but makes my blog very, very boring.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s one of four learning styles as categorized by Dr. Anthony F. Gregorc. (I totally just Googled that). I first heard about my style from my teacher and friend Cheryl Atwater. The thinking styles are actually very useful for figuring out how to deal with people. For example, if you&amp;rsquo;re discussing something with me you&amp;rsquo;re more likely to persuade me with logic than heartfelt pleas ;)&lt;/p&gt;
+&lt;p&gt;The other three styles are: abstract random, concrete random, and concrete sequential. The fun stuff starts once you know which you are or which one that person at work who drives you up the wall is. Floating Neutrinos has a great information page summarizing each style&amp;rsquo;s&lt;a href=&#34;http://www.floatingneutrinos.com/Message/arcs/links_on_abstractrandom.htm&#34;&gt; learning preferences, strengths, and weaknesses&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may be able to figure out which one is you just by&lt;a href=&#34;http://people.usd.edu/~ssanto/gregorc.html&#34;&gt; reading the descriptions&lt;/a&gt;, but here&amp;rsquo;s a good old fashioned &lt;a href=&#34;http://www.thelearningweb.net/personalthink.html&#34;&gt;pen and paper quiz&lt;/a&gt; to help you figure it out.&lt;/p&gt;
 </description>
     </item>
     
@@ -1260,6 +1399,25 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
       <description>&lt;p&gt;I&amp;rsquo;ve noticed spammers tend to try to fill out your whole form before trying to submit their spam. A while ago I tried adding a simple radio button field to the form with the value &amp;ldquo;this is probably spam&amp;rdquo;, and then hiding it with CSS.&lt;/p&gt;
 &lt;p&gt;The spam robots helpfully check the box for you before submitting, and you can set an email filter to trash all all the responses which have it checked.&lt;/p&gt;
 &lt;p&gt;Remember to label it appropriately so your users with CSS off know what to do with it ;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I follow my heroes on Twitter</title>
+      <link>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</link>
+      <pubDate>Wed, 20 May 2009 22:04:29 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/why-i-follow-my-heroes/</guid>
+      <description>&lt;p&gt;A few of the people I follow on Twitter lately have made blog posts or tweets about their followers trying to tell them how to tweet. They&amp;rsquo;ve all been asked to stop Twittering personal stuff and keep providing free good advice and the response has been, &amp;ldquo;If you don&amp;rsquo;t like it, don&amp;rsquo;t follow.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I just want to go on the record and say I &lt;em&gt;like&lt;/em&gt; the personal tweets.&lt;/p&gt;
+&lt;p&gt;I like knowing that despite their mega awesome coding skills they still have problems with clients.&lt;/p&gt;
+&lt;p&gt;I like knowing that while working on that beautiful design they spent an hour moving something 2 pixels to the left and then 2 pixels to the right, and then 2 pixels to the left..&lt;/p&gt;
+&lt;p&gt;I like knowing that they still get nervous about giving presentations, lie awake at night wondering which tag would be more semantic, over dose on caffeine or have a sushi addiction.&lt;/p&gt;
+&lt;p&gt;I like knowing that despite their commitment to user experience design, web standards, and innovation, they all go home at the end of the day to people and things they think are more important than their work - and those aren&amp;rsquo;t always going the way they want either.&lt;/p&gt;
+&lt;p&gt;I like knowing that they&amp;rsquo;re human, because it makes it okay for me to be human too.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In case you&amp;rsquo;re wondering who I&amp;rsquo;m talking about:
+&lt;a href=&#34;https://twitter.com/zeldman&#34;&gt;zeldman&lt;/a&gt; &lt;a href=&#34;https://twitter.com/fraying&#34;&gt;fraying&lt;/a&gt; &lt;a href=&#34;https://twitter.com/meyerweb&#34;&gt;meyerweb&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hchamp&#34;&gt;hchamp&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mezzoblue&#34;&gt;mezzoblue&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1384,6 +1542,27 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
 &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I tried many things but nothing could be done with CSS to fix it.  Considering most image replacement techniques use background images of one form or another I imagine the problem happens quite frequently.  My friend was still able to navigate (albeit uncomfortably) by hovering his mouse over the navigation menus and reading the tool tips.&lt;/p&gt;
 &lt;p&gt;The moral of this story could be something about roads to hell and good intentions, but I think the real lesson here is that all accessibility testing should be done over Rusty Nails.  Go buy yourself some Drambuie.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eight random things</title>
+      <link>https://stephaniehobson.ca/posts/eight-random-things/</link>
+      <pubDate>Fri, 02 May 2008 04:30:27 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/eight-random-things/</guid>
+      <description>&lt;p&gt;In the spirit of &lt;a href=&#34;https://adactio.com/journal/1449&#34;&gt;Jeremy Keith&amp;rsquo;s post&lt;/a&gt;, here&amp;rsquo;s 8 random things I see about me:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Black queen carved like Raven.&lt;/li&gt;
+&lt;li&gt;Small brass Buddha.&lt;/li&gt;
+&lt;li&gt;Wind up penguin.&lt;/li&gt;
+&lt;li&gt;iPhone.&lt;/li&gt;
+&lt;li&gt;Microformats pocket cheat sheet.&lt;/li&gt;
+&lt;li&gt;Salt.&lt;/li&gt;
+&lt;li&gt;8.5 x 11 print out of the gMail &amp;ldquo;mvelope&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Label from a Christmas present: &amp;ldquo;To Steph Love, Joel, Jim &amp;amp; Mrs. A.&amp;rdquo;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You&amp;rsquo;re it.&lt;/p&gt;
 </description>
     </item>
     
@@ -1614,6 +1793,17 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
     </item>
     
     <item>
+      <title>We made the cut!</title>
+      <link>https://stephaniehobson.ca/posts/we-made-the-cut/</link>
+      <pubDate>Tue, 04 Sep 2007 11:50:43 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/we-made-the-cut/</guid>
+      <description>&lt;p&gt;One of the videos we made &lt;a href=&#34;https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/&#34; title=&#34;Blog post I made the other day about making gmail videos.&#34;&gt;the other day&lt;/a&gt; made the cut into the final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt;.  &lt;a href=&#34;http://www.alistair.com/&#34;&gt;Alistair&lt;/a&gt;&amp;rsquo;s fancy editing shows the three of us morphing between chin up bars with 1:37 left to go.&lt;/p&gt;
+&lt;p&gt;A second video of ours was chosen as a featured clip. If you got to the page with the  final &lt;a href=&#34;http://mail.google.com/mail/help/gmail_video.html&#34;&gt;Gmail behind the scenes video&lt;/a&gt; and scroll down to the map, our multi monitor video appears if you click the Vancouver icon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>No, wait, I wasn&#39;t done reading that!</title>
       <link>https://stephaniehobson.ca/posts/no-wait-i-wasnt-done-reading-that/</link>
       <pubDate>Sun, 12 Aug 2007 00:23:34 +0000</pubDate>
@@ -1624,6 +1814,35 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
 &lt;p&gt;This is an unrecoverable error. There&amp;rsquo;s no undo and there&amp;rsquo;s no way to mark an article more than a certain number of days (30?) old as unread again even if I open it individually.&lt;/p&gt;
 &lt;p&gt;A quick visit to the Reader group confirms that I&amp;rsquo;m not crazy and I&amp;rsquo;m not the only one who has done this.&lt;/p&gt;
 &lt;p&gt;What gives Google?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 seconds of my 15 minutes</title>
+      <link>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/10-seconds-of-my-15-minutes/</guid>
+      <description>&lt;p&gt;Google is having &lt;a href=&#34;https://www.facebook.com/note_redirect.php?note_id=4253829003&amp;amp;url=http%3A%2F%2Fmail.google.com%2Fmail%2Fhelp%2Fgmail_video.html&amp;amp;h=027cb8a71a9f6bf4ef72960a97f41f13&#34; title=&#34;https://mail.google.com/mail/help/gmail_video.html&#34;&gt;this contesty thingy&lt;/a&gt;. Which basically requires you to make 10 second (or less) videos of how gMail gets around the world. The idea is for people to get the &amp;ldquo;Mvelope&amp;rdquo; from the left to the right side of the screen.&lt;/p&gt;
+&lt;p&gt;Yesterday after work Alistair filmed videos with my and Kenzie&amp;rsquo;s help, three are up on youtube now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hVsxOxE_F1s&#34;&gt;From computer to computer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=y98qg9pa87E&#34;&gt;Chin up bars with fancy editing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9jZpK5wYkBM&#34;&gt;Gmail for lunch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What a great way to start a Monday.</title>
+      <link>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</link>
+      <pubDate>Fri, 10 Aug 2007 15:32:34 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/what-a-great-way-to-start-a-monday/</guid>
+      <description>&lt;p&gt;Part of my job at BCIT is providing technical support to our content publishing community.  These are the people who provide the text to fill the templates we make and keep that text up to date.  Most of them aren&amp;rsquo;t web developers and are a little intimidated by the idea of working on the website.&lt;/p&gt;
+&lt;p&gt;Forty percent of our job is providing encouragement.  &amp;ldquo;Don&amp;rsquo;t worry, it won&amp;rsquo;t go up on the website until we release it so you can play around all you want.&amp;rdquo; &amp;ldquo;We can always undo the changes if you think you&amp;rsquo;ve made a mistake.&amp;rdquo;  I get my best compliments from these kinds of support calls.&lt;/p&gt;
+&lt;p&gt;This morning on of our clients told me, &amp;ldquo;You&amp;rsquo;ve made me feel so much better about all this now, I&amp;rsquo;m so glad you called.  What a great way to start a Monday.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;What a great way to start a Monday :)&lt;/p&gt;
 </description>
     </item>
     
@@ -1771,6 +1990,17 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
     </item>
     
     <item>
+      <title>Working hard?</title>
+      <link>https://stephaniehobson.ca/posts/working-hard/</link>
+      <pubDate>Tue, 24 Apr 2007 17:58:15 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/working-hard/</guid>
+      <description>&lt;p&gt;Or hardly working?&lt;/p&gt;
+&lt;p&gt;When the network goes down the whole department starts acting like school kids when the power goes out.  We sit around waiting for the power to come back on or the teachers to tell us to go home and the longer it&amp;rsquo;s out the more trouble we contemplate causing ;)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Styling Our Style Sheets</title>
       <link>https://stephaniehobson.ca/posts/styling-our-style-sheets/</link>
       <pubDate>Mon, 23 Apr 2007 13:15:26 +0000</pubDate>
@@ -1871,6 +2101,21 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
     </item>
     
     <item>
+      <title>Where am I going with this?</title>
+      <link>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</link>
+      <pubDate>Wed, 14 Mar 2007 16:05:07 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/where-am-i-going-with-this/</guid>
+      <description>&lt;p&gt;Vivian is such a great motivator.  I&amp;rsquo;m still sorry to see her go.&lt;/p&gt;
+&lt;p&gt;I just came out of a performance review where Vivian simultaneously told me what a great job I&amp;rsquo;m doing and laid out the changes I need to make to my life to have the world laid out at my feet by the time I&amp;rsquo;m forty.&lt;/p&gt;
+&lt;p&gt;She said to me that in IT there are kind of two main career paths; one which is super specialized with one specific area of technology and one that sees the big picture and manages.&lt;/p&gt;
+&lt;p&gt;She thinks I should, and told me I have the right skills and thought processes to, be a manager.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not sure I agree with where she wants me to go but she sure made me feel like I could get there if that&amp;rsquo;s where I wanted to go :)&lt;/p&gt;
+&lt;p&gt;Which begs the question, where do I want to go?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Insecurity</title>
       <link>https://stephaniehobson.ca/posts/insecurity/</link>
       <pubDate>Thu, 08 Mar 2007 21:21:29 +0000</pubDate>
@@ -1895,6 +2140,22 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;border-collapse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;collapse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There are quite a few tables I&amp;rsquo;ve designed where this would have been very useful.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s keeping me busy?</title>
+      <link>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</link>
+      <pubDate>Mon, 05 Mar 2007 12:16:18 +0000</pubDate>
+      
+      <guid>https://stephaniehobson.ca/posts/whats-keeping-me-busy/</guid>
+      <description>&lt;p&gt;Well, outside of my &lt;a href=&#34;https://www.bcit.ca/facultystaff/bios/1431805&#34;&gt;day job&lt;/a&gt; I&amp;rsquo;m:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;making my Mum a &lt;a href=&#34;http://barbhobson.ca&#34;&gt;website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;moving hosting servers for &lt;a href=&#34;http://digitalphoenix.ca&#34;&gt;digitalphoenix.ca&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;learning cgi so I can create an auto generated thank you message for &lt;a href=&#34;http://www.hope-international.com&#34;&gt;HOPE&lt;/a&gt;&amp;rsquo;s donors&lt;/li&gt;
+&lt;li&gt;taking &lt;a href=&#34;https://www.bcit.ca/study/courses/cint1110&#34;&gt;Mandarin&lt;/a&gt; (what was I thinking?)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
