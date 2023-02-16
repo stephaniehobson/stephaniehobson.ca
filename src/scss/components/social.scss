@@ -144,10 +144,10 @@ Grid
     .social-list {
         display: grid;
         grid-gap: $grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
         @media #{$mq-320-and-up} {
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
 }
