@@ -1,21 +1,45 @@
 ---
-title: About me
+title: About
 url: /about/
 type: "pages"
 layout: "about"
 ---
 
-{{< figure src="stephanie.jpg" alt="Me wearing a black turtle neck with my red-brown hair in a pony tail, smiling in front of a wall covered in graffiti." >}}
+{{< figure src="stephanie.jpg" alt="Me wearing a black dress shirt, my red-brown hair pulled back. In the background are Vancouver's mountains." >}}
 
-My name is Stephanie Hobson and I like to make websites everyone can use.
+I never really knew what I wanted to “be” when I grew up. Career quizzes never knew what to do with my unique combination of creative
+and rational thinking. I slowly drifted towards a BA in History, but while I was working on that I made a website and once I did that people kept
+asking me to make more of them.
 
-That means thinking about people who use the web differently than I do. Different technologies. Different identities. Different goals. Different languages. Different brains.
+And so I stumbled into a career that had not existed when I was taking the career quizzes. I fell in love with how the semantics of HTML can
+increase the reach of content far beyond a single web page. Beyond screens to audio, beyond laptops to watches or TVs, beyond broadband,
+beyond English.
 
-So, I like to make sites that are accessible, inclusive, fast, responsive, and robust.
+I began my career at <a href="https://www.bcit.ca/">BCIT</a>, spent a year at an agency, and then moved into a senior role
+ on <a href="https://developer.mozilla.org/">MDN Web Docs</a>.
 
-I stumbled into my career in web development while working on a BA in History. I was self taught so I took a 10 month certificate program at [UBC](https://www.ubc.ca/) to get a piece of paper saying I knew how to do what I already knew how to do.
+I now work at <a href="https://www.mozilla.org">Mozilla</a> on the website where people go to download
+<a href="https://www.mozilla.org/firefox/">Firefox</a>. I contribute to our design system, <a href="https://protocol.mozilla.org/">Protocol</a>,
+and I do a lot of random things as needed - from browser add-ons to podcast sites.
 
-I started my career as the primary front-end developer for [BCIT.ca](https://www.bcit.ca/). I took some time out to work for an agency. Then I joined Mozilla, first on [MDN](https://developer.mozilla.org/) and now on [Mozilla.org](https://www.mozilla.org/). So, I have experience working on both huge old websites and small young ones — always as part of a team.
+At Mozilla I have written primarily HTML and JavaScript and CSS via scss using Django/Jinja2 for templates. Our code review process prioritizes
+accessible, localizable, performant, standards-compliant code that uses progressive enhancement to be backwards-compatible.
+
+<!--
+I grew up in Vancouver and while I have lived in other parts of the world, I always end up coming home.
+
+
+Movies
+Trips
+Volunteering
+Work
+Moves
+Games
+Exercise
+
+
+(beer? comics?) -->
+
 
 <!-- Crashing Apple products is my crummy super power. Bad spelling is my signature move. -->
 

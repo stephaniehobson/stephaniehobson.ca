@@ -17,7 +17,7 @@
         line-height: 1.2;
         overflow: hidden;
         position: absolute;
-        right: calc(100% + #{$grid});
+        right: calc(100% + #{$grid / 2});
         text-align: right;
         top: 12px;
         width: 1.2em;

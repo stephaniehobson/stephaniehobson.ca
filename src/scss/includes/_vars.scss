@@ -4,21 +4,30 @@
 colors
 ====================================================================== */
 
-$color-text: #222222;
-$color-border: $color-text;
-$color-background: #FDFDFD;
-$color-link: #0076CD;
-$color-link-hover: color.scale($color-link, $lightness: 15%); //#00A3E4;
-$color-link-visited: #7C5333; //#6841CF;
-$color-link-visited-hover: $color-link-hover; //lighten($color-link-visited, 10%); //#8E78FF;
-$color-embelish: #009531;
+$color-text: var(--color-text);
+$color-border: var(--color-border);
+$color-background: var(--color-background);
+$color-link: var(--color-link);
+$color-link-hover: var(--color-link-hover);
+$color-link-visited: var(--color-link-visited);
+$color-link-visited-hover: var(--color-link-visited-hover);
+$color-embelish: var(--color-embelish);
+$color-light-grey: var(--color-light-grey);
+$color-dark-grey: var(--color-dark-grey);
+$color-code-bg: var(--code-bg);
+$color-code-text: var(--code-text);
+$color-code-green: var(--code-green);
+$color-code-blue: var(--code-blue);
+$color-code-brown: var(--code-brown);
+$color-code-grey: var(--code-grey);
+$color-code-red: var(--code-red);
 
 /*
 typography
 ====================================================================== */
-$heading-font-family: 'Lucida Grande', verdana, arial, sans-serif;
+$heading-font-family: 'Inter', system-ui, sans-serif;
 $heading-line-height: 1.5;
-$body-font-family: 'Lucida Grande', verdana, arial, sans-serif;
+$body-font-family: 'Inter', system-ui, sans-serif;
 $body-line-height: 2.1;
 $font-base: var(--font-base);
 

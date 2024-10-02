@@ -1,15 +1,16 @@
-{{ define "social" }}
-    {{ partial "social.html" (dict "context" . "class" "social-header") }}
-{{ end }}
 {{ define "main" }}
-    {{ range ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
-        {{ if eq .Type "posts" }}
-            {{ partial "post-summary.html" . }}
-        {{ end }}
-    {{ end }}
 
+<p>I am a front-end developer. I use HTML, CSS, and JavaScript to combine content and designs into websites that are fast, easy to use, readable in
+    any language, and work on everyone's devices.</p>
 
-    <div>
-        <a href="/year/">Archives</a>
-    </div>
+    <!--
+<p>HTML, CSS, JS, a11y, analytics, performance, design systems, L10N. Accessibility first. I love working with and building design systems. I know websites driven by CMSs and community of content contributors. (Contentful, Wagtail, Jinja, Hugo, Concrete, Wordpress, Drupal, Marqui)</p>
+
+<p>Making accessible websites is so important to me I used to give <a href="/tags/presentation/">conference talks</a> on it.</p>
+
+<p>At Mozilla I have written primarily HTML and Javascript and CSS via scss using Django/Jinja2 for templating. Our code review process prioritizes accessible, localizable, performant, standards-compliant code that uses progressive enhancement to be backwards-compatible.</p>
+
+<p>But it's not all maintaining a 20 year old website. I've written Firefox addons, spoofed Spotify, used static site generators for IRL and View Source. -->
+
 {{ end }}
+

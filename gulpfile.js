@@ -41,6 +41,13 @@ gulp.task('js', gulp.series(function(done) {
     done();
 }));
 
+// copy fonts to public folder
+gulp.task('fonts', gulp.series(function(done) {
+    gulp.src('src/fonts/**/*')
+        .pipe(gulp.dest('static/fonts'));
+    done();
+}));
+
 // copy icons to public folder
 gulp.task('icons', gulp.series(function(done) {
     //del(['static/images/icons/*']);
@@ -58,10 +65,10 @@ gulp.task('icons', gulp.series(function(done) {
 }));
 
 // Watch asset folder for changes
-gulp.task('deploy', gulp.series('scss', 'scss:lint', 'js', 'icons'));
+gulp.task('deploy', gulp.series('scss', 'scss:lint', 'js', 'fonts', 'icons'));
 
 // Watch asset folder for changes
-gulp.task('watch', gulp.series('scss', 'scss:lint', 'js', 'icons', () => {
+gulp.task('watch', gulp.series('scss', 'scss:lint', 'js', 'fonts', 'icons', () => {
     gulp.watch('src/scss/**/*', gulp.series('scss'));
     gulp.watch('src/js/**/*', gulp.series('js'));
 }));

@@ -1,8 +1,44 @@
+@use 'sass:color';
+
+$v-blue: #0074C9;
+$v-green: #006279;
+$v-black: #111111;
+$v-white: #f7f7f7;
+$v-brown: #7c5333;
+$v-light-grey: #CCCCCC;
+$v-dark-grey: #555555;
+$v-code-white: #FFFFFF;
+$v-code-green: #00882d;
+$v-code-blue: #0161AE;
+$v-code-brown: #7C5333;
+$v-code-grey: #747474;
+$v-code-red: #EB2B22;
+
 :root {
     --grid-value: 0.6rem;
-    --font-base: 0.85rem;
+    --font-base: 1rem;
     --indent: 0;
     --outdent: calc(var(--indent) * -1);
+    --color-text: #{$v-black};
+    --color-border: var(--color-text);
+    --color-background: #{$v-white};
+    --color-link: #{$v-blue};
+    --color-link-hover: #{color.scale($v-blue, $lightness: 15%)};
+    --color-link-visited: #{$v-brown};
+    --color-link-visited-hover: var(--color-link-hover);
+    --color-embelish: #{$v-code-green};
+    --color-header: #{color.scale($v-black, $lightness: 20%)};
+    --color-kbd: #{$v-code-white};
+    --color-light-grey: #{$v-light-grey};
+    --color-dark-grey: #{$v-dark-grey};
+
+    --code-bg: #{$v-code-white};
+    --code-text: #{$v-black};
+    --code-green: #{$v-code-green};
+    --code-blue: #{$v-code-blue};
+    --code-brown: #{$v-code-brown};
+    --code-grey: #{$v-code-grey};
+    --code-red: #{$v-code-red};
 }
 
 @media #{$mq-480-and-up} {
@@ -15,13 +51,38 @@
 
 @media #{$mq-680-and-up} {
     :root {
-        --grid-value: 1rem;
-        --font-base: 1.1rem;
+        --grid-value: 1.2rem;
+        --font-base: 1.2rem;
     }
 }
 
 @media print {
     :root {
         --indent: 0;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: #{$v-white};
+        --color-border: var(--color-text);
+        --color-background: #{$v-black};
+        --color-link: #5cb5e5;
+        --color-link-hover: #{color.scale(#5cb5e5, $lightness: 15%)};
+        --color-link-visited: #b09f91;
+        --color-header: #{color.scale($v-white, $lightness: -20%)};
+
+        --color-light-grey: #{$v-dark-grey};
+        --color-dark-grey: #{$v-light-grey};
+
+        --color-kbd: #414141;
+
+        --code-bg: #000000;
+        --code-text: $v-code-white;
+        --code-green: #{color.scale(#009531, $lightness: 20%)};
+        --code-blue: #{color.scale(#0161AE, $lightness: 40%)};
+        --code-brown: #{color.scale(#7C5333, $lightness: 40%)};
+        --code-grey: #{$v-light-grey};
+        --code-red: #{color.scale(#EB2B22, $lightness: 40%)};
     }
 }

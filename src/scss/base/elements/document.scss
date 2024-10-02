@@ -3,15 +3,24 @@
 
 html {
     background: $color-background;
+    border: 2px solid transparent;
+    box-sizing: border-box;
     color: $color-text;
 }
 
 body {
     @include container();
     background: $color-background;
-    border: calc(#{$grid} * 2) solid transparent;
+    border: calc(#{$grid} * 1) solid $color-background;
     color: $color-text;
     font-family: $body-font-family;
     font-size: #{$font-base};
     line-height: 1.5;
+}
+
+
+@media #{$mq-480-and-up} {
+    html {
+        border: $grid solid transparent;
+    }
 }

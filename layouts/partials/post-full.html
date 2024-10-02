@@ -1,7 +1,7 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
     <div class="post-info">
-        <a class="post-link" href="{{ .Permalink }}" itemprop="url">Permalink</a>
+        <a class="post-link" href="{{ .Permalink }}" itemprop="url" title="Permalink">Permalink</a>
         <time class="post-date" datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
             <a class="post-date-year" href="/year/{{ .PublishDate.Format "2006" }}/">{{ .PublishDate.Format "2006" }}</a>
             {{ .PublishDate.Format "January 02" }}

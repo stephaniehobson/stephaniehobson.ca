@@ -7,6 +7,11 @@
   - fonts related to grid?
 */
 
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/Inter-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url("/fonts/Inter-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: bold; font-display: swap; src: url("/fonts/Inter-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: bold; font-display: swap; src: url("/fonts/Inter-BoldItalic.woff2") format("woff2"); }
+
 /* default element font size margin and padding if custom properties are not supported */
 @supports (--color: red) {
     h1 {
@@ -82,14 +87,18 @@
     }
 
     blockquote {
-        border-left: $border-width solid #CCCCCC;
-        color: #555555;
+        border-left: $border-width solid $color-light-grey;
+        color: $color-dark-grey;
         padding: $grid 0 $grid $grid;
         margin: $grid;
     }
 
     a {
         @include links;
+
+        main & {
+            font-weight: normal;
+        }
 
         img {
             display: block;
@@ -104,7 +113,7 @@
     }
 
     pre {
-        border: 1px solid #848484;
+        border: 1px solid #767676;
         max-width: 100%;
         overflow-x: scroll;
         padding: $grid;
@@ -118,7 +127,7 @@
         dl & {
             margin: 0 2px;
             padding: 0 2px;
-            background-color: #F1F1F1;
+            background-color: var(--color-kbd);
             border-radius: 3px;
         }
     }

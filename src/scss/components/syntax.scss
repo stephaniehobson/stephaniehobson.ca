@@ -1,18 +1,18 @@
-$color-default: #545454;
-$color-tag: #0161AE;
+$color-default: $color-code-text;
+$color-tag: $color-code-blue;
 $color-comment: #848484;
-$color-string: #7C5333;
-$color-keyword: #009531;
+$color-string: $color-code-brown;
+$color-keyword: $color-code-green;
 $color-number: $color-string;
 $color-regex: $color-number;
-$color-operator: $color-default;
-$color-error: #EB2B22;
+$color-operator: $color-code-grey;
+$color-error: $color-code-red;
 
 .chroma {
 
     /* Background */
     color: $color-default;
-    background: #FFF;
+    background: $color-code-bg;
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     text-align: left;
     white-space: pre;
@@ -33,7 +33,7 @@ $color-error: #EB2B22;
     /* Error */
     .err {
         color: $color-error;
-        background-color: rgb(255, 226, 226);
+        background-color: $color-code-bg;
     }
 
     /* LineTableTD */
@@ -59,7 +59,7 @@ $color-error: #EB2B22;
     .hl {
         display: block;
         width: 100%;
-        background-color: #FFFFCC;
+        background-color: $color-code-bg;
     }
 
     /* LineNumbersTable */
@@ -363,7 +363,7 @@ $color-error: #EB2B22;
 
     /* Puncuation */
     .p {
-        color: $color-comment;
+        color: $color-operator;
     }
 
     .language-css {

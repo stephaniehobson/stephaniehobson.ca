@@ -27,15 +27,15 @@
 - Write & implement summaries for posts
 - fix posts with dls
 - fix posts with HTML tags
-- warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")
+!- warning on out dated posts ("from before iPhone, from before Chrome, before CSS grid")
 - most recent instagram and twitter posts
 - share icons & links? (maybe I'm opposed to this? :P)
-- pages:
+!- pages:
     - talks
         - grouped by talk with links to resources, only show most recent slides(or video), dates presented link to Notist
     - portfolio/work
-- blurb at end of blog posts introducing myself (comic book inspired? Imagine Eric Meyer is introducing me)
-- better about page content
+!- blurb at end of blog posts introducing myself (comic book inspired? Imagine Eric Meyer is introducing me)
+!- better about page content
 - "read more" buttons specific to content "see the code" "view the slides"
 
 
@@ -103,3 +103,4 @@ Done:
 - Implement code syntax styling
 - Reader view
 - still need "webdesign" category? Isn't the whole blog about it?
+- add Mastodon

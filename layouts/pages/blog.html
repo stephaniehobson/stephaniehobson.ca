@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+    <h1>Blog</h1>
+
+    {{ range ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
+        {{ if eq .Type "posts" }}
+            {{ partial "post-summary.html" . }}
+        {{ end }}
+    {{ end }}
+
+    <div>
+        <a href="/year/">Archives</a>
+    </div>
+{{ end }}

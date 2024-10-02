@@ -25,7 +25,7 @@ a.header-site {
 }
 
 .header-subtitle {
-    color: color.scale($color-text, $lightness: 20%);
+    color: var(--color-header);
     display: block;
     font-size: $fontsize1;
     font-weight: normal;
@@ -46,8 +46,16 @@ a.header-site {
     width: $avatar-size;
 }
 
+.header-nav {
+    @extend %print-no;
+    border-bottom: $divider;
+    margin-bottom: $grid;
+    padding-bottom: $grid;
+}
+
 @media #{$mq-480-and-up} {
     .header {
+        min-height: calc($avatar-size + $grid);
         padding-right: calc(#{$grid} + #{$avatar-size});
         padding-top: 0;
         text-align: left;

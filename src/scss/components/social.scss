@@ -3,151 +3,36 @@
 
 :root {
     --social-icon-width: 24px;
-
-    @media #{$mq-480-and-up} {
-        --social-icon-width: 32px;
-    }
 }
 
 $social-icon-width: var(--social-icon-width);
 
 .social {
-    border-bottom: $divider;
-    margin-bottom: $grid;
-    padding-bottom: $grid;
-    width: 100%;
+    @extend %print-no;
 }
 
 .social-list {
+    display: grid;
+    gap: $grid;
+    grid-template-columns: repeat(5, 24px);
     margin: 0;
     padding: 0;
 }
 
-.social-item {
+.social-item,
+.social-link {
+    display: block;
+    line-height: 1;
     margin: 0;
     padding: 0;
-    text-align: center;
-}
-
-.social-name {
-    font-size: $fontsize-2;
-}
-
-.social-icon {
-    height: $social-icon-width;
-    width: $social-icon-width;
-    -moz-transition: -webkit-transform 0.1s ease-out;
-    -webkit-transition: -webkit-transform 0.1s ease-out;
-    transition: -webkit-transform 0.1s ease-out;
 }
 
 .social-link {
+    height: $social-icon-width;
+    width: $social-icon-width;
+    border: 3px solid transparent;
+}
+
+.social-icon {
     display: block;
-
-    img {
-        margin: 0 auto;
-    }
-
-    .social-icon {
-        transform-origin: bottom center;
-    }
-
-    &:visited,
-    &:hover,
-    &:focus,
-    &:active,
-    &:visited:hover,
-    &:visited:focus,
-    &:visited:active {
-        background-color: #FFF;
-
-        .social-icon {
-            transform: scale(1.25);
-        }
-    }
-
-    & span {
-        color: $color-link;
-        font-weight: bold;
-        text-decoration: underline;
-
-        padding: 0 0.2em;
-        margin: 0 -0.2em;
-        border: 1px solid transparent;
-        border-radius: 1px;
-        box-decoration-break: clone;
-        outline: none;
-    }
-
-    &:visited span {
-        color: $color-link-visited;
-    }
-
-    &:hover span,
-    &:focus span {
-        color: $color-link-hover;
-        text-decoration: none;
-    }
-
-    &:visited {
-        &:hover span,
-        &:focus span {
-            color: $color-link-visited-hover;
-        }
-    }
-
-    &:focus span {
-        color: #FFF;
-        background: $color-link-hover;
-    }
-
-    &:visited {
-        &:focus span {
-            color: #FFF;
-            background: $color-link-visited-hover;
-        }
-    }
-
-    &:active span,
-    &:visited:active span {
-        color: #FFF;
-        background-color: $color-embelish;
-    }
-}
-
-/*
-No grid, table fallback
-====================================================================== */
-
-.social {
-    display: table;
-}
-
-.social-list {
-    display: table-row;
-}
-
-.social-item {
-    display: table-cell;
-}
-
-.social-name {
-    display: block;
-}
-
-
-/*
-Grid
-====================================================================== */
-
-@supports ( display:grid ) {
-    .social-list {
-        display: grid;
-        grid-gap: $grid;
-        grid-template-columns: 1fr 1fr;
-
-        @media #{$mq-320-and-up} {
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-    }
 }

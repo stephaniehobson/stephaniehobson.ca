@@ -1,7 +1,7 @@
 @import '../includes/vars';
 
 @mixin container() {
-    max-width: 64ch;
+    max-width: 75ch;
     margin: 0 auto;
 }
 
@@ -35,9 +35,8 @@
 @mixin links {
     & {
         color: $color-link;
-        font-weight: bold;
         text-decoration: underline;
-
+        font-weight: bold;
         padding: 0 0.2em;
         margin: 0 -0.2em;
         border: 1px solid transparent;
@@ -64,20 +63,20 @@
     }
 
     &:focus {
-        color: #FFF;
+        color: $color-background;
         background: $color-link-hover;
     }
 
     &:visited {
         &:focus {
-            color: #FFF;
+            color: $color-background;
             background: $color-link-visited-hover;
         }
     }
 
     &:active,
     &:visited:active {
-        color: #FFF;
+        color: $color-background;
         background-color: $color-embelish;
     }
 }
@@ -100,19 +99,21 @@
     border-radius: 1px;
     color: $color-background;
     display: inline-block;
+    font-weight: bold;
     line-height: 1;
     margin: 0;
     padding: 3px 4px 2px;
+    text-decoration: none;
 
     &:visited {
-        color: #FFF;
+        color: $color-background;
     }
 
     &:hover,
     &:focus,
     &:active {
         background-color: $color-link-hover;
-        color: #FFF;
+        color: $color-background;
         text-decoration: none;
         box-shadow: none;
     }
@@ -122,7 +123,7 @@
         &:focus,
         &:active {
             background-color: $color-link-visited-hover;
-            color: #FFF;
+            color: $color-background;
         }
     }
 }

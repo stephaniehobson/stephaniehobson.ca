@@ -19,6 +19,7 @@
 
 a.summary-title-link {
     @include links-subtle;
+    font-weight: bold;
 
     &:after {
         content: '➡';

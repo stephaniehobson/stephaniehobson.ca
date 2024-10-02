@@ -2,20 +2,18 @@
 @import '../includes/mixins';
 
 .footer {
+    align-items: center;
+    border-bottom: 1px solid transparent;
     border-top: $divider;
-    margin-top: calc(#{$grid} * 3);
-}
-
-.footer-nav {
-    float: left;
-    padding: $grid $grid $grid 0;
-    white-space: nowrap;
-
-    @extend %print-no;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: $fontsize-1;
+    justify-content: space-between;
+    margin-top: calc(#{$grid} * 2);
+    padding-top: calc(#{$grid} * 2);
 }
 
 .footer-copy {
-    float: right;
     white-space: nowrap;
-    padding-left: $grid;
+    padding: 0;
 }
