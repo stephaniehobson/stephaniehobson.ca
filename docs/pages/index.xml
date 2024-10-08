@@ -483,7 +483,7 @@ large monitors use MDN full screen?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I think this is great!&lt;/p&gt;
 &lt;h2 id=&#34;sometimes-this-breaks-things&#34;&gt;Sometimes this breaks things&lt;/h2&gt;
 &lt;p&gt;When code depends on these third-party services and they&amp;rsquo;re not there stuff goes wrong.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m going to use tracking external links as my example because it&amp;rsquo;s a common use case, but I started investigating this problem because we accidentally broke the ability to navigate &lt;!-- raw HTML omitted --&gt;within&lt;!-- raw HTML omitted --&gt; our &lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;website&lt;/a&gt; for users who were choosing not to load the GA script.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to use tracking external links as my example because it&amp;rsquo;s a common use case, but I started investigating this problem because we accidentally broke the ability to navigate &lt;abbr title=&#34;For certain edge cases, it&#39;s not as bad as it sounds.&#34;&gt;within&lt;/abbr&gt; our &lt;a href=&#34;https://developer.mozilla.org/&#34;&gt;website&lt;/a&gt; for users who were choosing not to load the GA script.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m also going to use the universal analytics tracking code (analytics.js) for my examples here, not the classic analytics code (ga.js), so if you notice some differences between my code and yours that might be why.&lt;/p&gt;
 &lt;h2 id=&#34;what-goes-wrong&#34;&gt;What goes wrong?&lt;/h2&gt;
 &lt;p&gt;The current method (Jan 2016) for &lt;a href=&#34;https://support.google.com/analytics/answer/1136920?hl=en&#34;&gt;tracking outbound links&lt;/a&gt; as recommended by Google looks like this:&lt;/p&gt;
@@ -755,55 +755,55 @@ Jeremy praised the flexibility of HTML and CSS and encouraged us to embrace thei
 &lt;li&gt;The Guardian takes a true mobile-first, progressive-enhancement approach to serving their content. I was super excited to see how quickly and cleanly an article loads. I think this is the future of front-end performance and I am eager to implement much of what I learned here.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;talk-summaries&#34;&gt;Talk Summaries&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Marcin Wichary&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Good is the enemy of great: On designing, and then undesigning, a perfect link underline&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Marcin Wichary&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Good is the enemy of great: On designing, and then undesigning, a perfect link underline&lt;/em&gt;&lt;br&gt;
 200 years of typographic history was lost when we moved from printing presses to the typewriter, Marcin Took us through some of what he did in his attempt to re-create the perfect underline.His ultimate point was that it&amp;rsquo;s important to find a balance between shipping and creating good code. Perfectionism is not the right balance but we should strive to make things good and not just improve the status quo.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Susan Robertson&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Style Guides: Why bother?&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Susan Robertson&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Style Guides: Why bother?&lt;/em&gt;&lt;br&gt;
 Susan walked us through a long list of benefits to using a style guide. Highlights included: front-end speed, consistency, and performance. Lots of good resources here: &lt;a href=&#34;http://styleguides.io&#34;&gt;styleguides.io&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Yoav Weiss&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Responsive Images are Coming to a Browser Near You&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Yoav Weiss&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Responsive Images are Coming to a Browser Near You&lt;/em&gt;&lt;br&gt;
 I have been hearing a lot about new picture element and srcset attributes but Yoav was the first to really get me excited about them. The potential image management problems these additions could create are huge but there is a lot of potential to be really neat things with them. &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt;is a solution for providing art direction of images on different screen sizes and &lt;code&gt;srcset&lt;/code&gt; gets added to  if you just want to provide a smaller/larger version of an identical image.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Marcy Sutton&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;A Web for Everybody&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Marcy Sutton&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;A Web for Everybody&lt;/em&gt;&lt;br&gt;
 Accessibility is easier if you build it you build it in from the start. Ask, does it work: With the keyboard only? In a screen reader? Without sound? Without colour? In high contrast mode? &amp;ldquo;This stuff is not that hard.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Jenn Lukas&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;The Developer’s Ampersandwich&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Jenn Lukas&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;The Developer’s Ampersandwich&lt;/em&gt;&lt;br&gt;
 Things to consider when implementing type on a website: if you haven&amp;rsquo;t been given design direction you can find the type by looking at what&amp;rsquo;s popular and already in use, separate presentation from content, be aware of performance issues with web fonts, add accessible fallbacks for a icon fonts, use tools like typecast to communicate with designers about general styles rather than content specific styles.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Zach Leatherman&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Better @font-face with Font Load Events&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Zach Leatherman&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Better @font-face with Font Load Events&lt;/em&gt;&lt;br&gt;
 Web fonts are rendered blocking. Zach proposes a JavaScript fix which prioritizes a FOIT for icon fonts and a FOUT for content fonts. Lots of good stuff from &lt;a href=&#34;http://www.filamentgroup.com/lab/bulletproof_icon_fonts.html&#34;&gt;this excellent article of his&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stephen Hay&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Easing the Pain of Designing in the Browser&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Stephen Hay&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Easing the Pain of Designing in the Browser&lt;/em&gt;&lt;br&gt;
 We need to stop thinking about layout first, we need to start thinking about structured content first. Begin by focusing on the small screen, and then focus on type and color.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;John Allsopp&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;The Web&amp;rsquo;s future is offline&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;John Allsopp&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;The Web&amp;rsquo;s future is offline&lt;/em&gt;&lt;br&gt;
 &amp;ldquo;We can&amp;rsquo;t keep building apps with the desktop mindset of permanent, fast connectivity, where a temporary disconnection or slow service is regarded as a problem and communicated as an error.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Dave Shea&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Rolling Your Own CSS Methodology&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Dave Shea&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Rolling Your Own CSS Methodology&lt;/em&gt;&lt;br&gt;
 A CSS framework is not about syntax. It&amp;rsquo;s about discipline and optimizing for people. Ideals Mobify uses when building theirs: classes for everything, no IDs, no nesting, no !important.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;That was one day. It was a really long day.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Johnathan Snook&lt;/strong&gt; &lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Johnathan Snook&lt;/strong&gt; &lt;br&gt;
 Jonathan gave a very personal talk about the development of his career overtime and the importance of empathy. It touched a lot of people, but it is difficult to summarize in two sentences.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Atomic Design&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Brad Frost&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Atomic Design&lt;/em&gt;&lt;br&gt;
 If we all use the same framework we all look alike. We should be building &amp;ldquo;Tiny Bootstraps, for every client.&amp;rdquo; - Dave Rupert. Brad demoed &lt;a href=&#34;http://patternlab.io&#34;&gt;patternlab.io&lt;/a&gt; which is a really cool tool for breaking designs down into component parts.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lyza D. Gardner&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Soothing Web Weariness: Saving the Web by Doing as Little as Possible&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Lyza D. Gardner&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Soothing Web Weariness: Saving the Web by Doing as Little as Possible&lt;/em&gt;&lt;br&gt;
 Make projects smaller to begin with - increase your constraints - improve them iteratively and systematically instead of accepting complexity as the status quo.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Val Head&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;All the Right Moves: Putting your UIs in Motion&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Val Head&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;All the Right Moves: Putting your UIs in Motion&lt;/em&gt;&lt;br&gt;
 Animations needs to be designed with intent the same way you would design any other part of the site. Prototype animations. Test that they match your site&amp;rsquo;s style and feel fast.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Kyle Simpson&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;#CSS {Yawn: Yay!}&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Kyle Simpson&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;#CSS {Yawn: Yay!}&lt;/em&gt;&lt;br&gt;
 Kyle talked about some high-level concepts he&amp;rsquo;d like to see implemented in CSS templating. It was very much a talk about the next generation of CSS informed by some complex computing science principles. I can&amp;rsquo;t do it justice, &lt;a href=&#34;https://speakerdeck.com/getify/number-css-yawn-yay&#34;&gt;his slides are here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tim Kadlec&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;In Between&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Tim Kadlec&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;In Between&lt;/em&gt;&lt;br&gt;
 Like Val, Tim talked about designing animations with intent. He had lots of great examples and data.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paul Irish&lt;/strong&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Getting to Fast&lt;/em&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;strong&gt;Paul Irish&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Getting to Fast&lt;/em&gt;&lt;br&gt;
 Not all pixels are created equal. Paul talked about why the first 14KB transferred are the most important to performance.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;It was a great conference. I left feeling super excited about my job, which is how I always want to leave conferences :) I also gave a &amp;lsquo;jam session&amp;rsquo; talk on accessibility. They hosted it in a pub and I highly recommend pub audiences, they laugh at all your jokes! Accessibility was a theme running through all of the talks at Smashing and I am glad to see it being spoken about and incorporated into examples again I feel that, as an industry, we&amp;rsquo;ve sort of forgotten about it for a few years.&lt;/p&gt;
@@ -860,11 +860,124 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
 &lt;h2 id=&#34;example-tracking-page-views-and-external-link-clicks-with-universal-analytics&#34;&gt;Example: Tracking page views and external link clicks with Universal Analytics&lt;/h2&gt;
 &lt;p&gt;My examples are all for Universal Analytics but if you&amp;rsquo;re still using Classic the concept is the same where I pick Universal Analytics from the Tag Type menu pick Google Analytics Classic and do your best with the slightly different options that follow from there.&lt;/p&gt;
 &lt;p&gt;This is, more or less, what we&amp;rsquo;ll be setting up, in an order that makes sense to me:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.&lt;/li&gt;
+    &lt;li&gt;Create version&lt;/li&gt;
+    &lt;li&gt;Preview&lt;/li&gt;
+    &lt;li&gt;Publish&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;I found the actual order somewhat more headache inducing, and that&amp;rsquo;s why I&amp;rsquo;m writing a blog post about it. Hopefully you end up at the end of this list with link tracking and no headache.&lt;/p&gt;
 &lt;p&gt;Once you&amp;rsquo;ve followed these steps once hopefully you will understand how the pieces fit together and you can go on to work in the way that makes the most sense to you :)&lt;/p&gt;
 &lt;p&gt;This is the part where I list actual steps, this part might change as the product develops.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;em&gt;Variable&lt;/em&gt;: your Analytics tracking number.
+        &lt;ol&gt;
+            &lt;li&gt;In Analytics get your tracking ID from Admin &gt; Property Settings&lt;/li&gt;
+            &lt;li&gt;In GTM go to your container&#39;s overview page.&lt;/li&gt;
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;variable&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Variable Name:&lt;/dt&gt;
+                    &lt;dd&gt;&lt;kbd&gt;tracking ID&lt;/kbd&gt; (well you can name it whatever you want)&lt;/dd&gt;
+                    &lt;dt&gt;Variable Type:&lt;/dt&gt;
+                    &lt;dd&gt;&lt;kbd&gt;Constant String&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Value:&lt;/dt&gt;
+                    &lt;dd&gt;&lt;em&gt;Your tracking ID&lt;/em&gt;&lt;/dd&gt;
+                &lt;/dl&gt;
+                Or, if prefer a screen shot:&lt;br&gt;
+                &lt;img src=&#34;macro1.gif&#34; alt=&#34;Screen shot of GTM tracking id variable&#34; width=&#34;302&#34; height=&#34;217&#34;&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: track a pageview in Analytics.
+        &lt;ol&gt;
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Pageview&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Google Analytics&lt;/kbd&gt; &amp; gt; &lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking ID}}&lt;/kbd&gt; &lt;br&gt;This is the variable we just created. You can either type it yourself or click the little lego block to pick it out of a list.&lt;/dd&gt;
+                    &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Page View&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;br&gt;You don&#39;t have to create this trigger, GTM creates it automatically.&lt;/dd&gt;
+                &lt;/dl&gt;
+                Or, if you prefer a screen shot:&lt;br&gt;
+                &lt;img src=&#34;tag_pageview.gif&#34; alt=&#34;Screenshot of GTM tag setup up for pageviews&#34; width=&#34;497&#34; height=&#34;430&#34;&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: listen for clicked links.
+        &lt;ol&gt;
+            &lt;li&gt;Click the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt; Configure the variable like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Listener - linkClick&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Link Click Listener&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Firing Triggers:&lt;/dt&gt;&lt;dd&gt;Add &lt;kbd&gt;All pages&lt;/kbd&gt; &lt;/dd&gt;
+                &lt;/dl&gt;
+                Leave everything else on the defaults.&lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Trigger&lt;/em&gt;: if link does not lead to current site.
+        &lt;ul&gt;
+            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;trigger&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt;Configure the trigger like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Trigger Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;on - outbound link click&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Conditions:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{event}} equals gtm.linkClick&lt;/kbd&gt;&lt;/dd&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}} starts with &lt;/kbd&gt;&lt;em&gt; your site URL&lt;/em&gt; &lt;/dd&gt;
+                &lt;/dl&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ul&gt;
+        I actually use a complex regex in a variable for the conditions to catch a few edge cases like: urls missing the www, relative links, mailto/tel/ftp etc. but for this example and basic sites this will get what we want.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;: create event in Analytics for outbound link click.
+        &lt;ul&gt;
+            &lt;li&gt;Click on the big red &#34;new&#34; button and pick &#34;tag&#34; out of the list.&lt;/li&gt;
+            &lt;li&gt;Configure the trigger like this:
+                &lt;dl&gt;
+                    &lt;dt&gt;Tag Name:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;UA event - outbound link&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tag Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Universal Analytics&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Tracking ID:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{tracking id}}&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Track Type:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;Event&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Category:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;outbound-link&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Action:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element url}}&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Label:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;{{element text}}&lt;/kbd&gt;&lt;/dd&gt;
+                    &lt;dt&gt;Value:&lt;/dt&gt;&lt;dd&gt;&lt;kbd&gt;1&lt;/kbd&gt;&lt;/dd&gt;
+                &lt;/dl&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Save it.&lt;/li&gt;
+        &lt;/ul&gt;
+        If you have an existing implementation you are trying to match so your stats aren&#39;t disrupted you should look in Google Analytics to see what you are currently using for the event category, action and label and match those values instead :)
+    &lt;/li&gt;
+    &lt;li&gt;Create version
+        &lt;ul&gt;
+            &lt;li&gt;On the Container Draft &gt; Overview page the Create Version button is in the top right.&lt;/li&gt;
+            &lt;li&gt;If you really want to be on the ball you can amend the name or add notes to describe what you added in this version, handy in case you want to roll back.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Preview
+        &lt;ul&gt;
+            &lt;li&gt;The Preview button is also on the top right of the Container Draft &gt; Overview screen.&lt;/li&gt;
+            &lt;li&gt;Click Debug in the popover&lt;/li&gt;
+            &lt;li&gt;In the next popover click on the url of your site. This will open a new window with your site and a Tag Manager window at the bottom.&lt;/li&gt;
+            &lt;li&gt;In the window at the bottom check that:
+                &lt;ul&gt;
+                    &lt;li&gt;&#34;Page View - Page&#34; and &#34;Listener - linkClick&#34; have the status &#34;Fired on Tag Manager Load&#34;&lt;/li&gt;
+                    &lt;li&gt;Click on a link and check that &#34;UA event - outbound link&#34; gets added with the status &#34;Fired on Event &#34;gtm.linkClick&#34;. You can usually see it flash to the top before the other page loads but if it&#39;s too fast find (or create) a link with the attribute target=&#34;_blank&#34; to click.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;If something is not working check your triggers and try again.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;Also important,&lt;/strong&gt; check that the javascript on your own pages is working properly. In an ideal world you have a list of features you can test.&lt;/li&gt;
+            &lt;li&gt;Exit preview mode&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;li&gt;Publish (blue button in top right of Container Draft &gt; Overview page)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;You can see some changes applied immediately in Analytics on the Real-Time &amp;gt; Overview page. Other events which don&amp;rsquo;t seem to be working on Real-Time occasionally start showing up in the stats a day later. I have no insight to offer here, sorry.&lt;/p&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;So we create tags to do things, triggers to govern when we do the things in the tags, and variables to save ourselves time when creating tags and triggers.&lt;/p&gt;
@@ -995,12 +1108,12 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
       <pubDate>Thu, 24 May 2012 23:02:56 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/leave/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1&lt;!-- raw HTML omitted --&gt;st&lt;!-- raw HTML omitted --&gt;, 2012.&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;m taking a one year leave of absence from my job at BCIT beginning June 1&lt;sup&gt;st&lt;/sup&gt;, 2012.&lt;/p&gt;
 &lt;p&gt;Right now it kind of feels like I&amp;rsquo;m doing this because I&amp;rsquo;m crazy.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m really doing it because there&amp;rsquo;s stuff I want to do.&lt;/p&gt;
 &lt;p&gt;I want to build something cool. I want to learn something new. I want to live in London. I want to live in San Francisco. I want to hang out with the dear friends who live in each city who I have been apart from for way to long. I want to get to know the friends that I&amp;rsquo;ve made in my travels but never lived near.&lt;/p&gt;
 &lt;p&gt;Along the way I&amp;rsquo;d going to have to do a bit of work. Contract/sub-contract work I can do remotely while I&amp;rsquo;m traveling or job offers in San Francisco and London that will help me with the paperwork to work there.&lt;/p&gt;
-&lt;p&gt;Work that will let me do what I do really well&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;#one&#34;&gt;1&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;, work that will let me do things I enjoy but don&amp;rsquo;t do enough of&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;#two&#34;&gt;2&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;, and work that will give me a chance to learn what I don&amp;rsquo;t do at all yet&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;#three&#34;&gt;3&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;Work that will let me do what I do really well&lt;sup&gt;&lt;a href=&#34;#one&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, work that will let me do things I enjoy but don&amp;rsquo;t do enough of&lt;sup&gt;&lt;a href=&#34;#two&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and work that will give me a chance to learn what I don&amp;rsquo;t do at all yet&lt;sup&gt;&lt;a href=&#34;#three&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;HTML, CSS, JavaScript, jQuery, brainstorming and problem solving.&lt;/li&gt;
 &lt;li&gt;Responsive design, user experience testing, information architecture, interface design.&lt;/li&gt;
@@ -1040,12 +1153,12 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
 &lt;p&gt;Layout elements like headers, footers, banners, ads, and menus distract from the information the user is trying consume, are un-usable on a printed page, and take up extra paper.  It&amp;rsquo;s very common to remove these elements when printing. A three-column page layout doesn&amp;rsquo;t look so bad on one short page but if your site has a substantial amount of content those columns will likely be empty from the second page onward leaving large fields of empty space or worse your columns will spread onto a second page when your content only filled the first. What&amp;rsquo;s your user going to do with that printed navigation menu anyway - click on it? How does that logo in your header look in black and white? Removing layout elements makes it much easier to make your remaining content fluid to avoid common print bugs and fit the page. Think about a better way to communicate the other information - more on this in a bit.&lt;/p&gt;
 &lt;h2 id=&#34;provide-a-better-print-experience&#34;&gt;Provide a better print experience&lt;/h2&gt;
 &lt;p&gt;Print doesn&amp;rsquo;t &lt;em&gt;work&lt;/em&gt; like a web page. The user can&amp;rsquo;t interact with it anymore all they can do is read it. Consider what that means for content on your page that you can&amp;rsquo;t normally see.&lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s some pretty fancy CSS tricks you can use to add the URL of links to the page in brackets after the link. I think I&amp;rsquo;ve seen it done best by the &lt;!-- raw HTML omitted --&gt;HTML5 boilerplate&lt;!-- raw HTML omitted --&gt; but I prefer to &lt;a href=&#34;http://www.alistapart.com/articles/improvingprint/&#34;&gt;add footnotes with javascript&lt;/a&gt;. This is much less disruptive for readers. Either way make sure you consider how you&amp;rsquo;ll handle links that aren&amp;rsquo;t URLs: javascript hooks, in page anchors, mailto or tel. These same tricks can be applied to abbreviation titles and other attributes.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s some pretty fancy CSS tricks you can use to add the URL of links to the page in brackets after the link. I think I&amp;rsquo;ve seen it done best by the &lt;a hef=&#34;http://html5boilerplate.com/&#34;&gt;HTML5 boilerplate&lt;/a&gt; but I prefer to &lt;a href=&#34;http://www.alistapart.com/articles/improvingprint/&#34;&gt;add footnotes with javascript&lt;/a&gt;. This is much less disruptive for readers. Either way make sure you consider how you&amp;rsquo;ll handle links that aren&amp;rsquo;t URLs: javascript hooks, in page anchors, mailto or tel. These same tricks can be applied to abbreviation titles and other attributes.&lt;/p&gt;
 &lt;p&gt;Not all interactive content can be exposed. There&amp;rsquo;s no CSS trick to print a video or Flash file and frequently this missing content will just leave a big white gap in your page. Your options are pretty much: hide it, provide a place holder, include a short summary, or include a full transcript. I&amp;rsquo;ll leave the method up to you.&lt;/p&gt;
 &lt;p&gt;For content revealed by javascript my suggestion is to do your best to print the content that the user sees. If they&amp;rsquo;ve toggled open two out of ten of your FAQs, just print the full text of those two and leave the others closed. I&amp;rsquo;ve seen several sites which don&amp;rsquo;t include their global styles when printing but forget to include the styles their pages are dependant on in print stylesheets (this is most common with javascript). I can only imagine how frustrating that would be to a user.&lt;/p&gt;
 &lt;h2 id=&#34;provide-a-better-brand-experience&#34;&gt;Provide a better brand experience&lt;/h2&gt;
 &lt;p&gt;The most basic print styles make a page more readable &lt;a href=&#34;http://evolt.org/ResponsiveWebAndPrint&#34;&gt;at the expense of some of its character&lt;/a&gt; but we don&amp;rsquo;t just have to take away. You can include a print specific header and footer hidden in your HTML or add them later with javascript. This gives you a chance to include a black and white version of your logo and any other brand cues you feel are important. You might already be using a grid to maintain visual consistency between desktop and mobile, here&amp;rsquo;s your chance to do it in print too.&lt;/p&gt;
-&lt;p&gt;Other information you might consider adding in a print header or footer is: way-finding clues like a section or category name, general contact information like a 1-800 number (more useful than a link to a contact us page), and a short URL to help the user get back to that page. Some sites even include a QR code but &lt;!-- raw HTML omitted --&gt;use your best judgement&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;p&gt;Other information you might consider adding in a print header or footer is: way-finding clues like a section or category name, general contact information like a 1-800 number (more useful than a link to a contact us page), and a short URL to help the user get back to that page. Some sites even include a QR code but &lt;abbr title=&#34;don&#39;t do it&#34;&gt;use your best judgement&lt;/abbr&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;speed-up-your-pages&#34;&gt;Speed up your pages&lt;/h2&gt;
 &lt;p&gt;It boggles my mind that browsers will still &lt;em&gt;delay rendering a page&lt;/em&gt; until it has loaded a style sheet with the media type of print. #seriously &lt;a href=&#34;http://www.phpied.com/files/css-loading/print.php&#34;&gt;#testyours&lt;/a&gt;. This article on &lt;a href=&#34;http://zoompf.com/blog/2009/12/browser-performance-problem-with-css-print-media-type&#34;&gt;Browser Performance Problem with CSS &amp;ldquo;print&amp;rdquo; Media Type&lt;/a&gt; outlines the problem really well.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re just trying to avoid the extra http request and your print styles are very small you can always just add them into your main CSS file.&lt;/p&gt;
@@ -1057,8 +1170,27 @@ Not all pixels are created equal. Paul talked about why the first 14KB transferr
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Otherwise you can look at techniques to load them asynchronously. There&amp;rsquo;s a &lt;a href=&#34;https://web.archive.org/web/20120318141226/http://www.duncanmcdougall.co.uk:80/delay-loading-the-print-stylesheet&#34;&gt;couple&lt;/a&gt; &lt;a href=&#34;http://www.duncanmcdougall.co.uk/articles/delay-loading-print-stylesheet.html&#34;&gt;ways&lt;/a&gt; to do this.&lt;/p&gt;
 &lt;h2 id=&#34;seeing-it-in-action&#34;&gt;Seeing it in action&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;On the left is our site on a screen, on the right how it looks formatted for print. In the middle, without any print styles, you can see it &lt;!-- raw HTML omitted --&gt;goes boom&lt;!-- raw HTML omitted --&gt;:&lt;/p&gt;
+&lt;div style=&#34;text-align:center;margin:1em;&#34;&gt;
+    &lt;span style=&#34;width:25%;display:inline-block;padding-right:11%;vertical-align:top;&#34;&gt;
+        &lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/6836645818/&#34;&gt;&lt;figure&gt;&lt;img src=&#34;site.jpg&#34;
+         alt=&#34;The original page has full colour images and a video&#34;/&gt;
+&lt;/figure&gt;
+&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span style=&#34;width:25%;display:inline-block;padding-right:11%;vertical-align:top;&#34;&gt;
+        &lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/6836681816//&#34;&gt;&lt;figure&gt;&lt;img src=&#34;before.jpg&#34;
+         alt=&#34;Without a print style sheet there are blank spaces and useless information&#34;/&gt;
+&lt;/figure&gt;
+&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span style=&#34;width:25%;display:inline-block;vertical-align:top;&#34;&gt;
+        &lt;a href=&#34;https://www.flickr.com/photos/stephaniehobson/6836645794/&#34;&gt;&lt;figure&gt;&lt;img src=&#34;after.jpg&#34;
+         alt=&#34;With a print style sheet only the primary page content prints, filling the page&#34;/&gt;
+&lt;/figure&gt;
+&lt;/a&gt;
+    &lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;On the left is our site on a screen, on the right how it looks formatted for print. In the middle, without any print styles, you can see it &lt;abbr title=&#34;has a number of problems&#34;&gt;goes boom&lt;/abbr&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The white logo is invisible&lt;/li&gt;
 &lt;li&gt;Chrome decides to crop rather than shrink the site to fit making it obvious things are not right.&lt;/li&gt;
@@ -1187,11 +1319,11 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Text!&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;A Fix&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Fortunately we can include &lt;!-- raw HTML omitted --&gt;style&lt;!-- raw HTML omitted --&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;https://stephaniehobson.ca/wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
+&lt;p&gt;Fortunately we can include &lt;samp&gt;style&lt;/samp&gt; in our CSS declarations (and even style it if you want, &lt;a href=&#34;https://stephaniehobson.ca/wtf/scope_style_first-child.html&#34;&gt;I gave it a width, and garish background colour&lt;/a&gt; in both FF3.6 and Chrome) so an adjacent sibling selector is the fix:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;first-child&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;p&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I&amp;rsquo;m not keen on going through my styles sheets and adding this rule to every place I have first-child declarations but we don&amp;rsquo;t use scoped style elements too much so hopefully I won&amp;rsquo;t have to.&lt;/p&gt;
 &lt;p&gt;The other option would be to not put the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; first in the parent I pretty clearly remember reading that the style has to be the first-child, of course, I can&amp;rsquo;t find where I read it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Side Note: using &lt;!-- raw HTML omitted --&gt;&amp;lt;style scoped&amp;gt;&lt;!-- raw HTML omitted --&gt; today.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Side Note: using &lt;samp&gt;&amp;lt;style scoped&amp;gt;&lt;/samp&gt; today.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As of August 2011 there are no browsers that support the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; attribute but if you&amp;rsquo;re using an HTML5 doctype you can still use &lt;code&gt;&amp;lt;style scoped&amp;gt;&lt;/code&gt; today. Browsers have been happily rendering style elements inside the body for quite some time, it just wasn&amp;rsquo;t valid HTML before ;)&lt;/p&gt;
 &lt;p&gt;The old browsers will apply the styles in your scoped tag to the entire page so I combine it with a class to get the effect I intended.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;foo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
@@ -1470,7 +1602,7 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
 &lt;p&gt;BCIT&amp;rsquo;s Marketing and Communications department came to us (Web Services) last year and said - we need to do this, and we need your help.  So the two groups came together and &lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt; was born.&lt;/p&gt;
 &lt;p&gt;What Would You Change? is meant to be a place for discussion about change, any kind of change, that you would like to make.  There&amp;rsquo;s a couple tools in place for discussion, recorded videos, short text messages, and a photo mashup generator that lets you paste a picture of what you&amp;rsquo;d change over the thing you want to change.  We&amp;rsquo;re hoping to integrate with social media better as time goes on - there are plans for Twitter and Facebook app tie-ins and you can already share your creations virtually everywhere :)&lt;/p&gt;
 &lt;p&gt;I started by adding a window to my office:&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;object classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&#34; width=&#34;480&#34; height=&#34;360&#34; id=&#34;viewer&#34; align=&#34;middle&#34;&gt;&lt;param name=&#34;allowScriptAccess&#34; value=&#34;sameDomain&#34; /&gt;&lt;param name=&#34;allowFullScreen&#34; value=&#34;false&#34; /&gt;&lt;param name=&#34;movie&#34; value=&#34;http://whatwouldyouchange.ca/sites/viewer/viewer.swf&#34; /&gt;&lt;param name=&#34;FlashVars&#34; value=&#34;xmldoc=http://whatwouldyouchange.ca/show-us/xml/213&amp;xmlfiletype=Default&#34; /&gt;&lt;param name=&#34;quality&#34; value=&#34;high&#34; /&gt;&lt;param name=&#34;bgcolor&#34; value=&#34;#ffffff&#34; /&gt;&lt;embed src=&#34;http://whatwouldyouchange.ca/sites/viewer/viewer.swf&#34; quality=&#34;high&#34; bgcolor=&#34;#ffffff&#34; width=&#34;480&#34; height=&#34;360&#34; name=&#34;viewer&#34; align=&#34;middle&#34; allowScriptAccess=&#34;sameDomain&#34; allowFullScreen=&#34;false&#34; flashvars=&#34;xmldoc=http://whatwouldyouchange.ca/show-us/xml/213&amp;xmlfiletype=Default&#34; type=&#34;application/x-shockwave-flash&#34; pluginspage=&#34;http://www.macromedia.com/go/getflashplayer&#34; /&gt;&lt;/object&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://whatwouldyouchange.ca&#34;&gt;What Would You Change?&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -1547,7 +1679,7 @@ There is no other way to be sure you&amp;rsquo;ve got it right.&lt;/p&gt;
       <pubDate>Thu, 14 Aug 2008 17:40:06 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/new-site-for-my-favorite-client/</guid>
-      <description>&lt;p&gt;Just updated the look of Mum&amp;rsquo;s campaign website: &lt;a href=&#34;http://barbhobson.ca&#34;&gt;Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville&lt;/a&gt;.  I changed everything without altering one line of HTML, man do I love CSS &lt;!-- raw HTML omitted --&gt;(IE6, I still hate you)&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Just updated the look of Mum&amp;rsquo;s campaign website: &lt;a href=&#34;http://barbhobson.ca&#34;&gt;Barb Hobson | A Strong Persistent Voice for Coquitlam-Maillardville&lt;/a&gt;.  I changed everything without altering one line of HTML, man do I love CSS &lt;small&gt;(IE6, I still hate you)&lt;/small&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -2007,10 +2139,10 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
       <pubDate>Thu, 24 May 2007 01:56:09 +0000</pubDate>
       
       <guid>https://stephaniehobson.ca/posts/cadeamtech-conference/</guid>
-      <description>&lt;p&gt;I was in Winnipeg speaking at the &lt;!-- raw HTML omitted --&gt;CADE&lt;!-- raw HTML omitted --&gt;/&lt;!-- raw HTML omitted --&gt;AMTECH&lt;!-- raw HTML omitted --&gt; Conference last week.  The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).&lt;/p&gt;
+      <description>&lt;p&gt;I was in Winnipeg speaking at the &lt;abbr title=&#34;Canadian Association for Distance Education&#34;&gt;CADE&lt;/abbr&gt;/&lt;abbr title=&#34;Association for Media and Technology in Education in Canada&#34;&gt;AMTECH&lt;/abbr&gt; Conference last week.  The weather was beautiful and I saw an excellent hockey game in which the Manitoba Moose (the Vancouver Canucks&amp;rsquo; farm team) played spectacularly only to to be knocked out of the AHL playoffs in a very Canucks way (up 2-0 at the end of the first, lost 2-3 in OT).&lt;/p&gt;
 &lt;p&gt;As part of the Technology Enabled Knowledge (TEK) initiative at BCIT Danny Catt, one of the faculty, was sponsored to take a trip around South America and Antarctica studying local research and responses to sustainability and environmental issues.  Throughout the journey he used blogging, digital photography, virtual lecture software, shared file storage space, and of course e-mail to keep in touch which his students and communicate with the world.&lt;/p&gt;
 &lt;p&gt;Terry Fuller, the instructional development coordinator that was helping Danny with the project submitted a paper to CADE to talk about &amp;ldquo;Using the Internet to make Meaningful Global Connections in the Classroom.&amp;rdquo;  I was involved in creating the &lt;a href=&#34;http://blogs.bcit.ca/catttrax2/&#34;&gt;web page and blog&lt;/a&gt; that was the highlight of the project and Terry asked me to talk about the &amp;ldquo;technical&amp;rdquo; side of designing the website.&lt;/p&gt;
-&lt;p&gt;Rather than boring the crowd with PHP, HTML, CSS, CMS and other &lt;!-- raw HTML omitted --&gt;TLA&lt;!-- raw HTML omitted --&gt;s.  I talked about the rest of the stuff that goes into the design process: user needs, site objectives, functional specifications, content requirements, information architecture, navigation design, visual design, and &lt;a href=&#34;http://www.jjg.net/elements/pdf/elements.pdf&#34; title=&#34;Jesse James Garrett&#34;&gt;all that good stuff&lt;/a&gt; but for those of you who care the site was driven by Drupal and included a XML driven flash photo gallery, a Google map mashup, and some video and audio recordings, though not as many as we&amp;rsquo;d hoped - apparently it&amp;rsquo;s tough to upload media files from the middle of the Amazon - who knew?&lt;/p&gt;
+&lt;p&gt;Rather than boring the crowd with PHP, HTML, CSS, CMS and other &lt;abbr title=&#34;three letter acronyms&#34;&gt;TLA&lt;/abbr&gt;s.  I talked about the rest of the stuff that goes into the design process: user needs, site objectives, functional specifications, content requirements, information architecture, navigation design, visual design, and &lt;a href=&#34;http://www.jjg.net/elements/pdf/elements.pdf&#34; title=&#34;Jesse James Garrett&#34;&gt;all that good stuff&lt;/a&gt; but for those of you who care the site was driven by Drupal and included a XML driven flash photo gallery, a Google map mashup, and some video and audio recordings, though not as many as we&amp;rsquo;d hoped - apparently it&amp;rsquo;s tough to upload media files from the middle of the Amazon - who knew?&lt;/p&gt;
 &lt;p&gt;The project was a lot of fun and very different my usual daily duties.  I&amp;rsquo;ll post a summary and the slides soon.&lt;/p&gt;
 </description>
     </item>
@@ -2068,7 +2200,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
 &lt;p&gt;These ideas touch on difference skill sets and the presenters who talked about project management felt that the ideal web team would consist of a mix of individuals with skills that cross the disciplines of development, design, usability, and content. This structure keeps the team nimble, and promotes rapid prototyping for continuous improvement.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s rare that a conference provides information you can act on the next day when you sit back down at you desk but these are ideas we found immediately useful:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Microformats&lt;/strong&gt; – &lt;a href=&#34;http://microformats.org/&#34;&gt;Microformats&lt;/a&gt; are a standardized way to add CSS to XHTML to code standardized information such as addresses and events so that programs such as address books and calendars can import them with a single click if you have a newer browser or the right plugins. The contacts application (&lt;a href=&#34;https://www.bcit.ca/contacts&#34;&gt;bcit.ca/contacts&lt;/a&gt;) has been rewritten to use microformats and the new version launched March 6&lt;!-- raw HTML omitted --&gt;th&lt;!-- raw HTML omitted --&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microformats&lt;/strong&gt; – &lt;a href=&#34;http://microformats.org/&#34;&gt;Microformats&lt;/a&gt; are a standardized way to add CSS to XHTML to code standardized information such as addresses and events so that programs such as address books and calendars can import them with a single click if you have a newer browser or the right plugins. The contacts application (&lt;a href=&#34;https://www.bcit.ca/contacts&#34;&gt;bcit.ca/contacts&lt;/a&gt;) has been rewritten to use microformats and the new version launched March 6&lt;sup&gt;th&lt;/sup&gt;!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mashups&lt;/strong&gt; – A mashup is when part of a website is integrated into another website. You might have seen a Google Maps mashup like this one: &lt;a href=&#34;http://blogs.bcit.ca/catttrax2/journey/route&#34;&gt;http://blogs.bcit.ca/catttrax2/journey/route&lt;/a&gt;.  One of the sessions covered what&amp;rsquo;s involved in beginning a mashup and now a campus map mashup is on the way!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Progressive Enhancement&lt;/strong&gt; – This is a &amp;ldquo;big idea&amp;rdquo; about how to code and a shift from the old concept of &amp;ldquo;graceful degradation&amp;rdquo;. The suggestion is that content should be written first and then semantic code, presentation, and behavior should be added on top of it in layers so that the core content is still accessible and intelligible if it is accessed without the presentation and behavior layers. The contacts application was rewritten using the principles of progressive enhancement; check it out with JavaScript or CSS turned off!&lt;/li&gt;
 &lt;/ul&gt;
@@ -2085,7 +2217,7 @@ Also, sadly, I&amp;rsquo;m down to my last two chocolates from See&amp;rsquo;s i
 &lt;p&gt;I didn&amp;rsquo;t actually tell anyone at HOPE that I&amp;rsquo;d done it that way since it doesn&amp;rsquo;t effect the way the page looks and I figure they&amp;rsquo;ll discover it for themselves if it&amp;rsquo;s useful to them.  However, my friend thinks I should tell them so they recognize just how good a job I&amp;rsquo;m doing for them.&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t really feel like I did anything other than my job.  Isn&amp;rsquo;t it my job to do a good job?&lt;/p&gt;
 &lt;p&gt;In the last two weeks of February, &lt;a href=&#34;http://www.cbc.ca/ideas/&#34;&gt;CBC&amp;rsquo;s &lt;em&gt;IDEAS&lt;/em&gt;&lt;/a&gt; aired a couple programs on the ideas of Richard Sennett, a sociologist and author who has studied the organization of work.  Among other things he suggests the Western world is obsessed not with the idea of craftsmanship but with productivity.  In other words: it doesn&amp;rsquo;t matter how well you do you job - just how quickly.&lt;/p&gt;
-&lt;p&gt;The speaker at my graduation ceremony spoke at length encouraging us to &amp;ldquo;&lt;!-- raw HTML omitted --&gt;strive for excellence&lt;!-- raw HTML omitted --&gt;&amp;rdquo; in everything we do.  Not just in the work we do but also in our interactions as part of our daily lives.  From answering a client&amp;rsquo;s e-mail to cooking dinner, he urged us to do our best.&lt;/p&gt;
+&lt;p&gt;The speaker at my graduation ceremony spoke at length encouraging us to &amp;ldquo;&lt;quote&gt;strive for excellence&lt;/quote&gt;&amp;rdquo; in everything we do.  Not just in the work we do but also in our interactions as part of our daily lives.  From answering a client&amp;rsquo;s e-mail to cooking dinner, he urged us to do our best.&lt;/p&gt;
 &lt;p&gt;Is doing a good job something society has to be told to do now?&lt;/p&gt;
 </description>
     </item>

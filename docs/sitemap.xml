@@ -4,7 +4,6 @@
   <url>
     <loc>https://stephaniehobson.ca/posts/</loc>
     <lastmod>2023-01-06T22:17:00+00:00</lastmod>
-    <priority>0</priority>
   </url><url>
     <loc>https://stephaniehobson.ca/year/2023/</loc>
     <lastmod>2023-01-06T22:17:00+00:00</lastmod>
@@ -340,6 +339,8 @@
     <lastmod>2007-03-05T01:53:59+00:00</lastmod>
   </url><url>
     <loc>https://stephaniehobson.ca/about/</loc>
+  </url><url>
+    <loc>https://stephaniehobson.ca/blog/</loc>
   </url><url>
     <loc>https://stephaniehobson.ca/pages/</loc>
   </url><url>
